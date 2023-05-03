@@ -110,3 +110,35 @@ C1Y = {
 	
 	ai_will_do = { always = no }
 }
+
+#Protectorate of Somaliland
+C1S = {
+	states = {
+		STATE_SOMALILAND
+	}
+
+	required_num_states = 1
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+	
+	ai_will_do = { always = no }
+}
+
+#Protectorate of Nigeria
+C1N = {
+	states = {
+		STATE_YORUBA_STATES STATE_NIGER_DELTA STATE_BENIN STATE_NIGERIA STATE_BORNU STATE_HAUSALAND STATE_EAST_HAUSALAND
+	}
+
+	required_num_states = 7
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+	
+	ai_will_do = { always = no }
+}

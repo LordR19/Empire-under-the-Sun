@@ -64,20 +64,12 @@ bdf.1 = {
 				root = c:C1Y
 			}
 			AND = {
-				exists = c:PAL
-				root = c:PAL
+				exists = c:C1S
+				root = c:C1S
 			}
 			AND = {
-				exists = c:ISR
-				root = c:ISR
-			}
-			AND = {
-				exists = c:IRQ
-				root = c:IRQ
-			}
-			AND = {
-				exists = c:YEM
-				root = c:YEM
+				exists = c:C1N
+				root = c:C1N
 			}
 		}
 	}
@@ -85,27 +77,26 @@ bdf.1 = {
 	immediate = {
 		if = {
 			limit = {
-				scope:target = {
-					OR = {
-						AND = {
-							exists = c:PAL
-							root = c:PAL
-						}
-						AND = {
-							exists = c:ISR
-							root = c:ISR
-						}
-						AND = {
-							exists = c:IRQ
-							root = c:IRQ
-						}
-						AND = {
-							exists = c:YEM
-							root = c:YEM
-						}
+				OR = {
+					AND = {
+						exists = c:PAL
+						root = c:PAL
+					}
+					AND = {
+						exists = c:ISR
+						root = c:ISR
+					}
+					AND = {
+						exists = c:IRQ
+						root = c:IRQ
+					}
+					AND = {
+						exists = c:YEM
+						root = c:YEM
 					}
 				}
 			}
+
 			set_country_type = colonial
 
 			add_primary_culture = cu:british
@@ -128,83 +119,96 @@ bdf.1 = {
 				}
 				remove_primary_culture = scope:primary_culture_delete_scope
 			} 
-			
-			trigger_event = {
-				id = bdf.2
-				days = 1
-			}
 		}
 
 		activate_law = law_type:law_presidential_republic
-
-		if = {
-			limit = {
-				OR = {
-					scope:target = {
-						AND = {
-							exists = c:CAN
-							root = c:CAN
-						}
-						AND = {
-							exists = c:AST
-							root = c:AST
-						}
-						AND = {
-							exists = c:NZL
-							root = c:NZL
-						}
-						AND = {
-							exists = c:SAF
-							root = c:SAF
-						}
-					}
-				}
-				NOT = {
-					scope:target = {
-						is_subject_type = subject_type_dominion
-					}
-				}
-			}
-			scope:target = {
-				change_subject_type = subject_type_dominion
-			}
+		trigger_event = {
+			id = bdf.2
+			days = 1
 		}
 
 		if = {
 			limit = {
 				OR = {
-					scope:target = {
-						AND = {
-							exists = c:HGK
-							root = c:HGK
-						}
-						AND = {
-							exists = c:CYP
-							root = c:CYP
-						}
-						AND = {
-							exists = c:MLT
-							root = c:MLT
-						}
-						AND = {
-							exists = c:NAL
-							root = c:NAL
-						}
-						AND = {
-							exists = c:YEM
-							root = c:YEM
-						}
+					AND = {
+						exists = c:CAN
+						root = c:CAN
+					}
+					AND = {
+						exists = c:AST
+						root = c:AST
+					}
+					AND = {
+						exists = c:NZL
+						root = c:NZL
+					}
+					AND = {
+						exists = c:SAF
+						root = c:SAF
 					}
 				}
 				NOT = {
-					scope:target = {
-						is_subject_type = subject_type_puppet
+					is_subject_type = subject_type_dominion
+				}
+			}
+			
+			change_subject_type = subject_type_dominion
+		}
+
+		if = {
+			limit = {
+				OR = {
+					AND = {
+						exists = c:HGK
+						root = c:HGK
+					}
+					AND = {
+						exists = c:CYP
+						root = c:CYP
+					}
+					AND = {
+						exists = c:MLT
+						root = c:MLT
+					}
+					AND = {
+						exists = c:NAL
+						root = c:NAL
+					}
+					AND = {
+						exists = c:YEM
+						root = c:YEM
+					}
+					AND = {
+						exists = c:C1E
+						root = c:C1E
+					}
+					AND = {
+						exists = c:C1C
+						root = c:C1C
+					}
+					AND = {
+						exists = c:C1P
+						root = c:C1P
+					}
+					AND = {
+						exists = c:C1I
+						root = c:C1I
+					}
+					AND = {
+						exists = c:C1A
+						root = c:C1A
+					}
+					AND = {
+						exists = c:C1Y
+						root = c:C1Y
+					}
+					AND = {
+						exists = c:C1S
+						root = c:C1S
 					}
 				}
 			}
-			scope:target = {
-				change_subject_type = subject_type_puppet
-			}
+			change_subject_type = subject_type_puppet
 		}
 	}
 }
@@ -220,6 +224,7 @@ bdf.2 = {
 		create_character = {
 			ruler = yes
 			culture = cu:british
+			female = no
 		}
 	}
 }

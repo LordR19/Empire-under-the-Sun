@@ -117,3 +117,33 @@ C1Y = {
 	capital = STATE_YEMEN
 	
 }
+
+#Protectorate of Somaliland
+C1S = {
+
+	color = { 11 70 220 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_SOMALILAND
+	
+}
+
+#Protectorate of Nigeria
+C1N = {
+
+	color = { 30 80 0 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_YORUBA_STATES
+	
+}

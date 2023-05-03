@@ -1,5 +1,15 @@
 ﻿l_english:
 
+#Government Types
+ gov_british_dominion: "Dominion"
+ gov_british_dominion_desc: "Dominions are colonies of the British Crown that enjoy a high degree of autonomy. They are governed by governors-general appointed by Great Britain.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+
+ gov_british_protectorate: "Protectorate"
+ gov_british_protectorate_desc: "This "protectorate" is actually a colony governed by a British-appointed governor general. Originally, protectorates were states dependent on Great Britain for foreign policy and controlled by local rulers.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+
+ gov_british_crown_colony: "Crown Colony"
+ gov_british_crown_colony: "This is a colony of the British Crown, ruled by colonial administrators with limited autonomy.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+
 #Countries
  HGK: "Hong Kong"
  HGK_ADJ: "Cantonese"
@@ -48,6 +58,20 @@
  dyn_c_default_yemen_adj: "Sabaean"
  dyn_c_protectorate_of_yemen: "Protectorate of Yemen"
  dyn_c_protectorate_of_yemen_adj: "Yemeni"
+
+ C1S: "Colonial Somaliland"
+ C1S_ADJ: "Somali"
+ dyn_c_default_somaliland: "Somaliland"
+ dyn_c_default_somaliland: "Somali"
+ dyn_c_protectorate_of_somaliland: "Somaliland Protectorate"
+ dyn_c_protectorate_of_somaliland_adj: "Somali"
+
+ C1N: "Colonial Nigeria"
+ C1N_ADJ: "Nigerian"
+ dyn_c_default_nigeria: "Nigeria"
+ dyn_c_default_nigeria_adj: "Nigerian"
+ dyn_c_protectorate_of_nigeria: "Colony and Protectorate of Nigeria"
+ dyn_c_protectorate_of_nigeria_adj: "Nigerian"
 
  dyn_c_south_africa_union: "Union of South Africa"
  dyn_c_south_africa_union_adj: "South African"

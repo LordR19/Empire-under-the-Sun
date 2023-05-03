@@ -1,5 +1,15 @@
 ﻿l_german:
 
+#Government Types
+ gov_british_dominion: "Dominion"
+ gov_british_dominion_desc: "Dominions sind Kolonien der Britischen Krone, die eine hohe Autonomie geniessen. Sie werden von Generalgouverneuren regiert, die von Grossbritannien ernannt werden.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+
+ gov_british_protectorate: "Protektorat"
+ gov_british_protectorate_desc: "Dieses "Protektorat" ist eigentlich eine Kolonie, die von einem von Großbritannien ernannten Generalgouverneur regiert wird. Ursprünglich waren Protektorate aussenpolitisch von Grossbritannien abhängige Staaten, die von lokalen Machthabern kontrolliert wurden.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+
+ gov_british_crown_colony: "Kronkolonie"
+ gov_british_crown_colony: "Dies ist eine Kolonie der britischen Krone, über die ein Kolonialverwalter mit begrenzter Autonomie herrscht.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+
 #Countries
  HGK: "Hong Kong"
  HGK_ADJ: "Kantonesisch"
