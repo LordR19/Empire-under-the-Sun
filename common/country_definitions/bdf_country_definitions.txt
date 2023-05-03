@@ -147,3 +147,18 @@ C1N = {
 	capital = STATE_YORUBA_STATES
 	
 }
+
+#Protectorate of Kenya
+C1K = {
+
+	color = { 100 0 0 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_KENYA
+	
+}

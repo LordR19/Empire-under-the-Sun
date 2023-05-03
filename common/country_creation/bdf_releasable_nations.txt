@@ -130,10 +130,33 @@ C1S = {
 #Protectorate of Nigeria
 C1N = {
 	states = {
-		STATE_YORUBA_STATES STATE_NIGER_DELTA STATE_BENIN STATE_NIGERIA STATE_BORNU STATE_HAUSALAND STATE_EAST_HAUSALAND
+		STATE_YORUBA_STATES
+		STATE_NIGER_DELTA
+		STATE_BENIN
+		STATE_NIGERIA
+		STATE_BORNU
+		STATE_HAUSALAND
+		STATE_EAST_HAUSALAND
 	}
 
 	required_num_states = 7
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+	
+	ai_will_do = { always = no }
+}
+
+#Protectorate of Kenya
+C1K = {
+	states = {
+		STATE_KENYA
+		STATE_RIFT_VALLEY
+	}
+
+	required_num_states = 2
 
 	possible = {
 		exists = c:GBR

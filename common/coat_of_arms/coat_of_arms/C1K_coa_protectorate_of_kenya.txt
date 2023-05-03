@@ -1,0 +1,89 @@
+#Protectorate of Kenya
+C1K = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	colored_emblem = {
+		texture = "ce_tricolor_fimbriated_thin.dds"
+		color1 = "black"
+		color2 = "red"
+		color3 = "green_dark"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_emblem_kenya.dds"
+		color1 = "black"
+		color2 = "red"
+		color3 = "white"
+		instance = { scale = { 0.67 0.67 } position = { 0.5 0.47 } }
+	}
+}
+
+C1K_sub = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = "white"
+		instance = { scale = { 0.5 0.5 } position = { 0.75 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_lion_rampant.dds"
+		color1 = "red"
+		color2 = "red"
+		color3 = "red"
+		instance = { scale = { 0.5 0.5 } position = { 0.75 0.5 } }
+	}
+}
+
+C1K_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	colored_emblem = {
+		texture = "ce_tricolor_fimbriated_thin.dds"
+		color1 = "black"
+		color2 = "red"
+		color3 = "green_dark"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_emblem_kenya.dds"
+		color1 = "black"
+		color2 = "red"
+		color3 = "white"
+		instance = { scale = { 0.67 0.67 } position = { 0.5 0.47 } }
+	}
+	colored_emblem = {
+		texture = "ce_crown_st_edward.dds"
+		color1 = "yellow"
+		color2 = "red"
+		color3 = "white"
+		instance = { scale = { 0.3 0.3 } position = { 0.5 0.12 } }
+	}
+}
+
+C1K_dictatorship = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	colored_emblem = {
+		texture = "ce_tricolor_fimbriated_thin.dds"
+		color1 = "black"
+		color2 = "red"
+		color3 = "black"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_emblem_kenya.dds"
+		color1 = "black"
+		color2 = "red"
+		color3 = "white"
+		instance = { scale = { 0.67 0.67 } position = { 0.5 0.47 } }
+	}
+}

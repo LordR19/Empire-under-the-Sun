@@ -73,6 +73,13 @@
  dyn_c_protectorate_of_nigeria: "Colony and Protectorate of Nigeria"
  dyn_c_protectorate_of_nigeria_adj: "Nigerian"
 
+ C1K: "Colonial Kenya"
+ C1K_ADJ: "Kenyan"
+ dyn_c_default_kenya: "Kenya"
+ dyn_c_default_kenya_adj: "Kenyan"
+ dyn_c_protectorate_of_kenya: "Colony and Protectorate of Kenya"
+ dyn_c_protectorate_of_kenya_adj: "Kenyan"
+
  dyn_c_south_africa_union: "Union of South Africa"
  dyn_c_south_africa_union_adj: "South African"
 
