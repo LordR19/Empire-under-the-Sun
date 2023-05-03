@@ -47,10 +47,6 @@ gov_british_protectorate = {
 				root = c:CYP
 			}
 			AND = {
-				exists = c:MLT
-				root = c:MLT
-			}
-			AND = {
 				exists = c:C1E
 				root = c:C1E
 			}
@@ -113,6 +109,10 @@ gov_british_crown_colony = {
 			AND = {
 				exists = c:C1T
 				root = c:C1T
+			}
+			AND = {
+				exists = c:MLT
+				root = c:MLT
 			}
 		}
 	}

@@ -162,3 +162,17 @@ BIC = { # British East India Company
 		}
 	}
 }
+
+MLT = { # Malta
+	dynamic_country_name = {
+		name = dyn_c_crown_colony_malta
+		adjective = dyn_c_crown_colony_malta_adj
+
+		is_main_tag_only = no
+		priority = 10
+	
+		trigger = {
+			coa_def_british_ensign_trigger = yes
+		}
+	}
+}
