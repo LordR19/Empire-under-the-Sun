@@ -1,0 +1,30 @@
+﻿# For on_actions launched by the code itself.
+
+# Root = Country
+on_monthly_pulse_country = {
+	on_actions = {
+		bdf_on_monthly_events
+	}
+}
+
+bdf_on_monthly_events = {
+	events = {
+
+	}
+}
+
+# Root = Releasing Country
+# scope:target = Released Country
+on_country_released_as_own_subject = {
+	on_actions = {
+		bdf_on_country_released_as_own_subject
+	}
+}
+
+bdf_on_country_released_as_own_subject = {
+	effect = {
+		scope:target = {
+			trigger_event = bdf.1
+		}
+	}
+}

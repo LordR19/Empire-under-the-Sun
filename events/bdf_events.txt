@@ -1,0 +1,72 @@
+﻿namespace = bdf
+
+# Event to set up Governors i n the appropriate countries
+bdf.1 = {
+	type = country_event
+	hidden = yes
+
+	trigger = {
+		OR = {
+			this ?= c:CAN
+			this ?= c:AST
+			this ?= c:NZL
+			this ?= c:SAF
+			this ?= c:HGK
+			this ?= c:CYP
+			this ?= c:MLT
+			this ?= c:NAL
+			this ?= c:EGY
+			this ?= c:PAL
+			this ?= c:ISR
+			this ?= c:IRQ
+			this ?= c:YEM
+		}
+	}
+
+	immediate = {
+		activate_law = law_type:law_presidential_republic
+
+		if = {
+			limit = {
+				OR = {
+					scope:target = {
+						this ?= c:CAN
+						this ?= c:AST
+						this ?= c:NZL
+						this ?= c:SAF
+					}
+				}
+				NOT = {
+					scope:target = {
+						is_subject_type = subject_type_dominion
+					}
+				}
+			}
+			scope:target = {
+				change_subject_type = subject_type_dominion
+			}
+		}
+
+		if = {
+			limit = {
+				OR = {
+					scope:target = {
+						this ?= c:HGK
+						this ?= c:CYP
+						this ?= c:MLT
+						this ?= c:NAL
+						this ?= c:YEM
+					}
+				}
+				NOT = {
+					scope:target = {
+						is_subject_type = subject_type_puppet
+					}
+				}
+			}
+			scope:target = {
+				change_subject_type = subject_type_puppet
+			}
+		}
+	}
+}

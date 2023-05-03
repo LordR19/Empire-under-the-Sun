@@ -1,0 +1,12 @@
+﻿#Hong Kong
+HGK = {
+	provinces = {
+		xB03161
+	}
+
+	possible = {
+		this ?= c:GBR
+	}
+	
+	ai_will_do = { always = no }
+}

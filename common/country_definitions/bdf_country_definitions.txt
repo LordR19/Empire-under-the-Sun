@@ -1,0 +1,29 @@
+﻿#Hong Kong
+HGK = {
+
+	color = "red"
+	
+	country_type = colonial
+	
+	tier = city_state
+
+	cultures = { british }
+	
+	capital = STATE_SHAOZHOU
+	
+}
+
+#British Strait Settlements
+SST = {
+
+	color = "blue"
+	
+	country_type = colonial
+	
+	tier = city_state
+
+	cultures = { british }
+	
+	capital = STATE_MALAYA
+	
+}
