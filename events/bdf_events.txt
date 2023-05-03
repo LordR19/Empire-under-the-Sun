@@ -40,8 +40,16 @@ bdf.1 = {
 				root = c:NAL
 			}
 			AND = {
-				exists = c:EGY
-				root = c:EGY
+				exists = c:C1E
+				root = c:C1E
+			}
+			AND = {
+				exists = c:C1C
+				root = c:C1C
+			}
+			AND = {
+				exists = c:C1P
+				root = c:C1P
 			}
 			AND = {
 				exists = c:PAL
@@ -68,10 +76,6 @@ bdf.1 = {
 				scope:target = {
 					OR = {
 						AND = {
-							exists = c:EGY
-							root = c:EGY
-						}
-						AND = {
 							exists = c:PAL
 							root = c:PAL
 						}
@@ -88,28 +92,38 @@ bdf.1 = {
 							root = c:YEM
 						}
 					}
-				#	NOT = {
-				#		scope:target = {
-				#			is_subject_type = subject_type_protectorate
-				#		}
-				#	}
 				}
 			}
 			set_country_type = colonial
+
 			add_primary_culture = cu:british
-	#		c:GBR = {
-	#			create_diplomatic_pact = {
-	#				country = root
-	#				type = protectorate
-	#			} 
-	#		}
+			set_state_religion = rel:protestant
+			while = {
+				limit = {
+					any_primary_culture = {
+						NOT = {
+							this = cu:british
+						}
+					}
+				}
+				random_primary_culture = {
+					limit = { 
+						NOT = {
+							this = cu:british
+						}
+					}
+					save_scope_as = primary_culture_delete_scope
+				}
+				remove_primary_culture = scope:primary_culture_delete_scope
+			} 
+			
+			trigger_event = {
+				id = bdf.2
+				days = 1
+			}
 		}
 
 		activate_law = law_type:law_presidential_republic
-		create_character = {
-			ruler = yes
-			culture = cu:british
-		}
 
 		if = {
 			limit = {
@@ -179,6 +193,21 @@ bdf.1 = {
 			scope:target = {
 				change_subject_type = subject_type_puppet
 			}
+		}
+	}
+}
+
+bdf.2 = {
+	type = country_event
+	hidden = yes
+
+	trigger = {
+	}
+
+	immediate = {
+		create_character = {
+			ruler = yes
+			culture = cu:british
 		}
 	}
 }

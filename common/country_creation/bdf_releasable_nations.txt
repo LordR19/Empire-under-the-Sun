@@ -5,7 +5,61 @@ HGK = {
 	}
 
 	possible = {
-		this ?= c:GBR
+		exists = c:GBR
+		this = c:GBR
+	}
+	
+	ai_will_do = { always = no }
+}
+
+#Protectorate of Egypt
+C1E = {
+	states = {
+		STATE_LOWER_EGYPT
+		STATE_MIDDLE_EGYPT
+		STATE_UPPER_EGYPT
+		STATE_SINAI
+		STATE_EGYPTIAN_DESERT
+		STATE_MATRUH
+	}
+
+	required_num_states = 6
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+	
+	ai_will_do = { always = no }
+}
+
+#Protectorate of Cyprus
+C1C = {
+	states = {
+		STATE_CYPRUS
+	}
+
+	required_num_states = 1
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+	
+	ai_will_do = { always = no }
+}
+
+#Protectorate of Palestine
+C1P = {
+	states = {
+		STATE_PALESTINE
+	}
+
+	required_num_states = 1
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
 	}
 	
 	ai_will_do = { always = no }

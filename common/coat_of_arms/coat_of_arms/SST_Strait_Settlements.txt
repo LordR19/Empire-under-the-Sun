@@ -56,7 +56,7 @@ SST_sub_GBR_old = {
 	}
 
 	colored_emblem = {
-		texture = "te_seal_strait_settlements.dds"
+		texture = "ce_seal_strait_settlements.dds"
 		color1 = "red"
 		color2 = "white"
 		instance = { scale = { 0.35 0.35 } position = { 0.75 0.5 } }
@@ -78,7 +78,7 @@ SST_sub_GBR_new = {
 	color1 = "blue"
 
 	colored_emblem = {
-		texture = "te_seal_strait_settlements.dds"
+		texture = "ce_seal_strait_settlements.dds"
 		color1 = "red"
 		color2 = "white"
 		instance = { scale = { 0.35 0.35 } position = { 0.75 0.5 } }

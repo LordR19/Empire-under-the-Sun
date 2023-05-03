@@ -27,3 +27,63 @@ SST = {
 	capital = STATE_MALAYA
 	
 }
+
+#Colonial Egypt
+C1E = {
+
+	color = { 255  205  155 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_LOWER_EGYPT
+	
+}
+
+#Colonial Cyprus
+C1C = {
+
+	color = { 78  75  39 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_CYPRUS
+	
+}
+
+#Colonial Palestine
+C1P = {
+
+	color = { 0  142  76 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_PALESTINE
+	
+}
+
+#Colonial Iraq
+C1I = {
+
+	color = { 122 132 110 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_BAGHDAD
+	
+}

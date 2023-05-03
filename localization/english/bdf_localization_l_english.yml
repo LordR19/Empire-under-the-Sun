@@ -7,6 +7,27 @@
  SST: "Strait Settlements"
  SST_ADJ: "Malayan"
 
+ C1E: "Colonial Egypt"
+ C1E_ADJ: "Egyptian"
+ dyn_c_default_egypt: "Egypt"
+ dyn_c_default_egypt_adj: "Egyptian"
+ dyn_c_protectorate_of_egypt: "Protectorate of Egypt"
+ dyn_c_protectorate_of_egypt_adj: "Egyptian"
+
+ C1C: "Colonial Cyprus"
+ C1C_ADJ: "Cypriot"
+ dyn_c_default_cyprus: "Cyprus"
+ dyn_c_default_cyprus_adj: "Cypriot"
+ dyn_c_protectorate_of_cyprus: "Protectorate of Cyprus"
+ dyn_c_protectorate_of_cyprus_adj: "Cypriot"
+
+ C1P: "Colonial Palestine"
+ C1P_ADJ: "Palestine"
+ dyn_c_default_palestine: "Palestine"
+ dyn_c_default_palestine_adj: "Palestine"
+ dyn_c_protectorate_of_palestine: "Protectorate of Palestine"
+ dyn_c_protectorate_of_palestine_adj: "Palestine"
+
  dyn_c_south_africa_union: "Union of South Africa"
  dyn_c_south_africa_union_adj: "South African"
 

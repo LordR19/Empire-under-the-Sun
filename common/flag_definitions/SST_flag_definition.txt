@@ -1,4 +1,4 @@
-﻿#Hong Kong
+﻿#Strait Settlements
 SST = {
 	flag_definition = {
 		coa = SST	
