@@ -42,6 +42,13 @@
  dyn_c_protectorate_of_aden: "Protectorate of Aden"
  dyn_c_protectorate_of_aden_adj: "Adenese"
 
+ C1Y: "Colonial Yemen"
+ C1Y_ADJ: "Yemeni"
+ dyn_c_default_yemen: "Saba"
+ dyn_c_default_yemen_adj: "Sabaean"
+ dyn_c_protectorate_of_yemen: "Protectorate of Yemen"
+ dyn_c_protectorate_of_yemen_adj: "Yemeni"
+
  dyn_c_south_africa_union: "Union of South Africa"
  dyn_c_south_africa_union_adj: "South African"
 

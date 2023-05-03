@@ -95,7 +95,22 @@ C1A = {
 	
 	country_type = colonial
 	
-	tier = city_state
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_YEMEN
+	
+}
+
+#Protectorate of Yemen
+C1Y = {
+
+	color = { 255 60 0 }
+	
+	country_type = colonial
+	
+	tier = principality
 
 	cultures = { british }
 	

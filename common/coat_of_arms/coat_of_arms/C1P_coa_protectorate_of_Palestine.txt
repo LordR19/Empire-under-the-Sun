@@ -1,4 +1,4 @@
-#Protectorate of Egypt
+#Protectorate of Palestine
 C1P = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
