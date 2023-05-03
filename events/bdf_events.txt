@@ -75,6 +75,10 @@ bdf.1 = {
 				exists = c:C1K
 				root = c:C1K
 			}
+			AND = {
+				exists = c:C1T
+				root = c:C1T
+			}
 		}
 	}
 

@@ -17,3 +17,10 @@ SAF_cape_colony = {
 		instance = { scale = { 0.5 0.5 } position = { 0.75 0.5 } }
 	}
 }
+
+MLT_sub_british = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	
+}

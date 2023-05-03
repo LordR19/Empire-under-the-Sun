@@ -165,3 +165,21 @@ C1K = {
 	
 	ai_will_do = { always = no }
 }
+
+#Tanganyika Territory
+C1T = {
+	states = {
+		STATE_ZANZIBAR
+		STATE_LINDI
+		STATE_TANGANYIKA
+	}
+
+	required_num_states = 3
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+	
+	ai_will_do = { always = no }
+}

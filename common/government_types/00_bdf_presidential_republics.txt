@@ -110,6 +110,10 @@ gov_british_crown_colony = {
 				exists = c:SST
 				root = c:SST
 			}
+			AND = {
+				exists = c:C1T
+				root = c:C1T
+			}
 		}
 	}
 }
