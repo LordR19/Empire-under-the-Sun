@@ -31,7 +31,7 @@ SST = {
 #Colonial Egypt
 C1E = {
 
-	color = { 255  205  155 }
+	color = { 255  160  100 }
 	
 	country_type = colonial
 	
@@ -46,7 +46,7 @@ C1E = {
 #Colonial Cyprus
 C1C = {
 
-	color = { 78  75  39 }
+	color = { 170  70  15 }
 	
 	country_type = colonial
 	
@@ -61,7 +61,7 @@ C1C = {
 #Colonial Palestine
 C1P = {
 
-	color = { 0  142  76 }
+	color = { 30  50  120 }
 	
 	country_type = colonial
 	
@@ -76,7 +76,7 @@ C1P = {
 #Colonial Iraq
 C1I = {
 
-	color = { 122 132 110 }
+	color = { 122 122 122 }
 	
 	country_type = colonial
 	
@@ -85,5 +85,20 @@ C1I = {
 	cultures = { british }
 	
 	capital = STATE_BAGHDAD
+	
+}
+
+#Protectorate of Aden
+C1A = {
+
+	color = { 33 130 220 }
+	
+	country_type = colonial
+	
+	tier = city_state
+
+	cultures = { british }
+	
+	capital = STATE_YEMEN
 	
 }

@@ -28,6 +28,20 @@
  dyn_c_protectorate_of_palestine: "Protectorate of Palestine"
  dyn_c_protectorate_of_palestine_adj: "Palestine"
 
+ C1I: "Colonial Iraq"
+ C1I_ADJ: "Iraqi"
+ dyn_c_default_iraq: "Iraq"
+ dyn_c_default_iraq_adj: "Iraqi"
+ dyn_c_protectorate_of_iraq: "Protectorate of Iraq"
+ dyn_c_protectorate_of_iraq_adj: "Iraqi"
+
+ C1A: "Colonial Aden"
+ C1A_ADJ: "Adenese"
+ dyn_c_default_aden: "Aden"
+ dyn_c_default_aden_adj: "Adenese"
+ dyn_c_protectorate_of_aden: "Protectorate of Aden"
+ dyn_c_protectorate_of_aden_adj: "Adenese"
+
  dyn_c_south_africa_union: "Union of South Africa"
  dyn_c_south_africa_union_adj: "South African"
 

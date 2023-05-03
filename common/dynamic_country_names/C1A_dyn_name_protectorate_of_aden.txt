@@ -1,0 +1,27 @@
+﻿C1A = { # Protectorate of Aden
+dynamic_country_name = {
+	name = dyn_c_default_aden
+	adjective = dyn_c_default_aden_adj
+
+	is_main_tag_only = no
+	priority = 1
+	
+	trigger = {
+		always = yes
+	}
+}
+
+	dynamic_country_name = {
+		name = dyn_c_protectorate_of_aden
+		adjective = dyn_c_protectorate_of_aden_adj
+
+		is_main_tag_only = no
+		priority = 10
+		
+		trigger = {
+			scope:actor = {
+				is_subject = yes
+			}
+		}
+	}
+}

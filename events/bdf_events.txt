@@ -52,6 +52,14 @@ bdf.1 = {
 				root = c:C1P
 			}
 			AND = {
+				exists = c:C1I
+				root = c:C1I
+			}
+			AND = {
+				exists = c:C1A
+				root = c:C1A
+			}
+			AND = {
 				exists = c:PAL
 				root = c:PAL
 			}
