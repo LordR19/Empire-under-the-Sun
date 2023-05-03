@@ -6,4 +6,5 @@ This Mod tries to add flavor to different regions in the world of Victoria 3. Ri
 
 ########################################
 
-Seal of Hong Kong (new): CC BY Sodacan - https://de.wikipedia.org/wiki/Datei:Flag_of_Hong_Kong_(1876%E2%80%931955).svg
+Seal of Hong Kong (new): CC BY SA - Sodacan - https://de.wikipedia.org/wiki/Datei:Flag_of_Hong_Kong_(1876%E2%80%931955).svg
+Seal of Cape Colony (old): CC BY SA - Sodacan - https://en.wikipedia.org/wiki/File:Flag_of_the_Cape_Colony_(1876%E2%80%931910).svg

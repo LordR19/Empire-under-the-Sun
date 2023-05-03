@@ -23,8 +23,16 @@ on_country_released_as_own_subject = {
 
 bdf_on_country_released_as_own_subject = {
 	effect = {
-		scope:target = {
-			trigger_event = bdf.1
+		if = {
+			limit = {
+				exists = c:GBR
+				root = c:GBR
+			}
+			scope:target = {
+				trigger_event = {
+					id = bdf.1
+				}
+			}
 		}
 	}
 }

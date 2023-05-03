@@ -7,33 +7,130 @@ bdf.1 = {
 
 	trigger = {
 		OR = {
-			this ?= c:CAN
-			this ?= c:AST
-			this ?= c:NZL
-			this ?= c:SAF
-			this ?= c:HGK
-			this ?= c:CYP
-			this ?= c:MLT
-			this ?= c:NAL
-			this ?= c:EGY
-			this ?= c:PAL
-			this ?= c:ISR
-			this ?= c:IRQ
-			this ?= c:YEM
+			AND = {
+				exists = c:CAN
+				root = c:CAN
+			}
+			AND = {
+				exists = c:AST
+				root = c:AST
+			}
+			AND = {
+				exists = c:NZL
+				root = c:NZL
+			}
+			AND = {
+				exists = c:SAF
+				root = c:SAF
+			}
+			AND = {
+				exists = c:HGK
+				root = c:HGK
+			}
+			AND = {
+				exists = c:CYP
+				root = c:CYP
+			}
+			AND = {
+				exists = c:MLT
+				root = c:MLT
+			}
+			AND = {
+				exists = c:NAL
+				root = c:NAL
+			}
+			AND = {
+				exists = c:EGY
+				root = c:EGY
+			}
+			AND = {
+				exists = c:PAL
+				root = c:PAL
+			}
+			AND = {
+				exists = c:ISR
+				root = c:ISR
+			}
+			AND = {
+				exists = c:IRQ
+				root = c:IRQ
+			}
+			AND = {
+				exists = c:YEM
+				root = c:YEM
+			}
 		}
 	}
 
 	immediate = {
+		if = {
+			limit = {
+				scope:target = {
+					OR = {
+						AND = {
+							exists = c:EGY
+							root = c:EGY
+						}
+						AND = {
+							exists = c:PAL
+							root = c:PAL
+						}
+						AND = {
+							exists = c:ISR
+							root = c:ISR
+						}
+						AND = {
+							exists = c:IRQ
+							root = c:IRQ
+						}
+						AND = {
+							exists = c:YEM
+							root = c:YEM
+						}
+					}
+				#	NOT = {
+				#		scope:target = {
+				#			is_subject_type = subject_type_protectorate
+				#		}
+				#	}
+				}
+			}
+			set_country_type = colonial
+			add_primary_culture = cu:british
+	#		c:GBR = {
+	#			create_diplomatic_pact = {
+	#				country = root
+	#				type = protectorate
+	#			} 
+	#		}
+		}
+
 		activate_law = law_type:law_presidential_republic
+		create_character = {
+			ruler = yes
+			culture = cu:british
+		}
 
 		if = {
 			limit = {
 				OR = {
 					scope:target = {
-						this ?= c:CAN
-						this ?= c:AST
-						this ?= c:NZL
-						this ?= c:SAF
+						AND = {
+							exists = c:CAN
+							root = c:CAN
+						}
+						AND = {
+							exists = c:AST
+							root = c:AST
+						}
+						AND = {
+							exists = c:NZL
+							root = c:NZL
+						}
+						AND = {
+							exists = c:SAF
+							root = c:SAF
+						}
 					}
 				}
 				NOT = {
@@ -51,11 +148,26 @@ bdf.1 = {
 			limit = {
 				OR = {
 					scope:target = {
-						this ?= c:HGK
-						this ?= c:CYP
-						this ?= c:MLT
-						this ?= c:NAL
-						this ?= c:YEM
+						AND = {
+							exists = c:HGK
+							root = c:HGK
+						}
+						AND = {
+							exists = c:CYP
+							root = c:CYP
+						}
+						AND = {
+							exists = c:MLT
+							root = c:MLT
+						}
+						AND = {
+							exists = c:NAL
+							root = c:NAL
+						}
+						AND = {
+							exists = c:YEM
+							root = c:YEM
+						}
 					}
 				}
 				NOT = {
