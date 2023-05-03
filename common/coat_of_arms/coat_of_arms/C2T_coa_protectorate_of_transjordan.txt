@@ -1,0 +1,75 @@
+#Protectorate of Transjordan
+C2T = {
+	pattern = "pattern_solid.tga"
+	color1 = { 230 160 40 }
+	
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "azure"
+		color2 = { 230 160 40 }
+	}
+	colored_emblem = {
+		texture = "ce_rhombus.dds"
+		color1 = "red"
+		instance = { scale = { 1.2 1 } position = { 0 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_star_gunelve.dds"
+		color1 = "white"
+		instance = { scale = { 0.3 0.3 } position = { 0.2 0.5 } }
+	}
+}
+
+C2T_sub = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	textured_emblem = {
+		texture = "te_seal_transjordan.dds"
+		instance = { scale = { 0.5 0.5 } position = { 0.75 0.5 } }
+	}
+}
+
+C2T_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = { 230 160 40 }
+	
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "azure"
+		color2 = { 230 160 40 }
+	}
+	colored_emblem = {
+		texture = "ce_rhombus.dds"
+		color1 = "red"
+		instance = { scale = { 1.2 1 } position = { 0 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_crown_st_edward.dds"
+		color1 = "yellow"
+		color2 = "red"
+		color3 = "white"
+		instance = { scale = { 0.5 0.5 } position = { 0.18 0.5 } }
+	}
+}
+
+C2T = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "white"
+		color2 = "black"
+	}
+	colored_emblem = {
+		texture = "ce_rhombus.dds"
+		color1 = "red"
+		instance = { scale = { 1.2 1 } position = { 0 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_crossed_scimitars.dds"
+		color1 = "black"
+		instance = { scale = { 0.55 0.55 } position = { 0.18 0.5 } }
+	}
+}

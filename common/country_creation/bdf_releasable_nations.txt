@@ -183,3 +183,19 @@ C1T = {
 	
 	ai_will_do = { always = no }
 }
+
+#Protectorate of Transjordan
+C2T = {
+	states = {
+		STATE_TRANSJORDAN
+	}
+
+	required_num_states = 1
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+	
+	ai_will_do = { always = no }
+}

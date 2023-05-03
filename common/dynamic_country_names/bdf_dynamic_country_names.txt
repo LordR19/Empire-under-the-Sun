@@ -176,3 +176,17 @@ MLT = { # Malta
 		}
 	}
 }
+
+NAL = { # Natal
+	dynamic_country_name = {
+		name = dyn_c_colony_natal
+		adjective = dyn_c_colony_natal_adj
+
+		is_main_tag_only = no
+		priority = 10
+	
+		trigger = {
+			coa_def_british_ensign_trigger = yes
+		}
+	}
+}

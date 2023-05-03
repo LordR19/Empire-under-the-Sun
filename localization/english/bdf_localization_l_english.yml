@@ -87,6 +87,13 @@
  dyn_c_tanganyika_territory: "Tanganyika Territory"
  dyn_c_tanganyika_territory_adj: "Tanganyikan"
 
+ C2T: "Colonial Transjordan"
+ C2T_ADJ: "Transjordanian"
+ dyn_c_default_transjordan: "Transjordan"
+ dyn_c_default_transjordan_adj: "Transjordanian"
+ dyn_c_protectorate_of_transjordan: "Protectorate of Transjordan"
+ dyn_c_protectorate_of_transjordan_adj: "Transjordanian"
+
  dyn_c_south_africa_union: "Union of South Africa"
  dyn_c_south_africa_union_adj: "South African"
 
@@ -104,3 +111,6 @@
 
  dyn_c_crown_colony_malta: "Crown Colony of Malta"
  dyn_c_crown_colony_malta_adj: "Maltese"
+
+ dyn_c_colony_natal: "Colony of Natal"
+ dyn_c_colony_natal_desc: "Natalian"

@@ -177,3 +177,18 @@ C1T = {
 	capital = STATE_ZANZIBAR
 	
 }
+
+#Protectorate of Transjordan
+C2T = {
+
+	color = { 0 100 170 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_TRANSJORDAN
+	
+}
