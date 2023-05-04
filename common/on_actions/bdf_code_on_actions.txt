@@ -1,15 +1,22 @@
 ﻿# For on_actions launched by the code itself.
 
 # Root = Country
-on_monthly_pulse_country = {
+on_yearly_pulse_country = {
 	on_actions = {
-		bdf_on_monthly_events
+		bdf_on_yearly_events
 	}
 }
 
-bdf_on_monthly_events = {
-	events = {
-
+bdf_on_yearly_events = {
+	effect = {
+		trigger_event = { # Colonial / Imperial Conference
+			id = bdf.10
+			days = { 60 240 }
+		}
+		trigger_event = { # Colonial / Imperial Conference (hidden) --> Still fires but player doesn't get an event
+			id = bdf.11
+			days = { 60 240 }
+		}
 	}
 }
 

@@ -8,7 +8,15 @@
  gov_british_protectorate_desc: "This "protectorate" is actually a colony governed by a British-appointed governor general. Originally, protectorates were states dependent on Great Britain for foreign policy and controlled by local rulers.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
 
  gov_british_crown_colony: "Crown Colony"
- gov_british_crown_colony: "This is a colony of the British Crown, ruled by colonial administrators with limited autonomy.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+ gov_british_crown_colony_desc: "This is a colony of the British Crown, ruled by colonial administrators with limited autonomy.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+
+#Custom Locs
+ bdf_custom_loc_colonial_conference: "Colonial Conference"
+ bdf_custom_loc_imperial_conference: "Imperial Conference"
+ bdf_custom_loc_a_colonial_conference: "a Colonial Conference"
+ bdf_custom_loc_an_imperial_conference: "an Imperial Conference"
+ bdf_custom_loc_a_colonial_conference_cap: "A Colonial Conference"
+ bdf_custom_loc_an_imperial_conference_cap: "An Imperial Conference"
 
 #Countries
  HGK: "Hong Kong"
@@ -62,7 +70,7 @@
  C1S: "Colonial Somaliland"
  C1S_ADJ: "Somali"
  dyn_c_default_somaliland: "Somaliland"
- dyn_c_default_somaliland: "Somali"
+ dyn_c_default_somaliland_adj: "Somali"
  dyn_c_protectorate_of_somaliland: "Somaliland Protectorate"
  dyn_c_protectorate_of_somaliland_adj: "Somali"
 
@@ -114,3 +122,24 @@
 
  dyn_c_colony_natal: "Colony of Natal"
  dyn_c_colony_natal_desc: "Natalian"
+
+#Events
+
+#Imperial Conference
+ bdf.10.t: "[SCOPE.GetRootScope.GetCountry.GetCustom('imperial_conference_name')] in [ROOT.GetCountry.GetCapital.GetCityHubName]"
+ bdf.10.d: "Representatives of all colonies, dominions and protectorates of Great Britain have gathered in [ROOT.GetCountry.GetCapital.GetCityHubName] to strengthen the cohesion of the Empire. Together, they discuss concerns, sign treaties and celebrate the Empire."
+ bdf.10.f: "During this [SCOPE.GetRootScope.GetCountry.GetCustom('imperial_conference_name')] representatives from all over the world came to [ROOT.GetCountry.GetCapital.GetCityHubName]. Some notable delegations came from:[SCOPE.GetRootScope.GetCountry.GetCustom('bdf_imperial_conference_participiant_1_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bdf_imperial_conference_participiant_2_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bdf_imperial_conference_participiant_3_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bdf_imperial_conference_participiant_4_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bdf_imperial_conference_participiant_5_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bdf_imperial_conference_participiant_6_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bdf_imperial_conference_participiant_7_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bdf_imperial_conference_participiant_8_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bdf_imperial_conference_participiant_9_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bdf_imperial_conference_participiant_10_type')]\n\nThis year a proposal to lay a telegraph cable between #yellow Vancouver#! and #yellow Australia#! was approved"
+ bdf.10.a: "For the Empire!"
+ bdf.10.b: "Fine, but I don't want to hear about it!"
+ bdf_10.b.tt: "You will no longer see this event. It will still give its bonuses to you every 5 year."
+
+ bdf_imperial_conference_participant_1: "\n[GetGlobalVariable('bdf_imperial_conference_participant_1_global_var').GetCountry.GetName]"
+ bdf_imperial_conference_participant_2: "\n[GetGlobalVariable('bdf_imperial_conference_participant_2_global_var').GetCountry.GetName]"
+ bdf_imperial_conference_participant_3: "\n[GetGlobalVariable('bdf_imperial_conference_participant_3_global_var').GetCountry.GetName]"
+ bdf_imperial_conference_participant_4: "\n[GetGlobalVariable('bdf_imperial_conference_participant_4_global_var').GetCountry.GetName]"
+ bdf_imperial_conference_participant_5: "\n[GetGlobalVariable('bdf_imperial_conference_participant_5_global_var').GetCountry.GetName]"
+ bdf_imperial_conference_participant_6: "\n[GetGlobalVariable('bdf_imperial_conference_participant_6_global_var').GetCountry.GetName]"
+ bdf_imperial_conference_participant_7: "\n[GetGlobalVariable('bdf_imperial_conference_participant_7_global_var').GetCountry.GetName]"
+ bdf_imperial_conference_participant_8: "\n[GetGlobalVariable('bdf_imperial_conference_participant_8_global_var').GetCountry.GetName]"
+ bdf_imperial_conference_participant_9: "\n[GetGlobalVariable('bdf_imperial_conference_participant_9_global_var').GetCountry.GetName]"
+ bdf_imperial_conference_participant_10: "\n[GetGlobalVariable('bdf_imperial_conference_participant_10_global_var').GetCountry.GetName]"

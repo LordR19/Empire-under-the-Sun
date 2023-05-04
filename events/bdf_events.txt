@@ -151,6 +151,7 @@ bdf.1 = {
 	}
 }
 
+#Event used to create a new governor that is male and british
 bdf.2 = {
 	type = country_event
 	hidden = yes
@@ -163,6 +164,208 @@ bdf.2 = {
 			ruler = yes
 			culture = cu:british
 			female = no
+		}
+	}
+}
+
+# Colonial / Imperial Conference
+bdf.10 = {
+	type = country_event
+	placement = ROOT
+
+	title = bdf.10.t
+	desc = bdf.10.d
+	flavor = bdf.10.f
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/signed_contract"
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	cooldown = {
+		years = 4
+	}
+
+	trigger = {
+		NOT = {
+			has_variable = bdf_no_more_imperial_conference_var
+		}
+		year >= 1887
+		exists = c:GBR
+		this = c:GBR
+		any_country = {
+			is_direct_subject_of = c:GBR
+			NOT = {
+				this = c:GBR
+			}
+			count > 2
+		}
+	}
+
+	immediate = {
+		bdf_create_participiants_list_imperial_conference_effect = yes
+
+		random_country = {
+			limit = {
+				is_direct_subject_of = c:GBR
+			}
+			save_scope_as = bdf_happy_subject_scope_1
+			set_variable = bdf_happy_subject_block_var
+		}
+		random_country = {
+			limit = {
+				NOT = {
+					has_variable = bdf_happy_subject_block_var
+				}
+				is_direct_subject_of = c:GBR
+			}
+			save_scope_as = bdf_happy_subject_scope_2
+			set_variable = bdf_happy_subject_block_var
+		}
+		random_country = {
+			limit = {
+				NOT = {
+					has_variable = bdf_happy_subject_block_var
+				}
+				is_direct_subject_of = c:GBR
+			}
+			save_scope_as = bdf_happy_subject_scope_3
+			set_variable = bdf_happy_subject_block_var
+		}
+	}
+
+	after = {
+		bdf_delete_participant_list = yes
+	}
+
+	option = { #For the Empire!
+		name = bdf.10.a
+		default_option = yes
+
+		change_relations = {
+			country = scope:bdf_happy_subject_scope_1
+			value = 20
+		}
+		change_relations = {
+			country = scope:bdf_happy_subject_scope_2
+			value = 20
+		}
+		change_relations = {
+			country = scope:bdf_happy_subject_scope_3
+			value = 20
+		}
+		every_country = {
+			limit = {
+				has_variable = bdf_happy_subject_block_var
+			}
+			remove_variable = bdf_happy_subject_block_var
+		}
+	}
+
+	option = { #Fine, but I don't want to hear about it!
+		name = bdf.10.b
+		default_option = yes
+
+		change_relations = {
+			country = scope:bdf_happy_subject_scope_1
+			value = 20
+		}
+		change_relations = {
+			country = scope:bdf_happy_subject_scope_2
+			value = 20
+		}
+		change_relations = {
+			country = scope:bdf_happy_subject_scope_3
+			value = 20
+		}
+		every_country = {
+			limit = {
+				has_variable = bdf_happy_subject_block_var
+			}
+			remove_variable = bdf_happy_subject_block_var
+		}
+
+		custom_tooltip = bdf_10.b.tt
+
+		set_variable = bdf_no_more_imperial_conference_var
+	}
+}
+
+# Colonial / Imperial Conference (hidden)
+bdf.11 = {
+	type = country_event
+	hidden = yes
+
+	trigger = {
+		has_variable = bdf_no_more_imperial_conference_var
+		year >= 1887
+		exists = c:GBR
+		this = c:GBR
+		any_country = {
+			is_direct_subject_of = c:GBR
+			NOT = {
+				this = c:GBR
+			}
+			count > 2
+		}
+	}
+
+	cooldown = {
+		years = 4
+	}
+
+	immediate = {
+		random_country = {
+			limit = {
+				is_direct_subject_of = c:GBR
+			}
+			save_scope_as = bdf_happy_subject_scope_1
+			set_variable = bdf_happy_subject_block_var
+		}
+		random_country = {
+			limit = {
+				NOT = {
+					has_variable = bdf_happy_subject_block_var
+				}
+				is_direct_subject_of = c:GBR
+			}
+			save_scope_as = bdf_happy_subject_scope_2
+			set_variable = bdf_happy_subject_block_var
+		}
+		random_country = {
+			limit = {
+				NOT = {
+					has_variable = bdf_happy_subject_block_var
+				}
+				is_direct_subject_of = c:GBR
+			}
+			save_scope_as = bdf_happy_subject_scope_3
+			set_variable = bdf_happy_subject_block_var
+		}
+
+		change_relations = {
+			country = scope:bdf_happy_subject_scope_1
+			value = 20
+		}
+		change_relations = {
+			country = scope:bdf_happy_subject_scope_2
+			value = 20
+		}
+		change_relations = {
+			country = scope:bdf_happy_subject_scope_3
+			value = 20
+		}
+		every_country = {
+			limit = {
+				has_variable = bdf_happy_subject_block_var
+			}
+			remove_variable = bdf_happy_subject_block_var
 		}
 	}
 }
