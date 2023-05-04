@@ -204,13 +204,11 @@ bdf.10 = {
 			NOT = {
 				this = c:GBR
 			}
-			count > 2
+			count > 3
 		}
 	}
 
 	immediate = {
-		bdf_create_participiants_list_imperial_conference_effect = yes
-
 		random_country = {
 			limit = {
 				is_direct_subject_of = c:GBR
@@ -235,16 +233,25 @@ bdf.10 = {
 				}
 				is_direct_subject_of = c:GBR
 			}
-			save_scope_as = bdf_happy_subject_scope_3
-			set_variable = bdf_happy_subject_block_var
+			save_scope_as = bdf_subject_with_request_scope
+		}
+		set_global_variable = {
+			name = bdf_subject_request_global_var
+			value = scope:bdf_subject_with_request_scope
+			days = 120
+		}
+		
+		set_variable = {
+			name = bdf_request_var
+			value = { 1 4 }
+		}
+		round_variable = {
+			name = bdf_request_var
+			nearest = 1
 		}
 	}
 
-	after = {
-		bdf_delete_participant_list = yes
-	}
-
-	option = { #For the Empire!
+	option = { #Support Scope!
 		name = bdf.10.a
 		default_option = yes
 
@@ -256,9 +263,69 @@ bdf.10 = {
 			country = scope:bdf_happy_subject_scope_2
 			value = 20
 		}
-		change_relations = {
-			country = scope:bdf_happy_subject_scope_3
-			value = 20
+		if = {
+			limit = {
+				var:bdf_request_var = 1
+			}
+			add_treasury = -1000000
+			scope:bdf_subject_with_request_scope = {
+				add_treasury = 1000000
+			}
+			change_relations = {
+				country = scope:bdf_subject_with_request_scope
+				value = 20
+			}
+		}
+		if = {
+			limit = {
+				var:bdf_request_var = 2
+			}
+			add_treasury = -1000000
+			scope:bdf_subject_with_request_scope = {
+				add_investment_pool  = 1000000
+			}
+			change_relations = {
+				country = scope:bdf_subject_with_request_scope
+				value = 20
+			}
+		}
+		if = {
+			limit = {
+				var:bdf_request_var = 3
+			}
+			add_modifier = {
+				name = bdf_bureaucratic_support_sent_modifier
+				months = 12
+			}
+			scope:bdf_subject_with_request_scope = {
+				add_modifier = {
+					name = bdf_bureaucratic_support_modifier
+					months = 12
+				}
+			}
+			change_relations = {
+				country = scope:bdf_subject_with_request_scope
+				value = 20
+			}
+		}
+		if = {
+			limit = {
+				var:bdf_request_var = 4
+			}
+			add_modifier = {
+				name = bdf_construction_support_sent_modifier
+				months = 12
+			}
+			scope:bdf_subject_with_request_scope = {
+				add_modifier = {
+					name = bdf_construction_support_modifier
+					months = 12
+				}
+			}
+			change_relations = {
+				country = scope:bdf_subject_with_request_scope
+				value = 20
+			}
 		}
 		every_country = {
 			limit = {
@@ -268,7 +335,7 @@ bdf.10 = {
 		}
 	}
 
-	option = { #Fine, but I don't want to hear about it!
+	option = { #We don't have the means to support Scope.
 		name = bdf.10.b
 		default_option = yes
 
@@ -281,7 +348,27 @@ bdf.10 = {
 			value = 20
 		}
 		change_relations = {
-			country = scope:bdf_happy_subject_scope_3
+			country = scope:bdf_subject_with_request_scope
+			value = -20
+		}
+		every_country = {
+			limit = {
+				has_variable = bdf_happy_subject_block_var
+			}
+			remove_variable = bdf_happy_subject_block_var
+		}
+	}
+
+	option = { #I don't care. I don't want to hear about it!
+		name = bdf.10.c
+		default_option = yes
+
+		change_relations = {
+			country = scope:bdf_happy_subject_scope_1
+			value = 20
+		}
+		change_relations = {
+			country = scope:bdf_happy_subject_scope_2
 			value = 20
 		}
 		every_country = {
@@ -291,7 +378,7 @@ bdf.10 = {
 			remove_variable = bdf_happy_subject_block_var
 		}
 
-		custom_tooltip = bdf_10.b.tt
+		custom_tooltip = bdf_10.c.tt
 
 		set_variable = bdf_no_more_imperial_conference_var
 	}
@@ -338,16 +425,6 @@ bdf.11 = {
 			save_scope_as = bdf_happy_subject_scope_2
 			set_variable = bdf_happy_subject_block_var
 		}
-		random_country = {
-			limit = {
-				NOT = {
-					has_variable = bdf_happy_subject_block_var
-				}
-				is_direct_subject_of = c:GBR
-			}
-			save_scope_as = bdf_happy_subject_scope_3
-			set_variable = bdf_happy_subject_block_var
-		}
 
 		change_relations = {
 			country = scope:bdf_happy_subject_scope_1
@@ -355,10 +432,6 @@ bdf.11 = {
 		}
 		change_relations = {
 			country = scope:bdf_happy_subject_scope_2
-			value = 20
-		}
-		change_relations = {
-			country = scope:bdf_happy_subject_scope_3
 			value = 20
 		}
 		every_country = {

@@ -1,0 +1,23 @@
+﻿bdf_make_dominions_decision = {
+	is_shown = {
+		NOT = {
+			has_global_variable = bdf_british_dominions_global_var
+		}
+		is_player = yes
+	}
+
+	possible = {
+		always = yes
+	}
+
+	when_taken = {
+		custom_tooltip = {
+			text = bdf_make_dominions_decision_tt
+			set_global_variable = bdf_british_dominions_global_var
+		} 
+	}
+	
+	ai_chance = {
+		base = 0 #AI should never do this
+	}
+}

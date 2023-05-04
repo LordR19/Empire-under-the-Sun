@@ -46,6 +46,21 @@
 			}
 		}
 	}
+	dynamic_country_name = {
+		name = dyn_c_dominion_south_africa
+		adjective = dyn_c_dominion_south_africa
+
+		is_main_tag_only = yes
+		priority = 10
+		
+		trigger = {
+			exists = c:GBR
+			scope:actor = {
+				is_direct_subject_of = c:GBR
+			}
+			has_global_variable = bdf_british_dominions_global_var
+		}
+	}
 }
 
 CAN = { # Canada
@@ -146,16 +161,12 @@ BIC = { # British East India Company
 		adjective = dyn_c_dominion_india
 
 		is_main_tag_only = yes
-		priority = 0
+		priority = 10
 		
 		trigger = {
 			exists = c:GBR
-			c:GBR = {
-				has_diplomatic_pact = {
-					who = c:BIC
-					type = dominion
-					is_initiator = yes
-				}
+			scope:actor = {
+				is_direct_subject_of = c:GBR
 			}
 
 			has_global_variable = bdf_british_dominions_global_var

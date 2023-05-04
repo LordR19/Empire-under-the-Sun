@@ -104,6 +104,8 @@
 
  dyn_c_south_africa_union: "Union of South Africa"
  dyn_c_south_africa_union_adj: "South African"
+ dyn_c_dominion_south_africa: "Dominion of South Africa"
+ dyn_c_dominion_south_africa_adj: "South African"
 
  dyn_c_dominion_canada: "Dominion of Canada"
  dyn_c_dominion_canada_adj: "Candaian"
@@ -123,15 +125,41 @@
  dyn_c_colony_natal: "Colony of Natal"
  dyn_c_colony_natal_desc: "Natalian"
 
-#Events
+###Decisions###
+
+#British Dominions decision
+ bdf_make_dominions_decision: "Make South Africa and India Dominions"
+ bdf_make_dominions_decision_desc: "Changes the name of South Africa and India to #yellow Dominion of South Africa#! and #yellow Dominion of India#!"
+ bdf_make_dominions_decision_tt: "This decision only changes the names of those two countries. They do #b not#! actually become Dominions if they aren't yet."
+
+###Events###
 
 #Imperial Conference
  bdf.10.t: "[SCOPE.GetRootScope.GetCountry.GetCustom('imperial_conference_name')] in [ROOT.GetCountry.GetCapital.GetCityHubName]"
- bdf.10.d: "Representatives of all colonies, dominions and protectorates of Great Britain have gathered in [ROOT.GetCountry.GetCapital.GetCityHubName] to strengthen the cohesion of the Empire. Together, they discuss concerns, sign treaties and celebrate the Empire."
- bdf.10.f: "During this [SCOPE.GetRootScope.GetCountry.GetCustom('imperial_conference_name')] representatives from all over the world came to [ROOT.GetCountry.GetCapital.GetCityHubName]. Some notable delegations came from:[SCOPE.GetRootScope.GetCountry.GetCustom('bdf_imperial_conference_participiant_1_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bdf_imperial_conference_participiant_2_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bdf_imperial_conference_participiant_3_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bdf_imperial_conference_participiant_4_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bdf_imperial_conference_participiant_5_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bdf_imperial_conference_participiant_6_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bdf_imperial_conference_participiant_7_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bdf_imperial_conference_participiant_8_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bdf_imperial_conference_participiant_9_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bdf_imperial_conference_participiant_10_type')]\n\nThis year a proposal to lay a telegraph cable between #yellow Vancouver#! and #yellow Australia#! was approved"
- bdf.10.a: "For the Empire!"
- bdf.10.b: "Fine, but I don't want to hear about it!"
- bdf_10.b.tt: "You will no longer see this event. It will still give its bonuses to you every 5 year."
+ bdf.10.d: "Representatives of all colonies, dominions and protectorates of Great Britain have gathered in [ROOT.GetCountry.GetCapital.GetCityHubName] to strengthen the cohesion of the Empire. Together, they discuss concerns, sign treaties and celebrate the Empire. [SCOPE.GetRootScope.GetCountry.GetCustom('imperial_conference_request_type')]"
+ bdf.10.f: "During this [SCOPE.GetRootScope.GetCountry.GetCustom('imperial_conference_name')] representatives from all over the world came to [ROOT.GetCountry.GetCapital.GetCityHubName]. The representatives of [SCOPE.sC('bdf_happy_subject_scope_1').GetName] were delighted about the invitation. The [SCOPE.sC('bdf_happy_subject_scope_2').GetAdjective] representatives on the other hand were able to discuss some important matters with our government.\n\n[SCOPE.GetRootScope.GetCountry.GetCustom('imperial_conference_flavor_type')]"
+ bdf.10.a: "Support [SCOPE.sC('bdf_subject_with_request_scope').GetName]!"
+ bdf.10.b: "We do not have the means to support [SCOPE.sC('bdf_subject_with_request_scope').GetName]."
+ bdf.10.c: "I don't care. I don't want to hear about it"
+ bdf_10.c.tt: "You will no longer see this event. It will still give its bonuses to you every 5 year."
+
+ bdf_custom_loc_request_money: "During the conference, [GetGlobalVariable('bdf_subject_request_global_var').GetCountry.GetName] asked us for our financial support."
+ bdf_custom_loc_request_investment: "[GetGlobalVariable('bdf_subject_request_global_var').GetCountry.GetName] has taken the opportunity to promote investment in their economy. Should we support them?"
+ bdf_custom_loc_request_bureaucratic_assistance: "[GetGlobalVariable('bdf_subject_request_global_var').GetCountry.GetName] needs assistance in managing the colony and asks us for well-trained bureaucrats."
+ bdf_custom_loc_request_construction_assistance: "The construction work in [GetGlobalVariable('bdf_subject_request_global_var').GetCountry.GetName] is going slowly, so they ask us to send some engineers, machines and workers to support them."
+
+ bdf_custom_loc_conference_flavor_namechange: "One of the most important propositions this year was the change of the name of the #yellow Colonial Confernece#! to the #yellow Imperial Conference#!. After hours of debate the decision was finally made. Henceforth, this event will be called the #yellow Imperial Conference#!"
+ bdf_custom_loc_conference_flavor_telegraph_australia_vancouver: "The possibility of a telegraph line from Vancouver to Australia was discussed. After several hours the proposal was approved."
+ bdf_custom_loc_conference_flavor_one_colony_one_vote: "The most important matter discussed this year was a Resolution to give each colony one vote in the conference. The "one colony, one vote" proposition was agreed on. However, resolutions from the Colonies would not be binding for the British government or the Colonial Office."
+ bdf_custom_loc_conference_flavor_preferential_trade: "Heated discussions were part of the Conference this year. After some Colonies proposed a resolution on Preferntial Trade, other Colonies saw the proposition as a way to undermine their tariffs. Even after days there was no decision."
+ bdf_custom_loc_conference_flavor_imperial_council: "On this year's COnference, the creation of a permanent Imperial Council was proposed. The Council would be made up of delegates from the colonies to act as an Empire-wide parliament with the power to bind the colonies on imperial matters. The proposal was rejected however as many colonies feared the loss of autonomy."
+ bdf_custom_loc_conference_flavor_royal_navy_increase: "Our representatives proposed an increase of the colononies' contributions to the Royal Navy. Some Colonies agreed to increase their contributions but we were not able to convince all of them."
+ bdf_custom_loc_conference_flavor_defense_contributions: "On this year's conference one of our colonies proposed that each colony should provide a special force for imperial defence in the case of war. However some colonies rejected the proposal, as they thought it would undermine self-government. No agreement could be reached on the matter."
+ bdf_custom_loc_conference_flavor_imperial_council_advising: "One of our colonies proposed the formation of Imperial Council made up of representatives of the dominions. The council would advise the British Government on Imperial matters. Our government rejected the idea as it would infringe on our autonomy."
+ bdf_custom_loc_conference_flavor_peace_and_treaties: "The Confernece came to an agreement regarding Treaties and Peace Conferences. The British government will henceforth circulate proposed Treaties in the Dominions so that they could comment the proposals."
+ bdf_custom_loc_conference_flavor_external_politics: "The focus of this Conference was diplomacy and external politics. The colonies discussed our external policies and several Treaties were circulated, commented and discussed."
+
+#backup file: bdf.10.f: "During this [SCOPE.GetRootScope.GetCountry.GetCustom('imperial_conference_name')] representatives from all over the world came to [ROOT.GetCountry.GetCapital.GetCityHubName]. Some notable delegations came from:[SCOPE.GetRootScope.GetCountry.GetCustom('bdf_imperial_conference_participiant_1_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bdf_imperial_conference_participiant_2_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bdf_imperial_conference_participiant_3_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bdf_imperial_conference_participiant_4_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bdf_imperial_conference_participiant_5_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bdf_imperial_conference_participiant_6_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bdf_imperial_conference_participiant_7_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bdf_imperial_conference_participiant_8_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bdf_imperial_conference_participiant_9_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bdf_imperial_conference_participiant_10_type')]\n\nThis year a proposal to lay a telegraph cable between #yellow Vancouver#! and #yellow Australia#! was approved"
 
  bdf_imperial_conference_participant_1: "\n[GetGlobalVariable('bdf_imperial_conference_participant_1_global_var').GetCountry.GetName]"
  bdf_imperial_conference_participant_2: "\n[GetGlobalVariable('bdf_imperial_conference_participant_2_global_var').GetCountry.GetName]"
@@ -143,3 +171,10 @@
  bdf_imperial_conference_participant_8: "\n[GetGlobalVariable('bdf_imperial_conference_participant_8_global_var').GetCountry.GetName]"
  bdf_imperial_conference_participant_9: "\n[GetGlobalVariable('bdf_imperial_conference_participant_9_global_var').GetCountry.GetName]"
  bdf_imperial_conference_participant_10: "\n[GetGlobalVariable('bdf_imperial_conference_participant_10_global_var').GetCountry.GetName]"
+
+#Modifiers
+ bdf_bureaucratic_support_modifier: "British Bureaucratic Support"
+ bdf_bureaucratic_support_sent_modifier: "Sent Bureaucratic Support to Subject"
+
+ bdf_construction_support_modifier: "British Construction Support"
+ bdf_construction_support_sent_modifier: "Sent Construction Support to Subject"
