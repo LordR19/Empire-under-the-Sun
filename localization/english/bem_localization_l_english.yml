@@ -137,6 +137,13 @@
  dyn_c_bechunaland_protectorate: "Bechuanaland Protectorate"
  dyn_c_bechunaland_protectorate_adj: "Bechuana"
 
+ C1R: "Colonial Zambezi"
+ C1R_ADJ: "Zambezi"
+ dyn_c_default_zimbabwe: "Zimbabwe"
+ dyn_c_default_zimbabwe_adj: "Zimbabwe"
+ dyn_c_southern_rhodesia: "Southern Rhodesia"
+ dyn_c_southern_rhodesia_adj: "Southern Rhodesian"
+
  dyn_c_south_africa_union: "Union of South Africa"
  dyn_c_south_africa_union_adj: "South African"
  dyn_c_dominion_south_africa: "Dominion of South Africa"
@@ -214,6 +221,14 @@
 
  bem_arthur_conan: "Arthur Conan"
  bem_doyle: "Doyle"
+
+ bem.101.t: "Charles Darwin releases \"On the Origin of Species\""
+ bem.101.d: "In his latest publication, the controversial scientist  outline a theory of how traits are selected by nature, where the tremendous diversity of life on earth came from and how animals and plants came to be distributed across the planet."
+ bem.101.f: "Some flavor text goes here."
+ bem.101.a: "Evolved from apes, are we? Well, it does make sense."
+
+ bem_charles: "Charles"
+ bem_darwin: "Darwin"
 
 #Modifiers
  bem_bureaucratic_support_modifier: "British Bureaucratic Support"

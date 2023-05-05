@@ -285,3 +285,19 @@ C1B = {
 	
 	ai_will_do = { always = no }
 }
+
+#Southern Rhodesia
+C1R = {
+	states = {
+		STATE_ZAMBEZI
+	}
+
+	required_num_states = 1
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+	
+	ai_will_do = { always = no }
+}

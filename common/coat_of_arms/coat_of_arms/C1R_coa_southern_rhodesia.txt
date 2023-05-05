@@ -1,0 +1,102 @@
+#Southern Rhodesia
+C1R = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	
+	colored_emblem = {
+		texture = "ce_flag_seven_stripes_3c.dds"
+		color1 = "green_dark"
+		color2 = "yellow"
+		color3 = "red"
+	}
+
+	colored_emblem = {
+		texture = "ce_flag_chevron_left.dds"
+		color1 = "black"
+		instance = { position = { 0.54 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_flag_chevron_left.dds"
+		color1 = "white"
+		instance = { position = { 0.5 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_emblem_great_zimbabwe_bird.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.4 0.4 } position = { 0.17 0.5 } }
+	}
+}
+
+C1R_sub = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	textured_emblem = {
+		texture = "te_seal_southern_rhodesia.dds"
+		instance = { scale = { 0.5 0.5 } position = { 0.75 0.5 } }
+	}
+}
+
+C1R_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	
+	colored_emblem = {
+		texture = "ce_flag_seven_stripes_3c.dds"
+		color1 = "green_dark"
+		color2 = "yellow"
+		color3 = "red"
+	}
+
+	colored_emblem = {
+		texture = "ce_flag_chevron_left.dds"
+		color1 = "black"
+		instance = { position = { 0.54 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_flag_chevron_left.dds"
+		color1 = "white"
+		instance = { position = { 0.5 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_crown_st_edward.dds"
+		color1 = "yellow"
+		color2 = "red"
+		color3 = "white"
+		instance = { scale = { 0.5 0.5 } position = { 0.17 0.5 } }
+	}
+}
+
+C1R_dictatorship = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	colored_emblem = {
+		texture = "ce_flag_seven_stripes_3c.dds"
+		color1 = "black"
+		color2 = "yellow"
+		color3 = "red"
+	}
+
+	colored_emblem = {
+		texture = "ce_flag_chevron_left.dds"
+		color1 = "white"
+		instance = { position = { 0.54 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_flag_chevron_left.dds"
+		color1 = "black"
+		instance = { position = { 0.5 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_emblem_great_zimbabwe_bird.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.4 0.4 } position = { 0.17 0.5 } }
+	}
+}

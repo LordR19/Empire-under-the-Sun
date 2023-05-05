@@ -267,3 +267,18 @@ C1B = {
 	capital = STATE_BOTSWANA
 	
 }
+
+#Southern Rhodesia
+C1R = {
+
+	color = { 0 150 250 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_ZAMBEZI
+	
+}

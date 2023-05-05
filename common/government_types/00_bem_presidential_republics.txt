@@ -142,6 +142,10 @@ gov_british_crown_colony = {
 				exists = c:NAL
 				root = c:NAL
 			}
+			AND = {
+				exists = c:C1R
+				root = c:C1R
+			}
 		}
 	}
 }
