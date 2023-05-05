@@ -253,7 +253,7 @@ C2C = {
 	ai_will_do = { always = no }
 }
 
-#Protectorate of Cameroon
+#Territory of South West Africa
 C1W = {
 	states = {
 		STATE_NAMAQUALAND
@@ -261,6 +261,22 @@ C1W = {
 	}
 
 	required_num_states = 2
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+	
+	ai_will_do = { always = no }
+}
+
+#Bechuanaland Protectorate
+C1B = {
+	states = {
+		STATE_BOTSWANA
+	}
+
+	required_num_states = 1
 
 	possible = {
 		exists = c:GBR

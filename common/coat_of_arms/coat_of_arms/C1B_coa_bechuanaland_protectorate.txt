@@ -1,0 +1,73 @@
+#Bechuanaland Protectorate
+C1B = {
+	pattern = "pattern_solid.tga"
+	color1 = { 0 150 250 }
+	
+	colored_emblem = {
+		texture = "ce_stripe_center.dds"
+		color1 = "white"
+	}
+
+	colored_emblem = {
+		texture = "ce_stripe_center.dds"
+		color1 = "black"
+		instance = { scale = { 1 0.7 } position = { 0.5 0.5 } }
+	}
+}
+
+C1B_sub = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = "white"
+		instance = { scale = { 0.5 0.5 } position = { 0.75 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_elephant_african.dds"
+		color1 = "grey"
+		color2 = "beige"
+		instance = { scale = { 0.5 0.5 } position = { 0.75 0.5 } }
+	}
+}
+
+C1B_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = { 0 150 250 }
+	
+	colored_emblem = {
+		texture = "ce_stripe_center.dds"
+		color1 = "white"
+	}
+
+	colored_emblem = {
+		texture = "ce_stripe_center.dds"
+		color1 = "black"
+		instance = { scale = { 1 0.7 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_crown_st_edward.dds"
+		color1 = "yellow"
+		color2 = "red"
+		color3 = "white"
+		instance = { scale = { 0.7 0.7 } position = { 0.5 0.5 } }
+	}
+}
+
+C1B_dictatorship = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	
+	colored_emblem = {
+		texture = "ce_stripe_center.dds"
+		color1 = "white"
+	}
+
+	colored_emblem = {
+		texture = "ce_stripe_center.dds"
+		color1 = "red"
+		instance = { scale = { 1 0.7 } position = { 0.5 0.5 } }
+	}
+}

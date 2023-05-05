@@ -130,6 +130,13 @@
  dyn_c_territory_of_swa: "Territory of South West Africa"
  dyn_c_territory_of_swa_adj: "South West African"
 
+ C1B: "Colonial Bechuanaland"
+ C1B_ADJ: "Bechuana"
+ dyn_c_default_botswana: "Botswana"
+ dyn_c_default_botswana_adj: "Botswana"
+ dyn_c_bechunaland_protectorate: "Bechuanaland Protectorate"
+ dyn_c_bechunaland_protectorate_adj: "Bechuana"
+
  dyn_c_south_africa_union: "Union of South Africa"
  dyn_c_south_africa_union_adj: "South African"
  dyn_c_dominion_south_africa: "Dominion of South Africa"

@@ -238,10 +238,10 @@ C2C = {
 	
 }
 
-#Protectorate of North Cameroon
+#Territory of South West Africa
 C1W = {
 
-	color = { 40 200 70}
+	color = { 0 20 100}
 	
 	country_type = colonial
 	
@@ -250,5 +250,20 @@ C1W = {
 	cultures = { british }
 	
 	capital = STATE_HEREROLAND
+	
+}
+
+#Bechuanaland Protectorate
+C1B = {
+
+	color = { 0 150 250 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_BOTSWANA
 	
 }
