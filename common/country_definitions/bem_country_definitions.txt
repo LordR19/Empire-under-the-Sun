@@ -271,7 +271,7 @@ C1B = {
 #Southern Rhodesia
 C1R = {
 
-	color = { 0 150 250 }
+	color = { 30 50 50 }
 	
 	country_type = colonial
 	
@@ -280,5 +280,20 @@ C1R = {
 	cultures = { british }
 	
 	capital = STATE_ZAMBEZI
+	
+}
+
+#Northern Rhodesia
+C2R = {
+
+	color = { 50 200 0 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_ZAMBIA
 	
 }

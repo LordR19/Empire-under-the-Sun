@@ -301,3 +301,20 @@ C1R = {
 	
 	ai_will_do = { always = no }
 }
+
+#Northern Rhodesia
+C2R = {
+	states = {
+		STATE_ZAMBIA
+		STATE_KAZEMBE
+	}
+
+	required_num_states = 2
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+	
+	ai_will_do = { always = no }
+}

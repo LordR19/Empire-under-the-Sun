@@ -144,6 +144,13 @@
  dyn_c_southern_rhodesia: "Southern Rhodesia"
  dyn_c_southern_rhodesia_adj: "Southern Rhodesian"
 
+ C2R: "Colonial Zambia"
+ C2R_ADJ: "Zambian"
+ dyn_c_default_zambia: "Zambia"
+ dyn_c_default_zambia_adj: "Zambian"
+ dyn_c_northern_rhodesia: "Northern Rhodesia"
+ dyn_c_northern_rhodesia_adj: "Northern Rhodesian"
+
  dyn_c_south_africa_union: "Union of South Africa"
  dyn_c_south_africa_union_adj: "South African"
  dyn_c_dominion_south_africa: "Dominion of South Africa"
@@ -224,7 +231,7 @@
 
  bem.101.t: "Charles Darwin releases \"On the Origin of Species\""
  bem.101.d: "In his latest publication, the controversial scientist  outline a theory of how traits are selected by nature, where the tremendous diversity of life on earth came from and how animals and plants came to be distributed across the planet."
- bem.101.f: "Some flavor text goes here."
+ bem.101.f: "\"One general law, leading to the advancement of all organic beings, namely, multiply, vary, let the strongest live and the weakest die.\"\n― Charles Darwin, The Origin of Species"
  bem.101.a: "Evolved from apes, are we? Well, it does make sense."
 
  bem_charles: "Charles"
