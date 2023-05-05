@@ -148,6 +148,10 @@ bdf.1 = {
 						exists = c:C1U
 						root = c:C1U
 					}
+					AND = {
+						exists = c:C2S
+						root = c:C2S
+					}
 				}
 			}
 			change_subject_type = subject_type_puppet
@@ -365,7 +369,6 @@ bdf.10 = {
 
 	option = { #I don't care. I don't want to hear about it!
 		name = bdf.10.c
-		default_option = yes
 
 		change_relations = {
 			country = scope:bdf_happy_subject_scope_1
@@ -443,6 +446,75 @@ bdf.11 = {
 				has_variable = bdf_happy_subject_block_var
 			}
 			remove_variable = bdf_happy_subject_block_var
+		}
+	}
+}
+
+# Sherlock Holmes published
+bdf.100 = {
+	type = country_event
+	placement = ROOT
+
+	title = bdf.100.t
+	desc = bdf.100.d
+	flavor = bdf.100.f
+
+	duration = 3
+
+	gui_window = event_window_1char_tabloid
+
+	left_icon = scope:bdf_doyle_scope
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/world_fair"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	cooldown = {
+		years = 4
+	}
+
+	trigger = {
+		NOT = {
+			has_global_variable = bdf_sherlock_holmes_global_var
+		}
+		year >= 1887
+		exists = c:GBR
+		this = c:GBR
+	}
+
+	immediate = {
+		set_global_variable = bdf_sherlock_holmes_global_var
+
+		create_character = {
+			dna = bdf_doyle
+			first_name = bdf_arthur_conan
+			last_name = bdf_doyle
+			birth_date = 1859.5.22
+			culture = cu:scottish
+			interest_group = ig_petty_bourgeoisie
+			female = no
+			traits = { 
+				innovative
+				romantic
+			}
+
+			save_scope_as = bdf_doyle_scope
+
+			on_created = {
+				scope:bdf_doyle_scope = {
+					place_character_in_void = 4
+				}
+			}
+		}
+	}
+
+	option = { #Support Scope!
+		name = bdf.10.a
+		default_option = yes
+
+		add_modifier = {
+			name = bdf_sherlock_holmes_modifier
 		}
 	}
 }

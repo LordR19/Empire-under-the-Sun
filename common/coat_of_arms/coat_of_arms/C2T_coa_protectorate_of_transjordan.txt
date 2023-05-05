@@ -53,7 +53,7 @@ C2T_monarchy = {
 	}
 }
 
-C2T = {
+C2T_dictatorship = {
 	pattern = "pattern_solid.tga"
 	color1 = "black"
 	

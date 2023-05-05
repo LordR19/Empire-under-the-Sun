@@ -17,3 +17,8 @@ bdf_construction_support_sent_modifier = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds"
 	country_construction_add = -20
 }
+
+bdf_sherlock_holmes_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_prestige_add = 1
+}

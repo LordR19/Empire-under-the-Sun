@@ -207,3 +207,18 @@ C1U = {
 	capital = STATE_UGANDA
 	
 }
+
+#Protectorate of Sudan
+C2S = {
+
+	color = { 0 60 160 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_BLUE_NILE
+	
+}

@@ -215,3 +215,23 @@ C1U = {
 	
 	ai_will_do = { always = no }
 }
+
+#Protectorate of Sudan
+C2S = {
+	states = {
+		STATE_BLUE_NILE
+		STATE_DONGOLA
+		STATE_DARFUR
+		STATE_KORDOFAN
+		STATE_EQUATORIA
+	}
+
+	required_num_states = 1
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+	
+	ai_will_do = { always = no }
+}

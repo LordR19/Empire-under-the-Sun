@@ -109,6 +109,13 @@
  dyn_c_protectorate_of_uganda: "Protectorate of Uganda"
  dyn_c_protectorate_of_uganda_adj: "Ugandan"
 
+ C2S: "Colonial Sudan"
+ C2S_ADJ: "Sudanese"
+ dyn_c_default_sudan: "Sudan"
+ dyn_c_default_sudan_adj: "Sudanese"
+ dyn_c_protectorate_of_sudan: "Protectorate of Sudan"
+ dyn_c_protectorate_of_sudan_adj: "Sudanese"
+
  dyn_c_south_africa_union: "Union of South Africa"
  dyn_c_south_africa_union_adj: "South African"
  dyn_c_dominion_south_africa: "Dominion of South Africa"
@@ -179,9 +186,16 @@
  bdf_imperial_conference_participant_9: "\n[GetGlobalVariable('bdf_imperial_conference_participant_9_global_var').GetCountry.GetName]"
  bdf_imperial_conference_participant_10: "\n[GetGlobalVariable('bdf_imperial_conference_participant_10_global_var').GetCountry.GetName]"
 
+ bdf.100.t: "\"Sherlock Holmes\" by Arthur Conand Doyle published"
+ bdf.100.d: "A detective solving crimes by applying logic and his mind. What an interesting concept that Arthur Conan Doyle came up with."
+ bdf.100.f: "Some flavor text goes here."
+ bdf.100.a: "Elementary, my dear Watson."
+
 #Modifiers
  bdf_bureaucratic_support_modifier: "British Bureaucratic Support"
  bdf_bureaucratic_support_sent_modifier: "Sent Bureaucratic Support to Subject"
 
  bdf_construction_support_modifier: "British Construction Support"
  bdf_construction_support_sent_modifier: "Sent Construction Support to Subject"
+
+ bdf_sherlock_holmes_modifier: "Sherlock Holmes by Arthur Conan Doyle"
