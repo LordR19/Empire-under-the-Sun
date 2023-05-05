@@ -222,3 +222,33 @@ C2S = {
 	capital = STATE_BLUE_NILE
 	
 }
+
+#Protectorate of North Cameroon
+C2C = {
+
+	color = "yellow"
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_NORTH_CAMEROON
+	
+}
+
+#Protectorate of North Cameroon
+C1W = {
+
+	color = { 40 200 70}
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_HEREROLAND
+	
+}

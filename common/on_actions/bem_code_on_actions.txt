@@ -3,19 +3,23 @@
 # Root = Country
 on_yearly_pulse_country = {
 	on_actions = {
-		bdf_on_yearly_events
+		bem_on_yearly_events
 	}
 }
 
-bdf_on_yearly_events = {
+bem_on_yearly_events = {
 	effect = {
 		trigger_event = { # Colonial / Imperial Conference
-			id = bdf.10
+			id = bem.10
 			days = { 60 240 }
 		}
 		trigger_event = { # Colonial / Imperial Conference (hidden) --> Still fires but player doesn't get an event
-			id = bdf.11
+			id = bem.11
 			days = { 60 240 }
+		}
+		trigger_event = { # Colonial / Imperial Conference (hidden) --> Still fires but player doesn't get an event
+			id = bem.100
+			days = { 1 360 }
 		}
 	}
 }
@@ -24,11 +28,11 @@ bdf_on_yearly_events = {
 # scope:target = Released Country
 on_country_released_as_own_subject = {
 	on_actions = {
-		bdf_on_country_released_as_own_subject
+		bem_on_country_released_as_own_subject
 	}
 }
 
-bdf_on_country_released_as_own_subject = {
+bem_on_country_released_as_own_subject = {
 	effect = {
 		if = {
 			limit = {
@@ -37,7 +41,7 @@ bdf_on_country_released_as_own_subject = {
 			}
 			scope:target = {
 				trigger_event = {
-					id = bdf.1
+					id = bem.1
 				}
 			}
 		}

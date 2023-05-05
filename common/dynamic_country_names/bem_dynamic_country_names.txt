@@ -58,7 +58,7 @@
 			scope:actor = {
 				is_direct_subject_of = c:GBR
 			}
-			has_global_variable = bdf_british_dominions_global_var
+			has_global_variable = bem_british_dominions_global_var
 		}
 	}
 }
@@ -169,7 +169,7 @@ BIC = { # British East India Company
 				is_direct_subject_of = c:GBR
 			}
 
-			has_global_variable = bdf_british_dominions_global_var
+			has_global_variable = bem_british_dominions_global_var
 		}
 	}
 }

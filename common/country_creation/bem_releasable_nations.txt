@@ -226,7 +226,41 @@ C2S = {
 		STATE_EQUATORIA
 	}
 
-	required_num_states = 1
+	required_num_states = 5
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+	
+	ai_will_do = { always = no }
+}
+
+#Protectorate of Cameroon
+C2C = {
+	states = {
+		STATE_NORTH_CAMEROON
+		STATE_SOUTH_CAMEROON
+	}
+
+	required_num_states = 2
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+	
+	ai_will_do = { always = no }
+}
+
+#Protectorate of Cameroon
+C1W = {
+	states = {
+		STATE_NAMAQUALAND
+		STATE_HEREROLAND
+	}
+
+	required_num_states = 2
 
 	possible = {
 		exists = c:GBR

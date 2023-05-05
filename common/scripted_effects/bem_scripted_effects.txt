@@ -1,5 +1,5 @@
 ﻿########################
-# BDF SCRIPTED EFFECTS #
+# bem SCRIPTED EFFECTS #
 ########################
 
 #by Lord R
@@ -8,7 +8,7 @@
 
 ###Imperial Conference Participants###
 # Creates a list of global variables of up to ten of the most prestigous subjects of Great Britain
-bdf_create_participiants_list_imperial_conference_effect = {
+bem_create_participiants_list_imperial_conference_effect = {
 	if = {
 		limit = {
 			any_country = {
@@ -23,7 +23,7 @@ bdf_create_participiants_list_imperial_conference_effect = {
 			order_by = { value = prestige }
 			position = 0
 			set_global_variable = {
-				name = bdf_imperial_conference_participant_1_global_var
+				name = bem_imperial_conference_participant_1_global_var
 				value = this
 			}
 		}
@@ -42,7 +42,7 @@ bdf_create_participiants_list_imperial_conference_effect = {
 			order_by = { value = prestige }
 			position = 1
 			set_global_variable = {
-				name = bdf_imperial_conference_participant_2_global_var
+				name = bem_imperial_conference_participant_2_global_var
 				value = this
 			}
 		}
@@ -61,7 +61,7 @@ bdf_create_participiants_list_imperial_conference_effect = {
 			order_by = { value = prestige }
 			position = 2
 			set_global_variable = {
-				name = bdf_imperial_conference_participant_3_global_var
+				name = bem_imperial_conference_participant_3_global_var
 				value = this
 			}
 		}
@@ -80,7 +80,7 @@ bdf_create_participiants_list_imperial_conference_effect = {
 			order_by = { value = prestige }
 			position = 3
 			set_global_variable = {
-				name = bdf_imperial_conference_participant_4_global_var
+				name = bem_imperial_conference_participant_4_global_var
 				value = this
 			}
 		}
@@ -99,7 +99,7 @@ bdf_create_participiants_list_imperial_conference_effect = {
 			order_by = { value = prestige }
 			position = 4
 			set_global_variable = {
-				name = bdf_imperial_conference_participant_5_global_var
+				name = bem_imperial_conference_participant_5_global_var
 				value = this
 			}
 		}
@@ -118,7 +118,7 @@ bdf_create_participiants_list_imperial_conference_effect = {
 			order_by = { value = prestige }
 			position = 5
 			set_global_variable = {
-				name = bdf_imperial_conference_participant_6_global_var
+				name = bem_imperial_conference_participant_6_global_var
 				value = this
 			}
 		}
@@ -137,7 +137,7 @@ bdf_create_participiants_list_imperial_conference_effect = {
 			order_by = { value = prestige }
 			position = 6
 			set_global_variable = {
-				name = bdf_imperial_conference_participant_7_global_var
+				name = bem_imperial_conference_participant_7_global_var
 				value = this
 			}
 		}
@@ -156,7 +156,7 @@ bdf_create_participiants_list_imperial_conference_effect = {
 			order_by = { value = prestige }
 			position = 7
 			set_global_variable = {
-				name = bdf_imperial_conference_participant_8_global_var
+				name = bem_imperial_conference_participant_8_global_var
 				value = this
 			}
 		}
@@ -175,7 +175,7 @@ bdf_create_participiants_list_imperial_conference_effect = {
 			order_by = { value = prestige }
 			position = 8
 			set_global_variable = {
-				name = bdf_imperial_conference_participant_9_global_var
+				name = bem_imperial_conference_participant_9_global_var
 				value = this
 			}
 		}
@@ -194,7 +194,7 @@ bdf_create_participiants_list_imperial_conference_effect = {
 			order_by = { value = prestige }
 			position = 9
 			set_global_variable = {
-				name = bdf_imperial_conference_participant_10_global_var
+				name = bem_imperial_conference_participant_10_global_var
 				value = this
 			}
 		}
@@ -202,15 +202,15 @@ bdf_create_participiants_list_imperial_conference_effect = {
 }
 
 # deletes all the global variables for the participants
-bdf_delete_participant_list = {
-	remove_global_variable = bdf_imperial_conference_participant_1_global_var
-	remove_global_variable = bdf_imperial_conference_participant_2_global_var
-	remove_global_variable = bdf_imperial_conference_participant_3_global_var
-	remove_global_variable = bdf_imperial_conference_participant_4_global_var
-	remove_global_variable = bdf_imperial_conference_participant_5_global_var
-	remove_global_variable = bdf_imperial_conference_participant_6_global_var
-	remove_global_variable = bdf_imperial_conference_participant_7_global_var
-	remove_global_variable = bdf_imperial_conference_participant_8_global_var
-	remove_global_variable = bdf_imperial_conference_participant_9_global_var
-	remove_global_variable = bdf_imperial_conference_participant_10_global_var
+bem_delete_participant_list = {
+	remove_global_variable = bem_imperial_conference_participant_1_global_var
+	remove_global_variable = bem_imperial_conference_participant_2_global_var
+	remove_global_variable = bem_imperial_conference_participant_3_global_var
+	remove_global_variable = bem_imperial_conference_participant_4_global_var
+	remove_global_variable = bem_imperial_conference_participant_5_global_var
+	remove_global_variable = bem_imperial_conference_participant_6_global_var
+	remove_global_variable = bem_imperial_conference_participant_7_global_var
+	remove_global_variable = bem_imperial_conference_participant_8_global_var
+	remove_global_variable = bem_imperial_conference_participant_9_global_var
+	remove_global_variable = bem_imperial_conference_participant_10_global_var
 }

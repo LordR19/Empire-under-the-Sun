@@ -1,7 +1,7 @@
-﻿namespace = bdf
+﻿namespace = bem
 
 # Event to set up Governors i n the appropriate countries
-bdf.1 = {
+bem.1 = {
 	type = country_event
 	hidden = yes
 
@@ -53,7 +53,7 @@ bdf.1 = {
 
 		activate_law = law_type:law_presidential_republic
 		trigger_event = {
-			id = bdf.2
+			id = bem.2
 			days = 1
 		}
 
@@ -152,6 +152,14 @@ bdf.1 = {
 						exists = c:C2S
 						root = c:C2S
 					}
+					AND = {
+						exists = c:C2C
+						root = c:C2C
+					}
+					AND = {
+						exists = c:C1W
+						root = c:C1W
+					}
 				}
 			}
 			change_subject_type = subject_type_puppet
@@ -160,7 +168,7 @@ bdf.1 = {
 }
 
 #Event used to create a new governor that is male and british
-bdf.2 = {
+bem.2 = {
 	type = country_event
 	hidden = yes
 
@@ -177,13 +185,13 @@ bdf.2 = {
 }
 
 # Colonial / Imperial Conference
-bdf.10 = {
+bem.10 = {
 	type = country_event
 	placement = ROOT
 
-	title = bdf.10.t
-	desc = bdf.10.d
-	flavor = bdf.10.f
+	title = bem.10.t
+	desc = bem.10.d
+	flavor = bem.10.f
 
 	duration = 3
 
@@ -202,7 +210,7 @@ bdf.10 = {
 
 	trigger = {
 		NOT = {
-			has_variable = bdf_no_more_imperial_conference_var
+			has_variable = bem_no_more_imperial_conference_var
 		}
 		year >= 1887
 		exists = c:GBR
@@ -221,183 +229,183 @@ bdf.10 = {
 			limit = {
 				is_direct_subject_of = c:GBR
 			}
-			save_scope_as = bdf_happy_subject_scope_1
-			set_variable = bdf_happy_subject_block_var
+			save_scope_as = bem_happy_subject_scope_1
+			set_variable = bem_happy_subject_block_var
 		}
 		random_country = {
 			limit = {
 				NOT = {
-					has_variable = bdf_happy_subject_block_var
+					has_variable = bem_happy_subject_block_var
 				}
 				is_direct_subject_of = c:GBR
 			}
-			save_scope_as = bdf_happy_subject_scope_2
-			set_variable = bdf_happy_subject_block_var
+			save_scope_as = bem_happy_subject_scope_2
+			set_variable = bem_happy_subject_block_var
 		}
 		random_country = {
 			limit = {
 				NOT = {
-					has_variable = bdf_happy_subject_block_var
+					has_variable = bem_happy_subject_block_var
 				}
 				is_direct_subject_of = c:GBR
 			}
-			save_scope_as = bdf_subject_with_request_scope
+			save_scope_as = bem_subject_with_request_scope
 		}
 		set_global_variable = {
-			name = bdf_subject_request_global_var
-			value = scope:bdf_subject_with_request_scope
+			name = bem_subject_request_global_var
+			value = scope:bem_subject_with_request_scope
 			days = 120
 		}
 		
 		set_variable = {
-			name = bdf_request_var
+			name = bem_request_var
 			value = { 1 4 }
 		}
 		round_variable = {
-			name = bdf_request_var
+			name = bem_request_var
 			nearest = 1
 		}
 	}
 
 	option = { #Support Scope!
-		name = bdf.10.a
+		name = bem.10.a
 		default_option = yes
 
 		change_relations = {
-			country = scope:bdf_happy_subject_scope_1
+			country = scope:bem_happy_subject_scope_1
 			value = 20
 		}
 		change_relations = {
-			country = scope:bdf_happy_subject_scope_2
+			country = scope:bem_happy_subject_scope_2
 			value = 20
 		}
 		if = {
 			limit = {
-				var:bdf_request_var = 1
+				var:bem_request_var = 1
 			}
 			add_treasury = -1000000
-			scope:bdf_subject_with_request_scope = {
+			scope:bem_subject_with_request_scope = {
 				add_treasury = 1000000
 			}
 			change_relations = {
-				country = scope:bdf_subject_with_request_scope
+				country = scope:bem_subject_with_request_scope
 				value = 20
 			}
 		}
 		if = {
 			limit = {
-				var:bdf_request_var = 2
+				var:bem_request_var = 2
 			}
 			add_treasury = -1000000
-			scope:bdf_subject_with_request_scope = {
+			scope:bem_subject_with_request_scope = {
 				add_investment_pool  = 1000000
 			}
 			change_relations = {
-				country = scope:bdf_subject_with_request_scope
+				country = scope:bem_subject_with_request_scope
 				value = 20
 			}
 		}
 		if = {
 			limit = {
-				var:bdf_request_var = 3
+				var:bem_request_var = 3
 			}
 			add_modifier = {
-				name = bdf_bureaucratic_support_sent_modifier
+				name = bem_bureaucratic_support_sent_modifier
 				months = 12
 			}
-			scope:bdf_subject_with_request_scope = {
+			scope:bem_subject_with_request_scope = {
 				add_modifier = {
-					name = bdf_bureaucratic_support_modifier
+					name = bem_bureaucratic_support_modifier
 					months = 12
 				}
 			}
 			change_relations = {
-				country = scope:bdf_subject_with_request_scope
+				country = scope:bem_subject_with_request_scope
 				value = 20
 			}
 		}
 		if = {
 			limit = {
-				var:bdf_request_var = 4
+				var:bem_request_var = 4
 			}
 			add_modifier = {
-				name = bdf_construction_support_sent_modifier
+				name = bem_construction_support_sent_modifier
 				months = 12
 			}
-			scope:bdf_subject_with_request_scope = {
+			scope:bem_subject_with_request_scope = {
 				add_modifier = {
-					name = bdf_construction_support_modifier
+					name = bem_construction_support_modifier
 					months = 12
 				}
 			}
 			change_relations = {
-				country = scope:bdf_subject_with_request_scope
+				country = scope:bem_subject_with_request_scope
 				value = 20
 			}
 		}
 		every_country = {
 			limit = {
-				has_variable = bdf_happy_subject_block_var
+				has_variable = bem_happy_subject_block_var
 			}
-			remove_variable = bdf_happy_subject_block_var
+			remove_variable = bem_happy_subject_block_var
 		}
 	}
 
 	option = { #We don't have the means to support Scope.
-		name = bdf.10.b
+		name = bem.10.b
 		default_option = yes
 
 		change_relations = {
-			country = scope:bdf_happy_subject_scope_1
+			country = scope:bem_happy_subject_scope_1
 			value = 20
 		}
 		change_relations = {
-			country = scope:bdf_happy_subject_scope_2
+			country = scope:bem_happy_subject_scope_2
 			value = 20
 		}
 		change_relations = {
-			country = scope:bdf_subject_with_request_scope
+			country = scope:bem_subject_with_request_scope
 			value = -20
 		}
 		every_country = {
 			limit = {
-				has_variable = bdf_happy_subject_block_var
+				has_variable = bem_happy_subject_block_var
 			}
-			remove_variable = bdf_happy_subject_block_var
+			remove_variable = bem_happy_subject_block_var
 		}
 	}
 
 	option = { #I don't care. I don't want to hear about it!
-		name = bdf.10.c
+		name = bem.10.c
 
 		change_relations = {
-			country = scope:bdf_happy_subject_scope_1
+			country = scope:bem_happy_subject_scope_1
 			value = 20
 		}
 		change_relations = {
-			country = scope:bdf_happy_subject_scope_2
+			country = scope:bem_happy_subject_scope_2
 			value = 20
 		}
 		every_country = {
 			limit = {
-				has_variable = bdf_happy_subject_block_var
+				has_variable = bem_happy_subject_block_var
 			}
-			remove_variable = bdf_happy_subject_block_var
+			remove_variable = bem_happy_subject_block_var
 		}
 
-		custom_tooltip = bdf_10.c.tt
+		custom_tooltip = bem_10.c.tt
 
-		set_variable = bdf_no_more_imperial_conference_var
+		set_variable = bem_no_more_imperial_conference_var
 	}
 }
 
 # Colonial / Imperial Conference (hidden)
-bdf.11 = {
+bem.11 = {
 	type = country_event
 	hidden = yes
 
 	trigger = {
-		has_variable = bdf_no_more_imperial_conference_var
+		has_variable = bem_no_more_imperial_conference_var
 		year >= 1887
 		exists = c:GBR
 		this = c:GBR
@@ -419,51 +427,51 @@ bdf.11 = {
 			limit = {
 				is_direct_subject_of = c:GBR
 			}
-			save_scope_as = bdf_happy_subject_scope_1
-			set_variable = bdf_happy_subject_block_var
+			save_scope_as = bem_happy_subject_scope_1
+			set_variable = bem_happy_subject_block_var
 		}
 		random_country = {
 			limit = {
 				NOT = {
-					has_variable = bdf_happy_subject_block_var
+					has_variable = bem_happy_subject_block_var
 				}
 				is_direct_subject_of = c:GBR
 			}
-			save_scope_as = bdf_happy_subject_scope_2
-			set_variable = bdf_happy_subject_block_var
+			save_scope_as = bem_happy_subject_scope_2
+			set_variable = bem_happy_subject_block_var
 		}
 
 		change_relations = {
-			country = scope:bdf_happy_subject_scope_1
+			country = scope:bem_happy_subject_scope_1
 			value = 20
 		}
 		change_relations = {
-			country = scope:bdf_happy_subject_scope_2
+			country = scope:bem_happy_subject_scope_2
 			value = 20
 		}
 		every_country = {
 			limit = {
-				has_variable = bdf_happy_subject_block_var
+				has_variable = bem_happy_subject_block_var
 			}
-			remove_variable = bdf_happy_subject_block_var
+			remove_variable = bem_happy_subject_block_var
 		}
 	}
 }
 
 # Sherlock Holmes published
-bdf.100 = {
+bem.100 = {
 	type = country_event
 	placement = ROOT
 
-	title = bdf.100.t
-	desc = bdf.100.d
-	flavor = bdf.100.f
+	title = bem.100.t
+	desc = bem.100.d
+	flavor = bem.100.f
 
 	duration = 3
 
 	gui_window = event_window_1char_tabloid
 
-	left_icon = scope:bdf_doyle_scope
+	left_icon = scope:bem_doyle_scope
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 	on_opened_soundeffect = "event:/SFX/Events/unspecific/world_fair"
@@ -476,7 +484,7 @@ bdf.100 = {
 
 	trigger = {
 		NOT = {
-			has_global_variable = bdf_sherlock_holmes_global_var
+			has_global_variable = bem_sherlock_holmes_global_var
 		}
 		year >= 1887
 		exists = c:GBR
@@ -484,13 +492,13 @@ bdf.100 = {
 	}
 
 	immediate = {
-		set_global_variable = bdf_sherlock_holmes_global_var
+		set_global_variable = bem_sherlock_holmes_global_var
 
 		create_character = {
-			dna = bdf_doyle
-			first_name = bdf_arthur_conan
-			last_name = bdf_doyle
-			birth_date = 1859.5.22
+			dna = bem_doyle
+			first_name = bem_arthur_conan
+			last_name = bem_doyle
+	#		birth_date = 1859.5.22
 			culture = cu:scottish
 			interest_group = ig_petty_bourgeoisie
 			female = no
@@ -499,10 +507,10 @@ bdf.100 = {
 				romantic
 			}
 
-			save_scope_as = bdf_doyle_scope
+			save_scope_as = bem_doyle_scope
 
 			on_created = {
-				scope:bdf_doyle_scope = {
+				scope:bem_doyle_scope = {
 					place_character_in_void = 4
 				}
 			}
@@ -510,11 +518,11 @@ bdf.100 = {
 	}
 
 	option = { #Support Scope!
-		name = bdf.10.a
+		name = bem.100.a
 		default_option = yes
 
 		add_modifier = {
-			name = bdf_sherlock_holmes_modifier
+			name = bem_sherlock_holmes_modifier
 		}
 	}
 }

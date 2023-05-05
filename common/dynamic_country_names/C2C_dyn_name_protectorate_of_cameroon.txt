@@ -1,7 +1,7 @@
-﻿C2T = { # Protectorate of Transjordan
+﻿C2C = { # Protectorate of Cameroon
 dynamic_country_name = {
-	name = dyn_c_default_transjordan
-	adjective = dyn_c_default_transjordan_adj
+	name = dyn_c_default_cameroon
+	adjective = dyn_c_default_cameroon_adj
 
 	is_main_tag_only = no
 	priority = 1
@@ -12,8 +12,8 @@ dynamic_country_name = {
 }
 
 	dynamic_country_name = {
-		name = dyn_c_protectorate_of_transjordan
-		adjective = dyn_c_protectorate_of_transjordan_adj
+		name = dyn_c_protectorate_of_cameroon
+		adjective = dyn_c_protectorate_of_cameroon_adj
 
 		is_main_tag_only = no
 		priority = 10

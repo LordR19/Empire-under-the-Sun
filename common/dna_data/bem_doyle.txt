@@ -1,4 +1,4 @@
-﻿bdf_doyle = {
+﻿bem_doyle = {
     portrait_info = {
         genes={         
             hair_color={ 124 193 0 0 }
