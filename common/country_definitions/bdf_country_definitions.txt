@@ -192,3 +192,18 @@ C2T = {
 	capital = STATE_TRANSJORDAN
 	
 }
+
+#Protectorate of Uganda
+C1U = {
+
+	color = { 230 170 0 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_UGANDA
+	
+}

@@ -102,6 +102,13 @@
  dyn_c_protectorate_of_transjordan: "Protectorate of Transjordan"
  dyn_c_protectorate_of_transjordan_adj: "Transjordanian"
 
+ C1U: "Colonial Uganda"
+ C1U_ADJ: "Ugandan"
+ dyn_c_default_uganda: "Uganda"
+ dyn_c_default_uganda_adj: "Ugandan"
+ dyn_c_protectorate_of_uganda: "Protectorate of Uganda"
+ dyn_c_protectorate_of_uganda_adj: "Ugandan"
+
  dyn_c_south_africa_union: "Union of South Africa"
  dyn_c_south_africa_union_adj: "South African"
  dyn_c_dominion_south_africa: "Dominion of South Africa"

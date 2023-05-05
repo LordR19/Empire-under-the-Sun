@@ -86,6 +86,10 @@ gov_british_protectorate = {
 				exists = c:C2T
 				root = c:C2T
 			}
+			AND = {
+				exists = c:C1U
+				root = c:C1U
+			}
 		}
 	}
 }

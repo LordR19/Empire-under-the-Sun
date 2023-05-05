@@ -199,3 +199,19 @@ C2T = {
 	
 	ai_will_do = { always = no }
 }
+
+#Protectorate of Uganda
+C1U = {
+	states = {
+		STATE_UGANDA
+	}
+
+	required_num_states = 1
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+	
+	ai_will_do = { always = no }
+}
