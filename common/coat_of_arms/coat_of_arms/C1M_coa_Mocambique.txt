@@ -1,0 +1,79 @@
+#Mozambique / South East Africa
+C1M = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	colored_emblem = {
+		texture = "ce_tricolor_fimbriated_thin.dds"
+		color1 = { 47 123 67 }
+		color2 = "black"
+		color3 = "yellow"
+	}
+
+	colored_emblem = {
+		texture = "ce_flag_chevron_left.dds"
+		color1 = "red"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+C1M_sub = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = "white"
+		instance = { scale = { 0.5 0.5 } position = { 0.75 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_armillary_sphere.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.5 0.5 } position = { 0.75 0.5 } }
+	}
+}
+
+C1M_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	colored_emblem = {
+		texture = "ce_tricolor_fimbriated_thin.dds"
+		color1 = { 47 123 67 }
+		color2 = "black"
+		color3 = "yellow"
+	}
+
+	colored_emblem = {
+		texture = "ce_flag_chevron_left.dds"
+		color1 = "red"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_crown_st_edward.dds"
+		color1 = "yellow"
+		color2 = "red"
+		color3 = "white"
+		instance = { scale = { 0.4 0.4 } position = { 0.17 0.5 } }
+	}
+}
+
+C1M_dictatorship = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	colored_emblem = {
+		texture = "ce_tricolor_fimbriated_thin.dds"
+		color1 = "black"
+		color2 = "black"
+		color3 = "black"
+	}
+
+	colored_emblem = {
+		texture = "ce_flag_chevron_left.dds"
+		color1 = "red"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}

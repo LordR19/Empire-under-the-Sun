@@ -151,6 +151,34 @@
  dyn_c_northern_rhodesia: "Northern Rhodesia"
  dyn_c_northern_rhodesia_adj: "Northern Rhodesian"
 
+ C1M: "Colonial Mocambique"
+ C1M_ADJ: "Mozambiquan"
+ dyn_c_default_mocambique: "Mocambique"
+ dyn_c_default_mocambique_adj: "Mozambiquan"
+ dyn_c_south_east_africa: "South East Africa"
+ dyn_c_south_east_africa_adj: "South East African"
+
+ C2M: "Colonial Madagascar"
+ C2M_ADJ: "Malagasy"
+ dyn_c_default_madagascar: "Madagascar"
+ dyn_c_default_madagascar_adj: "Malagasy"
+ dyn_c_colony_of_madagascar: "Colony of Madagascar"
+ dyn_c_colony_of_madagascar_adj: "Malagasy"
+
+ C2A: "Colonial Angola"
+ C2A_ADJ: "Angolan"
+ dyn_c_default_angola: "Angola"
+ dyn_c_default_angola_adj: "Angolan"
+ dyn_c_colony_of_angola: "[Country.GetOverlord.GetAdjectiveNoFormatting] Angola"
+ dyn_c_colony_of_angola_adj: "Angolan"
+
+ C3C: "Colonial Congo"
+ C3C_ADJ: "Congolese"
+ dyn_c_default_congo: "Congo"
+ dyn_c_default_congo_adj: "Congolese"
+ dyn_c_colony_of_congo: "[Country.GetOverlord.GetAdjectiveNoFormatting] Congo"
+ dyn_c_colony_of_congo_adj: "Congolese"
+
  dyn_c_south_africa_union: "Union of South Africa"
  dyn_c_south_africa_union_adj: "South African"
  dyn_c_dominion_south_africa: "Dominion of South Africa"
@@ -245,3 +273,5 @@
  bem_construction_support_sent_modifier: "Sent Construction Support to Subject"
 
  bem_sherlock_holmes_modifier: "Sherlock Holmes by Arthur Conan Doyle"
+
+ bem_on_the_origin_of_species_modifier: "On the Origin of Species by Charles Darwin"

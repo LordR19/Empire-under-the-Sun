@@ -318,3 +318,76 @@ C2R = {
 	
 	ai_will_do = { always = no }
 }
+
+#Mocambique / SE Africa
+C1M = {
+	states = {
+		STATE_MOCAMBIQUE
+		STATE_ZAMBEZIA
+		STATE_LOURENCO_MARQUES
+	}
+
+	required_num_states = 3
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+	
+	ai_will_do = { always = no }
+}
+
+#Colony of Madagascar
+C2M = {
+	states = {
+		STATE_NORTH_MADAGASCAR
+		STATE_SOUTH_MADAGASCAR
+	}
+
+	required_num_states = 2
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+	
+	ai_will_do = { always = no }
+}
+
+#Colony of Angola
+C2A = {
+	states = {
+		STATE_NORTH_ANGOLA
+		STATE_SOUTH_ANGOLA
+		STATE_EAST_ANGOLA
+	}
+
+	required_num_states = 3
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+	
+	ai_will_do = { always = no }
+}
+
+#Colony of Congo
+C3C = {
+	states = {
+		STATE_BAS_CONGO
+		STATE_KASAI
+		STATE_KATANGA
+		STATE_EQUATEUR
+		STATE_CONGO_ORIENTALE
+	}
+
+	required_num_states = 5
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+	
+	ai_will_do = { always = no }
+}

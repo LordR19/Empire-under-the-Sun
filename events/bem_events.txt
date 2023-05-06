@@ -172,6 +172,22 @@ bem.1 = {
 						exists = c:C2R
 						root = c:C2R
 					}
+					AND = {
+						exists = c:C1M
+						root = c:C1M
+					}
+					AND = {
+						exists = c:C2M
+						root = c:C2M
+					}
+					AND = {
+						exists = c:C2A
+						root = c:C2A
+					}
+					AND = {
+						exists = c:C3C
+						root = c:C3C
+					}
 				}
 			}
 			change_subject_type = subject_type_puppet
@@ -490,10 +506,6 @@ bem.100 = {
 
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 
-	cooldown = {
-		years = 4
-	}
-
 	trigger = {
 		NOT = {
 			has_global_variable = bem_sherlock_holmes_global_var
@@ -510,7 +522,7 @@ bem.100 = {
 			dna = bem_doyle
 			first_name = bem_arthur_conan
 			last_name = bem_doyle
-	#		birth_date = 1859.5.22
+			birth_date = 1859.5.22
 			culture = cu:scottish
 			interest_group = ig_petty_bourgeoisie
 			female = no
@@ -529,12 +541,78 @@ bem.100 = {
 		}
 	}
 
-	option = { #Support Scope!
+	option = { #Elementary, my dear Watson.
 		name = bem.100.a
 		default_option = yes
 
 		add_modifier = {
 			name = bem_sherlock_holmes_modifier
+		}
+	}
+}
+
+# On the Origin of Species published
+bem.101 = {
+	type = country_event
+	placement = ROOT
+
+	title = bem.101.t
+	desc = bem.101.d
+	flavor = bem.101.f
+
+	duration = 3
+
+	gui_window = event_window_1char_tabloid
+
+	left_icon = scope:bem_darwin_scope
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/world_fair"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	trigger = {
+		NOT = {
+			has_global_variable = bem_on_the_origin_of_species_global_var
+		}
+		year >= 1859
+		exists = c:GBR
+		this = c:GBR
+	}
+
+	immediate = {
+		set_global_variable = bem_on_the_origin_of_species_global_var
+
+		create_character = {
+			dna = bem_darwin
+			first_name = bem_charles
+			last_name = bem_darwin
+			age = 50
+			birth_date = 1809.2.12
+			culture = cu:british
+			interest_group = ig_intelligentsia
+			female = no
+			traits = { 
+				innovative
+				meticulous
+			}
+
+			save_scope_as = bem_darwin_scope
+
+			on_created = {
+				scope:bem_darwin_scope = {
+					place_character_in_void = 4
+				}
+			}
+		}
+	}
+
+	option = { #Evolved from apes, are we? Well, it does make sense."
+		name = bem.101.a
+		default_option = yes
+
+		add_modifier = {
+			name = bem_on_the_origin_of_species_modifier
 		}
 	}
 }

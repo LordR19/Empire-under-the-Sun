@@ -150,6 +150,22 @@ gov_british_crown_colony = {
 				exists = c:C1R
 				root = c:C1R
 			}
+			AND = {
+				exists = c:C1M
+				root = c:C1M
+			}
+			AND = {
+				exists = c:C2M
+				root = c:C2M
+			}
+			AND = {
+				exists = c:C2M
+				root = c:C2M
+			}
+			AND = {
+				exists = c:C3C
+				root = c:C3C
+			}
 		}
 	}
 }

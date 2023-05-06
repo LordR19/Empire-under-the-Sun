@@ -21,6 +21,10 @@ bem_on_yearly_events = {
 			id = bem.100
 			days = { 1 360 }
 		}
+		trigger_event = { # Colonial / Imperial Conference (hidden) --> Still fires but player doesn't get an event
+			id = bem.101
+			days = { 1 360 }
+		}
 	}
 }
 

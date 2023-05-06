@@ -1,0 +1,71 @@
+#Colony of Madagascar
+C2M = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	colored_emblem = {
+		texture = "ce_bicolor_top.dds"
+		color1 = "red"
+		instance = { scale = { 0.66 1 } position = { 0.7 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "green"
+		instance = { scale = { 0.66 1 } position = { 0.7 0.5 } }
+	}
+}
+
+C2M_sub = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	colored_emblem = {
+		texture = "ce_seal_madagascar.dds"
+		color1 = "red_light"
+		color2 = "white"
+		instance = { scale = { 0.5 0.5 } position = { 0.75 0.5 } }
+	}
+}
+
+C2M_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	colored_emblem = {
+		texture = "ce_bicolor_top.dds"
+		color1 = "red"
+		instance = { scale = { 0.66 1 } position = { 0.7 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "green"
+		instance = { scale = { 0.66 1 } position = { 0.7 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_crown_st_edward.dds"
+		color1 = "yellow"
+		color2 = "red"
+		color3 = "white"
+		instance = { scale = { 0.6 0.6 } position = { 0.19 0.5 } }
+	}
+}
+
+C2M_dictatorship = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	
+	colored_emblem = {
+		texture = "ce_bicolor_top.dds"
+		color1 = "red"
+		instance = { scale = { 0.66 1 } position = { 0.7 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "green"
+		instance = { scale = { 0.66 1 } position = { 0.7 0.5 } }
+	}
+}

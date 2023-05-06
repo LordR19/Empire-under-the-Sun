@@ -297,3 +297,63 @@ C2R = {
 	capital = STATE_ZAMBIA
 	
 }
+
+#Mocambique / SE Africa
+C1M = {
+
+	color = { 255 200 85 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_MOCAMBIQUE
+	
+}
+
+#Colony of Madagascar
+C2M = {
+
+	color = "green"
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_NORTH_MADAGASCAR
+	
+}
+
+#Colony of Angola
+C2A = {
+
+	color = { 150 50 50 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_NORTH_ANGOLA
+	
+}
+
+#Colony of Congo
+C3C = {
+
+	color = { 0 130 255 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_BAS_CONGO
+	
+}
