@@ -487,3 +487,19 @@ C4C = {
 	
 	ai_will_do = { always = no }
 }
+
+#Colony of Bermuda
+C2B = {
+	states = {
+		STATE_BERMUDA
+	}
+
+	required_num_states = 1
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+	
+	ai_will_do = { always = no }
+}

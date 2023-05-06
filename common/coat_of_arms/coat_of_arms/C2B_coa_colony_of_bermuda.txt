@@ -1,0 +1,54 @@
+#Colony of Bermuda
+C2B = {
+	pattern = "pattern_solid.tga"
+	color1 = { 20 154 250 }
+	
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "white"
+		color2 = "green_light"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+C2B_sub = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	textured_emblem = {
+		texture = "te_seal_bermuda.dds"
+		instance = { scale = { 0.5 0.5 } position = { 0.75 0.5 } }
+	}
+}
+
+C2B_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = { 20 154 250 }
+	
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "white"
+		color2 = "green_light"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_crown_st_edward.dds"
+		color1 = "yellow"
+		color2 = "red"
+		color3 = "white"
+		instance = { scale = { 0.4 0.4 } position = { 0.2 0.27 } }
+	}
+}
+
+C2B_dictatorship = {
+	pattern = "pattern_solid.tga"
+	color1 = { 20 154 250 }
+	
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "white"
+		color2 = "black"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}

@@ -182,6 +182,10 @@ gov_british_crown_colony = {
 				exists = c:C4C
 				root = c:C4C
 			}
+			AND = {
+				exists = c:C2B
+				root = c:C2B
+			}
 		}
 	}
 }

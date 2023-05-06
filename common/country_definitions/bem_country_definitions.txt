@@ -417,3 +417,18 @@ C4C = {
 	capital = STATE_UBANGI_SHARI
 	
 }
+
+#Colony of Bermuda
+C2B = {
+
+	color = { 20 154 250 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_BERMUDA
+	
+}

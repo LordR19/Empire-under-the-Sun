@@ -209,6 +209,13 @@
  dyn_c_colony_of_central_africa: "[Country.GetOverlord.GetAdjectiveNoFormatting] Central Africa"
  dyn_c_colony_of_central_africa_adj: "Central African"
 
+ C2B: "Colonial Bermuda"
+ C2B_ADJ: "Bermudian"
+ dyn_c_default_bermuda: "Bermuda"
+ dyn_c_default_bermuda_adj: "Bermudian"
+ dyn_c_colony_of_bermuda: "[Country.GetOverlord.GetAdjectiveNoFormatting] Bermuda"
+ dyn_c_colony_of_bermuda_adj: "Bermudian"
+
  dyn_c_south_africa_union: "Union of South Africa"
  dyn_c_south_africa_union_adj: "South African"
  dyn_c_dominion_south_africa: "Dominion of South Africa"
