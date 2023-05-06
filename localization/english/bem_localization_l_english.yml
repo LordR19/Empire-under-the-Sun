@@ -25,6 +25,15 @@
  SST: "Strait Settlements"
  SST_ADJ: "Malayan"
 
+ CBG: "Colonial West Guayana"
+ CBG_ADJ: "West Guayanese"
+ dyn_c_default_west_guayana: "West Guayana"
+ dyn_c_default_west_guayana_adj: "West Guayanese"
+ dyn_c_colony_of_west_guayana: "[Country.GetOverlord.GetAdjectiveNoFormatting] West Guayana"
+ dyn_c_colony_of_west_guayana_adj: "[Country.GetOverlord.GetAdjectiveNoFormatting] West Guayanese"
+ dyn_c_cbg_british: "British Guayana"
+ dyn_c_cbg_british_adj: "British Guayanese"
+
  C1E: "Colonial Egypt"
  C1E_ADJ: "Egyptian"
  dyn_c_default_egypt: "Egypt"
@@ -272,7 +281,7 @@
 
  bem.100.t: "\"Sherlock Holmes\" by Arthur Conand Doyle published"
  bem.100.d: "A detective solving crimes by applying logic and his mind. What an interesting concept that Arthur Conan Doyle came up with."
- bem.100.f: "Some flavor text goes here."
+ bem.100.f: "\"It was easier to know it than to explain why I know it. If you were asked to prove that two and two made four, you might find some difficulty, and yet you are quite sure of the fact.\"\n- Arthur Conan Doyle, A Study in Scarlet"
  bem.100.a: "Elementary, my dear Watson."
 
  bem_arthur_conan: "Arthur Conan"
@@ -280,7 +289,7 @@
 
  bem.101.t: "Charles Darwin releases \"On the Origin of Species\""
  bem.101.d: "In his latest publication, the controversial scientist  outline a theory of how traits are selected by nature, where the tremendous diversity of life on earth came from and how animals and plants came to be distributed across the planet."
- bem.101.f: "\"One general law, leading to the advancement of all organic beings, namely, multiply, vary, let the strongest live and the weakest die.\"\n― Charles Darwin, The Origin of Species"
+ bem.101.f: "\"One general law, leading to the advancement of all organic beings, namely, multiply, vary, let the strongest live and the weakest die.\"\n- Charles Darwin, The Origin of Species"
  bem.101.a: "Evolved from apes, are we? Well, it does make sense."
 
  bem_charles: "Charles"

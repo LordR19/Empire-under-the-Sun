@@ -93,6 +93,10 @@ bem.1 = {
 						root = c:HGK
 					}
 					AND = {
+						exists = c:CBG
+						root = c:CBG
+					}
+					AND = {
 						exists = c:NAL
 						root = c:NAL
 					}

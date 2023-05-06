@@ -16,11 +16,17 @@ C1G_sub = {
 
 	colored_emblem = {
 		texture = "ce_frame_circle.dds"
-		color1 = "yellow"
-		instance = { scale = { 0.5 0.5 } position = { 0.75 0.5 } }
+		color1 = "white"
+		instance = { scale = { 0.51 0.51 } position = { 0.75 0.5 } }
 	}
 
-colored_emblem = {
+	colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.48 0.48 } position = { 0.75 0.5 } }
+	}
+
+	colored_emblem = {
 		texture = "ce_emblem_ship.dds"
 		color1 = "black"
 		color2 = "green_light"
@@ -31,7 +37,7 @@ colored_emblem = {
 	colored_emblem = {
 		texture = "ce_seal_sea.dds"
 		color1 = "azure"
-		instance = { scale = { 0.51 0.51 } position = { 0.75 0.51 } }
+		instance = { scale = { 0.49 0.49 } position = { 0.75 0.51 } }
 	}
 }
 

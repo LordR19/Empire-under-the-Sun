@@ -21,8 +21,11 @@ dynamic_country_name = {
 		trigger = {
 			scope:actor = {
 				is_subject = yes
-				NOT = {
-					is_subject_of = c:POR
+				AND = {
+					exists = c:POR
+					NOT = {
+						is_subject_of = c:POR
+					}
 				}
 			}
 		}

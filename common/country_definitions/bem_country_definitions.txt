@@ -28,6 +28,21 @@ SST = {
 	
 }
 
+#Colonial British Guayana
+CBG = {
+
+	color = { 200 68 49 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_GUAYANA
+	
+}
+
 #Colonial Egypt
 C1E = {
 
@@ -385,5 +400,20 @@ C1G = {
 	cultures = { british }
 	
 	capital = STATE_GABON
+	
+}
+
+#Colony of Central Africa
+C4C = {
+
+	color = { 153 147 78 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_UBANGI_SHARI
 	
 }
