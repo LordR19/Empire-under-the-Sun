@@ -521,3 +521,19 @@ C2E = {
 	
 	ai_will_do = { always = no }
 }
+
+#Colony of Eritrea
+C3E = {
+	states = {
+		STATE_ERITREA
+	}
+
+	required_num_states = 1
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+	
+	ai_will_do = { always = no }
+}

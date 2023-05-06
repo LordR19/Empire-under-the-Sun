@@ -447,3 +447,18 @@ C2E = {
 	capital = STATE_OROMIA
 	
 }
+
+#Colony of Eritrea
+C3E = {
+
+	color = { 222 185 0 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_ERITREA
+	
+}
