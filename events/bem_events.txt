@@ -29,28 +29,6 @@ bem.1 = {
 	}
 
 	immediate = {
-#			add_primary_culture = cu:british
-#			set_state_religion = rel:protestant
-#			while = {
-#				limit = {
-#					any_primary_culture = {
-#						NOT = {
-#							this = cu:british
-#						}
-#					}
-#				}
-#				random_primary_culture = {
-#					limit = { 
-#						NOT = {
-#							this = cu:british
-#						}
-#					}
-#					save_scope_as = primary_culture_delete_scope
-#				}
-#				remove_primary_culture = scope:primary_culture_delete_scope
-#			} 
-#		}
-
 		activate_law = law_type:law_presidential_republic
 		trigger_event = {
 			id = bem.2
@@ -215,6 +193,10 @@ bem.1 = {
 					AND = {
 						exists = c:C3E
 						root = c:C3E
+					}
+					AND = {
+						exists = c:C5C
+						root = c:C5C
 					}
 				}
 			}

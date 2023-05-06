@@ -462,3 +462,18 @@ C3E = {
 	capital = STATE_ERITREA
 	
 }
+
+#Colony of Chad
+C5C = {
+
+	color = { 0 38 100 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_WADDAI
+	
+}

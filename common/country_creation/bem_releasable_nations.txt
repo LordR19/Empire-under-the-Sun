@@ -537,3 +537,20 @@ C3E = {
 	
 	ai_will_do = { always = no }
 }
+
+#Colony of Chad
+C5C = {
+	states = {
+		STATE_WADDAI
+		STATE_CHAD
+	}
+
+	required_num_states = 2
+
+#	possible = {
+#		exists = c:GBR
+#		this = c:GBR
+#	}
+	
+	ai_will_do = { always = no }
+}
