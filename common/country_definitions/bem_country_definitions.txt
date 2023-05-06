@@ -477,3 +477,18 @@ C5C = {
 	capital = STATE_WADDAI
 	
 }
+
+#Colony of Niger
+C2N = {
+
+	color = { 224 82 6 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_OUTER_HAUSALAND
+	
+}

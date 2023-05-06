@@ -237,6 +237,13 @@
  dyn_c_colony_of_chad: "[Country.GetOverlord.GetAdjectiveNoFormatting] Chad"
  dyn_c_colony_of_chad_adj: "Chad"
 
+ C2N: "Colonial Niger"
+ C2N_ADJ: "Nigerien"
+ dyn_c_default_niger: "Niger"
+ dyn_c_default_niger_adj: "Nigerien"
+ dyn_c_colony_of_niger: "[Country.GetOverlord.GetAdjectiveNoFormatting] Niger"
+ dyn_c_colony_of_niger_adj: "Nigerien"
+
  dyn_c_south_africa_union: "Union of South Africa"
  dyn_c_south_africa_union_adj: "South African"
  dyn_c_dominion_south_africa: "Dominion of South Africa"

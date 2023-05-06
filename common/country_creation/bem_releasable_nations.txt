@@ -547,10 +547,27 @@ C5C = {
 
 	required_num_states = 2
 
-#	possible = {
-#		exists = c:GBR
-#		this = c:GBR
-#	}
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+	
+	ai_will_do = { always = no }
+}
+
+#Colony of Niger
+C2N = {
+	states = {
+		STATE_OUTER_HAUSALAND
+		STATE_NIGER
+	}
+
+	required_num_states = 2
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
 	
 	ai_will_do = { always = no }
 }

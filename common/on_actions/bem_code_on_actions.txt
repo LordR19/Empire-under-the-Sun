@@ -52,6 +52,7 @@ bem_on_country_released_as_own_subject = {
 		else_if = {
 			limit = {
 				scope:target = {
+					always = no
 					OR = {
 						is_country_type = colonial
 						is_country_type = unrecognized
