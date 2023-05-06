@@ -127,7 +127,7 @@
  C1W_ADJ: "South West African"
  dyn_c_default_south_west: "Namibia"
  dyn_c_default_south_west_adj: "Namibian"
- dyn_c_territory_of_swa: "Territory of South West Africa"
+ dyn_c_territory_of_swa: "[Country.GetOverlord.GetAdjectiveNoFormatting] South West Africa"
  dyn_c_territory_of_swa_adj: "South West African"
 
  C1B: "Colonial Bechuanaland"
@@ -155,7 +155,7 @@
  C1M_ADJ: "Mozambiquan"
  dyn_c_default_mocambique: "Mocambique"
  dyn_c_default_mocambique_adj: "Mozambiquan"
- dyn_c_south_east_africa: "South East Africa"
+ dyn_c_south_east_africa: "[Country.GetOverlord.GetAdjectiveNoFormatting] South East Africa"
  dyn_c_south_east_africa_adj: "South East African"
 
  C2M: "Colonial Madagascar"
@@ -178,6 +178,27 @@
  dyn_c_default_congo_adj: "Congolese"
  dyn_c_colony_of_congo: "[Country.GetOverlord.GetAdjectiveNoFormatting] Congo"
  dyn_c_colony_of_congo_adj: "Congolese"
+
+ C3M: "Colonial Middle-Congo"
+ C3M_ADJ: "Middle-Congolese"
+ dyn_c_default_middle_congo: "Middle-Congo"
+ dyn_c_default_middle_congo_adj: "Middle-Congolese"
+ dyn_c_colony_of_middle_congo: "[Country.GetOverlord.GetAdjectiveNoFormatting] Middle-Congo"
+ dyn_c_colony_of_middle_congo_adj: "Middle-Congolese"
+
+ C1G: "Colonial Gabon"
+ C1G_ADJ: "Gabonese"
+ dyn_c_default_gabon: "Gabon"
+ dyn_c_default_gabon_adj: "Gabonese"
+ dyn_c_colony_of_gabon: "[Country.GetOverlord.GetAdjectiveNoFormatting] Gabon"
+ dyn_c_colony_of_gabon_adj: "Gabonese"
+
+ C4C: "Colonial Central Africa"
+ C4C_ADJ: "Central African"
+ dyn_c_default_ubangi_shari: "Ubangi-Shari"
+ dyn_c_default_ubangi_shari_adj: "Ubangi-Shari"
+ dyn_c_colony_of_central_africa: "[Country.GetOverlord.GetAdjectiveNoFormatting] Central Africa"
+ dyn_c_colony_of_central_africa_adj: "Central African"
 
  dyn_c_south_africa_union: "Union of South Africa"
  dyn_c_south_africa_union_adj: "South African"

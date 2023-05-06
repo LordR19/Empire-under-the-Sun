@@ -357,3 +357,33 @@ C3C = {
 	capital = STATE_BAS_CONGO
 	
 }
+
+#Colony of Middle-Congo
+C3M = {
+
+	color = { 175 40 40 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_CONGO
+	
+}
+
+#Colony of Gabon
+C1G = {
+
+	color = { 20 200 68 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_GABON
+	
+}

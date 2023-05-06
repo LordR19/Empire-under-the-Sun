@@ -1,7 +1,7 @@
-﻿C1C = { # Protectorate of Cyprus
+﻿C1G = { # Protectorate of Gabon
 dynamic_country_name = {
-	name = dyn_c_default_cyprus
-	adjective = dyn_c_default_cyprus_adj
+	name = dyn_c_default_gabon
+	adjective = dyn_c_default_gabon_adj
 
 	is_main_tag_only = no
 	priority = 1
@@ -12,8 +12,8 @@ dynamic_country_name = {
 }
 
 	dynamic_country_name = {
-		name = dyn_c_protectorate_of_cyprus
-		adjective = dyn_c_protectorate_of_cyprus_adj
+		name = dyn_c_colony_of_gabon
+		adjective = dyn_c_colony_of_gabon_adj
 
 		is_main_tag_only = no
 		priority = 10

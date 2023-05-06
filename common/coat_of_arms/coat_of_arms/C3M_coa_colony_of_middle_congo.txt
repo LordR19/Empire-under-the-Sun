@@ -1,0 +1,59 @@
+#Colony of Middle-Congo
+C3M = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	
+	colored_emblem = {
+		texture = "ce_flag_triangles_barre.dds"
+		color1 = "green"
+		color2 = "red"
+	}
+}
+
+C3M_sub = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = "white"
+		instance = { scale = { 0.5 0.5 } position = { 0.75 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_emblem_lion_rampant_torch.dds"
+		color1 = "red"
+		color2 = "green"
+		color3 = "white"
+		instance = { scale = { 0.43 0.43 } position = { 0.75 0.53 } }
+	}
+}
+
+C3M_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	
+	colored_emblem = {
+		texture = "ce_flag_triangles_barre.dds"
+		color1 = "green"
+		color2 = "red"
+	}
+	colored_emblem = {
+		texture = "ce_crown_st_edward.dds"
+		color1 = "yellow"
+		color2 = "red"
+		color3 = "white"
+		instance = { scale = { 0.5 0.5 } position = { 0.2 0.27 } }
+	}
+}
+
+C3M_dictatorship = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	
+	colored_emblem = {
+		texture = "ce_flag_triangles_barre.dds"
+		color1 = "black"
+		color2 = "red"
+	}
+}

@@ -243,7 +243,7 @@ C2C = {
 		STATE_SOUTH_CAMEROON
 	}
 
-	required_num_states = 2
+	required_num_states = 1
 
 	possible = {
 		exists = c:GBR
@@ -383,6 +383,38 @@ C3C = {
 	}
 
 	required_num_states = 5
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+	
+	ai_will_do = { always = no }
+}
+
+#Colony of Middle-Congo
+C3M = {
+	states = {
+		STATE_CONGO
+	}
+
+	required_num_states = 1
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+	
+	ai_will_do = { always = no }
+}
+
+#Colony of Gabon
+C1G = {
+	states = {
+		STATE_GABON
+	}
+
+	required_num_states = 1
 
 	possible = {
 		exists = c:GBR
