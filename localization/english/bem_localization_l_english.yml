@@ -216,6 +216,13 @@
  dyn_c_colony_of_bermuda: "[Country.GetOverlord.GetAdjectiveNoFormatting] Bermuda"
  dyn_c_colony_of_bermuda_adj: "Bermudian"
 
+ C2E: "Colonial Ethiopia"
+ C2E_ADJ: "Ethiopian"
+ dyn_c_default_ethiopia: "Ethiopia"
+ dyn_c_default_ethiopia_adj: "Ethiopian"
+ dyn_c_colony_of_ethiopia: "[Country.GetOverlord.GetAdjectiveNoFormatting] Ethiopia"
+ dyn_c_colony_of_ethiopia_adj: "Ethiopian"
+
  dyn_c_south_africa_union: "Union of South Africa"
  dyn_c_south_africa_union_adj: "South African"
  dyn_c_dominion_south_africa: "Dominion of South Africa"

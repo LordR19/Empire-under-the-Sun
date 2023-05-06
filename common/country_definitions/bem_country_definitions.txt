@@ -432,3 +432,18 @@ C2B = {
 	capital = STATE_BERMUDA
 	
 }
+
+#Colony of Ethiopia
+C2E = {
+
+	color = { 23 108 0 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_OROMIA
+	
+}

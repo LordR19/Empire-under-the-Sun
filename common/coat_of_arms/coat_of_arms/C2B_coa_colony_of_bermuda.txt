@@ -37,7 +37,7 @@ C2B_monarchy = {
 		color1 = "yellow"
 		color2 = "red"
 		color3 = "white"
-		instance = { scale = { 0.4 0.4 } position = { 0.2 0.27 } }
+		instance = { scale = { 0.45 0.45 } position = { 0.5 0.51 } }
 	}
 }
 
