@@ -552,3 +552,18 @@ C1L = {
 	capital = STATE_TRIPOLI
 	
 }
+
+#Colonial Tunisia
+C3T = {
+
+	color = { 230 42 0  }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_TUNISIA
+	
+}

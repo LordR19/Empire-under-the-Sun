@@ -605,3 +605,19 @@ C1L = {
 	
 	ai_will_do = { always = no }
 }
+
+#Colonial Tunisia
+C3T = {
+	states = {
+		STATE_TUNISIA
+	}
+
+	required_num_states = 1
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+	
+	ai_will_do = { always = no }
+}

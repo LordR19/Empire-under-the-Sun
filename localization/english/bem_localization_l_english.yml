@@ -274,6 +274,13 @@
  dyn_c_colony_of_lybia: "[Country.GetOverlord.GetAdjectiveNoFormatting] Lybia"
  dyn_c_colony_of_lybia_adj: "Lybian"
 
+ C3T: "Colonial Tunisia"
+ C3T_ADJ: "Tunisian"
+ dyn_c_default_tunisia: "Tunisia"
+ dyn_c_default_tunisia_adj: "Tunisia"
+ dyn_c_colony_of_tunisia: "[Country.GetOverlord.GetAdjectiveNoFormatting] Tunisia"
+ dyn_c_colony_of_tunisia_adj: "Tunisian"
+
  dyn_c_south_africa_union: "Union of South Africa"
  dyn_c_south_africa_union_adj: "South African"
  dyn_c_dominion_south_africa: "Dominion of South Africa"
