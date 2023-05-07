@@ -52,7 +52,6 @@ bem_on_country_released_as_own_subject = {
 		else_if = {
 			limit = {
 				scope:target = {
-					always = no
 					OR = {
 						is_country_type = colonial
 						is_country_type = unrecognized
@@ -122,8 +121,9 @@ bem_on_country_released_as_own_subject = {
 						}
 						random_primary_culture = {
 							limit = { 
-								NOT = {
+								NOR = {
 									this = scope:switch_primary_culture_to_scope
+									cu:boer
 								}
 							}
 							save_scope_as = primary_culture_delete_scope

@@ -807,3 +807,38 @@ C3P = {
 
 	ai_will_do = { always = no }
 }
+
+#Colonial Ivory Coast
+C2I = {
+	states = {
+		STATE_IVORY_COAST
+		STATE_WINDWARD_COAST
+	}
+
+	required_num_states = 1
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+
+	ai_will_do = { always = no }
+}
+
+#Colonial Transvaal
+C5T = {
+	states = {
+		STATE_TRANSVAAL
+		STATE_VRYSTAAT
+		STATE_ZULULAND
+	}
+
+	required_num_states = 1
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+
+	ai_will_do = { always = no }
+}

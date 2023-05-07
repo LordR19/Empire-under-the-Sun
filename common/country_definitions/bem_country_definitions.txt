@@ -706,7 +706,7 @@ C2G = {
 #Colonial Gold Coast
 C3G = {
 
-	color = { 247 224 23 }
+	color = { 42 52 52 }
 
 	country_type = colonial
 
@@ -721,7 +721,7 @@ C3G = {
 #Colonial Upper Volta
 C1V = {
 
-	color = { 235 74 4 }
+	color = { 235 34 4 }
 
 	country_type = colonial
 
@@ -745,5 +745,35 @@ C3P = {
 	cultures = { british }
 
 	capital = STATE_LIBERIA
+
+}
+
+#Colonial Ivory Coast
+C2I = {
+
+	color = { 0 250 147 }
+
+	country_type = colonial
+
+	tier = principality
+
+	cultures = { british }
+
+	capital = STATE_IVORY_COAST
+
+}
+
+#Colonial Transvaal
+C5T = {
+
+	color = { 171 200 255 }
+
+	country_type = colonial
+
+	tier = kingdom
+
+	cultures = { british }
+
+	capital = STATE_TRANSVAAL
 
 }

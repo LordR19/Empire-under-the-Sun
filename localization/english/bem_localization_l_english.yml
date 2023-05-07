@@ -358,6 +358,20 @@
  dyn_c_colony_of_pepper_coast: "[Country.GetOverlord.GetAdjectiveNoFormatting] Pepper Coast"
  dyn_c_colony_of_pepper_coast_adj: "Pepper Coaster"
 
+ C2I: "Colonial Ivory Coast"
+ C2I_ADJ: "Ivorian"
+ dyn_c_default_ivory_coast: "Ivory Coast"
+ dyn_c_default_ivory_coast_adj: "Ivorian"
+ dyn_c_colony_of_ivory_coast: "[Country.GetOverlord.GetAdjectiveNoFormatting] Ivory Coast"
+ dyn_c_colony_of_ivory_coast_adj: "Ivorian"
+
+ C5T: "Colonial Transvaal"
+ C5T_ADJ: "Transvaalian"
+ dyn_c_default_transvaal: "Transvaal"
+ dyn_c_default_transvaal_adj: "Transvaalian"
+ dyn_c_colony_of_transvaal: "[Country.GetOverlord.GetAdjectiveNoFormatting] Transvaal"
+ dyn_c_colony_of_transvaal_adj: "Transvaalian"
+
  dyn_c_south_africa_union: "Union of South Africa"
  dyn_c_south_africa_union_adj: "South African"
  dyn_c_dominion_south_africa: "Dominion of South Africa"
