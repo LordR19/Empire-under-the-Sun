@@ -507,3 +507,18 @@ C4M = {
 	capital = STATE_WESTERN_MALI
 	
 }
+
+#Territory of Papua
+C2P = {
+
+	color = { 45 45 45  }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_EASTERN_NEW_GUINEA
+	
+}

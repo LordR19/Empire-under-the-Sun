@@ -251,6 +251,15 @@
  dyn_c_colony_of_mali: "[Country.GetOverlord.GetAdjectiveNoFormatting] Mali"
  dyn_c_colony_of_mali_adj: "Malian"
 
+ C2P: "Colonial Eastern Papua"
+ C2P_ADJ: "Papuan"
+ dyn_c_default_papua: "Papua New Guinea"
+ dyn_c_default_papua_adj: "Papuan"
+ dyn_c_colony_of_papua: "Territory of Eastern Papua"
+ dyn_c_colony_of_papua_adj: "East Papuan"
+ dyn_c_colony_of_papua_british: "Territory of Papua"
+ dyn_c_colony_of_papua_british_adj: "Papuan"
+
  dyn_c_south_africa_union: "Union of South Africa"
  dyn_c_south_africa_union_adj: "South African"
  dyn_c_dominion_south_africa: "Dominion of South Africa"

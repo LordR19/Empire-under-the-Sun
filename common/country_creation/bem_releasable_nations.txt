@@ -589,3 +589,19 @@ C4M = {
 	
 	ai_will_do = { always = no }
 }
+
+#Territory of Papua
+C2P = {
+	states = {
+		STATE_EASTERN_NEW_GUINEA
+	}
+
+	required_num_states = 1
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+	
+	ai_will_do = { always = no }
+}
