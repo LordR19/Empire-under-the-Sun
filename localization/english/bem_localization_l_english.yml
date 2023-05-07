@@ -302,6 +302,13 @@
  dyn_c_colony_of_west_sahara: "[Country.GetOverlord.GetAdjectiveNoFormatting] West Sahara"
  dyn_c_colony_of_west_sahara_adj: "West Saharan"
 
+ C6M: "Colonial Mauritania"
+ C6M_ADJ: "Mauritanian"
+ dyn_c_default_mauritania: "Mauritania"
+ dyn_c_default_mauritania_adj: "Mauritanian"
+ dyn_c_colony_of_mauritania: "[Country.GetOverlord.GetAdjectiveNoFormatting] Mauritania"
+ dyn_c_colony_of_mauritania_adj: "Mauritanian"
+
  dyn_c_south_africa_union: "Union of South Africa"
  dyn_c_south_africa_union_adj: "South African"
  dyn_c_dominion_south_africa: "Dominion of South Africa"
