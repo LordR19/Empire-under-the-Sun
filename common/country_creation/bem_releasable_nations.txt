@@ -621,3 +621,23 @@ C3T = {
 	
 	ai_will_do = { always = no }
 }
+
+#Colonial Algeria
+C3A = {
+	states = {
+		STATE_ALGIERS
+		STATE_CONSTANTINE
+		STATE_EAST_SAHARA
+		STATE_SAHARA
+		STATE_TLEMCEN
+	}
+
+	required_num_states = 1
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+	
+	ai_will_do = { always = no }
+}

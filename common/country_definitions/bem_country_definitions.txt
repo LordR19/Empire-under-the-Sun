@@ -567,3 +567,18 @@ C3T = {
 	capital = STATE_TUNISIA
 	
 }
+
+#Colonial Algeria
+C3A = {
+
+	color = { 243 211 211 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_ALGIERS
+	
+}
