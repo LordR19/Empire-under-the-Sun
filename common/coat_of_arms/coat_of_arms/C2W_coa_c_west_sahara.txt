@@ -1,0 +1,62 @@
+#Colonial West Sahara
+C2W = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "yellow"
+	}
+	colored_emblem = {
+		texture = "ce_crescent_star_06_pale.dds"
+		color1 = "red"
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 } }
+	}
+}
+
+C2W_sub = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	textured_emblem = {
+		texture = "te_seal_west_africa.dds"
+		instance = { scale = { 0.5 0.5 } position = { 0.75 0.5 } }
+	}
+}
+
+C2W_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "yellow"
+	}
+	colored_emblem = {
+		texture = "ce_crescent_star_06_pale.dds"
+		color1 = "red"
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_crown_st_edward.dds"
+		color1 = "yellow"
+		color2 = "red"
+		color3 = "white"
+		instance = { scale = { 0.4 0.4 } position = { 0.18 0.23 } }
+	}
+}
+
+C2W_dictatorship = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "red"
+	}
+	colored_emblem = {
+		texture = "ce_crescent_star_06_pale.dds"
+		color1 = "white"
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 } }
+	}
+}

@@ -295,6 +295,13 @@
  dyn_c_colony_of_morocco: "[Country.GetOverlord.GetAdjectiveNoFormatting] Morocco"
  dyn_c_colony_of_morocco_adj: "Moroccan"
 
+ C2W: "Colonial West Sahara"
+ C2W_ADJ: "West Saharan"
+ dyn_c_default_west_sahara: "West Sahara"
+ ddyn_c_default_west_sahara_adj: "West Saharan"
+ dyn_c_colony_of_west_sahara: "[Country.GetOverlord.GetAdjectiveNoFormatting] West Sahara"
+ dyn_c_colony_of_west_sahara_adj: "West Saharan"
+
  dyn_c_south_africa_union: "Union of South Africa"
  dyn_c_south_africa_union_adj: "South African"
  dyn_c_dominion_south_africa: "Dominion of South Africa"

@@ -660,3 +660,36 @@ C5M = {
 	
 	ai_will_do = { always = no }
 }
+
+#Colonial West Sahara
+C2W = {
+	states = {
+		STATE_WEST_SAHARA
+	}
+
+	required_num_states = 1
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+	
+	ai_will_do = { always = no }
+}
+
+#Colonial Mauritania
+C6M = {
+	states = {
+		STATE_MAURITANIA
+		STATE_INNER_MAURITANIA
+	}
+
+	required_num_states = 1
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+	
+	ai_will_do = { always = no }
+}

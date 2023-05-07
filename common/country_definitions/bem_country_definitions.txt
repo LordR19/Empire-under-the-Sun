@@ -597,3 +597,48 @@ C5M = {
 	capital = STATE_MARRAKECH
 	
 }
+
+#Colonial Morocco
+C5M = {
+
+	color = { 0 98 51 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_MARRAKECH
+	
+}
+
+#Colonial West Sahara
+C2W = {
+
+	color = { 255 175 111 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_WEST_SAHARA
+	
+}
+
+#Colonial Mauritania
+C6M = {
+
+	color = { 208 28 31  }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_MAURITANIA
+	
+}
