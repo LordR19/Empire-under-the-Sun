@@ -693,3 +693,69 @@ C6M = {
 	
 	ai_will_do = { always = no }
 }
+
+#Colonial Dahomey
+C1D = {
+	states = {
+		STATE_DAHOMEY
+	}
+
+	required_num_states = 1
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+	
+	ai_will_do = { always = no }
+}
+
+#Colonial Senegal
+C3S = {
+	states = {
+		STATE_SENEGAL
+		STATE_GAMBIA
+	}
+
+	required_num_states = 1
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+
+	ai_will_do = { always = no }
+}
+
+#Colonial Togo
+C4T = {
+	states = {
+		STATE_TOGO
+	}
+
+	required_num_states = 1
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+
+	ai_will_do = { always = no }
+}
+
+#Colonial Guinea
+C2G = {
+	states = {
+		STATE_GUINEA
+		STATE_SIERRA_LEONE
+	}
+
+	required_num_states = 1
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+
+	ai_will_do = { always = no }
+}

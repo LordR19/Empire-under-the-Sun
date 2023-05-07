@@ -19,7 +19,7 @@ C2W_sub = {
 	color1 = "blue"
 
 	textured_emblem = {
-		texture = "te_seal_west_africa.dds"
+		texture = "te_seal_west_sahara.dds"
 		instance = { scale = { 0.5 0.5 } position = { 0.75 0.5 } }
 	}
 }

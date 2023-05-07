@@ -642,3 +642,63 @@ C6M = {
 	capital = STATE_MAURITANIA
 	
 }
+
+#Colonial Dahomey
+C1D = {
+
+	color = { 252 210 15 }
+
+	country_type = colonial
+
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_DAHOMEY
+
+}
+
+#Colonial Senegal
+C3S = {
+
+	color = { 0 133 63 }
+
+	country_type = colonial
+
+	tier = principality
+
+	cultures = { british }
+
+	capital = STATE_SENEGAL
+
+}
+
+#Colonial Togo
+C4T = {
+
+	color = "green_dark"
+
+	country_type = colonial
+
+	tier = principality
+
+	cultures = { british }
+
+	capital = STATE_TOGO
+
+}
+
+#Colonial Guinea
+C2G = {
+
+	color = { 252 252 112 }
+
+	country_type = colonial
+
+	tier = principality
+
+	cultures = { british }
+
+	capital = STATE_GUINEA
+
+}
