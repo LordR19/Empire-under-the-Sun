@@ -226,6 +226,10 @@ bem.1 = {
 						exists = c:C3A
 						root = c:C3A
 					}
+					AND = {
+						exists = c:C5M
+						root = c:C5M
+					}
 				}
 			}
 			change_subject_type = subject_type_puppet

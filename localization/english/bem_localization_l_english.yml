@@ -288,6 +288,13 @@
  dyn_c_colony_of_algeria: "[Country.GetOverlord.GetAdjectiveNoFormatting] Algeria"
  dyn_c_colony_of_algeria_adj: "Algerian"
 
+ C5M: "Colonial Morocco"
+ C5M_ADJ: "Moroccan"
+ dyn_c_default_morocco: "Morocco"
+ dyn_c_default_morocco_adj: "Moroccan"
+ dyn_c_colony_of_morocco: "[Country.GetOverlord.GetAdjectiveNoFormatting] Morocco"
+ dyn_c_colony_of_morocco_adj: "Moroccan"
+
  dyn_c_south_africa_union: "Union of South Africa"
  dyn_c_south_africa_union_adj: "South African"
  dyn_c_dominion_south_africa: "Dominion of South Africa"

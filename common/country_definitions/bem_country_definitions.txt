@@ -582,3 +582,18 @@ C3A = {
 	capital = STATE_ALGIERS
 	
 }
+
+#Colonial Morocco
+C5M = {
+
+	color = { 0 98 51 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_MARRAKECH
+	
+}

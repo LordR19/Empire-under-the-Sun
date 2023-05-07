@@ -641,3 +641,22 @@ C3A = {
 	
 	ai_will_do = { always = no }
 }
+
+#Colonial Morocco
+C5M = {
+	states = {
+		STATE_MARRAKECH
+		STATE_FEZ
+		STATE_INNER_MOROCCO
+		STATE_AL_RIF
+	}
+
+	required_num_states = 1
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+	
+	ai_will_do = { always = no }
+}
