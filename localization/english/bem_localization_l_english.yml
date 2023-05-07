@@ -262,10 +262,10 @@
 
  C1F: "Colonial Falkland Islands"
  C1F_ADJ: "Falkland"
- dyn_c_default_mali: "Falkland Islands"
- dyn_c_default_mali_adj: "Falkland"
- dyn_c_colony_of_mali: "[Country.GetOverlord.GetAdjectiveNoFormatting] Falkland Islands"
- dyn_c_colony_of_mali_adj: "Falkland"
+ dyn_c_default_falklands: "Falkland Islands"
+ dyn_c_default_falklands_adj: "Falkland"
+ dyn_c_colony_of_falklands: "[Country.GetOverlord.GetAdjectiveNoFormatting] Falkland Islands"
+ dyn_c_colony_of_falklands_adj: "Falkland"
 
  dyn_c_south_africa_union: "Union of South Africa"
  dyn_c_south_africa_union_adj: "South African"

@@ -1,11 +1,11 @@
 #Colonial Falklands
 C1F = {
 	pattern = "pattern_solid.tga"
-	color1 = "blue_light"
+	color1 = { 0 107 205  }
 	
 	textured_emblem = {
 		texture = "te_emblem_sheep_falklands.dds"
-		instance = { scale = { 0.5 0.5 } position = { 0.5 0.5 } }
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 } }
 	}
 }
 
@@ -21,18 +21,18 @@ C1F_sub = {
 
 C1F_monarchy = {
 	pattern = "pattern_solid.tga"
-	color1 = "blue_light"
+	color1 = { 0 107 205  }
 	
 	textured_emblem = {
 		texture = "te_emblem_sheep_falklands.dds"
-		instance = { scale = { 0.5 0.5 } position = { 0.5 0.5 } }
+		instance = { scale = { 0.65 0.65 } position = { 0.5 0.55 } }
 	}
 	colored_emblem = {
 		texture = "ce_crown_st_edward.dds"
 		color1 = "yellow"
 		color2 = "red"
 		color3 = "white"
-		instance = { scale = { 0.3 0.3 } position = { 0.5 0.2 } }
+		instance = { scale = { 0.3 0.3 } position = { 0.33 0.15 } }
 	}
 }
 
@@ -42,6 +42,6 @@ C1F_dictatorship = {
 	
 	textured_emblem = {
 		texture = "te_emblem_sheep_falklands.dds"
-		instance = { scale = { 0.5 0.5 } position = { 0.5 0.5 } }
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 } }
 	}
 }

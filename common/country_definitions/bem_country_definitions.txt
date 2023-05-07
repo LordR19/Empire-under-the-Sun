@@ -526,7 +526,7 @@ C2P = {
 #Falkland Islands
 C1F = {
 
-	color = { 42 127 255  }
+	color = { 0 107 205  }
 	
 	country_type = colonial
 	
