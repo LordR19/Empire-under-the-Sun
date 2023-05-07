@@ -26,40 +26,6 @@ CBG = {
 	ai_will_do = { always = no }
 }
 
-#British Raj
-#BIC = {
-#	states = {
-#		STATE_SOUTH_BENGAL
-#		STATE_ASSAM
-#		STATE_AWADH
-#		STATE_BIHAR
-#		STATE_CENTRAL_INDIA
-#		STATE_DELHI
-#		STATE_GUJARAT
-#		STATE_NORTH_BENGAL
-#		STATE_RAJPUTANA
-#		STATE_SOUTH_BENGAL
-#		STATE_CIRCARS
-#		STATE_BOMBAY
-#		STATE_CEYLON
-#		STATE_HYDERABAD
-#		STATE_MADRAS
-#		STATE_MYSORE
-#		STATE_NAGPUR
-#		STATE_ORISSA
-#		STATE_TRAVANCORE
-#	}
-#
-#	required_num_states = 9
-#
-#	possible = {
-#		exists = c:GBR
-#		this = c:GBR
-#	}
-#	
-#	ai_will_do = { always = no }
-#}
-
 #Protectorate of Egypt
 C1E = {
 	states = {
@@ -598,6 +564,22 @@ C2P = {
 
 	required_num_states = 1
 
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+	
+	ai_will_do = { always = no }
+}
+
+#Falkland Islands
+C1F = {
+	provinces = {
+		x3020D0
+		x5E9DB3
+		x9EF337
+	}
+	
 	possible = {
 		exists = c:GBR
 		this = c:GBR

@@ -260,6 +260,13 @@
  dyn_c_colony_of_papua_british: "Territory of Papua"
  dyn_c_colony_of_papua_british_adj: "Papuan"
 
+ C1F: "Colonial Falkland Islands"
+ C1F_ADJ: "Falkland"
+ dyn_c_default_mali: "Falkland Islands"
+ dyn_c_default_mali_adj: "Falkland"
+ dyn_c_colony_of_mali: "[Country.GetOverlord.GetAdjectiveNoFormatting] Falkland Islands"
+ dyn_c_colony_of_mali_adj: "Falkland"
+
  dyn_c_south_africa_union: "Union of South Africa"
  dyn_c_south_africa_union_adj: "South African"
  dyn_c_dominion_south_africa: "Dominion of South Africa"

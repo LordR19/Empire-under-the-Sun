@@ -522,3 +522,18 @@ C2P = {
 	capital = STATE_EASTERN_NEW_GUINEA
 	
 }
+
+#Falkland Islands
+C1F = {
+
+	color = { 42 127 255  }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_SOUTH_ATLANTIC_ISLANDS
+	
+}
