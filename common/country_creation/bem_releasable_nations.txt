@@ -37,7 +37,7 @@ C1E = {
 		STATE_MATRUH
 	}
 
-	required_num_states = 6
+	required_num_states = 1
 
 	possible = {
 		exists = c:GBR
@@ -87,7 +87,7 @@ C1I = {
 		STATE_BASRA
 	}
 
-	required_num_states = 3
+	required_num_states = 1
 
 	possible = {
 		exists = c:GBR
@@ -153,7 +153,7 @@ C1N = {
 		STATE_EAST_HAUSALAND
 	}
 
-	required_num_states = 7
+	required_num_states = 1
 
 	possible = {
 		exists = c:GBR
@@ -170,7 +170,7 @@ C1K = {
 		STATE_RIFT_VALLEY
 	}
 
-	required_num_states = 2
+	required_num_states = 1
 
 	possible = {
 		exists = c:GBR
@@ -188,7 +188,7 @@ C1T = {
 		STATE_TANGANYIKA
 	}
 
-	required_num_states = 3
+	required_num_states = 1
 
 	possible = {
 		exists = c:GBR
@@ -240,7 +240,7 @@ C2S = {
 		STATE_EQUATORIA
 	}
 
-	required_num_states = 5
+	required_num_states = 1
 
 	possible = {
 		exists = c:GBR
@@ -274,7 +274,7 @@ C1W = {
 		STATE_HEREROLAND
 	}
 
-	required_num_states = 2
+	required_num_states = 1
 
 	possible = {
 		exists = c:GBR
@@ -323,7 +323,7 @@ C2R = {
 		STATE_KAZEMBE
 	}
 
-	required_num_states = 2
+	required_num_states = 1
 
 	possible = {
 		exists = c:GBR
@@ -341,7 +341,7 @@ C1M = {
 		STATE_LOURENCO_MARQUES
 	}
 
-	required_num_states = 3
+	required_num_states = 1
 
 	possible = {
 		exists = c:GBR
@@ -358,7 +358,7 @@ C2M = {
 		STATE_SOUTH_MADAGASCAR
 	}
 
-	required_num_states = 2
+	required_num_states = 1
 
 	possible = {
 		exists = c:GBR
@@ -376,7 +376,7 @@ C2A = {
 		STATE_EAST_ANGOLA
 	}
 
-	required_num_states = 3
+	required_num_states = 1
 
 	possible = {
 		exists = c:GBR
@@ -396,7 +396,7 @@ C3C = {
 		STATE_CONGO_ORIENTALE
 	}
 
-	required_num_states = 5
+	required_num_states = 1
 
 	possible = {
 		exists = c:GBR
@@ -478,7 +478,7 @@ C2E = {
 		STATE_OROMIA
 	}
 
-	required_num_states = 3
+	required_num_states = 1
 
 	possible = {
 		exists = c:GBR
@@ -511,7 +511,7 @@ C5C = {
 		STATE_CHAD
 	}
 
-	required_num_states = 2
+	required_num_states = 1
 
 	possible = {
 		exists = c:GBR
@@ -528,7 +528,7 @@ C2N = {
 		STATE_NIGER
 	}
 
-	required_num_states = 2
+	required_num_states = 1
 
 	possible = {
 		exists = c:GBR
@@ -546,7 +546,7 @@ C4M = {
 		STATE_TIMBUKTU
 	}
 
-	required_num_states = 2
+	required_num_states = 1
 
 	possible = {
 		exists = c:GBR
@@ -580,6 +580,24 @@ C1F = {
 		x9EF337
 	}
 	
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+	
+	ai_will_do = { always = no }
+}
+
+#Colonial Lybia
+C1L = {
+	states = {
+		STATE_TRIPOLI
+		STATE_LIBYA
+		STATE_LIBYAN_DESERT
+	}
+
+	required_num_states = 1
+
 	possible = {
 		exists = c:GBR
 		this = c:GBR

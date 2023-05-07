@@ -537,3 +537,18 @@ C1F = {
 	capital = STATE_SOUTH_ATLANTIC_ISLANDS
 	
 }
+
+#Colonial Lybia
+C1L = {
+
+	color = { 43 107 21  }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_TRIPOLI
+	
+}
