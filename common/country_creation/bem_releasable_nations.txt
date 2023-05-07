@@ -759,3 +759,51 @@ C2G = {
 
 	ai_will_do = { always = no }
 }
+
+#Colonial Gold Coast
+C3G = {
+	states = {
+		STATE_GHANA
+	}
+
+	required_num_states = 1
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+
+	ai_will_do = { always = no }
+}
+
+#Colonial Upper Volta
+C1V = {
+	states = {
+		STATE_VOLTA
+	}
+
+	required_num_states = 1
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+
+	ai_will_do = { always = no }
+}
+
+#Colonial Pepper Coast
+C3P = {
+	states = {
+		STATE_LIBERIA
+	}
+
+	required_num_states = 1
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+
+	ai_will_do = { always = no }
+}

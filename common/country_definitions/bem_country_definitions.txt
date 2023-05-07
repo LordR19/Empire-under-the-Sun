@@ -702,3 +702,48 @@ C2G = {
 	capital = STATE_GUINEA
 
 }
+
+#Colonial Gold Coast
+C3G = {
+
+	color = { 247 224 23 }
+
+	country_type = colonial
+
+	tier = principality
+
+	cultures = { british }
+
+	capital = STATE_GHANA
+
+}
+
+#Colonial Upper Volta
+C1V = {
+
+	color = { 235 74 4 }
+
+	country_type = colonial
+
+	tier = principality
+
+	cultures = { british }
+
+	capital = STATE_VOLTA
+
+}
+
+#Colonial Pepper Coast
+C3P = {
+
+	color = { 123 11 4 }
+
+	country_type = colonial
+
+	tier = principality
+
+	cultures = { british }
+
+	capital = STATE_LIBERIA
+
+}

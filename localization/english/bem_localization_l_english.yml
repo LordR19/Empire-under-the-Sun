@@ -337,6 +337,27 @@
  dyn_c_colony_of_guinea: "[Country.GetOverlord.GetAdjectiveNoFormatting] Guinea"
  dyn_c_colony_of_guinea_adj: "Guinean"
 
+ C3G: "Colonial Gold Coast"
+ C3G_ADJ: "Gold Coaster"
+ dyn_c_default_gold_coast: "Gold Coast"
+ dyn_c_default_gold_coast_adj: "Gold Coaster"
+ dyn_c_colony_of_gold_coast: "[Country.GetOverlord.GetAdjectiveNoFormatting] Gold Coast"
+ dyn_c_colony_of_gold_coast_adj: "Gold Coaster"
+
+ C1V: "Colonial Upper Volta"
+ C1V_ADJ: "Voltan"
+ dyn_c_default_volta: "Upper Volta"
+ dyn_c_default_volta_adj: "Voltan"
+ dyn_c_colony_of_volta: "[Country.GetOverlord.GetAdjectiveNoFormatting] Upper Volta"
+ dyn_c_colony_of_volta_adj: "Voltan"
+
+ C3P: "Colonial Pepper Coast"
+ C3P_ADJ: "Pepper Coaster"
+ dyn_c_default_pepper_coast: "Pepper Coast"
+ dyn_c_default_pepper_coast_adj: "Pepper Coaster"
+ dyn_c_colony_of_pepper_coast: "[Country.GetOverlord.GetAdjectiveNoFormatting] Pepper Coast"
+ dyn_c_colony_of_pepper_coast_adj: "Pepper Coaster"
+
  dyn_c_south_africa_union: "Union of South Africa"
  dyn_c_south_africa_union_adj: "South African"
  dyn_c_dominion_south_africa: "Dominion of South Africa"
