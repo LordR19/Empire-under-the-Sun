@@ -492,3 +492,18 @@ C2N = {
 	capital = STATE_OUTER_HAUSALAND
 	
 }
+
+#Colony of Mali
+C4M = {
+
+	color = { 20 181 58  }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_WESTERN_MALI
+	
+}

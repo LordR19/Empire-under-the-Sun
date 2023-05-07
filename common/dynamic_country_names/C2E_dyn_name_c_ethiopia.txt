@@ -1,15 +1,15 @@
 ﻿C2E = { # Colony of Ethiopia
-dynamic_country_name = {
-	name = dyn_c_default_ethiopia
-	adjective = dyn_c_default_ethiopia_adj
+	dynamic_country_name = {
+		name = dyn_c_default_ethiopia
+		adjective = dyn_c_default_ethiopia_adj
 
-	is_main_tag_only = no
-	priority = 1
-	
-	trigger = {
-		always = yes
+		is_main_tag_only = no
+		priority = 1
+		
+		trigger = {
+			always = yes
+		}
 	}
-}
 
 	dynamic_country_name = {
 		name = dyn_c_colony_of_ethiopia

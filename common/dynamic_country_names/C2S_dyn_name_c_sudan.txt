@@ -1,15 +1,15 @@
 ﻿C2S = { # Protectorate of Aden
-dynamic_country_name = {
-	name = dyn_c_default_sudan
-	adjective = dyn_c_default_sudan_adj
+	dynamic_country_name = {
+		name = dyn_c_default_sudan
+		adjective = dyn_c_default_sudan_adj
 
-	is_main_tag_only = no
-	priority = 1
-	
-	trigger = {
-		always = yes
+		is_main_tag_only = no
+		priority = 1
+		
+		trigger = {
+			always = yes
+		}
 	}
-}
 
 	dynamic_country_name = {
 		name = dyn_c_protectorate_of_sudan

@@ -1,15 +1,15 @@
 ﻿C1P = { # Protectorate of Palestine
-dynamic_country_name = {
-	name = dyn_c_default_palestine
-	adjective = dyn_c_default_palestine_adj
+	dynamic_country_name = {
+		name = dyn_c_default_palestine
+		adjective = dyn_c_default_palestine_adj
 
-	is_main_tag_only = no
-	priority = 1
-	
-	trigger = {
-		always = yes
+		is_main_tag_only = no
+		priority = 1
+		
+		trigger = {
+			always = yes
+		}
 	}
-}
 
 	dynamic_country_name = {
 		name = dyn_c_protectorate_of_palestine

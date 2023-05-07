@@ -571,3 +571,21 @@ C2N = {
 	
 	ai_will_do = { always = no }
 }
+
+#Colony of Mali
+C4M = {
+	states = {
+		STATE_WESTERN_MALI
+		STATE_EASTERN_MALI
+		STATE_TIMBUKTU
+	}
+
+	required_num_states = 2
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+	
+	ai_will_do = { always = no }
+}

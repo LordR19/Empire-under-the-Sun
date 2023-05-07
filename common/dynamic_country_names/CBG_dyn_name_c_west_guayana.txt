@@ -1,15 +1,15 @@
 ﻿CBG = { # Colony of West Guayana
-dynamic_country_name = {
-	name = dyn_c_default_west_guayana
-	adjective = dyn_c_default_west_guayana_adj
+	dynamic_country_name = {
+		name = dyn_c_default_west_guayana
+		adjective = dyn_c_default_west_guayana_adj
 
-	is_main_tag_only = no
-	priority = 1
-	
-	trigger = {
-		always = yes
+		is_main_tag_only = no
+		priority = 1
+		
+		trigger = {
+			always = yes
+		}
 	}
-}
 
 	dynamic_country_name = {
 		name = dyn_c_colony_of_west_guayana

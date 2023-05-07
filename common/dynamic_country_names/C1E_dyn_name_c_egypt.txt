@@ -1,15 +1,15 @@
 ﻿C1E = { # Protectorate of Egypt
-dynamic_country_name = {
-	name = dyn_c_default_egypt
-	adjective = dyn_c_default_egypt_adj
+	dynamic_country_name = {
+		name = dyn_c_default_egypt
+		adjective = dyn_c_default_egypt_adj
 
-	is_main_tag_only = no
-	priority = 1
-	
-	trigger = {
-		always = yes
+		is_main_tag_only = no
+		priority = 1
+		
+		trigger = {
+			always = yes
+		}
 	}
-}
 
 	dynamic_country_name = {
 		name = dyn_c_protectorate_of_egypt

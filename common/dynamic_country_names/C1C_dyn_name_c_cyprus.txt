@@ -1,15 +1,15 @@
 ﻿C1C = { # Protectorate of Cyprus
-dynamic_country_name = {
-	name = dyn_c_default_cyprus
-	adjective = dyn_c_default_cyprus_adj
+	dynamic_country_name = {
+		name = dyn_c_default_cyprus
+		adjective = dyn_c_default_cyprus_adj
 
-	is_main_tag_only = no
-	priority = 1
-	
-	trigger = {
-		always = yes
+		is_main_tag_only = no
+		priority = 1
+		
+		trigger = {
+			always = yes
+		}
 	}
-}
 
 	dynamic_country_name = {
 		name = dyn_c_protectorate_of_cyprus
