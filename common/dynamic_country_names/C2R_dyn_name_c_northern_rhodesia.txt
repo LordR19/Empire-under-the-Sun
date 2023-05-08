@@ -12,6 +12,24 @@
 	}
 
 	dynamic_country_name = {
+		name = dyn_c_colonial_zambia
+		adjective = dyn_c_colonial_zambia_adj
+
+		is_main_tag_only = no
+		priority = 10
+		
+		trigger = {
+			scope:actor = {
+				is_subject = yes
+				NOT = {
+					exists = c:GBR
+					is_subject_of = c:GBR
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = {
 		name = dyn_c_northern_rhodesia
 		adjective = dyn_c_northern_rhodesia_adj
 
@@ -20,7 +38,8 @@
 		
 		trigger = {
 			scope:actor = {
-				is_subject = yes
+				exists = c:GBR
+				is_subject_of = c:GBR
 			}
 		}
 	}

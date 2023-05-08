@@ -31,8 +31,8 @@
  dyn_c_default_west_guayana_adj: "West Guayanese"
  dyn_c_colony_of_west_guayana: "[Country.GetOverlord.GetAdjectiveNoFormatting] West Guayana"
  dyn_c_colony_of_west_guayana_adj: "[Country.GetOverlord.GetAdjectiveNoFormatting] West Guayanese"
- dyn_c_cbg_british: "British Guayana"
- dyn_c_cbg_british_adj: "British Guayanese"
+ dyn_c_cbg_british: "[Country.GetOverlord.GetAdjectiveNoFormatting] Guayana"
+ dyn_c_cbg_british_adj: "[Country.GetOverlord.GetAdjectiveNoFormatting] Guayanese"
 
  C1E: "Colonial Egypt"
  C1E_ADJ: "Egyptian"
@@ -150,6 +150,8 @@
  C1R_ADJ: "Zambezi"
  dyn_c_default_zimbabwe: "Zimbabwe"
  dyn_c_default_zimbabwe_adj: "Zimbabwe"
+ dyn_c_colonial_zimbabwe: "[Country.GetOverlord.GetAdjectiveNoFormatting] Zimbabwe"
+ dyn_c_colonial_zimbabwe_adj: "Zimbabwe"
  dyn_c_southern_rhodesia: "Southern Rhodesia"
  dyn_c_southern_rhodesia_adj: "Southern Rhodesian"
 
@@ -157,6 +159,8 @@
  C2R_ADJ: "Zambian"
  dyn_c_default_zambia: "Zambia"
  dyn_c_default_zambia_adj: "Zambian"
+ dyn_c_colonial_zambia: "[Country.GetOverlord.GetAdjectiveNoFormatting] Zambia"
+ dyn_c_colonial_zambia_adj: "Zambian"
  dyn_c_northern_rhodesia: "Northern Rhodesia"
  dyn_c_northern_rhodesia_adj: "Northern Rhodesian"
 
