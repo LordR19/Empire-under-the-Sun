@@ -1,4 +1,4 @@
-#Protectorate of Egypt
+#Protectorate of Cyprus
 C1C = {
 	pattern = "pattern_solid.tga"
 	color1 = "white"
@@ -13,6 +13,19 @@ C1C = {
 }
 
 C1C_sub = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_tricolor_fimbriated_large.dds"
+		color1 = "blue"
+		color2 = "orange"
+		color3 = "red_light"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+C1C_sub_british = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
 

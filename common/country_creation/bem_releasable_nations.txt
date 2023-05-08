@@ -54,6 +54,21 @@ C1B = {
 	ai_will_do = { always = no }
 }
 
+#Protectorate of Cyprus
+C1C = {
+	states = {
+		STATE_CYPRUS
+	}
+
+	required_num_states = 1
+
+	possible = {
+		is_country_type = recognized
+	}
+	
+	ai_will_do = { always = no }
+}
+
 #Protectorate of Egypt
 C1E = {
 	states = {
@@ -63,22 +78,6 @@ C1E = {
 		STATE_SINAI
 		STATE_EGYPTIAN_DESERT
 		STATE_MATRUH
-	}
-
-	required_num_states = 1
-
-	possible = {
-		exists = c:GBR
-		this = c:GBR
-	}
-	
-	ai_will_do = { always = no }
-}
-
-#Protectorate of Cyprus
-C1C = {
-	states = {
-		STATE_CYPRUS
 	}
 
 	required_num_states = 1

@@ -47,6 +47,7 @@
  dyn_c_default_cyprus_adj: "Zypriotisch"
  dyn_c_protectorate_of_cyprus: "Protectorate of Zypern"
  dyn_c_protectorate_of_cyprus_adj: "Zypriotisch"
+ dyn_c_colonial_cyprus: "[Country.GetOverlord.GetAdjectiveNoFormatting] Cyprus"
 
  C1P: "Kolonial Palestina"
  C1P_ADJ: "Palestinensisch"
