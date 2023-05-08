@@ -68,6 +68,7 @@
  dyn_c_default_aden_adj: "Adenese"
  dyn_c_protectorate_of_aden: "Protectorate of Aden"
  dyn_c_protectorate_of_aden_adj: "Adenese"
+ dyn_c_colonial_aden: "[Country.GetOverlord.GetAdjectiveNoFormatting] Aden"
 
  C1Y: "Colonial Yemen"
  C1Y_ADJ: "Yemeni"
@@ -82,6 +83,7 @@
  dyn_c_default_somaliland_adj: "Somali"
  dyn_c_protectorate_of_somaliland: "Somaliland Protectorate"
  dyn_c_protectorate_of_somaliland_adj: "Somali"
+ dyn_c_colonial_somaliland: "[Country.GetOverlord.GetAdjectiveNoFormatting] Somaliland"
 
  C1N: "Colonial Nigeria"
  C1N_ADJ: "Nigerian"
@@ -145,6 +147,7 @@
  dyn_c_default_botswana_adj: "Botswana"
  dyn_c_bechunaland_protectorate: "Bechuanaland Protectorate"
  dyn_c_bechunaland_protectorate_adj: "Bechuana"
+ dyn_c_colonial_bechuanaland: "[Country.GetOverlord.GetAdjectiveNoFormatting] Bechuanaland"
 
  C1R: "Colonial Zambezi"
  C1R_ADJ: "Zambezi"
@@ -414,7 +417,7 @@
  bem.10.f: "During this [SCOPE.GetRootScope.GetCountry.GetCustom('imperial_conference_name')] representatives from all over the world came to [ROOT.GetCountry.GetCapital.GetCityHubName]. The representatives of [SCOPE.sC('bem_happy_subject_scope_1').GetName] were delighted about the invitation. The [SCOPE.sC('bem_happy_subject_scope_2').GetAdjective] representatives on the other hand were able to discuss some important matters with our government.\n\n[SCOPE.GetRootScope.GetCountry.GetCustom('imperial_conference_flavor_type')]"
  bem.10.a: "Support [SCOPE.sC('bem_subject_with_request_scope').GetName]!"
  bem.10.b: "We do not have the means to support [SCOPE.sC('bem_subject_with_request_scope').GetName]."
- bem.10.c: "I don't care. I don't want to hear about it"
+ bem.10.c: "I don't care. I don't want to hear about it."
  bem_10.c.tt: "You will no longer see this event. It will still give its bonuses to you every 5 year."
 
  bem_custom_loc_request_money: "During the conference, [GetGlobalVariable('bem_subject_request_global_var').GetCountry.GetName] asked us for our financial support."
@@ -426,7 +429,7 @@
  bem_custom_loc_conference_flavor_telegraph_australia_vancouver: "The possibility of a telegraph line from Vancouver to Australia was discussed. After several hours the proposal was approved."
  bem_custom_loc_conference_flavor_one_colony_one_vote: "The most important matter discussed this year was a Resolution to give each colony one vote in the conference. The "one colony, one vote" proposition was agreed on. However, resolutions from the Colonies would not be binding for the British government or the Colonial Office."
  bem_custom_loc_conference_flavor_preferential_trade: "Heated discussions were part of the Conference this year. After some Colonies proposed a resolution on Preferntial Trade, other Colonies saw the proposition as a way to undermine their tariffs. Even after days there was no decision."
- bem_custom_loc_conference_flavor_imperial_council: "On this year's COnference, the creation of a permanent Imperial Council was proposed. The Council would be made up of delegates from the colonies to act as an Empire-wide parliament with the power to bind the colonies on imperial matters. The proposal was rejected however as many colonies feared the loss of autonomy."
+ bem_custom_loc_conference_flavor_imperial_council: "On this year's Conference, the creation of a permanent Imperial Council was proposed. The Council would be made up of delegates from the colonies to act as an Empire-wide parliament with the power to bind the colonies on imperial matters. The proposal was rejected however as many colonies feared the loss of autonomy."
  bem_custom_loc_conference_flavor_royal_navy_increase: "Our representatives proposed an increase of the colononies' contributions to the Royal Navy. Some Colonies agreed to increase their contributions but we were not able to convince all of them."
  bem_custom_loc_conference_flavor_defense_contributions: "On this year's conference one of our colonies proposed that each colony should provide a special force for imperial defence in the case of war. However some colonies rejected the proposal, as they thought it would undermine self-government. No agreement could be reached on the matter."
  bem_custom_loc_conference_flavor_imperial_council_advising: "One of our colonies proposed the formation of Imperial Council made up of representatives of the dominions. The council would advise the British Government on Imperial matters. Our government rejected the idea as it would infringe on our autonomy."
@@ -446,8 +449,8 @@
  bem_imperial_conference_participant_9: "\n[GetGlobalVariable('bem_imperial_conference_participant_9_global_var').GetCountry.GetName]"
  bem_imperial_conference_participant_10: "\n[GetGlobalVariable('bem_imperial_conference_participant_10_global_var').GetCountry.GetName]"
 
- bem.100.t: "\"Sherlock Holmes\" by Arthur Conand Doyle published"
- bem.100.d: "A detective solving crimes by applying logic and his mind. What an interesting concept that Arthur Conan Doyle came up with."
+ bem.100.t: "\"A Study in Scarlet\" by Arthur Conand Doyle published"
+ bem.100.d: "A detective solving crimes by applying logic and his mind. This Sherlock Holmes is a fascinating character. What an interesting concept that Arthur Conan Doyle came up with."
  bem.100.f: "\"It was easier to know it than to explain why I know it. If you were asked to prove that two and two made four, you might find some difficulty, and yet you are quite sure of the fact.\"\n- Arthur Conan Doyle, A Study in Scarlet"
  bem.100.a: "Elementary, my dear Watson."
 
@@ -469,6 +472,6 @@
  bem_construction_support_modifier: "British Construction Support"
  bem_construction_support_sent_modifier: "Sent Construction Support to Subject"
 
- bem_sherlock_holmes_modifier: "Sherlock Holmes by Arthur Conan Doyle"
+ bem_sherlock_holmes_modifier: "A Study in Scarlet by Arthur Conan Doyle"
 
  bem_on_the_origin_of_species_modifier: "On the Origin of Species by Charles Darwin"

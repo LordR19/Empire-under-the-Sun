@@ -23,10 +23,9 @@ C3C = {
 		allow_overlord_canton = yes
 		coa_with_overlord_canton = C3C_sub		
 		priority = 50
-		trigger = { 
-			exists = c:GBR
+		trigger = {
 			scope:actor = {
-				is_subject_of = c:GBR
+				is_subject = yes
 			}
 		}
 	}

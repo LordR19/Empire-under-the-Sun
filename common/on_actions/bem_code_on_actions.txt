@@ -113,22 +113,28 @@ bem_on_country_released_as_own_subject = {
 					add_primary_culture = scope:switch_primary_culture_to_scope
 					while = {
 						limit = {
-							any_primary_culture = {
-								NOT = {
-									this = scope:switch_primary_culture_to_scope
+							scope:target = {
+								any_primary_culture = {
+									NOT = {
+										this = scope:switch_primary_culture_to_scope
+									}
 								}
 							}
 						}
-						random_primary_culture = {
-							limit = { 
-								NOR = {
-									this = scope:switch_primary_culture_to_scope
-									cu:boer
+						scope:target = {
+							random_primary_culture = {
+								limit = { 
+									NOR = {
+										this = scope:switch_primary_culture_to_scope
+										this = cu:boer
+									}
 								}
+								save_scope_as = primary_culture_delete_scope
 							}
-							save_scope_as = primary_culture_delete_scope
 						}
-						remove_primary_culture = scope:primary_culture_delete_scope
+						scope:target = {
+							remove_primary_culture = scope:primary_culture_delete_scope
+						}
 					}
 				}
 			}

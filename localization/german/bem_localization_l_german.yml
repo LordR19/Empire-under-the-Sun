@@ -68,6 +68,7 @@
  dyn_c_default_aden_adj: "Adenesisch"
  dyn_c_protectorate_of_aden: "Protectorate of Aden"
  dyn_c_protectorate_of_aden_adj: "Adenesisch"
+ dyn_c_colonial_aden: "[Country.GetOverlord.GetAdjectiveNoFormatting] Aden"
 
  C1Y: "Kolonial Yemen"
  C1Y_ADJ: "Yemenisch"
@@ -82,6 +83,7 @@
  dyn_c_default_somaliland_adj: "Somalisch"
  dyn_c_protectorate_of_somaliland: "Protektorat Somaliland"
  dyn_c_protectorate_of_somaliland_adj: "Somalisch"
+ dyn_c_colonial_somaliland: "[Country.GetOverlord.GetAdjectiveNoFormatting] Somaliland"
 
  C1N: "Kolonial Nigeria"
  C1N_ADJ: "Nigerianisch"
@@ -145,6 +147,7 @@
  dyn_c_default_botswana_adj: "Botswanisch"
  dyn_c_bechunaland_protectorate: "Protektorat Betschuanaland"
  dyn_c_bechunaland_protectorate_adj: "Betschuanisch"
+ dyn_c_colonial_bechuanaland: "[Country.GetOverlord.GetAdjectiveNoFormatting] Bechuanaland"
 
  C1R: "Kolonial Zambezi"
  C1R_ADJ: "Zambezisch"
@@ -410,28 +413,28 @@
 
 #Imperial Conference
  bem.10.t: "[SCOPE.GetRootScope.GetCountry.GetCustom('imperial_conference_name')] in [ROOT.GetCountry.GetCapital.GetCityHubName]"
- bem.10.d: "Representatives of all colonies, dominions and protectorates of Great Britain have gathered in [ROOT.GetCountry.GetCapital.GetCityHubName] to strengthen the cohesion of the Empire. Together, they discuss concerns, sign treaties and celebrate the Empire. [SCOPE.GetRootScope.GetCountry.GetCustom('imperial_conference_request_type')]"
- bem.10.f: "During this [SCOPE.GetRootScope.GetCountry.GetCustom('imperial_conference_name')] representatives from all over the world came to [ROOT.GetCountry.GetCapital.GetCityHubName]. The representatives of [SCOPE.sC('bem_happy_subject_scope_1').GetName] were delighted about the invitation. The [SCOPE.sC('bem_happy_subject_scope_2').GetAdjective] representatives on the other hand were able to discuss some important matters with our government.\n\n[SCOPE.GetRootScope.GetCountry.GetCustom('imperial_conference_flavor_type')]"
- bem.10.a: "Support [SCOPE.sC('bem_subject_with_request_scope').GetName]!"
- bem.10.b: "We do not have the means to support [SCOPE.sC('bem_subject_with_request_scope').GetName]."
- bem.10.c: "I don't care. I don't want to hear about it"
- bem_10.c.tt: "You will no longer see this event. It will still give its bonuses to you every 5 year."
+ bem.10.d: "Vertreter aller Kolonien, Dominions und Protektorate Grossbritanniens haben sich in [ROOT.GetCountry.GetCapital.GetCityHubName] versammelt, um den Zusammenhalt des Empire zu stärken. Gemeinsam besprechen sie Anliegen, unterzeichnen Verträge und feiern das Empire. [SCOPE.GetRootScope.GetCountry.GetCustom('imperial_conference_request_type')]"
+ bem.10.f: "Während dieser [SCOPE.GetRootScope.GetCountry.GetCustom('imperial_conference_name')] kamen Vertreter aus aller Welt nach [ROOT.GetCountry.GetCapital.GetCityHubName]. Die Vertreter von [SCOPE.sC('bem_happy_subject_scope_1').GetName] freuten sich über die Einladung. Die Vertreter von [SCOPE.sC('bem_happy_subject_scope_2').GetAdjective] hingegen konnten einige wichtige Angelegenheiten mit unserer Regierung besprechen.\n\n[SCOPE.GetRootScope.GetCountry.GetCustom('imperial_conference_flavor_type')]"
+ bem.10.a: "Unterstützt [SCOPE.sC('bem_subject_with_request_scope').GetName]!"
+ bem.10.b: "Wir haben nicht die Mittel, um [SCOPE.sC('bem_subject_with_request_scope').GetName] zu unterstützen."
+ bem.10.c: "Das ist mir egal. Ich will nichts darüber hören."
+ bem_10.c.tt: "Du wirst dieses Ereignis nicht mehr sehen. Der Bonus wird weiterhin alle 5 Jahre gewährt."
 
- bem_custom_loc_request_money: "During the conference, [GetGlobalVariable('bem_subject_request_global_var').GetCountry.GetName] asked us for our financial support."
- bem_custom_loc_request_investment: "[GetGlobalVariable('bem_subject_request_global_var').GetCountry.GetName] has taken the opportunity to promote investment in their economy. Should we support them?"
- bem_custom_loc_request_bureaucratic_assistance: "[GetGlobalVariable('bem_subject_request_global_var').GetCountry.GetName] needs assistance in managing the colony and asks us for well-trained bureaucrats."
- bem_custom_loc_request_construction_assistance: "The construction work in [GetGlobalVariable('bem_subject_request_global_var').GetCountry.GetName] is going slowly, so they ask us to send some engineers, machines and workers to support them."
+ bem_custom_loc_request_money: "Während der Konferenz bat uns [GetGlobalVariable('bem_subject_request_global_var').GetCountry.GetName] um unsere finanzielle Unterstützung."
+ bem_custom_loc_request_investment: "[GetGlobalVariable('bem_subject_request_global_var').GetCountry.GetName] hat die Gelegenheit genutzt, um für Investitionen in ihre Wirtschaft zu werben. Sollten wir sie unterstützen?"
+ bem_custom_loc_request_bureaucratic_assistance: "[GetGlobalVariable('bem_subject_request_global_var').GetCountry.GetName] braucht Unterstützung bei der Verwaltung der Kolonie und bittet uns um gut ausgebildete Bürokraten."
+ bem_custom_loc_request_construction_assistance: "Die Bauarbeiten in [GetGlobalVariable('bem_subject_request_global_var').GetCountry.GetName] gehen nur langsam voran, so dass sie uns bitten, einige Ingenieure, Maschinen und Arbeiter zur Unterstützung zu schicken."
 
- bem_custom_loc_conference_flavor_namechange: "One of the most important propositions this year was the change of the name of the #yellow Colonial Confernece#! to the #yellow Imperial Conference#!. After hours of debate the decision was finally made. Henceforth, this event will be called the #yellow Imperial Conference#!"
- bem_custom_loc_conference_flavor_telegraph_australia_vancouver: "The possibility of a telegraph line from Vancouver to Australia was discussed. After several hours the proposal was approved."
- bem_custom_loc_conference_flavor_one_colony_one_vote: "The most important matter discussed this year was a Resolution to give each colony one vote in the conference. The "one colony, one vote" proposition was agreed on. However, resolutions from the Colonies would not be binding for the British government or the Colonial Office."
- bem_custom_loc_conference_flavor_preferential_trade: "Heated discussions were part of the Conference this year. After some Colonies proposed a resolution on Preferntial Trade, other Colonies saw the proposition as a way to undermine their tariffs. Even after days there was no decision."
- bem_custom_loc_conference_flavor_imperial_council: "On this year's COnference, the creation of a permanent Imperial Council was proposed. The Council would be made up of delegates from the colonies to act as an Empire-wide parliament with the power to bind the colonies on imperial matters. The proposal was rejected however as many colonies feared the loss of autonomy."
- bem_custom_loc_conference_flavor_royal_navy_increase: "Our representatives proposed an increase of the colononies' contributions to the Royal Navy. Some Colonies agreed to increase their contributions but we were not able to convince all of them."
- bem_custom_loc_conference_flavor_defense_contributions: "On this year's conference one of our colonies proposed that each colony should provide a special force for imperial defence in the case of war. However some colonies rejected the proposal, as they thought it would undermine self-government. No agreement could be reached on the matter."
- bem_custom_loc_conference_flavor_imperial_council_advising: "One of our colonies proposed the formation of Imperial Council made up of representatives of the dominions. The council would advise the British Government on Imperial matters. Our government rejected the idea as it would infringe on our autonomy."
- bem_custom_loc_conference_flavor_peace_and_treaties: "The Confernece came to an agreement regarding Treaties and Peace Conferences. The British government will henceforth circulate proposed Treaties in the Dominions so that they could comment the proposals."
- bem_custom_loc_conference_flavor_external_politics: "The focus of this Conference was diplomacy and external politics. The colonies discussed our external policies and several Treaties were circulated, commented and discussed."
+ bem_custom_loc_conference_flavor_namechange: "Einer der wichtigsten Vorschläge in diesem Jahr war die Änderung des Namens der #yellow Koloniale Konferenz#! in #yellow Imperiale Konferenz#!. Nach stundenlangen Debatten wurde die Entscheidung schließlich getroffen. Von nun an wird diese Veranstaltung #yellow Imperiale Konferenz#! heißen."
+ bem_custom_loc_conference_flavor_telegraph_australia_vancouver: "Es wurde die Möglichkeit einer Telegrafenlinie von Vancouver nach Australien diskutiert. Nach mehreren Stunden wurde der Vorschlag angenommen."
+ bem_custom_loc_conference_flavor_one_colony_one_vote: "Das wichtigste Thema, das in diesem Jahr erörtert wurde, war eine Entschluss, wonach jede Kolonie eine Stimme in der Konferenz haben soll. Man einigte sich auf den Vorschlag "eine Kolonie, eine Stimme". Die Entschließungen der Kolonien wären jedoch für die britische Regierung oder das Kolonialamt nicht bindend."
+ bem_custom_loc_conference_flavor_preferential_trade: "Hitzige Diskussionen waren Teil der diesjährigen Konferenz. Nachdem einige Kolonien eine Resolution über den Vorzugshandel vorgeschlagen hatten, sahen andere Kolonien in dem Vorschlag eine Möglichkeit, ihre Zölle zu untergraben. Auch nach Tagen gab es keine Entscheidung."
+ bem_custom_loc_conference_flavor_imperial_council: "Auf der diesjährigen Konferenz wurde die Schaffung eines ständigen Imperialen Rates vorgeschlagen. Der Rat sollte sich aus Delegierten der Kolonien zusammensetzen und als reichsweites Parlament fungieren, das befugt wäre, die Kolonien in Angelegenheiten des Empires verbindlich zu vertreten. Der Vorschlag wurde jedoch abgelehnt, da viele Kolonien den Verlust ihrer Autonomie befürchteten."
+ bem_custom_loc_conference_flavor_royal_navy_increase: "Unsere Vertreter schlugen eine Erhöhung der Beiträge der Kolonien an die Königliche Marine vor. Einige Kolonien erklärten sich bereit, ihre Beiträge zu erhöhen, aber es gelang uns nicht, alle zu überzeugen."
+ bem_custom_loc_conference_flavor_defense_contributions: "Auf der diesjährigen Konferenz schlug eine unserer Kolonien vor, dass jede Kolonie im Kriegsfall eine Sondertruppe für die Verteidigung des Empires stellen sollte. Einige Kolonien lehnten diesen Vorschlag jedoch ab, da sie der Meinung waren, dass dies die Selbstverwaltung untergraben würde. Es konnte keine Einigung in dieser Frage erzielt werden."
+ bem_custom_loc_conference_flavor_imperial_council_advising: "Eine unserer Kolonien schlug die Bildung eines Imperialen Rates vor, der sich aus Vertretern der Dominions zusammensetzen sollte. Dieser Rat sollte die britische Regierung in Reichsangelegenheiten beraten. Unsere Regierung lehnte diese Idee ab, da sie unsere Autonomie verletzen würde."
+ bem_custom_loc_conference_flavor_peace_and_treaties: "Die Konferenz kam zu einer Einigung über Verträge und Friedenskonferenzen. Die britische Regierung wird künftig Vertragsvorschläge in den Dominions zirkulieren lassen, damit diese die Vorschläge kommentieren können."
+ bem_custom_loc_conference_flavor_external_politics: "Im Mittelpunkt dieser Konferenz standen die Diplomatie und die Außenpolitik. Die Kolonien erörterten unsere Außenpolitik, und es wurden mehrere Verträge verteilt, kommentiert und diskutiert."
 
 #backup file: bem.10.f: "During this [SCOPE.GetRootScope.GetCountry.GetCustom('imperial_conference_name')] representatives from all over the world came to [ROOT.GetCountry.GetCapital.GetCityHubName]. Some notable delegations came from:[SCOPE.GetRootScope.GetCountry.GetCustom('bem_imperial_conference_participiant_1_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bem_imperial_conference_participiant_2_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bem_imperial_conference_participiant_3_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bem_imperial_conference_participiant_4_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bem_imperial_conference_participiant_5_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bem_imperial_conference_participiant_6_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bem_imperial_conference_participiant_7_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bem_imperial_conference_participiant_8_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bem_imperial_conference_participiant_9_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bem_imperial_conference_participiant_10_type')]\n\nThis year a proposal to lay a telegraph cable between #yellow Vancouver#! and #yellow Australia#! was approved"
 
@@ -446,29 +449,29 @@
  bem_imperial_conference_participant_9: "\n[GetGlobalVariable('bem_imperial_conference_participant_9_global_var').GetCountry.GetName]"
  bem_imperial_conference_participant_10: "\n[GetGlobalVariable('bem_imperial_conference_participant_10_global_var').GetCountry.GetName]"
 
- bem.100.t: "\"Sherlock Holmes\" by Arthur Conand Doyle published"
- bem.100.d: "A detective solving crimes by applying logic and his mind. What an interesting concept that Arthur Conan Doyle came up with."
- bem.100.f: "\"It was easier to know it than to explain why I know it. If you were asked to prove that two and two made four, you might find some difficulty, and yet you are quite sure of the fact.\"\n- Arthur Conan Doyle, A Study in Scarlet"
- bem.100.a: "Elementary, my dear Watson."
+ bem.100.t: "\"Eine Studie in Scharlachrot\" von Arthur Conand Doyle veröffentlicht"
+ bem.100.d: "Ein Detektiv, der mit Hilfe von Logik und Verstand Verbrechen aufklärt. Dieser Sherlock Holmes ist eine faszinierende Figur. Was für ein interessantes Konzept, das sich Arthur Conan Doyle ausgedacht hat."
+ bem.100.f: "\"Es war einfacher, es zu wissen, als zu erklären, warum ich es weiß. Wenn man Sie bitten würde, zu beweisen, dass zwei und zwei vier ergibt, würden Sie vielleicht auf einige Schwierigkeiten stossen, und doch sind Sie sich der Tatsache ziemlich sicher.\"\n- Arthur Conan Doyle, Eine Studie in Scharlachrot"
+ bem.100.a: "Elementar, mein lieber Watson."
 
  bem_arthur_conan: "Arthur Conan"
  bem_doyle: "Doyle"
 
- bem.101.t: "Charles Darwin releases \"On the Origin of Species\""
- bem.101.d: "In his latest publication, the controversial scientist  outline a theory of how traits are selected by nature, where the tremendous diversity of life on earth came from and how animals and plants came to be distributed across the planet."
- bem.101.f: "\"One general law, leading to the advancement of all organic beings, namely, multiply, vary, let the strongest live and the weakest die.\"\n- Charles Darwin, The Origin of Species"
- bem.101.a: "Evolved from apes, are we? Well, it does make sense."
+ bem.101.t: "Charles Darwin veröffentlicht \"Über die Entstehung der Arten\""
+ bem.101.d: "In seiner jüngsten Veröffentlichung stellt der umstrittene Wissenschaftler eine Theorie auf, wie die Natur Merkmale auswählt, woher die enorme Vielfalt des Lebens auf der Erde stammt und wie Tiere und Pflanzen über den Planeten verteilt wurden."
+ bem.101.f: "\"Ein allgemeines Gesetz, das zur Weiterentwicklung aller organischen Lebewesen führt, nämlich: Vermehren, variieren, den Stärksten leben und den Schwächsten sterben lassen.\"\n- Charles Darwin, Über die Entstehung der Arten"
+ bem.101.a: "Wir haben uns vom Affen entwickelt, was? Nun, das macht durchaus Sinn."
 
  bem_charles: "Charles"
  bem_darwin: "Darwin"
 
 #Modifiers
- bem_bureaucratic_support_modifier: "British Bureaucratic Support"
- bem_bureaucratic_support_sent_modifier: "Sent Bureaucratic Support to Subject"
+ bem_bureaucratic_support_modifier: "Britische bürokratische Unterstützung"
+ bem_bureaucratic_support_sent_modifier: "Bürokratische Unterstützung an Untertan geschickt"
 
- bem_construction_support_modifier: "British Construction Support"
- bem_construction_support_sent_modifier: "Sent Construction Support to Subject"
+ bem_construction_support_modifier: "Unterstützung der britischen Bauwirtschaft"
+ bem_construction_support_sent_modifier: "Unterstützungdes Bauwesens an Untertan gesendet"
 
- bem_sherlock_holmes_modifier: "Sherlock Holmes by Arthur Conan Doyle"
+ bem_sherlock_holmes_modifier: "Eine Studie in Scharlachrot von Arthur Conan Doyle"
 
- bem_on_the_origin_of_species_modifier: "On the Origin of Species by Charles Darwin"
+ bem_on_the_origin_of_species_modifier: "Über die Entstehung der Arten von Charles Darwin"
