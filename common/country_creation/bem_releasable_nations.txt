@@ -98,8 +98,37 @@ C1E = {
 	required_num_states = 1
 
 	possible = {
-		exists = c:GBR
-		this = c:GBR
+		is_country_type = recognized
+	}
+	
+	ai_will_do = { always = no }
+}
+
+#Falkland Islands
+C1F = {
+	provinces = {
+		x3020D0
+		x5E9DB3
+		x9EF337
+	}
+	
+	possible = {
+		is_country_type = recognized
+	}
+	
+	ai_will_do = { always = no }
+}
+
+#Colony of Gabon
+C1G = {
+	states = {
+		STATE_GABON
+	}
+
+	required_num_states = 1
+
+	possible = {
+		is_country_type = recognized
 	}
 	
 	ai_will_do = { always = no }
@@ -436,22 +465,6 @@ C3M = {
 	ai_will_do = { always = no }
 }
 
-#Colony of Gabon
-C1G = {
-	states = {
-		STATE_GABON
-	}
-
-	required_num_states = 1
-
-	possible = {
-		exists = c:GBR
-		this = c:GBR
-	}
-	
-	ai_will_do = { always = no }
-}
-
 #Colony of Central Africa
 C4C = {
 	states = {
@@ -578,22 +591,6 @@ C2P = {
 
 	required_num_states = 1
 
-	possible = {
-		exists = c:GBR
-		this = c:GBR
-	}
-	
-	ai_will_do = { always = no }
-}
-
-#Falkland Islands
-C1F = {
-	provinces = {
-		x3020D0
-		x5E9DB3
-		x9EF337
-	}
-	
 	possible = {
 		exists = c:GBR
 		this = c:GBR

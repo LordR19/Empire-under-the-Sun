@@ -11,6 +11,16 @@ C1F = {
 
 C1F_sub = {
 	pattern = "pattern_solid.tga"
+	color1 = { 0 107 205  }
+	
+	textured_emblem = {
+		texture = "te_emblem_sheep_falklands.dds"
+		instance = { scale = { 0.45 0.45 } position = { 0.75 0.5 } }
+	}
+}
+
+C1F_sub_british = {
+	pattern = "pattern_solid.tga"
 	color1 = "blue"
 
 	textured_emblem = {

@@ -24,7 +24,6 @@ C1D = {
 		coa_with_overlord_canton = C1D_sub		
 		priority = 50
 		trigger = { 
-			exists = c:GBR
 			scope:actor = {
 				is_subject = yes
 			}

@@ -40,6 +40,7 @@
  dyn_c_default_egypt_adj: "Ägyptisch"
  dyn_c_protectorate_of_egypt: "Protektorat Ägypten"
  dyn_c_protectorate_of_egypt_adj: "Ägyptisch"
+  dyn_c_colonial_egypt: "[Country.GetOverlord.GetAdjectiveNoFormatting] Ägypten"
 
  C1C: "Kolonial Zypern"
  C1C_ADJ: "Zypriotisch"

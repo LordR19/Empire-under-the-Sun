@@ -40,6 +40,7 @@
  dyn_c_default_egypt_adj: "Egyptian"
  dyn_c_protectorate_of_egypt: "Protectorate of Egypt"
  dyn_c_protectorate_of_egypt_adj: "Egyptian"
+ dyn_c_colonial_egypt: "[Country.GetOverlord.GetAdjectiveNoFormatting] Egypt"
 
  C1C: "Colonial Cyprus"
  C1C_ADJ: "Cypriot"
