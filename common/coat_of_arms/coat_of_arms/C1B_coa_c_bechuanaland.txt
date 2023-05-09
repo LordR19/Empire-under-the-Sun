@@ -21,6 +21,12 @@ C1B_sub = {
 		color2 = "white"
 		instance = { scale = { 1 0.85 } position = { 0.5 0.73 } }
 	}
+	colored_emblem = {
+		texture = "ce_elephant_african.dds"
+		color1 = "grey"
+		color2 = "white"
+		instance = { scale = { 0.65 0.65 } position = { 0.75 0.35 } }
+	}
 }
 
 C1B_sub_british = {

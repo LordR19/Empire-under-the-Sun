@@ -698,3 +698,109 @@ bem.101 = {
 		}
 	}
 }
+
+# Gruesome murder in Whitechapel, London
+bem.200 = {
+	type = country_event
+	placement = scope:home_counties_state
+
+	title = bem.200.t
+	desc = bem.200.d
+	flavor = bem.200.f
+
+	duration = 3
+
+	event_image = {
+		texture = "gfx/event_pictures/bem/bem_ripper_1.dds"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/southamerica/public_figure_assassination"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	trigger = {
+		NOT = {
+			has_global_variable = bem_mary_anne_nichols_global_var
+		}
+		game_date >= 1888.8.1
+		exists = c:GBR
+		this = c:GBR
+	}
+
+	immediate = {
+		set_global_variable = bem_mary_anne_nichols_global_var
+
+		random_state  = {
+			limit = {
+				state_region = s:STATE_HOME_COUNTIES
+			}
+			save_scope_as = home_counties_state
+		}
+	}
+
+	option = { #How horrible..."
+		name = bem.200.a
+		default_option = yes
+
+		trigger_event = {
+			id = bem.201
+			days = { 7 21 }
+		}
+	}
+
+	option = { #I administer a country. Stop bothering me with such trivialities."
+		name = bem.200.c
+		default_option = yes
+
+		custom_tooltip = bem.200.c.tt
+	}
+}
+
+# The Whitechapel “Ripper” strikes again!
+bem.201 = {
+	type = country_event
+	placement = scope:home_counties_state
+
+	title = bem.201.t
+	desc = bem.201.d
+	flavor = bem.201.f
+
+	duration = 3
+
+	event_image = {
+		texture = "gfx/event_pictures/bem/bem_ripper_2.dds"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/southamerica/public_figure_assassination"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	trigger = {
+	}
+
+	immediate = {
+
+		random_state  = {
+			limit = {
+				state_region = s:STATE_HOME_COUNTIES
+			}
+			save_scope_as = home_counties_state
+		}
+	}
+
+	option = { #Terrible..."
+		name = bem.201.a
+		default_option = yes
+	}
+
+	option = { #I administer a country. Stop bothering me with such trivialities."
+		name = bem.200.c
+		default_option = yes
+
+		custom_tooltip = bem.200.c.tt
+
+		set_global_variable = bem_no_more_ripper_events_global_var
+	}
+}

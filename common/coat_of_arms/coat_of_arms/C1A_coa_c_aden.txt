@@ -29,7 +29,7 @@ C1A = {
 
 C1A_sub = {
 	pattern = "pattern_solid.tga"
-	color1 = { 0 150 250 }
+	color1 = { 115 175 255 }
 
 	textured_emblem = {
 		texture = "te_emblem_ship_aden.dds"
@@ -37,8 +37,8 @@ C1A_sub = {
 	}
 	colored_emblem = {
 		texture = "ce_waves.dds"
-		color1 = "azure"
-		color2 = "blue"
+		color1 = "blue_light"
+		color2 = { 0 150 250 }
 		instance = { scale = { 1 1 } position = { 0.5 0.79 } }
 	}
 }

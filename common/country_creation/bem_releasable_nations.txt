@@ -69,6 +69,21 @@ C1C = {
 	ai_will_do = { always = no }
 }
 
+#Colonial Dahomey
+C1D = {
+	states = {
+		STATE_DAHOMEY
+	}
+
+	required_num_states = 1
+
+	possible = {
+		is_country_type = recognized
+	}
+	
+	ai_will_do = { always = no }
+}
+
 #Protectorate of Egypt
 C1E = {
 	states = {
@@ -681,22 +696,6 @@ C6M = {
 	states = {
 		STATE_MAURITANIA
 		STATE_INNER_MAURITANIA
-	}
-
-	required_num_states = 1
-
-	possible = {
-		exists = c:GBR
-		this = c:GBR
-	}
-	
-	ai_will_do = { always = no }
-}
-
-#Colonial Dahomey
-C1D = {
-	states = {
-		STATE_DAHOMEY
 	}
 
 	required_num_states = 1

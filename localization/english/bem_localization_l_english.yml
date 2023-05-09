@@ -466,6 +466,18 @@
  bem_charles: "Charles"
  bem_darwin: "Darwin"
 
+ bem.200.t: "Gruesome murder in Whitechapel, London"
+ bem.200.d: "Scotland Yard has opened an investigation after the body of Mary Ann Nichols was found in Whitechapel. The body of the victim appears to be mutilated in such a brutal way that it made officers and bystanders alike, sick to their stomach."
+ bem.200.f: "\"The officers engaged in the case are pushing their inquiries in the neighborhood as to the doings of certain gangs known to frequent the locality, and an opinion is gaining ground amongst them that the murderers are the same who committed the two previous murders near the same spot.\"\n - The Weekly Herald"
+ bem.200.a: "How horrible..."
+ bem.200.c: "I administer a country. Stop bothering me with such trivialities."
+ bem.200.c.tt: "You will not receive any more events about #yellow Jack the Ripper#!. This might result in more murders and a #n loss of prestige#! later."
+
+ bem.201.t: "The Whitechapel \"Ripper\" strikes again!"
+ bem.201.d: "London is unsafe. This morning, a new victim, Annie Chapman, was found in the same gruesome state as the last female victim. The police now believe the two murders are connected and urges calm as London appears to have a killer on the loose."
+ bem.201.f: "\"Police must not on any account give any information whatever to gentlemen connected with the press, relative to matters within police knowledge, either directly or indirectly, with editors, or reporters of newspapers, on any matter connected with the public service, without express and special authority...\"\n - Scotland Yard"
+ bem.201.a: "Terrible..."
+
 #Modifiers
  bem_bureaucratic_support_modifier: "British Bureaucratic Support"
  bem_bureaucratic_support_sent_modifier: "Sent Bureaucratic Support to Subject"
