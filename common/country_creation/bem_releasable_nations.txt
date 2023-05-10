@@ -167,6 +167,23 @@ C1K = {
 	ai_will_do = { always = no }
 }
 
+#Colonial Lybia
+C1L = {
+	states = {
+		STATE_TRIPOLI
+		STATE_LIBYA
+		STATE_LIBYAN_DESERT
+	}
+
+	required_num_states = 1
+
+	possible = {
+		is_country_type = recognized
+	}
+	
+	ai_will_do = { always = no }
+}
+
 #Protectorate of Palestine
 C1P = {
 	states = {
@@ -585,24 +602,6 @@ C4M = {
 C2P = {
 	states = {
 		STATE_EASTERN_NEW_GUINEA
-	}
-
-	required_num_states = 1
-
-	possible = {
-		exists = c:GBR
-		this = c:GBR
-	}
-	
-	ai_will_do = { always = no }
-}
-
-#Colonial Lybia
-C1L = {
-	states = {
-		STATE_TRIPOLI
-		STATE_LIBYA
-		STATE_LIBYAN_DESERT
 	}
 
 	required_num_states = 1
