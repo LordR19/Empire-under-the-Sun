@@ -268,8 +268,10 @@ C1P = {
 	required_num_states = 1
 
 	possible = {
-		exists = c:GBR
-		this = c:GBR
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
 	}
 	
 	ai_will_do = { always = no }

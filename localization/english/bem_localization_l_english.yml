@@ -56,6 +56,7 @@
  dyn_c_default_palestine_adj: "Palestine"
  dyn_c_protectorate_of_palestine: "Protectorate of Palestine"
  dyn_c_protectorate_of_palestine_adj: "Palestine"
+ dyn_c_colonial_palestine: "[Country.GetOverlord.GetAdjectiveNoFormatting] Palestine"
 
  C1I: "Colonial Iraq"
  C1I_ADJ: "Iraqi"

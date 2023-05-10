@@ -92,7 +92,7 @@ bem_on_country_released_as_own_subject = {
 				limit = {
 					ROOT = {
 						NOT = {
-							religion = rel:protestant
+							country_has_state_religion = rel:protestant
 						}
 					}
 				}
