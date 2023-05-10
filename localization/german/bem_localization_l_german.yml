@@ -63,6 +63,7 @@
  dyn_c_default_iraq_adj: "Irakisch"
  dyn_c_protectorate_of_iraq: "Protektorat Irak"
  dyn_c_protectorate_of_iraq_adj: "Irakisch"
+ dyn_c_colonial_iraq: "[Country.GetOverlord.GetAdjectiveNoFormatting] Irak"
 
  C1A: "Kolonial Aden"
  C1A_ADJ: "Adenesisch"
@@ -100,6 +101,7 @@
  dyn_c_default_kenya_adj: "Kenyanisch"
  dyn_c_protectorate_of_kenya: "Kolonie und Protektorat Kenya"
  dyn_c_protectorate_of_kenya_adj: "Kenyanisch"
+ dyn_c_colonial_kenya: "[Country.GetOverlord.GetAdjectiveNoFormatting] Kenya"
 
  C1T: "Kolonial Tanganyika"
  C1T_ADJ: "Tanganyikanisch"

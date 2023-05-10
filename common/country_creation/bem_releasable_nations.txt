@@ -134,28 +134,43 @@ C1G = {
 	ai_will_do = { always = no }
 }
 
-#Protectorate of Palestine
-C1P = {
+#Protectorate of Iraq
+C1I = {
 	states = {
-		STATE_PALESTINE
+		STATE_BAGHDAD
+		STATE_MOSUL
+		STATE_BASRA
 	}
 
 	required_num_states = 1
 
 	possible = {
-		exists = c:GBR
-		this = c:GBR
+		is_country_type = recognized
+	}
+	
+	ai_will_do = { always = no }
+}
+
+#Protectorate of Kenya
+C1K = {
+	states = {
+		STATE_KENYA
+		STATE_RIFT_VALLEY
+	}
+
+	required_num_states = 1
+
+	possible = {
+		is_country_type = recognized
 	}
 	
 	ai_will_do = { always = no }
 }
 
 #Protectorate of Palestine
-C1I = {
+C1P = {
 	states = {
-		STATE_BAGHDAD
-		STATE_MOSUL
-		STATE_BASRA
+		STATE_PALESTINE
 	}
 
 	required_num_states = 1
@@ -209,23 +224,6 @@ C1N = {
 		STATE_BORNU
 		STATE_HAUSALAND
 		STATE_EAST_HAUSALAND
-	}
-
-	required_num_states = 1
-
-	possible = {
-		exists = c:GBR
-		this = c:GBR
-	}
-	
-	ai_will_do = { always = no }
-}
-
-#Protectorate of Kenya
-C1K = {
-	states = {
-		STATE_KENYA
-		STATE_RIFT_VALLEY
 	}
 
 	required_num_states = 1
