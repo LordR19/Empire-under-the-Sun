@@ -18,11 +18,13 @@ C1U = {
 
 C1U_sub = {
 	pattern = "pattern_solid.tga"
-	color1 = "blue"
+	color1 = "red_light"
 
-	textured_emblem = {
-		texture = "te_seal_uganda.dds"
-		instance = { scale = { 0.5 0.5 } position = { 0.75 0.5 } }
+	colored_emblem = {
+		texture = "ce_emblem_gorilla_head.dds"
+		color1 = "black"
+		color2 = "white"
+		instance = { scale = { 0.75 0.75 } position = { 0.75 0.5 } }
 	}
 }
 
