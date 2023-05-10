@@ -111,6 +111,7 @@
  dyn_c_default_tanganyika_adj: "Tanganyikanisch"
  dyn_c_tanganyika_territory: "Tanganyika Territorium"
  dyn_c_tanganyika_territory_adj: "Tanganyikanisch"
+ dyn_c_colonial_tanganyika: "[Country.GetOverlord.GetAdjectiveNoFormatting] Tanganyika"
 
  C2T: "Kolonial Transjordanien"
  C2T_ADJ: "Transjordanisch"
@@ -125,6 +126,7 @@
  dyn_c_default_uganda_adj: "Ugandisch"
  dyn_c_protectorate_of_uganda: "Protektorat Uganda"
  dyn_c_protectorate_of_uganda_adj: "Ugandisch"
+ dyn_c_colonial_uganda: "[Country.GetOverlord.GetAdjectiveNoFormatting] Uganda"
 
  C2S: "Kolonial Sudan"
  C2S_ADJ: "Sudanesisch"

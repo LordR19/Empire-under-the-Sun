@@ -14,6 +14,19 @@ C1T = {
 
 C1T_sub = {
 	pattern = "pattern_solid.tga"
+	color1 = "red_light"
+
+	colored_emblem = {
+		texture = "ce_emblem_lions_head.dds"
+		color1 = "white"
+		color2 = "white"
+		color3 = "grey"
+		instance = { scale = { 0.75 0.75 } position = { 0.75 0.5 } }
+	}
+}
+
+C1T_sub_british = {
+	pattern = "pattern_solid.tga"
 	color1 = "red"
 
 	textured_emblem = {
