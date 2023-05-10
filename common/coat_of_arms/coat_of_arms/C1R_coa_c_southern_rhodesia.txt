@@ -31,6 +31,24 @@ C1R = {
 
 C1R_sub = {
 	pattern = "pattern_solid.tga"
+	color1 = "green"
+
+	colored_emblem = {
+		texture = "ce_emblem_pickax.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.65 0.65 } position = { 0.75 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_emblem_diamond.dds"
+		color1 = "white"
+		color2 = "blue_light"
+		instance = { scale = { 0.2 0.2 } position = { 0.6 0.7 } }
+		instance = { scale = { 0.2 0.2 } position = { 0.9 0.7 } }
+	}
+}
+
+C1R_sub_british = {
+	pattern = "pattern_solid.tga"
 	color1 = "blue"
 
 	textured_emblem = {

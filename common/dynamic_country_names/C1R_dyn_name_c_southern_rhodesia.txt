@@ -19,11 +19,12 @@
 		priority = 10
 		
 		trigger = {
-			scope:actor = {
-				is_subject = yes
+			AND = {
+				exists = c:GBR
 				NOT = {
-					exists = c:GBR
-					is_subject_of = c:GBR
+					scope:actor = {
+						is_subject_of = c:GBR
+					}
 				}
 			}
 		}
@@ -37,8 +38,8 @@
 		priority = 10
 		
 		trigger = {
+			exists = c:GBR
 			scope:actor = {
-				exists = c:GBR
 				is_subject_of = c:GBR
 			}
 		}
