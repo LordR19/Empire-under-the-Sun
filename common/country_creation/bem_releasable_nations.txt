@@ -33,7 +33,10 @@ C1A = {
 	}
 
 	possible = {
-		is_country_type = recognized
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
 	}
 	
 	ai_will_do = { always = no }
@@ -48,7 +51,10 @@ C1B = {
 	required_num_states = 1
 
 	possible = {
-		is_country_type = recognized
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
 	}
 	
 	ai_will_do = { always = no }
@@ -63,7 +69,10 @@ C1C = {
 	required_num_states = 1
 
 	possible = {
-		is_country_type = recognized
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
 	}
 	
 	ai_will_do = { always = no }
@@ -78,7 +87,10 @@ C1D = {
 	required_num_states = 1
 
 	possible = {
-		is_country_type = recognized
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
 	}
 	
 	ai_will_do = { always = no }
@@ -98,7 +110,10 @@ C1E = {
 	required_num_states = 1
 
 	possible = {
-		is_country_type = recognized
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
 	}
 	
 	ai_will_do = { always = no }
@@ -113,7 +128,10 @@ C1F = {
 	}
 	
 	possible = {
-		is_country_type = recognized
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
 	}
 	
 	ai_will_do = { always = no }
@@ -128,7 +146,10 @@ C1G = {
 	required_num_states = 1
 
 	possible = {
-		is_country_type = recognized
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
 	}
 	
 	ai_will_do = { always = no }
@@ -145,7 +166,10 @@ C1I = {
 	required_num_states = 1
 
 	possible = {
-		is_country_type = recognized
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
 	}
 	
 	ai_will_do = { always = no }
@@ -161,7 +185,10 @@ C1K = {
 	required_num_states = 1
 
 	possible = {
-		is_country_type = recognized
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
 	}
 	
 	ai_will_do = { always = no }
@@ -178,7 +205,10 @@ C1L = {
 	required_num_states = 1
 
 	possible = {
-		is_country_type = recognized
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
 	}
 	
 	ai_will_do = { always = no }
