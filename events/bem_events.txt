@@ -741,11 +741,12 @@ bem.200 = {
 
 	option = { #How horrible..."
 		name = bem.200.a
-		default_option = yes
 
-		trigger_event = {
-			id = bem.201
-			days = { 7 21 }
+		hidden_effect = {
+			trigger_event = {
+				id = bem.201
+				days = { 7 21 }
+			}
 		}
 	}
 
@@ -792,7 +793,112 @@ bem.201 = {
 
 	option = { #Terrible..."
 		name = bem.201.a
+
+		hidden_effect = {
+			trigger_event = {
+				id = bem.202
+				days = { 7 21 }
+			}
+		}
+	}
+
+	option = { #I administer a country. Stop bothering me with such trivialities."
+		name = bem.200.c
 		default_option = yes
+
+		custom_tooltip = bem.200.c.tt
+
+		set_global_variable = bem_no_more_ripper_events_global_var
+	}
+}
+
+# "Jack the Ripper" claims his two latest victims!
+bem.202 = {
+	type = country_event
+	placement = scope:home_counties_state
+
+	title = bem.202.t
+	desc = bem.202.d
+	flavor = bem.202.f
+
+	duration = 3
+
+	event_image = {
+		texture = "gfx/event_pictures/bem/bem_ripper_3.dds"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/southamerica/public_figure_assassination"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	trigger = {
+	}
+
+	immediate = {
+		random_state  = {
+			limit = {
+				state_region = s:STATE_HOME_COUNTIES
+			}
+			save_scope_as = home_counties_state
+		}
+	}
+
+	option = { #Oh no, not again..."
+		name = bem.202.a
+
+		hidden_effect = {
+			trigger_event = {
+				id = bem.203
+				days = { 7 21 }
+			}
+		}
+	}
+
+	option = { #I administer a country. Stop bothering me with such trivialities."
+		name = bem.200.c
+		default_option = yes
+
+		custom_tooltip = bem.200.c.tt
+
+		set_global_variable = bem_no_more_ripper_events_global_var
+	}
+}
+
+# A letter from the Ripper
+bem.203 = {
+	type = country_event
+	placement = scope:home_counties_state
+
+	title = bem.203.t
+	desc = bem.203.d
+	flavor = bem.203.f
+
+	duration = 3
+
+	event_image = {
+		texture = "gfx/event_pictures/bem/bem_ripper_4.dds"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/southamerica/public_figure_assassination"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	trigger = {
+	}
+
+	immediate = {
+		random_state  = {
+			limit = {
+				state_region = s:STATE_HOME_COUNTIES
+			}
+			save_scope_as = home_counties_state
+		}
+	}
+
+	option = { #What a monster!"
+		name = bem.203.a
 	}
 
 	option = { #I administer a country. Stop bothering me with such trivialities."

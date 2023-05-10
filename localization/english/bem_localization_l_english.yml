@@ -474,10 +474,20 @@
  bem.200.c: "I administer a country. Stop bothering me with such trivialities."
  bem.200.c.tt: "You will not receive any more events about #yellow Jack the Ripper#!. This might result in more murders and a #n loss of prestige#! later."
 
- bem.201.t: "The Whitechapel \"Ripper\" strikes again!"
+ bem.201.t: "The Whitechapel #yellow \"Ripper\"#! strikes again!"
  bem.201.d: "London is unsafe. This morning, a new victim, Annie Chapman, was found in the same gruesome state as the last female victim. The police now believe the two murders are connected and urges calm as London appears to have a killer on the loose."
  bem.201.f: "\"Police must not on any account give any information whatever to gentlemen connected with the press, relative to matters within police knowledge, either directly or indirectly, with editors, or reporters of newspapers, on any matter connected with the public service, without express and special authority...\"\n - Scotland Yard"
  bem.201.a: "Terrible..."
+
+ bem.202.t: "#yellow \"Jack the Ripper\"#! claims his two latest victims!"
+ bem.202.d: "The bodies of Elizabeth Stride and Catherine Eddowes were discovered this morning. The suspected killer, now named #yellow \"Jack the Ripper\"#! by the press, is still outmaneuvering the Police. The horror in London grows."
+ bem.202.f: "\"To this end, Inspector Frederick George Abberline – an officer who has been promoted out of the area the previous December after fourteen years spent patrolling and getting to know the neighborhood and its criminal elements – is drafted back into the district to take overall charge of the on the ground Jack the Ripper police investigation.\nIt is evidently believed that Abberline\’s local knowledge will prove invaluable in hunting down the killer and bringing him to justice.\"\n - The London Evening News"
+ bem.202.a: "Oh no, not again..."
+
+ bem.203.t: "A letter from #yellow the Ripper#!"
+ bem.203.d: "#yellow \"The East End Ripper\"#!, or #yellow \"Jack the Ripper\"#! as the press has named him, has written a letter to the police. Although the police have received hundreds of letters from the suspected mass murderer, this one seems to be authentic, as it came with an undisclosed \"part\" of the latest victim. "
+ bem.203.f: "\"Signed #yellow \"From Hell\"#!, the letter offers a look into a deeply disturbed mind. What separates this letter from the hundreds of others sent to the press and police, is the accompanying body part that was found missing on the latest victim, Catherine Eddowes. The chilling letter taunts the investigators and ends with: \"...Catch me if you can\".\n - London Daily Post"
+ bem.203.a: "What a monster!"
 
 #Modifiers
  bem_bureaucratic_support_modifier: "British Bureaucratic Support"
