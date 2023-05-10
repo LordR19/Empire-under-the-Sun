@@ -94,6 +94,7 @@
  dyn_c_default_nigeria_adj: "Nigerian"
  dyn_c_protectorate_of_nigeria: "Colony and Protectorate of Nigeria"
  dyn_c_protectorate_of_nigeria_adj: "Nigerian"
+ dyn_c_colonial_nigeria: "[Country.GetOverlord.GetAdjectiveNoFormatting] Nigeria"
 
  C1K: "Colonial Kenya"
  C1K_ADJ: "Kenyan"

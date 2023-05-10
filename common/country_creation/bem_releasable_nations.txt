@@ -235,6 +235,30 @@ C1M = {
 	ai_will_do = { always = no }
 }
 
+#Protectorate of Nigeria
+C1N = {
+	states = {
+		STATE_YORUBA_STATES
+		STATE_NIGER_DELTA
+		STATE_BENIN
+		STATE_NIGERIA
+		STATE_BORNU
+		STATE_HAUSALAND
+		STATE_EAST_HAUSALAND
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
+	}
+	
+	ai_will_do = { always = no }
+}
+
 #Protectorate of Palestine
 C1P = {
 	states = {
@@ -277,28 +301,6 @@ C1S = {
 		root = {
 			is_country_type = recognized
 		}
-	}
-	
-	ai_will_do = { always = no }
-}
-
-#Protectorate of Nigeria
-C1N = {
-	states = {
-		STATE_YORUBA_STATES
-		STATE_NIGER_DELTA
-		STATE_BENIN
-		STATE_NIGERIA
-		STATE_BORNU
-		STATE_HAUSALAND
-		STATE_EAST_HAUSALAND
-	}
-
-	required_num_states = 1
-
-	possible = {
-		exists = c:GBR
-		this = c:GBR
 	}
 	
 	ai_will_do = { always = no }

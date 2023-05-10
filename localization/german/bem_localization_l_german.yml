@@ -94,6 +94,7 @@
  dyn_c_default_nigeria_adj: "Nigerianisch"
  dyn_c_protectorate_of_nigeria: "Kolonie und Protektorat Nigeria"
  dyn_c_protectorate_of_nigeria_adj: "Nigerianisch"
+ dyn_c_colonial_nigeria: "[Country.GetOverlord.GetAdjectiveNoFormatting] Nigeria"
 
  C1K: "Kolonial Kenya"
  C1K_ADJ: "Kenyanisch"
