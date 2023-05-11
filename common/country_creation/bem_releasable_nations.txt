@@ -333,6 +333,24 @@ C1U = {
 	ai_will_do = { always = no }
 }
 
+#Colonial Upper Volta
+C1V = {
+	states = {
+		STATE_VOLTA
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
+	}
+
+	ai_will_do = { always = no }
+}
+
 #Protectorate of Yemen
 C1Y = {
 	provinces = {
@@ -799,22 +817,6 @@ C2G = {
 C3G = {
 	states = {
 		STATE_GHANA
-	}
-
-	required_num_states = 1
-
-	possible = {
-		exists = c:GBR
-		this = c:GBR
-	}
-
-	ai_will_do = { always = no }
-}
-
-#Colonial Upper Volta
-C1V = {
-	states = {
-		STATE_VOLTA
 	}
 
 	required_num_states = 1

@@ -807,8 +807,6 @@ bem.201 = {
 		default_option = yes
 
 		custom_tooltip = bem.200.c.tt
-
-		set_global_variable = bem_no_more_ripper_events_global_var
 	}
 }
 
@@ -860,8 +858,6 @@ bem.202 = {
 		default_option = yes
 
 		custom_tooltip = bem.200.c.tt
-
-		set_global_variable = bem_no_more_ripper_events_global_var
 	}
 }
 
@@ -899,6 +895,13 @@ bem.203 = {
 
 	option = { #What a monster!"
 		name = bem.203.a
+
+		hidden_effect = {
+			trigger_event = {
+				id = bem.204
+				days = { 7 21 }
+			}
+		}
 	}
 
 	option = { #I administer a country. Stop bothering me with such trivialities."
@@ -906,7 +909,49 @@ bem.203 = {
 		default_option = yes
 
 		custom_tooltip = bem.200.c.tt
+	}
+}
 
-		set_global_variable = bem_no_more_ripper_events_global_var
+# “Jack the Ripper” butchers 5th victim!
+bem.204 = {
+	type = country_event
+	placement = scope:home_counties_state
+
+	title = bem.204.t
+	desc = bem.204.d
+	flavor = bem.204.f
+
+	duration = 3
+
+	event_image = {
+		texture = "gfx/event_pictures/bem/bem_ripper_5.dds"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/southamerica/public_figure_assassination"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	trigger = {
+	}
+
+	immediate = {
+		random_state  = {
+			limit = {
+				state_region = s:STATE_HOME_COUNTIES
+			}
+			save_scope_as = home_counties_state
+		}
+	}
+
+	option = { #Will this never stop?
+		name = bem.204.a
+	}
+
+	option = { #I administer a country. Stop bothering me with such trivialities.
+		name = bem.200.c
+		default_option = yes
+
+		custom_tooltip = bem.200.c.tt
 	}
 }

@@ -16,6 +16,19 @@ C1V = {
 
 C1V_sub = {
 	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_emblem_minecart.dds"
+		color1 = { 50 50 50 }
+		color2 = "white"
+		color3 = "yellow"
+		instance = { scale = { 0.6 0.6 } position = { 0.75 0.5 } }
+	}
+}
+
+C1V_sub_british = {
+	pattern = "pattern_solid.tga"
 	color1 = "blue"
 
 	colored_emblem = {
@@ -24,10 +37,11 @@ C1V_sub = {
 		instance = { scale = { 0.5 0.5 } position = { 0.75 0.5 } }
 	}
 	colored_emblem = {
-		texture = "ce_horse.dds"
-		color1 = "brown"
-		color3 = "black"
-		instance = { scale = { 0.53 0.53 } position = { 0.75 0.5 } }
+		texture = "ce_emblem_minecart.dds"
+		color1 = { 50 50 50 }
+		color2 = "white"
+		color3 = "yellow"
+		instance = { scale = { 0.35 0.35 } position = { 0.75 0.5 } }
 	}
 }
 
