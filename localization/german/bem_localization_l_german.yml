@@ -473,6 +473,11 @@
  bem_charles: "Charles"
  bem_darwin: "Darwin"
 
+ bem.206.t: "#yellow \"Jack the Ripper\"#! begeht Suizid um sich der Polizei zu entziehen"
+ bem.206.d: "#yellow \"Jack the Ripper\"#! wurde dank Hinweisen aus der Bevölkerung lokalisiert. Irgendwie muss er bemerkt haben, dass die Polizei seinen Aufenthaltsort umstellt hat. Als die Polizisten bereit waren, das Gebäude zu stürmen, war es zu spät. #yellow \"Jack the Ripper\"#! scheint sich selbst und das Gebäude in Brand gesetzt zu haben, um nicht der Polizei in die Hände zu fallen. Nach den Löscharbeiten konnte die Identität des Täters nicht festgestellt werden. Aber wenigstens wird dieses Monster nie wieder jemanden ermorden."
+ bem.206.f: "Ist Jack the Ripper wirklich tot? Die Polizei teilte mit, dass die verbrannte Leiche zweifelsfrei dem gesuchten Mörder gehört, aber stimmt das auch tatsächlich? Von wem kam der Hinweis? Gehört die Leiche wirklich dem Ripper oder ist dieses Monster noch auf freiem Fuss?\n - The View"
+ bem.206.a: "Haben wir ihn tatsächlich gefasst?"
+
 #Modifiers
  bem_bureaucratic_support_modifier: "Britische bürokratische Unterstützung"
  bem_bureaucratic_support_sent_modifier: "Bürokratische Unterstützung an Untertan geschickt"

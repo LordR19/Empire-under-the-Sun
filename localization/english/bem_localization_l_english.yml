@@ -495,10 +495,21 @@
  bem.203.f: "\"Signed #yellow \"From Hell\"#!, the letter offers a look into a deeply disturbed mind. What separates this letter from the hundreds of others sent to the press and police, is the accompanying body part that was found missing on the latest victim, Catherine Eddowes. The chilling letter taunts the investigators and ends with: \"...Catch me if you can\".\n - London Daily Post"
  bem.203.a: "What a monster!"
 
- bem.204.t: "#yellow \"Jack the Ripper\"#! butchers 5th victim!"
+ bem.204.t: "No signs of #yellow \"Jack the Ripper\"#!"
  bem.204.d: "#yellow \"Jack the Ripper\"#! strikes again! This time, Mary Jane Kelly is the latest of his victims. The serial killer has spread fear and panic across the British capital as a manhunt for the madman is gaining in strength."
  bem.204.f: "#yellow \"Jack the Ripper\"#! has chosen his latest victim, this time at a place and time where he was undisturbed. We feel we cannot write the details of the heinous crime here, but rest assured, Scotland Yard is doing everything in their power to catch him.\"\n - London Times"
  bem.204.a: "What a monster!"
+
+ bem.205.t: "No signs of #yellow \"Jack the Ripper\"#!"
+ bem.205.d: "The serial killer known as #yellow \"Jack the Ripper\"#! has not claimed any new victims, as weeks have passed since the latest victim was found. It seems the devilish serial killer has disappeared into the night, leaving no trace as to who he was. Police, investigators and the press continue to search for answers. But for now, it seems London is safe. "
+ bem.205.f: "\"As the ghastly handiwork of #yellow \"Jack the Ripper\"#! began turning up around Whitechapel, it marked the appearance of a new brand of killer. Jack is not the world's first serial killer, but he is undoubtedly the product of an increasingly industrialized Western society and the anonymity and isolation it produces. He does not kill for money, to eliminate an enemy or punish a spouse . The killings seem random, and caught the London police forces completely off guard.\"\n - The Penny Paper"
+ bem.205.a: "Did he really disappear?"
+
+ bem.206.t: "#yellow \"Jack the Ripper\"#! eluded police by committing suicide"
+ bem.206.d: "Finally #yellow \"Jack the Ripper\"#! was located thanks to tips from the public. Somehow he must have noticed that the police had surrounded his whereabouts. By the time the police officers were ready to storm the building, it was too late. #yellow \"Jack the Ripper\"#! seems to have set himself and the building on fire to avoid falling into the hands of the police. After the firefighting efforts, the identity of the perpetrator could not be determined. But at least this monster will never murder anyone again."
+ bem.206.f: "\"Is #yellow \"Jack the Ripper\"#! really dead? The police announced that the burned body is undoubtedly his, but is it really true? Where did the tip come from? Does the body really belong to the Ripper or is this monster still at large?\"\n - The View"
+ bem.206.a: "Did we really catch him?"
+
 
 #Modifiers
  bem_bureaucratic_support_modifier: "British Bureaucratic Support"

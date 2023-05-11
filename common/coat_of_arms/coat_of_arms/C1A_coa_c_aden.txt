@@ -1,29 +1,17 @@
 #Protectorate of Aden
 C1A = {
 	pattern = "pattern_solid.tga"
-	color1 = { 0 50 145 }
-	
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "white"
-		color2 = { 0 50 145 }
+	color1 = { 115 175 255 }
+
+	textured_emblem = {
+		texture = "te_emblem_ship_aden.dds"
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.48 } }
 	}
 	colored_emblem = {
-		texture = "ce_rhombus.dds"
-		color1 = "red"
-		color2 = "red"
-		instance = { position = { 0 0.5 } }
-	}
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = "white"
-		color2 = "white"
-		instance = { scale = { 1.0 0.34 } position = { 0.83 0.5 } }
-	}
-	colored_emblem = {
-		texture = "ce_star_05.dds"
-		color1 = "green"
-		instance = { scale = { 0.425 0.425 } position = { 0.65 0.515 } }
+		texture = "ce_waves.dds"
+		color1 = "blue_light"
+		color2 = { 0 150 250 }
+		instance = { scale = { 1 1 } position = { 0.5 0.79 } }
 	}
 }
 
@@ -55,68 +43,44 @@ C1A_sub_british = {
 
 C1A_monarchy = {
 	pattern = "pattern_solid.tga"
-	color1 = { 0 50 145 }
-	
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "white"
-		color2 = { 0 50 145 }
+	color1 = { 115 175 255 }
+
+	textured_emblem = {
+		texture = "te_emblem_ship_aden.dds"
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.48 } }
 	}
 	colored_emblem = {
-		texture = "ce_rhombus.dds"
-		color1 = "red"
-		color2 = "red"
-		instance = { position = { 0 0.5 } }
+		texture = "ce_waves.dds"
+		color1 = "blue_light"
+		color2 = { 0 150 250 }
+		instance = { scale = { 1 1 } position = { 0.5 0.79 } }
 	}
 	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = "white"
-		color2 = "white"
-		instance = { scale = { 1.0 0.34 } position = { 0.83 0.5 } }
-	}
-	colored_emblem = {
-		texture = "ce_crown_st_edward.dds"
+		texture = "ce_crown_ducal.dds"
 		color1 = "yellow"
 		color2 = "red"
-		color3 = "white"
-		instance = { scale = { 0.5 0.5 } position = { 0.18 0.5 } }
-	}
-	colored_emblem = {
-		texture = "ce_star_05.dds"
-		color1 = "green"
-		instance = { scale = { 0.425 0.425 } position = { 0.65 0.515 } }
+		color3 = "blue"
+		instance = { scale = { 0.55 0.55 } position = { 0.22 0.22 } }
 	}
 }
 
 C1A_dictatorship = {
 	pattern = "pattern_solid.tga"
-	color1 = "red"
-	
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "white"
-		color2 = "red"
+	color1 = { 115 175 255 }
+
+	textured_emblem = {
+		texture = "te_emblem_ship_aden.dds"
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.48 } }
 	}
 	colored_emblem = {
-		texture = "ce_rhombus.dds"
-		color1 = "black"
-		color2 = "black"
-		instance = { position = { 0 0.5 } }
-	}
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = "white"
-		color2 = "white"
-		instance = { scale = { 1.0 0.34 } position = { 0.83 0.5 } }
+		texture = "ce_waves.dds"
+		color1 = "blue_light"
+		color2 = { 0 150 250 }
+		instance = { scale = { 1 1 } position = { 0.5 0.79 } }
 	}
 	colored_emblem = {
 		texture = "ce_crossed_scimitars.dds"
-		color1 = "white"
-		instance = { scale = { 0.55 0.55 } position = { 0.15 0.5 } }
-	}
-	colored_emblem = {
-		texture = "ce_star_05.dds"
 		color1 = "black"
-		instance = { scale = { 0.425 0.425 } position = { 0.65 0.515 } }
+		instance = { scale = { 0.5 0.5 } position = { 0.17 0.22 } }
 	}
 }

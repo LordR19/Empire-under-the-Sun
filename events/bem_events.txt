@@ -708,7 +708,7 @@ bem.200 = {
 	desc = bem.200.d
 	flavor = bem.200.f
 
-	duration = 3
+	duration = 1
 
 	event_image = {
 		texture = "gfx/event_pictures/bem/bem_ripper_1.dds"
@@ -767,7 +767,7 @@ bem.201 = {
 	desc = bem.201.d
 	flavor = bem.201.f
 
-	duration = 3
+	duration = 1
 
 	event_image = {
 		texture = "gfx/event_pictures/bem/bem_ripper_2.dds"
@@ -819,7 +819,7 @@ bem.202 = {
 	desc = bem.202.d
 	flavor = bem.202.f
 
-	duration = 3
+	duration = 1
 
 	event_image = {
 		texture = "gfx/event_pictures/bem/bem_ripper_3.dds"
@@ -870,7 +870,7 @@ bem.203 = {
 	desc = bem.203.d
 	flavor = bem.203.f
 
-	duration = 3
+	duration = 1
 
 	event_image = {
 		texture = "gfx/event_pictures/bem/bem_ripper_4.dds"
@@ -921,7 +921,7 @@ bem.204 = {
 	desc = bem.204.d
 	flavor = bem.204.f
 
-	duration = 3
+	duration = 1
 
 	event_image = {
 		texture = "gfx/event_pictures/bem/bem_ripper_5.dds"
@@ -946,6 +946,13 @@ bem.204 = {
 
 	option = { #Will this never stop?
 		name = bem.204.a
+
+		hidden_effect = {
+			trigger_event = {
+				id = bem.205
+				days = { 7 21 }
+			}
+		}
 	}
 
 	option = { #I administer a country. Stop bothering me with such trivialities.
@@ -953,5 +960,79 @@ bem.204 = {
 		default_option = yes
 
 		custom_tooltip = bem.200.c.tt
+	}
+}
+
+# No signs of “Jack the Ripper”
+bem.205 = {
+	type = country_event
+	placement = scope:home_counties_state
+
+	title = bem.205.t
+	desc = bem.205.d
+	flavor = bem.205.f
+
+	duration = 1
+
+	event_image = {
+		texture = "gfx/event_pictures/bem/bem_ripper_6.dds"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/southamerica/public_figure_assassination"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	trigger = {
+	}
+
+	immediate = {
+		random_state  = {
+			limit = {
+				state_region = s:STATE_HOME_COUNTIES
+			}
+			save_scope_as = home_counties_state
+		}
+	}
+
+	option = { #Did he really disappear?
+		name = bem.205.a
+	}
+}
+
+# "Jack the Ripper" eluded police by committing suicide
+bem.206 = {
+	type = country_event
+	placement = scope:home_counties_state
+
+	title = bem.206.t
+	desc = bem.206.d
+	flavor = bem.206.f
+
+	duration = 1
+
+	event_image = {
+		texture = "gfx/event_pictures/bem/bem_ripper_5.dds"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/southamerica/public_figure_assassination"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	trigger = {
+	}
+
+	immediate = {
+		random_state  = {
+			limit = {
+				state_region = s:STATE_HOME_COUNTIES
+			}
+			save_scope_as = home_counties_state
+		}
+	}
+
+	option = { #Did we really catch him?
+		name = bem.206.a
 	}
 }
