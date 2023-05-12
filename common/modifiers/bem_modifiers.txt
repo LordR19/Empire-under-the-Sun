@@ -27,3 +27,23 @@ bem_on_the_origin_of_species_modifier = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds"
 	country_prestige_add = 1
 }
+
+bem_ripper_rampage_modifier = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds"
+	country_prestige_mult = -0.05
+}
+
+bem_bonus_offered_to_police_officers_modifier = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds"
+	country_expenses_add = 20000
+}
+
+bem_expanded_police_forces_modifier = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds"
+	country_bureaucracy_add = -200
+}
+
+bem_researchers_focus_on_letter_modifier = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds"
+	country_military_weekly_innovation_mult  = -0.5
+}
