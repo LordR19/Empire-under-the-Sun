@@ -1,5 +1,7 @@
 ﻿bem_make_dominions_decision = {
 	is_shown = {
+		exists = c:GBR
+		this = c:GBR
 		NOT = {
 			has_global_variable = bem_british_dominions_global_var
 		}
