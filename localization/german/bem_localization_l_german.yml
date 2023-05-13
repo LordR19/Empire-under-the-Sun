@@ -135,6 +135,7 @@
  dyn_c_default_sudan_adj: "Sudanesisch"
  dyn_c_protectorate_of_sudan: "Protektorat Sudan"
  dyn_c_protectorate_of_sudan_adj: "Sudanesisch"
+ dyn_c_colonial_sudan: "[Country.GetOverlord.GetAdjectiveNoFormatting] Sudan"
 
  C2C: "Kolonial Kamerun"
  C2C_ADJ: "Kamerunisch"

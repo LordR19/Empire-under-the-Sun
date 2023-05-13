@@ -82,10 +82,10 @@ C2P_monarchy = {
 		instance = { scale = { 0.18 0.18 } position = { 0.12 0.55 } } # left
 	}
 	colored_emblem = {
-		texture = "ce_crown_st_edward.dds"
+		texture = "ce_crown_ducal.dds"
 		color1 = "yellow"
 		color2 = "red"
-		color3 = "white"
+		color3 = "blue"
 		instance = { scale = { 0.5 0.5 } position = { 0.75 0.35 } }
 	}
 }

@@ -4,13 +4,26 @@ C2S = {
 	color1 = "azure"
 	
 	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "yellow"
-		color2 = "green"
+		texture = "ce_emblem_star_sudan.dds"
+		color1 = "white"
+		color2 = "red_light"
+		instance = { scale = { 0.55 0.55 } position = { 0.5 0.5 } }
 	}
 }
 
 C2S_sub = {
+	pattern = "pattern_solid.tga"
+	color1 = "azure"
+	
+	colored_emblem = {
+		texture = "ce_emblem_star_sudan.dds"
+		color1 = "white"
+		color2 = "red_light"
+		instance = { scale = { 0.55 0.55 } position = { 0.75 0.5 } }
+	}
+}
+
+C2S_sub_british = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
 
@@ -19,7 +32,6 @@ C2S_sub = {
 		color1 = "white"
 		instance = { scale = { 0.5 0.5 } position = { 0.75 0.5 } }
 	}
-
 	colored_emblem = {
 		texture = "ce_emblem_star_sudan.dds"
 		color1 = "black"
@@ -33,16 +45,17 @@ C2S_monarchy = {
 	color1 = "azure"
 	
 	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "yellow"
-		color2 = "green"
+		texture = "ce_emblem_star_sudan.dds"
+		color1 = "white"
+		color2 = "red_light"
+		instance = { scale = { 0.55 0.55 } position = { 0.5 0.6 } }
 	}
 	colored_emblem = {
-		texture = "ce_crown_st_edward.dds"
+		texture = "ce_crown_ducal.dds"
 		color1 = "yellow"
 		color2 = "red"
-		color3 = "white"
-		instance = { scale = { 0.45 0.45 } position = { 0.5 0.2 } }
+		color3 = "blue"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.22 } }
 	}
 }
 
@@ -53,7 +66,18 @@ C2S_dictatorship = {
 	colored_emblem = {
 		texture = "ce_emblem_star_sudan.dds"
 		color1 = "white"
-		color2 = "red"
-		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 } }
+		color2 = "red_light"
+		instance = { scale = { 0.55 0.55 } position = { 0.5 0.5 } }
+	}
+}
+
+Sudan_backup = {
+	pattern = "pattern_solid.tga"
+	color1 = "azure"
+	
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "yellow"
+		color2 = "green"
 	}
 }
