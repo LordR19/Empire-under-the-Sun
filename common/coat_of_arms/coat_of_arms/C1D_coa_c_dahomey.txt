@@ -4,10 +4,14 @@ C1D = {
 	color1 = "red"
 	
 	colored_emblem = {
-		texture = "ce_tribar.dds"
+		texture = "ce_flag_border_rectangle.dds"
+		color1 = "black"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_emblem_elephant_tusks.dds"
 		color1 = "yellow"
-		color2 = "red"
-		color3 = "green"
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 } }
 	}
 }
 
@@ -48,22 +52,26 @@ C1D_sub_british = {
 	}
 }
 
-C1D_monarchy = {
+C1D = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
 	
 	colored_emblem = {
-		texture = "ce_tribar.dds"
-		color1 = "yellow"
-		color2 = "red"
-		color3 = "green"
+		texture = "ce_flag_border_rectangle.dds"
+		color1 = "black"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
 	}
 	colored_emblem = {
-		texture = "ce_crown_st_edward.dds"
+		texture = "ce_emblem_elephant_tusks.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_crown_ducal.dds"
 		color1 = "yellow"
 		color2 = "red"
-		color3 = "white"
-		instance = { scale = { 0.5 0.5 } position = { 0.18 0.5 } }
+		color3 = "blue"
+		instance = { scale = { 0.4 0.4 } position = { 0.5 0.25 } }
 	}
 }
 
@@ -72,9 +80,13 @@ C1D_dictatorship = {
 	color1 = "red"
 	
 	colored_emblem = {
-		texture = "ce_tribar.dds"
-		color1 = "yellow"
-		color2 = "red"
-		color3 = "black"
+		texture = "ce_flag_border_rectangle.dds"
+		color1 = "black"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_emblem_elephant_tusks.dds"
+		color1 = "black"
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 } }
 	}
 }
