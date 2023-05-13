@@ -405,6 +405,44 @@ C1Y = {
 	ai_will_do = { always = no }
 }
 
+#Colony of Angola
+C2A = {
+	states = {
+		STATE_NORTH_ANGOLA
+		STATE_SOUTH_ANGOLA
+		STATE_EAST_ANGOLA
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
+	}
+	
+	ai_will_do = { always = no }
+}
+
+#Colony of Bermuda
+C2B = {
+	states = {
+		STATE_BERMUDA
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
+	}
+	
+	ai_will_do = { always = no }
+}
+
 #Protectorate of Transjordan
 C2T = {
 	states = {
@@ -492,24 +530,6 @@ C2M = {
 	ai_will_do = { always = no }
 }
 
-#Colony of Angola
-C2A = {
-	states = {
-		STATE_NORTH_ANGOLA
-		STATE_SOUTH_ANGOLA
-		STATE_EAST_ANGOLA
-	}
-
-	required_num_states = 1
-
-	possible = {
-		exists = c:GBR
-		this = c:GBR
-	}
-	
-	ai_will_do = { always = no }
-}
-
 #Colony of Congo
 C3C = {
 	states = {
@@ -551,22 +571,6 @@ C3M = {
 C4C = {
 	states = {
 		STATE_UBANGI_SHARI
-	}
-
-	required_num_states = 1
-
-	possible = {
-		exists = c:GBR
-		this = c:GBR
-	}
-	
-	ai_will_do = { always = no }
-}
-
-#Colony of Bermuda
-C2B = {
-	states = {
-		STATE_BERMUDA
 	}
 
 	required_num_states = 1

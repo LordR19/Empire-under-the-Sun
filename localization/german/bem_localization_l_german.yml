@@ -80,6 +80,7 @@
  dyn_c_default_yemen_adj: "Sabäisch"
  dyn_c_protectorate_of_yemen: "Protektorat Yemen"
  dyn_c_protectorate_of_yemen_adj: "Yemenisch"
+ dyn_c_colonial_yemen: "[Country.GetOverlord.GetAdjectiveNoFormatting] Yemen"
 
  C1S: "Kolonial Somaliland"
  C1S_ADJ: "Somalisch"
