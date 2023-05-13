@@ -142,6 +142,7 @@
  dyn_c_default_cameroon_adj: "Cameroonian"
  dyn_c_protectorate_of_cameroon: "Protectorate of Cameroon"
  dyn_c_protectorate_of_cameroon_adj: "Cameroonian"
+ dyn_c_colonial_cameroon: "[Country.GetOverlord.GetAdjectiveNoFormatting] Cameroon"
 
  C1W: "Colonial South West Africa"
  C1W_ADJ: "South West African"
