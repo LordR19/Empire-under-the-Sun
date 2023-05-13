@@ -118,3 +118,33 @@ C1R_dictatorship = {
 		instance = { scale = { 0.4 0.4 } position = { 0.17 0.5 } }
 	}
 }
+
+Zimbabwe_backup = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	
+	colored_emblem = {
+		texture = "ce_flag_seven_stripes_3c.dds"
+		color1 = "green_dark"
+		color2 = "yellow"
+		color3 = "red"
+	}
+
+	colored_emblem = {
+		texture = "ce_flag_chevron_left.dds"
+		color1 = "black"
+		instance = { position = { 0.54 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_flag_chevron_left.dds"
+		color1 = "white"
+		instance = { position = { 0.5 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_emblem_great_zimbabwe_bird.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.4 0.4 } position = { 0.17 0.5 } }
+	}
+}

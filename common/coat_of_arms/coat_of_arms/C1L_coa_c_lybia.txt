@@ -79,10 +79,10 @@ C1L_monarchy = {
 		instance = { position = { 0.5 0.8 } }
 	}
 	colored_emblem = {
-		texture = "ce_crown_st_edward.dds"
+		texture = "ce_crown_ducal.dds"
 		color1 = "yellow"
 		color2 = "red"
-		color3 = "white"
+		color3 = "blue"
 		instance = { scale = { 0.4 0.4 } position = { 0.15 0.2 } }
 	}
 }
