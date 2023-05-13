@@ -188,7 +188,7 @@
  C2M_ADJ: "Malagasy"
  dyn_c_default_madagascar: "Madagascar"
  dyn_c_default_madagascar_adj: "Malagasy"
- dyn_c_colony_of_madagascar: "Colony of Madagascar"
+ dyn_c_colony_of_madagascar: "[Country.GetOverlord.GetAdjectiveNoFormatting] Madagascar"
  dyn_c_colony_of_madagascar_adj: "Malagasy"
 
  C2A: "Colonial Angola"
@@ -272,7 +272,7 @@
  C2P_ADJ: "Papuan"
  dyn_c_default_papua: "Papua New Guinea"
  dyn_c_default_papua_adj: "Papuan"
- dyn_c_colony_of_papua: "Territory of Eastern Papua"
+ dyn_c_colony_of_papua: "[Country.GetOverlord.GetAdjectiveNoFormatting] Papua"
  dyn_c_colony_of_papua_adj: "East Papuan"
  dyn_c_colony_of_papua_british: "Territory of Papua"
  dyn_c_colony_of_papua_british_adj: "Papuan"

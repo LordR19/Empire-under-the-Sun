@@ -501,10 +501,86 @@ C2G = {
 	ai_will_do = { always = no }
 }
 
-#Protectorate of Transjordan
-C2T = {
+#Colonial Ivory Coast
+C2I = {
 	states = {
-		STATE_TRANSJORDAN
+		STATE_IVORY_COAST
+		STATE_WINDWARD_COAST
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
+	}
+
+	ai_will_do = { always = no }
+}
+
+#Colony of Madagascar
+C2M = {
+	states = {
+		STATE_NORTH_MADAGASCAR
+		STATE_SOUTH_MADAGASCAR
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
+	}
+	
+	ai_will_do = { always = no }
+}
+
+#Colony of Niger
+C2N = {
+	states = {
+		STATE_OUTER_HAUSALAND
+		STATE_NIGER
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
+	}
+	
+	ai_will_do = { always = no }
+}
+
+#Territory of Papua
+C2P = {
+	states = {
+		STATE_EASTERN_NEW_GUINEA
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
+	}
+	
+	ai_will_do = { always = no }
+}
+
+#Northern Rhodesia
+C2R = {
+	states = {
+		STATE_ZAMBIA
+		STATE_KAZEMBE
 	}
 
 	required_num_states = 1
@@ -537,28 +613,10 @@ C2S = {
 	ai_will_do = { always = no }
 }
 
-#Northern Rhodesia
-C2R = {
+#Protectorate of Transjordan
+C2T = {
 	states = {
-		STATE_ZAMBIA
-		STATE_KAZEMBE
-	}
-
-	required_num_states = 1
-
-	possible = {
-		exists = c:GBR
-		this = c:GBR
-	}
-	
-	ai_will_do = { always = no }
-}
-
-#Colony of Madagascar
-C2M = {
-	states = {
-		STATE_NORTH_MADAGASCAR
-		STATE_SOUTH_MADAGASCAR
+		STATE_TRANSJORDAN
 	}
 
 	required_num_states = 1
@@ -657,45 +715,12 @@ C5C = {
 	ai_will_do = { always = no }
 }
 
-#Colony of Niger
-C2N = {
-	states = {
-		STATE_OUTER_HAUSALAND
-		STATE_NIGER
-	}
-
-	required_num_states = 1
-
-	possible = {
-		exists = c:GBR
-		this = c:GBR
-	}
-	
-	ai_will_do = { always = no }
-}
-
 #Colony of Mali
 C4M = {
 	states = {
 		STATE_WESTERN_MALI
 		STATE_EASTERN_MALI
 		STATE_TIMBUKTU
-	}
-
-	required_num_states = 1
-
-	possible = {
-		exists = c:GBR
-		this = c:GBR
-	}
-	
-	ai_will_do = { always = no }
-}
-
-#Territory of Papua
-C2P = {
-	states = {
-		STATE_EASTERN_NEW_GUINEA
 	}
 
 	required_num_states = 1
@@ -849,23 +874,6 @@ C3G = {
 C3P = {
 	states = {
 		STATE_LIBERIA
-	}
-
-	required_num_states = 1
-
-	possible = {
-		exists = c:GBR
-		this = c:GBR
-	}
-
-	ai_will_do = { always = no }
-}
-
-#Colonial Ivory Coast
-C2I = {
-	states = {
-		STATE_IVORY_COAST
-		STATE_WINDWARD_COAST
 	}
 
 	required_num_states = 1
