@@ -769,6 +769,43 @@ C3P = {
 	ai_will_do = { always = no }
 }
 
+#Colonial Senegal
+C3S = {
+	states = {
+		STATE_SENEGAL
+		STATE_GAMBIA
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
+	}
+
+	ai_will_do = { always = no }
+}
+
+#Colonial Tunisia
+C3T = {
+	states = {
+		STATE_TUNISIA
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
+	}
+	
+	ai_will_do = { always = no }
+}
+
 #Colony of Central Africa
 C4C = {
 	states = {
@@ -778,8 +815,10 @@ C4C = {
 	required_num_states = 1
 
 	possible = {
-		exists = c:GBR
-		this = c:GBR
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
 	}
 	
 	ai_will_do = { always = no }
@@ -808,22 +847,6 @@ C4M = {
 		STATE_WESTERN_MALI
 		STATE_EASTERN_MALI
 		STATE_TIMBUKTU
-	}
-
-	required_num_states = 1
-
-	possible = {
-		exists = c:GBR
-		this = c:GBR
-	}
-	
-	ai_will_do = { always = no }
-}
-
-#Colonial Tunisia
-C3T = {
-	states = {
-		STATE_TUNISIA
 	}
 
 	required_num_states = 1
@@ -869,23 +892,6 @@ C6M = {
 		this = c:GBR
 	}
 	
-	ai_will_do = { always = no }
-}
-
-#Colonial Senegal
-C3S = {
-	states = {
-		STATE_SENEGAL
-		STATE_GAMBIA
-	}
-
-	required_num_states = 1
-
-	possible = {
-		exists = c:GBR
-		this = c:GBR
-	}
-
 	ai_will_do = { always = no }
 }
 

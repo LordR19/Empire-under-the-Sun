@@ -12,6 +12,17 @@ C3S = {
 
 C3S_sub = {
 	pattern = "pattern_solid.tga"
+	color1 = "green"
+
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.5 0.5 } position = { 0.75 0.5 } }
+	}
+}
+
+C3S_sub_british = {
+	pattern = "pattern_solid.tga"
 	color1 = "blue"
 
 	colored_emblem = {
@@ -31,10 +42,10 @@ C3S_monarchy = {
 	color1 = "green"
 
 	colored_emblem = {
-		texture = "ce_crown_st_edward.dds"
+		texture = "ce_crown_ducal.dds"
 		color1 = "yellow"
 		color2 = "red"
-		color3 = "white"
+		color3 = "blue"
 		instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 } }
 	}
 }
