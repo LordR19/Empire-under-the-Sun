@@ -824,29 +824,49 @@ C4C = {
 	ai_will_do = { always = no }
 }
 
-#Colony of Chad
-C5C = {
-	states = {
-		STATE_WADDAI
-		STATE_CHAD
-	}
-
-	required_num_states = 1
-
-	possible = {
-		exists = c:GBR
-		this = c:GBR
-	}
-	
-	ai_will_do = { always = no }
-}
-
 #Colony of Mali
 C4M = {
 	states = {
 		STATE_WESTERN_MALI
 		STATE_EASTERN_MALI
 		STATE_TIMBUKTU
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
+	}
+	
+	ai_will_do = { always = no }
+}
+
+#Colonial Togo
+C4T = {
+	states = {
+		STATE_TOGO
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
+	}
+
+	ai_will_do = { always = no }
+}
+
+#Colony of Chad
+C5C = {
+	states = {
+		STATE_WADDAI
+		STATE_CHAD
 	}
 
 	required_num_states = 1
@@ -892,22 +912,6 @@ C6M = {
 		this = c:GBR
 	}
 	
-	ai_will_do = { always = no }
-}
-
-#Colonial Togo
-C4T = {
-	states = {
-		STATE_TOGO
-	}
-
-	required_num_states = 1
-
-	possible = {
-		exists = c:GBR
-		this = c:GBR
-	}
-
 	ai_will_do = { always = no }
 }
 
