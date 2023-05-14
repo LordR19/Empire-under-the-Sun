@@ -1,8 +1,13 @@
 #Colonial Algeria
 C3A = {
 	pattern = "pattern_solid.tga"
-	color1 = "red"
+	color1 = "azure"
 	
+	colored_emblem = {
+		texture = "ce_flag_border_rectangle.dds"
+		color1 = "white"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
 	colored_emblem = {
 		texture = "ce_emblem_circinus.dds"
 		color1 = "white"
@@ -12,8 +17,29 @@ C3A = {
 
 C3A_sub = {
 	pattern = "pattern_solid.tga"
+	color1 = "azure"
+	
+	colored_emblem = {
+		texture = "ce_flag_border_rectangle.dds"
+		color1 = "white"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_emblem_circinus.dds"
+		color1 = "white"
+		instance = { scale = { 0.35 0.35 } position = { 0.73 0.5 } }
+	}
+}
+
+C3A_sub_british = {
+	pattern = "pattern_solid.tga"
 	color1 = "blue"
 
+	colored_emblem = {
+		texture = "ce_flag_border_rectangle.dds"
+		color1 = "white"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
 	colored_emblem = {
 		texture = "ce_frame_circle.dds"
 		color1 = "white"
@@ -28,29 +54,39 @@ C3A_sub = {
 
 C3A_monarchy = {
 	pattern = "pattern_solid.tga"
-	color1 = "red"
+	color1 = "azure"
 	
+	colored_emblem = {
+		texture = "ce_flag_border_rectangle.dds"
+		color1 = "white"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
 	colored_emblem = {
 		texture = "ce_emblem_circinus.dds"
 		color1 = "white"
 		instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 } }
 	}
 	colored_emblem = {
-		texture = "ce_crown_st_edward.dds"
-		color1 = "yellow"
+		texture = "ce_crown_ducal.dds"
+		color1 = "white"
 		color2 = "red"
-		color3 = "white"
-		instance = { scale = { 0.5 0.5 } position = { 0.2 0.27 } }
+		color3 = "blue"
+		instance = { scale = { 0.5 0.5 } position = { 0.2 0.22 } }
 	}
 }
 
 C3A_dictatorship = {
 	pattern = "pattern_solid.tga"
-	color1 = "black"
+	color1 = "azure"
 	
 	colored_emblem = {
+		texture = "ce_flag_border_rectangle.dds"
+		color1 = "black"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
 		texture = "ce_emblem_circinus.dds"
-		color1 = "white"
+		color1 = "black"
 		instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 } }
 	}
 }

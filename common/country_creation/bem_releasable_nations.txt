@@ -626,8 +626,50 @@ C2T = {
 	required_num_states = 1
 
 	possible = {
-		exists = c:GBR
-		this = c:GBR
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
+	}
+	
+	ai_will_do = { always = no }
+}
+
+#Colonial West Sahara
+C2W = {
+	states = {
+		STATE_WEST_SAHARA
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
+	}
+	
+	ai_will_do = { always = no }
+}
+
+#Colonial Algeria
+C3A = {
+	states = {
+		STATE_ALGIERS
+		STATE_CONSTANTINE
+		STATE_EAST_SAHARA
+		STATE_SAHARA
+		STATE_TLEMCEN
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
 	}
 	
 	ai_will_do = { always = no }
@@ -646,11 +688,48 @@ C3C = {
 	required_num_states = 1
 
 	possible = {
-		root = {
+		OR = {
 			is_country_type = recognized
+			is_country_type = colonial
 		}
 	}
 	
+	ai_will_do = { always = no }
+}
+
+#Colony of Eritrea
+C3E = {
+	states = {
+		STATE_ERITREA
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
+	}
+	
+	ai_will_do = { always = no }
+}
+
+#Colonial Gold Coast
+C3G = {
+	states = {
+		STATE_GHANA
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
+	}
+
 	ai_will_do = { always = no }
 }
 
@@ -674,22 +753,6 @@ C3M = {
 C4C = {
 	states = {
 		STATE_UBANGI_SHARI
-	}
-
-	required_num_states = 1
-
-	possible = {
-		exists = c:GBR
-		this = c:GBR
-	}
-	
-	ai_will_do = { always = no }
-}
-
-#Colony of Eritrea
-C3E = {
-	states = {
-		STATE_ERITREA
 	}
 
 	required_num_states = 1
@@ -753,26 +816,6 @@ C3T = {
 	ai_will_do = { always = no }
 }
 
-#Colonial Algeria
-C3A = {
-	states = {
-		STATE_ALGIERS
-		STATE_CONSTANTINE
-		STATE_EAST_SAHARA
-		STATE_SAHARA
-		STATE_TLEMCEN
-	}
-
-	required_num_states = 1
-
-	possible = {
-		exists = c:GBR
-		this = c:GBR
-	}
-	
-	ai_will_do = { always = no }
-}
-
 #Colonial Morocco
 C5M = {
 	states = {
@@ -780,22 +823,6 @@ C5M = {
 		STATE_FEZ
 		STATE_INNER_MOROCCO
 		STATE_AL_RIF
-	}
-
-	required_num_states = 1
-
-	possible = {
-		exists = c:GBR
-		this = c:GBR
-	}
-	
-	ai_will_do = { always = no }
-}
-
-#Colonial West Sahara
-C2W = {
-	states = {
-		STATE_WEST_SAHARA
 	}
 
 	required_num_states = 1
@@ -846,22 +873,6 @@ C3S = {
 C4T = {
 	states = {
 		STATE_TOGO
-	}
-
-	required_num_states = 1
-
-	possible = {
-		exists = c:GBR
-		this = c:GBR
-	}
-
-	ai_will_do = { always = no }
-}
-
-#Colonial Gold Coast
-C3G = {
-	states = {
-		STATE_GHANA
 	}
 
 	required_num_states = 1

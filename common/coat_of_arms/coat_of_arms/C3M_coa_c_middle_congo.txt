@@ -57,3 +57,14 @@ C3M_dictatorship = {
 		color2 = "red"
 	}
 }
+
+Middle_Congo_backup = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	
+	colored_emblem = {
+		texture = "ce_flag_triangles_barre.dds"
+		color1 = "green"
+		color2 = "red"
+	}
+}

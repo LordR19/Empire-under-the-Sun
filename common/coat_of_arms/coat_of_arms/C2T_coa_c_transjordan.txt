@@ -1,26 +1,38 @@
 #Protectorate of Transjordan
 C2T = {
 	pattern = "pattern_solid.tga"
-	color1 = { 230 160 40 }
+	color1 = "orange"
 	
 	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
+		texture = "ce_tricolor_horizontal_thick.dds"
 		color1 = "azure"
-		color2 = { 230 160 40 }
+		color2 = "orange"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
 	}
 	colored_emblem = {
-		texture = "ce_rhombus.dds"
-		color1 = "red"
-		instance = { scale = { 1.2 1 } position = { 0 0.5 } }
-	}
-	colored_emblem = {
-		texture = "ce_star_gunelve.dds"
-		color1 = "white"
-		instance = { scale = { 0.3 0.3 } position = { 0.2 0.5 } }
+		texture = "ce_emblem_petra.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.45 0.45 } position = { 0.5 0.5 } }
 	}
 }
 
 C2T_sub = {
+	pattern = "pattern_solid.tga"
+	color1 = "orange"
+	
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal_thick.dds"
+		color1 = "azure"
+		color2 = "orange"
+	}
+	colored_emblem = {
+		texture = "ce_emblem_petra.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.45 0.45 } position = { 0.75 0.5 } }
+	}
+}
+
+C2T_sub_british = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
 
@@ -32,44 +44,40 @@ C2T_sub = {
 
 C2T_monarchy = {
 	pattern = "pattern_solid.tga"
-	color1 = { 230 160 40 }
+	color1 = "orange"
 	
 	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
+		texture = "ce_tricolor_horizontal_thick.dds"
 		color1 = "azure"
-		color2 = { 230 160 40 }
+		color2 = "orange"
 	}
 	colored_emblem = {
-		texture = "ce_rhombus.dds"
-		color1 = "red"
-		instance = { scale = { 1.2 1 } position = { 0 0.5 } }
+		texture = "ce_emblem_petra.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.45 0.45 } position = { 0.5 0.5 } }
 	}
 	colored_emblem = {
-		texture = "ce_crown_st_edward.dds"
+		texture = "ce_crown_ducal.dds"
 		color1 = "yellow"
 		color2 = "red"
-		color3 = "white"
-		instance = { scale = { 0.5 0.5 } position = { 0.18 0.5 } }
+		color3 = "blue"
+		instance = { scale = { 0.45 0.45 } position = { 0.18 0.5 } }
+		instance = { scale = { 0.45 0.45 } position = { 0.82 0.5 } }
 	}
 }
 
 C2T_dictatorship = {
 	pattern = "pattern_solid.tga"
-	color1 = "black"
+	color1 = "orange"
 	
 	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "white"
-		color2 = "black"
-	}
-	colored_emblem = {
-		texture = "ce_rhombus.dds"
-		color1 = "red"
-		instance = { scale = { 1.2 1 } position = { 0 0.5 } }
-	}
-	colored_emblem = {
-		texture = "ce_crossed_scimitars.dds"
+		texture = "ce_tricolor_horizontal_thick.dds"
 		color1 = "black"
-		instance = { scale = { 0.55 0.55 } position = { 0.18 0.5 } }
+		color2 = "orange"
+	}
+	colored_emblem = {
+		texture = "ce_emblem_petra.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.45 0.45 } position = { 0.5 0.5 } }
 	}
 }

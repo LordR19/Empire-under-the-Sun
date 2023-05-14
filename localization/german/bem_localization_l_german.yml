@@ -120,6 +120,7 @@
  dyn_c_default_transjordan_adj: "Transjordanisch"
  dyn_c_protectorate_of_transjordan: "Protectorate of Transjordanien"
  dyn_c_protectorate_of_transjordan_adj: "Transjordanisch"
+ dyn_c_colonial_transjordan: "[Country.GetOverlord.GetAdjectiveNoFormatting] Transjordan"
 
  C1U: "Kolonial Uganda"
  C1U_ADJ: "Ugandisch"
