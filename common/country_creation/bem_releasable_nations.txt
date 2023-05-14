@@ -742,10 +742,30 @@ C3M = {
 	required_num_states = 1
 
 	possible = {
-		exists = c:GBR
-		this = c:GBR
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
 	}
 	
+	ai_will_do = { always = no }
+}
+
+#Colonial Pepper Coast
+C3P = {
+	states = {
+		STATE_LIBERIA
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
+	}
+
 	ai_will_do = { always = no }
 }
 
@@ -873,22 +893,6 @@ C3S = {
 C4T = {
 	states = {
 		STATE_TOGO
-	}
-
-	required_num_states = 1
-
-	possible = {
-		exists = c:GBR
-		this = c:GBR
-	}
-
-	ai_will_do = { always = no }
-}
-
-#Colonial Pepper Coast
-C3P = {
-	states = {
-		STATE_LIBERIA
 	}
 
 	required_num_states = 1

@@ -496,3 +496,6 @@
  bem_bonus_offered_to_police_officers_modifier: "Bonus für Polizeikräfte"
  bem_expanded_police_forces_modifier: "Polizeikräfte ausgebaut"
  bem_researchers_focus_on_letter_modifier: "Forscher konzentrieren sich auf den Brief des Rippers"
+
+ ai_strategy_colonial_extraction_bem: "Kolonialbetrieb"
+ ai_strategy_colonial_extraction_bem_desc: "Diese Kolonie konzentriert sich auf den Ausbau ihrer Rohstoffproduktion, um ihren [concept_overlord] mit allen benötigten Ressourcen zu versorgen. Daher wird sich diese Kolonie auf den Bau von Plantagen, Minen und Ölplattformen konzentrieren."

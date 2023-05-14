@@ -540,3 +540,6 @@
  bem_bonus_offered_to_police_officers_modifier: "Bonus offered to police officers"
  bem_expanded_police_forces_modifier: "Expanded Police Forces"
  bem_researchers_focus_on_letter_modifier: "Researchers focus on letter from the Ripper"
+
+ ai_strategy_colonial_extraction_bem: "Colonial Operation"
+ ai_strategy_colonial_extraction_bem_desc: "This Colony focuses on expanding its ressource production to supply its [concept_overlord] with all the needed raw materials. Therefore this Colony will focus on building plantations, mines and oil rigs."

@@ -4,7 +4,7 @@ C1G = {
 	color1 = "yellow"
 
 	colored_emblem = {
-		texture = "ce_emblem_ship.dds"
+		texture = "ce_emblem_ship_gabon_gabon.dds"
 		color1 = "black"
 		color2 = "green_light"
 		color3 = "azure"
@@ -23,7 +23,7 @@ C1G_sub = {
 	color1 = "yellow"
 
 	colored_emblem = {
-		texture = "ce_emblem_ship.dds"
+		texture = "ce_emblem_ship_gabon.dds"
 		color1 = "black"
 		color2 = "green_light"
 		color3 = "azure"
@@ -54,7 +54,7 @@ C1G_sub_british = {
 	}
 
 	colored_emblem = {
-		texture = "ce_emblem_ship.dds"
+		texture = "ce_emblem_ship_gabon.dds"
 		color1 = "black"
 		color2 = "green_light"
 		color3 = "azure"
@@ -73,7 +73,7 @@ C1G = {
 	color1 = "yellow"
 
 	colored_emblem = {
-		texture = "ce_emblem_ship.dds"
+		texture = "ce_emblem_ship_gabon.dds"
 		color1 = "black"
 		color2 = "green_light"
 		color3 = "azure"
@@ -99,7 +99,7 @@ C1G_dictatorship = {
 	color1 = "yellow"
 
 	colored_emblem = {
-		texture = "ce_emblem_ship.dds"
+		texture = "ce_emblem_ship_gabon.dds"
 		color1 = "black"
 		color2 = "black"
 		color3 = "black"
