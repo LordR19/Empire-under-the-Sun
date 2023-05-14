@@ -19,10 +19,9 @@
 		priority = 10
 		
 		trigger = {
-			scope:actor = {
-				is_subject = yes
-				NOT = {
-					exists = c:GBR
+			exists = c:GBR
+			NOT = {
+				scope:actor = {
 					is_subject_of = c:GBR
 				}
 			}
