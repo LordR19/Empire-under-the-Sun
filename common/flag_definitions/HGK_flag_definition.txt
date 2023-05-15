@@ -8,7 +8,8 @@ HGK = {
 
 	flag_definition = {
 		coa = HGK_sub_GBR_old
-		allow_overlord_canton = yes	
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = HGK_sub_GBR_old
 		trigger = { 
 			coa_def_british_ensign_trigger = yes
 			year < 1876
@@ -18,6 +19,8 @@ HGK = {
 
 	flag_definition = {
 		coa = HGK_sub_GBR_new
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = HGK_sub_GBR_new
 		trigger = { 
 			coa_def_british_ensign_trigger = yes
 			year >= 1876
