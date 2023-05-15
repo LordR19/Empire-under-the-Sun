@@ -11,7 +11,7 @@
  gov_british_crown_colony_desc: "Dies ist eine Kolonie der britischen Krone, über die ein Kolonialverwalter mit begrenzter Autonomie herrscht.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
 
  gov_bem_colony: "Kolonie"
- gov_bem_colony_desc: "Dies ist eine Kolonie von [Country.GetOverlord.GetName], über die ein Kolonialverwalter mit begrenzter Autonomie herrscht.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+ gov_bem_colony_desc: "Dies ist eine Kolonie, über die ein Kolonialverwalter mit begrenzter Autonomie herrscht.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
 
 #Custom Locs
  bem_custom_loc_colonial_conference: "Koloniale Konferenz"

@@ -10,10 +10,6 @@ bem.1 = {
 			is_country_type = colonial
 			is_country_type = unrecognized
 			AND = {
-				exists = c:CYP
-				root = c:CYP
-			}
-			AND = {
 				exists = c:MLT
 				root = c:MLT
 			}
@@ -73,10 +69,6 @@ bem.1 = {
 					AND = {
 						exists = c:CBG
 						root = c:CBG
-					}
-					AND = {
-						exists = c:NAL
-						root = c:NAL
 					}
 					AND = {
 						exists = c:SST
@@ -288,7 +280,6 @@ bem.2 = {
 	immediate = {
 		create_character = {
 			ruler = yes
-			culture = cu:british
 			female = no
 		}
 	}
