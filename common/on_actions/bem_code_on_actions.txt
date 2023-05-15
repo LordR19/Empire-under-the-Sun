@@ -144,6 +144,147 @@ bem_on_country_released_as_own_subject = {
 							remove_primary_culture = scope:primary_culture_delete_scope
 						}
 					}
+					create_character = {
+						ruler = yes
+					}
+					create_character = {
+						interest_group = ig_armed_forces
+						ig_leader = yes
+					}
+					create_character = {
+						interest_group = ig_devout
+						ig_leader = yes
+					}
+					create_character = {
+						interest_group = ig_industrialists
+						ig_leader = yes
+					}
+					create_character = {
+						interest_group = ig_intelligentsia
+						ig_leader = yes
+					}
+					create_character = {
+						interest_group = ig_landowners
+						ig_leader = yes
+					}
+					create_character = {
+						interest_group = ig_petty_bourgeoisie
+						ig_leader = yes
+					}
+					create_character = {
+						interest_group = ig_rural_folk
+						ig_leader = yes
+					}
+					create_character = {
+						interest_group = ig_trade_unions
+						ig_leader = yes
+					}
+				}
+			}
+		}
+	}
+}
+
+on_country_released_as_independent = {
+	on_actions = {
+		bem_on_country_released_as_independent
+	}
+}
+
+bem_on_country_released_as_independent = {
+	effect = {
+		if = {
+			limit = {
+				scope:target = {
+					country_has_primary_culture = cu:british
+					NOR = {
+						AND = {
+							exists = c:GBR
+							this = c:GBR
+						}
+					}
+				}
+			}
+	
+			# Switches the Religion to the Religion of the Releasing Country
+			scope:target = {
+				set_state_religion = root.religion
+			}
+	
+			#Switches the primary Culture to the primary Culture of the Releasing Country
+			if = {
+				limit = {
+					ROOT = {
+						NOT = {
+							country_has_primary_culture = cu:british
+						}
+					}
+				}
+				ordered_primary_culture = {
+					save_scope_as = switch_primary_culture_to_scope
+				}
+				scope:target = {
+					add_primary_culture = scope:switch_primary_culture_to_scope
+					while = {
+						limit = {
+							scope:target = {
+								any_primary_culture = {
+									NOT = {
+										this = scope:switch_primary_culture_to_scope
+									}
+								}
+							}
+						}
+						scope:target = {
+							random_primary_culture = {
+								limit = { 
+									NOR = {
+										this = scope:switch_primary_culture_to_scope
+										this = cu:boer
+									}
+								}
+								save_scope_as = primary_culture_delete_scope
+							}
+						}
+						scope:target = {
+							remove_primary_culture = scope:primary_culture_delete_scope
+						}
+					}
+					create_character = {
+						ruler = yes
+					}
+					create_character = {
+						interest_group = ig_armed_forces
+						ig_leader = yes
+					}
+					create_character = {
+						interest_group = ig_devout
+						ig_leader = yes
+					}
+					create_character = {
+						interest_group = ig_industrialists
+						ig_leader = yes
+					}
+					create_character = {
+						interest_group = ig_intelligentsia
+						ig_leader = yes
+					}
+					create_character = {
+						interest_group = ig_landowners
+						ig_leader = yes
+					}
+					create_character = {
+						interest_group = ig_petty_bourgeoisie
+						ig_leader = yes
+					}
+					create_character = {
+						interest_group = ig_rural_folk
+						ig_leader = yes
+					}
+					create_character = {
+						interest_group = ig_trade_unions
+						ig_leader = yes
+					}
 				}
 			}
 		}
