@@ -161,63 +161,32 @@ bem_on_country_released_as_own_subject = {
 					add_primary_culture = scope:switch_primary_culture_to_scope
 					while = {
 						limit = {
-							scope:target = {
-								any_primary_culture = {
-									NOT = {
-										this = scope:switch_primary_culture_to_scope
-									}
+							any_primary_culture = {
+								NOT = {
+									this = scope:switch_primary_culture_to_scope
 								}
 							}
 						}
-						scope:target = {
-							random_primary_culture = {
-								limit = { 
-									NOR = {
-										this = scope:switch_primary_culture_to_scope
-										this = cu:boer
-									}
+						random_primary_culture = {
+							limit = { 
+								NOT = {
+									this = scope:switch_primary_culture_to_scope
 								}
-								save_scope_as = primary_culture_delete_scope
 							}
+							save_scope_as = primary_culture_delete_scope
 						}
-						scope:target = {
-							remove_primary_culture = scope:primary_culture_delete_scope
-						}
+						remove_primary_culture = scope:primary_culture_delete_scope
 					}
 					create_character = {
 						ruler = yes
 					}
-					create_character = {
-						interest_group = ig_armed_forces
-						ig_leader = yes
-					}
-					create_character = {
-						interest_group = ig_devout
-						ig_leader = yes
-					}
-					create_character = {
-						interest_group = ig_industrialists
-						ig_leader = yes
-					}
-					create_character = {
-						interest_group = ig_intelligentsia
-						ig_leader = yes
-					}
-					create_character = {
-						interest_group = ig_landowners
-						ig_leader = yes
-					}
-					create_character = {
-						interest_group = ig_petty_bourgeoisie
-						ig_leader = yes
-					}
-					create_character = {
-						interest_group = ig_rural_folk
-						ig_leader = yes
-					}
-					create_character = {
-						interest_group = ig_trade_unions
-						ig_leader = yes
+					every_scope_character = {
+						limit = {
+							NOT = {
+								culture = scope:switch_primary_culture_to_scope
+							}
+						}
+						kill_character = yes
 					}
 					# if possible get some pops with the right culture here!
 				}
@@ -283,9 +252,8 @@ bem_on_country_released_as_independent = {
 						}
 						random_primary_culture = {
 							limit = { 
-								NOR = {
+								NOT = {
 									this = scope:switch_primary_culture_to_scope
-									this = cu:boer
 								}
 							}
 							save_scope_as = primary_culture_delete_scope
@@ -295,37 +263,13 @@ bem_on_country_released_as_independent = {
 					create_character = {
 						ruler = yes
 					}
-					create_character = {
-						interest_group = ig_armed_forces
-						ig_leader = yes
-					}
-					create_character = {
-						interest_group = ig_devout
-						ig_leader = yes
-					}
-					create_character = {
-						interest_group = ig_industrialists
-						ig_leader = yes
-					}
-					create_character = {
-						interest_group = ig_intelligentsia
-						ig_leader = yes
-					}
-					create_character = {
-						interest_group = ig_landowners
-						ig_leader = yes
-					}
-					create_character = {
-						interest_group = ig_petty_bourgeoisie
-						ig_leader = yes
-					}
-					create_character = {
-						interest_group = ig_rural_folk
-						ig_leader = yes
-					}
-					create_character = {
-						interest_group = ig_trade_unions
-						ig_leader = yes
+					every_scope_character = {
+						limit = {
+							NOT = {
+								culture = scope:switch_primary_culture_to_scope
+							}
+						}
+						kill_character = yes
 					}
 				}
 			}
