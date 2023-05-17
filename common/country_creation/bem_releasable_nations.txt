@@ -276,6 +276,24 @@ C1N = {
 }
 
 #Protectorate of Palestine
+C1O = {
+	states = {
+		STATE_OMAN
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
+	}
+	
+	ai_will_do = { always = no }
+}
+
+#Protectorate of Palestine
 C1P = {
 	states = {
 		STATE_PALESTINE

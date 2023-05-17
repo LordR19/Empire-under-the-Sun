@@ -92,6 +92,12 @@
  dyn_c_protectorate_of_nigeria_adj: "Nigerianisch"
  dyn_c_colonial_nigeria: "[Country.GetOverlord.GetAdjectiveNoFormatting] Nigeria"
 
+ C1O: "Colonial Oman"
+ C1O_ADJ: "Omanisch"
+ dyn_c_default_oman: "Oman"
+ dyn_c_default_oman_adj: "Omanisch"
+ dyn_c_colonial_oman: "[Country.GetOverlord.GetAdjectiveNoFormatting] Oman"
+
  C1K: "Kolonial Kenya"
  C1K_ADJ: "Kenyanisch"
  dyn_c_default_kenya: "Kenya"
@@ -279,12 +285,12 @@
  dyn_c_colony_of_falklands: "[Country.GetOverlord.GetAdjectiveNoFormatting] Falklandinseln"
  dyn_c_colony_of_falklands_adj: "Falkländisch"
 
- C1L: "Kolonial Lybien"
- C1L_ADJ: "Lybisch"
- dyn_c_default_lybia: "Lybien"
- dyn_c_default_lybia_adj: "Lybisch"
- dyn_c_colony_of_lybia: "[Country.GetOverlord.GetAdjectiveNoFormatting] Lybien"
- dyn_c_colony_of_lybia_adj: "Lybisch"
+ C1L: "Kolonial Libyen"
+ C1L_ADJ: "Libysch"
+ dyn_c_default_lybia: "Libyen"
+ dyn_c_default_lybia_adj: "Libysch"
+ dyn_c_colony_of_lybia: "[Country.GetOverlord.GetAdjectiveNoFormatting] Libyen"
+ dyn_c_colony_of_lybia_adj: "Libysch"
 
  C3T: "Kolonial Tunesien"
  C3T_ADJ: "Tunesisch"

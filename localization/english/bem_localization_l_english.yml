@@ -52,6 +52,12 @@
  dyn_c_protectorate_of_palestine_adj: "Palestine"
  dyn_c_colonial_palestine: "[Country.GetOverlord.GetAdjectiveNoFormatting] Palestine"
 
+ C1O: "Colonial Oman"
+ C1O_ADJ: "Omani"
+ dyn_c_default_oman: "Oman"
+ dyn_c_default_oman_adj: "Omani"
+ dyn_c_colonial_oman: "[Country.GetOverlord.GetAdjectiveNoFormatting] Oman"
+
  C1I: "Colonial Iraq"
  C1I_ADJ: "Iraqi"
  dyn_c_default_iraq: "Iraq"
@@ -280,12 +286,12 @@
  dyn_c_colony_of_falklands: "[Country.GetOverlord.GetAdjectiveNoFormatting] Falkland Islands"
  dyn_c_colony_of_falklands_adj: "Falkland"
 
- C1L: "Colonial Lybia"
- C1L_ADJ: "Lybian"
- dyn_c_default_lybia: "Lybia"
- dyn_c_default_lybia_adj: "Lybian"
- dyn_c_colony_of_lybia: "[Country.GetOverlord.GetAdjectiveNoFormatting] Lybia"
- dyn_c_colony_of_lybia_adj: "Lybian"
+ C1L: "Colonial Libya"
+ C1L_ADJ: "Libyan"
+ dyn_c_default_lybia: "Libya"
+ dyn_c_default_lybia_adj: "Libyan"
+ dyn_c_colony_of_lybia: "[Country.GetOverlord.GetAdjectiveNoFormatting] Libya"
+ dyn_c_colony_of_lybia_adj: "Libyan"
 
  C3T: "Colonial Tunisia"
  C3T_ADJ: "Tunisian"

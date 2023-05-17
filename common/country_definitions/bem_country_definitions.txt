@@ -163,6 +163,21 @@ C1N = {
 	
 }
 
+#Colonial Oman
+C1O = {
+
+	color = { 255 112 112 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_OMAN
+	
+}
+
 #Protectorate of Kenya
 C1K = {
 
