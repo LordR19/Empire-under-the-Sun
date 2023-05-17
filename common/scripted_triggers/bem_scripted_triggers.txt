@@ -10,6 +10,10 @@
 bem_colonial_nation_trigger = {
 	OR = {
 		AND = {
+			exists = c:SAF
+			this = c:SAF
+		}
+		AND = {
 			exists = c:HGK
 			this = c:HGK
 		}

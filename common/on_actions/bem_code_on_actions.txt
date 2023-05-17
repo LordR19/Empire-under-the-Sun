@@ -194,7 +194,7 @@ bem_on_country_released_as_own_subject = {
 				}
 			}	
 		}
-		else_if = { #All countries that are not Great Britain
+		else_if = { #For all the other countries and many colonial nations for GBR this is used.
 			limit = {
 				scope:target = {
 					bem_colonial_nation_trigger = yes

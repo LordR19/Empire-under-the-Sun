@@ -1,15 +1,6 @@
 ﻿l_english:
 
 #Government Types
- gov_british_dominion: "Dominion"
- gov_british_dominion_desc: "Dominions are colonies of the British Crown that enjoy a high degree of autonomy. They are governed by governors-general appointed by Great Britain.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
-
- gov_british_protectorate: "Protectorate"
- gov_british_protectorate_desc: "This "protectorate" is actually a colony governed by a British-appointed governor general. Originally, protectorates were states dependent on Great Britain for foreign policy and controlled by local rulers.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
-
- gov_british_crown_colony: "Crown Colony"
- gov_british_crown_colony_desc: "This is a colony of the British Crown, ruled by colonial administrators with limited autonomy.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
-
  gov_bem_colony: "Colony"
  gov_bem_colony_desc: "This is a Colony, ruled by colonial administrators with limited autonomy.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
 
@@ -277,7 +268,7 @@
  C2P_ADJ: "Papuan"
  dyn_c_default_papua: "Papua New Guinea"
  dyn_c_default_papua_adj: "Papuan"
- dyn_c_colony_of_papua: "[Country.GetOverlord.GetAdjectiveNoFormatting] Papua"
+ dyn_c_colony_of_papua: "[Country.GetOverlord.GetAdjectiveNoFormatting] East Papua"
  dyn_c_colony_of_papua_adj: "East Papuan"
  dyn_c_colony_of_papua_british: "Territory of Papua"
  dyn_c_colony_of_papua_british_adj: "Papuan"
@@ -396,38 +387,13 @@
 
  dyn_c_south_africa_union: "Union of South Africa"
  dyn_c_south_africa_union_adj: "South African"
- dyn_c_dominion_south_africa: "Dominion of South Africa"
- dyn_c_dominion_south_africa_adj: "South African"
 
- dyn_c_dominion_canada: "Dominion of Canada"
- dyn_c_dominion_canada_adj: "Candaian"
-
- dyn_c_dominion_australia: "Dominion of Australia"
- dyn_c_dominion_australia_adj: "Australian"
-
- dyn_c_dominion_new_zealand: "Dominion of New Zealand"
- dyn_c_dominion_new_zealand_adj: "New Zealandic"
-
- dyn_c_dominion_india: "Dominion of India"
- dyn_c_dominion_india_adj: "Indian"
  dyn_c_subject_east_india: "[Country.GetOverlord.GetAdjectiveNoFormatting] East India"
  dyn_c_subject_east_india_adj: "[Country.GetOverlord.GetAdjectiveNoFormatting] East Indian"
 
  dyn_c_subject_east_indies: "[Country.GetOverlord.GetAdjectiveNoFormatting] East Indies"
  dyn_c_subject_east_indies_adj: "[Country.GetOverlord.GetAdjectiveNoFormatting] East Indies"
 
- dyn_c_crown_colony_malta: "Crown Colony of Malta"
- dyn_c_crown_colony_malta_adj: "Maltese"
-
- dyn_c_colony_natal: "Colony of Natal"
- dyn_c_colony_natal_desc: "Natalian"
-
-###Decisions###
-
-#British Dominions decision
- bem_make_dominions_decision: "Make South Africa and India Dominions"
- bem_make_dominions_decision_desc: "Changes the name of South Africa and India to #yellow Dominion of South Africa#! and #yellow Dominion of India#!"
- bem_make_dominions_decision_tt: "This decision only changes the names of those two countries. They do #b not#! actually become Dominions if they aren't yet."
 
 ###Events###
 
@@ -455,19 +421,6 @@
  bem_custom_loc_conference_flavor_imperial_council_advising: "One of our colonies proposed the formation of Imperial Council made up of representatives of the dominions. The council would advise the British Government on Imperial matters. Our government rejected the idea as it would infringe on our autonomy."
  bem_custom_loc_conference_flavor_peace_and_treaties: "The Confernece came to an agreement regarding Treaties and Peace Conferences. The British government will henceforth circulate proposed Treaties in the Dominions so that they could comment the proposals."
  bem_custom_loc_conference_flavor_external_politics: "The focus of this Conference was diplomacy and external politics. The colonies discussed our external policies and several Treaties were circulated, commented and discussed."
-
-#backup file: bem.10.f: "During this [SCOPE.GetRootScope.GetCountry.GetCustom('imperial_conference_name')] representatives from all over the world came to [ROOT.GetCountry.GetCapital.GetCityHubName]. Some notable delegations came from:[SCOPE.GetRootScope.GetCountry.GetCustom('bem_imperial_conference_participiant_1_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bem_imperial_conference_participiant_2_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bem_imperial_conference_participiant_3_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bem_imperial_conference_participiant_4_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bem_imperial_conference_participiant_5_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bem_imperial_conference_participiant_6_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bem_imperial_conference_participiant_7_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bem_imperial_conference_participiant_8_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bem_imperial_conference_participiant_9_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bem_imperial_conference_participiant_10_type')]\n\nThis year a proposal to lay a telegraph cable between #yellow Vancouver#! and #yellow Australia#! was approved"
-
- bem_imperial_conference_participant_1: "\n[GetGlobalVariable('bem_imperial_conference_participant_1_global_var').GetCountry.GetName]"
- bem_imperial_conference_participant_2: "\n[GetGlobalVariable('bem_imperial_conference_participant_2_global_var').GetCountry.GetName]"
- bem_imperial_conference_participant_3: "\n[GetGlobalVariable('bem_imperial_conference_participant_3_global_var').GetCountry.GetName]"
- bem_imperial_conference_participant_4: "\n[GetGlobalVariable('bem_imperial_conference_participant_4_global_var').GetCountry.GetName]"
- bem_imperial_conference_participant_5: "\n[GetGlobalVariable('bem_imperial_conference_participant_5_global_var').GetCountry.GetName]"
- bem_imperial_conference_participant_6: "\n[GetGlobalVariable('bem_imperial_conference_participant_6_global_var').GetCountry.GetName]"
- bem_imperial_conference_participant_7: "\n[GetGlobalVariable('bem_imperial_conference_participant_7_global_var').GetCountry.GetName]"
- bem_imperial_conference_participant_8: "\n[GetGlobalVariable('bem_imperial_conference_participant_8_global_var').GetCountry.GetName]"
- bem_imperial_conference_participant_9: "\n[GetGlobalVariable('bem_imperial_conference_participant_9_global_var').GetCountry.GetName]"
- bem_imperial_conference_participant_10: "\n[GetGlobalVariable('bem_imperial_conference_participant_10_global_var').GetCountry.GetName]"
 
  bem.100.t: "\"A Study in Scarlet\" by Arthur Conand Doyle published"
  bem.100.d: "A detective solving crimes by applying logic and his mind. This Sherlock Holmes is a fascinating character. What an interesting concept that Arthur Conan Doyle came up with."
@@ -531,6 +484,13 @@
  bem.210.d: "The giant 46,000 ton steamship of the White Star line, leaves Southampton tomorrow for New York on her maiden trip. Carrying approx. 2,200 passengers and crew, among them some of the wealthiest and powerful in the world, the steamer is the largest moveable object made by man. Truly, a ship no man can sink."
  bem.210.f: "\"With its gym, squash courts, Turkish and electric swimming pools and multiple luxurious restaurants and cafès, the #yellow Titanic#! will offer passengers a new way of commuting between the old world and the new. Brought back for his final voyage before retirement, captain Edward J. Smith will helm the wheel of the enormous ship. This is truly the epitome of British ship construction\"\n - Daily Herald"
  bem.210.a: "Have a good trip!"
+
+ bem_breakup_events.1.t: ""
+ bem_breakup_events.1.d: ""
+ bem_breakup_events.1.f: ""
+ bem_breakup_events.1.a: ""
+ bem_breakup_events.1.b: ""
+ bem_breakup_events.1.c: ""
 
 
 #Modifiers

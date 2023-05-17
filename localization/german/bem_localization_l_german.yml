@@ -1,15 +1,6 @@
 ﻿l_german:
 
 #Government Types
- gov_british_dominion: "Dominion"
- gov_british_dominion_desc: "Dominions sind Kolonien der Britischen Krone, die eine hohe Autonomie geniessen. Sie werden von Generalgouverneuren regiert, die von Grossbritannien ernannt werden.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
-
- gov_british_protectorate: "Protektorat"
- gov_british_protectorate_desc: "Dieses "Protektorat" ist eigentlich eine Kolonie, die von einem von Großbritannien ernannten Generalgouverneur regiert wird. Ursprünglich waren Protektorate aussenpolitisch von Grossbritannien abhängige Staaten, die von lokalen Machthabern kontrolliert wurden.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
-
- gov_british_crown_colony: "Kronkolonie"
- gov_british_crown_colony_desc: "Dies ist eine Kolonie der britischen Krone, über die ein Kolonialverwalter mit begrenzter Autonomie herrscht.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
-
  gov_bem_colony: "Kolonie"
  gov_bem_colony_desc: "Dies ist eine Kolonie, über die ein Kolonialverwalter mit begrenzter Autonomie herrscht.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
 
@@ -454,19 +445,6 @@
  bem_custom_loc_conference_flavor_imperial_council_advising: "Eine unserer Kolonien schlug die Bildung eines Imperialen Rates vor, der sich aus Vertretern der Dominions zusammensetzen sollte. Dieser Rat sollte die britische Regierung in Reichsangelegenheiten beraten. Unsere Regierung lehnte diese Idee ab, da sie unsere Autonomie verletzen würde."
  bem_custom_loc_conference_flavor_peace_and_treaties: "Die Konferenz kam zu einer Einigung über Verträge und Friedenskonferenzen. Die britische Regierung wird künftig Vertragsvorschläge in den Dominions zirkulieren lassen, damit diese die Vorschläge kommentieren können."
  bem_custom_loc_conference_flavor_external_politics: "Im Mittelpunkt dieser Konferenz standen die Diplomatie und die Außenpolitik. Die Kolonien erörterten unsere Außenpolitik, und es wurden mehrere Verträge verteilt, kommentiert und diskutiert."
-
-#backup file: bem.10.f: "During this [SCOPE.GetRootScope.GetCountry.GetCustom('imperial_conference_name')] representatives from all over the world came to [ROOT.GetCountry.GetCapital.GetCityHubName]. Some notable delegations came from:[SCOPE.GetRootScope.GetCountry.GetCustom('bem_imperial_conference_participiant_1_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bem_imperial_conference_participiant_2_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bem_imperial_conference_participiant_3_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bem_imperial_conference_participiant_4_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bem_imperial_conference_participiant_5_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bem_imperial_conference_participiant_6_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bem_imperial_conference_participiant_7_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bem_imperial_conference_participiant_8_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bem_imperial_conference_participiant_9_type')][SCOPE.GetRootScope.GetCountry.GetCustom('bem_imperial_conference_participiant_10_type')]\n\nThis year a proposal to lay a telegraph cable between #yellow Vancouver#! and #yellow Australia#! was approved"
-
- bem_imperial_conference_participant_1: "\n[GetGlobalVariable('bem_imperial_conference_participant_1_global_var').GetCountry.GetName]"
- bem_imperial_conference_participant_2: "\n[GetGlobalVariable('bem_imperial_conference_participant_2_global_var').GetCountry.GetName]"
- bem_imperial_conference_participant_3: "\n[GetGlobalVariable('bem_imperial_conference_participant_3_global_var').GetCountry.GetName]"
- bem_imperial_conference_participant_4: "\n[GetGlobalVariable('bem_imperial_conference_participant_4_global_var').GetCountry.GetName]"
- bem_imperial_conference_participant_5: "\n[GetGlobalVariable('bem_imperial_conference_participant_5_global_var').GetCountry.GetName]"
- bem_imperial_conference_participant_6: "\n[GetGlobalVariable('bem_imperial_conference_participant_6_global_var').GetCountry.GetName]"
- bem_imperial_conference_participant_7: "\n[GetGlobalVariable('bem_imperial_conference_participant_7_global_var').GetCountry.GetName]"
- bem_imperial_conference_participant_8: "\n[GetGlobalVariable('bem_imperial_conference_participant_8_global_var').GetCountry.GetName]"
- bem_imperial_conference_participant_9: "\n[GetGlobalVariable('bem_imperial_conference_participant_9_global_var').GetCountry.GetName]"
- bem_imperial_conference_participant_10: "\n[GetGlobalVariable('bem_imperial_conference_participant_10_global_var').GetCountry.GetName]"
 
  bem.100.t: "\"Eine Studie in Scharlachrot\" von Arthur Conand Doyle veröffentlicht"
  bem.100.d: "Ein Detektiv, der mit Hilfe von Logik und Verstand Verbrechen aufklärt. Dieser Sherlock Holmes ist eine faszinierende Figur. Was für ein interessantes Konzept, das sich Arthur Conan Doyle ausgedacht hat."

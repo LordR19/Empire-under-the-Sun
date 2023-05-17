@@ -1,5 +1,21 @@
 ﻿namespace = bem
 
+#Event used to create a new governor that is male and of the primary culture
+bem.2 = {
+	type = country_event
+	hidden = yes
+
+	trigger = {
+	}
+
+	immediate = {
+		create_character = {
+			ruler = yes
+			female = no
+		}
+	}
+}
+
 # Colonial / Imperial Conference
 bem.10 = {
 	type = country_event
@@ -964,7 +980,7 @@ bem.210 = {
 	duration = 1
 
 	event_image = {
-		texture = "gfx/event_pictures/bem/bem_titanic_1.dds"
+		video = "gfx/event_pictures/southamerica_public_figure_assassination.bk2"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"

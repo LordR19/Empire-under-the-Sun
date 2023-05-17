@@ -46,84 +46,6 @@
 			}
 		}
 	}
-	dynamic_country_name = {
-		name = dyn_c_dominion_south_africa
-		adjective = dyn_c_dominion_south_africa
-
-		is_main_tag_only = yes
-		priority = 10
-		
-		trigger = {
-			exists = c:GBR
-			scope:actor = {
-				is_direct_subject_of = c:GBR
-			}
-			has_global_variable = bem_british_dominions_global_var
-		}
-	}
-}
-
-CAN = { # Canada
-	dynamic_country_name = {
-		name = dyn_c_dominion_canada
-		adjective = dyn_c_dominion_canada
-
-		is_main_tag_only = yes
-		priority = 0
-		
-		trigger = {
-			exists = c:GBR
-			c:GBR = {
-				has_diplomatic_pact = {
-					who = c:CAN
-					type = dominion
-					is_initiator = yes
-				}
-			}
-		}
-	}
-}
-
-AST = { # Australia
-	dynamic_country_name = {
-		name = dyn_c_dominion_australia
-		adjective = dyn_c_dominion_australia
-
-		is_main_tag_only = yes
-		priority = 0
-		
-		trigger = {
-			exists = c:GBR
-			c:GBR = {
-				has_diplomatic_pact = {
-					who = c:AST
-					type = dominion
-					is_initiator = yes
-				}
-			}
-		}
-	}
-}
-
-NZL = { # New Zealand
-	dynamic_country_name = {
-		name = dyn_c_dominion_new_zealand
-		adjective = dyn_c_dominion_new_zealand
-
-		is_main_tag_only = yes
-		priority = 0
-		
-		trigger = {
-			exists = c:GBR
-			c:GBR = {
-				has_diplomatic_pact = {
-					who = c:NZL
-					type = dominion
-					is_initiator = yes
-				}
-			}
-		}
-	}
 }
 
 DEI = { # Dutch East Indies
@@ -191,50 +113,6 @@ BIC = { # British East India Company
 					is_subject_of = c:GBR
 				}
 			}
-		}
-	}
-	dynamic_country_name = {
-		name = dyn_c_dominion_india
-		adjective = dyn_c_dominion_india
-
-		is_main_tag_only = yes
-		priority = 10
-		
-		trigger = {
-			exists = c:GBR
-			scope:actor = {
-				is_direct_subject_of = c:GBR
-			}
-
-			has_global_variable = bem_british_dominions_global_var
-		}
-	}
-}
-
-MLT = { # Malta
-	dynamic_country_name = {
-		name = dyn_c_crown_colony_malta
-		adjective = dyn_c_crown_colony_malta_adj
-
-		is_main_tag_only = no
-		priority = 10
-	
-		trigger = {
-			coa_def_british_ensign_trigger = yes
-		}
-	}
-}
-
-NAL = { # Natal
-	dynamic_country_name = {
-		name = dyn_c_colony_natal
-		adjective = dyn_c_colony_natal_adj
-
-		is_main_tag_only = no
-		priority = 10
-	
-		trigger = {
-			coa_def_british_ensign_trigger = yes
 		}
 	}
 }

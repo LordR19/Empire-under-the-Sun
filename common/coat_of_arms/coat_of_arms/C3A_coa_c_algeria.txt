@@ -36,11 +36,6 @@ C3A_sub_british = {
 	color1 = "blue"
 
 	colored_emblem = {
-		texture = "ce_flag_border_rectangle.dds"
-		color1 = "white"
-		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
-	}
-	colored_emblem = {
 		texture = "ce_frame_circle.dds"
 		color1 = "white"
 		instance = { scale = { 0.5 0.5 } position = { 0.75 0.5 } }
