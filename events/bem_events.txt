@@ -1,103 +1,5 @@
 ﻿namespace = bem
 
-# Event to set up Governors i n the appropriate countries
-bem.1 = {
-	type = country_event
-	hidden = yes
-
-	trigger = {
-		OR = {
-			is_country_type = colonial
-			is_country_type = unrecognized
-			AND = {
-				exists = c:MLT
-				root = c:MLT
-			}
-			AND = {
-				exists = c:CRE
-				root = c:CRE
-			}
-			AND = {
-				exists = c:ION
-				root = c:ION
-			}
-		}
-	}
-
-	immediate = {
-		activate_law = law_type:law_presidential_republic
-		trigger_event = {
-			id = bem.2
-			days = 1
-		}
-
-		if = {
-			limit = {
-				OR = {
-					AND = {
-						exists = c:CAN
-						root = c:CAN
-					}
-					AND = {
-						exists = c:AST
-						root = c:AST
-					}
-					AND = {
-						exists = c:NZL
-						root = c:NZL
-					}
-					AND = {
-						exists = c:SAF
-						root = c:SAF
-					}
-				}
-				NOT = {
-					is_subject_type = subject_type_dominion
-				}
-			}
-			
-			change_subject_type = subject_type_dominion
-		}
-
-		if = {
-			limit = {
-				OR = {
-					AND = {
-						exists = c:HGK
-						root = c:HGK
-					}
-					AND = {
-						exists = c:CBG
-						root = c:CBG
-					}
-					AND = {
-						exists = c:SST
-						root = c:SST
-					}
-					bem_colonial_nation_trigger = yes
-				}
-			}
-			change_subject_type = subject_type_puppet
-		}
-	}
-}
-
-#Event used to create a new governor that is male and of the primary culture
-bem.2 = {
-	type = country_event
-	hidden = yes
-
-	trigger = {
-	}
-
-	immediate = {
-		create_character = {
-			ruler = yes
-			female = no
-		}
-	}
-}
-
 # Colonial / Imperial Conference
 bem.10 = {
 	type = country_event
@@ -515,7 +417,7 @@ bem.200 = {
 	duration = 1
 
 	event_image = {
-		texture = "gfx/event_pictures/bem/bem_ripper_1.dds"
+		video = "gfx/event_pictures/southamerica_public_figure_assassination.bk2"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
@@ -627,7 +529,7 @@ bem.201 = {
 	duration = 1
 
 	event_image = {
-		texture = "gfx/event_pictures/bem/bem_ripper_2.dds"
+		video = "gfx/event_pictures/southamerica_public_figure_assassination.bk2"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
@@ -720,7 +622,7 @@ bem.202 = {
 	duration = 1
 
 	event_image = {
-		texture = "gfx/event_pictures/bem/bem_ripper_3.dds"
+		video = "gfx/event_pictures/southamerica_public_figure_assassination.bk2"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
@@ -803,7 +705,7 @@ bem.203 = {
 	duration = 1
 
 	event_image = {
-		texture = "gfx/event_pictures/bem/bem_ripper_4.dds"
+		video = "gfx/event_pictures/southamerica_public_figure_assassination.bk2"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
@@ -896,7 +798,7 @@ bem.204 = {
 	duration = 1
 
 	event_image = {
-		texture = "gfx/event_pictures/bem/bem_ripper_5.dds"
+		video = "gfx/event_pictures/southamerica_public_figure_assassination.bk2"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
@@ -979,7 +881,7 @@ bem.205 = {
 	duration = 1
 
 	event_image = {
-		texture = "gfx/event_pictures/bem/bem_ripper_6.dds"
+		video = "gfx/event_pictures/southamerica_public_figure_assassination.bk2"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
@@ -1020,7 +922,7 @@ bem.206 = {
 	duration = 1
 
 	event_image = {
-		texture = "gfx/event_pictures/bem/bem_ripper_5.dds"
+		video = "gfx/event_pictures/southamerica_public_figure_assassination.bk2"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
