@@ -409,6 +409,11 @@
 
  dyn_c_dominion_india: "Dominion von Indien"
  dyn_c_dominion_india_adj: "Indisch"
+ dyn_c_subject_east_india: "[Country.GetOverlord.GetAdjectiveNoFormatting]-Ostindien"
+ dyn_c_subject_east_india_adj: "[Country.GetOverlord.GetAdjectiveNoFormatting]-Ostindisch"
+
+ dyn_c_subject_east_indies: "[Country.GetOverlord.GetAdjectiveNoFormatting]-Indien"
+ dyn_c_subject_east_indies_adj: "[Country.GetOverlord.GetAdjectiveNoFormatting]-Indisch"
 
  dyn_c_crown_colony_malta: "Kronkolonie von Malta"
  dyn_c_crown_colony_malta_adj: "Maltesisch"

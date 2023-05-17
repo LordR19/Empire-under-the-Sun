@@ -269,7 +269,7 @@ bem.1 = {
 	}
 }
 
-#Event used to create a new governor that is male and british
+#Event used to create a new governor that is male and of the primary culture
 bem.2 = {
 	type = country_event
 	hidden = yes

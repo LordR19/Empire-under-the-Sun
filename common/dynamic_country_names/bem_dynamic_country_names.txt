@@ -126,6 +126,26 @@ NZL = { # New Zealand
 	}
 }
 
+DEI = { # Dutch East Indies
+dynamic_country_name = {
+	name = dyn_c_subject_east_indies
+	adjective = dyn_c_subject_east_indies_adj
+
+	is_main_tag_only = yes
+	priority = 5
+	
+	trigger = {
+		scope:actor = {
+			is_subject = yes
+			exists = c:NET
+			NOT = {
+				is_subject_of = c:NET
+			}
+		}
+	}
+}
+}
+
 BIC = { # British East India Company
 	dynamic_country_name = {
 		name = dyn_c_british_raj
@@ -154,6 +174,23 @@ BIC = { # British East India Company
 		
 		trigger = {
 			coa_def_independent_trigger = yes
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_subject_east_india
+		adjective = dyn_c_subject_east_india_adj
+
+		is_main_tag_only = yes
+		priority = 5
+		
+		trigger = {
+			scope:actor = {
+				is_subject = yes
+				exists = c:GBR
+				NOT = {
+					is_subject_of = c:GBR
+				}
+			}
 		}
 	}
 	dynamic_country_name = {

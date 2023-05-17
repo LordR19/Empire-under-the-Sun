@@ -410,6 +410,11 @@
 
  dyn_c_dominion_india: "Dominion of India"
  dyn_c_dominion_india_adj: "Indian"
+ dyn_c_subject_east_india: "[Country.GetOverlord.GetAdjectiveNoFormatting] East India"
+ dyn_c_subject_east_india_adj: "[Country.GetOverlord.GetAdjectiveNoFormatting] East Indian"
+
+ dyn_c_subject_east_indies: "[Country.GetOverlord.GetAdjectiveNoFormatting] East Indies"
+ dyn_c_subject_east_indies_adj: "[Country.GetOverlord.GetAdjectiveNoFormatting] East Indies"
 
  dyn_c_crown_colony_malta: "Crown Colony of Malta"
  dyn_c_crown_colony_malta_adj: "Maltese"

@@ -1,6 +1,89 @@
 ﻿# For on_actions launched by the code itself.
 
 # Root = Country
+on_monthly_pulse_country = {
+	on_actions = {
+		bem_on_monthly
+	}
+}
+
+bem_on_monthly = {
+	effect = {
+		if = {
+			limit = {
+				AND = {
+					is_subject = yes
+					OR = {
+						AND = {
+							exists = c:DEI
+							this = c:DEI
+						}
+						AND = {
+							exists = c:BIC
+							this = c:BIC
+						}
+						bem_colonial_nation_trigger = yes
+					}
+				}
+			}
+			overlord = {
+				ordered_primary_culture = {
+					save_scope_as = switch_primary_culture_to_scope
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						root.religion = overlord.religion
+					}
+				}
+				set_state_religion = overlord.religion
+			}
+			if = {
+				limit = {
+					NOT = {
+						country_has_primary_culture = scope:switch_primary_culture_to_scope
+					}
+				}
+				add_primary_culture = scope:switch_primary_culture_to_scope
+				while = {
+					limit = {
+						any_primary_culture = {
+							NOT = {
+								this = scope:switch_primary_culture_to_scope
+							}
+						}
+					}
+					random_primary_culture = {
+						limit = { 
+							NOT = {
+								this = scope:switch_primary_culture_to_scope
+							}
+						}
+						save_scope_as = primary_culture_delete_scope
+					}
+					remove_primary_culture = scope:primary_culture_delete_scope
+				}
+				create_character = {
+					ruler = yes
+				}
+				every_scope_character = {
+					limit = {
+						NOT = {
+							culture = scope:switch_primary_culture_to_scope
+						}
+					}
+					kill_character = {
+						hidden = yes
+						value = yes
+					}
+				}
+			}
+		}
+	}
+}
+
+# Root = Country
 on_yearly_pulse_country = {
 	on_actions = {
 		bem_on_yearly_events
