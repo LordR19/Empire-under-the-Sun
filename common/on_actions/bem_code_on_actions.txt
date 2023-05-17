@@ -112,10 +112,10 @@ bem_on_yearly_events = {
 			id = bem.200
 			days = { 180 240 }
 		}
-		trigger_event = { # "RMS Titanic" prepares for historic voyage
-			id = bem.210
-			days = { 90 95 }
-		}
+	#	trigger_event = { # "RMS Titanic" prepares for historic voyage
+	#		id = bem.210
+	#		days = { 90 95 }
+	#	}
 	}
 }
 
