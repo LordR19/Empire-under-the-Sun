@@ -12,6 +12,22 @@ HGK = {
 	ai_will_do = { always = no }
 }
 
+#Strait Settlements (aka Singapore)
+SST = {
+	provinces = {
+		province = p:xC00130
+		province = p:x8080B0
+		province = p:x08673B
+	}
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+	
+	ai_will_do = { always = no }
+}
+
 #Colonial British Guayana
 CBG = {
 	provinces = {

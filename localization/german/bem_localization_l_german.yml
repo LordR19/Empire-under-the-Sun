@@ -462,6 +462,43 @@
  bem_charles: "Charles"
  bem_darwin: "Darwin"
 
+ bem.200.t: "Schrecklicher Mord in Whitechapel, London"
+ bem.200.d: "Scotland Yard hat eine Untersuchung eingeleitet, nachdem die Leiche von Mary Ann Nichols in Whitechapel gefunden wurde. Die Leiche des Opfers scheint auf so brutale Weise verstümmelt worden zu sein, dass es den Beamten und Umstehenden gleichermaßen übel wurde."
+ bem.200.f: "\"Die mit dem Fall betrauten Beamten stellen in der Nachbarschaft verstärkt Nachforschungen über das Treiben bestimmter Banden an, von denen bekannt ist, dass sie in dieser Gegend häufig anzutreffen sind, und unter ihnen setzt sich die Meinung durch, dass es sich bei den Mördern um dieselben handelt, die bereits die beiden früheren Morde in der Nähe desselben Ortes begangen haben.\"\n - The Weekly Herald"
+ bem.200.a: "Wie schrecklich..."
+ bem.200.b: "Bietet einen Bonus für alle unsere Polizeibeamten!"
+ bem.200.c: "Ich verwalte ein Land. Hört auf, mich mit solchen Nebensächlichkeiten zu belästigen."
+ bem.200.c.tt: "Du wirst keine weiteren Ereignisse über den #yellow Jack the Ripper#! erhalten. Dies könnte später zu weiteren Morden und einem #n Prestigeverlust#! führen."
+
+ bem.201.t: "Der Whitechapel #yellow \"Ripper\"#! schlägt wieder zu!"
+ bem.201.d: "London ist unsicher. Heute Morgen wurde ein neues Opfer, Annie Chapman, in demselben grausamen Zustand gefunden wie das letzte weibliche Opfer. Die Polizei geht nun davon aus, dass die beiden Morde miteinander zusammenhängen, und bittet ddarum, Ruhe zu bewahren, da in London anscheinend ein Mörder sein Unwesen treibt."
+ bem.201.f: "\"PDie Polizei darf auf keinen Fall ohne ausdrückliche und besondere Ermächtigung Herren, die mit der Presse in Verbindung stehen, Informationen über Angelegenheiten, die der Polizei bekannt sind, direkt oder indirekt an Redakteure oder Berichterstatter von Zeitungen weitergeben, die mit dem öffentlichen Dienst in Verbindung stehen...\"\n - Scotland Yard"
+ bem.201.a: "Schrecklich..."
+ bem.201.b: "Wir brauchen mehr Polizisten, um dieses Monster zu fangen!"
+
+ bem.202.t: "#yellow \"Jack the Ripper\"#! fordert seine zwei nächsten Opfer!"
+ bem.202.d: "Die Leichen von Elizabeth Stride und Catherine Eddowes wurden heute Morgen entdeckt. Der mutmaßliche Mörder, der von der Presse inzwischen als #yellow \"Jack the Ripper\"#! bezeichnet wird, ist der Polizei immer noch ein Dorn im Auge. Das Entsetzen in London wächst."
+ bem.202.f: "\"Zu diesem Zweck wird Inspektor Frederick George Abberline - ein Beamter, der im Dezember des Vorjahres nach vierzehn Jahren, in denen er in der Gegend patrouillierte und das Viertel und seine kriminellen Elemente kennenlernte, befördert worden war - wieder in den Bezirk zurückbeordert, um die polizeilichen Ermittlungen zu #yellow \"Jack the Ripper\"# vor Ort zu leiten.\Natürlich glaubt man, dass sich Abberlines Ortskenntnisse als unschätzbar erweisen werden, wenn es darum geht, den Mörder aufzuspüren und ihn vor Gericht zu bringen.\"\n - The London Evening News"
+ bem.202.a: "Oh nein. Nicht schon wieder..."
+ bem.202.b: "Bietet eine Belohnung für jeden an, der Informationen über den #yellow \"Ripper\"#! hat!"
+
+ bem.203.t: "Ein Brief vom #yellow Ripper#!"
+ bem.203.d: "Der #yellow \"East End Ripper\"#!, oder #yellow \"Jack the Ripper\"#! wie ihn die Presse nennt, hat einen Brief an die Polizei geschrieben. Obwohl die Polizei bereits Hunderte von Briefen des mutmaßlichen Massenmörders erhalten hat, scheint dieser Brief authentisch zu sein, da er mit einem \"Teil\" des letzten Opfers versehen war, das nicht genannt wurde."
+ bem.203.f: "\"Unterzeichnet mit #yellow \"Aus der Hölle\"#!, bietet der Brief einen Einblick in einen zutiefst gestörten Geist. Was diesen Brief von den Hunderten von anderen unterscheidet, die an die Presse und die Polizei geschickt wurden, ist das beigefügte Körperteil, das beim letzten Opfer, Catherine Eddowes, vermisst wurde. Der erschreckende Brief verhöhnt die Ermittler und endet mit: \"...Fangt mich, wenn ihr könnt.".\n - London Daily Post"
+ bem.203.a: "Was für ein Monster!"
+ bem.203.b: "Holt euch Hilfe von den Universitäten. Wir müssen alles über den Brief herausfinden, was wir können!"
+
+ bem.204.t: "#yellow \"Jack the Ripper\"#! schlachtet das fünfte Opfer!"
+ bem.204.d: "#yellow \"Jack the Ripper\"#! schlägt wieder zu! Diesmal ist Mary Jane Kelly das jüngste seiner Opfer. Der Serienmörder hat in der britischen Hauptstadt Angst und Panik verbreitet, während die Fahndung nach dem Verrückten immer stärker wird."
+ bem.204.f: "#yellow \"Jack the Ripper\"#! hhat sich sein neuestes Opfer ausgesucht, dieses Mal an einem Ort und zu einer Zeit, wo er ungestört war. Wir können an dieser Stelle nicht die Einzelheiten des abscheulichen Verbrechens schildern, aber seien Sie versichert, dass Scotland Yard alles in seiner Macht Stehende tut, um ihn zu fassen.\"\n - London Times"
+ bem.204.a: "Oh nein..."
+ bem.204.b: "Bietet hohe Belohnungen für relevante Informationen an. Das muss aufhören!"
+
+ bem.205.t: "Keine Anzeichen von #yellow \"Jack the Ripper\"#!"
+ bem.205.d: "Der als #yellow \"Jack the Ripper\"! bekannte Serienmörder hat keine neuen Opfer gefordert. Da seit dem Auffinden des letzten Opfers Wochen vergangen sind, scheint es, als sei der teuflische Serienmörder in der Nacht verschwunden, ohne eine Spur zu hinterlassen, um wen es sich handelt. Polizei, Ermittler und die Presse suchen weiter nach Antworten. Doch vorerst scheint London sicher zu sein."
+ bem.205.f: "\"Als das grausige Werk von #yellow "Jack the Ripper"#! in der Gegend von Whitechapel auftauchte, war dies der Beginn einer neuen Art von Mörder. Jack ist nicht der erste Serienmörder der Welt, aber er ist zweifellos das Produkt einer zunehmend industrialisierten westlichen Gesellschaft und der damit einhergehenden Anonymität und Isolation. Er tötet nicht für Geld, um einen Feind auszuschalten oder einen Ehepartner zu bestrafen. Die Morde scheinen willkürlich zu sein und haben die Londoner Polizei völlig unvorbereitet getroffen.\"\n - The Penny Paper"
+ bem.205.a: "Ist er wirklich verschwunden?"
+
  bem.206.t: "#yellow \"Jack the Ripper\"#! begeht Suizid um sich der Polizei zu entziehen"
  bem.206.d: "#yellow \"Jack the Ripper\"#! wurde dank Hinweisen aus der Bevölkerung lokalisiert. Irgendwie muss er bemerkt haben, dass die Polizei seinen Aufenthaltsort umstellt hat. Als die Polizisten bereit waren, das Gebäude zu stürmen, war es zu spät. #yellow \"Jack the Ripper\"#! scheint sich selbst und das Gebäude in Brand gesetzt zu haben, um nicht der Polizei in die Hände zu fallen. Nach den Löscharbeiten konnte die Identität des Täters nicht festgestellt werden. Aber wenigstens wird dieses Monster nie wieder jemanden ermorden."
  bem.206.f: "Ist Jack the Ripper wirklich tot? Die Polizei teilte mit, dass die verbrannte Leiche zweifelsfrei dem gesuchten Mörder gehört, aber stimmt das auch tatsächlich? Von wem kam der Hinweis? Gehört die Leiche wirklich dem Ripper oder ist dieses Monster noch auf freiem Fuss?\n - The View"

@@ -1,4 +1,4 @@
-﻿l_english:
+﻿l_turkish:
 
 #Government Types
  gov_bem_colony: "Colony"
@@ -454,7 +454,7 @@
 
  bem.202.t: "#yellow \"Jack the Ripper\"#! claims his two latest victims!"
  bem.202.d: "The bodies of Elizabeth Stride and Catherine Eddowes were discovered this morning. The suspected killer, now named #yellow \"Jack the Ripper\"#! by the press, is still outmaneuvering the Police. The horror in London grows."
- bem.202.f: "\"To this end, Inspector Frederick George Abberline – an officer who has been promoted out of the area the previous December after fourteen years spent patrolling and getting to know the neighborhood and its criminal elements – is drafted back into the district to take overall charge of the on the ground Jack the Ripper police investigation.\nIt is evidently believed that Abberline\’s local knowledge will prove invaluable in hunting down the killer and bringing him to justice.\"\n - The London Evening News"
+ bem.202.f: "\"To this end, Inspector Frederick George Abberline â€“ an officer who has been promoted out of the area the previous December after fourteen years spent patrolling and getting to know the neighborhood and its criminal elements â€“ is drafted back into the district to take overall charge of the on the ground Jack the Ripper police investigation.\nIt is evidently believed that Abberline\â€™s local knowledge will prove invaluable in hunting down the killer and bringing him to justice.\"\n - The London Evening News"
  bem.202.a: "Oh no, not again..."
  bem.202.b: "Offer a reward to everyone with information about the #yellow \"Ripper\"#!!"
 
@@ -482,7 +482,7 @@
 
  bem.210.t: "#yellow \"RMS Titanic\"#! prepares for historic voyage"
  bem.210.d: "The giant 46,000 ton steamship of the White Star line, leaves Southampton tomorrow for New York on her maiden trip. Carrying approx. 2,200 passengers and crew, among them some of the wealthiest and powerful in the world, the steamer is the largest moveable object made by man. Truly, a ship no man can sink."
- bem.210.f: "\"With its gym, squash courts, Turkish and electric swimming pools and multiple luxurious restaurants and cafès, the #yellow Titanic#! will offer passengers a new way of commuting between the old world and the new. Brought back for his final voyage before retirement, captain Edward J. Smith will helm the wheel of the enormous ship. This is truly the epitome of British ship construction\"\n - Daily Herald"
+ bem.210.f: "\"With its gym, squash courts, Turkish and electric swimming pools and multiple luxurious restaurants and cafÃ¨s, the #yellow Titanic#! will offer passengers a new way of commuting between the old world and the new. Brought back for his final voyage before retirement, captain Edward J. Smith will helm the wheel of the enormous ship. This is truly the epitome of British ship construction\"\n - Daily Herald"
  bem.210.a: "Have a good trip!"
 
  bem_breakup_events.1.t: ""
