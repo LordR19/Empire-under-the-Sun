@@ -161,7 +161,7 @@
  dyn_c_default_zimbabwe_adj: "Zimbabwe"
  dyn_c_colonial_zimbabwe: "[Country.GetOverlord.GetAdjectiveNoFormatting] Zimbabwe"
  dyn_c_colonial_zimbabwe_adj: "Zimbabwe"
- dyn_c_southern_rhodesia: "Southern Rhodesia"
+ dyn_c_southern_rhodesia: "[Country.GetOverlord.GetAdjectiveNoFormatting] Southern Rhodesia"
  dyn_c_southern_rhodesia_adj: "Southern Rhodesian"
 
  C2R: "Colonial Zambia"
@@ -170,7 +170,7 @@
  dyn_c_default_zambia_adj: "Zambian"
  dyn_c_colonial_zambia: "[Country.GetOverlord.GetAdjectiveNoFormatting] Zambia"
  dyn_c_colonial_zambia_adj: "Zambian"
- dyn_c_northern_rhodesia: "Northern Rhodesia"
+ dyn_c_northern_rhodesia: "[Country.GetOverlord.GetAdjectiveNoFormatting] Northern Rhodesia"
  dyn_c_northern_rhodesia_adj: "Northern Rhodesian"
 
  C1M: "Colonial Mocambique"
