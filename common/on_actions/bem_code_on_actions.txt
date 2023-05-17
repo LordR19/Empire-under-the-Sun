@@ -3,7 +3,7 @@
 # Root = Country
 on_monthly_pulse_country = {
 	on_actions = {
-		bem_on_monthly
+		#bem_on_monthly removed for now as the primary_cultures do not get removed properly
 	}
 }
 
