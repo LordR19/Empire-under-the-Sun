@@ -193,6 +193,11 @@
  dyn_c_protectorate_of_yemen_adj: "Yemeni"
  dyn_c_colonial_yemen: "[Country.GetOverlord.GetAdjectiveNoFormatting] Yemen"
 
+ C1Z: "Colonial New Zealand"
+ C1Z_ADJ: "New Zealand"
+ dyn_c_default_new_zealand: "New Zealand"
+ dyn_c_colonial_new_zealand: "[Country.GetOverlord.GetAdjectiveNoFormatting] New Zealand"
+
  C2A: "Colonial Angola"
  C2A_ADJ: "Angolan"
  dyn_c_default_angola: "Angola"
@@ -372,6 +377,11 @@
  dyn_c_default_togo_adj: "Togolese"
  dyn_c_colony_of_togo: "[Country.GetOverlord.GetAdjectiveNoFormatting] Togo"
  dyn_c_colony_of_togo_adj: "Togolese"
+
+ C5Z: "Colonial Australia"
+ C5Z_ADJ: "Australian"
+ dyn_c_default_australia: "Australia"
+ dyn_c_colonial_australia: "[Country.GetOverlord.GetAdjectiveNoFormatting] Australia"
 
  C5C: "Colonial Chad"
  C5C_ADJ: "Chad"

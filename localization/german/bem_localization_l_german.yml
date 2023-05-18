@@ -76,6 +76,11 @@
  dyn_c_protectorate_of_yemen_adj: "Yemenisch"
  dyn_c_colonial_yemen: "[Country.GetOverlord.GetAdjectiveNoFormatting] Yemen"
 
+ C1Z: "Kolonial Neuseeland"
+ C1Z_ADJ: "Neuseeländisch"
+ dyn_c_default_new_zealand: "Neuseeland"
+ dyn_c_colonial_new_zealand: "[Country.GetOverlord.GetAdjectiveNoFormatting] Neuseeland"
+
  C1S: "Kolonial Somaliland"
  C1S_ADJ: "Somalisch"
  dyn_c_default_somaliland: "Somaliland"
@@ -252,6 +257,11 @@
  dyn_c_default_eritrea_adj: "Eritreisch"
  dyn_c_colony_of_eritrea: "[Country.GetOverlord.GetAdjectiveNoFormatting] Eritrea"
  dyn_c_colony_of_eritrea_adj: "Eritreisch"
+
+ C5Z: "Kolonial Australien"
+ C5Z_ADJ: "Australisch"
+ dyn_c_default_australia: "Australien"
+ dyn_c_colonial_australia: "[Country.GetOverlord.GetAdjectiveNoFormatting] Australien"
 
  C5C: "Kolonial Tschad"
  C5C_ADJ: "Tschadisch"

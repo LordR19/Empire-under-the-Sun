@@ -373,6 +373,21 @@ C1Y = {
 	
 }
 
+#Colonial New Zealand
+C1Z = {
+
+	color = { 0 112 0 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_NORTH_ISLAND
+	
+}
+
 #Colony of Angola
 C2A = {
 
@@ -746,6 +761,21 @@ C4T = {
 
 	capital = STATE_TOGO
 
+}
+
+#Colonial Australia
+C5A = {
+
+	color = { 0 38 100 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_NEW_SOUTH_WALES
+	
 }
 
 #Colony of Chad

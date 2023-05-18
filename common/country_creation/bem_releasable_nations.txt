@@ -457,6 +457,25 @@ C1Y = {
 	ai_will_do = { always = no }
 }
 
+#Colonial New Zealand
+C1Z = {
+	states = {
+		STATE_NORTH_ISLAND
+		STATE_SOUTH_ISLAND
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
+	}
+	
+	ai_will_do = { always = no }
+}
+
 #Colony of Angola
 C2A = {
 	states = {
@@ -930,6 +949,30 @@ C4T = {
 		}
 	}
 
+	ai_will_do = { always = no }
+}
+
+#Colonial Australia
+C5A = {
+	states = {
+		STATE_NEW_SOUTH_WALES
+		STATE_NORTHERN_TERRITORY
+		STATE_QUEENSLAND
+		STATE_SOUTH_AUSTRALIA
+		STATE_TASMANIA
+		STATE_VICTORIA
+		STATE_WESTERN_AUSTRALIA
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
+	}
+	
 	ai_will_do = { always = no }
 }
 
