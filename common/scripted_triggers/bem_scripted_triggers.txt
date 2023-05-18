@@ -10,10 +10,6 @@
 bem_colonial_nation_trigger = {
 	OR = {
 		AND = {
-			exists = c:SAF
-			this = c:SAF
-		}
-		AND = {
 			exists = c:HGK
 			this = c:HGK
 		}
@@ -52,6 +48,10 @@ bem_colonial_nation_trigger = {
 		AND = {
 			exists = c:C1G
 			this = c:C1G
+		}
+		AND = {
+			exists = c:C1H
+			this = c:C1H
 		}
 		AND = {
 			exists = c:C1I
@@ -194,6 +194,10 @@ bem_colonial_nation_trigger = {
 			this = c:C3T
 		}
 		AND = {
+			exists = c:C4A
+			this = c:C4A
+		}
+		AND = {
 			exists = c:C4C
 			this = c:C4C
 		}
@@ -216,6 +220,10 @@ bem_colonial_nation_trigger = {
 		AND = {
 			exists = c:C5T
 			this = c:C5T
+		}
+		AND = {
+			exists = c:C6C
+			this = c:C6C
 		}
 		AND = {
 			exists = c:C6M

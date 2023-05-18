@@ -4,7 +4,7 @@ C1G = {
 	color1 = "yellow"
 
 	colored_emblem = {
-		texture = "ce_emblem_ship_gabon_gabon.dds"
+		texture = "ce_emblem_ship_gabon.dds"
 		color1 = "black"
 		color2 = "green_light"
 		color3 = "azure"
@@ -68,7 +68,7 @@ C1G_sub_british = {
 	}
 }
 
-C1G = {
+C1G_monarchy = {
 	pattern = "pattern_solid.tga"
 	color1 = "yellow"
 

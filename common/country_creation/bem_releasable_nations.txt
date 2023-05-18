@@ -171,6 +171,24 @@ C1G = {
 	ai_will_do = { always = no }
 }
 
+#Colonial Hejaz
+C1H = {
+	states = {
+		STATE_HEDJAZ
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
+	}
+	
+	ai_will_do = { always = no }
+}
+
 #Protectorate of Iraq
 C1I = {
 	states = {
@@ -840,6 +858,25 @@ C3T = {
 	ai_will_do = { always = no }
 }
 
+#Colonial Arabia
+C4A = {
+	states = {
+		STATE_HAIL
+		STATE_NEJD
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
+	}
+	
+	ai_will_do = { always = no }
+}
+
 #Colony of Central Africa
 C4C = {
 	states = {
@@ -953,6 +990,26 @@ C5T = {
 		}
 	}
 
+	ai_will_do = { always = no }
+}
+
+#Colonial Cape
+C6C = {
+	states = {
+		STATE_CAPE_COLONY
+		STATE_EASTERN_CAPE
+		STATE_NORTHERN_CAPE
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
+	}
+	
 	ai_will_do = { always = no }
 }
 
