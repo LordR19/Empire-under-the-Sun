@@ -55,6 +55,10 @@ bem_colonial_nation_trigger = {
 		}
 		AND = {
 			exists = c:C1I
+			this = c:C1I
+		}
+		AND = {
+			exists = c:C1K
 			this = c:C1K
 		}
 		AND = {
@@ -180,10 +184,6 @@ bem_colonial_nation_trigger = {
 		AND = {
 			exists = c:C3M
 			this = c:C3M
-		}
-		AND = {
-			exists = c:C3N
-			this = c:C3N
 		}
 		AND = {
 			exists = c:C3P
