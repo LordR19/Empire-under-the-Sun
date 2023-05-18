@@ -553,3 +553,10 @@
 
  ai_strategy_colonial_extraction_bem: "Kolonialbetrieb"
  ai_strategy_colonial_extraction_bem_desc: "Diese Kolonie konzentriert sich auf den Ausbau ihrer Rohstoffproduktion, um ihren [concept_overlord] mit allen benötigten Ressourcen zu versorgen. Daher wird sich diese Kolonie auf den Bau von Plantagen, Minen und Ölplattformen konzentrieren."
+
+#Game Rules
+ rule_bem_colonial_nations_release: "#yellow EutS:#! Sollen #bold KI#! Nationen #bold Kolonialnationen#! als Untertanen freilassen?"
+ setting_bem_no_colonial_nations_release: "#n Keine#! Entlassung von #bold Kolonialnationen#!"
+ setting_bem_no_colonial_nations_release_desc: "#bold KI Nationen#! werden #bold Kolonialnationen#! #n nicht#! als Untertanen entlassen. Nur #bold Spieler#! können #bold Kolonialnationen#! entlassen."
+ setting_bem_colonial_nations_release: "#n Experimentel!#! #p Entlassen#! von #bold Kolonialnationen#!"
+ setting_bem_colonial_nations_release_desc: "#bold KI Nationen#! #p werden#! #bold Kolonialnationen#! entlassen, wenn sie alle Staaten komplett kontrollieren. #n Achtung!#! Dieses Feature könnte zu seltsamen Situationen führen!"

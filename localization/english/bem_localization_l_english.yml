@@ -548,5 +548,5 @@
  rule_bem_colonial_nations_release: "#yellow EutS:#! Should #bold AI#! nations release potential #bold Colonial Nations#!?"
  setting_bem_no_colonial_nations_release: "#n No#! releases of #bold Colonial Nations#!"
  setting_bem_no_colonial_nations_release_desc: "#bold AI Nations#! will #n not#! release #bold Colonial Nations#!. Only the #bold Player#! can release #bold Colonial Nations#!."
- setting_bem_colonial_nations_release: "#n Experimental!#! #bold #p Release#! of #bold Colonial Nations#!"
- setting_bem_colonial_nations_release_desc: "#bold AI Nations#! #p will#! release #bold Colonial Nations#!, if there are no uncolonized provinces in the region. #n Warning!#! This feature might cause weird situations!"
+ setting_bem_colonial_nations_release: "#n Experimental!#! #p Release#! of #bold Colonial Nations#!"
+ setting_bem_colonial_nations_release_desc: "#bold AI Nations#! #p will#! release #bold Colonial Nations#!, if they control all the states of the colonial nation. #n Warning!#! This feature might cause weird situations!"
