@@ -324,6 +324,11 @@
  dyn_c_colony_of_gold_coast: "[Country.GetOverlord.GetAdjectiveNoFormatting] Gold Coast"
  dyn_c_colony_of_gold_coast_adj: "Gold Coaster"
 
+ C3I: "Colonial Indonesia"
+ C3I_ADJ: "Indonesian"
+ dyn_c_default_indonesia: "Indonesia"
+ dyn_c_colonial_indonesia: "[Country.GetOverlord.GetAdjectiveNoFormatting] Indonesia"
+
  C3M: "Colonial Middle-Congo"
  C3M_ADJ: "Middle-Congolese"
  dyn_c_default_middle_congo: "Middle-Congo"

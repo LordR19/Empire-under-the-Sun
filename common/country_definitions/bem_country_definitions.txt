@@ -643,6 +643,21 @@ C3G = {
 
 }
 
+#Colonial Indonesia
+C3I = {
+
+	color = { 0 0 64 }
+
+	country_type = colonial
+
+	tier = principality
+
+	cultures = { british }
+
+	capital = STATE_WEST_JAVA
+
+}
+
 #Colony of Middle-Congo
 C3M = {
 

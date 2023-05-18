@@ -996,6 +996,40 @@ C3G = {
 	}
 }
 
+#Colonial Indonesia
+C3I = {
+	states = {
+		STATE_WEST_JAVA
+		STATE_CENTRAL_JAVA
+		STATE_EAST_JAVA
+		STATE_ACEH
+		STATE_NORTH_SUMATRA
+		STATE_SOUTH_SUMATRA
+		STATE_SUNDA_ISLANDS
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
+	}
+
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_southeast_asia = no
+		owns_entire_state_region = STATE_WEST_JAVA
+		owns_entire_state_region = STATE_CENTRAL_JAVA
+		owns_entire_state_region = STATE_EAST_JAVA
+		owns_entire_state_region = STATE_ACEH
+		owns_entire_state_region = STATE_NORTH_SUMATRA
+		owns_entire_state_region = STATE_SOUTH_SUMATRA
+		owns_entire_state_region = STATE_SUNDA_ISLANDS
+	}
+}
+
 #Colony of Middle-Congo
 C3M = {
 	states = {

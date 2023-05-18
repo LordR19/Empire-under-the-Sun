@@ -387,6 +387,11 @@
  dyn_c_colony_of_gold_coast: "[Country.GetOverlord.GetAdjectiveNoFormatting] Goldküste"
  dyn_c_colony_of_gold_coast_adj: "Goldküstisch"
 
+ C3I: "Kolonial Indonesien"
+ C3I_ADJ: "Indonesisch"
+ dyn_c_default_indonesia: "Indonesien"
+ dyn_c_colonial_indonesia: "[Country.GetOverlord.GetAdjectiveNoFormatting] Indonesien"
+
  C1V: "Kolonial Obervolta"
  C1V_ADJ: "Voltisch"
  dyn_c_default_volta: "Obervolta"
