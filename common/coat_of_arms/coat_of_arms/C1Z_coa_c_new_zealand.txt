@@ -19,7 +19,7 @@ C1Z_sub = {
 	colored_emblem = {
 		texture = "ce_fern.dds"
 		color1 = "white"
-		instance = { scale = { 0.5 0.5 } position = { 0.75 0.5 } }
+		instance = { scale = { 0.5 0.5 } position = { 0.75 0.6 } }
 	}
 }
 

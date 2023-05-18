@@ -55,7 +55,11 @@ C1A = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_middle_east = no
+		owns_entire_state_region = STATE_YEMEN
+	}
 }
 
 #Bechuanaland Protectorate
@@ -73,7 +77,11 @@ C1B = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_BOTSWANA
+	}
 }
 
 #Protectorate of Cyprus
@@ -109,7 +117,11 @@ C1D = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_DAHOMEY
+	}
 }
 
 #Protectorate of Egypt
@@ -132,7 +144,16 @@ C1E = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_LOWER_EGYPT
+		owns_entire_state_region = STATE_MIDDLE_EGYPT
+		owns_entire_state_region = STATE_UPPER_EGYPT
+		owns_entire_state_region = STATE_SINAI
+		owns_entire_state_region = STATE_EGYPTIAN_DESERT
+		owns_entire_state_region = STATE_MATRUH
+	}
 }
 
 #Falkland Islands
@@ -168,7 +189,11 @@ C1G = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_GABON
+	}
 }
 
 #Colonial Hejaz
@@ -186,7 +211,11 @@ C1H = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_middle_east = no
+		owns_entire_state_region = STATE_HEDJAZ
+	}
 }
 
 #Protectorate of Iraq
@@ -206,7 +235,13 @@ C1I = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_middle_east = no
+		owns_entire_state_region = STATE_BAGHDAD
+		owns_entire_state_region = STATE_MOSUL
+		owns_entire_state_region = STATE_BASRA
+	}
 }
 
 #Protectorate of Kenya
@@ -225,7 +260,12 @@ C1K = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_KENYA
+		owns_entire_state_region = STATE_RIFT_VALLEY
+	}
 }
 
 #Colonial Lybia
@@ -245,7 +285,13 @@ C1L = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_TRIPOLI
+		owns_entire_state_region = STATE_LIBYA
+		owns_entire_state_region = STATE_LIBYAN_DESERT
+	}
 }
 
 
@@ -266,7 +312,13 @@ C1M = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_MOCAMBIQUE
+		owns_entire_state_region = STATE_ZAMBEZIA
+		owns_entire_state_region = STATE_LOURENCO_MARQUES
+	}
 }
 
 #Protectorate of Nigeria
@@ -290,10 +342,20 @@ C1N = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_YORUBA_STATES
+		owns_entire_state_region = STATE_NIGER_DELTA
+		owns_entire_state_region = STATE_BENIN
+		owns_entire_state_region = STATE_NIGERIA
+		owns_entire_state_region = STATE_BORNU
+		owns_entire_state_region = STATE_HAUSALAND
+		owns_entire_state_region = STATE_EAST_HAUSALAND
+	}
 }
 
-#Protectorate of Palestine
+#Colonial Oman
 C1O = {
 	states = {
 		STATE_OMAN
@@ -308,7 +370,11 @@ C1O = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_middle_east = no
+		owns_entire_state_region = STATE_OMAN
+	}
 }
 
 #Protectorate of Palestine
@@ -326,7 +392,11 @@ C1P = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_middle_east = no
+		owns_entire_state_region = STATE_PALESTINE
+	}
 }
 
 #Southern Rhodesia
@@ -344,7 +414,11 @@ C1R = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_ZAMBEZI
+	}
 }
 
 #Protectorate of Somaliland
@@ -361,7 +435,11 @@ C1S = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_SOMALILAND
+	}
 }
 
 #Tanganyika Territory
@@ -381,7 +459,13 @@ C1T = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_ZANZIBAR
+		owns_entire_state_region = STATE_LINDI
+		owns_entire_state_region = STATE_TANGANYIKA
+	}
 }
 
 #Protectorate of Uganda
@@ -399,7 +483,11 @@ C1U = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_UGANDA
+	}
 }
 
 #Colonial Upper Volta
@@ -417,7 +505,11 @@ C1V = {
 		}
 	}
 
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_VOLTA
+	}
 }
 
 
@@ -437,7 +529,12 @@ C1W = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_NAMAQUALAND
+		owns_entire_state_region = STATE_HEREROLAND
+	}
 }
 
 
@@ -454,7 +551,11 @@ C1Y = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_middle_east = no
+		owns_entire_state_region = STATE_YEMEN
+	}
 }
 
 #Colonial New Zealand
@@ -473,7 +574,12 @@ C1Z = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		bem_country_is_in_oceania =  = no
+		owns_entire_state_region = STATE_NORTH_ISLAND
+		owns_entire_state_region = STATE_SOUTH_ISLAND
+	}
 }
 
 #Colony of Angola
@@ -493,7 +599,13 @@ C2A = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_NORTH_ANGOLA
+		owns_entire_state_region = STATE_SOUTH_ANGOLA
+		owns_entire_state_region = STATE_EAST_ANGOLA
+	}
 }
 
 #Colony of Bermuda
@@ -530,7 +642,12 @@ C2C = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_NORTH_CAMEROON
+		owns_entire_state_region = STATE_SOUTH_CAMEROON
+	}
 }
 
 #Colony of Ethiopia
@@ -550,7 +667,13 @@ C2E = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_GONDER
+		owns_entire_state_region = STATE_AMHARA
+		owns_entire_state_region = STATE_OROMIA
+	}
 }
 
 #Colonial Guinea
@@ -569,7 +692,12 @@ C2G = {
 		}
 	}
 
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_GUINEA
+		owns_entire_state_region = STATE_SIERRA_LEONE
+	}
 }
 
 #Colonial Ivory Coast
@@ -588,7 +716,12 @@ C2I = {
 		}
 	}
 
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_IVORY_COAST
+		owns_entire_state_region = STATE_WINDWARD_COAST
+	}
 }
 
 #Colony of Madagascar
@@ -607,7 +740,12 @@ C2M = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_NORTH_MADAGASCAR
+		owns_entire_state_region = STATE_SOUTH_MADAGASCAR
+	}
 }
 
 #Colony of Niger
@@ -626,7 +764,12 @@ C2N = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_OUTER_HAUSALAND
+		owns_entire_state_region = STATE_NIGER
+	}
 }
 
 #Territory of Papua
@@ -644,7 +787,11 @@ C2P = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_EASTERN_NEW_GUINEA
+	}
 }
 
 #Northern Rhodesia
@@ -663,7 +810,12 @@ C2R = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_ZAMBIA
+		owns_entire_state_region = STATE_KAZEMBE
+	}
 }
 
 #Protectorate of Sudan
@@ -685,7 +837,15 @@ C2S = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_BLUE_NILE
+		owns_entire_state_region = STATE_DONGOLA
+		owns_entire_state_region = STATE_DARFUR
+		owns_entire_state_region = STATE_KORDOFAN
+		owns_entire_state_region = STATE_EQUATORIA
+	}
 }
 
 #Protectorate of Transjordan
@@ -703,7 +863,11 @@ C2T = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_middle_east = no
+		owns_entire_state_region = STATE_TRANSJORDAN
+	}
 }
 
 #Colonial West Sahara
@@ -721,7 +885,11 @@ C2W = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_WEST_SAHARA
+	}
 }
 
 #Colonial Algeria
@@ -743,7 +911,15 @@ C3A = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_ALGIERS
+		owns_entire_state_region = STATE_CONSTANTINE
+		owns_entire_state_region = STATE_EAST_SAHARA
+		owns_entire_state_region = STATE_SAHARA
+		owns_entire_state_region = STATE_TLEMCEN
+	}
 }
 
 #Colony of Congo
@@ -765,7 +941,15 @@ C3C = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_BAS_CONGO
+		owns_entire_state_region = STATE_KASAI
+		owns_entire_state_region = STATE_KATANGA
+		owns_entire_state_region = STATE_EQUATEUR
+		owns_entire_state_region = STATE_CONGO_ORIENTALE
+	}
 }
 
 #Colony of Eritrea
@@ -783,7 +967,11 @@ C3E = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_ERITREA
+	}
 }
 
 #Colonial Gold Coast
@@ -801,7 +989,11 @@ C3G = {
 		}
 	}
 
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_GHANA
+	}
 }
 
 #Colony of Middle-Congo
@@ -819,7 +1011,11 @@ C3M = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_CONGO
+	}
 }
 
 #Colonial Pepper Coast
@@ -837,7 +1033,11 @@ C3P = {
 		}
 	}
 
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_LIBERIA
+	}
 }
 
 #Colonial Senegal
@@ -856,7 +1056,12 @@ C3S = {
 		}
 	}
 
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_SENEGAL
+		owns_entire_state_region = STATE_GAMBIA
+	}
 }
 
 #Colonial Tunisia
@@ -874,7 +1079,11 @@ C3T = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_TUNISIA
+	}
 }
 
 #Colonial Arabia
@@ -893,7 +1102,12 @@ C4A = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_middle_east = no
+		owns_entire_state_region = STATE_HAIL
+		owns_entire_state_region = STATE_NEJD
+	}
 }
 
 #Colony of Central Africa
@@ -911,7 +1125,11 @@ C4C = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_UBANGI_SHARI
+	}
 }
 
 #Colony of Mali
@@ -931,7 +1149,13 @@ C4M = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_WESTERN_MALI
+		owns_entire_state_region = STATE_EASTERN_MALI
+		owns_entire_state_region = STATE_TIMBUKTU
+	}
 }
 
 #Colonial Togo
@@ -949,7 +1173,11 @@ C4T = {
 		}
 	}
 
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_TOGO
+	}
 }
 
 #Colonial Australia
@@ -973,7 +1201,17 @@ C5A = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		bem_country_is_in_oceania = no
+		owns_entire_state_region = STATE_NEW_SOUTH_WALES
+		owns_entire_state_region = STATE_NORTHERN_TERRITORY
+		owns_entire_state_region = STATE_QUEENSLAND
+		owns_entire_state_region = STATE_SOUTH_AUSTRALIA
+		owns_entire_state_region = STATE_TASMANIA
+		owns_entire_state_region = STATE_VICTORIA
+		owns_entire_state_region = STATE_WESTERN_AUSTRALIA
+	}
 }
 
 #Colony of Chad
@@ -992,7 +1230,12 @@ C5C = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_WADDAI
+		owns_entire_state_region = STATE_CHAD
+	}
 }
 
 #Colonial Morocco
@@ -1013,7 +1256,14 @@ C5M = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_MARRAKECH
+		owns_entire_state_region = STATE_FEZ
+		owns_entire_state_region = STATE_INNER_MOROCCO
+		owns_entire_state_region = STATE_AL_RIF
+	}
 }
 
 #Colonial Transvaal
@@ -1033,7 +1283,13 @@ C5T = {
 		}
 	}
 
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_TRANSVAAL
+		owns_entire_state_region = STATE_VRYSTAAT
+		owns_entire_state_region = STATE_ZULULAND
+	}
 }
 
 #Colonial Cape
@@ -1053,7 +1309,13 @@ C6C = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_CAPE_COLONY
+		owns_entire_state_region = STATE_EASTERN_CAPE
+		owns_entire_state_region = STATE_NORTHERN_CAPE
+	}
 }
 
 #Colonial Mauritania
@@ -1072,5 +1334,10 @@ C6M = {
 		}
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_MAURITANIA
+		owns_entire_state_region = STATE_INNER_MAURITANIA
+	}
 }

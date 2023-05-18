@@ -376,7 +376,7 @@ C1Y = {
 #Colonial New Zealand
 C1Z = {
 
-	color = { 0 112 0 }
+	color = { 101 112 255 }
 	
 	country_type = colonial
 	

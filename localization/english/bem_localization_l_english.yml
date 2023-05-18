@@ -378,8 +378,8 @@
  dyn_c_colony_of_togo: "[Country.GetOverlord.GetAdjectiveNoFormatting] Togo"
  dyn_c_colony_of_togo_adj: "Togolese"
 
- C5Z: "Colonial Australia"
- C5Z_ADJ: "Australian"
+ C5A: "Colonial Australia"
+ C5A_ADJ: "Australian"
  dyn_c_default_australia: "Australia"
  dyn_c_colonial_australia: "[Country.GetOverlord.GetAdjectiveNoFormatting] Australia"
 
@@ -540,5 +540,13 @@
  bem_expanded_police_forces_modifier: "Expanded Police Forces"
  bem_researchers_focus_on_letter_modifier: "Researchers focus on letter from the Ripper"
 
+#AI Strategy
  ai_strategy_colonial_extraction_bem: "Colonial Operation"
  ai_strategy_colonial_extraction_bem_desc: "This Colony focuses on expanding its ressource production to supply its [concept_overlord] with all the needed raw materials. Therefore this Colony will focus on building plantations, mines and oil rigs."
+
+#Game Rules
+ rule_bem_colonial_nations_release: "#yellow EutS:#! Should #bold AI#! nations release potential #bold Colonial Nations#!?"
+ setting_bem_no_colonial_nations_release: "#n No#! releases of #bold Colonial Nations#!"
+ setting_bem_no_colonial_nations_release_desc: "#bold AI Nations#! will #n not#! release #bold Colonial Nations#!. Only the #bold Player#! can release #bold Colonial Nations#!."
+ setting_bem_colonial_nations_release: "#n Experimental!#! #bold #p Release#! of #bold Colonial Nations#!"
+ setting_bem_colonial_nations_release_desc: "#bold AI Nations#! #p will#! release #bold Colonial Nations#!, if there are no uncolonized provinces in the region. #n Warning!#! This feature might cause weird situations!"

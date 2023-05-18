@@ -239,3 +239,16 @@ bem_colonial_nation_trigger = {
 		}
 	}
 }
+
+bem_state_is_in_oceania = {
+	OR = {
+		region = sr:region_oceania
+	}
+}
+
+bem_country_is_in_oceania = {
+	exists = capital
+	capital = {
+		bem_state_is_in_oceania = yes
+	}
+}
