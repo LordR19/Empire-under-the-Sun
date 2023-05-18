@@ -1341,3 +1341,25 @@ C6M = {
 		owns_entire_state_region = STATE_INNER_MAURITANIA
 	}
 }
+
+#Colonial Malaysia
+C7M = {
+	states = {
+		STATE_MALAYA
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_southeast_asia = no
+		owns_entire_state_region = STATE_MALAYA
+	}
+}

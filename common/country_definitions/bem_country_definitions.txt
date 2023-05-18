@@ -852,3 +852,18 @@ C6M = {
 	capital = STATE_MAURITANIA
 	
 }
+
+#Colonial Malaysia
+C7M = {
+
+	color = { 255 54 0 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital =  	STATE_MALAYA
+	
+}
