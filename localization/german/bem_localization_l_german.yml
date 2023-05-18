@@ -326,6 +326,11 @@
  dyn_c_colony_of_algeria: "[Country.GetOverlord.GetAdjectiveNoFormatting] Algerien"
  dyn_c_colony_of_algeria_adj: "Algerisch"
 
+ C3B: "Kolonial Borneo"
+ C3B_ADJ: "Borneanisch"
+ dyn_c_default_borneo: "Borneo"
+ dyn_c_colonial_borneo: "[Country.GetOverlord.GetAdjectiveNoFormatting] Borneo"
+
  C5M: "Kolonial Marokko"
  C5M_ADJ: "Marokkanisch"
  dyn_c_default_morocco: "Marokko"

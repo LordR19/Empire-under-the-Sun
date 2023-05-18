@@ -576,7 +576,7 @@ C1Z = {
 	
 	ai_will_do = {
 		has_game_rule = bem_colonial_nations_release
-		bem_country_is_in_oceania =  = no
+		bem_country_is_in_oceania = no
 		owns_entire_state_region = STATE_NORTH_ISLAND
 		owns_entire_state_region = STATE_SOUTH_ISLAND
 	}
@@ -919,6 +919,32 @@ C3A = {
 		owns_entire_state_region = STATE_EAST_SAHARA
 		owns_entire_state_region = STATE_SAHARA
 		owns_entire_state_region = STATE_TLEMCEN
+	}
+}
+
+#Colonial Borneo
+C3B = {
+	states = {
+		STATE_WEST_BORNEO
+		STATE_EAST_BORNEO
+		STATE_NORTH_BORNEO
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_southeast_asia = no
+		owns_entire_state_region = STATE_WEST_BORNEO
+		owns_entire_state_region = STATE_EAST_BORNEO
+		owns_entire_state_region = STATE_NORTH_BORNEO
 	}
 }
 

@@ -598,6 +598,21 @@ C3A = {
 	
 }
 
+#Colonial Borneo
+C3B = {
+
+	color = { 200 200 0 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_WEST_BORNEO
+	
+}
+
 #Colony of Congo
 C3C = {
 

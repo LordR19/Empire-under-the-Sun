@@ -303,6 +303,11 @@
  dyn_c_colony_of_algeria: "[Country.GetOverlord.GetAdjectiveNoFormatting] Algeria"
  dyn_c_colony_of_algeria_adj: "Algerian"
 
+ C3B: "Colonial Borneo"
+ C3B_ADJ: "Bornean"
+ dyn_c_default_borneo: "Borneo"
+ dyn_c_colonial_borneo: "[Country.GetOverlord.GetAdjectiveNoFormatting] Borneo"
+
  C3C: "Colonial Congo"
  C3C_ADJ: "Congolese"
  dyn_c_default_congo: "Congo"
