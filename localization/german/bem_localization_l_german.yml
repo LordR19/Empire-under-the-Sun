@@ -237,6 +237,11 @@
  dyn_c_colony_of_central_africa: "[Country.GetOverlord.GetAdjectiveNoFormatting] Zentralafrika"
  dyn_c_colony_of_central_africa_adj: "Zentralafrika"
 
+ C4G: "Kolonial Gibraltar"
+ C4G_ADJ: "Gibraltarisch"
+ dyn_c_default_gibraltar: "Gibraltar"
+ dyn_c_colonial_gibraltar: "[Country.GetOverlord.GetAdjectiveNoFormatting] Gibraltar"
+
  C2B: "Kolonial Bermuda"
  C2B_ADJ: "Bermudisch"
  dyn_c_default_bermuda: "Bermuda"
