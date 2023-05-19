@@ -357,6 +357,11 @@
  dyn_c_default_malaysia: "Malaysia"
  dyn_c_colonial_malaysia: "[Country.GetOverlord.GetAdjectiveNoFormatting] Malaysia"
 
+ C7C: "Kolonial Ceylon"
+ C7C_ADJ: "Ceylonesisch"
+ dyn_c_default_ceylon: "Ceylon"
+ dyn_c_colonial_ceylon: "[Country.GetOverlord.GetAdjectiveNoFormatting] Ceylon"
+
  C1D: "Kolonial Dahomey"
  C1D_ADJ: "Dahomisch"
  dyn_c_default_dahomey: "Dahomey"

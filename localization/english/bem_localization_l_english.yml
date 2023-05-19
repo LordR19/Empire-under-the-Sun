@@ -435,6 +435,11 @@
  dyn_c_colony_of_mauritania: "[Country.GetOverlord.GetAdjectiveNoFormatting] Mauritania"
  dyn_c_colony_of_mauritania_adj: "Mauritanian"
 
+ C7C: "Colonial Ceylon"
+ C7C_ADJ: "Ceylonese"
+ dyn_c_default_ceylon: "Ceylon"
+ dyn_c_colonial_ceylon: "[Country.GetOverlord.GetAdjectiveNoFormatting] Ceylon"
+
  C7M: "Colonial Malaysia"
  C7M_ADJ: "Malaysian"
  dyn_c_default_malaysia: "Malaysia"

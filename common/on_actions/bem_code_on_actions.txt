@@ -129,7 +129,7 @@ on_country_released_as_own_subject = {
 
 bem_on_country_released_as_own_subject = {
 	effect = {
-		if = { #This is specifically for Great Britain. It makes some historical Dominions dominions in game and all the other nations puppets
+		if = { #This is specifically for Great Britain. It makes some historical Dominions dominions and adds governors
 			limit = {
 				exists = c:GBR
 				root = c:GBR
@@ -165,32 +165,6 @@ bem_on_country_released_as_own_subject = {
 						id = bem.2
 						days = 1
 					}
-				}
-				else_if = {
-					limit = {
-						OR = { # All new Releasables, Malta, Crete and The Ionian Islands become puppets
-							bem_colonial_nation_trigger = yes
-							AND = {
-								exists = c:MLT
-								root = c:MLT
-							}
-							AND = {
-								exists = c:CRE
-								root = c:CRE
-							}
-							AND = {
-								exists = c:ION
-								root = c:ION
-							}
-						}
-					}
-					change_subject_type = subject_type_puppet
-					activate_law = law_type:law_presidential_republic #They become presidential republics, so they have governors
-					trigger_event = { #Adds a new male leader
-						id = bem.2
-						days = 1
-					}
-					# if possible get some pops with the right culture here!
 				}
 			}	
 		}
