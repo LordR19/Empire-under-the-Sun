@@ -376,6 +376,11 @@
  dyn_c_colony_of_senegal: "[Country.GetOverlord.GetAdjectiveNoFormatting] Senegal"
  dyn_c_colony_of_senegal_adj: "Senegalesisch"
 
+ C4S: "Kolonial Singapur"
+ C4S_ADJ: "Singapurisch"
+ dyn_c_default_singapore: "Singapur"
+ dyn_c_colonial_singapore: "[Country.GetOverlord.GetAdjectiveNoFormatting] Singapur"
+
  C4T: "Kolonial Togo"
  C4T_ADJ: "Togisch"
  dyn_c_default_togo: "Togo"
