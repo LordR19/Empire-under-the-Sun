@@ -428,6 +428,11 @@
  dyn_c_colony_of_ivory_coast: "[Country.GetOverlord.GetAdjectiveNoFormatting] Elfenbeinküste"
  dyn_c_colony_of_ivory_coast_adj: "Ivorisch"
 
+ C5S: "Kolonial Südsudan"
+ C5S_ADJ: "Südsudanesisch"
+ dyn_c_default_south_sudan: "Südsudan"
+ dyn_c_colonial_south_sudan: "[Country.GetOverlord.GetAdjectiveNoFormatting] Südsudan"
+
  C5T: "Kolonial Transvaal"
  C5T_ADJ: "Transvaalisch"
  dyn_c_default_transvaal: "Transvaal"
