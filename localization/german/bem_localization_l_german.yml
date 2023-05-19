@@ -440,6 +440,11 @@
  dyn_c_default_cape: "Kap"
  dyn_c_colonial_cape: "[Country.GetOverlord.GetAdjectiveNoFormatting] Kapkolonie"
 
+ C8M: "Kolonial Malakka"
+ C8M_ADJ: "Malakkisch"
+ dyn_c_default_malacca: "Malakka"
+ dyn_c_colonial_malacca: "[Country.GetOverlord.GetAdjectiveNoFormatting] Malakka"
+
  dyn_c_south_africa_union: "Südafrikanische Union"
  dyn_c_south_africa_union_adj: "Südafrikanisch"
  dyn_c_dominion_south_africa: "Dominion von Südafrika"
