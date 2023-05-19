@@ -1,6 +1,15 @@
 ﻿l_english:
 
 #Government Types
+ gov_british_dominion: "Dominion"
+ gov_british_dominion_desc: "Dominions are colonies of the British Crown that enjoy a high degree of autonomy. They are governed by governors-general appointed by Great Britain.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+
+ gov_british_protectorate: "Protectorate"
+ gov_british_protectorate_desc: "This "protectorate" is actually a colony governed by a British-appointed governor general. Originally, protectorates were states dependent on Great Britain for foreign policy and controlled by local rulers.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+
+ gov_british_crown_colony: "Crown Colony"
+ gov_british_crown_colony_desc: "This is a colony of the British Crown, ruled by colonial administrators with limited autonomy.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+
  gov_bem_colony: "Colony"
  gov_bem_colony_desc: "This is a Colony, ruled by colonial administrators with limited autonomy.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
 
@@ -433,7 +442,20 @@
 
  dyn_c_south_africa_union: "Union of South Africa"
  dyn_c_south_africa_union_adj: "South African"
+ dyn_c_dominion_south_africa: "Dominion of South Africa"
+ dyn_c_dominion_south_africa_adj: "South African"
 
+ dyn_c_dominion_canada: "Dominion of Canada"
+ dyn_c_dominion_canada_adj: "Candaian"
+
+ dyn_c_dominion_australia: "Dominion of Australia"
+ dyn_c_dominion_australia_adj: "Australian"
+
+ dyn_c_dominion_new_zealand: "Dominion of New Zealand"
+ dyn_c_dominion_new_zealand_adj: "New Zealandic"
+
+ dyn_c_dominion_india: "Dominion of India"
+ dyn_c_dominion_india_adj: "Indian"
  dyn_c_subject_east_india: "[Country.GetOverlord.GetAdjectiveNoFormatting] East India"
  dyn_c_subject_east_india_adj: "[Country.GetOverlord.GetAdjectiveNoFormatting] East Indian"
 
