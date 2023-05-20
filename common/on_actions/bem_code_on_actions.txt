@@ -176,7 +176,7 @@ bem_on_country_released_as_own_subject = {
 			}
 			scope:target = {
 				# Makes the Colony a puppet
-				change_subject_type = subject_type_puppet
+				change_subject_type = subject_type_bem_colony
 
 				#Changes government type to presidial
 				activate_law = law_type:law_presidential_republic
@@ -185,6 +185,21 @@ bem_on_country_released_as_own_subject = {
 				trigger_event = {
 						id = bem.2
 						days = 1
+				}
+			}
+			if = {
+				limit = {
+					scope:target = {
+						NOT = {
+							is_direct_subject_of = root
+						}
+					}
+				}
+				root = {
+					create_diplomatic_pact = {
+						country = scope:target
+						type = bem_colony
+					} 
 				}
 			}
 
