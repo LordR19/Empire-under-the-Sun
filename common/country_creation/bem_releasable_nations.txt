@@ -63,6 +63,7 @@ C1A = {
 				exists = c:ARA
 				this = c:ARA
 			}
+
 		}
 	}
 }
@@ -149,6 +150,16 @@ C1E = {
 		owns_entire_state_region = STATE_SINAI
 		owns_entire_state_region = STATE_EGYPTIAN_DESERT
 		owns_entire_state_region = STATE_MATRUH
+		NOR = {
+			AND = {
+				exists = c:ARA
+				this = c:ARA
+			}
+			AND = {
+				exists = c:TUR
+				this = c:TUR
+			}
+		}
 	}
 }
 
@@ -292,6 +303,16 @@ C1L = {
 		owns_entire_state_region = STATE_TRIPOLI
 		owns_entire_state_region = STATE_LIBYA
 		owns_entire_state_region = STATE_LIBYAN_DESERT
+		NOR = {
+			AND = {
+				exists = c:ARA
+				this = c:ARA
+			}
+			AND = {
+				exists = c:TUR
+				this = c:TUR
+			}
+		}
 	}
 }
 
@@ -829,6 +850,16 @@ C2S = {
 		owns_entire_state_region = STATE_DONGOLA
 		owns_entire_state_region = STATE_DARFUR
 		owns_entire_state_region = STATE_KORDOFAN
+		NOR = {
+			AND = {
+				exists = c:ARA
+				this = c:ARA
+			}
+			AND = {
+				exists = c:TUR
+				this = c:TUR
+			}
+		}
 	}
 }
 
@@ -879,6 +910,16 @@ C2W = {
 		can_have_subjects = yes
 		country_is_in_africa = no
 		owns_entire_state_region = STATE_WEST_SAHARA
+		NOR = {
+			AND = {
+				exists = c:ARA
+				this = c:ARA
+			}
+			AND = {
+				exists = c:TUR
+				this = c:TUR
+			}
+		}
 	}
 }
 
@@ -907,6 +948,16 @@ C3A = {
 		owns_entire_state_region = STATE_EAST_SAHARA
 		owns_entire_state_region = STATE_SAHARA
 		owns_entire_state_region = STATE_TLEMCEN
+		NOR = {
+			AND = {
+				exists = c:ARA
+				this = c:ARA
+			}
+			AND = {
+				exists = c:TUR
+				this = c:TUR
+			}
+		}
 	}
 }
 
@@ -1113,6 +1164,16 @@ C3T = {
 		can_have_subjects = yes
 		country_is_in_africa = no
 		owns_entire_state_region = STATE_TUNISIA
+		NOR = {
+			AND = {
+				exists = c:ARA
+				this = c:ARA
+			}
+			AND = {
+				exists = c:TUR
+				this = c:TUR
+			}
+		}
 	}
 }
 
@@ -1315,6 +1376,16 @@ C5M = {
 		owns_entire_state_region = STATE_FEZ
 		owns_entire_state_region = STATE_INNER_MOROCCO
 		owns_entire_state_region = STATE_AL_RIF
+		NOR = {
+			AND = {
+				exists = c:ARA
+				this = c:ARA
+			}
+			AND = {
+				exists = c:TUR
+				this = c:TUR
+			}
+		}
 	}
 }
 
