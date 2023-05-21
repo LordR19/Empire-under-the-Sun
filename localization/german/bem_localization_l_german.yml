@@ -28,6 +28,15 @@
  dyn_c_cbg_british: "[Country.GetOverlord.GetAdjectiveNoFormatting] Guayana"
  dyn_c_cbg_british_adj: "[Country.GetOverlord.GetAdjectiveNoFormatting] Guayanesisch"
 
+ CA1: "Kolonial Nordafrika"
+ CA1: "Nordafrikanisch"
+ dyn_c_default_north_africa: "Nordafrika"
+ dyn_c_default_maghreb: "Maghreb"
+ dyn_c_default_maghreb_adj: "Maghrebi"
+ dyn_c_colonial_north_africa: "[Country.GetOverlord.GetAdjectiveNoFormatting] Nordafrika"
+ dyn_c_colonial_maghreb: "[Country.GetOverlord.GetAdjectiveNoFormatting] Maghreb"
+ dyn_c_colonial_maghreb_adj: "[Country.GetOverlord.GetAdjectiveNoFormatting] Maghrebi"
+
  C1E: "Kolonial Ägypten"
  C1E_ADJ: "Ägyptisch"
  dyn_c_default_egypt: "Ägypten"
