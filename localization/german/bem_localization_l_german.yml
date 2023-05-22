@@ -469,6 +469,18 @@
  dyn_c_dominion_south_africa: "Dominion von Südafrika"
  dyn_c_dominion_south_africa_adj: "Südafrikanisch"
 
+ CCA_colonial_belize: "Kolonial Belize"
+ CCA_colonial_belize_ADJ: "Belizisch"
+ dyn_c_default_belize: "Belize"
+ dyn_c_colonial_belize: "[Country.GetOverlord.GetAdjectiveNoFormatting] Belize"
+ dyn_c_british_honduras: "[Country.GetOverlord.GetAdjectiveNoFormatting] Honduras"
+ dyn_c_british_honduras_adj: "[Country.GetOverlord.GetAdjectiveNoFormatting] Honduranisch"
+
+ CIC_colonial_burma: "Kolonial Burma"
+ CIC_colonial_burma_ADJ: "Burmesisch"
+ dyn_c_default_burma: "Burma"
+ dyn_c_colonial_burma: "[Country.GetOverlord.GetAdjectiveNoFormatting] Burma"
+
  dyn_c_dominion_canada: "Dominion von Kanada"
  dyn_c_dominion_canada: "Kanadisch"
 
