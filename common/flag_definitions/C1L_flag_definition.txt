@@ -1,4 +1,4 @@
-﻿#Colonial Lybia
+﻿#Colonial Libya
 C1L = {
 	flag_definition = {
 		coa = C1L
