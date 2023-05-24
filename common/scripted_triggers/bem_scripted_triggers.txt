@@ -167,7 +167,7 @@ bem_colonial_nation_trigger = {
 		}
 		AND = {
 			exists = c:C2W
-			root = c:C2W
+			this = c:C2W
 		}
 		AND = {
 			exists = c:C3A
