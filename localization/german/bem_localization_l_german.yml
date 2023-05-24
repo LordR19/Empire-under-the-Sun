@@ -481,6 +481,11 @@
  dyn_c_default_burma: "Burma"
  dyn_c_colonial_burma: "[Country.GetOverlord.GetAdjectiveNoFormatting] Burma"
 
+ COC_colonial_fiji: "Colonial Fidschi"
+ COC_colonial_fiji_ADJ: "Fidschianisch"
+ dyn_c_default_fiji: "Fidschi"
+ dyn_c_colonial_fiji: "[Country.GetOverlord.GetAdjectiveNoFormatting] Fidschi"
+
  dyn_c_dominion_canada: "Dominion von Kanada"
  dyn_c_dominion_canada: "Kanadisch"
 
