@@ -476,6 +476,11 @@
  dyn_c_british_honduras: "[Country.GetOverlord.GetAdjectiveNoFormatting] Honduras"
  dyn_c_british_honduras_adj: "[Country.GetOverlord.GetAdjectiveNoFormatting] Honduranisch"
 
+ CCI_colonial_jamaica: "Colonial Jamaika"
+ CCI_colonial_jamaica_ADJ: "Jamaikanisch"
+ dyn_c_default_jamaica: "Jamaika"
+ dyn_c_colonial_jamaica: "[Country.GetOverlord.GetAdjectiveNoFormatting] Jamaika"
+
  CCI_colonial_west_indies: "Kolonial Westindische Inseln"
  CCI_colonial_west_indies_ADJ: "Westindisch"
  dyn_c_default_west_indies: "Westindische Inseln"
