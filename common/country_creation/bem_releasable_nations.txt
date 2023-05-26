@@ -165,8 +165,8 @@ C1E = {
 
 #Falkland Islands
 C1F = {
-	provinces = {
-		x3020D0 x5E9DB3 x9EF337
+	states = {
+		STATE_SOUTH_ATLANTIC_ISLANDS
 	}
 	
 	possible = {
@@ -1657,8 +1657,6 @@ COC_colonial_fiji = {
 		STATE_FIJI
 	}
 
-	required_num_states = 1
-
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
 	}
@@ -1668,5 +1666,23 @@ COC_colonial_fiji = {
 		can_have_subjects = yes
 		bem_country_is_in_oceania = no
 		owns_entire_state_region = STATE_FIJI
+	}
+}
+
+#Colonial East Micronesia / Gilbert Islands
+COC_colonial_east_micronesia = {
+	states = {
+		STATE_EAST_MICRONESIA
+	}
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		bem_country_is_in_oceania = no
+		owns_entire_state_region = STATE_EAST_MICRONESIA
 	}
 }
