@@ -1003,10 +1003,25 @@ CCA_colonial_belize = {
 	
 }
 
+#Colonial Bahamas
+CCI_colonial_bahamas = {
+
+	color = { 0 152 255 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_BAHAMAS
+	
+}
+
 #Colonial Jamaica
 CCI_colonial_jamaica = {
 
-	color = {255 255 0}
+	color = { 255 255 0 }
 	
 	country_type = colonial
 	
