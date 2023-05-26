@@ -464,10 +464,10 @@
  dyn_c_default_malacca: "Malakka"
  dyn_c_colonial_malacca: "[Country.GetOverlord.GetAdjectiveNoFormatting] Malakka"
 
- dyn_c_south_africa_union: "Südafrikanische Union"
- dyn_c_south_africa_union_adj: "Südafrikanisch"
- dyn_c_dominion_south_africa: "Dominion von Südafrika"
- dyn_c_dominion_south_africa_adj: "Südafrikanisch"
+ CNA_colonial_newfoundland: "Kolonial Neufundland"
+ CNA_colonial_newfoundland_ADJ: "Neufundland"
+ dyn_c_default_newfoundland: "Neufundländisch"
+ dyn_c_colonial_newfoundland: "[Country.GetOverlord.GetAdjectiveNoFormatting] Neufundland"
 
  CCA_colonial_belize: "Kolonial Belize"
  CCA_colonial_belize_ADJ: "Belizisch"
@@ -502,6 +502,11 @@
  COC_colonial_fiji_ADJ: "Fidschianisch"
  dyn_c_default_fiji: "Fidschi"
  dyn_c_colonial_fiji: "[Country.GetOverlord.GetAdjectiveNoFormatting] Fidschi"
+
+ dyn_c_south_africa_union: "Südafrikanische Union"
+ dyn_c_south_africa_union_adj: "Südafrikanisch"
+ dyn_c_dominion_south_africa: "Dominion von Südafrika"
+ dyn_c_dominion_south_africa_adj: "Südafrikanisch"
 
  dyn_c_dominion_canada: "Dominion von Kanada"
  dyn_c_dominion_canada: "Kanadisch"
