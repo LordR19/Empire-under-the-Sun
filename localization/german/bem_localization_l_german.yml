@@ -498,6 +498,28 @@
  dyn_c_default_burma: "Burma"
  dyn_c_colonial_burma: "[Country.GetOverlord.GetAdjectiveNoFormatting] Burma"
 
+ COC_colonial_west_micronesia: "Kolonial Westmikronesien"
+ COC_colonial_west_micronesia_ADJ: "Westmikronesisch"
+ dyn_c_default_west_micronesia: "Westmikronesien"
+ dyn_c_colonial_west_micronesia: "[Country.GetOverlord.GetAdjectiveNoFormatting] Westmikronesien"
+
+ COC_colonial_east_micronesia: "Kolonial Ostmikronesien"
+ COC_colonial_east_micronesia_ADJ: "Ostmikronesisch"
+ dyn_c_default_east_micronesia: "Ostmikronesien"
+ dyn_c_colonial_east_micronesia: "[Country.GetOverlord.GetAdjectiveNoFormatting] Ostmikronesien"
+ dyn_c_british_gilbert_islands: "[Country.GetOverlord.GetAdjectiveNoFormatting] Gilbert Inseln"
+ dyn_c_british_gilbert_islands_adj: "[Country.GetOverlord.GetAdjectiveNoFormatting] Gilbertesisch"
+
+ COC_colonial_nauru: "Kolonial Nauru"
+ COC_colonial_nauru_ADJ: "Nauruisch"
+ dyn_c_default_nauru: "Nauru"
+ dyn_c_colonial_nauru: "[Country.GetOverlord.GetAdjectiveNoFormatting] Nauru"
+
+ COC_colonial_bougainville: "Kolonial Bougainville"
+ COC_colonial_bougainville_ADJ: "Bougainville"
+ dyn_c_default_bougainville: "Bougainville"
+ dyn_c_colonial_bougainville: "[Country.GetOverlord.GetAdjectiveNoFormatting] Bougainville"
+
  COC_colonial_fiji: "Colonial Fidschi"
  COC_colonial_fiji_ADJ: "Fidschianisch"
  dyn_c_default_fiji: "Fidschi"
@@ -507,13 +529,6 @@
  dyn_c_south_africa_union_adj: "Südafrikanisch"
  dyn_c_dominion_south_africa: "Dominion von Südafrika"
  dyn_c_dominion_south_africa_adj: "Südafrikanisch"
-
- COC_colonial_east_micronesia: "Kolonial Ostmikronesien"
- COC_colonial_east_micronesia_ADJ: "Ostmikronesisch"
- dyn_c_default_east_micronesia: "Ostmikronesien"
- dyn_c_colonial_east_micronesia: "[Country.GetOverlord.GetAdjectiveNoFormatting] Ostmikronesien"
- dyn_c_british_gilbert_islands: "[Country.GetOverlord.GetAdjectiveNoFormatting] Gilbert Inseln"
- dyn_c_british_gilbert_islands_adj: "[Country.GetOverlord.GetAdjectiveNoFormatting] Gilbertesisch"
 
  dyn_c_dominion_canada: "Dominion von Kanada"
  dyn_c_dominion_canada: "Kanadisch"

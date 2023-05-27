@@ -1651,10 +1651,10 @@ CIC_colonial_burma = {
 	}
 }
 
-#Colonial Fiji
-COC_colonial_fiji = {
+#Colonial West Micronesia
+COC_colonial_west_micronesia = {
 	states = {
-		STATE_FIJI
+		STATE_WEST_MICRONESIA
 	}
 
 	possible = {
@@ -1665,7 +1665,7 @@ COC_colonial_fiji = {
 		has_game_rule = bem_colonial_nations_release
 		can_have_subjects = yes
 		bem_country_is_in_oceania = no
-		owns_entire_state_region = STATE_FIJI
+		owns_entire_state_region = STATE_WEST_MICRONESIA
 	}
 }
 
@@ -1684,5 +1684,59 @@ COC_colonial_east_micronesia = {
 		can_have_subjects = yes
 		bem_country_is_in_oceania = no
 		owns_entire_state_region = STATE_EAST_MICRONESIA
+	}
+}
+
+#Colonial Nauru
+COC_colonial_nauru = {
+	states = {
+		STATE_NAURU
+	}
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		bem_country_is_in_oceania = no
+		owns_entire_state_region = STATE_NAURU
+	}
+}
+
+#Colonial Bougainville
+COC_colonial_bougainville = {
+	states = {
+		STATE_BOUGAINVILLE
+	}
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		bem_country_is_in_oceania = no
+		owns_entire_state_region = STATE_BOUGAINVILLE
+	}
+}
+
+#Colonial Fiji
+COC_colonial_fiji = {
+	states = {
+		STATE_FIJI
+	}
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		bem_country_is_in_oceania = no
+		owns_entire_state_region = STATE_FIJI
 	}
 }
