@@ -461,6 +461,11 @@
  dyn_c_colony_of_mauritania: "[Country.GetOverlord.GetAdjectiveNoFormatting] Mauritania"
  dyn_c_colony_of_mauritania_adj: "Mauritanian"
 
+ CWA_colonial_west_africa: "Colonial West Africa"
+ CWA_colonial_west_africa_ADJ: "West African"
+ dyn_c_default_west_africa: "West Africa"
+ dyn_c_colony_of_west_africa: "[Country.GetOverlord.GetAdjectiveNoFormatting] West Africa"
+
  C7C: "Colonial Ceylon"
  C7C_ADJ: "Ceylonese"
  dyn_c_default_ceylon: "Ceylon"
@@ -476,6 +481,11 @@
  dyn_c_default_malacca: "Malacca"
  dyn_c_colonial_malacca: "[Country.GetOverlord.GetAdjectiveNoFormatting] Malacca"
 
+ CNA_colonial_newfoundland: "Colonial Newfoundland"
+ CNA_colonial_newfoundland_ADJ: "Newfoundland"
+ dyn_c_default_newfoundland: "Newfoundland"
+ dyn_c_colonial_newfoundland: "[Country.GetOverlord.GetAdjectiveNoFormatting] Newfoundland"
+
  CCA_colonial_belize: "Colonial Belize"
  CCA_colonial_belize_ADJ: "Belizean"
  dyn_c_default_belize: "Belize"
@@ -483,10 +493,54 @@
  dyn_c_british_honduras: "[Country.GetOverlord.GetAdjectiveNoFormatting] Honduras"
  dyn_c_british_honduras_adj: "[Country.GetOverlord.GetAdjectiveNoFormatting] Honduran"
 
+ CCI_colonial_bahamas: "Colonial Bahamas"
+ CCI_colonial_bahamas_ADJ: "Bahamian"
+ dyn_c_default_bahamas: "Bahamas"
+ dyn_c_colonial_bahamas: "[Country.GetOverlord.GetAdjectiveNoFormatting] Bahamas"
+
+ CCI_colonial_jamaica: "Colonial Jamaica"
+ CCI_colonial_jamaica_ADJ: "Jamaican"
+ dyn_c_default_jamaica: "Jamaica"
+ dyn_c_colonial_jamaica: "[Country.GetOverlord.GetAdjectiveNoFormatting] Jamaica"
+
+ CCI_colonial_west_indies: "Colonial West Indies"
+ CCI_colonial_west_indies_ADJ: "West Indian"
+ dyn_c_default_west_indies: "West Indies"
+ dyn_c_colonial_west_indies: "[Country.GetOverlord.GetAdjectiveNoFormatting] West Indies"
+ dyn_c_british_leeward_islands: "[Country.GetOverlord.GetAdjectiveNoFormatting] Leeward Islands"
+ dyn_c_british_leeward_islands_adj: "[Country.GetOverlord.GetAdjectiveNoFormatting] Leeward"
+
  CIC_colonial_burma: "Colonial Burma"
  CIC_colonial_burma_ADJ: "Burmese"
  dyn_c_default_burma: "Burma"
  dyn_c_colonial_burma: "[Country.GetOverlord.GetAdjectiveNoFormatting] Burma"
+
+ COC_colonial_fiji: "Colonial Fiji"
+ COC_colonial_fiji_ADJ: "Fijian"
+ dyn_c_default_fiji: "Fiji"
+ dyn_c_colonial_fiji: "[Country.GetOverlord.GetAdjectiveNoFormatting] Fiji"
+
+ COC_colonial_west_micronesia: "Colonial West Micronesia"
+ COC_colonial_west_micronesia_ADJ: "Micronesian"
+ dyn_c_default_west_micronesia: "West Micronesia"
+ dyn_c_colonial_west_micronesia: "[Country.GetOverlord.GetAdjectiveNoFormatting] West Micronesia"
+
+ COC_colonial_east_micronesia: "Colonial East Micronesia"
+ COC_colonial_east_micronesia_ADJ: "Micronesian"
+ dyn_c_default_east_micronesia: "East Micronesia"
+ dyn_c_colonial_east_micronesia: "[Country.GetOverlord.GetAdjectiveNoFormatting] East Micronesia"
+ dyn_c_british_gilbert_islands: "[Country.GetOverlord.GetAdjectiveNoFormatting] Gilbert Islands"
+ dyn_c_british_gilbert_islands_adj: "[Country.GetOverlord.GetAdjectiveNoFormatting] Gilbertese"
+
+ COC_colonial_nauru: "Colonial Nauru"
+ COC_colonial_nauru_ADJ: "Nauruan"
+ dyn_c_default_nauru: "Nauru"
+ dyn_c_colonial_nauru: "[Country.GetOverlord.GetAdjectiveNoFormatting] Nauru"
+
+ COC_colonial_bougainville: "Colonial Bougainville"
+ COC_colonial_bougainville_ADJ: "Bougainvillean"
+ dyn_c_default_bougainville: "Bougainville"
+ dyn_c_colonial_bougainville: "[Country.GetOverlord.GetAdjectiveNoFormatting] Bougainville"
 
  dyn_c_south_africa_union: "Union of South Africa"
  dyn_c_south_africa_union_adj: "South African"
@@ -643,6 +697,15 @@
  bem_colony_action_propose_name: "Make into [concept_bem_colony]"
  bem_colony_action_break_name: "Grant Independence"
  bem_colony_action_ask_to_break_name: "Demand Independence"
+ bem_colony_proposal_notification_break_name: "Demand for Independence"
+ bem_colony_proposal_notification_break_desc: "[INITIATOR_COUNTRY.GetName] are demanding that we end their [concept_bem_colony] status."
+ bem_colony_proposal_notification_break_effects_desc: "If we accept, they will become fully independent."
+ bem_colony_proposal_break_accepted_name: "Independence Granted"
+ bem_colony_proposal_break_accepted_desc: "[TARGET_COUNTRY.GetName] accepted the demand to end our [concept_bem_colony] status. We are independent once again."
+ bem_colony_proposal_break_declined_name: "Independence Refused"
+ bem_colony_proposal_break_declined_desc: "[TARGET_COUNTRY.GetName] refused the demand to end our [concept_bem_colony] status."
+ bem_colony_action_third_party_notification_break_name: "Independence Granted"
+ bem_colony_action_third_party_notification_break_desc: "[INITIATOR_COUNTRY.GetName] ended the [concept_bem_colony] status of [TARGET_COUNTRY.GetName], granting them full independence."
 
  concept_bem_colony: "Colony"
  concept_bem_colonys: "Colonies"
@@ -652,3 +715,7 @@
  unite_colonies_maghreb_decision: "Unite Colonies in North Africa"
  unite_colonies_maghreb_decision_desc: "This Decision allows you to #yellow unite all your Colonial Subjects and states in North Africa#! into one big Colonial Nation."
  unite_maghreb_tt: "Every #yellow Colonial Nation#! and #yellow every State you own#! in North Africa will be #yellow merged#! into one Colonial Nation. The Colonial Nation with the highest [concept_gdp] will take the lead of the united Colony"
+
+ unite_colonies_west_africa_decision: "Unite Colonies in West Africa"
+ unite_colonies_west_africa_decision_desc: "This Decision allows you to #yellow unite all your Colonial Subjects and states in West Africa#! into one big Colonial Nation."
+ unite_west_africa_tt: "Every #yellow Colonial Nation#! and #yellow every State you own#! in West Africa will be #yellow merged#! into one Colonial Nation. The Colonial Nation with the highest [concept_gdp] will take the lead of the united Colony"
