@@ -461,6 +461,11 @@
  dyn_c_colony_of_mauritania: "[Country.GetOverlord.GetAdjectiveNoFormatting] Mauritania"
  dyn_c_colony_of_mauritania_adj: "Mauritanian"
 
+ CWA_colonial_west_africa: "Colonial West Africa"
+ CWA_colonial_west_africa_ADJ: "West African"
+ dyn_c_default_west_africa: "West Africa"
+ dyn_c_colony_of_west_africa: "[Country.GetOverlord.GetAdjectiveNoFormatting] West Africa"
+
  C7C: "Colonial Ceylon"
  C7C_ADJ: "Ceylonese"
  dyn_c_default_ceylon: "Ceylon"

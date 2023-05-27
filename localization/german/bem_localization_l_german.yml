@@ -371,6 +371,11 @@
  dyn_c_default_malaysia: "Malaysia"
  dyn_c_colonial_malaysia: "[Country.GetOverlord.GetAdjectiveNoFormatting] Malaysia"
 
+ CWA_colonial_west_africa: "Kolonial Westafrika"
+ CWA_colonial_west_africa_ADJ: "Westafrikanisch"
+ dyn_c_default_west_africa: "Westafrika"
+ dyn_c_colony_of_west_africa: "[Country.GetOverlord.GetAdjectiveNoFormatting] Westafrika"
+
  C7C: "Kolonial Ceylon"
  C7C_ADJ: "Ceylonesisch"
  dyn_c_default_ceylon: "Ceylon"

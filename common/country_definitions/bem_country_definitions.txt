@@ -1,4 +1,237 @@
-﻿#Hong Kong
+﻿### Colonial Region North Africa / Maghreb ###
+
+#Colonial Region North Africa / Maghreb
+CA1 = {
+
+	color = { 255 255 142 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_TUNISIA
+	
+}
+
+#Colonial Libya
+C1L = {
+
+	color = { 43 107 21  }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_TRIPOLI
+	
+}
+
+#Colonial Tunisia
+C3T = {
+
+	color = { 230 42 0  }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_TUNISIA
+	
+}
+
+#Colonial Algeria
+C3A = {
+
+	color = { 243 211 211 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_ALGIERS
+	
+}
+
+#Colonial Morocco
+C5M = {
+
+	color = { 0 98 51 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_MARRAKECH
+	
+}
+
+#Colonial West Sahara
+C2W = {
+
+	color = { 255 175 111 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_WEST_SAHARA
+	
+}
+
+################################################
+
+### Colonial Region West Africa / (Senegal)
+
+#Colonial West Africa
+CWA_colonial_west_africa = {
+
+	color = { 208 28 31  }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_SENEGAL
+	
+}
+
+#Colonial Mauritania
+C6M = {
+
+	color = { 208 28 31  }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_MAURITANIA
+	
+}
+
+#Colonial Senegal
+C3S = {
+
+	color = { 0 133 63 }
+
+	country_type = colonial
+
+	tier = principality
+
+	cultures = { british }
+
+	capital = STATE_SENEGAL
+
+}
+
+#Colonial Guinea
+C2G = {
+
+	color = { 252 252 112 }
+
+	country_type = colonial
+
+	tier = principality
+
+	cultures = { british }
+
+	capital = STATE_GUINEA
+
+}
+
+#Colony of Mali
+C4M = {
+
+	color = { 20 181 58  }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_WESTERN_MALI
+	
+}
+
+#Colonial Pepper Coast
+C3P = {
+
+	color = { 123 11 4 }
+
+	country_type = colonial
+
+	tier = principality
+
+	cultures = { british }
+
+	capital = STATE_LIBERIA
+
+}
+
+#Colonial Ivory Coast
+C2I = {
+
+	color = { 0 250 147 }
+
+	country_type = colonial
+
+	tier = principality
+
+	cultures = { british }
+
+	capital = STATE_IVORY_COAST
+
+}
+
+#Colonial Upper Volta
+C1V = {
+
+	color = { 235 34 4 }
+
+	country_type = colonial
+
+	tier = principality
+
+	cultures = { british }
+
+	capital = STATE_VOLTA
+
+}
+
+#Colonial Gold Coast
+C3G = {
+
+	color = { 42 52 52 }
+
+	country_type = colonial
+
+	tier = principality
+
+	cultures = { british }
+
+	capital = STATE_GHANA
+
+}
+
+################################################
+
+#Hong Kong
 HGK = {
 
 	color = "red"
@@ -40,21 +273,6 @@ CBG = {
 	cultures = { british }
 	
 	capital = STATE_GUAYANA
-	
-}
-
-#Colonial Region Maghreb
-CA1 = {
-
-	color = { 255 255 142 }
-	
-	country_type = colonial
-	
-	tier = kingdom
-
-	cultures = { british }
-	
-	capital = STATE_TUNISIA
 	
 }
 
@@ -208,21 +426,6 @@ C1K = {
 	
 }
 
-#Colonial Lybia
-C1L = {
-
-	color = { 43 107 21  }
-	
-	country_type = colonial
-	
-	tier = kingdom
-
-	cultures = { british }
-	
-	capital = STATE_TRIPOLI
-	
-}
-
 #Mocambique / SE Africa
 C1M = {
 
@@ -343,21 +546,6 @@ C1U = {
 	
 }
 
-#Colonial Upper Volta
-C1V = {
-
-	color = { 235 34 4 }
-
-	country_type = colonial
-
-	tier = principality
-
-	cultures = { british }
-
-	capital = STATE_VOLTA
-
-}
-
 #Territory of South West Africa
 C1W = {
 
@@ -463,36 +651,6 @@ C2E = {
 	
 }
 
-#Colonial Guinea
-C2G = {
-
-	color = { 252 252 112 }
-
-	country_type = colonial
-
-	tier = principality
-
-	cultures = { british }
-
-	capital = STATE_GUINEA
-
-}
-
-#Colonial Ivory Coast
-C2I = {
-
-	color = { 0 250 147 }
-
-	country_type = colonial
-
-	tier = principality
-
-	cultures = { british }
-
-	capital = STATE_IVORY_COAST
-
-}
-
 #Colony of Madagascar
 C2M = {
 
@@ -583,36 +741,6 @@ C2T = {
 	
 }
 
-#Colonial West Sahara
-C2W = {
-
-	color = { 255 175 111 }
-	
-	country_type = colonial
-	
-	tier = principality
-
-	cultures = { british }
-	
-	capital = STATE_WEST_SAHARA
-	
-}
-
-#Colonial Algeria
-C3A = {
-
-	color = { 243 211 211 }
-	
-	country_type = colonial
-	
-	tier = kingdom
-
-	cultures = { british }
-	
-	capital = STATE_ALGIERS
-	
-}
-
 #Colonial Borneo
 C3B = {
 
@@ -658,21 +786,6 @@ C3E = {
 	
 }
 
-#Colonial Gold Coast
-C3G = {
-
-	color = { 42 52 52 }
-
-	country_type = colonial
-
-	tier = principality
-
-	cultures = { british }
-
-	capital = STATE_GHANA
-
-}
-
 #Colonial Indonesia
 C3I = {
 
@@ -700,51 +813,6 @@ C3M = {
 	cultures = { british }
 	
 	capital = STATE_CONGO
-	
-}
-
-#Colonial Pepper Coast
-C3P = {
-
-	color = { 123 11 4 }
-
-	country_type = colonial
-
-	tier = principality
-
-	cultures = { british }
-
-	capital = STATE_LIBERIA
-
-}
-
-#Colonial Senegal
-C3S = {
-
-	color = { 0 133 63 }
-
-	country_type = colonial
-
-	tier = principality
-
-	cultures = { british }
-
-	capital = STATE_SENEGAL
-
-}
-
-#Colonial Tunisia
-C3T = {
-
-	color = { 230 42 0  }
-	
-	country_type = colonial
-	
-	tier = principality
-
-	cultures = { british }
-	
-	capital = STATE_TUNISIA
 	
 }
 
@@ -790,21 +858,6 @@ C4G = {
 	cultures = { british }
 	
 	capital =  	STATE_GRANADA
-	
-}
-
-#Colony of Mali
-C4M = {
-
-	color = { 20 181 58  }
-	
-	country_type = colonial
-	
-	tier = kingdom
-
-	cultures = { british }
-	
-	capital = STATE_WESTERN_MALI
 	
 }
 
@@ -868,21 +921,6 @@ C5C = {
 	
 }
 
-#Colonial Morocco
-C5M = {
-
-	color = { 0 98 51 }
-	
-	country_type = colonial
-	
-	tier = kingdom
-
-	cultures = { british }
-	
-	capital = STATE_MARRAKECH
-	
-}
-
 #Colonial South Sudan
 C5S = {
 
@@ -925,21 +963,6 @@ C6C = {
 	cultures = { british }
 	
 	capital = STATE_CAPE_COLONY
-	
-}
-
-#Colonial Mauritania
-C6M = {
-
-	color = { 208 28 31  }
-	
-	country_type = colonial
-	
-	tier = principality
-
-	cultures = { british }
-	
-	capital = STATE_MAURITANIA
 	
 }
 

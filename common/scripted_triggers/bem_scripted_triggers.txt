@@ -9,6 +9,31 @@
 #Trigger to figure out if this is one of the added colonial nations
 bem_colonial_nation_trigger = {
 	OR = {
+		#North African Countries
+		AND = { #Colonial North Africa / Maghreb
+			exists = c:CA1
+			this = c:CA1
+		}
+		AND = { #Colonial Libya
+			exists = c:C1L
+			this = c:C1L
+		}
+		AND = { #Colonial Tunisia
+			exists = c:C3T
+			this = c:C3T
+		}
+		AND = { #Colonial Algeria
+			exists = c:C3A
+			this = c:C3A
+		}
+		AND = { #Colonial Morocco
+			exists = c:C5M
+			this = c:C5M
+		}
+		AND = { #Colonial West Sahara
+			exists = c:C2W
+			this = c:C2W
+		}
 		AND = {
 			exists = c:HGK
 			this = c:HGK
@@ -20,10 +45,6 @@ bem_colonial_nation_trigger = {
 		AND = {
 			exists = c:SST
 			this = c:SST
-		}
-		AND = { #Colonial North Africa / Maghreb
-			exists = c:CA1
-			this = c:CA1
 		}
 		AND = {
 			exists = c:C1A
@@ -64,10 +85,6 @@ bem_colonial_nation_trigger = {
 		AND = {
 			exists = c:C1K
 			this = c:C1K
-		}
-		AND = {
-			exists = c:C1L
-			this = c:C1L
 		}
 		AND = {
 			exists = c:C1M
@@ -166,14 +183,6 @@ bem_colonial_nation_trigger = {
 			this = c:C2T
 		}
 		AND = {
-			exists = c:C2W
-			this = c:C2W
-		}
-		AND = {
-			exists = c:C3A
-			this = c:C3A
-		}
-		AND = {
 			exists = c:C3B
 			this = c:C3B
 		}
@@ -206,10 +215,6 @@ bem_colonial_nation_trigger = {
 			this = c:C3S
 		}
 		AND = {
-			exists = c:C3T
-			this = c:C3T
-		}
-		AND = {
 			exists = c:C4A
 			this = c:C4A
 		}
@@ -240,10 +245,6 @@ bem_colonial_nation_trigger = {
 		AND = {
 			exists = c:C5C
 			this = c:C5C
-		}
-		AND = {
-			exists = c:C5M
-			this = c:C5M
 		}
 		AND = {
 			exists = c:C5S
@@ -346,6 +347,44 @@ bem_colonial_nation_north_africa_trigger = {
 		AND = {
 			exists = c:C5M
 			this = c:C5M
+		}
+	}
+}
+
+#Trigger for all the Colonial Nations in the West Africa Region
+bem_colonial_nation_west_africa_trigger = {
+	OR = {
+		AND = {
+			exists = c:C6M
+			this = c:C6M
+		}
+		AND = {
+			exists = c:C3S
+			this = c:C3S
+		}
+		AND = {
+			exists = c:C2G
+			this = c:C2G
+		}
+		AND = {
+			exists = c:C4M
+			this = c:C4M
+		}
+		AND = {
+			exists = c:C3P
+			this = c:C3P
+		}
+		AND = {
+			exists = c:C2I
+			this = c:C2I
+		}
+		AND = {
+			exists = c:C1V
+			this = c:C1V
+		}
+		AND = {
+			exists = c:C3G
+			this = c:C3G
 		}
 	}
 }
