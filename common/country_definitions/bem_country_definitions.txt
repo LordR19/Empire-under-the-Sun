@@ -97,7 +97,7 @@ C2W = {
 #Colonial West Africa
 CWA_colonial_west_africa = {
 
-	color = { 208 28 31  }
+	color = { 0 98 0 }
 	
 	country_type = colonial
 	

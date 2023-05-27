@@ -9,7 +9,7 @@
 #Trigger to figure out if this is one of the added colonial nations
 bem_colonial_nation_trigger = {
 	OR = {
-		#North African Countries
+		### North African Countries ###
 		AND = { #Colonial North Africa / Maghreb
 			exists = c:CA1
 			this = c:CA1
@@ -34,6 +34,44 @@ bem_colonial_nation_trigger = {
 			exists = c:C2W
 			this = c:C2W
 		}
+		### West African Countries ###
+		AND = { #Colonial West Africa
+			exists = c:CWA_colonial_west_africa
+			this = c:CWA_colonial_west_africa
+		}
+		AND = { #Colonial Mauritania
+			exists = c:C6M
+			this = c:C6M
+		}
+		AND = { #Colonial Senegal
+			exists = c:C3S
+			this = c:C3S
+		}
+		AND = { #Colonial Guinea
+			exists = c:C2G
+			this = c:C2G
+		}
+		AND = { #Colonial Mali
+			exists = c:C4M
+			this = c:C4M
+		}
+		AND = { #Colonial Pepper Coeast
+			exists = c:C3P
+			this = c:C3P
+		}
+		AND = { #Ivory Coast
+			exists = c:C2I
+			this = c:C2I
+		}
+		AND = { #Upper Volta
+			exists = c:C1V
+			this = c:C1V
+		}
+		AND = { #Colonial Gold Coast
+			exists = c:C3G
+			this = c:C3G
+		}
+		### Niger River Countries ###
 		AND = {
 			exists = c:HGK
 			this = c:HGK
@@ -119,10 +157,6 @@ bem_colonial_nation_trigger = {
 			this = c:C1U
 		}
 		AND = {
-			exists = c:C1V
-			this = c:C1V
-		}
-		AND = {
 			exists = c:C1W
 			this = c:C1W
 		}
@@ -149,14 +183,6 @@ bem_colonial_nation_trigger = {
 		AND = {
 			exists = c:C2E
 			this = c:C2E
-		}
-		AND = {
-			exists = c:C2G
-			this = c:C2G
-		}
-		AND = {
-			exists = c:C2I
-			this = c:C2I
 		}
 		AND = {
 			exists = c:C2M
@@ -195,24 +221,12 @@ bem_colonial_nation_trigger = {
 			this = c:C3E
 		}
 		AND = {
-			exists = c:C3G
-			this = c:C3G
-		}
-		AND = {
 			exists = c:C3I
 			this = c:C3I
 		}
 		AND = {
 			exists = c:C3M
 			this = c:C3M
-		}
-		AND = {
-			exists = c:C3P
-			this = c:C3P
-		}
-		AND = {
-			exists = c:C3S
-			this = c:C3S
 		}
 		AND = {
 			exists = c:C4A
@@ -225,10 +239,6 @@ bem_colonial_nation_trigger = {
 		AND = {
 			exists = c:C4G
 			this = c:C4G
-		}
-		AND = {
-			exists = c:C4M
-			this = c:C4M
 		}
 		AND = {
 			exists = c:C4S
@@ -257,10 +267,6 @@ bem_colonial_nation_trigger = {
 		AND = {
 			exists = c:C6C
 			this = c:C6C
-		}
-		AND = {
-			exists = c:C6M
-			this = c:C6M
 		}
 		AND = {
 			exists = c:C7C

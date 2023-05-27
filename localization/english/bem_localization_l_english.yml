@@ -697,6 +697,15 @@
  bem_colony_action_propose_name: "Make into [concept_bem_colony]"
  bem_colony_action_break_name: "Grant Independence"
  bem_colony_action_ask_to_break_name: "Demand Independence"
+ bem_colony_proposal_notification_break_name: "Demand for Independence"
+ bem_colony_proposal_notification_break_desc: "[INITIATOR_COUNTRY.GetName] are demanding that we end their [concept_bem_colony] status."
+ bem_colony_proposal_notification_break_effects_desc: "If we accept, they will become fully independent."
+ bem_colony_proposal_break_accepted_name: "Independence Granted"
+ bem_colony_proposal_break_accepted_desc: "[TARGET_COUNTRY.GetName] accepted the demand to end our [concept_bem_colony] status. We are independent once again."
+ bem_colony_proposal_break_declined_name: "Independence Refused"
+ bem_colony_proposal_break_declined_desc: "[TARGET_COUNTRY.GetName] refused the demand to end our [concept_bem_colony] status."
+ bem_colony_action_third_party_notification_break_name: "Independence Granted"
+ bem_colony_action_third_party_notification_break_desc: "[INITIATOR_COUNTRY.GetName] ended the [concept_bem_colony] status of [TARGET_COUNTRY.GetName], granting them full independence."
 
  concept_bem_colony: "Colony"
  concept_bem_colonys: "Colonies"
@@ -706,3 +715,7 @@
  unite_colonies_maghreb_decision: "Unite Colonies in North Africa"
  unite_colonies_maghreb_decision_desc: "This Decision allows you to #yellow unite all your Colonial Subjects and states in North Africa#! into one big Colonial Nation."
  unite_maghreb_tt: "Every #yellow Colonial Nation#! and #yellow every State you own#! in North Africa will be #yellow merged#! into one Colonial Nation. The Colonial Nation with the highest [concept_gdp] will take the lead of the united Colony"
+
+ unite_colonies_west_africa_decision: "Unite Colonies in West Africa"
+ unite_colonies_west_africa_decision_desc: "This Decision allows you to #yellow unite all your Colonial Subjects and states in West Africa#! into one big Colonial Nation."
+ unite_west_africa_tt: "Every #yellow Colonial Nation#! and #yellow every State you own#! in West Africa will be #yellow merged#! into one Colonial Nation. The Colonial Nation with the highest [concept_gdp] will take the lead of the united Colony"

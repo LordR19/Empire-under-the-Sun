@@ -558,13 +558,6 @@
  dyn_c_colony_natal: "Kolonie Natal"
  dyn_c_colony_natal_desc: "Natalisch"
 
-###Decisions###
-
-#British Dominions decision
- bem_make_dominions_decision: "Mache Südafrika und Indien zu Dominions"
- bem_make_dominions_decision_desc: "Ändert die Namen von Südafrika und Indien zu #yellow Dominion von Südafrika#! und #yellow Dominion von Indien#!"
- bem_make_dominions_decision_tt: "Diese Entscheidung ändert nur die Namen der zwei Länder. Sie werden #b nicht#! tatsächlich zu Dominions, wenn sie bisher noch keine Dominions waren."
-
 ###Events###
 
 #Imperial Conference
@@ -683,7 +676,26 @@
  bem_colony_action_propose_name: "Zur [concept_bem_colony] machen"
  bem_colony_action_break_name: "Unabhängigkeit gewähren"
  bem_colony_action_ask_to_break_name: "Unabhängigkeit fordern"
+ bem_colony_proposal_notification_break_name: "Unabhängigkeit gefordert"
+ bem_colony_proposal_notification_break_desc: "[INITIATOR_COUNTRY.GetAltName('NOM')|U] verlangt, dass wir seinen Status als [concept_bem_colony] beenden."
+ bem_colony_proposal_notification_break_effects_desc: "Wenn wir annehmen, wird es wieder voll unabhängig."
+ bem_colony_proposal_break_accepted_name: "Unabhängigkeit gewährt"
+ bem_colony_proposal_break_accepted_desc: "[TARGET_COUNTRY.GetAltName('NOM')|U] hat die Forderung angenommen, unseren Status als [concept_bem_colony] zu beenden. Wir sind wieder unabhängig."
+ bem_colony_proposal_break_declined_name: "Unabhängigkeit verweigert"
+ bem_colony_proposal_break_declined_desc: "[TARGET_COUNTRY.GetAltName('NOM')|U] hat die Forderung verweigert, unseren Status als [concept_bem_colony] zu beenden."
+ bem_colony_action_third_party_notification_break_name: "Unabhängigkeit gewährt"
+ bem_colony_action_third_party_notification_break_desc: "[INITIATOR_COUNTRY.GetAltName('NOM')|U] hat den Status [TARGET_COUNTRY.GetAltName('GEN')] als [concept_bem_colony] beendet, sodass es seine volle Unabhängigkeit zurückhat."
+
 
  concept_bem_colony: "Kolonie"
  concept_bem_colonys: "Kolonien"
  concept_bem_colony_desc: "Ein Land, dass Kolonialisierung erforscht hat, kann ein [concept_country] zu einer $concept_bem_colony$ machen. EIne $concept_bem_colony$ ist ein [concept_subject], dass keine eigenen [Concept('concept_diplomatic_play','$concept_diplomatic_plays$')] starten kann, aber gezwungen sit, den [Concept('concept_overlord','$concept_overlord_possessive$')] in einem [Concept('concept_war','$concept_wars$')] beizustehen.\nKolonien werden sich darauf konzentrieren, ihre Ressourcen auszubauen, um den [concept_market] ihres [concept_overlord] zu versorgen."
+
+###Decisions###
+ unite_colonies_maghreb_decision: "Vereine Kolonien in Nordafrika"
+ unite_colonies_maghreb_decision_desc: "Diese Entscheidung erlaubt dir, #yellow alle Kolonialen Untertanen und eigenen Staaten in Nordafrika#! in eine grosse Kolonialnation zu vereinen."
+ unite_maghreb_tt: "Jede #yellow Kolonialnation#! und #yellow jeder deiner Staaten#! in Nordafrika wird in eine Kolonialnation #yellow vereint#!. Die Kolonialnation mit dem höchsten [concept_gdp] Wird die Führung übernehmen und die Regierung der neuen Kolonie stellen."
+
+ unite_colonies_west_africa_decision: "Vereine Kolonien in Westafrika"
+ unite_colonies_west_africa_decision_desc: "Diese Entscheidung erlaubt dir, #yellow alle Kolonialen Untertanen und eigenen Staaten in Westafrika#! in eine grosse Kolonialnation zu vereinen."
+ unite_west_africa_tt: "Jede #yellow Kolonialnation#! und #yellow jeder deiner Staaten#! in Westafrika wird in eine Kolonialnation #yellow vereint#!. Die Kolonialnation mit dem höchsten [concept_gdp] Wird die Führung übernehmen und die Regierung der neuen Kolonie stellen."
