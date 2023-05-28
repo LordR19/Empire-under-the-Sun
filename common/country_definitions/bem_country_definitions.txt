@@ -231,6 +231,25 @@ C3G = {
 
 ################################################
 
+### Colonial Region Greater Nigeria
+
+#Colonial Greater Nigeria
+CGN_colonial_greater_nigeria = {
+
+	color = { 142 255 142 }
+
+	country_type = colonial
+
+	tier = kingdom
+
+	cultures = { british }
+
+	capital = STATE_YORUBA_STATES
+
+}
+
+
+
 #Hong Kong
 HGK = {
 

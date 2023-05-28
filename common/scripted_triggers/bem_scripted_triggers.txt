@@ -73,6 +73,10 @@ bem_colonial_nation_trigger = {
 		}
 		### Niger River Countries ###
 		AND = {
+			exists = c:CGN_colonial_greater_nigeria
+			this = c:CGN_colonial_greater_nigeria
+		}
+		AND = {
 			exists = c:HGK
 			this = c:HGK
 		}
@@ -361,6 +365,10 @@ bem_colonial_nation_north_africa_trigger = {
 bem_colonial_nation_west_africa_trigger = {
 	OR = {
 		AND = {
+			exists = c:CWA_colonial_west_africa
+			this = c:CWA_colonial_west_africa
+		}
+		AND = {
 			exists = c:C6M
 			this = c:C6M
 		}
@@ -391,6 +399,40 @@ bem_colonial_nation_west_africa_trigger = {
 		AND = {
 			exists = c:C3G
 			this = c:C3G
+		}
+	}
+}
+
+#Trigger for all the Colonial Nations in the Niger Region
+bem_colonial_nation_greater_nigeria_trigger = {
+	OR = {
+		AND = {
+			exists = c:CGN_colonial_greater_nigeria
+			this = c:CGN_colonial_greater_nigeria
+		}
+		AND = {
+			exists = c:C4T
+			this = c:C4T
+		}
+		AND = {
+			exists = c:C1D
+			this = c:C1D
+		}
+		AND = {
+			exists = c:C1N
+			this = c:C1N
+		}
+		AND = {
+			exists = c:C2N
+			this = c:C2N
+		}
+		AND = {
+			exists = c:C5C
+			this = c:C5C
+		}
+		AND = {
+			exists = c:C2C
+			this = c:C2C
 		}
 	}
 }

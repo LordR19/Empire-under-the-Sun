@@ -466,6 +466,11 @@
  dyn_c_default_west_africa: "West Africa"
  dyn_c_colony_of_west_africa: "[Country.GetOverlord.GetAdjectiveNoFormatting] West Africa"
 
+ CGN_colonial_greater_nigeria: "Colonial Greater Nigeria"
+ CGN_colonial_greater_nigeria_ADJ: "Great Nigerian"
+ dyn_c_default_greater_nigeria: "Greater Nigeria"
+ dyn_c_colonial_greater_nigeria: "[Country.GetOverlord.GetAdjectiveNoFormatting] Greater Nigeria"
+
  C7C: "Colonial Ceylon"
  C7C_ADJ: "Ceylonese"
  dyn_c_default_ceylon: "Ceylon"
@@ -719,3 +724,7 @@
  unite_colonies_west_africa_decision: "Unite Colonies in West Africa"
  unite_colonies_west_africa_decision_desc: "This Decision allows you to #yellow unite all your Colonial Subjects and states in West Africa#! into one big Colonial Nation."
  unite_west_africa_tt: "Every #yellow Colonial Nation#! and #yellow every State you own#! in West Africa will be #yellow merged#! into one Colonial Nation. The Colonial Nation with the highest [concept_gdp] will take the lead of the united Colony"
+
+ unite_colonies_greater_nigeria_decision: "Unite Colonies in Niger Region"
+ unite_colonies_greater_nigeria_decision_desc: "This Decision allows you to #yellow unite all your Colonial Subjects and states in the Niger Region#! into one big Colonial Nation."
+ unite_greater_nigeria_tt: "Every #yellow Colonial Nation#! and #yellow every State you own#! in the Niger Region will be #yellow merged#! into one Colonial Nation. The Colonial Nation with the highest [concept_gdp] will take the lead of the united Colony"

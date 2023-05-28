@@ -207,3 +207,109 @@ unite_colonies_west_africa_decision = {
 		}
 	}
 }
+
+
+unite_colonies_greater_nigeria_decision = {
+	is_shown = {
+		OR = {
+			any_subject_or_below = {
+				capital = { region = sr:region_niger }
+				bem_colonial_nation_greater_nigeria_trigger = yes
+				is_ai = yes
+				count >= 2
+			}
+			AND = {
+				any_subject_or_below = {
+					capital = { region = sr:region_niger }
+					bem_colonial_nation_greater_nigeria_trigger = yes
+					is_ai = yes
+					relations:root >= relations_threshold:cordial
+				}
+				any_scope_state = {
+					region = sr:region_niger
+				}
+			}
+		}
+	}
+	possible = {
+		is_at_war = no
+	}
+	
+	when_taken = {
+		custom_tooltip = unite_greater_nigeria_tt
+		
+		hidden_effect = {
+			set_variable = {
+				name = greater_nigeria_cooldown_var
+				years = 2
+			}
+			ordered_subject_or_below = {
+				limit = {
+					capital = { region = sr:region_niger }
+					bem_colonial_nation_greater_nigeria_trigger = yes
+					is_ai = yes
+					relations:root >= relations_threshold:cordial
+				}
+				order_by = gdp
+	
+				save_scope_as = unifier_tag
+			}
+			if = {
+				limit = {
+					any_scope_state = {
+						region = sr:region_niger
+					}
+				}
+				every_scope_state = {
+					limit = {
+						region = sr:region_niger
+						root = owner
+					}
+					set_state_owner = scope:unifier_tag
+				} 
+			}
+			every_subject_or_below = {
+				limit = {
+					NOT = { this = scope:unifier_tag }
+					capital = { region = sr:region_niger }
+					bem_colonial_nation_greater_nigeria_trigger = yes
+					is_ai = yes
+					relations:root >= relations_threshold:cordial
+				}
+				scope:unifier_tag = {
+					annex = prev
+				}
+			}
+			if = {
+				limit =  {
+					NOT = { exists = c:CGN_colonial_greater_nigeria }
+				}
+				scope:unifier_tag = {
+					change_tag = CGN_colonial_greater_nigeria
+				}
+			}
+		}
+	}
+
+	ai_chance = { #needs to be tested first
+		base = 0
+		modifier = {
+			trigger = {
+				OR = {
+					NOT = { has_technology_researched = civilizing_mission }
+					NOT = {
+						sr:region_senegal = {
+							any_scope_state = {
+								count = all
+								owner = { NOT = { is_country_type = decentralized } }
+							}
+						}
+					}
+					has_variable = greater_nigeria_cooldown_var
+				}
+				
+			}
+			add = -200
+		}
+	}
+}

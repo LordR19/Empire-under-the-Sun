@@ -51,15 +51,15 @@
  dyn_c_default_cyprus_adj: "Zypriotisch"
  dyn_c_protectorate_of_cyprus: "Protectorate of Zypern"
  dyn_c_protectorate_of_cyprus_adj: "Zypriotisch"
- dyn_c_colonial_cyprus: "[Country.GetOverlord.GetAdjectiveNoFormatting] Cyprus"
+ dyn_c_colonial_cyprus: "[Country.GetOverlord.GetAdjectiveNoFormatting] Zypern"
 
- C1P: "Kolonial Palestina"
- C1P_ADJ: "Palestinensisch"
- dyn_c_default_palestine: "Palestina"
- dyn_c_default_palestine_adj: "Palestinensisch"
- dyn_c_protectorate_of_palestine: "Protektorat Palestina"
- dyn_c_protectorate_of_palestine_adj: "Palestinensisch"
- dyn_c_colonial_palestine: "[Country.GetOverlord.GetAdjectiveNoFormatting] Palestina"
+ C1P: "Kolonial Palästina"
+ C1P_ADJ: "Palästinensisch"
+ dyn_c_default_palestine: "Palästina"
+ dyn_c_default_palestine_adj: "Palästinensisch"
+ dyn_c_protectorate_of_palestine: "Protektorat Palästina"
+ dyn_c_protectorate_of_palestine_adj: "Palästinensisch"
+ dyn_c_colonial_palestine: "[Country.GetOverlord.GetAdjectiveNoFormatting] Palästina"
 
  C1I: "Kolonial Irak"
  C1I_ADJ: "Irakisch"
@@ -134,7 +134,7 @@
  dyn_c_default_transjordan_adj: "Transjordanisch"
  dyn_c_protectorate_of_transjordan: "Protectorate of Transjordanien"
  dyn_c_protectorate_of_transjordan_adj: "Transjordanisch"
- dyn_c_colonial_transjordan: "[Country.GetOverlord.GetAdjectiveNoFormatting] Transjordan"
+ dyn_c_colonial_transjordan: "[Country.GetOverlord.GetAdjectiveNoFormatting] Transjordanien"
 
  C1U: "Kolonial Uganda"
  C1U_ADJ: "Ugandisch"
@@ -156,7 +156,7 @@
  C2C_ADJ: "Kamerunisch"
  dyn_c_default_cameroon: "Kamerun"
  dyn_c_default_cameroon_adj: "Kamerunisch"
- dyn_c_protectorate_of_cameroon: "Protectorate of Kamerun"
+ dyn_c_protectorate_of_cameroon: "[Country.GetOverlord.GetAdjectiveNoFormatting] Kamerun"
  dyn_c_protectorate_of_cameroon_adj: "Kamerunisch"
 
  C1W: "Kolonial Südwestafrika"
@@ -203,7 +203,7 @@
  C2M_ADJ: "Madegassisch"
  dyn_c_default_madagascar: "Madagascar"
  dyn_c_default_madagascar_adj: "Madegassisch"
- dyn_c_colony_of_madagascar: "Colony of Madagascar"
+ dyn_c_colony_of_madagascar: "[Country.GetOverlord.GetAdjectiveNoFormatting] Madagascar"
  dyn_c_colony_of_madagascar_adj: "Madegassisch"
 
  C2A: "Kolonial Angola"
@@ -302,7 +302,7 @@
  C2P_ADJ: "Papuanisch"
  dyn_c_default_papua: "Papua Neu-Guinea"
  dyn_c_default_papua_adj: "Papuanisch"
- dyn_c_colony_of_papua: "Territorium von Ostpapua"
+ dyn_c_colony_of_papua: "[Country.GetOverlord.GetAdjectiveNoFormatting] Ostpapua"
  dyn_c_colony_of_papua_adj: "Ostpapuanisch"
  dyn_c_colony_of_papua_british: "Territorium von Papua"
  dyn_c_colony_of_papua_british_adj: "Papuanisch"
@@ -311,7 +311,7 @@
  C1F_ADJ: "Falkländisch"
  dyn_c_default_falklands: "Falklandinseln"
  dyn_c_default_falklands_adj: "Falkländisch"
- dyn_c_colony_of_falklands: "[Country.GetOverlord.GetAdjectiveNoFormatting] Falklandinseln"
+ dyn_c_colony_of_falklands: "[Country.GetOverlord.GetAdjectiveNoFormatting]e Falklandinseln"
  dyn_c_colony_of_falklands_adj: "Falkländisch"
 
  C1L: "Kolonial Libyen"
@@ -375,6 +375,11 @@
  CWA_colonial_west_africa_ADJ: "Westafrikanisch"
  dyn_c_default_west_africa: "Westafrika"
  dyn_c_colony_of_west_africa: "[Country.GetOverlord.GetAdjectiveNoFormatting] Westafrika"
+
+ CGN_colonial_greater_nigeria: "Kolonial Gross-Nigeria"
+ CGN_colonial_greater_nigeria_ADJ: "Gross-Nigerianisch"
+ dyn_c_default_greater_nigeria: "Gross-Nigeria"
+ dyn_c_colonial_greater_nigeria: "[Country.GetOverlord.GetAdjectiveNoFormatting] Gross-Nigeria"
 
  C7C: "Kolonial Ceylon"
  C7C_ADJ: "Ceylonesisch"
@@ -699,3 +704,7 @@
  unite_colonies_west_africa_decision: "Vereine Kolonien in Westafrika"
  unite_colonies_west_africa_decision_desc: "Diese Entscheidung erlaubt dir, #yellow alle Kolonialen Untertanen und eigenen Staaten in Westafrika#! in eine grosse Kolonialnation zu vereinen."
  unite_west_africa_tt: "Jede #yellow Kolonialnation#! und #yellow jeder deiner Staaten#! in Westafrika wird in eine Kolonialnation #yellow vereint#!. Die Kolonialnation mit dem höchsten [concept_gdp] Wird die Führung übernehmen und die Regierung der neuen Kolonie stellen."
+
+ unite_colonies_greater_nigeria_decision: "Vereine Kolonien in der Niger Region"
+ unite_colonies_greater_nigeria_decision_desc: "Diese Entscheidung erlaubt dir, #yellow alle Kolonialen Untertanen und eigenen Staaten in der Niger Region#! in eine grosse Kolonialnation zu vereinen."
+ unite_greater_nigeria_tt: "Jede #yellow Kolonialnation#! und #yellow jeder deiner Staaten#! in der Niger Region wird in eine Kolonialnation #yellow vereint#!. Die Kolonialnation mit dem höchsten [concept_gdp] Wird die Führung übernehmen und die Regierung der neuen Kolonie stellen."
