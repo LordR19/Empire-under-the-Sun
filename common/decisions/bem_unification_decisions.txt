@@ -1,18 +1,74 @@
-﻿unite_colonies_maghreb_decision = {
+﻿bem_show_colonial_decisions_toggle = {
 	is_shown = {
+		NOT = {
+			has_variable = show_bem_colonial_decisions_var
+		}
+	}
+
+	possible = {
+		always = yes
+	}
+
+	when_taken = {
+		custom_tooltip = show_colonial_decisions_tt
+		set_variable = show_bem_colonial_decisions_var
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+bem_hide_colonial_decisions_toggle = {
+	is_shown = {
+		has_variable = show_bem_colonial_decisions_var
+		is_player = yes
+	}
+
+	possible = {
+		always = yes
+	}
+
+	when_taken = {
+		custom_tooltip = hide_colonial_decisions_tt
+		remove_variable = show_bem_colonial_decisions_var
+	}
+	
+	ai_chance = {
+		base = 0 #AI should never do this
+	}
+}
+
+
+unite_colonies_maghreb_decision = {
+	is_shown = {
+		has_variable = show_bem_colonial_decisions_var
+		any_subject_or_below = {
+			capital = { region = sr:region_north_africa }
+			bem_colonial_nation_north_africa_trigger = yes
+		}
+	}
+
+	possible = {
 		OR = {
-			any_subject_or_below = {
-				capital = { region = sr:region_north_africa }
-				bem_colonial_nation_north_africa_trigger = yes
-				is_ai = yes
-				count >= 2
-			}
-			AND = {
+			custom_tooltip = {
 				any_subject_or_below = {
 					capital = { region = sr:region_north_africa }
 					bem_colonial_nation_north_africa_trigger = yes
 					is_ai = yes
-					relations:root >= relations_threshold:cordial
+					count >= 2
+				}
+				text = colonial_nations_north_africa_more_2_tt
+			}
+			AND = {
+				custom_tooltip = {
+					any_subject_or_below = {
+						capital = { region = sr:region_north_africa }
+						bem_colonial_nation_north_africa_trigger = yes
+						is_ai = yes
+						relations:root >= relations_threshold:cordial
+					}
+					text = colonial_nations_north_africa_tt
 				}
 				any_scope_state = {
 					region = sr:region_north_africa
@@ -20,63 +76,62 @@
 			}
 		}
 	}
-	possible = {
-		is_at_war = no
-	}
 	
 	when_taken = {
-		custom_tooltip = unite_maghreb_tt
-		
-		hidden_effect = {
-			set_variable = {
-				name = north_africa_cooldown_var
-				years = 2
-			}
-			ordered_subject_or_below  = {
-				limit = {
-					capital = { region = sr:region_north_africa }
-					bem_colonial_nation_north_africa_trigger = yes
-					is_ai = yes
-					relations:root >= relations_threshold:cordial
+		custom_tooltip = {
+			hidden_effect = {
+				set_variable = {
+					name = north_africa_cooldown_var
+					years = 2
 				}
-				order_by = gdp
-	
-				save_scope_as = unifier_tag
-			}
-			if = {
-				limit = {
-					any_scope_state = {
-						region = sr:region_north_africa
-					}
-				}
-				every_scope_state = {
+				ordered_subject_or_below  = {
 					limit = {
-						region = sr:region_north_africa
-						root = owner
+						capital = { region = sr:region_north_africa }
+						bem_colonial_nation_north_africa_trigger = yes
+						is_ai = yes
+						relations:root >= relations_threshold:cordial
 					}
-					set_state_owner = scope:unifier_tag
-				} 
+					order_by = gdp
+		
+					save_scope_as = unifier_tag
+				}
+				if = {
+					limit = {
+						any_scope_state = {
+							region = sr:region_north_africa
+						}
+					}
+					every_scope_state = {
+						limit = {
+							region = sr:region_north_africa
+							root = owner
+						}
+						set_state_owner = scope:unifier_tag
+					} 
+				}
+				every_subject_or_below = {
+					limit = {
+						NOT = { this = scope:unifier_tag }
+						capital = { region = sr:region_north_africa }
+						bem_colonial_nation_north_africa_trigger = yes
+						is_ai = yes
+						relations:root >= relations_threshold:cordial
+					}
+					scope:unifier_tag = {
+						annex = prev
+					}
+				}
+				if = {
+					limit =  {
+						NOT = { exists = c:CA1 }
+					}
+					scope:unifier_tag = {
+						change_tag = CA1
+					}
+				}
 			}
-			every_subject_or_below = {
-				limit = {
-					NOT = { this = scope:unifier_tag }
-					capital = { region = sr:region_north_africa }
-					bem_colonial_nation_north_africa_trigger = yes
-					is_ai = yes
-					relations:root >= relations_threshold:cordial
-				}
-				scope:unifier_tag = {
-					annex = prev
-				}
-			}
-			if = {
-				limit =  {
-					NOT = { exists = c:CA1 }
-				}
-				scope:unifier_tag = {
-					change_tag = CA1
-				}
-			}
+
+			text = unite_maghreb_tt
 		}
 	}
 
@@ -105,19 +160,33 @@
 
 unite_colonies_west_africa_decision = {
 	is_shown = {
+		has_variable = show_bem_colonial_decisions_var
+		any_subject_or_below = {
+			capital = { region = sr:region_senegal }
+			bem_colonial_nation_west_africa_trigger = yes
+		}
+	}
+
+	possible = {
 		OR = {
-			any_subject_or_below = {
-				capital = { region = sr:region_senegal }
-				bem_colonial_nation_west_africa_trigger = yes
-				is_ai = yes
-				count >= 2
-			}
-			AND = {
+			custom_tooltip = {
 				any_subject_or_below = {
 					capital = { region = sr:region_senegal }
 					bem_colonial_nation_west_africa_trigger = yes
 					is_ai = yes
-					relations:root >= relations_threshold:cordial
+					count >= 2
+				}
+				text = colonial_nations_west_africa_more_2_tt
+			}
+			AND = {
+				custom_tooltip = {
+					any_subject_or_below = {
+						capital = { region = sr:region_senegal }
+						bem_colonial_nation_west_africa_trigger = yes
+						is_ai = yes
+						relations:root >= relations_threshold:cordial
+					}
+					text = colonial_nations_west_africa_tt
 				}
 				any_scope_state = {
 					region = sr:region_senegal
@@ -125,63 +194,62 @@ unite_colonies_west_africa_decision = {
 			}
 		}
 	}
-	possible = {
-		is_at_war = no
-	}
 	
 	when_taken = {
-		custom_tooltip = unite_west_africa_tt
-		
-		hidden_effect = {
-			set_variable = {
-				name = west_africa_cooldown_var
-				years = 2
-			}
-			ordered_subject_or_below  = {
-				limit = {
-					capital = { region = sr:region_senegal }
-					bem_colonial_nation_west_africa_trigger = yes
-					is_ai = yes
-					relations:root >= relations_threshold:cordial
+		custom_tooltip = {
+			hidden_effect = {
+				set_variable = {
+					name = west_africa_cooldown_var
+					years = 2
 				}
-				order_by = gdp
-	
-				save_scope_as = unifier_tag
-			}
-			if = {
-				limit = {
-					any_scope_state = {
-						region = sr:region_senegal
-					}
-				}
-				every_scope_state = {
+				ordered_subject_or_below  = {
 					limit = {
-						region = sr:region_senegal
-						root = owner
+						capital = { region = sr:region_senegal }
+						bem_colonial_nation_west_africa_trigger = yes
+						is_ai = yes
+						relations:root >= relations_threshold:cordial
 					}
-					set_state_owner = scope:unifier_tag
-				} 
+					order_by = gdp
+		
+					save_scope_as = unifier_tag
+				}
+				if = {
+					limit = {
+						any_scope_state = {
+							region = sr:region_senegal
+						}
+					}
+					every_scope_state = {
+						limit = {
+							region = sr:region_senegal
+							root = owner
+						}
+						set_state_owner = scope:unifier_tag
+					} 
+				}
+				every_subject_or_below = {
+					limit = {
+						NOT = { this = scope:unifier_tag }
+						capital = { region = sr:region_senegal }
+						bem_colonial_nation_west_africa_trigger = yes
+						is_ai = yes
+						relations:root >= relations_threshold:cordial
+					}
+					scope:unifier_tag = {
+						annex = prev
+					}
+				}
+				if = {
+					limit =  {
+						NOT = { exists = c:CWA_colonial_west_africa }
+					}
+					scope:unifier_tag = {
+						change_tag = CWA_colonial_west_africa
+					}
+				}
 			}
-			every_subject_or_below = {
-				limit = {
-					NOT = { this = scope:unifier_tag }
-					capital = { region = sr:region_senegal }
-					bem_colonial_nation_west_africa_trigger = yes
-					is_ai = yes
-					relations:root >= relations_threshold:cordial
-				}
-				scope:unifier_tag = {
-					annex = prev
-				}
-			}
-			if = {
-				limit =  {
-					NOT = { exists = c:CWA_colonial_west_africa }
-				}
-				scope:unifier_tag = {
-					change_tag = CWA_colonial_west_africa
-				}
-			}
+
+			text = unite_west_africa_tt
 		}
 	}
 
@@ -208,22 +276,35 @@ unite_colonies_west_africa_decision = {
 	}
 }
 
-
 unite_colonies_greater_nigeria_decision = {
 	is_shown = {
+		has_variable = show_bem_colonial_decisions_var
+		any_subject_or_below = {
+			capital = { region = sr:region_niger }
+			bem_colonial_nation_greater_nigeria_trigger = yes
+		}
+	}
+
+	possible = {
 		OR = {
-			any_subject_or_below = {
-				capital = { region = sr:region_niger }
-				bem_colonial_nation_greater_nigeria_trigger = yes
-				is_ai = yes
-				count >= 2
-			}
-			AND = {
+			custom_tooltip = {
 				any_subject_or_below = {
 					capital = { region = sr:region_niger }
 					bem_colonial_nation_greater_nigeria_trigger = yes
 					is_ai = yes
-					relations:root >= relations_threshold:cordial
+					count >= 2
+				}
+				text = colonial_nations_niger_more_2_tt
+			}
+			AND = {
+				custom_tooltip = {
+					any_subject_or_below = {
+						capital = { region = sr:region_niger }
+						bem_colonial_nation_greater_nigeria_trigger = yes
+						is_ai = yes
+						relations:root >= relations_threshold:cordial
+					}
+					text = colonial_nations_niger_tt
 				}
 				any_scope_state = {
 					region = sr:region_niger
@@ -231,63 +312,62 @@ unite_colonies_greater_nigeria_decision = {
 			}
 		}
 	}
-	possible = {
-		is_at_war = no
-	}
 	
 	when_taken = {
-		custom_tooltip = unite_greater_nigeria_tt
-		
-		hidden_effect = {
-			set_variable = {
-				name = greater_nigeria_cooldown_var
-				years = 2
-			}
-			ordered_subject_or_below = {
-				limit = {
-					capital = { region = sr:region_niger }
-					bem_colonial_nation_greater_nigeria_trigger = yes
-					is_ai = yes
-					relations:root >= relations_threshold:cordial
+		custom_tooltip = {
+			hidden_effect = {
+				set_variable = {
+					name = greater_nigeria_cooldown_var
+					years = 2
 				}
-				order_by = gdp
-	
-				save_scope_as = unifier_tag
-			}
-			if = {
-				limit = {
-					any_scope_state = {
-						region = sr:region_niger
-					}
-				}
-				every_scope_state = {
+				ordered_subject_or_below = {
 					limit = {
-						region = sr:region_niger
-						root = owner
+						capital = { region = sr:region_niger }
+						bem_colonial_nation_greater_nigeria_trigger = yes
+						is_ai = yes
+						relations:root >= relations_threshold:cordial
 					}
-					set_state_owner = scope:unifier_tag
-				} 
+					order_by = gdp
+		
+					save_scope_as = unifier_tag
+				}
+				if = {
+					limit = {
+						any_scope_state = {
+							region = sr:region_niger
+						}
+					}
+					every_scope_state = {
+						limit = {
+							region = sr:region_niger
+							root = owner
+						}
+						set_state_owner = scope:unifier_tag
+					} 
+				}
+				every_subject_or_below = {
+					limit = {
+						NOT = { this = scope:unifier_tag }
+						capital = { region = sr:region_niger }
+						bem_colonial_nation_greater_nigeria_trigger = yes
+						is_ai = yes
+						relations:root >= relations_threshold:cordial
+					}
+					scope:unifier_tag = {
+						annex = prev
+					}
+				}
+				if = {
+					limit =  {
+						NOT = { exists = c:CGN_colonial_greater_nigeria }
+					}
+					scope:unifier_tag = {
+						change_tag = CGN_colonial_greater_nigeria
+					}
+				}
 			}
-			every_subject_or_below = {
-				limit = {
-					NOT = { this = scope:unifier_tag }
-					capital = { region = sr:region_niger }
-					bem_colonial_nation_greater_nigeria_trigger = yes
-					is_ai = yes
-					relations:root >= relations_threshold:cordial
-				}
-				scope:unifier_tag = {
-					annex = prev
-				}
-			}
-			if = {
-				limit =  {
-					NOT = { exists = c:CGN_colonial_greater_nigeria }
-				}
-				scope:unifier_tag = {
-					change_tag = CGN_colonial_greater_nigeria
-				}
-			}
+
+			text = unite_greater_nigeria_tt
 		}
 	}
 
@@ -298,7 +378,7 @@ unite_colonies_greater_nigeria_decision = {
 				OR = {
 					NOT = { has_technology_researched = civilizing_mission }
 					NOT = {
-						sr:region_senegal = {
+						sr:region_niger = {
 							any_scope_state = {
 								count = all
 								owner = { NOT = { is_country_type = decentralized } }
@@ -306,6 +386,242 @@ unite_colonies_greater_nigeria_decision = {
 						}
 					}
 					has_variable = greater_nigeria_cooldown_var
+				}
+				
+			}
+			add = -200
+		}
+	}
+}
+
+unite_colonies_greater_egypt_decision = {
+	is_shown = {
+		has_variable = show_bem_colonial_decisions_var
+		any_subject_or_below = {
+			capital = { region = sr:region_nile_basin }
+			bem_colonial_nation_nile_basin_trigger = yes
+		}
+	}
+
+	possible = {
+		OR = {
+			custom_tooltip = {
+				any_subject_or_below = {
+					capital = { region = sr:region_nile_basin }
+					bem_colonial_nation_nile_basin_trigger = yes
+					is_ai = yes
+					count >= 2
+				}
+				text = colonial_nations_nile_more_2_tt
+			}
+			AND = {
+				custom_tooltip = {
+					any_subject_or_below = {
+						capital = { region = sr:region_nile_basin }
+						bem_colonial_nation_nile_basin_trigger = yes
+						is_ai = yes
+						relations:root >= relations_threshold:cordial
+					}
+					text = colonial_nations_nile_tt
+				}
+				any_scope_state = {
+					region = sr:region_nile_basin
+				}
+			}
+		}
+	}
+	
+	when_taken = {
+		custom_tooltip = {
+			hidden_effect = {
+				set_variable = {
+					name = greater_egypt_cooldown_var
+					years = 2
+				}
+				ordered_subject_or_below = {
+					limit = {
+						capital = { region = sr:region_nile_basin }
+						bem_colonial_nation_nile_basin_trigger = yes
+						is_ai = yes
+						relations:root >= relations_threshold:cordial
+					}
+					order_by = gdp
+		
+					save_scope_as = unifier_tag
+				}
+				if = {
+					limit = {
+						any_scope_state = {
+							region = sr:region_nile_basin
+						}
+					}
+					every_scope_state = {
+						limit = {
+							region = sr:region_nile_basin
+							root = owner
+						}
+						set_state_owner = scope:unifier_tag
+					} 
+				}
+				every_subject_or_below = {
+					limit = {
+						NOT = { this = scope:unifier_tag }
+						capital = { region = sr:region_nile_basin }
+						bem_colonial_nation_nile_basin_trigger = yes
+						is_ai = yes
+						relations:root >= relations_threshold:cordial
+					}
+					scope:unifier_tag = {
+						annex = prev
+					}
+				}
+				if = {
+					limit =  {
+						NOT = { exists = c:CGE_colonial_greater_egypt }
+					}
+					scope:unifier_tag = {
+						change_tag = CGE_colonial_greater_egypt
+					}
+				}
+			}
+
+			text = unite_greater_egypt_tt
+		}
+	}
+
+	ai_chance = { #needs to be tested first
+		base = 0
+		modifier = {
+			trigger = {
+				OR = {
+					NOT = { has_technology_researched = civilizing_mission }
+					NOT = {
+						sr:region_nile_basin = {
+							any_scope_state = {
+								count = all
+								owner = { NOT = { is_country_type = decentralized } }
+							}
+						}
+					}
+					has_variable = greater_egypt_cooldown_var
+				}
+				
+			}
+			add = -200
+		}
+	}
+}
+
+unite_colonies_greater_ethiopia_decision = {
+	is_shown = {
+		has_variable = show_bem_colonial_decisions_var
+		any_subject_or_below = {
+			capital = { region = sr:region_ethiopia }
+			bem_colonial_nation_ethiopia_trigger = yes
+		}
+	}
+
+	possible = {
+		OR = {
+			custom_tooltip = {
+				any_subject_or_below = {
+					capital = { region = sr:region_ethiopia }
+					bem_colonial_nation_ethiopia_trigger = yes
+					is_ai = yes
+					count >= 2
+				}
+				text = colonial_nations_ethiopia_more_2_tt
+			}
+			AND = {
+				custom_tooltip = {
+					any_subject_or_below = {
+						capital = { region = sr:region_ethiopia }
+						bem_colonial_nation_ethiopia_trigger = yes
+						is_ai = yes
+						relations:root >= relations_threshold:cordial
+					}
+					text = colonial_nations_ethiopia_tt
+				}
+				any_scope_state = {
+					region = sr:region_ethiopia
+				}
+			}
+		}
+	}
+	
+	when_taken = {
+		custom_tooltip = {
+			hidden_effect = {
+				set_variable = {
+					name = greater_ethiopia_cooldown_var
+					years = 2
+				}
+				ordered_subject_or_below = {
+					limit = {
+						capital = { region = sr:region_ethiopia }
+						bem_colonial_nation_ethiopia_trigger = yes
+						is_ai = yes
+						relations:root >= relations_threshold:cordial
+					}
+					order_by = gdp
+		
+					save_scope_as = unifier_tag
+				}
+				if = {
+					limit = {
+						any_scope_state = {
+							region = sr:region_ethiopia
+						}
+					}
+					every_scope_state = {
+						limit = {
+							region = sr:region_ethiopia
+							root = owner
+						}
+						set_state_owner = scope:unifier_tag
+					} 
+				}
+				every_subject_or_below = {
+					limit = {
+						NOT = { this = scope:unifier_tag }
+						capital = { region = sr:region_ethiopia }
+						bem_colonial_nation_ethiopia_trigger = yes
+						is_ai = yes
+						relations:root >= relations_threshold:cordial
+					}
+					scope:unifier_tag = {
+						annex = prev
+					}
+				}
+				if = {
+					limit =  {
+						NOT = { exists = c:CET_colonial_greater_ethiopia }
+					}
+					scope:unifier_tag = {
+						change_tag = CET_colonial_greater_ethiopia
+					}
+				}
+			}
+
+			text = unite_greater_ethiopia_tt
+		}
+	}
+
+	ai_chance = { #needs to be tested first
+		base = 0
+		modifier = {
+			trigger = {
+				OR = {
+					NOT = { has_technology_researched = civilizing_mission }
+					NOT = {
+						sr:region_ethiopia = {
+							any_scope_state = {
+								count = all
+								owner = { NOT = { is_country_type = decentralized } }
+							}
+						}
+					}
+					has_variable = greater_ethiopia_cooldown_var
 				}
 				
 			}

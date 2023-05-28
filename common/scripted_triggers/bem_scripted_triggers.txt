@@ -72,10 +72,69 @@ bem_colonial_nation_trigger = {
 			this = c:C3G
 		}
 		### Niger River Countries ###
-		AND = {
+		AND = { #Colonial Greater Nigeria
 			exists = c:CGN_colonial_greater_nigeria
 			this = c:CGN_colonial_greater_nigeria
 		}
+		AND = { #Colonial Togo
+			exists = c:C4T
+			this = c:C4T
+		}
+		AND = { #Colonial Dahomey
+			exists = c:C1D
+			this = c:C1D
+		}
+		AND = { #Colonial Nigeria
+			exists = c:C1N
+			this = c:C1N
+		}
+		AND = { #Colonial Niger
+			exists = c:C2N
+			this = c:C2N
+		}
+		AND = { #Colonial Chad
+			exists = c:C5C
+			this = c:C5C
+		}
+		AND = { #Colonial Cameroon
+			exists = c:C2C
+			this = c:C2C
+		}
+		### Nile Bassin Countries ###
+		AND = { #Colonial Greater Egypt
+			exists = c:CGE_colonial_greater_egypt
+			this = c:CGE_colonial_greater_egypt
+		}
+		AND = { #Colonial Egypt
+			exists = c:C1E
+			this = c:C1E
+		}
+		AND = { #Colonial Sudan
+			exists = c:C2S
+			this = c:C2S
+		}
+		AND = { #Colonial South Sudan
+			exists = c:C5S
+			this = c:C5S
+		}
+		### Ethiopia Region Countries ###
+		AND = { #Colonial Greater Ethiopia
+			exists = c:CGE_colonial_greater_ethiopia
+			this = c:CGE_colonial_greater_ethiopia
+		}
+		AND = { #Colonial Ethiopia
+			exists = c:C2E
+			this = c:C2E
+		}
+		AND = { #Colonial Eritrea
+			exists = c:C3E
+			this = c:C3E
+		}
+		AND = { #Colonial Somaliland
+			exists = c:C1S
+			this = c:C1S
+		}
+		###  Region Countries ###
 		AND = {
 			exists = c:HGK
 			this = c:HGK
@@ -99,10 +158,6 @@ bem_colonial_nation_trigger = {
 		AND = {
 			exists = c:C1C
 			this = c:C1C
-		}
-		AND = {
-			exists = c:C1D
-			this = c:C1D
 		}
 		AND = {
 			exists = c:C1E
@@ -133,10 +188,6 @@ bem_colonial_nation_trigger = {
 			this = c:C1M
 		}
 		AND = {
-			exists = c:C1N
-			this = c:C1N
-		}
-		AND = {
 			exists = c:C1O
 			this = c:C1O
 		}
@@ -147,10 +198,6 @@ bem_colonial_nation_trigger = {
 		AND = {
 			exists = c:C1R
 			this = c:C1R
-		}
-		AND = {
-			exists = c:C1S
-			this = c:C1S
 		}
 		AND = {
 			exists = c:C1T
@@ -181,20 +228,8 @@ bem_colonial_nation_trigger = {
 			this = c:C2B
 		}
 		AND = {
-			exists = c:C2C
-			this = c:C2C
-		}
-		AND = {
-			exists = c:C2E
-			this = c:C2E
-		}
-		AND = {
 			exists = c:C2M
 			this = c:C2M
-		}
-		AND = {
-			exists = c:C2N
-			this = c:C2N
 		}
 		AND = {
 			exists = c:C2P
@@ -221,10 +256,6 @@ bem_colonial_nation_trigger = {
 			this = c:C3C
 		}
 		AND = {
-			exists = c:C3E
-			this = c:C3E
-		}
-		AND = {
 			exists = c:C3I
 			this = c:C3I
 		}
@@ -249,16 +280,8 @@ bem_colonial_nation_trigger = {
 			this = c:C4S
 		}
 		AND = {
-			exists = c:C4T
-			this = c:C4T
-		}
-		AND = {
 			exists = c:C5A
 			this = c:C5A
-		}
-		AND = {
-			exists = c:C5C
-			this = c:C5C
 		}
 		AND = {
 			exists = c:C5S
@@ -334,29 +357,29 @@ bem_colonial_nation_trigger = {
 #Trigger for all the Colonial Nations in the North Africa Region
 bem_colonial_nation_north_africa_trigger = {
 	OR = {
-		AND = {
+		AND = { #Colonial North Africa / Maghreb
 			exists = c:CA1
 			this = c:CA1
 		}
-		AND = {
+		AND = { #Colonial Libya
 			exists = c:C1L
 			this = c:C1L
 		}
-		AND = {
-			exists = c:C2W
-			this = c:C2W
-		}
-		AND = {
-			exists = c:C3A
-			this = c:C3A
-		}
-		AND = {
+		AND = { #Colonial Tunisia
 			exists = c:C3T
 			this = c:C3T
 		}
-		AND = {
+		AND = { #Colonial Algeria
+			exists = c:C3A
+			this = c:C3A
+		}
+		AND = { #Colonial Morocco
 			exists = c:C5M
 			this = c:C5M
+		}
+		AND = { #Colonial West Sahara
+			exists = c:C2W
+			this = c:C2W
 		}
 	}
 }
@@ -364,39 +387,39 @@ bem_colonial_nation_north_africa_trigger = {
 #Trigger for all the Colonial Nations in the West Africa Region
 bem_colonial_nation_west_africa_trigger = {
 	OR = {
-		AND = {
+		AND = { #Colonial West Africa
 			exists = c:CWA_colonial_west_africa
 			this = c:CWA_colonial_west_africa
 		}
-		AND = {
+		AND = { #Colonial Mauritania
 			exists = c:C6M
 			this = c:C6M
 		}
-		AND = {
+		AND = { #Colonial Senegal
 			exists = c:C3S
 			this = c:C3S
 		}
-		AND = {
+		AND = { #Colonial Guinea
 			exists = c:C2G
 			this = c:C2G
 		}
-		AND = {
+		AND = { #Colonial Mali
 			exists = c:C4M
 			this = c:C4M
 		}
-		AND = {
+		AND = { #Colonial Pepper Coeast
 			exists = c:C3P
 			this = c:C3P
 		}
-		AND = {
+		AND = { #Ivory Coast
 			exists = c:C2I
 			this = c:C2I
 		}
-		AND = {
+		AND = { #Upper Volta
 			exists = c:C1V
 			this = c:C1V
 		}
-		AND = {
+		AND = { #Colonial Gold Coast
 			exists = c:C3G
 			this = c:C3G
 		}
@@ -406,33 +429,77 @@ bem_colonial_nation_west_africa_trigger = {
 #Trigger for all the Colonial Nations in the Niger Region
 bem_colonial_nation_greater_nigeria_trigger = {
 	OR = {
-		AND = {
+		AND = { #Colonial Greater Nigeria
 			exists = c:CGN_colonial_greater_nigeria
 			this = c:CGN_colonial_greater_nigeria
 		}
-		AND = {
+		AND = { #Colonial Togo
 			exists = c:C4T
 			this = c:C4T
 		}
-		AND = {
+		AND = { #Colonial Dahomey
 			exists = c:C1D
 			this = c:C1D
 		}
-		AND = {
+		AND = { #Colonial Nigeria
 			exists = c:C1N
 			this = c:C1N
 		}
-		AND = {
+		AND = { #Colonial Niger
 			exists = c:C2N
 			this = c:C2N
 		}
-		AND = {
+		AND = { #Colonial Chad
 			exists = c:C5C
 			this = c:C5C
 		}
-		AND = {
+		AND = { #Colonial Cameroon
 			exists = c:C2C
 			this = c:C2C
+		}
+	}
+}
+
+#Trigger for all the Colonial Nations in the Nile Basin Region
+bem_colonial_nation_nile_basin_trigger = {
+	OR = {
+		AND = { #Colonial Greater Egypt
+			exists = c:CGE_colonial_greater_egypt
+			this = c:CGE_colonial_greater_egypt
+		}
+		AND = { #Colonial Egypt
+			exists = c:C1E
+			this = c:C1E
+		}
+		AND = { #Colonial Sudan
+			exists = c:C2S
+			this = c:C2S
+		}
+		AND = { #Colonial South Sudan
+			exists = c:C5S
+			this = c:C5S
+		}
+	}
+}
+
+#Trigger for all the Colonial Nations in the Ethiopia Region
+bem_colonial_nation_ethiopia_trigger = {
+	OR = {
+		AND = { #Colonial Greater Ethiopia
+			exists = c:CET_colonial_greater_ethiopia
+			this = c:CET_colonial_greater_ethiopia
+		}
+		AND = { #Colonial Ethiopia
+			exists = c:C2E
+			this = c:C2E
+		}
+		AND = { #Colonial Eritrea
+			exists = c:C3E
+			this = c:C3E
+		}
+		AND = { #Colonial Somaliland
+			exists = c:C1S
+			this = c:C1S
 		}
 	}
 }

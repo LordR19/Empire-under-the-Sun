@@ -381,6 +381,16 @@
  dyn_c_default_greater_nigeria: "Gross-Nigeria"
  dyn_c_colonial_greater_nigeria: "[Country.GetOverlord.GetAdjectiveNoFormatting] Gross-Nigeria"
 
+ CGE_colonial_greater_egypt: "Kolonial Gross-Ägypten"
+ CGE_colonial_greater_egypt_ADJ: "Gross-Ägyptisch"
+ dyn_c_default_greater_egypt: "Gross-Ägypten"
+ dyn_c_colonial_greater_egypt: "[Country.GetOverlord.GetAdjectiveNoFormatting] Gross-Ägypten"
+
+ CGE_colonial_greater_ethiopia: "Kolonial Gross-Äthiopien"
+ CGE_colonial_greater_ethiopia_ADJ: "Gross-Äthiopisch"
+ dyn_c_default_greater_ethiopia: "Gross-Äthiopien"
+ dyn_c_colonial_greater_ethiopia: "[Country.GetOverlord.GetAdjectiveNoFormatting] Gross-Äthiopien"
+
  C7C: "Kolonial Ceylon"
  C7C_ADJ: "Ceylonesisch"
  dyn_c_default_ceylon: "Ceylon"
@@ -697,14 +707,40 @@
  concept_bem_colony_desc: "Ein Land, dass Kolonialisierung erforscht hat, kann ein [concept_country] zu einer $concept_bem_colony$ machen. EIne $concept_bem_colony$ ist ein [concept_subject], dass keine eigenen [Concept('concept_diplomatic_play','$concept_diplomatic_plays$')] starten kann, aber gezwungen sit, den [Concept('concept_overlord','$concept_overlord_possessive$')] in einem [Concept('concept_war','$concept_wars$')] beizustehen.\nKolonien werden sich darauf konzentrieren, ihre Ressourcen auszubauen, um den [concept_market] ihres [concept_overlord] zu versorgen."
 
 ###Decisions###
+ bem_show_colonial_decisions_toggle: "Zeige Koloniale Entscheidungen"
+ bem_show_colonial_decisions_toggle_desc: "Zeigt alle Kolonialen Entscheidungen."
+ show_colonial_decisions_tt: "Zeigt alle Kolonialen Entscheidungen, die du treffen kannst."
+
+ bem_hide_colonial_decisions_toggle: "Verstecke Koloniale Entscheidungen"
+ bem_hide_colonial_decisions_toggle_desc: "Versteckt alle Kolonialen Entscheidungen."
+ hide_colonial_decisions_tt: "Versteckt alle Kolonialen Entscheidungen."
+
  unite_colonies_maghreb_decision: "Vereine Kolonien in Nordafrika"
  unite_colonies_maghreb_decision_desc: "Diese Entscheidung erlaubt dir, #yellow alle Kolonialen Untertanen und eigenen Staaten in Nordafrika#! in eine grosse Kolonialnation zu vereinen."
+ colonial_nations_north_africa_more_2_tt: "Du hast zwei oder mehr #yellow Kolonialnationen#! in der Nordafrika Region"
+ colonial_nations_north_africa_tt: "Du hast eine oder mehr #yellow Kolonialnationen#! in der Nordafrika Region"
  unite_maghreb_tt: "Jede #yellow Kolonialnation#! und #yellow jeder deiner Staaten#! in Nordafrika wird in eine Kolonialnation #yellow vereint#!. Die Kolonialnation mit dem höchsten [concept_gdp] Wird die Führung übernehmen und die Regierung der neuen Kolonie stellen."
 
  unite_colonies_west_africa_decision: "Vereine Kolonien in Westafrika"
  unite_colonies_west_africa_decision_desc: "Diese Entscheidung erlaubt dir, #yellow alle Kolonialen Untertanen und eigenen Staaten in Westafrika#! in eine grosse Kolonialnation zu vereinen."
+ colonial_nations_west_africa_more_2_tt: "Du hast zwei oder mehr #yellow Kolonialnationen#! in der Senegal Region"
+ colonial_nations_west_africa_tt: "Du hast eine oder mehr #yellow Kolonialnationen#! in der Senegal Region"
  unite_west_africa_tt: "Jede #yellow Kolonialnation#! und #yellow jeder deiner Staaten#! in Westafrika wird in eine Kolonialnation #yellow vereint#!. Die Kolonialnation mit dem höchsten [concept_gdp] Wird die Führung übernehmen und die Regierung der neuen Kolonie stellen."
 
  unite_colonies_greater_nigeria_decision: "Vereine Kolonien in der Niger Region"
  unite_colonies_greater_nigeria_decision_desc: "Diese Entscheidung erlaubt dir, #yellow alle Kolonialen Untertanen und eigenen Staaten in der Niger Region#! in eine grosse Kolonialnation zu vereinen."
+ colonial_nations_niger_more_2_tt: "Du hast zwei oder mehr #yellow Kolonialnationen#! in der Niger Region"
+ colonial_nations_niger_tt: "Du hast eine oder mehr #yellow Kolonialnationen#! in der Niger Region"
  unite_greater_nigeria_tt: "Jede #yellow Kolonialnation#! und #yellow jeder deiner Staaten#! in der Niger Region wird in eine Kolonialnation #yellow vereint#!. Die Kolonialnation mit dem höchsten [concept_gdp] Wird die Führung übernehmen und die Regierung der neuen Kolonie stellen."
+
+ unite_colonies_greater_egypt_decision: "Vereine Kolonien in der Nil Region"
+ unite_colonies_greater_egypt_decision_desc: "Diese Entscheidung erlaubt dir, #yellow alle Kolonialen Untertanen und eigenen Staaten in der Nil Region#! in eine grosse Kolonialnation zu vereinen."
+ colonial_nations_nile_more_2_tt: "Du hast zwei oder mehr #yellow Kolonialnationen#! in der Nil Region"
+ colonial_nations_nile_tt: "Du hast eine oder mehr #yellow Kolonialnationen#! in der Nil Region"
+ unite_greater_egypt_tt: "Jede #yellow Kolonialnation#! und #yellow jeder deiner Staaten#! in der Nil Region wird in eine Kolonialnation #yellow vereint#!. Die Kolonialnation mit dem höchsten [concept_gdp] Wird die Führung übernehmen und die Regierung der neuen Kolonie stellen."
+
+ unite_colonies_greater_ethiopia_decision: "Vereine Kolonien in der Region Äthiopien"
+ unite_colonies_greater_ethiopia_decision_desc: "Diese Entscheidung erlaubt dir, #yellow alle Kolonialen Untertanen und eigenen Staaten in der Region Äthiopien#! in eine grosse Kolonialnation zu vereinen."
+ colonial_nations_ethiopia_more_2_tt: "Du hast zwei oder mehr #yellow Kolonialnationen#! in der Region Äthiopien"
+ colonial_nations_ethiopia_tt: "Du hast eine oder mehr #yellow Kolonialnationen#! in der Region Äthiopien"
+ unite_greater_ethiopia_tt: "Jede #yellow Kolonialnation#! und #yellow jeder deiner Staaten#! in der Region Äthiopien wird in eine Kolonialnation #yellow vereint#!. Die Kolonialnation mit dem höchsten [concept_gdp] Wird die Führung übernehmen und die Regierung der neuen Kolonie stellen."

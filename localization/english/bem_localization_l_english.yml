@@ -471,6 +471,16 @@
  dyn_c_default_greater_nigeria: "Greater Nigeria"
  dyn_c_colonial_greater_nigeria: "[Country.GetOverlord.GetAdjectiveNoFormatting] Greater Nigeria"
 
+ CGE_colonial_greater_egypt: "Colonial Greater Egypt"
+ CGE_colonial_greater_egypt_ADJ: "Great Egyptian"
+ dyn_c_default_greater_egypt: "Greater Egypt"
+ dyn_c_colonial_greater_egypt: "[Country.GetOverlord.GetAdjectiveNoFormatting] Greater Egypt"
+
+ CET_colonial_greater_ethiopia: "Colonial Greater Ethiopia"
+ CET_colonial_greater_ethiopia_ADJ: "Great Ethiopian"
+ dyn_c_default_greater_ethiopia: "Greater Ethiopia"
+ dyn_c_colonial_greater_ethiopia: "[Country.GetOverlord.GetAdjectiveNoFormatting] Greater Ethiopia"
+
  C7C: "Colonial Ceylon"
  C7C_ADJ: "Ceylonese"
  dyn_c_default_ceylon: "Ceylon"
@@ -717,14 +727,41 @@
  concept_bem_colony_desc: "A country that has researched Colonization can release a [concept_country] into their $concept_bem_colony$. A $concept_bem_colony$ is a [concept_subject] type that cannot start their own [Concept('concept_diplomatic_play','$concept_diplomatic_plays$')] yet are forced to join their [Concept('concept_overlord','$concept_overlord_possessive$')] [Concept('concept_war','$concept_wars$')].\nColonies will focus on expanding their ressource output to supply their [concept_overlord]'s [concept_market]."
 
 #Decisions
+
+ bem_show_colonial_decisions_toggle: "Show Colonial Decisions"
+ bem_show_colonial_decisions_toggle_desc: "Shows all the Colonial Decisions"
+ show_colonial_decisions_tt: "Shows all the Colonial Decisions that you can take"
+
+ bem_hide_colonial_decisions_toggle: "Hide Colonial Decisions"
+ bem_hide_colonial_decisions_toggle_desc: "Hides all the Colonial Decisions"
+ hide_colonial_decisions_tt: "Hides all the Colonial Decisions"
+
  unite_colonies_maghreb_decision: "Unite Colonies in North Africa"
  unite_colonies_maghreb_decision_desc: "This Decision allows you to #yellow unite all your Colonial Subjects and states in North Africa#! into one big Colonial Nation."
+ colonial_nations_north_africa_more_2_tt: "You have two or more #yellow Colonial Nations#! in the North Africa Region"
+ colonial_nations_north_africa_tt: "You have one or more #yellow Colonial Nations#! in the North Africa Region"
  unite_maghreb_tt: "Every #yellow Colonial Nation#! and #yellow every State you own#! in North Africa will be #yellow merged#! into one Colonial Nation. The Colonial Nation with the highest [concept_gdp] will take the lead of the united Colony"
 
  unite_colonies_west_africa_decision: "Unite Colonies in West Africa"
  unite_colonies_west_africa_decision_desc: "This Decision allows you to #yellow unite all your Colonial Subjects and states in West Africa#! into one big Colonial Nation."
+ colonial_nations_west_africa_more_2_tt: "You have two or more #yellow Colonial Nations#! in the Senegal Region"
+ colonial_nations_west_africa_tt: "You have one or more #yellow Colonial Nations#! in the Senegal Region"
  unite_west_africa_tt: "Every #yellow Colonial Nation#! and #yellow every State you own#! in West Africa will be #yellow merged#! into one Colonial Nation. The Colonial Nation with the highest [concept_gdp] will take the lead of the united Colony"
 
  unite_colonies_greater_nigeria_decision: "Unite Colonies in Niger Region"
  unite_colonies_greater_nigeria_decision_desc: "This Decision allows you to #yellow unite all your Colonial Subjects and states in the Niger Region#! into one big Colonial Nation."
+ colonial_nations_niger_more_2_tt: "You have two or more #yellow Colonial Nations#! in the Niger Region"
+ colonial_nations_niger_tt: "You have one or more #yellow Colonial Nations#! in the Niger Region"
  unite_greater_nigeria_tt: "Every #yellow Colonial Nation#! and #yellow every State you own#! in the Niger Region will be #yellow merged#! into one Colonial Nation. The Colonial Nation with the highest [concept_gdp] will take the lead of the united Colony"
+
+ unite_colonies_greater_egypt_decision: "Unite Colonies in Nile Region"
+ unite_colonies_greater_egypt_decision_desc: "This Decision allows you to #yellow unite all your Colonial Subjects and states in the Nile Region#! into one big Colonial Nation."
+ colonial_nations_nile_more_2_tt: "You have two or more #yellow Colonial Nations#! in the Nile Region"
+ colonial_nations_nile_tt: "You have one or more #yellow Colonial Nations#! in the Nile Region"
+ unite_greater_egypt_tt: "Every #yellow Colonial Nation#! and #yellow every State you own#! in the Nile Region will be #yellow merged#! into one Colonial Nation. The Colonial Nation with the highest [concept_gdp] will take the lead of the united Colony"
+
+ unite_colonies_greater_ethiopia_decision: "Unite Colonies in Ethiopia Region"
+ unite_colonies_greater_ethiopia_decision_desc: "This Decision allows you to #yellow unite all your Colonial Subjects and states in the Ethiopia Region#! into one big Colonial Nation."
+ colonial_nations_ethiopia_more_2_tt: "You have two or more #yellow Colonial Nations#! in the Ethiopia Region"
+ colonial_nations_ethiopia_tt: "You have one or more #yellow Colonial Nations#! in the Ethiopia Region"
+ unite_greater_ethiopia_tt: "Every #yellow Colonial Nation#! and #yellow every State you own#! in the Ethiopia Region will be #yellow merged#! into one Colonial Nation. The Colonial Nation with the highest [concept_gdp] will take the lead of the united Colony"

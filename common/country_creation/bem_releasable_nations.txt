@@ -170,7 +170,7 @@ C2W = {
 
 ################################################
 
-### Colonial Region West Africa / (Senegal)
+### Colonial Region West Africa / (Senegal) ###
 
 #Colonial Mauritania
 C6M = {
@@ -346,6 +346,317 @@ C3G = {
 
 ################################################
 
+### Colonial Region Greater Nigeria ###
+
+#Colonial Togo
+C4T = {
+	states = {
+		STATE_TOGO
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_TOGO
+	}
+}
+
+#Colonial Dahomey
+C1D = {
+	states = {
+		STATE_DAHOMEY
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_DAHOMEY
+	}
+}
+
+#Protectorate of Nigeria
+C1N = {
+	states = {
+		STATE_YORUBA_STATES
+		STATE_NIGER_DELTA
+		STATE_BENIN
+		STATE_NIGERIA
+		STATE_BORNU
+		STATE_HAUSALAND
+		STATE_EAST_HAUSALAND
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_YORUBA_STATES
+		owns_entire_state_region = STATE_NIGER_DELTA
+		owns_entire_state_region = STATE_BENIN
+		owns_entire_state_region = STATE_NIGERIA
+		owns_entire_state_region = STATE_BORNU
+		owns_entire_state_region = STATE_HAUSALAND
+		owns_entire_state_region = STATE_EAST_HAUSALAND
+	}
+}
+
+#Colony of Niger
+C2N = {
+	states = {
+		STATE_OUTER_HAUSALAND
+		STATE_NIGER
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_OUTER_HAUSALAND
+		owns_entire_state_region = STATE_NIGER
+	}
+}
+
+#Colony of Chad
+C5C = {
+	states = {
+		STATE_WADDAI
+		STATE_CHAD
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_WADDAI
+		owns_entire_state_region = STATE_CHAD
+	}
+}
+
+#Protectorate of Cameroon
+C2C = {
+	states = {
+		STATE_NORTH_CAMEROON
+		STATE_SOUTH_CAMEROON
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_NORTH_CAMEROON
+		owns_entire_state_region = STATE_SOUTH_CAMEROON
+	}
+}
+
+################################################
+
+### Colonial Region Nile Basin ###
+
+#Protectorate of Egypt
+C1E = {
+	states = {
+		STATE_LOWER_EGYPT
+		STATE_MIDDLE_EGYPT
+		STATE_UPPER_EGYPT
+		STATE_SINAI
+		STATE_EGYPTIAN_DESERT
+		STATE_MATRUH
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_LOWER_EGYPT
+		owns_entire_state_region = STATE_MIDDLE_EGYPT
+		owns_entire_state_region = STATE_UPPER_EGYPT
+		owns_entire_state_region = STATE_SINAI
+		owns_entire_state_region = STATE_EGYPTIAN_DESERT
+		owns_entire_state_region = STATE_MATRUH
+		NOR = {
+			AND = {
+				exists = c:ARA
+				this = c:ARA
+			}
+			AND = {
+				exists = c:TUR
+				this = c:TUR
+			}
+		}
+	}
+}
+
+#Protectorate of Sudan
+C2S = {
+	states = {
+		STATE_BLUE_NILE
+		STATE_DONGOLA
+		STATE_DARFUR
+		STATE_KORDOFAN
+		STATE_EQUATORIA
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_BLUE_NILE
+		owns_entire_state_region = STATE_DONGOLA
+		owns_entire_state_region = STATE_DARFUR
+		owns_entire_state_region = STATE_KORDOFAN
+		NOR = {
+			AND = {
+				exists = c:ARA
+				this = c:ARA
+			}
+			AND = {
+				exists = c:TUR
+				this = c:TUR
+			}
+		}
+	}
+}
+
+#Colonial South Sudan
+C5S = {
+	states = {
+		STATE_EQUATORIA
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_EQUATORIA
+	}
+}
+
+################################################
+
+### Ethiopia Region Countries ###
+
+#Colony of Ethiopia
+C2E = {
+	states = {
+		STATE_GONDER
+		STATE_AMHARA
+		STATE_OROMIA
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_GONDER
+		owns_entire_state_region = STATE_AMHARA
+		owns_entire_state_region = STATE_OROMIA
+	}
+}
+
+#Colony of Eritrea
+C3E = {
+	states = {
+		STATE_ERITREA
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_ERITREA
+	}
+}
+
+#Protectorate of Somaliland
+C1S = {
+	states = {
+		STATE_SOMALILAND
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_SOMALILAND
+	}
+}
+
+################################################
+
 #Hong Kong
 HGK = {
 	provinces = {
@@ -449,66 +760,6 @@ C1C = {
 	}
 	
 	ai_will_do = { always = no }
-}
-
-#Colonial Dahomey
-C1D = {
-	states = {
-		STATE_DAHOMEY
-	}
-
-	required_num_states = 1
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-	
-	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_DAHOMEY
-	}
-}
-
-#Protectorate of Egypt
-C1E = {
-	states = {
-		STATE_LOWER_EGYPT
-		STATE_MIDDLE_EGYPT
-		STATE_UPPER_EGYPT
-		STATE_SINAI
-		STATE_EGYPTIAN_DESERT
-		STATE_MATRUH
-	}
-
-	required_num_states = 1
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-	
-	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_LOWER_EGYPT
-		owns_entire_state_region = STATE_MIDDLE_EGYPT
-		owns_entire_state_region = STATE_UPPER_EGYPT
-		owns_entire_state_region = STATE_SINAI
-		owns_entire_state_region = STATE_EGYPTIAN_DESERT
-		owns_entire_state_region = STATE_MATRUH
-		NOR = {
-			AND = {
-				exists = c:ARA
-				this = c:ARA
-			}
-			AND = {
-				exists = c:TUR
-				this = c:TUR
-			}
-		}
-	}
 }
 
 #Falkland Islands
@@ -654,38 +905,6 @@ C1M = {
 	}
 }
 
-#Protectorate of Nigeria
-C1N = {
-	states = {
-		STATE_YORUBA_STATES
-		STATE_NIGER_DELTA
-		STATE_BENIN
-		STATE_NIGERIA
-		STATE_BORNU
-		STATE_HAUSALAND
-		STATE_EAST_HAUSALAND
-	}
-
-	required_num_states = 1
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-	
-	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_YORUBA_STATES
-		owns_entire_state_region = STATE_NIGER_DELTA
-		owns_entire_state_region = STATE_BENIN
-		owns_entire_state_region = STATE_NIGERIA
-		owns_entire_state_region = STATE_BORNU
-		owns_entire_state_region = STATE_HAUSALAND
-		owns_entire_state_region = STATE_EAST_HAUSALAND
-	}
-}
-
 #Colonial Oman
 C1O = {
 	states = {
@@ -763,26 +982,6 @@ C1R = {
 		can_have_subjects = yes
 		country_is_in_africa = no
 		owns_entire_state_region = STATE_ZAMBEZI
-	}
-}
-
-#Protectorate of Somaliland
-C1S = {
-	states = {
-		STATE_SOMALILAND
-	}
-
-	required_num_states = 1
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-	
-	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_SOMALILAND
 	}
 }
 
@@ -942,52 +1141,6 @@ C2B = {
 	ai_will_do = { always = no }
 }
 
-#Protectorate of Cameroon
-C2C = {
-	states = {
-		STATE_NORTH_CAMEROON
-		STATE_SOUTH_CAMEROON
-	}
-
-	required_num_states = 1
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-	
-	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_NORTH_CAMEROON
-		owns_entire_state_region = STATE_SOUTH_CAMEROON
-	}
-}
-
-#Colony of Ethiopia
-C2E = {
-	states = {
-		STATE_GONDER
-		STATE_AMHARA
-		STATE_OROMIA
-	}
-
-	required_num_states = 1
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-	
-	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_GONDER
-		owns_entire_state_region = STATE_AMHARA
-		owns_entire_state_region = STATE_OROMIA
-	}
-}
-
 #Colony of Madagascar
 C2M = {
 	states = {
@@ -1007,28 +1160,6 @@ C2M = {
 		country_is_in_africa = no
 		owns_entire_state_region = STATE_NORTH_MADAGASCAR
 		owns_entire_state_region = STATE_SOUTH_MADAGASCAR
-	}
-}
-
-#Colony of Niger
-C2N = {
-	states = {
-		STATE_OUTER_HAUSALAND
-		STATE_NIGER
-	}
-
-	required_num_states = 1
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-	
-	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_OUTER_HAUSALAND
-		owns_entire_state_region = STATE_NIGER
 	}
 }
 
@@ -1071,43 +1202,6 @@ C2R = {
 		country_is_in_africa = no
 		owns_entire_state_region = STATE_ZAMBIA
 		owns_entire_state_region = STATE_KAZEMBE
-	}
-}
-
-#Protectorate of Sudan
-C2S = {
-	states = {
-		STATE_BLUE_NILE
-		STATE_DONGOLA
-		STATE_DARFUR
-		STATE_KORDOFAN
-		STATE_EQUATORIA
-	}
-
-	required_num_states = 1
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-	
-	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_BLUE_NILE
-		owns_entire_state_region = STATE_DONGOLA
-		owns_entire_state_region = STATE_DARFUR
-		owns_entire_state_region = STATE_KORDOFAN
-		NOR = {
-			AND = {
-				exists = c:ARA
-				this = c:ARA
-			}
-			AND = {
-				exists = c:TUR
-				this = c:TUR
-			}
-		}
 	}
 }
 
@@ -1190,26 +1284,6 @@ C3C = {
 		owns_entire_state_region = STATE_KATANGA
 		owns_entire_state_region = STATE_EQUATEUR
 		owns_entire_state_region = STATE_CONGO_ORIENTALE
-	}
-}
-
-#Colony of Eritrea
-C3E = {
-	states = {
-		STATE_ERITREA
-	}
-
-	required_num_states = 1
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-	
-	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_ERITREA
 	}
 }
 
@@ -1343,26 +1417,6 @@ C4S = {
 	ai_will_do = { always = no }
 }
 
-#Colonial Togo
-C4T = {
-	states = {
-		STATE_TOGO
-	}
-
-	required_num_states = 1
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-
-	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_TOGO
-	}
-}
-
 #Colonial Australia
 C5A = {
 	states = {
@@ -1392,48 +1446,6 @@ C5A = {
 		owns_entire_state_region = STATE_TASMANIA
 		owns_entire_state_region = STATE_VICTORIA
 		owns_entire_state_region = STATE_WESTERN_AUSTRALIA
-	}
-}
-
-#Colony of Chad
-C5C = {
-	states = {
-		STATE_WADDAI
-		STATE_CHAD
-	}
-
-	required_num_states = 1
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-	
-	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_WADDAI
-		owns_entire_state_region = STATE_CHAD
-	}
-}
-
-#Colonial South Sudan
-C5S = {
-	states = {
-		STATE_EQUATORIA
-	}
-
-	required_num_states = 1
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-
-	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_EQUATORIA
 	}
 }
 
