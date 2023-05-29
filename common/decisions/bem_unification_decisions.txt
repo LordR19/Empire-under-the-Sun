@@ -136,7 +136,7 @@ unite_colonies_maghreb_decision = {
 	}
 
 	ai_chance = { #needs to be tested first
-		base = 0
+		base = 100
 		modifier = {
 			trigger = {
 				OR = {
@@ -254,7 +254,7 @@ unite_colonies_west_africa_decision = {
 	}
 
 	ai_chance = { #needs to be tested first
-		base = 0
+		base = 100
 		modifier = {
 			trigger = {
 				OR = {
@@ -372,7 +372,7 @@ unite_colonies_greater_nigeria_decision = {
 	}
 
 	ai_chance = { #needs to be tested first
-		base = 0
+		base = 100
 		modifier = {
 			trigger = {
 				OR = {
@@ -490,7 +490,7 @@ unite_colonies_greater_egypt_decision = {
 	}
 
 	ai_chance = { #needs to be tested first
-		base = 0
+		base = 100
 		modifier = {
 			trigger = {
 				OR = {
@@ -608,7 +608,7 @@ unite_colonies_greater_ethiopia_decision = {
 	}
 
 	ai_chance = { #needs to be tested first
-		base = 0
+		base = 100
 		modifier = {
 			trigger = {
 				OR = {
@@ -726,7 +726,7 @@ unite_colonies_zanj_decision = {
 	}
 
 	ai_chance = { #needs to be tested first
-		base = 0
+		base = 100
 		modifier = {
 			trigger = {
 				OR = {
@@ -844,7 +844,7 @@ unite_colonies_congo_decision = {
 	}
 
 	ai_chance = { #needs to be tested first
-		base = 0
+		base = 100
 		modifier = {
 			trigger = {
 				OR = {
@@ -962,7 +962,7 @@ unite_colonies_south_africa_decision = {
 	}
 
 	ai_chance = { #needs to be tested first
-		base = 0
+		base = 100
 		modifier = {
 			trigger = {
 				OR = {
