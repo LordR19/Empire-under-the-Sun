@@ -71,6 +71,10 @@ bem_colonial_nation_trigger = {
 			exists = c:C3S
 			this = c:C3S
 		}
+		AND = { #Colonial Senegal AI
+			exists = c:C3S_AI
+			this = c:C3S_AI
+		}
 		AND = { #Colonial Guinea
 			exists = c:C2G
 			this = c:C2G
@@ -143,8 +147,8 @@ bem_colonial_nation_trigger = {
 		}
 		### Ethiopia Region Countries ###
 		AND = { #Colonial Greater Ethiopia
-			exists = c:CGE_colonial_greater_ethiopia
-			this = c:CGE_colonial_greater_ethiopia
+			exists = c:CET_colonial_greater_ethiopia
+			this = c:CET_colonial_greater_ethiopia
 		}
 		AND = { #Colonial Ethiopia
 			exists = c:C2E
@@ -461,6 +465,10 @@ bem_colonial_nation_west_africa_trigger = {
 		AND = { #Colonial Senegal
 			exists = c:C3S
 			this = c:C3S
+		}
+		AND = { #Colonial Senegal AI
+			exists = c:C3S_AI
+			this = c:C3S_AI
 		}
 		AND = { #Colonial Guinea
 			exists = c:C2G
