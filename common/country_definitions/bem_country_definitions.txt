@@ -575,7 +575,7 @@ CGC_colonial_greater_congo = {
 
 	cultures = { british }
 	
-	capital = STATE_CONGO
+	capital = STATE_BAS_CONGO
 	
 }
 

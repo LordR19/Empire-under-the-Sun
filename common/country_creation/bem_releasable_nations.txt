@@ -8,8 +8,6 @@ C1L = {
 		STATE_LIBYAN_DESERT
 	}
 
-	required_num_states = 1
-
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
 	}
@@ -39,8 +37,6 @@ C3T = {
 	states = {
 		STATE_TUNISIA
 	}
-
-	required_num_states = 1
 
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
@@ -73,8 +69,6 @@ C3A = {
 		STATE_SAHARA
 		STATE_ORAN
 	}
-
-	required_num_states = 1
 
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
@@ -111,8 +105,6 @@ C5M = {
 		STATE_AL_RIF
 	}
 
-	required_num_states = 1
-
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
 	}
@@ -143,8 +135,6 @@ C2W = {
 	states = {
 		STATE_WEST_SAHARA
 	}
-
-	required_num_states = 1
 
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
@@ -179,8 +169,6 @@ C6M = {
 		STATE_INNER_MAURITANIA
 	}
 
-	required_num_states = 1
-
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
 	}
@@ -201,8 +189,6 @@ C3S = {
 		STATE_GAMBIA
 	}
 
-	required_num_states = 1
-
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
 	}
@@ -222,8 +208,6 @@ C2G = {
 		STATE_GUINEA
 		STATE_SIERRA_LEONE
 	}
-
-	required_num_states = 1
 
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
@@ -246,8 +230,6 @@ C4M = {
 		STATE_TIMBUKTU
 	}
 
-	required_num_states = 1
-
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
 	}
@@ -268,8 +250,6 @@ C3P = {
 		STATE_LIBERIA
 	}
 
-	required_num_states = 1
-
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
 	}
@@ -288,8 +268,6 @@ C2I = {
 		STATE_IVORY_COAST
 		STATE_WINDWARD_COAST
 	}
-
-	required_num_states = 1
 
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
@@ -310,8 +288,6 @@ C1V = {
 		STATE_VOLTA
 	}
 
-	required_num_states = 1
-
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
 	}
@@ -329,8 +305,6 @@ C3G = {
 	states = {
 		STATE_GHANA
 	}
-
-	required_num_states = 1
 
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
@@ -354,8 +328,6 @@ C4T = {
 		STATE_TOGO
 	}
 
-	required_num_states = 1
-
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
 	}
@@ -373,8 +345,6 @@ C1D = {
 	states = {
 		STATE_DAHOMEY
 	}
-
-	required_num_states = 1
 
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
@@ -399,8 +369,6 @@ C1N = {
 		STATE_HAUSALAND
 		STATE_EAST_HAUSALAND
 	}
-
-	required_num_states = 1
 
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
@@ -427,8 +395,6 @@ C2N = {
 		STATE_NIGER
 	}
 
-	required_num_states = 1
-
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
 	}
@@ -449,8 +415,6 @@ C5C = {
 		STATE_CHAD
 	}
 
-	required_num_states = 1
-
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
 	}
@@ -470,8 +434,6 @@ C2C = {
 		STATE_NORTH_CAMEROON
 		STATE_SOUTH_CAMEROON
 	}
-
-	required_num_states = 1
 
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
@@ -500,8 +462,6 @@ C1E = {
 		STATE_EGYPTIAN_DESERT
 		STATE_MATRUH
 	}
-
-	required_num_states = 1
 
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
@@ -540,8 +500,6 @@ C2S = {
 		STATE_EQUATORIA
 	}
 
-	required_num_states = 1
-
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
 	}
@@ -573,8 +531,6 @@ C5S = {
 		STATE_EQUATORIA
 	}
 
-	required_num_states = 1
-
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
 	}
@@ -599,8 +555,6 @@ C2E = {
 		STATE_OROMIA
 	}
 
-	required_num_states = 1
-
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
 	}
@@ -621,8 +575,6 @@ C3E = {
 		STATE_ERITREA
 	}
 
-	required_num_states = 1
-
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
 	}
@@ -640,8 +592,6 @@ C1S = {
 	states = {
 		STATE_SOMALILAND
 	}
-
-	required_num_states = 1
 
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
@@ -665,8 +615,6 @@ C1U = {
 		STATE_UGANDA
 	}
 
-	required_num_states = 1
-
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
 	}
@@ -685,8 +633,6 @@ C1K = {
 		STATE_KENYA
 		STATE_RIFT_VALLEY
 	}
-
-	required_num_states = 1
 
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
@@ -708,8 +654,6 @@ C1T = {
 		STATE_LINDI
 		STATE_TANGANYIKA
 	}
-
-	required_num_states = 1
 
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
@@ -733,8 +677,6 @@ C1M = {
 		STATE_LOURENCO_MARQUES
 	}
 
-	required_num_states = 1
-
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
 	}
@@ -755,8 +697,6 @@ C2M = {
 		STATE_NORTH_MADAGASCAR
 		STATE_SOUTH_MADAGASCAR
 	}
-
-	required_num_states = 1
 
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
@@ -781,8 +721,6 @@ C1G = {
 		STATE_GABON
 	}
 
-	required_num_states = 1
-
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
 	}
@@ -801,8 +739,6 @@ C3M = {
 		STATE_CONGO
 	}
 
-	required_num_states = 1
-
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
 	}
@@ -820,8 +756,6 @@ C4C = {
 	states = {
 		STATE_UBANGI_SHARI
 	}
-
-	required_num_states = 1
 
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
@@ -844,8 +778,6 @@ C3C = {
 		STATE_EQUATEUR
 		STATE_CONGO_ORIENTALE
 	}
-
-	required_num_states = 1
 
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
@@ -871,8 +803,6 @@ C2A = {
 		STATE_EAST_ANGOLA
 	}
 
-	required_num_states = 1
-
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
 	}
@@ -893,8 +823,6 @@ C2R = {
 		STATE_ZAMBIA
 		STATE_KAZEMBE
 	}
-
-	required_num_states = 1
 
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
@@ -920,8 +848,6 @@ C1W = {
 		STATE_HEREROLAND
 	}
 
-	required_num_states = 1
-
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
 	}
@@ -941,8 +867,6 @@ C1B = {
 		STATE_BOTSWANA
 	}
 
-	required_num_states = 1
-
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
 	}
@@ -960,8 +884,6 @@ C1R = {
 	states = {
 		STATE_ZAMBEZI
 	}
-
-	required_num_states = 1
 
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
@@ -982,8 +904,6 @@ C5T = {
 		STATE_VRYSTAAT
 		STATE_ZULULAND
 	}
-
-	required_num_states = 1
 
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
@@ -1006,8 +926,6 @@ C6C = {
 		STATE_EASTERN_CAPE
 		STATE_NORTHERN_CAPE
 	}
-
-	required_num_states = 1
 
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
@@ -1101,8 +1019,6 @@ C1C = {
 		STATE_CYPRUS
 	}
 
-	required_num_states = 1
-
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
 	}
@@ -1128,8 +1044,6 @@ C1H = {
 	states = {
 		STATE_HEDJAZ
 	}
-
-	required_num_states = 1
 
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
@@ -1161,8 +1075,6 @@ C1I = {
 		STATE_BASRA
 	}
 
-	required_num_states = 1
-
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
 	}
@@ -1193,8 +1105,6 @@ C1O = {
 		STATE_OMAN
 	}
 
-	required_num_states = 1
-
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
 	}
@@ -1222,8 +1132,6 @@ C1P = {
 	states = {
 		STATE_PALESTINE
 	}
-
-	required_num_states = 1
 
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
@@ -1282,8 +1190,6 @@ C1Z = {
 		STATE_SOUTH_ISLAND
 	}
 
-	required_num_states = 1
-
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
 	}
@@ -1303,8 +1209,6 @@ C2B = {
 		STATE_BERMUDA
 	}
 
-	required_num_states = 1
-
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
 	}
@@ -1317,8 +1221,6 @@ C2P = {
 	states = {
 		STATE_EASTERN_NEW_GUINEA
 	}
-
-	required_num_states = 1
 
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
@@ -1337,8 +1239,6 @@ C2T = {
 	states = {
 		STATE_TRANSJORDAN
 	}
-
-	required_num_states = 1
 
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
@@ -1370,8 +1270,6 @@ C3B = {
 		STATE_NORTH_BORNEO
 	}
 
-	required_num_states = 1
-
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
 	}
@@ -1398,8 +1296,6 @@ C3I = {
 		STATE_SUNDA_ISLANDS
 	}
 
-	required_num_states = 1
-
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
 	}
@@ -1424,8 +1320,6 @@ C4A = {
 		STATE_HAIL
 		STATE_NEJD
 	}
-
-	required_num_states = 1
 
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
@@ -1488,8 +1382,6 @@ C5A = {
 		STATE_WESTERN_AUSTRALIA
 	}
 
-	required_num_states = 1
-
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
 	}
@@ -1514,8 +1406,6 @@ C7C = {
 		STATE_CEYLON
 	}
 
-	required_num_states = 1
-
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
 	}
@@ -1533,8 +1423,6 @@ C7M = {
 	states = {
 		STATE_MALAYA
 	}
-
-	required_num_states = 1
 
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
@@ -1661,8 +1549,6 @@ CIC_colonial_burma = {
 		STATE_SHAN_STATES
 		STATE_TENASSERIM
 	}
-
-	required_num_states = 1
 
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
