@@ -518,10 +518,10 @@ bem_create_colonial_morocco = {
 			if = {
 				limit = { #Fires if there is no subject yet
 					OR = {
-						NOT = { exists = c:C3A_AI}
+						NOT = { exists = c:C5M_AI}
 						AND = {
-							exists = c:C3A_AI
-							NOT = { c:C3A_AI = { is_direct_subject_of = root } }
+							exists = c:C5M_AI
+							NOT = { c:C5M_AI = { is_direct_subject_of = root } }
 						}
 					}
 				}
@@ -547,7 +547,7 @@ bem_create_colonial_morocco = {
 
 				#Creates a new subject if there is none yet
 				create_country = {
-					tag = C3A_AI
+					tag = C5M_AI
 					origin = this
 					state = scope:bem_primary_state
 
