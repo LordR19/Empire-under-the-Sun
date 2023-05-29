@@ -1,4 +1,34 @@
-﻿C4M = { # Colony of Mali
+﻿# Colony of Mali
+C4M = {
+	dynamic_country_name = {
+		name = dyn_c_default_mali
+		adjective = dyn_c_default_mali_adj
+
+		is_main_tag_only = no
+		priority = 1
+		
+		trigger = {
+			always = yes
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_colony_of_mali
+		adjective = dyn_c_colony_of_mali_adj
+
+		is_main_tag_only = no
+		priority = 10
+		
+		trigger = {
+			scope:actor = {
+				is_subject = yes
+			}
+		}
+	}
+}
+
+# Colony of Mali AI
+C4M_AI = {
 	dynamic_country_name = {
 		name = dyn_c_default_mali
 		adjective = dyn_c_default_mali_adj

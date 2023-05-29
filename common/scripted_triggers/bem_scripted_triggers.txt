@@ -79,25 +79,49 @@ bem_colonial_nation_trigger = {
 			exists = c:C2G
 			this = c:C2G
 		}
+		AND = { #Colonial Guinea AI
+			exists = c:C2G_AI
+			this = c:C2G_AI
+		}
 		AND = { #Colonial Mali
 			exists = c:C4M
 			this = c:C4M
+		}
+		AND = { #Colonial Mali AI
+			exists = c:C4M_AI
+			this = c:C4M_AI
 		}
 		AND = { #Colonial Pepper Coeast
 			exists = c:C3P
 			this = c:C3P
 		}
+		AND = { #Colonial Pepper Coeast AI
+			exists = c:C3P_AI
+			this = c:C3P_AI
+		}
 		AND = { #Ivory Coast
 			exists = c:C2I
 			this = c:C2I
+		}
+		AND = { #Ivory Coast AI
+			exists = c:C2I_AI
+			this = c:C2I_AI
 		}
 		AND = { #Upper Volta
 			exists = c:C1V
 			this = c:C1V
 		}
+		AND = { #Upper Volta AI
+			exists = c:C1V_AI
+			this = c:C1V_AI
+		}
 		AND = { #Colonial Gold Coast
 			exists = c:C3G
 			this = c:C3G
+		}
+		AND = { #Colonial Gold Coast AI
+			exists = c:C3G_AI
+			this = c:C3G_AI
 		}
 		### Niger River Countries ###
 		AND = { #Colonial Greater Nigeria
@@ -474,25 +498,49 @@ bem_colonial_nation_west_africa_trigger = {
 			exists = c:C2G
 			this = c:C2G
 		}
+		AND = { #Colonial Guinea AI
+			exists = c:C2G_AI
+			this = c:C2G_AI
+		}
 		AND = { #Colonial Mali
 			exists = c:C4M
 			this = c:C4M
+		}
+		AND = { #Colonial Mali AI
+			exists = c:C4M_AI
+			this = c:C4M_AI
 		}
 		AND = { #Colonial Pepper Coeast
 			exists = c:C3P
 			this = c:C3P
 		}
+		AND = { #Colonial Pepper Coeast AI
+			exists = c:C3P_AI
+			this = c:C3P_AI
+		}
 		AND = { #Ivory Coast
 			exists = c:C2I
 			this = c:C2I
+		}
+		AND = { #Ivory Coast AI
+			exists = c:C2I_AI
+			this = c:C2I_AI
 		}
 		AND = { #Upper Volta
 			exists = c:C1V
 			this = c:C1V
 		}
+		AND = { #Upper Volta AI
+			exists = c:C1V_AI
+			this = c:C1V_AI
+		}
 		AND = { #Colonial Gold Coast
 			exists = c:C3G
 			this = c:C3G
+		}
+		AND = { #Colonial Gold Coast AI
+			exists = c:C3G_AI
+			this = c:C3G_AI
 		}
 	}
 }

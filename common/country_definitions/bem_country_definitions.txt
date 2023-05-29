@@ -259,8 +259,38 @@ C2G = {
 
 }
 
+#Colonial Guinea
+C2G_AI = {
+
+	color = { 252 252 112 }
+
+	country_type = colonial
+
+	tier = principality
+
+	cultures = { british }
+
+	capital = STATE_GUINEA
+
+}
+
 #Colony of Mali
 C4M = {
+
+	color = { 20 181 58  }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_WESTERN_MALI
+	
+}
+
+#Colony of Mali AI
+C4M_AI = {
 
 	color = { 20 181 58  }
 	
@@ -289,8 +319,38 @@ C3P = {
 
 }
 
+#Colonial Pepper Coast AI
+C3P_AI = {
+
+	color = { 123 11 4 }
+
+	country_type = colonial
+
+	tier = principality
+
+	cultures = { british }
+
+	capital = STATE_LIBERIA
+
+}
+
 #Colonial Ivory Coast
 C2I = {
+
+	color = { 0 250 147 }
+
+	country_type = colonial
+
+	tier = principality
+
+	cultures = { british }
+
+	capital = STATE_IVORY_COAST
+
+}
+
+#Colonial Ivory Coast AI
+C2I_AI = {
 
 	color = { 0 250 147 }
 
@@ -319,8 +379,38 @@ C1V = {
 
 }
 
+#Colonial Upper Volta AI
+C1V_AI = {
+
+	color = { 235 34 4 }
+
+	country_type = colonial
+
+	tier = principality
+
+	cultures = { british }
+
+	capital = STATE_VOLTA
+
+}
+
 #Colonial Gold Coast
 C3G = {
+
+	color = { 42 52 52 }
+
+	country_type = colonial
+
+	tier = principality
+
+	cultures = { british }
+
+	capital = STATE_GHANA
+
+}
+
+#Colonial Gold Coast AI
+C3G_AI = {
 
 	color = { 42 52 52 }
 
