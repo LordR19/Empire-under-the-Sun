@@ -466,6 +466,8 @@
 
  C6M: "Colonial Mauritania"
  C6M_ADJ: "Mauritanian"
+ C6M_AI: "Colonial Mauritania"
+ C6M_AI_ADJ: "Mauritanian"
  dyn_c_default_mauritania: "Mauritania"
  dyn_c_default_mauritania_adj: "Mauritanian"
  dyn_c_colony_of_mauritania: "[Country.GetOverlord.GetAdjectiveNoFormatting] Mauritania"
@@ -811,16 +813,19 @@
 
 #AI decisions
  bem_create_colonial_libya: "AI decision Libya"
- bem_create_colonial_libya_desc: "AI decision for Libya to create colony. #n Should not be visible!#!"
+ bem_create_colonial_libya_desc: "AI decision to create a colony in Libya. #n Should not be visible!#!"
 
  bem_create_colonial_tunisia: "AI decision Tunisia"
- bem_create_colonial_tunisia_desc: "AI decision for Tunisia to create colony. #n Should not be visible!#!"
+ bem_create_colonial_tunisia_desc: "AI decision to create a colony in Tunisia. #n Should not be visible!#!"
 
  bem_create_colonial_algeria: "AI decision Algeria"
- bem_create_colonial_algeria_desc: "AI decision for Algeria to create colony. #n Should not be visible!#!"
+ bem_create_colonial_algeria_desc: "AI decision to create a colony in Algeria. #n Should not be visible!#!"
 
  bem_create_colonial_west_sahara: "AI decision West Sahara"
- bem_create_colonial_west_sahara_desc: "AI decision for West Sahara to create colony. #n Should not be visible!#!"
+ bem_create_colonial_west_sahara_desc: "AI decision to create a colony in West Sahara. #n Should not be visible!#!"
 
  bem_create_colonial_morocco: "AI decision Morocco"
- bem_create_colonial_morocco_desc: "AI decision for Morocco to create colony. #n Should not be visible!#!"
+ bem_create_colonial_morocco_desc: "AI decision to create a colony in Morocco. #n Should not be visible!#!"
+
+ bem_create_colonial_mauritania: "AI decision Mauritania"
+ bem_create_colonial_mauritania_desc: "AI decision to create a colony in Mauritania. #n Should not be visible!#!"

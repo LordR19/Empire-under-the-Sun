@@ -199,6 +199,21 @@ C6M = {
 	
 }
 
+#Colonial Mauritania AI
+C6M_AI = {
+
+	color = { 208 28 31  }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_MAURITANIA
+	
+}
+
 #Colonial Senegal
 C3S = {
 

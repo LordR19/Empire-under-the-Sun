@@ -100,11 +100,7 @@ C6M = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_MAURITANIA
-		owns_entire_state_region = STATE_INNER_MAURITANIA
+		always = no
 	}
 }
 
