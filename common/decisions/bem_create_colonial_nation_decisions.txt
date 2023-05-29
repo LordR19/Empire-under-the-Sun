@@ -1,0 +1,139 @@
+﻿bem_create_colonial_libya = {
+	is_shown = {
+		has_game_rule = bem_colonial_nations_release
+		country_is_in_africa = no
+		is_ai = yes
+		any_scope_state = {
+			OR = {
+				state_region = s:STATE_TRIPOLI
+				state_region = s:STATE_LIBYA
+				state_region = s:STATE_LIBYAN_DESERT
+			}
+		}
+		s:STATE_TRIPOLI = {
+			any_scope_state = {
+				NOT = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_LIBYA = {
+			any_scope_state = {
+				NOT = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_LIBYAN_DESERT = {
+			any_scope_state = {
+				NOT = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+	}
+
+	possible = {
+		always = yes
+	}
+
+	when_taken = {
+		hidden_effect = {
+			if = {
+				limit = { #Fires if there is no subject yet
+					OR = {
+						NOT = { exists = c:C1L}
+						AND = {
+							exists = c:C1L
+							NOT = { c:C1L = { is_direct_subject_of = root } }
+						}
+					}
+				}
+
+				#Sets the Releasing Country as a global variable to be accessible in the on_created
+				set_global_variable = {
+					name = bem_colonizer_global_var
+					value = root
+				}
+
+				#This is needed to set a state for country creation
+				random_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_TRIPOLI
+							state_region = s:STATE_LIBYA
+							state_region = s:STATE_LIBYAN_DESERT
+						}
+					}
+					save_scope_as = bem_primary_state
+				}
+
+				#Creates a new subject if there is none yet
+				create_country = {
+					tag = C1L
+					origin = this
+					state = scope:bem_primary_state
+
+					on_created = {
+						#Used to be able to get exactly this version of the tag
+						set_global_variable = {
+							name = bem_colony_global_var
+							value = prev
+						}
+
+						bem_colony_set_up_effect = yes
+					}
+				}
+
+				create_diplomatic_pact = {
+					country = global_var:bem_colony_global_var
+					type = bem_colony
+				}
+
+				every_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_TRIPOLI
+							state_region = s:STATE_LIBYA
+							state_region = s:STATE_LIBYAN_DESERT
+						}
+					}
+					set_state_owner = global_var:bem_colony_global_var
+				}
+	
+				remove_global_variable = bem_colony_global_var
+				remove_global_variable = bem_colonizer_global_var
+			}
+			else = {
+				random_subject_or_below  = {
+					limit = {
+						is_subject_type = subject_type_bem_colony
+						OR = {
+							has_state_in_state_region = STATE_TRIPOLI
+							has_state_in_state_region = STATE_LIBYA
+							has_state_in_state_region = STATE_LIBYAN_DESERT
+						}
+					}
+					save_scope_as = bem_colony_scope
+				}
+				every_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_TRIPOLI
+							state_region = s:STATE_LIBYA
+							state_region = s:STATE_LIBYAN_DESERT
+						}
+					}
+					set_state_owner = scope:bem_colony_scope
+				}
+			}
+		}
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}

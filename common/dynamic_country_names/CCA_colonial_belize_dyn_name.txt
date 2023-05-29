@@ -23,7 +23,7 @@ CCA_colonial_belize = {
 				AND = {
 					exists = c:GBR
 					NOT = {
-						is_subject_of = c:GBR
+						is_direct_subject_of  = c:GBR
 					}
 				}
 			}
@@ -41,7 +41,7 @@ CCA_colonial_belize = {
 			scope:actor = {
 				is_subject = yes
 				exists = c:GBR
-				is_subject_of = c:GBR
+				is_direct_subject_of  = c:GBR
 			}
 		}
 	}

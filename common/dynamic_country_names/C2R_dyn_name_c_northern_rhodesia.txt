@@ -22,7 +22,7 @@
 			exists = c:GBR
 			NOT = {
 				scope:actor = {
-					is_subject_of = c:GBR
+					is_direct_subject_of  = c:GBR
 				}
 			}
 		}
@@ -38,7 +38,7 @@
 		trigger = {
 			scope:actor = {
 				exists = c:GBR
-				is_subject_of = c:GBR
+				is_direct_subject_of  = c:GBR
 			}
 		}
 	}

@@ -24,7 +24,7 @@
 				AND = {
 					exists = c:POR
 					NOT = {
-						is_subject_of = c:POR
+						is_direct_subject_of  = c:POR
 					}
 				}
 			}

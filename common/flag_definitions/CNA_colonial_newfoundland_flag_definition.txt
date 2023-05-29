@@ -40,7 +40,7 @@ CNA_colonial_newfoundland = {
 		trigger = { 
 			exists = c:GBR
 			scope:actor = {
-				is_subject_of = c:GBR
+				is_direct_subject_of  = c:GBR
 			}
 		}
 	}
@@ -53,7 +53,7 @@ CNA_colonial_newfoundland = {
 		trigger = { 
 			exists = c:ITA
 			scope:actor = {
-				is_subject_of = c:ITA
+				is_direct_subject_of  = c:ITA
 			}
 		}
 	}
@@ -66,7 +66,7 @@ CNA_colonial_newfoundland = {
 		trigger = { 
 			exists = c:FRA
 			scope:actor = {
-				is_subject_of = c:FRA
+				is_direct_subject_of  = c:FRA
 			}
 		}
 	}

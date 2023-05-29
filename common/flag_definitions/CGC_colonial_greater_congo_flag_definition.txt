@@ -39,7 +39,7 @@ CGC_colonial_greater_congo = {
 		trigger = { 
 			exists = c:GBR
 			scope:actor = {
-				is_subject_of = c:GBR
+				is_direct_subject_of  = c:GBR
 			}
 		}
 	}
@@ -52,7 +52,7 @@ CGC_colonial_greater_congo = {
 		trigger = { 
 			exists = c:ITA
 			scope:actor = {
-				is_subject_of = c:ITA
+				is_direct_subject_of  = c:ITA
 			}
 		}
 	}
@@ -65,7 +65,7 @@ CGC_colonial_greater_congo = {
 		trigger = { 
 			exists = c:FRA
 			scope:actor = {
-				is_subject_of = c:FRA
+				is_direct_subject_of  = c:FRA
 			}
 		}
 	}

@@ -61,7 +61,7 @@ dynamic_country_name = {
 			is_subject = yes
 			exists = c:NET
 			NOT = {
-				is_subject_of = c:NET
+				is_direct_subject_of  = c:NET
 			}
 		}
 	}
@@ -110,7 +110,7 @@ BIC = { # British East India Company
 				is_subject = yes
 				exists = c:GBR
 				NOT = {
-					is_subject_of = c:GBR
+					is_direct_subject_of  = c:GBR
 				}
 			}
 		}

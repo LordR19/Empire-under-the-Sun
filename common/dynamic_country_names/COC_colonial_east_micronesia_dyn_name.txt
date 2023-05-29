@@ -23,7 +23,7 @@ COC_colonial_east_micronesia = {
 				AND = {
 					exists = c:GBR
 					NOT = {
-						is_subject_of = c:GBR
+						is_direct_subject_of  = c:GBR
 					}
 				}
 			}
@@ -41,7 +41,7 @@ COC_colonial_east_micronesia = {
 			scope:actor = {
 				is_subject = yes
 				exists = c:GBR
-				is_subject_of = c:GBR
+				is_direct_subject_of  = c:GBR
 			}
 		}
 	}
