@@ -229,6 +229,21 @@ C3S = {
 
 }
 
+#Colonial Senegal AI
+C3S_AI = {
+
+	color = { 0 133 63 }
+
+	country_type = colonial
+
+	tier = principality
+
+	cultures = { british }
+
+	capital = STATE_SENEGAL
+
+}
+
 #Colonial Guinea
 C2G = {
 

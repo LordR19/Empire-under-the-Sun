@@ -116,11 +116,7 @@ C3S = {
 	}
 
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_SENEGAL
-		owns_entire_state_region = STATE_GAMBIA
+		always = no
 	}
 }
 
