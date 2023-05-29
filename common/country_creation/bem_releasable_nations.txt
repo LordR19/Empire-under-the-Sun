@@ -13,22 +13,7 @@ C1L = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_TRIPOLI
-		owns_entire_state_region = STATE_LIBYA
-		owns_entire_state_region = STATE_LIBYAN_DESERT
-		NOR = {
-			AND = {
-				exists = c:ARA
-				this = c:ARA
-			}
-			AND = {
-				exists = c:TUR
-				this = c:TUR
-			}
-		}
+		always = no
 	}
 }
 
@@ -43,20 +28,7 @@ C3T = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_TUNISIA
-		NOR = {
-			AND = {
-				exists = c:ARA
-				this = c:ARA
-			}
-			AND = {
-				exists = c:TUR
-				this = c:TUR
-			}
-		}
+		always = no
 	}
 }
 
@@ -75,24 +47,7 @@ C3A = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_ALGIERS
-		owns_entire_state_region = STATE_CONSTANTINE
-		owns_entire_state_region = STATE_EAST_SAHARA
-		owns_entire_state_region = STATE_SAHARA
-		owns_entire_state_region = STATE_ORAN
-		NOR = {
-			AND = {
-				exists = c:ARA
-				this = c:ARA
-			}
-			AND = {
-				exists = c:TUR
-				this = c:TUR
-			}
-		}
+		always = no
 	}
 }
 
@@ -110,23 +65,7 @@ C5M = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_MARRAKECH
-		owns_entire_state_region = STATE_FEZ
-		owns_entire_state_region = STATE_INNER_MOROCCO
-		owns_entire_state_region = STATE_AL_RIF
-		NOR = {
-			AND = {
-				exists = c:ARA
-				this = c:ARA
-			}
-			AND = {
-				exists = c:TUR
-				this = c:TUR
-			}
-		}
+		always = no
 	}
 }
 
@@ -141,20 +80,7 @@ C2W = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_WEST_SAHARA
-		NOR = {
-			AND = {
-				exists = c:ARA
-				this = c:ARA
-			}
-			AND = {
-				exists = c:TUR
-				this = c:TUR
-			}
-		}
+		always = no
 	}
 }
 

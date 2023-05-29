@@ -1,15 +1,28 @@
-﻿bem_create_colonial_libya = {
-	is_shown = {
-		has_game_rule = bem_colonial_nations_release
-		country_is_in_africa = no
+﻿bem_create_colonial_libya = { #This code creates a colonial nation for the AI
+	is_shown = { #I tried to order the triggers logically to reduce the calculations
+		has_game_rule = bem_colonial_nations_release #Only used when the game rule is activated
+		OR = { is_country_type = recognized is_country_type = colonial } #Unrecognized countries tend to lose the subjects on creation
+		country_is_in_africa = no #African Countries shouldn't release colonies in Africa
+		NOR = {
+			AND = { #Arabia shouldn't release those countries, even if the capital is not in Africa
+				exists = c:ARA
+				this = c:ARA
+			}
+			AND = { #Turkey shouldn't release those countries, even if the capital is not in Africa
+				exists = c:TUR
+				this = c:TUR
+			}
+		}
 		is_ai = yes
 		any_scope_state = {
-			OR = {
+			OR = { #Checks if there are any states of root in Libya.
 				state_region = s:STATE_TRIPOLI
 				state_region = s:STATE_LIBYA
 				state_region = s:STATE_LIBYAN_DESERT
 			}
 		}
+		#checks if there are any decentralized countries in Libya or in a neighbouring state
+		#This is needed as you can't colonize provinces that are only accessible through your subjects
 		s:STATE_TRIPOLI = {
 			any_scope_state = {
 				NOT = {
@@ -44,11 +57,303 @@
 		hidden_effect = {
 			if = {
 				limit = { #Fires if there is no subject yet
-					OR = {
-						NOT = { exists = c:C1L}
+					OR = { #This part checks if Libya does either not exist or is not a subject of root (e.g British Libya but root is France)
+						NOT = { exists = c:C1L_AI}
 						AND = {
-							exists = c:C1L
-							NOT = { c:C1L = { is_direct_subject_of = root } }
+							exists = c:C1L_AI
+							NOT = { c:C1L_AI = { is_direct_subject_of = root } }
+						}
+					}
+				}
+
+				#Sets the Releasing Country as a global variable to be accessible in the on_created
+				#I noticed that in this case scopes do not work both inside and outside the on_created, so I had to improvise
+				set_global_variable = {
+					name = bem_colonizer_global_var
+					value = root
+				}
+
+				#This is needed to set a state for country creation
+				#It just chooses a random state to create the country in. Afterwards all the states get assigned.
+				random_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_TRIPOLI
+							state_region = s:STATE_LIBYA
+							state_region = s:STATE_LIBYAN_DESERT
+						}
+					}
+					save_scope_as = bem_primary_state
+				}
+
+				#Creates a new subject if there is none yet
+				#You can create multiple copies of the same tag and it works fine.
+				create_country = {
+					tag = C1L_AI
+					origin = this
+					state = scope:bem_primary_state
+
+					on_created = {
+						#Used to be able to get exactly this version of the tag
+						#In case there are multiple
+						set_global_variable = {
+							name = bem_colony_global_var
+							value = prev
+						}
+
+						bem_colony_set_up_effect = yes
+					}
+				}
+
+				#This part makes the new colonial nation an actual colony.
+				create_diplomatic_pact = {
+					country = global_var:bem_colony_global_var
+					type = bem_colony
+				}
+
+				#This switches the owner of all root states to the new colonial nation.
+				every_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_TRIPOLI
+							state_region = s:STATE_LIBYA
+							state_region = s:STATE_LIBYAN_DESERT
+						}
+					}
+					set_state_owner = global_var:bem_colony_global_var
+				}
+	
+				#For safety I remove the two global variables here. Otherwise it might interfere with other decisions.
+				remove_global_variable = bem_colony_global_var
+				remove_global_variable = bem_colonizer_global_var
+			}
+			#This just adds the states to the colonial nation if it already exists
+			else = {
+				random_subject_or_below  = {
+					limit = {
+						is_subject_type = subject_type_bem_colony
+						OR = {
+							has_state_in_state_region = STATE_TRIPOLI
+							has_state_in_state_region = STATE_LIBYA
+							has_state_in_state_region = STATE_LIBYAN_DESERT
+						}
+					}
+					save_scope_as = bem_colony_scope
+				}
+				every_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_TRIPOLI
+							state_region = s:STATE_LIBYA
+							state_region = s:STATE_LIBYAN_DESERT
+						}
+					}
+					set_state_owner = scope:bem_colony_scope
+				}
+			}
+		}
+	}
+	
+	ai_chance = { #AI should always do this if it meets the condition of the is_shown
+		base = 100
+	}
+}
+
+bem_create_colonial_tunisia = {
+	is_shown = {
+		has_game_rule = bem_colonial_nations_release
+		OR = { is_country_type = recognized is_country_type = colonial }
+		country_is_in_africa = no
+		NOR = {
+			AND = {
+				exists = c:ARA
+				this = c:ARA
+			}
+			AND = {
+				exists = c:TUR
+				this = c:TUR
+			}
+		}
+		is_ai = yes
+		any_scope_state = {
+			state_region = s:STATE_TUNISIA
+		}
+		s:STATE_TUNISIA = {
+			any_scope_state = {
+				NOT = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+	}
+
+	possible = {
+		always = yes
+	}
+
+	when_taken = {
+		hidden_effect = {
+			if = {
+				limit = { #Fires if there is no subject yet
+					OR = {
+						NOT = { exists = c:C3T_AI}
+						AND = {
+							exists = c:C3T_AI
+							NOT = { c:C3T_AI = { is_direct_subject_of = root } }
+						}
+					}
+				}
+
+				#Sets the Releasing Country as a global variable to be accessible in the on_created
+				set_global_variable = {
+					name = bem_colonizer_global_var
+					value = root
+				}
+
+				#This is needed to set a state for country creation
+				random_scope_state = {
+					limit = {
+						state_region = s:STATE_TUNISIA
+					}
+					save_scope_as = bem_primary_state
+				}
+
+				#Creates a new subject if there is none yet
+				create_country = {
+					tag = C3T_AI
+					origin = this
+					state = scope:bem_primary_state
+
+					on_created = {
+						#Used to be able to get exactly this version of the tag
+						set_global_variable = {
+							name = bem_colony_global_var
+							value = prev
+						}
+
+						bem_colony_set_up_effect = yes
+					}
+				}
+
+				create_diplomatic_pact = {
+					country = global_var:bem_colony_global_var
+					type = bem_colony
+				}
+
+				every_scope_state = {
+					limit = {
+						state_region = s:STATE_TUNISIA
+					}
+					set_state_owner = global_var:bem_colony_global_var
+				}
+	
+				remove_global_variable = bem_colony_global_var
+				remove_global_variable = bem_colonizer_global_var
+			}
+			else = {
+				random_subject_or_below  = {
+					limit = {
+						is_subject_type = subject_type_bem_colony
+						has_state_in_state_region = STATE_TUNISIA
+					}
+					save_scope_as = bem_colony_scope
+				}
+				every_scope_state = {
+					limit = {
+						state_region = s:STATE_TUNISIA
+					}
+					set_state_owner = scope:bem_colony_scope
+				}
+			}
+		}
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+bem_create_colonial_algeria = {
+	is_shown = {
+		has_game_rule = bem_colonial_nations_release
+		OR = { is_country_type = recognized is_country_type = colonial }
+		country_is_in_africa = no
+		NOR = {
+			AND = {
+				exists = c:ARA
+				this = c:ARA
+			}
+			AND = {
+				exists = c:TUR
+				this = c:TUR
+			}
+		}
+		is_ai = yes
+		any_scope_state = {
+			OR = {
+				state_region = s:STATE_ALGIERS
+				state_region = s:STATE_CONSTANTINE
+				state_region = s:STATE_EAST_SAHARA
+				state_region = s:STATE_SAHARA
+				state_region = s:STATE_ORAN
+			}
+		}
+		s:STATE_ALGIERS = {
+			any_scope_state = {
+				NOT = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_CONSTANTINE = {
+			any_scope_state = {
+				NOT = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_EAST_SAHARA = {
+			any_scope_state = {
+				NOT = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_SAHARA = {
+			any_scope_state = {
+				NOT = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_ORAN = {
+			any_scope_state = {
+				NOT = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+	}
+
+	possible = {
+		always = yes
+	}
+
+	when_taken = {
+		hidden_effect = {
+			if = {
+				limit = { #Fires if there is no subject yet
+					OR = {
+						NOT = { exists = c:C3A_AI}
+						AND = {
+							exists = c:C3A_AI
+							NOT = { c:C3A_AI = { is_direct_subject_of = root } }
 						}
 					}
 				}
@@ -63,9 +368,11 @@
 				random_scope_state = {
 					limit = {
 						OR = {
-							state_region = s:STATE_TRIPOLI
-							state_region = s:STATE_LIBYA
-							state_region = s:STATE_LIBYAN_DESERT
+							state_region = s:STATE_ALGIERS
+							state_region = s:STATE_CONSTANTINE
+							state_region = s:STATE_EAST_SAHARA
+							state_region = s:STATE_SAHARA
+							state_region = s:STATE_ORAN
 						}
 					}
 					save_scope_as = bem_primary_state
@@ -73,7 +380,7 @@
 
 				#Creates a new subject if there is none yet
 				create_country = {
-					tag = C1L
+					tag = C3A_AI
 					origin = this
 					state = scope:bem_primary_state
 
@@ -96,9 +403,11 @@
 				every_scope_state = {
 					limit = {
 						OR = {
-							state_region = s:STATE_TRIPOLI
-							state_region = s:STATE_LIBYA
-							state_region = s:STATE_LIBYAN_DESERT
+							state_region = s:STATE_ALGIERS
+							state_region = s:STATE_CONSTANTINE
+							state_region = s:STATE_EAST_SAHARA
+							state_region = s:STATE_SAHARA
+							state_region = s:STATE_ORAN
 						}
 					}
 					set_state_owner = global_var:bem_colony_global_var
@@ -112,9 +421,11 @@
 					limit = {
 						is_subject_type = subject_type_bem_colony
 						OR = {
-							has_state_in_state_region = STATE_TRIPOLI
-							has_state_in_state_region = STATE_LIBYA
-							has_state_in_state_region = STATE_LIBYAN_DESERT
+							has_state_in_state_region = STATE_ALGIERS
+							has_state_in_state_region = STATE_CONSTANTINE
+							has_state_in_state_region = STATE_EAST_SAHARA
+							has_state_in_state_region = STATE_SAHARA
+							has_state_in_state_region = STATE_ORAN
 						}
 					}
 					save_scope_as = bem_colony_scope
@@ -122,10 +433,291 @@
 				every_scope_state = {
 					limit = {
 						OR = {
-							state_region = s:STATE_TRIPOLI
-							state_region = s:STATE_LIBYA
-							state_region = s:STATE_LIBYAN_DESERT
+							state_region = s:STATE_ALGIERS
+							state_region = s:STATE_CONSTANTINE
+							state_region = s:STATE_EAST_SAHARA
+							state_region = s:STATE_SAHARA
+							state_region = s:STATE_ORAN
 						}
+					}
+					set_state_owner = scope:bem_colony_scope
+				}
+			}
+		}
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+bem_create_colonial_morocco = {
+	is_shown = {
+		has_game_rule = bem_colonial_nations_release
+		OR = { is_country_type = recognized is_country_type = colonial }
+		country_is_in_africa = no
+		NOR = {
+			AND = {
+				exists = c:ARA
+				this = c:ARA
+			}
+			AND = {
+				exists = c:TUR
+				this = c:TUR
+			}
+		}
+		is_ai = yes
+		any_scope_state = {
+			OR = {
+				state_region = s:STATE_MARRAKECH
+				state_region = s:STATE_FEZ
+				state_region = s:STATE_INNER_MOROCCO
+				state_region = s:STATE_AL_RIF
+			}
+		}
+		s:STATE_MARRAKECH = {
+			any_scope_state = {
+				NOT = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_FEZ = {
+			any_scope_state = {
+				NOT = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_INNER_MOROCCO = {
+			any_scope_state = {
+				NOT = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_AL_RIF = {
+			any_scope_state = {
+				NOT = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+	}
+
+	possible = {
+		always = yes
+	}
+
+	when_taken = {
+		hidden_effect = {
+			if = {
+				limit = { #Fires if there is no subject yet
+					OR = {
+						NOT = { exists = c:C3A_AI}
+						AND = {
+							exists = c:C3A_AI
+							NOT = { c:C3A_AI = { is_direct_subject_of = root } }
+						}
+					}
+				}
+
+				#Sets the Releasing Country as a global variable to be accessible in the on_created
+				set_global_variable = {
+					name = bem_colonizer_global_var
+					value = root
+				}
+
+				#This is needed to set a state for country creation
+				random_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_MARRAKECH
+							state_region = s:STATE_FEZ
+							state_region = s:STATE_INNER_MOROCCO
+							state_region = s:STATE_AL_RIF
+						}
+					}
+					save_scope_as = bem_primary_state
+				}
+
+				#Creates a new subject if there is none yet
+				create_country = {
+					tag = C3A_AI
+					origin = this
+					state = scope:bem_primary_state
+
+					on_created = {
+						#Used to be able to get exactly this version of the tag
+						set_global_variable = {
+							name = bem_colony_global_var
+							value = prev
+						}
+
+						bem_colony_set_up_effect = yes
+					}
+				}
+
+				create_diplomatic_pact = {
+					country = global_var:bem_colony_global_var
+					type = bem_colony
+				}
+
+				every_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_MARRAKECH
+							state_region = s:STATE_FEZ
+							state_region = s:STATE_INNER_MOROCCO
+							state_region = s:STATE_AL_RIF
+						}
+					}
+					set_state_owner = global_var:bem_colony_global_var
+				}
+	
+				remove_global_variable = bem_colony_global_var
+				remove_global_variable = bem_colonizer_global_var
+			}
+			else = {
+				random_subject_or_below  = {
+					limit = {
+						is_subject_type = subject_type_bem_colony
+						OR = {
+							has_state_in_state_region = STATE_MARRAKECH
+							has_state_in_state_region = STATE_FEZ
+							has_state_in_state_region = STATE_INNER_MOROCCO
+							has_state_in_state_region = STATE_AL_RIF
+						}
+					}
+					save_scope_as = bem_colony_scope
+				}
+				every_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_MARRAKECH
+							state_region = s:STATE_FEZ
+							state_region = s:STATE_INNER_MOROCCO
+							state_region = s:STATE_AL_RIF
+						}
+					}
+					set_state_owner = scope:bem_colony_scope
+				}
+			}
+		}
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+bem_create_colonial_west_sahara = {
+	is_shown = {
+		has_game_rule = bem_colonial_nations_release
+		OR = { is_country_type = recognized is_country_type = colonial }
+		country_is_in_africa = no
+		NOR = {
+			AND = {
+				exists = c:ARA
+				this = c:ARA
+			}
+			AND = {
+				exists = c:TUR
+				this = c:TUR
+			}
+		}
+		is_ai = yes
+		any_scope_state = {
+			state_region = s:STATE_WEST_SAHARA
+		}
+		s:STATE_WEST_SAHARA = {
+			any_scope_state = {
+				NOT = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+	}
+
+	possible = {
+		always = yes
+	}
+
+	when_taken = {
+		hidden_effect = {
+			if = {
+				limit = { #Fires if there is no subject yet
+					OR = {
+						NOT = { exists = c:C2W_AI}
+						AND = {
+							exists = c:C2W_AI
+							NOT = { c:C2W_AI = { is_direct_subject_of = root } }
+						}
+					}
+				}
+
+				#Sets the Releasing Country as a global variable to be accessible in the on_created
+				set_global_variable = {
+					name = bem_colonizer_global_var
+					value = root
+				}
+
+				#This is needed to set a state for country creation
+				random_scope_state = {
+					limit = {
+						state_region = s:STATE_WEST_SAHARA
+					}
+					save_scope_as = bem_primary_state
+				}
+
+				#Creates a new subject if there is none yet
+				create_country = {
+					tag = C2W_AI
+					origin = this
+					state = scope:bem_primary_state
+
+					on_created = {
+						#Used to be able to get exactly this version of the tag
+						set_global_variable = {
+							name = bem_colony_global_var
+							value = prev
+						}
+
+						bem_colony_set_up_effect = yes
+					}
+				}
+
+				create_diplomatic_pact = {
+					country = global_var:bem_colony_global_var
+					type = bem_colony
+				}
+
+				every_scope_state = {
+					limit = {
+						state_region = s:STATE_WEST_SAHARA
+					}
+					set_state_owner = global_var:bem_colony_global_var
+				}
+	
+				remove_global_variable = bem_colony_global_var
+				remove_global_variable = bem_colonizer_global_var
+			}
+			else = {
+				random_subject_or_below  = {
+					limit = {
+						is_subject_type = subject_type_bem_colony
+						has_state_in_state_region = STATE_WEST_SAHARA
+					}
+					save_scope_as = bem_colony_scope
+				}
+				every_scope_state = {
+					limit = {
+						state_region = s:STATE_WEST_SAHARA
 					}
 					set_state_owner = scope:bem_colony_scope
 				}

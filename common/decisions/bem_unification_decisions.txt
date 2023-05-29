@@ -130,6 +130,7 @@ unite_colonies_maghreb_decision = {
 				}
 				if = {
 					limit =  {
+						is_player = yes
 						NOT = { exists = c:CA1 }
 					}
 					scope:unifier_tag = {
@@ -142,7 +143,7 @@ unite_colonies_maghreb_decision = {
 		}
 	}
 
-	ai_chance = { #needs to be tested first
+	ai_chance = {
 		base = 100
 		modifier = {
 			trigger = {
@@ -255,6 +256,7 @@ unite_colonies_west_africa_decision = {
 				}
 				if = {
 					limit =  {
+						is_player = yes
 						NOT = { exists = c:CWA_colonial_west_africa }
 					}
 					scope:unifier_tag = {
@@ -267,7 +269,7 @@ unite_colonies_west_africa_decision = {
 		}
 	}
 
-	ai_chance = { #needs to be tested first
+	ai_chance = {
 		base = 100
 		modifier = {
 			trigger = {
@@ -380,6 +382,7 @@ unite_colonies_greater_nigeria_decision = {
 				}
 				if = {
 					limit =  {
+						is_player = yes
 						NOT = { exists = c:CGN_colonial_greater_nigeria }
 					}
 					scope:unifier_tag = {
@@ -392,7 +395,7 @@ unite_colonies_greater_nigeria_decision = {
 		}
 	}
 
-	ai_chance = { #needs to be tested first
+	ai_chance = {
 		base = 100
 		modifier = {
 			trigger = {
@@ -505,6 +508,7 @@ unite_colonies_greater_egypt_decision = {
 				}
 				if = {
 					limit =  {
+						is_player = yes
 						NOT = { exists = c:CGE_colonial_greater_egypt }
 					}
 					scope:unifier_tag = {
@@ -517,7 +521,7 @@ unite_colonies_greater_egypt_decision = {
 		}
 	}
 
-	ai_chance = { #needs to be tested first
+	ai_chance = {
 		base = 100
 		modifier = {
 			trigger = {
@@ -630,6 +634,7 @@ unite_colonies_greater_ethiopia_decision = {
 				}
 				if = {
 					limit =  {
+						is_player = yes
 						NOT = { exists = c:CET_colonial_greater_ethiopia }
 					}
 					scope:unifier_tag = {
@@ -642,7 +647,7 @@ unite_colonies_greater_ethiopia_decision = {
 		}
 	}
 
-	ai_chance = { #needs to be tested first
+	ai_chance = {
 		base = 100
 		modifier = {
 			trigger = {
@@ -755,6 +760,7 @@ unite_colonies_zanj_decision = {
 				}
 				if = {
 					limit =  {
+						is_player = yes
 						NOT = { exists = c:CEA_colonial_east_africa }
 					}
 					scope:unifier_tag = {
@@ -767,7 +773,7 @@ unite_colonies_zanj_decision = {
 		}
 	}
 
-	ai_chance = { #needs to be tested first
+	ai_chance = {
 		base = 100
 		modifier = {
 			trigger = {
@@ -880,6 +886,7 @@ unite_colonies_congo_decision = {
 				}
 				if = {
 					limit =  {
+						is_player = yes
 						NOT = { exists = c:CGC_colonial_greater_congo }
 					}
 					scope:unifier_tag = {
@@ -892,7 +899,7 @@ unite_colonies_congo_decision = {
 		}
 	}
 
-	ai_chance = { #needs to be tested first
+	ai_chance = {
 		base = 100
 		modifier = {
 			trigger = {
@@ -1005,6 +1012,7 @@ unite_colonies_south_africa_decision = {
 				}
 				if = {
 					limit =  {
+						is_player = yes
 						NOT = { exists = c:CSAF_colonial_south_africa }
 					}
 					scope:unifier_tag = {
@@ -1017,7 +1025,7 @@ unite_colonies_south_africa_decision = {
 		}
 	}
 
-	ai_chance = { #needs to be tested first
+	ai_chance = {
 		base = 100
 		modifier = {
 			trigger = {

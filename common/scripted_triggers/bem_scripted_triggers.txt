@@ -18,21 +18,41 @@ bem_colonial_nation_trigger = {
 			exists = c:C1L
 			this = c:C1L
 		}
+		AND = { #Colonial Libya AI
+			exists = c:C1L_AI
+			this = c:C1L_AI
+		}
 		AND = { #Colonial Tunisia
 			exists = c:C3T
 			this = c:C3T
+		}
+		AND = { #Colonial Tunisia AI
+			exists = c:C3T_AI
+			this = c:C3T_AI
 		}
 		AND = { #Colonial Algeria
 			exists = c:C3A
 			this = c:C3A
 		}
+		AND = { #Colonial Algeria AI
+			exists = c:C3A_AI
+			this = c:C3A_AI
+		}
 		AND = { #Colonial Morocco
 			exists = c:C5M
 			this = c:C5M
 		}
+		AND = { #Colonial Morocco AI
+			exists = c:C5M_AI
+			this = c:C5M_AI
+		}
 		AND = { #Colonial West Sahara
 			exists = c:C2W
 			this = c:C2W
+		}
+		AND = { #Colonial West Sahara AI
+			exists = c:C2W_AI
+			this = c:C2W_AI
 		}
 		### West African Countries ###
 		AND = { #Colonial West Africa
@@ -380,21 +400,41 @@ bem_colonial_nation_north_africa_trigger = {
 			exists = c:C1L
 			this = c:C1L
 		}
+		AND = { #Colonial Libya AI
+			exists = c:C1L_AI
+			this = c:C1L_AI
+		}
 		AND = { #Colonial Tunisia
 			exists = c:C3T
 			this = c:C3T
+		}
+		AND = { #Colonial Tunisia AI
+			exists = c:C3T_AI
+			this = c:C3T_AI
 		}
 		AND = { #Colonial Algeria
 			exists = c:C3A
 			this = c:C3A
 		}
+		AND = { #Colonial Algeria AI
+			exists = c:C3A_AI
+			this = c:C3A_AI
+		}
 		AND = { #Colonial Morocco
 			exists = c:C5M
 			this = c:C5M
 		}
+		AND = { #Colonial Morocco AI
+			exists = c:C5M_AI
+			this = c:C5M_AI
+		}
 		AND = { #Colonial West Sahara
 			exists = c:C2W
 			this = c:C2W
+		}
+		AND = { #Colonial West Sahara AI
+			exists = c:C2W_AI
+			this = c:C2W_AI
 		}
 	}
 }

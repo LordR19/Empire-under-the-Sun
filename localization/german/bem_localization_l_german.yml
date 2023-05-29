@@ -316,6 +316,8 @@
 
  C1L: "Kolonial Libyen"
  C1L_ADJ: "Libysch"
+ C1L_AI: "Kolonial Libyen"
+ C1L_ADJ_AI: "Libysch"
  dyn_c_default_lybia: "Libyen"
  dyn_c_default_lybia_adj: "Libysch"
  dyn_c_colony_of_lybia: "[Country.GetOverlord.GetAdjectiveNoFormatting] Libyen"
@@ -323,6 +325,8 @@
 
  C3T: "Kolonial Tunesien"
  C3T_ADJ: "Tunesisch"
+ C3T_AI: "Kolonial Tunesien"
+ C3T_ADJ_AI: "Tunesisch"
  dyn_c_default_tunisia: "Tunesien"
  dyn_c_default_tunisia_adj: "Tunesisch"
  dyn_c_colony_of_tunisia: "[Country.GetOverlord.GetAdjectiveNoFormatting] Tunesien"
@@ -335,6 +339,8 @@
 
  C3A: "Kolonial Algerien"
  C3A_ADJ: "Algerisch"
+ C3A_AI: "Kolonial Algerien"
+ C3A_AI_ADJ: "Algerisch"
  dyn_c_default_algeria: "Algerien"
  dyn_c_default_algeria_adj: "Algerisch"
  dyn_c_colony_of_algeria: "[Country.GetOverlord.GetAdjectiveNoFormatting] Algerien"
@@ -347,6 +353,8 @@
 
  C5M: "Kolonial Marokko"
  C5M_ADJ: "Marokkanisch"
+ C5M_AI: "Kolonial Marokko"
+ C5M_AI_ADJ: "Marokkanisch"
  dyn_c_default_morocco: "Marokko"
  dyn_c_default_morocco_adj: "Marokkanisch"
  dyn_c_colony_of_morocco: "[Country.GetOverlord.GetAdjectiveNoFormatting] Marokko"
@@ -354,6 +362,8 @@
 
  C2W: "Kolonial Westsahara"
  C2W_ADJ: "Westsaharisch"
+ C2W_AI: "Kolonial Westsahara"
+ C2W_AI_ADJ: "Westsaharisch"
  dyn_c_default_west_sahara: "Westsahara"
  ddyn_c_default_west_sahara_adj: "Westsaharisch"
  dyn_c_colony_of_west_sahara: "[Country.GetOverlord.GetAdjectiveNoFormatting] Westsahara"
@@ -777,3 +787,19 @@
  colonial_nations_south_africa_more_2_tt: "Du hast zwei oder mehr #yellow Kolonialnationen#! in der Region Südafrika"
  colonial_nations_south_africa_tt: "Du hast eine oder mehr #yellow Kolonialnationen#! in der Region Südafrika"
  unite_south_africa_tt: "Jede #yellow Kolonialnation#! und #yellow jeder deiner Staaten#! in der Region Südafrika wird in eine Kolonialnation #yellow vereint#!. Die Kolonialnation mit dem höchsten [concept_gdp] Wird die Führung übernehmen und die Regierung der neuen Kolonie stellen."
+
+#AI decisions
+ bem_create_colonial_libya: "AI decision Libya"
+ bem_create_colonial_libya_desc: "AI decision for Libya to create colony. #n Should not be visible!#!"
+
+ bem_create_colonial_tunisia: "AI decision Tunisia"
+ bem_create_colonial_tunisia_desc: "AI decision for Tunisia to create colony. #n Should not be visible!#!"
+
+ bem_create_colonial_algeria: "AI decision Algeria"
+ bem_create_colonial_algeria_desc: "AI decision for Algeria to create colony. #n Should not be visible!#!"
+
+ bem_create_colonial_west_sahara: "AI decision West Sahara"
+ bem_create_colonial_west_sahara_desc: "AI decision for West Sahara to create colony. #n Should not be visible!#!"
+
+ bem_create_colonial_morocco: "AI decision Morocco"
+ bem_create_colonial_morocco_desc: "AI decision for Morocco to create colony. #n Should not be visible!#!"

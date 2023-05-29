@@ -1,4 +1,34 @@
-﻿C1L = { # Colonial Lybia
+﻿# Colonial Libya
+C1L = {
+	dynamic_country_name = {
+		name = dyn_c_default_lybia
+		adjective = dyn_c_default_lybia_adj
+
+		is_main_tag_only = no
+		priority = 1
+		
+		trigger = {
+			always = yes
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_colony_of_lybia
+		adjective = dyn_c_colony_of_lybia_adj
+
+		is_main_tag_only = no
+		priority = 10
+		
+		trigger = {
+			scope:actor = {
+				is_subject = yes
+			}
+		}
+	}
+}
+
+# Colonial Libya AI
+C1L_AI = { 
 	dynamic_country_name = {
 		name = dyn_c_default_lybia
 		adjective = dyn_c_default_lybia_adj

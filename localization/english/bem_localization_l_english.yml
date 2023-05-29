@@ -124,6 +124,8 @@
 
  C1L: "Colonial Libya"
  C1L_ADJ: "Libyan"
+ C1L_AI: "Colonial Libya"
+ C1L_AI_ADJ: "Libyan"
  dyn_c_default_lybia: "Libya"
  dyn_c_default_lybia_adj: "Libyan"
  dyn_c_colony_of_lybia: "[Country.GetOverlord.GetAdjectiveNoFormatting] Libya"
@@ -311,6 +313,8 @@
 
  C2W: "Colonial West Sahara"
  C2W_ADJ: "West Saharan"
+ C2W_AI: "Colonial West Sahara"
+ C2W_AI_ADJ: "West Saharan"
  dyn_c_default_west_sahara: "West Sahara"
  dyn_c_default_west_sahara_adj: "West Saharan"
  dyn_c_colony_of_west_sahara: "[Country.GetOverlord.GetAdjectiveNoFormatting] West Sahara"
@@ -318,6 +322,8 @@
 
  C3A: "Colonial Algeria"
  C3A_ADJ: "Algerian"
+ C3A_AI: "Colonial Algeria"
+ C3A_AI_ADJ: "Algerian"
  dyn_c_default_algeria: "Algeria"
  dyn_c_default_algeria_adj: "Algerian"
  dyn_c_colony_of_algeria: "[Country.GetOverlord.GetAdjectiveNoFormatting] Algeria"
@@ -377,6 +383,8 @@
 
  C3T: "Colonial Tunisia"
  C3T_ADJ: "Tunisian"
+ C3T_AI: "Colonial Tunisia"
+ C3T_AI_ADJ: "Tunisian"
  dyn_c_default_tunisia: "Tunisia"
  dyn_c_default_tunisia_adj: "Tunisia"
  dyn_c_colony_of_tunisia: "[Country.GetOverlord.GetAdjectiveNoFormatting] Tunisia"
@@ -432,6 +440,8 @@
 
  C5M: "Colonial Morocco"
  C5M_ADJ: "Moroccan"
+ C5M_AI: "Colonial Morocco"
+ C5M_AI_ADJ: "Moroccan"
  dyn_c_default_morocco: "Morocco"
  dyn_c_default_morocco_adj: "Moroccan"
  dyn_c_colony_of_morocco: "[Country.GetOverlord.GetAdjectiveNoFormatting] Morocco"
@@ -802,3 +812,15 @@
 #AI decisions
  bem_create_colonial_libya: "AI decision Libya"
  bem_create_colonial_libya_desc: "AI decision for Libya to create colony. #n Should not be visible!#!"
+
+ bem_create_colonial_tunisia: "AI decision Tunisia"
+ bem_create_colonial_tunisia_desc: "AI decision for Tunisia to create colony. #n Should not be visible!#!"
+
+ bem_create_colonial_algeria: "AI decision Algeria"
+ bem_create_colonial_algeria_desc: "AI decision for Algeria to create colony. #n Should not be visible!#!"
+
+ bem_create_colonial_west_sahara: "AI decision West Sahara"
+ bem_create_colonial_west_sahara_desc: "AI decision for West Sahara to create colony. #n Should not be visible!#!"
+
+ bem_create_colonial_morocco: "AI decision Morocco"
+ bem_create_colonial_morocco_desc: "AI decision for Morocco to create colony. #n Should not be visible!#!"

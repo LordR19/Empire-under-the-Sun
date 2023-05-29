@@ -30,8 +30,38 @@ C1L = {
 	
 }
 
+#Colonial Libya
+C1L_AI = {
+
+	color = { 43 107 21  }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_TRIPOLI
+	
+}
+
 #Colonial Tunisia
 C3T = {
+
+	color = { 230 42 0  }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_TUNISIA
+	
+}
+
+#Colonial Tunisia AI
+C3T_AI = {
 
 	color = { 230 42 0  }
 	
@@ -60,6 +90,21 @@ C3A = {
 	
 }
 
+#Colonial Algeria AI
+C3A_AI = {
+
+	color = { 243 211 211 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_ALGIERS
+	
+}
+
 #Colonial Morocco
 C5M = {
 
@@ -75,8 +120,38 @@ C5M = {
 	
 }
 
+#Colonial Morocco AI
+C5M_AI = {
+
+	color = { 0 98 51 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_MARRAKECH
+	
+}
+
 #Colonial West Sahara
 C2W = {
+
+	color = { 255 175 111 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_WEST_SAHARA
+	
+}
+
+#Colonial West Sahara AI
+C2W_AI = {
 
 	color = { 255 175 111 }
 	
