@@ -117,6 +117,36 @@ CWA_colonial_west_africa_sub_italian = {
 	}
 }
 
+CWA_colonial_west_africa_sub_french = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	
+	colored_emblem = {
+		texture = "ce_tricolor_vertical.dds"
+		color1 = "white"
+		color2 = "red"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_emblem_elephant_head.dds"
+		color1 = "blue"
+		color2 = "blue"
+		instance = { scale = { 0.23 0.23 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_emblem_palm_leaf_left_2c.dds"
+		color1 = "blue"
+		color2 = "black"
+		instance = { scale = { 0.4 0.4 } position = { 0.47 0.52 } }
+	}
+	colored_emblem = {
+		texture = "ce_emblem_palm_leaf_right_2c.dds"
+		color1 = "blue"
+		color2 = "black"
+		instance = { scale = { 0.4 0.4 } position = { 0.53 0.52 } }
+	}
+}
+
 CWA_colonial_west_africa_monarchy = {
 	pattern = "pattern_solid.tga"
 	color1 = "green"

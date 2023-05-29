@@ -657,6 +657,374 @@ C1S = {
 
 ################################################
 
+### Zanj Region Countries ###
+
+#Protectorate of Uganda
+C1U = {
+	states = {
+		STATE_UGANDA
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_UGANDA
+	}
+}
+
+#Protectorate of Kenya
+C1K = {
+	states = {
+		STATE_KENYA
+		STATE_RIFT_VALLEY
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_KENYA
+		owns_entire_state_region = STATE_RIFT_VALLEY
+	}
+}
+
+#Tanganyika Territory
+C1T = {
+	states = {
+		STATE_ZANZIBAR
+		STATE_LINDI
+		STATE_TANGANYIKA
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_ZANZIBAR
+		owns_entire_state_region = STATE_LINDI
+		owns_entire_state_region = STATE_TANGANYIKA
+	}
+}
+
+#Mocambique / SE Africa
+C1M = {
+	states = {
+		STATE_MOCAMBIQUE
+		STATE_ZAMBEZIA
+		STATE_LOURENCO_MARQUES
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_MOCAMBIQUE
+		owns_entire_state_region = STATE_ZAMBEZIA
+		owns_entire_state_region = STATE_LOURENCO_MARQUES
+	}
+}
+
+#Colony of Madagascar
+C2M = {
+	states = {
+		STATE_NORTH_MADAGASCAR
+		STATE_SOUTH_MADAGASCAR
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_NORTH_MADAGASCAR
+		owns_entire_state_region = STATE_SOUTH_MADAGASCAR
+	}
+}
+
+################################################
+
+### Congo Region Countries ###
+
+#Colony of Gabon
+C1G = {
+	states = {
+		STATE_GABON
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_GABON
+	}
+}
+
+#Colony of Middle-Congo
+C3M = {
+	states = {
+		STATE_CONGO
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_CONGO
+	}
+}
+
+#Colony of Central Africa
+C4C = {
+	states = {
+		STATE_UBANGI_SHARI
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_UBANGI_SHARI
+	}
+}
+
+#Colony of Congo
+C3C = {
+	states = {
+		STATE_BAS_CONGO
+		STATE_KASAI
+		STATE_KATANGA
+		STATE_EQUATEUR
+		STATE_CONGO_ORIENTALE
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_BAS_CONGO
+		owns_entire_state_region = STATE_KASAI
+		owns_entire_state_region = STATE_KATANGA
+		owns_entire_state_region = STATE_EQUATEUR
+		owns_entire_state_region = STATE_CONGO_ORIENTALE
+	}
+}
+
+#Colony of Angola
+C2A = {
+	states = {
+		STATE_NORTH_ANGOLA
+		STATE_SOUTH_ANGOLA
+		STATE_EAST_ANGOLA
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_NORTH_ANGOLA
+		owns_entire_state_region = STATE_SOUTH_ANGOLA
+		owns_entire_state_region = STATE_EAST_ANGOLA
+	}
+}
+
+#Northern Rhodesia
+C2R = {
+	states = {
+		STATE_ZAMBIA
+		STATE_KAZEMBE
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_ZAMBIA
+		owns_entire_state_region = STATE_KAZEMBE
+	}
+}
+
+################################################
+
+### South Africa Region Countries ###
+
+#Territory of South West Africa
+C1W = {
+	states = {
+		STATE_NAMAQUALAND
+		STATE_HEREROLAND
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_NAMAQUALAND
+		owns_entire_state_region = STATE_HEREROLAND
+	}
+}
+
+#Bechuanaland Protectorate
+C1B = {
+	states = {
+		STATE_BOTSWANA
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_BOTSWANA
+	}
+}
+
+#Southern Rhodesia
+C1R = {
+	states = {
+		STATE_ZAMBEZI
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_ZAMBEZI
+	}
+}
+
+#Colonial Transvaal
+C5T = {
+	states = {
+		STATE_TRANSVAAL
+		STATE_VRYSTAAT
+		STATE_ZULULAND
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_TRANSVAAL
+		owns_entire_state_region = STATE_VRYSTAAT
+		owns_entire_state_region = STATE_ZULULAND
+	}
+}
+
+#Colonial Cape
+C6C = {
+	states = {
+		STATE_CAPE_COLONY
+		STATE_EASTERN_CAPE
+		STATE_NORTHERN_CAPE
+	}
+
+	required_num_states = 1
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_CAPE_COLONY
+		owns_entire_state_region = STATE_EASTERN_CAPE
+		owns_entire_state_region = STATE_NORTHERN_CAPE
+	}
+}
+
+################################################
+
 #Hong Kong
 HGK = {
 	provinces = {
@@ -727,26 +1095,6 @@ C1A = {
 	}
 }
 
-#Bechuanaland Protectorate
-C1B = {
-	states = {
-		STATE_BOTSWANA
-	}
-
-	required_num_states = 1
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-	
-	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_BOTSWANA
-	}
-}
-
 #Protectorate of Cyprus
 C1C = {
 	states = {
@@ -773,26 +1121,6 @@ C1F = {
 	}
 	
 	ai_will_do = { always = no }
-}
-
-#Colony of Gabon
-C1G = {
-	states = {
-		STATE_GABON
-	}
-
-	required_num_states = 1
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-	
-	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_GABON
-	}
 }
 
 #Colonial Hejaz
@@ -859,52 +1187,6 @@ C1I = {
 	}
 }
 
-#Protectorate of Kenya
-C1K = {
-	states = {
-		STATE_KENYA
-		STATE_RIFT_VALLEY
-	}
-
-	required_num_states = 1
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-	
-	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_KENYA
-		owns_entire_state_region = STATE_RIFT_VALLEY
-	}
-}
-
-#Mocambique / SE Africa
-C1M = {
-	states = {
-		STATE_MOCAMBIQUE
-		STATE_ZAMBEZIA
-		STATE_LOURENCO_MARQUES
-	}
-
-	required_num_states = 1
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-	
-	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_MOCAMBIQUE
-		owns_entire_state_region = STATE_ZAMBEZIA
-		owns_entire_state_region = STATE_LOURENCO_MARQUES
-	}
-}
-
 #Colonial Oman
 C1O = {
 	states = {
@@ -965,93 +1247,6 @@ C1P = {
 	}
 }
 
-#Southern Rhodesia
-C1R = {
-	states = {
-		STATE_ZAMBEZI
-	}
-
-	required_num_states = 1
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-	
-	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_ZAMBEZI
-	}
-}
-
-#Tanganyika Territory
-C1T = {
-	states = {
-		STATE_ZANZIBAR
-		STATE_LINDI
-		STATE_TANGANYIKA
-	}
-
-	required_num_states = 1
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-	
-	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_ZANZIBAR
-		owns_entire_state_region = STATE_LINDI
-		owns_entire_state_region = STATE_TANGANYIKA
-	}
-}
-
-#Protectorate of Uganda
-C1U = {
-	states = {
-		STATE_UGANDA
-	}
-
-	required_num_states = 1
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-	
-	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_UGANDA
-	}
-}
-
-#Territory of South West Africa
-C1W = {
-	states = {
-		STATE_NAMAQUALAND
-		STATE_HEREROLAND
-	}
-
-	required_num_states = 1
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-	
-	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_NAMAQUALAND
-		owns_entire_state_region = STATE_HEREROLAND
-	}
-}
-
-
 #Protectorate of Yemen
 C1Y = {
 	provinces = {
@@ -1102,30 +1297,6 @@ C1Z = {
 	}
 }
 
-#Colony of Angola
-C2A = {
-	states = {
-		STATE_NORTH_ANGOLA
-		STATE_SOUTH_ANGOLA
-		STATE_EAST_ANGOLA
-	}
-
-	required_num_states = 1
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-	
-	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_NORTH_ANGOLA
-		owns_entire_state_region = STATE_SOUTH_ANGOLA
-		owns_entire_state_region = STATE_EAST_ANGOLA
-	}
-}
-
 #Colony of Bermuda
 C2B = {
 	states = {
@@ -1139,28 +1310,6 @@ C2B = {
 	}
 	
 	ai_will_do = { always = no }
-}
-
-#Colony of Madagascar
-C2M = {
-	states = {
-		STATE_NORTH_MADAGASCAR
-		STATE_SOUTH_MADAGASCAR
-	}
-
-	required_num_states = 1
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-	
-	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_NORTH_MADAGASCAR
-		owns_entire_state_region = STATE_SOUTH_MADAGASCAR
-	}
 }
 
 #Territory of Papua
@@ -1180,28 +1329,6 @@ C2P = {
 		can_have_subjects = yes
 		country_is_in_africa = no
 		owns_entire_state_region = STATE_EASTERN_NEW_GUINEA
-	}
-}
-
-#Northern Rhodesia
-C2R = {
-	states = {
-		STATE_ZAMBIA
-		STATE_KAZEMBE
-	}
-
-	required_num_states = 1
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-	
-	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_ZAMBIA
-		owns_entire_state_region = STATE_KAZEMBE
 	}
 }
 
@@ -1259,34 +1386,6 @@ C3B = {
 	}
 }
 
-#Colony of Congo
-C3C = {
-	states = {
-		STATE_BAS_CONGO
-		STATE_KASAI
-		STATE_KATANGA
-		STATE_EQUATEUR
-		STATE_CONGO_ORIENTALE
-	}
-
-	required_num_states = 1
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-	
-	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_BAS_CONGO
-		owns_entire_state_region = STATE_KASAI
-		owns_entire_state_region = STATE_KATANGA
-		owns_entire_state_region = STATE_EQUATEUR
-		owns_entire_state_region = STATE_CONGO_ORIENTALE
-	}
-}
-
 #Colonial Indonesia
 C3I = {
 	states = {
@@ -1319,26 +1418,6 @@ C3I = {
 	}
 }
 
-#Colony of Middle-Congo
-C3M = {
-	states = {
-		STATE_CONGO
-	}
-
-	required_num_states = 1
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-	
-	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_CONGO
-	}
-}
-
 #Colonial Arabia
 C4A = {
 	states = {
@@ -1368,26 +1447,6 @@ C4A = {
 				this = c:ARA
 			}
 		}
-	}
-}
-
-#Colony of Central Africa
-C4C = {
-	states = {
-		STATE_UBANGI_SHARI
-	}
-
-	required_num_states = 1
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-	
-	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_UBANGI_SHARI
 	}
 }
 
@@ -1446,54 +1505,6 @@ C5A = {
 		owns_entire_state_region = STATE_TASMANIA
 		owns_entire_state_region = STATE_VICTORIA
 		owns_entire_state_region = STATE_WESTERN_AUSTRALIA
-	}
-}
-
-#Colonial Transvaal
-C5T = {
-	states = {
-		STATE_TRANSVAAL
-		STATE_VRYSTAAT
-		STATE_ZULULAND
-	}
-
-	required_num_states = 1
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-
-	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_TRANSVAAL
-		owns_entire_state_region = STATE_VRYSTAAT
-		owns_entire_state_region = STATE_ZULULAND
-	}
-}
-
-#Colonial Cape
-C6C = {
-	states = {
-		STATE_CAPE_COLONY
-		STATE_EASTERN_CAPE
-		STATE_NORTHERN_CAPE
-	}
-
-	required_num_states = 1
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-	
-	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_CAPE_COLONY
-		owns_entire_state_region = STATE_EASTERN_CAPE
-		owns_entire_state_region = STATE_NORTHERN_CAPE
 	}
 }
 

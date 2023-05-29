@@ -629,3 +629,357 @@ unite_colonies_greater_ethiopia_decision = {
 		}
 	}
 }
+
+unite_colonies_zanj_decision = {
+	is_shown = {
+		has_variable = show_bem_colonial_decisions_var
+		any_subject_or_below = {
+			capital = { region = sr:region_zanj }
+			bem_colonial_nation_zanj_trigger = yes
+		}
+	}
+
+	possible = {
+		OR = {
+			custom_tooltip = {
+				any_subject_or_below = {
+					capital = { region = sr:region_zanj }
+					bem_colonial_nation_zanj_trigger = yes
+					is_ai = yes
+					count >= 2
+				}
+				text = colonial_nations_zanj_more_2_tt
+			}
+			AND = {
+				custom_tooltip = {
+					any_subject_or_below = {
+						capital = { region = sr:region_zanj }
+						bem_colonial_nation_zanj_trigger = yes
+						is_ai = yes
+						relations:root >= relations_threshold:cordial
+					}
+					text = colonial_nations_zanj_tt
+				}
+				any_scope_state = {
+					region = sr:region_zanj
+				}
+			}
+		}
+	}
+	
+	when_taken = {
+		custom_tooltip = {
+			hidden_effect = {
+				set_variable = {
+					name = greater_zanj_cooldown_var
+					years = 2
+				}
+				ordered_subject_or_below = {
+					limit = {
+						capital = { region = sr:region_zanj }
+						bem_colonial_nation_zanj_trigger = yes
+						is_ai = yes
+						relations:root >= relations_threshold:cordial
+					}
+					order_by = gdp
+		
+					save_scope_as = unifier_tag
+				}
+				if = {
+					limit = {
+						any_scope_state = {
+							region = sr:region_zanj
+						}
+					}
+					every_scope_state = {
+						limit = {
+							region = sr:region_zanj
+							root = owner
+						}
+						set_state_owner = scope:unifier_tag
+					} 
+				}
+				every_subject_or_below = {
+					limit = {
+						NOT = { this = scope:unifier_tag }
+						capital = { region = sr:region_zanj }
+						bem_colonial_nation_zanj_trigger = yes
+						is_ai = yes
+						relations:root >= relations_threshold:cordial
+					}
+					scope:unifier_tag = {
+						annex = prev
+					}
+				}
+				if = {
+					limit =  {
+						NOT = { exists = c:CEA_colonial_east_africa }
+					}
+					scope:unifier_tag = {
+						change_tag = CEA_colonial_east_africa
+					}
+				}
+			}
+
+			text = unite_zanj_tt
+		}
+	}
+
+	ai_chance = { #needs to be tested first
+		base = 0
+		modifier = {
+			trigger = {
+				OR = {
+					NOT = { has_technology_researched = civilizing_mission }
+					NOT = {
+						sr:region_zanj = {
+							any_scope_state = {
+								count = all
+								owner = { NOT = { is_country_type = decentralized } }
+							}
+						}
+					}
+					has_variable = greater_zanj_cooldown_var
+				}
+				
+			}
+			add = -200
+		}
+	}
+}
+
+unite_colonies_congo_decision = {
+	is_shown = {
+		has_variable = show_bem_colonial_decisions_var
+		any_subject_or_below = {
+			capital = { region = sr:region_congo }
+			bem_colonial_nation_congo_trigger = yes
+		}
+	}
+
+	possible = {
+		OR = {
+			custom_tooltip = {
+				any_subject_or_below = {
+					capital = { region = sr:region_congo }
+					bem_colonial_nation_congo_trigger = yes
+					is_ai = yes
+					count >= 2
+				}
+				text = colonial_nations_congo_more_2_tt
+			}
+			AND = {
+				custom_tooltip = {
+					any_subject_or_below = {
+						capital = { region = sr:region_congo }
+						bem_colonial_nation_congo_trigger = yes
+						is_ai = yes
+						relations:root >= relations_threshold:cordial
+					}
+					text = colonial_nations_congo_tt
+				}
+				any_scope_state = {
+					region = sr:region_congo
+				}
+			}
+		}
+	}
+	
+	when_taken = {
+		custom_tooltip = {
+			hidden_effect = {
+				set_variable = {
+					name = greater_congo_cooldown_var
+					years = 2
+				}
+				ordered_subject_or_below = {
+					limit = {
+						capital = { region = sr:region_congo }
+						bem_colonial_nation_congo_trigger = yes
+						is_ai = yes
+						relations:root >= relations_threshold:cordial
+					}
+					order_by = gdp
+		
+					save_scope_as = unifier_tag
+				}
+				if = {
+					limit = {
+						any_scope_state = {
+							region = sr:region_congo
+						}
+					}
+					every_scope_state = {
+						limit = {
+							region = sr:region_congo
+							root = owner
+						}
+						set_state_owner = scope:unifier_tag
+					} 
+				}
+				every_subject_or_below = {
+					limit = {
+						NOT = { this = scope:unifier_tag }
+						capital = { region = sr:region_congo }
+						bem_colonial_nation_congo_trigger = yes
+						is_ai = yes
+						relations:root >= relations_threshold:cordial
+					}
+					scope:unifier_tag = {
+						annex = prev
+					}
+				}
+				if = {
+					limit =  {
+						NOT = { exists = c:CGC_colonial_greater_congo }
+					}
+					scope:unifier_tag = {
+						change_tag = CGC_colonial_greater_congo
+					}
+				}
+			}
+
+			text = unite_congo_tt
+		}
+	}
+
+	ai_chance = { #needs to be tested first
+		base = 0
+		modifier = {
+			trigger = {
+				OR = {
+					NOT = { has_technology_researched = civilizing_mission }
+					NOT = {
+						sr:region_congo = {
+							any_scope_state = {
+								count = all
+								owner = { NOT = { is_country_type = decentralized } }
+							}
+						}
+					}
+					has_variable = greater_congo_cooldown_var
+				}
+				
+			}
+			add = -200
+		}
+	}
+}
+
+unite_colonies_south_africa_decision = {
+	is_shown = {
+		has_variable = show_bem_colonial_decisions_var
+		any_subject_or_below = {
+			capital = { region = sr:region_southern_africa }
+			bem_colonial_nation_south_africa_trigger = yes
+		}
+	}
+
+	possible = {
+		OR = {
+			custom_tooltip = {
+				any_subject_or_below = {
+					capital = { region = sr:region_southern_africa }
+					bem_colonial_nation_south_africa_trigger = yes
+					is_ai = yes
+					count >= 2
+				}
+				text = colonial_nations_south_africa_more_2_tt
+			}
+			AND = {
+				custom_tooltip = {
+					any_subject_or_below = {
+						capital = { region = sr:region_southern_africa }
+						bem_colonial_nation_south_africa_trigger = yes
+						is_ai = yes
+						relations:root >= relations_threshold:cordial
+					}
+					text = colonial_nations_south_africa_tt
+				}
+				any_scope_state = {
+					region = sr:region_southern_africa
+				}
+			}
+		}
+	}
+	
+	when_taken = {
+		custom_tooltip = {
+			hidden_effect = {
+				set_variable = {
+					name = south_africa_cooldown_var
+					years = 2
+				}
+				ordered_subject_or_below = {
+					limit = {
+						capital = { region = sr:region_southern_africa }
+						bem_colonial_nation_south_africa_trigger = yes
+						is_ai = yes
+						relations:root >= relations_threshold:cordial
+					}
+					order_by = gdp
+		
+					save_scope_as = unifier_tag
+				}
+				if = {
+					limit = {
+						any_scope_state = {
+							region = sr:region_southern_africa
+						}
+					}
+					every_scope_state = {
+						limit = {
+							region = sr:region_southern_africa
+							root = owner
+						}
+						set_state_owner = scope:unifier_tag
+					} 
+				}
+				every_subject_or_below = {
+					limit = {
+						NOT = { this = scope:unifier_tag }
+						capital = { region = sr:region_southern_africa }
+						bem_colonial_nation_south_africa_trigger = yes
+						is_ai = yes
+						relations:root >= relations_threshold:cordial
+					}
+					scope:unifier_tag = {
+						annex = prev
+					}
+				}
+				if = {
+					limit =  {
+						NOT = { exists = c:CSAF_colonial_south_africa }
+					}
+					scope:unifier_tag = {
+						change_tag = CSAF_colonial_south_africa
+					}
+				}
+			}
+
+			text = unite_south_africa_tt
+		}
+	}
+
+	ai_chance = { #needs to be tested first
+		base = 0
+		modifier = {
+			trigger = {
+				OR = {
+					NOT = { has_technology_researched = civilizing_mission }
+					NOT = {
+						sr:region_southern_africa = {
+							any_scope_state = {
+								count = all
+								owner = { NOT = { is_country_type = decentralized } }
+							}
+						}
+					}
+					has_variable = south_africa_cooldown_var
+				}
+				
+			}
+			add = -200
+		}
+	}
+}
