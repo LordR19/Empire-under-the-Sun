@@ -1,4 +1,5 @@
-﻿C1U = { # Protectorate of Uganda
+﻿# Colonial Uganda
+C1U = {
 dynamic_country_name = {
 	name = dyn_c_default_uganda
 	adjective = dyn_c_default_uganda_adj
@@ -24,3 +25,31 @@ dynamic_country_name = {
 		}
 	}
 }
+
+# Colonial Uganda
+C1U_AI = {
+	dynamic_country_name = {
+		name = dyn_c_default_uganda
+		adjective = dyn_c_default_uganda_adj
+	
+		is_main_tag_only = no
+		priority = 1
+		
+		trigger = {
+			always = yes
+		}
+	}
+	
+		dynamic_country_name = {
+			name = dyn_c_colonial_uganda
+	
+			is_main_tag_only = no
+			priority = 10
+			
+			trigger = {
+				scope:actor = {
+					is_subject = yes
+				}
+			}
+		}
+	}

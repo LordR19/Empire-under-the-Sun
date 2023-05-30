@@ -458,8 +458,38 @@ C4T = {
 
 }
 
+#Colonial Togo AI
+C4T_AI = {
+
+	color = "green_dark"
+
+	country_type = colonial
+
+	tier = principality
+
+	cultures = { british }
+
+	capital = STATE_TOGO
+
+}
+
 #Colonial Dahomey
 C1D = {
+
+	color = { 252 210 15 }
+
+	country_type = colonial
+
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_DAHOMEY
+
+}
+
+#Colonial Dahomey AI
+C1D_AI = {
 
 	color = { 252 210 15 }
 
@@ -488,8 +518,38 @@ C1N = {
 	
 }
 
+#Protectorate of Nigeria AI
+C1N_AI = {
+
+	color = { 30 80 0 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_YORUBA_STATES
+	
+}
+
 #Colony of Niger
 C2N = {
+
+	color = { 224 82 6 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_OUTER_HAUSALAND
+	
+}
+
+#Colony of Niger AI
+C2N_AI = {
 
 	color = { 224 82 6 }
 	
@@ -518,8 +578,38 @@ C5C = {
 
 }
 
-#Protectorate of North Cameroon
+#Colony of Chad AI
+C5C_AI = {
+
+	color = { 0 38 100 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+
+	capital = STATE_WADDAI
+
+}
+
+#Colonial Cameroon
 C2C = {
+
+	color = "yellow"
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_NORTH_CAMEROON
+	
+}
+
+#Colonial Cameroon AI
+C2C_AI = {
 
 	color = "yellow"
 	
@@ -567,6 +657,21 @@ C1E = {
 	
 }
 
+#Colonial Egypt AI
+C1E_AI = {
+
+	color = { 255  160  100 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_LOWER_EGYPT
+	
+}
+
 #Protectorate of Sudan
 C2S = {
 
@@ -582,8 +687,38 @@ C2S = {
 	
 }
 
+#Protectorate of Sudan AI
+C2S_AI = {
+
+	color = { 0 60 160 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_BLUE_NILE
+	
+}
+
 #Colonial South Sudan
 C5S = {
+
+	color = { 42 255 42 }
+
+	country_type = colonial
+
+	tier = principality
+
+	cultures = { british }
+
+	capital = STATE_EQUATORIA
+
+}
+
+#Colonial South Sudan AI
+C5S_AI = {
 
 	color = { 42 255 42 }
 
@@ -631,6 +766,21 @@ C2E = {
 	
 }
 
+#Colony of Ethiopia AI
+C2E_AI = {
+
+	color = { 23 108 0 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_OROMIA
+	
+}
+
 #Colony of Eritrea
 C3E = {
 
@@ -646,8 +796,38 @@ C3E = {
 	
 }
 
+#Colony of Eritrea AI
+C3E_AI = {
+
+	color = { 222 185 0 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_ERITREA
+	
+}
+
 #Protectorate of Somaliland
 C1S = {
+
+	color = { 11 70 220 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_SOMALILAND
+	
+}
+
+#Protectorate of Somaliland AI
+C1S_AI = {
 
 	color = { 11 70 220 }
 	
@@ -680,7 +860,7 @@ CEA_colonial_east_africa = {
 	
 }
 
-#Protectorate of Uganda
+#Colonial Uganda
 C1U = {
 
 	color = { 230 170 0 }
@@ -695,7 +875,22 @@ C1U = {
 	
 }
 
-#Protectorate of Kenya
+#Colonial Uganda AI
+C1U_AI = {
+
+	color = { 230 170 0 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_UGANDA
+	
+}
+
+#Colonial Kenya
 C1K = {
 
 	color = { 100 0 0 }
@@ -710,7 +905,22 @@ C1K = {
 	
 }
 
-#Tanganyika Territory
+#Colonial Kenya AI
+C1K_AI = {
+
+	color = { 100 0 0 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_KENYA
+	
+}
+
+#Colonial Tanganyika
 C1T = {
 
 	color = { 0 100 20 }
@@ -725,8 +935,38 @@ C1T = {
 	
 }
 
-#Mocambique / SE Africa
+#Colonial Tanganyika AI
+C1T_AI = {
+
+	color = { 0 100 20 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_ZANZIBAR
+	
+}
+
+#Colonial Mocambique / SE Africa
 C1M = {
+
+	color = { 255 200 85 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_MOCAMBIQUE
+	
+}
+
+#Colonial Mocambique / SE Africa AI
+C1M_AI = {
 
 	color = { 255 200 85 }
 	
@@ -742,6 +982,21 @@ C1M = {
 
 #Colony of Madagascar
 C2M = {
+
+	color = "green"
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_NORTH_MADAGASCAR
+	
+}
+
+#Colony of Madagascar AI
+C2M_AI = {
 
 	color = "green"
 	
@@ -789,8 +1044,38 @@ C1G = {
 	
 }
 
+#Colony of Gabon AI
+C1G_AI = {
+
+	color = { 20 200 68 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_GABON
+	
+}
+
 #Colony of Middle-Congo
 C3M = {
+
+	color = { 175 40 40 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_CONGO
+	
+}
+
+#Colony of Middle-Congo AI
+C3M_AI = {
 
 	color = { 175 40 40 }
 	
@@ -819,8 +1104,38 @@ C4C = {
 	
 }
 
+#Colony of Central Africa AI
+C4C_AI = {
+
+	color = { 153 147 78 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_UBANGI_SHARI
+	
+}
+
 #Colony of Congo
 C3C = {
+
+	color = { 0 130 255 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_BAS_CONGO
+	
+}
+
+#Colony of Congo AI
+C3C_AI = {
 
 	color = { 0 130 255 }
 	
@@ -849,8 +1164,38 @@ C2A = {
 	
 }
 
+#Colony of Angola AI
+C2A_AI = {
+
+	color = { 150 50 50 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_NORTH_ANGOLA
+	
+}
+
 #Northern Rhodesia
 C2R = {
+
+	color = { 50 200 0 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_ZAMBIA
+	
+}
+
+#Northern Rhodesia AI
+C2R_AI = {
 
 	color = { 50 200 0 }
 	

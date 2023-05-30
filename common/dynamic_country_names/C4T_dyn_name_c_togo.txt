@@ -1,4 +1,34 @@
-﻿C4T = { # Colonial Togo
+﻿# Colonial Togo
+C4T = {
+	dynamic_country_name = {
+		name = dyn_c_default_togo
+		adjective = dyn_c_default_togo_adj
+
+		is_main_tag_only = no
+		priority = 1
+		
+		trigger = {
+			always = yes
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_colony_of_togo
+		adjective = dyn_c_colony_of_togo_adj
+
+		is_main_tag_only = no
+		priority = 10
+		
+		trigger = {
+			scope:actor = {
+				is_subject = yes
+			}
+		}
+	}
+}
+
+# Colonial Togo AI
+C4T_AI = {
 	dynamic_country_name = {
 		name = dyn_c_default_togo
 		adjective = dyn_c_default_togo_adj

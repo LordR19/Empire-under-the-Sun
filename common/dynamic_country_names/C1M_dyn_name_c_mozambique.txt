@@ -1,4 +1,40 @@
-﻿C1M = { # Mozambique / South East Africa
+﻿# Colonial Mozambique / South East Africa
+C1M = {
+	dynamic_country_name = {
+		name = dyn_c_default_mocambique
+		adjective = dyn_c_default_mocambique_adj
+
+		is_main_tag_only = no
+		priority = 1
+		
+		trigger = {
+			always = yes
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_south_east_africa
+		adjective = dyn_c_south_east_africa_adj
+
+		is_main_tag_only = no
+		priority = 10
+		
+		trigger = {
+			scope:actor = {
+				is_subject = yes
+				AND = {
+					exists = c:POR
+					NOT = {
+						is_direct_subject_of  = c:POR
+					}
+				}
+			}
+		}
+	}
+}
+
+# Colonial Mozambique / South East Africa AI
+C1M_AI = {
 	dynamic_country_name = {
 		name = dyn_c_default_mocambique
 		adjective = dyn_c_default_mocambique_adj

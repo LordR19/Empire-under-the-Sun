@@ -132,25 +132,49 @@ bem_colonial_nation_trigger = {
 			exists = c:C4T
 			this = c:C4T
 		}
+		AND = { #Colonial Togo AI
+			exists = c:C4T_AI
+			this = c:C4T_AI
+		}
 		AND = { #Colonial Dahomey
 			exists = c:C1D
 			this = c:C1D
+		}
+		AND = { #Colonial Dahomey AI
+			exists = c:C1D_AI
+			this = c:C1D_AI
 		}
 		AND = { #Colonial Nigeria
 			exists = c:C1N
 			this = c:C1N
 		}
+		AND = { #Colonial Nigeria AI
+			exists = c:C1N_AI
+			this = c:C1N_AI
+		}
 		AND = { #Colonial Niger
 			exists = c:C2N
 			this = c:C2N
+		}
+		AND = { #Colonial Niger AI
+			exists = c:C2N_AI
+			this = c:C2N_AI
 		}
 		AND = { #Colonial Chad
 			exists = c:C5C
 			this = c:C5C
 		}
+		AND = { #Colonial Chad AI
+			exists = c:C5C_AI
+			this = c:C5C_AI
+		}
 		AND = { #Colonial Cameroon
 			exists = c:C2C
 			this = c:C2C
+		}
+		AND = { #Colonial Cameroon AI
+			exists = c:C2C_AI
+			this = c:C2C_AI
 		}
 		### Nile Bassin Countries ###
 		AND = { #Colonial Greater Egypt
@@ -161,13 +185,25 @@ bem_colonial_nation_trigger = {
 			exists = c:C1E
 			this = c:C1E
 		}
+		AND = { #Colonial Egypt AI
+			exists = c:C1E_AI
+			this = c:C1E_AI
+		}
 		AND = { #Colonial Sudan
 			exists = c:C2S
 			this = c:C2S
 		}
+		AND = { #Colonial Sudan AI
+			exists = c:C2S_AI
+			this = c:C2S_AI
+		}
 		AND = { #Colonial South Sudan
 			exists = c:C5S
 			this = c:C5S
+		}
+		AND = { #Colonial South Sudan AI
+			exists = c:C5S_AI
+			this = c:C5S_AI
 		}
 		### Ethiopia Region Countries ###
 		AND = { #Colonial Greater Ethiopia
@@ -178,13 +214,25 @@ bem_colonial_nation_trigger = {
 			exists = c:C2E
 			this = c:C2E
 		}
+		AND = { #Colonial Ethiopia AI
+			exists = c:C2E_AI
+			this = c:C2E_AI
+		}
 		AND = { #Colonial Eritrea
 			exists = c:C3E
 			this = c:C3E
 		}
+		AND = { #Colonial Eritrea AI
+			exists = c:C3E_AI
+			this = c:C3E_AI
+		}
 		AND = { #Colonial Somaliland
 			exists = c:C1S
 			this = c:C1S
+		}
+		AND = { #Colonial Somaliland AI
+			exists = c:C1S_AI
+			this = c:C1S_AI
 		}
 		### Zanj Region Countries ###
 		AND = { #Colonial Greater Ethiopia
@@ -195,21 +243,41 @@ bem_colonial_nation_trigger = {
 			exists = c:C1U
 			this = c:C1U
 		}
+		AND = { #Colonial Uganda AI
+			exists = c:C1U_AI
+			this = c:C1U_AI
+		}
 		AND = { #Colonial Kenya
 			exists = c:C1K
 			this = c:C1K
+		}
+		AND = { #Colonial Kenya AI
+			exists = c:C1K_AI
+			this = c:C1K_AI
 		}
 		AND = { #Colonial Tanganyika
 			exists = c:C1T
 			this = c:C1T
 		}
+		AND = { #Colonial Tanganyika AI
+			exists = c:C1T_AI
+			this = c:C1T_AI
+		}
 		AND = { #Colonial Mocambique / South East Africa
 			exists = c:C1M
 			this = c:C1M
 		}
+		AND = { #Colonial Mocambique / South East Africa AI
+			exists = c:C1M_AI
+			this = c:C1M_AI
+		}
 		AND = { #Colonial Madagascar
 			exists = c:C2M
 			this = c:C2M
+		}
+		AND = { #Colonial Madagascar AI
+			exists = c:C2M_AI
+			this = c:C2M_AI
 		}
 		### Congo Region Countries ###
 		AND = { #Colonial Greater Congo
@@ -220,25 +288,49 @@ bem_colonial_nation_trigger = {
 			exists = c:C1G
 			this = c:C1G
 		}
+		AND = { #Colonial Gabon AI
+			exists = c:C1G_AI
+			this = c:C1G_AI
+		}
 		AND = { #Colonial Middle-Congo
 			exists = c:C3M
 			this = c:C3M
+		}
+		AND = { #Colonial Middle-Congo AI
+			exists = c:C3M_AI
+			this = c:C3M_AI
 		}
 		AND = { #Colonial Central Africa
 			exists = c:C4C
 			this = c:C4C
 		}
+		AND = { #Colonial Central Africa AI
+			exists = c:C4C_AI
+			this = c:C4C_AI
+		}
 		AND = { #Colonial Congo
 			exists = c:C3C
 			this = c:C3C
+		}
+		AND = { #Colonial Congo AI
+			exists = c:C3C_AI
+			this = c:C3C_AI
 		}
 		AND = { #Colonial Angola
 			exists = c:C2A
 			this = c:C2A
 		}
+		AND = { #Colonial Angola AI
+			exists = c:C2A_AI
+			this = c:C2A_AI
+		}
 		AND = { #Colonial Rhodesia / Zambia
 			exists = c:C2R
 			this = c:C2R
+		}
+		AND = { #Colonial Rhodesia / Zambia AI
+			exists = c:C2R_AI
+			this = c:C2R_AI
 		}
 		### South Africa Region Countries ###
 		AND = { #Colonial South Africa
@@ -556,25 +648,49 @@ bem_colonial_nation_greater_nigeria_trigger = {
 			exists = c:C4T
 			this = c:C4T
 		}
+		AND = { #Colonial Togo AI
+			exists = c:C4T_AI
+			this = c:C4T_AI
+		}
 		AND = { #Colonial Dahomey
 			exists = c:C1D
 			this = c:C1D
+		}
+		AND = { #Colonial Dahomey AI
+			exists = c:C1D_AI
+			this = c:C1D_AI
 		}
 		AND = { #Colonial Nigeria
 			exists = c:C1N
 			this = c:C1N
 		}
+		AND = { #Colonial Nigeria AI
+			exists = c:C1N_AI
+			this = c:C1N_AI
+		}
 		AND = { #Colonial Niger
 			exists = c:C2N
 			this = c:C2N
+		}
+		AND = { #Colonial Niger AI
+			exists = c:C2N_AI
+			this = c:C2N_AI
 		}
 		AND = { #Colonial Chad
 			exists = c:C5C
 			this = c:C5C
 		}
+		AND = { #Colonial Chad AI
+			exists = c:C5C_AI
+			this = c:C5C_AI
+		}
 		AND = { #Colonial Cameroon
 			exists = c:C2C
 			this = c:C2C
+		}
+		AND = { #Colonial Cameroon AI
+			exists = c:C2C_AI
+			this = c:C2C_AI
 		}
 	}
 }
@@ -590,13 +706,25 @@ bem_colonial_nation_nile_basin_trigger = {
 			exists = c:C1E
 			this = c:C1E
 		}
+		AND = { #Colonial Egypt AI
+			exists = c:C1E_AI
+			this = c:C1E_AI
+		}
 		AND = { #Colonial Sudan
 			exists = c:C2S
 			this = c:C2S
 		}
+		AND = { #Colonial Sudan AI
+			exists = c:C2S_AI
+			this = c:C2S_AI
+		}
 		AND = { #Colonial South Sudan
 			exists = c:C5S
 			this = c:C5S
+		}
+		AND = { #Colonial South Sudan AI
+			exists = c:C5S_AI
+			this = c:C5S_AI
 		}
 	}
 }
@@ -612,13 +740,25 @@ bem_colonial_nation_ethiopia_trigger = {
 			exists = c:C2E
 			this = c:C2E
 		}
+		AND = { #Colonial Ethiopia AI
+			exists = c:C2E_AI
+			this = c:C2E_AI
+		}
 		AND = { #Colonial Eritrea
 			exists = c:C3E
 			this = c:C3E
 		}
+		AND = { #Colonial Eritrea AI
+			exists = c:C3E_AI
+			this = c:C3E_AI
+		}
 		AND = { #Colonial Somaliland
 			exists = c:C1S
 			this = c:C1S
+		}
+		AND = { #Colonial Somaliland AI
+			exists = c:C1S_AI
+			this = c:C1S_AI
 		}
 	}
 }
@@ -634,21 +774,41 @@ bem_colonial_nation_zanj_trigger = {
 			exists = c:C1U
 			this = c:C1U
 		}
+		AND = { #Colonial Uganda AI
+			exists = c:C1U_AI
+			this = c:C1U_AI
+		}
 		AND = { #Colonial Kenya
 			exists = c:C1K
 			this = c:C1K
+		}
+		AND = { #Colonial Kenya AI
+			exists = c:C1K_AI
+			this = c:C1K_AI
 		}
 		AND = { #Colonial Tanganyika
 			exists = c:C1T
 			this = c:C1T
 		}
+		AND = { #Colonial Tanganyika AI
+			exists = c:C1T_AI
+			this = c:C1T_AI
+		}
 		AND = { #Colonial Mocambique / South East Africa
 			exists = c:C1M
 			this = c:C1M
 		}
+		AND = { #Colonial Mocambique / South East Africa AI
+			exists = c:C1M_AI
+			this = c:C1M_AI
+		}
 		AND = { #Colonial Madagascar
 			exists = c:C2M
 			this = c:C2M
+		}
+		AND = { #Colonial Madagascar AI
+			exists = c:C2M_AI
+			this = c:C2M_AI
 		}
 	}
 }
@@ -664,25 +824,49 @@ bem_colonial_nation_congo_trigger = {
 			exists = c:C1G
 			this = c:C1G
 		}
+		AND = { #Colonial Gabon AI
+			exists = c:C1G_AI
+			this = c:C1G_AI
+		}
 		AND = { #Colonial Middle-Congo
 			exists = c:C3M
 			this = c:C3M
+		}
+		AND = { #Colonial Middle-Congo AI
+			exists = c:C3M_AI
+			this = c:C3M_AI
 		}
 		AND = { #Colonial Central Africa
 			exists = c:C4C
 			this = c:C4C
 		}
+		AND = { #Colonial Central Africa AI
+			exists = c:C4C_AI
+			this = c:C4C_AI
+		}
 		AND = { #Colonial Congo
 			exists = c:C3C
 			this = c:C3C
+		}
+		AND = { #Colonial Congo AI
+			exists = c:C3C_AI
+			this = c:C3C_AI
 		}
 		AND = { #Colonial Angola
 			exists = c:C2A
 			this = c:C2A
 		}
+		AND = { #Colonial Angola AI
+			exists = c:C2A_AI
+			this = c:C2A_AI
+		}
 		AND = { #Colonial Rhodesia / Zambia
 			exists = c:C2R
 			this = c:C2R
+		}
+		AND = { #Colonial Rhodesia / Zambia AI
+			exists = c:C2R_AI
+			this = c:C2R_AI
 		}
 	}
 }

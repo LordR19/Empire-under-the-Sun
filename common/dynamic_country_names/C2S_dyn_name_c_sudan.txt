@@ -1,4 +1,33 @@
-﻿C2S = { # Protectorate of Aden
+﻿# Colonial Sudan
+C2S = {
+	dynamic_country_name = {
+		name = dyn_c_default_sudan
+		adjective = dyn_c_default_sudan_adj
+
+		is_main_tag_only = no
+		priority = 1
+		
+		trigger = {
+			always = yes
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_colonial_sudan
+
+		is_main_tag_only = no
+		priority = 10
+		
+		trigger = {
+			scope:actor = {
+				is_subject = yes
+			}
+		}
+	}
+}
+
+# Colonial Sudan AI
+C2S_AI = {
 	dynamic_country_name = {
 		name = dyn_c_default_sudan
 		adjective = dyn_c_default_sudan_adj

@@ -195,6 +195,8 @@
 
  C1V: "Colonial Upper Volta"
  C1V_ADJ: "Voltan"
+ C1V_AI: "Colonial Upper Volta"
+ C1V_AI_ADJ: "Voltan"
  dyn_c_default_volta: "Upper Volta"
  dyn_c_default_volta_adj: "Voltan"
  dyn_c_colony_of_volta: "[Country.GetOverlord.GetAdjectiveNoFormatting] Upper Volta"
@@ -251,6 +253,8 @@
 
  C2G: "Colonial Guinea"
  C2G_ADJ: "Guinean"
+ C2G_AI: "Colonial Guinea"
+ C2G_AI_ADJ: "Guinean"
  dyn_c_default_guinea: "Guinea"
  dyn_c_default_guinea_adj: "Guinean"
  dyn_c_colony_of_guinea: "[Country.GetOverlord.GetAdjectiveNoFormatting] Guinea"
@@ -258,6 +262,8 @@
 
  C2I: "Colonial Ivory Coast"
  C2I_ADJ: "Ivorian"
+ C2I_AI: "Colonial Ivory Coast"
+ C2I_AI_ADJ: "Ivorian"
  dyn_c_default_ivory_coast: "Ivory Coast"
  dyn_c_default_ivory_coast_adj: "Ivorian"
  dyn_c_colony_of_ivory_coast: "[Country.GetOverlord.GetAdjectiveNoFormatting] Ivory Coast"
@@ -350,6 +356,8 @@
 
  C3G: "Colonial Gold Coast"
  C3G_ADJ: "Gold Coaster"
+ C3G_AI: "Colonial Gold Coast"
+ C3G_AI_ADJ: "Gold Coaster"
  dyn_c_default_gold_coast: "Gold Coast"
  dyn_c_default_gold_coast_adj: "Gold Coaster"
  dyn_c_colony_of_gold_coast: "[Country.GetOverlord.GetAdjectiveNoFormatting] Gold Coast"
@@ -369,6 +377,8 @@
 
  C3P: "Colonial Pepper Coast"
  C3P_ADJ: "Pepper Coaster"
+ C3P_AI: "Colonial Pepper Coast"
+ C3P_AI_ADJ: "Pepper Coaster"
  dyn_c_default_pepper_coast: "Pepper Coast"
  dyn_c_default_pepper_coast_adj: "Pepper Coaster"
  dyn_c_colony_of_pepper_coast: "[Country.GetOverlord.GetAdjectiveNoFormatting] Pepper Coast"
@@ -376,6 +386,8 @@
 
  C3S: "Colonial Senegal"
  C3S_ADJ: "Senegalese"
+ C3S_AI: "Colonial Senegal"
+ C3S_AI_ADJ: "Senegalese"
  dyn_c_default_senegal: "Senegal"
  dyn_c_default_senegal_adj: "Senegalese"
  dyn_c_colony_of_senegal: "[Country.GetOverlord.GetAdjectiveNoFormatting] Senegal"
@@ -409,6 +421,8 @@
 
  C4M: "Colonial Mali"
  C4M_ADJ: "Malian"
+ C4M_AI: "Colonial Mali"
+ C4M_AI_ADJ: "Malian"
  dyn_c_default_mali: "Mali"
  dyn_c_default_mali_adj: "Malian"
  dyn_c_colony_of_mali: "[Country.GetOverlord.GetAdjectiveNoFormatting] Mali"
@@ -466,6 +480,8 @@
 
  C6M: "Colonial Mauritania"
  C6M_ADJ: "Mauritanian"
+ C6M_AI: "Colonial Mauritania"
+ C6M_AI_ADJ: "Mauritanian"
  dyn_c_default_mauritania: "Mauritania"
  dyn_c_default_mauritania_adj: "Mauritanian"
  dyn_c_colony_of_mauritania: "[Country.GetOverlord.GetAdjectiveNoFormatting] Mauritania"
@@ -811,16 +827,40 @@
 
 #AI decisions
  bem_create_colonial_libya: "AI decision Libya"
- bem_create_colonial_libya_desc: "AI decision for Libya to create colony. #n Should not be visible!#!"
+ bem_create_colonial_libya_desc: "AI decision to create a colony in Libya. #n Should not be visible!#!"
 
  bem_create_colonial_tunisia: "AI decision Tunisia"
- bem_create_colonial_tunisia_desc: "AI decision for Tunisia to create colony. #n Should not be visible!#!"
+ bem_create_colonial_tunisia_desc: "AI decision to create a colony in Tunisia. #n Should not be visible!#!"
 
  bem_create_colonial_algeria: "AI decision Algeria"
- bem_create_colonial_algeria_desc: "AI decision for Algeria to create colony. #n Should not be visible!#!"
+ bem_create_colonial_algeria_desc: "AI decision to create a colony in Algeria. #n Should not be visible!#!"
 
  bem_create_colonial_west_sahara: "AI decision West Sahara"
- bem_create_colonial_west_sahara_desc: "AI decision for West Sahara to create colony. #n Should not be visible!#!"
+ bem_create_colonial_west_sahara_desc: "AI decision to create a colony in West Sahara. #n Should not be visible!#!"
 
  bem_create_colonial_morocco: "AI decision Morocco"
- bem_create_colonial_morocco_desc: "AI decision for Morocco to create colony. #n Should not be visible!#!"
+ bem_create_colonial_morocco_desc: "AI decision to create a colony in Morocco. #n Should not be visible!#!"
+
+ bem_create_colonial_mauritania: "AI decision Mauritania"
+ bem_create_colonial_mauritania_desc: "AI decision to create a colony in Mauritania. #n Should not be visible!#!"
+
+ bem_create_colonial_senegal: "AI decision Senegal"
+ bem_create_colonial_senegal_desc: "AI decision to create a colony in Senegal. #n Should not be visible!#!"
+
+ bem_create_colonial_guinea: "AI decision Guinea"
+ bem_create_colonial_guinea_desc: "AI decision to create a colony in Guinea. #n Should not be visible!#!"
+
+ bem_create_colonial_mali: "AI decision Mali"
+ bem_create_colonial_mali_desc: "AI decision to create a colony in Mali. #n Should not be visible!#!"
+
+ bem_create_colonial_pepper_coast: "AI decision Pepper Coast"
+ bem_create_colonial_pepper_coast_desc: "AI decision to create a colony in Pepper Coast. #n Should not be visible!#!"
+
+ bem_create_colonial_ivory_coast: "AI decision Ivory Coast"
+ bem_create_colonial_ivory_coast_desc: "AI decision to create a colony in Ivory Coast. #n Should not be visible!#!"
+
+ bem_create_colonial_volta: "AI decision Volta"
+ bem_create_colonial_volta_desc: "AI decision to create a colony in Volta. #n Should not be visible!#!"
+
+ bem_create_colonial_gold_coast: "AI decision Gold Coast"
+ bem_create_colonial_gold_coast_desc: "AI decision to create a colony in Gold Coast. #n Should not be visible!#!"

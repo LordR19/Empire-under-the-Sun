@@ -25,7 +25,8 @@
 		#This is needed as you can't colonize provinces that are only accessible through your subjects
 		s:STATE_TRIPOLI = {
 			any_scope_state = {
-				NOT = {
+				count = all
+				NOR = {
 					owner = { is_country_type = decentralized }
 					any_neighbouring_state = { owner = { is_country_type = decentralized } }
 				}
@@ -180,7 +181,8 @@ bem_create_colonial_tunisia = {
 		}
 		s:STATE_TUNISIA = {
 			any_scope_state = {
-				NOT = {
+				count = all
+				NOR = {
 					owner = { is_country_type = decentralized }
 					any_neighbouring_state = { owner = { is_country_type = decentralized } }
 				}
@@ -301,7 +303,8 @@ bem_create_colonial_algeria = {
 		}
 		s:STATE_ALGIERS = {
 			any_scope_state = {
-				NOT = {
+				count = all
+				NOR = {
 					owner = { is_country_type = decentralized }
 					any_neighbouring_state = { owner = { is_country_type = decentralized } }
 				}
@@ -309,7 +312,8 @@ bem_create_colonial_algeria = {
 		}
 		s:STATE_CONSTANTINE = {
 			any_scope_state = {
-				NOT = {
+				count = all
+				NOR = {
 					owner = { is_country_type = decentralized }
 					any_neighbouring_state = { owner = { is_country_type = decentralized } }
 				}
@@ -317,7 +321,8 @@ bem_create_colonial_algeria = {
 		}
 		s:STATE_EAST_SAHARA = {
 			any_scope_state = {
-				NOT = {
+				count = all
+				NOR = {
 					owner = { is_country_type = decentralized }
 					any_neighbouring_state = { owner = { is_country_type = decentralized } }
 				}
@@ -325,7 +330,8 @@ bem_create_colonial_algeria = {
 		}
 		s:STATE_SAHARA = {
 			any_scope_state = {
-				NOT = {
+				count = all
+				NOR = {
 					owner = { is_country_type = decentralized }
 					any_neighbouring_state = { owner = { is_country_type = decentralized } }
 				}
@@ -333,7 +339,8 @@ bem_create_colonial_algeria = {
 		}
 		s:STATE_ORAN = {
 			any_scope_state = {
-				NOT = {
+				count = all
+				NOR = {
 					owner = { is_country_type = decentralized }
 					any_neighbouring_state = { owner = { is_country_type = decentralized } }
 				}
@@ -477,7 +484,8 @@ bem_create_colonial_morocco = {
 		}
 		s:STATE_MARRAKECH = {
 			any_scope_state = {
-				NOT = {
+				count = all
+				NOR = {
 					owner = { is_country_type = decentralized }
 					any_neighbouring_state = { owner = { is_country_type = decentralized } }
 				}
@@ -485,7 +493,8 @@ bem_create_colonial_morocco = {
 		}
 		s:STATE_FEZ = {
 			any_scope_state = {
-				NOT = {
+				count = all
+				NOR = {
 					owner = { is_country_type = decentralized }
 					any_neighbouring_state = { owner = { is_country_type = decentralized } }
 				}
@@ -493,7 +502,8 @@ bem_create_colonial_morocco = {
 		}
 		s:STATE_INNER_MOROCCO = {
 			any_scope_state = {
-				NOT = {
+				count = all
+				NOR = {
 					owner = { is_country_type = decentralized }
 					any_neighbouring_state = { owner = { is_country_type = decentralized } }
 				}
@@ -501,7 +511,8 @@ bem_create_colonial_morocco = {
 		}
 		s:STATE_AL_RIF = {
 			any_scope_state = {
-				NOT = {
+				count = all
+				NOR = {
 					owner = { is_country_type = decentralized }
 					any_neighbouring_state = { owner = { is_country_type = decentralized } }
 				}
@@ -636,7 +647,8 @@ bem_create_colonial_west_sahara = {
 		}
 		s:STATE_WEST_SAHARA = {
 			any_scope_state = {
-				NOT = {
+				count = all
+				NOR = {
 					owner = { is_country_type = decentralized }
 					any_neighbouring_state = { owner = { is_country_type = decentralized } }
 				}
@@ -735,7 +747,7 @@ bem_create_colonial_mauritania = {
 		has_game_rule = bem_colonial_nations_release
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
-		is_ai = yes
+	#	is_ai = yes
 		any_scope_state = {
 			OR = {
 				state_region = s:STATE_MAURITANIA
@@ -744,7 +756,8 @@ bem_create_colonial_mauritania = {
 		}
 		s:STATE_MAURITANIA = {
 			any_scope_state = {
-				NOT = {
+				count = all
+				NOR = {
 					owner = { is_country_type = decentralized }
 					any_neighbouring_state = { owner = { is_country_type = decentralized } }
 				}
@@ -752,7 +765,8 @@ bem_create_colonial_mauritania = {
 		}
 		s:STATE_INNER_MAURITANIA = {
 			any_scope_state = {
-				NOT = {
+				count = all
+				NOR = {
 					owner = { is_country_type = decentralized }
 					any_neighbouring_state = { owner = { is_country_type = decentralized } }
 				}
@@ -872,7 +886,8 @@ bem_create_colonial_senegal = {
 		}
 		s:STATE_SENEGAL = {
 			any_scope_state = {
-				NOT = {
+				count = all
+				NOR = {
 					owner = { is_country_type = decentralized }
 					any_neighbouring_state = { owner = { is_country_type = decentralized } }
 				}
@@ -880,7 +895,8 @@ bem_create_colonial_senegal = {
 		}
 		s:STATE_GAMBIA = {
 			any_scope_state = {
-				NOT = {
+				count = all
+				NOR = {
 					owner = { is_country_type = decentralized }
 					any_neighbouring_state = { owner = { is_country_type = decentralized } }
 				}
@@ -1000,7 +1016,8 @@ bem_create_colonial_guinea = {
 		}
 		s:STATE_GUINEA = {
 			any_scope_state = {
-				NOT = {
+				count = all
+				NOR = {
 					owner = { is_country_type = decentralized }
 					any_neighbouring_state = { owner = { is_country_type = decentralized } }
 				}
@@ -1008,7 +1025,8 @@ bem_create_colonial_guinea = {
 		}
 		s:STATE_SIERRA_LEONE = {
 			any_scope_state = {
-				NOT = {
+				count = all
+				NOR = {
 					owner = { is_country_type = decentralized }
 					any_neighbouring_state = { owner = { is_country_type = decentralized } }
 				}
@@ -1129,7 +1147,8 @@ bem_create_colonial_mali = {
 		}
 		s:STATE_WESTERN_MALI = {
 			any_scope_state = {
-				NOT = {
+				count = all
+				NOR = {
 					owner = { is_country_type = decentralized }
 					any_neighbouring_state = { owner = { is_country_type = decentralized } }
 				}
@@ -1137,7 +1156,8 @@ bem_create_colonial_mali = {
 		}
 		s:STATE_EASTERN_MALI = {
 			any_scope_state = {
-				NOT = {
+				count = all
+				NOR = {
 					owner = { is_country_type = decentralized }
 					any_neighbouring_state = { owner = { is_country_type = decentralized } }
 				}
@@ -1145,7 +1165,8 @@ bem_create_colonial_mali = {
 		}
 		s:STATE_TIMBUKTU = {
 			any_scope_state = {
-				NOT = {
+				count = all
+				NOR = {
 					owner = { is_country_type = decentralized }
 					any_neighbouring_state = { owner = { is_country_type = decentralized } }
 				}
@@ -1266,7 +1287,8 @@ bem_create_colonial_pepper_coast = {
 		}
 		s:STATE_LIBERIA = {
 			any_scope_state = {
-				NOT = {
+				count = all
+				NOR = {
 					owner = { is_country_type = decentralized }
 					any_neighbouring_state = { owner = { is_country_type = decentralized } }
 				}
@@ -1374,7 +1396,8 @@ bem_create_colonial_ivory_coast = {
 		}
 		s:STATE_IVORY_COAST = {
 			any_scope_state = {
-				NOT = {
+				count = all
+				NOR = {
 					owner = { is_country_type = decentralized }
 					any_neighbouring_state = { owner = { is_country_type = decentralized } }
 				}
@@ -1382,7 +1405,8 @@ bem_create_colonial_ivory_coast = {
 		}
 		s:STATE_WINDWARD_COAST = {
 			any_scope_state = {
-				NOT = {
+				count = all
+				NOR = {
 					owner = { is_country_type = decentralized }
 					any_neighbouring_state = { owner = { is_country_type = decentralized } }
 				}
@@ -1499,7 +1523,8 @@ bem_create_colonial_volta = {
 		}
 		s:STATE_VOLTA = {
 			any_scope_state = {
-				NOT = {
+				count = all
+				NOR = {
 					owner = { is_country_type = decentralized }
 					any_neighbouring_state = { owner = { is_country_type = decentralized } }
 				}
@@ -1604,7 +1629,8 @@ bem_create_colonial_gold_coast = {
 		}
 		s:STATE_GHANA = {
 			any_scope_state = {
-				NOT = {
+				count = all
+				NOR = {
 					owner = { is_country_type = decentralized }
 					any_neighbouring_state = { owner = { is_country_type = decentralized } }
 				}
@@ -1686,6 +1712,3069 @@ bem_create_colonial_gold_coast = {
 				every_scope_state = {
 					limit = {
 						state_region = s:STATE_GHANA
+					}
+					set_state_owner = scope:bem_colony_scope
+				}
+			}
+		}
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+bem_create_colonial_togo = {
+	is_shown = {
+		has_game_rule = bem_colonial_nations_release
+		OR = { is_country_type = recognized is_country_type = colonial }
+		country_is_in_africa = no
+		is_ai = yes
+		any_scope_state = {
+			state_region = s:STATE_TOGO
+		}
+		s:STATE_TOGO = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+	}
+
+	possible = {
+		always = yes
+	}
+
+	when_taken = {
+		hidden_effect = {
+			if = {
+				limit = { #Fires if there is no subject yet
+					OR = {
+						NOT = { exists = c:C4T_AI}
+						AND = {
+							exists = c:C4T_AI
+							NOT = { c:C4T_AI = { is_direct_subject_of = root } }
+						}
+					}
+				}
+
+				#Sets the Releasing Country as a global variable to be accessible in the on_created
+				set_global_variable = {
+					name = bem_colonizer_global_var
+					value = root
+				}
+
+				#This is needed to set a state for country creation
+				random_scope_state = {
+					limit = {
+						state_region = s:STATE_TOGO
+					}
+					save_scope_as = bem_primary_state
+				}
+
+				#Creates a new subject if there is none yet
+				create_country = {
+					tag = C4T_AI
+					origin = this
+					state = scope:bem_primary_state
+
+					on_created = {
+						#Used to be able to get exactly this version of the tag
+						set_global_variable = {
+							name = bem_colony_global_var
+							value = prev
+						}
+
+						bem_colony_set_up_effect = yes
+					}
+				}
+
+				create_diplomatic_pact = {
+					country = global_var:bem_colony_global_var
+					type = bem_colony
+				}
+
+				every_scope_state = {
+					limit = {
+						state_region = s:STATE_TOGO
+					}
+					set_state_owner = global_var:bem_colony_global_var
+				}
+	
+				remove_global_variable = bem_colony_global_var
+				remove_global_variable = bem_colonizer_global_var
+			}
+			else = {
+				random_subject_or_below  = {
+					limit = {
+						is_subject_type = subject_type_bem_colony
+						has_state_in_state_region = STATE_TOGO
+					}
+					save_scope_as = bem_colony_scope
+				}
+				every_scope_state = {
+					limit = {
+						state_region = s:STATE_TOGO
+					}
+					set_state_owner = scope:bem_colony_scope
+				}
+			}
+		}
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+bem_create_colonial_dahomey = {
+	is_shown = {
+		has_game_rule = bem_colonial_nations_release
+		OR = { is_country_type = recognized is_country_type = colonial }
+		country_is_in_africa = no
+		is_ai = yes
+		any_scope_state = {
+			state_region = s:STATE_DAHOMEY
+		}
+		s:STATE_DAHOMEY = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+	}
+
+	possible = {
+		always = yes
+	}
+
+	when_taken = {
+		hidden_effect = {
+			if = {
+				limit = { #Fires if there is no subject yet
+					OR = {
+						NOT = { exists = c:C1D_AI}
+						AND = {
+							exists = c:C1D_AI
+							NOT = { c:C1D_AI = { is_direct_subject_of = root } }
+						}
+					}
+				}
+
+				#Sets the Releasing Country as a global variable to be accessible in the on_created
+				set_global_variable = {
+					name = bem_colonizer_global_var
+					value = root
+				}
+
+				#This is needed to set a state for country creation
+				random_scope_state = {
+					limit = {
+						state_region = s:STATE_DAHOMEY
+					}
+					save_scope_as = bem_primary_state
+				}
+
+				#Creates a new subject if there is none yet
+				create_country = {
+					tag = C1D_AI
+					origin = this
+					state = scope:bem_primary_state
+
+					on_created = {
+						#Used to be able to get exactly this version of the tag
+						set_global_variable = {
+							name = bem_colony_global_var
+							value = prev
+						}
+
+						bem_colony_set_up_effect = yes
+					}
+				}
+
+				create_diplomatic_pact = {
+					country = global_var:bem_colony_global_var
+					type = bem_colony
+				}
+
+				every_scope_state = {
+					limit = {
+						state_region = s:STATE_DAHOMEY
+					}
+					set_state_owner = global_var:bem_colony_global_var
+				}
+	
+				remove_global_variable = bem_colony_global_var
+				remove_global_variable = bem_colonizer_global_var
+			}
+			else = {
+				random_subject_or_below  = {
+					limit = {
+						is_subject_type = subject_type_bem_colony
+						has_state_in_state_region = STATE_DAHOMEY
+					}
+					save_scope_as = bem_colony_scope
+				}
+				every_scope_state = {
+					limit = {
+						state_region = s:STATE_DAHOMEY
+					}
+					set_state_owner = scope:bem_colony_scope
+				}
+			}
+		}
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+bem_create_colonial_nigeria = {
+	is_shown = {
+		has_game_rule = bem_colonial_nations_release
+		OR = { is_country_type = recognized is_country_type = colonial }
+		country_is_in_africa = no
+		is_ai = yes
+		any_scope_state = {
+			OR = {
+				state_region = s:STATE_YORUBA_STATES
+				state_region = s:STATE_NIGER_DELTA
+				state_region = s:STATE_BENIN
+				state_region = s:STATE_NIGERIA
+				state_region = s:STATE_BORNU
+				state_region = s:STATE_HAUSALAND
+				state_region = s:STATE_EAST_HAUSALAND
+			}
+		}
+		s:STATE_YORUBA_STATES = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_NIGER_DELTA = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_BENIN = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_NIGERIA = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_BORNU = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_HAUSALAND = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_EAST_HAUSALAND = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+	}
+
+	possible = {
+		always = yes
+	}
+
+	when_taken = {
+		hidden_effect = {
+			if = {
+				limit = { #Fires if there is no subject yet
+					OR = {
+						NOT = { exists = c:C1N_AI}
+						AND = {
+							exists = c:C1N_AI
+							NOT = { c:C1N_AI = { is_direct_subject_of = root } }
+						}
+					}
+				}
+
+				#Sets the Releasing Country as a global variable to be accessible in the on_created
+				set_global_variable = {
+					name = bem_colonizer_global_var
+					value = root
+				}
+
+				#This is needed to set a state for country creation
+				random_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_YORUBA_STATES
+							state_region = s:STATE_NIGER_DELTA
+							state_region = s:STATE_BENIN
+							state_region = s:STATE_NIGERIA
+							state_region = s:STATE_BORNU
+							state_region = s:STATE_HAUSALAND
+							state_region = s:STATE_EAST_HAUSALAND
+						}
+					}
+					save_scope_as = bem_primary_state
+				}
+
+				#Creates a new subject if there is none yet
+				create_country = {
+					tag = C1N_AI
+					origin = this
+					state = scope:bem_primary_state
+
+					on_created = {
+						#Used to be able to get exactly this version of the tag
+						set_global_variable = {
+							name = bem_colony_global_var
+							value = prev
+						}
+
+						bem_colony_set_up_effect = yes
+					}
+				}
+
+				create_diplomatic_pact = {
+					country = global_var:bem_colony_global_var
+					type = bem_colony
+				}
+
+				every_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_YORUBA_STATES
+							state_region = s:STATE_NIGER_DELTA
+							state_region = s:STATE_BENIN
+							state_region = s:STATE_NIGERIA
+							state_region = s:STATE_BORNU
+							state_region = s:STATE_HAUSALAND
+							state_region = s:STATE_EAST_HAUSALAND
+						}
+					}
+					set_state_owner = global_var:bem_colony_global_var
+				}
+	
+				remove_global_variable = bem_colony_global_var
+				remove_global_variable = bem_colonizer_global_var
+			}
+			else = {
+				random_subject_or_below  = {
+					limit = {
+						is_subject_type = subject_type_bem_colony
+						OR = {
+							has_state_in_state_region = STATE_YORUBA_STATES
+							has_state_in_state_region = STATE_NIGER_DELTA
+							has_state_in_state_region = STATE_BENIN
+							has_state_in_state_region = STATE_NIGERIA
+							has_state_in_state_region = STATE_BORNU
+							has_state_in_state_region = STATE_HAUSALAND
+							has_state_in_state_region = STATE_EAST_HAUSALAND
+						}
+					}
+					save_scope_as = bem_colony_scope
+				}
+				every_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_YORUBA_STATES
+							state_region = s:STATE_NIGER_DELTA
+							state_region = s:STATE_BENIN
+							state_region = s:STATE_NIGERIA
+							state_region = s:STATE_BORNU
+							state_region = s:STATE_HAUSALAND
+							state_region = s:STATE_EAST_HAUSALAND
+						}
+					}
+					set_state_owner = scope:bem_colony_scope
+				}
+			}
+		}
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+bem_create_colonial_niger = {
+	is_shown = {
+		has_game_rule = bem_colonial_nations_release
+		OR = { is_country_type = recognized is_country_type = colonial }
+		country_is_in_africa = no
+		is_ai = yes
+		any_scope_state = {
+			OR = {
+				state_region = s:STATE_OUTER_HAUSALAND
+				state_region = s:STATE_NIGER
+			}
+		}
+		s:STATE_OUTER_HAUSALAND = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_NIGER = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+	}
+
+	possible = {
+		always = yes
+	}
+
+	when_taken = {
+		hidden_effect = {
+			if = {
+				limit = { #Fires if there is no subject yet
+					OR = {
+						NOT = { exists = c:C2N_AI}
+						AND = {
+							exists = c:C2N_AI
+							NOT = { c:C2N_AI = { is_direct_subject_of = root } }
+						}
+					}
+				}
+
+				#Sets the Releasing Country as a global variable to be accessible in the on_created
+				set_global_variable = {
+					name = bem_colonizer_global_var
+					value = root
+				}
+
+				#This is needed to set a state for country creation
+				random_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_OUTER_HAUSALAND
+							state_region = s:STATE_NIGER
+						}
+					}
+					save_scope_as = bem_primary_state
+				}
+
+				#Creates a new subject if there is none yet
+				create_country = {
+					tag = C2N_AI
+					origin = this
+					state = scope:bem_primary_state
+
+					on_created = {
+						#Used to be able to get exactly this version of the tag
+						set_global_variable = {
+							name = bem_colony_global_var
+							value = prev
+						}
+
+						bem_colony_set_up_effect = yes
+					}
+				}
+
+				create_diplomatic_pact = {
+					country = global_var:bem_colony_global_var
+					type = bem_colony
+				}
+
+				every_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_OUTER_HAUSALAND
+							state_region = s:STATE_NIGER
+						}
+					}
+					set_state_owner = global_var:bem_colony_global_var
+				}
+	
+				remove_global_variable = bem_colony_global_var
+				remove_global_variable = bem_colonizer_global_var
+			}
+			else = {
+				random_subject_or_below  = {
+					limit = {
+						is_subject_type = subject_type_bem_colony
+						OR = {
+							has_state_in_state_region = STATE_OUTER_HAUSALAND
+							has_state_in_state_region = STATE_NIGER
+						}
+					}
+					save_scope_as = bem_colony_scope
+				}
+				every_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_OUTER_HAUSALAND
+							state_region = s:STATE_NIGER
+						}
+					}
+					set_state_owner = scope:bem_colony_scope
+				}
+			}
+		}
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+bem_create_colonial_chad = {
+	is_shown = {
+		has_game_rule = bem_colonial_nations_release
+		OR = { is_country_type = recognized is_country_type = colonial }
+		country_is_in_africa = no
+		is_ai = yes
+		any_scope_state = {
+			OR = {
+				state_region = s:STATE_WADDAI
+				state_region = s:STATE_CHAD
+			}
+		}
+		s:STATE_WADDAI = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_CHAD = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+	}
+
+	possible = {
+		always = yes
+	}
+
+	when_taken = {
+		hidden_effect = {
+			if = {
+				limit = { #Fires if there is no subject yet
+					OR = {
+						NOT = { exists = c:C5C_AI}
+						AND = {
+							exists = c:C5C_AI
+							NOT = { c:C5C_AI = { is_direct_subject_of = root } }
+						}
+					}
+				}
+
+				#Sets the Releasing Country as a global variable to be accessible in the on_created
+				set_global_variable = {
+					name = bem_colonizer_global_var
+					value = root
+				}
+
+				#This is needed to set a state for country creation
+				random_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_WADDAI
+							state_region = s:STATE_CHAD
+						}
+					}
+					save_scope_as = bem_primary_state
+				}
+
+				#Creates a new subject if there is none yet
+				create_country = {
+					tag = C5C_AI
+					origin = this
+					state = scope:bem_primary_state
+
+					on_created = {
+						#Used to be able to get exactly this version of the tag
+						set_global_variable = {
+							name = bem_colony_global_var
+							value = prev
+						}
+
+						bem_colony_set_up_effect = yes
+					}
+				}
+
+				create_diplomatic_pact = {
+					country = global_var:bem_colony_global_var
+					type = bem_colony
+				}
+
+				every_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_WADDAI
+							state_region = s:STATE_CHAD
+						}
+					}
+					set_state_owner = global_var:bem_colony_global_var
+				}
+	
+				remove_global_variable = bem_colony_global_var
+				remove_global_variable = bem_colonizer_global_var
+			}
+			else = {
+				random_subject_or_below  = {
+					limit = {
+						is_subject_type = subject_type_bem_colony
+						OR = {
+							has_state_in_state_region = STATE_WADDAI
+							has_state_in_state_region = STATE_CHAD
+						}
+					}
+					save_scope_as = bem_colony_scope
+				}
+				every_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_WADDAI
+							state_region = s:STATE_CHAD
+						}
+					}
+					set_state_owner = scope:bem_colony_scope
+				}
+			}
+		}
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+bem_create_colonial_cameroon = {
+	is_shown = {
+		has_game_rule = bem_colonial_nations_release
+		OR = { is_country_type = recognized is_country_type = colonial }
+		country_is_in_africa = no
+		is_ai = yes
+		any_scope_state = {
+			OR = {
+				state_region = s:STATE_NORTH_CAMEROON
+				state_region = s:STATE_SOUTH_CAMEROON
+			}
+		}
+		s:STATE_NORTH_CAMEROON = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_SOUTH_CAMEROON = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+	}
+
+	possible = {
+		always = yes
+	}
+
+	when_taken = {
+		hidden_effect = {
+			if = {
+				limit = { #Fires if there is no subject yet
+					OR = {
+						NOT = { exists = c:C2C_AI}
+						AND = {
+							exists = c:C2C_AI
+							NOT = { c:C2C_AI = { is_direct_subject_of = root } }
+						}
+					}
+				}
+
+				#Sets the Releasing Country as a global variable to be accessible in the on_created
+				set_global_variable = {
+					name = bem_colonizer_global_var
+					value = root
+				}
+
+				#This is needed to set a state for country creation
+				random_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_NORTH_CAMEROON
+							state_region = s:STATE_SOUTH_CAMEROON
+						}
+					}
+					save_scope_as = bem_primary_state
+				}
+
+				#Creates a new subject if there is none yet
+				create_country = {
+					tag = C2C_AI
+					origin = this
+					state = scope:bem_primary_state
+
+					on_created = {
+						#Used to be able to get exactly this version of the tag
+						set_global_variable = {
+							name = bem_colony_global_var
+							value = prev
+						}
+
+						bem_colony_set_up_effect = yes
+					}
+				}
+
+				create_diplomatic_pact = {
+					country = global_var:bem_colony_global_var
+					type = bem_colony
+				}
+
+				every_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_NORTH_CAMEROON
+							state_region = s:STATE_SOUTH_CAMEROON
+						}
+					}
+					set_state_owner = global_var:bem_colony_global_var
+				}
+	
+				remove_global_variable = bem_colony_global_var
+				remove_global_variable = bem_colonizer_global_var
+			}
+			else = {
+				random_subject_or_below  = {
+					limit = {
+						is_subject_type = subject_type_bem_colony
+						OR = {
+							has_state_in_state_region = STATE_NORTH_CAMEROON
+							has_state_in_state_region = STATE_SOUTH_CAMEROON
+						}
+					}
+					save_scope_as = bem_colony_scope
+				}
+				every_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_NORTH_CAMEROON
+							state_region = s:STATE_SOUTH_CAMEROON
+						}
+					}
+					set_state_owner = scope:bem_colony_scope
+				}
+			}
+		}
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+bem_create_colonial_egypt = {
+	is_shown = {
+		has_game_rule = bem_colonial_nations_release
+		OR = { is_country_type = recognized is_country_type = colonial }
+		country_is_in_africa = no
+		NOR = {
+			AND = {
+				exists = c:ARA
+				this = c:ARA
+			}
+			AND = {
+				exists = c:TUR
+				this = c:TUR
+			}
+		}
+		is_ai = yes
+		any_scope_state = {
+			OR = {
+				state_region = s:STATE_LOWER_EGYPT
+				state_region = s:STATE_MIDDLE_EGYPT
+				state_region = s:STATE_UPPER_EGYPT
+				state_region = s:STATE_SINAI
+				state_region = s:STATE_EGYPTIAN_DESERT
+				state_region = s:STATE_MATRUH
+			}
+		}
+		s:STATE_LOWER_EGYPT = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_MIDDLE_EGYPT = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_UPPER_EGYPT = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_SINAI = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_EGYPTIAN_DESERT = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_MATRUH = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+	}
+
+	possible = {
+		always = yes
+	}
+
+	when_taken = {
+		hidden_effect = {
+			if = {
+				limit = { #Fires if there is no subject yet
+					OR = {
+						NOT = { exists = c:C1E_AI}
+						AND = {
+							exists = c:C1E_AI
+							NOT = { c:C1E_AI = { is_direct_subject_of = root } }
+						}
+					}
+				}
+
+				#Sets the Releasing Country as a global variable to be accessible in the on_created
+				set_global_variable = {
+					name = bem_colonizer_global_var
+					value = root
+				}
+
+				#This is needed to set a state for country creation
+				random_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_LOWER_EGYPT
+							state_region = s:STATE_MIDDLE_EGYPT
+							state_region = s:STATE_UPPER_EGYPT
+							state_region = s:STATE_SINAI
+							state_region = s:STATE_EGYPTIAN_DESERT
+							state_region = s:STATE_MATRUH
+						}
+					}
+					save_scope_as = bem_primary_state
+				}
+
+				#Creates a new subject if there is none yet
+				create_country = {
+					tag = C1E_AI
+					origin = this
+					state = scope:bem_primary_state
+
+					on_created = {
+						#Used to be able to get exactly this version of the tag
+						set_global_variable = {
+							name = bem_colony_global_var
+							value = prev
+						}
+
+						bem_colony_set_up_effect = yes
+					}
+				}
+
+				create_diplomatic_pact = {
+					country = global_var:bem_colony_global_var
+					type = bem_colony
+				}
+
+				every_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_LOWER_EGYPT
+							state_region = s:STATE_MIDDLE_EGYPT
+							state_region = s:STATE_UPPER_EGYPT
+							state_region = s:STATE_SINAI
+							state_region = s:STATE_EGYPTIAN_DESERT
+							state_region = s:STATE_MATRUH
+						}
+					}
+					set_state_owner = global_var:bem_colony_global_var
+				}
+	
+				remove_global_variable = bem_colony_global_var
+				remove_global_variable = bem_colonizer_global_var
+			}
+			else = {
+				random_subject_or_below  = {
+					limit = {
+						is_subject_type = subject_type_bem_colony
+						OR = {
+							has_state_in_state_region = STATE_LOWER_EGYPT
+							has_state_in_state_region = STATE_MIDDLE_EGYPT
+							has_state_in_state_region = STATE_UPPER_EGYPT
+							has_state_in_state_region = STATE_SINAI
+							has_state_in_state_region = STATE_EGYPTIAN_DESERT
+							has_state_in_state_region = STATE_MATRUH
+						}
+					}
+					save_scope_as = bem_colony_scope
+				}
+				every_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_LOWER_EGYPT
+							state_region = s:STATE_MIDDLE_EGYPT
+							state_region = s:STATE_UPPER_EGYPT
+							state_region = s:STATE_SINAI
+							state_region = s:STATE_EGYPTIAN_DESERT
+							state_region = s:STATE_MATRUH
+						}
+					}
+					set_state_owner = scope:bem_colony_scope
+				}
+			}
+		}
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+bem_create_colonial_sudan = {
+	is_shown = {
+		has_game_rule = bem_colonial_nations_release
+		OR = { is_country_type = recognized is_country_type = colonial }
+		country_is_in_africa = no
+		NOR = {
+			AND = {
+				exists = c:ARA
+				this = c:ARA
+			}
+			AND = {
+				exists = c:TUR
+				this = c:TUR
+			}
+		}
+		is_ai = yes
+		any_scope_state = {
+			OR = {
+				state_region = s:STATE_BLUE_NILE
+				state_region = s:STATE_DONGOLA
+				state_region = s:STATE_DARFUR
+				state_region = s:STATE_KORDOFAN
+			}
+		}
+		s:STATE_BLUE_NILE = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_DONGOLA = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_DARFUR = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_KORDOFAN = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+	}
+
+	possible = {
+		always = yes
+	}
+
+	when_taken = {
+		hidden_effect = {
+			if = {
+				limit = { #Fires if there is no subject yet
+					OR = {
+						NOT = { exists = c:C2S_AI}
+						AND = {
+							exists = c:C2S_AI
+							NOT = { c:C2S_AI = { is_direct_subject_of = root } }
+						}
+					}
+				}
+
+				#Sets the Releasing Country as a global variable to be accessible in the on_created
+				set_global_variable = {
+					name = bem_colonizer_global_var
+					value = root
+				}
+
+				#This is needed to set a state for country creation
+				random_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_BLUE_NILE
+							state_region = s:STATE_DONGOLA
+							state_region = s:STATE_DARFUR
+							state_region = s:STATE_KORDOFAN
+						}
+					}
+					save_scope_as = bem_primary_state
+				}
+
+				#Creates a new subject if there is none yet
+				create_country = {
+					tag = C2S_AI
+					origin = this
+					state = scope:bem_primary_state
+
+					on_created = {
+						#Used to be able to get exactly this version of the tag
+						set_global_variable = {
+							name = bem_colony_global_var
+							value = prev
+						}
+
+						bem_colony_set_up_effect = yes
+					}
+				}
+
+				create_diplomatic_pact = {
+					country = global_var:bem_colony_global_var
+					type = bem_colony
+				}
+
+				every_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_BLUE_NILE
+							state_region = s:STATE_DONGOLA
+							state_region = s:STATE_DARFUR
+							state_region = s:STATE_KORDOFAN
+						}
+					}
+					set_state_owner = global_var:bem_colony_global_var
+				}
+	
+				remove_global_variable = bem_colony_global_var
+				remove_global_variable = bem_colonizer_global_var
+			}
+			else = {
+				random_subject_or_below  = {
+					limit = {
+						is_subject_type = subject_type_bem_colony
+						OR = {
+							has_state_in_state_region = STATE_BLUE_NILE
+							has_state_in_state_region = STATE_DONGOLA
+							has_state_in_state_region = STATE_DARFUR
+							has_state_in_state_region = STATE_KORDOFAN
+						}
+					}
+					save_scope_as = bem_colony_scope
+				}
+				every_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_BLUE_NILE
+							state_region = s:STATE_DONGOLA
+							state_region = s:STATE_DARFUR
+							state_region = s:STATE_KORDOFAN
+						}
+					}
+					set_state_owner = scope:bem_colony_scope
+				}
+			}
+		}
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+bem_create_colonial_south_sudan = {
+	is_shown = {
+		has_game_rule = bem_colonial_nations_release
+		OR = { is_country_type = recognized is_country_type = colonial }
+		country_is_in_africa = no
+		NOR = {
+			AND = {
+				exists = c:ARA
+				this = c:ARA
+			}
+			AND = {
+				exists = c:TUR
+				this = c:TUR
+			}
+		}
+		is_ai = yes
+		any_scope_state = {
+			state_region = s:STATE_EQUATORIA
+		}
+		s:STATE_EQUATORIA = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+	}
+
+	possible = {
+		always = yes
+	}
+
+	when_taken = {
+		hidden_effect = {
+			if = {
+				limit = { #Fires if there is no subject yet
+					OR = {
+						NOT = { exists = c:C5S_AI}
+						AND = {
+							exists = c:C5S_AI
+							NOT = { c:C5S_AI = { is_direct_subject_of = root } }
+						}
+					}
+				}
+
+				#Sets the Releasing Country as a global variable to be accessible in the on_created
+				set_global_variable = {
+					name = bem_colonizer_global_var
+					value = root
+				}
+
+				#This is needed to set a state for country creation
+				random_scope_state = {
+					limit = {
+						state_region = s:STATE_EQUATORIA
+					}
+					save_scope_as = bem_primary_state
+				}
+
+				#Creates a new subject if there is none yet
+				create_country = {
+					tag = C5S_AI
+					origin = this
+					state = scope:bem_primary_state
+
+					on_created = {
+						#Used to be able to get exactly this version of the tag
+						set_global_variable = {
+							name = bem_colony_global_var
+							value = prev
+						}
+
+						bem_colony_set_up_effect = yes
+					}
+				}
+
+				create_diplomatic_pact = {
+					country = global_var:bem_colony_global_var
+					type = bem_colony
+				}
+
+				every_scope_state = {
+					limit = {
+						state_region = s:STATE_EQUATORIA
+					}
+					set_state_owner = global_var:bem_colony_global_var
+				}
+	
+				remove_global_variable = bem_colony_global_var
+				remove_global_variable = bem_colonizer_global_var
+			}
+			else = {
+				random_subject_or_below  = {
+					limit = {
+						is_subject_type = subject_type_bem_colony
+						has_state_in_state_region = STATE_EQUATORIA
+					}
+					save_scope_as = bem_colony_scope
+				}
+				every_scope_state = {
+					limit = {
+						state_region = s:STATE_EQUATORIA
+					}
+					set_state_owner = scope:bem_colony_scope
+				}
+			}
+		}
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+bem_create_colonial_ethiopia = {
+	is_shown = {
+		has_game_rule = bem_colonial_nations_release
+		OR = { is_country_type = recognized is_country_type = colonial }
+		country_is_in_africa = no
+		is_ai = yes
+		any_scope_state = {
+			OR = {
+				state_region = s:STATE_GONDER
+				state_region = s:STATE_AMHARA
+				state_region = s:STATE_OROMIA
+			}
+		}
+		s:STATE_GONDER = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_AMHARA = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_OROMIA = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+	}
+
+	possible = {
+		always = yes
+	}
+
+	when_taken = {
+		hidden_effect = {
+			if = {
+				limit = { #Fires if there is no subject yet
+					OR = {
+						NOT = { exists = c:C2E_AI}
+						AND = {
+							exists = c:C2E_AI
+							NOT = { c:C2E_AI = { is_direct_subject_of = root } }
+						}
+					}
+				}
+
+				#Sets the Releasing Country as a global variable to be accessible in the on_created
+				set_global_variable = {
+					name = bem_colonizer_global_var
+					value = root
+				}
+
+				#This is needed to set a state for country creation
+				random_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_GONDER
+							state_region = s:STATE_AMHARA
+							state_region = s:STATE_OROMIA
+						}
+					}
+					save_scope_as = bem_primary_state
+				}
+
+				#Creates a new subject if there is none yet
+				create_country = {
+					tag = C2E_AI
+					origin = this
+					state = scope:bem_primary_state
+
+					on_created = {
+						#Used to be able to get exactly this version of the tag
+						set_global_variable = {
+							name = bem_colony_global_var
+							value = prev
+						}
+
+						bem_colony_set_up_effect = yes
+					}
+				}
+
+				create_diplomatic_pact = {
+					country = global_var:bem_colony_global_var
+					type = bem_colony
+				}
+
+				every_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_GONDER
+							state_region = s:STATE_AMHARA
+							state_region = s:STATE_OROMIA
+						}
+					}
+					set_state_owner = global_var:bem_colony_global_var
+				}
+	
+				remove_global_variable = bem_colony_global_var
+				remove_global_variable = bem_colonizer_global_var
+			}
+			else = {
+				random_subject_or_below  = {
+					limit = {
+						is_subject_type = subject_type_bem_colony
+						OR = {
+							has_state_in_state_region = STATE_GONDER
+							has_state_in_state_region = STATE_AMHARA
+							has_state_in_state_region = STATE_OROMIA
+						}
+					}
+					save_scope_as = bem_colony_scope
+				}
+				every_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_GONDER
+							state_region = s:STATE_AMHARA
+							state_region = s:STATE_OROMIA
+						}
+					}
+					set_state_owner = scope:bem_colony_scope
+				}
+			}
+		}
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+bem_create_colonial_eritrea = {
+	is_shown = {
+		has_game_rule = bem_colonial_nations_release
+		OR = { is_country_type = recognized is_country_type = colonial }
+		country_is_in_africa = no
+		is_ai = yes
+		any_scope_state = {
+			state_region = s:STATE_ERITREA
+		}
+		s:STATE_ERITREA = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+	}
+
+	possible = {
+		always = yes
+	}
+
+	when_taken = {
+		hidden_effect = {
+			if = {
+				limit = { #Fires if there is no subject yet
+					OR = {
+						NOT = { exists = c:C3E_AI}
+						AND = {
+							exists = c:C3E_AI
+							NOT = { c:C3E_AI = { is_direct_subject_of = root } }
+						}
+					}
+				}
+
+				#Sets the Releasing Country as a global variable to be accessible in the on_created
+				set_global_variable = {
+					name = bem_colonizer_global_var
+					value = root
+				}
+
+				#This is needed to set a state for country creation
+				random_scope_state = {
+					limit = {
+						state_region = s:STATE_ERITREA
+					}
+					save_scope_as = bem_primary_state
+				}
+
+				#Creates a new subject if there is none yet
+				create_country = {
+					tag = C3E_AI
+					origin = this
+					state = scope:bem_primary_state
+
+					on_created = {
+						#Used to be able to get exactly this version of the tag
+						set_global_variable = {
+							name = bem_colony_global_var
+							value = prev
+						}
+
+						bem_colony_set_up_effect = yes
+					}
+				}
+
+				create_diplomatic_pact = {
+					country = global_var:bem_colony_global_var
+					type = bem_colony
+				}
+
+				every_scope_state = {
+					limit = {
+						state_region = s:STATE_ERITREA
+					}
+					set_state_owner = global_var:bem_colony_global_var
+				}
+	
+				remove_global_variable = bem_colony_global_var
+				remove_global_variable = bem_colonizer_global_var
+			}
+			else = {
+				random_subject_or_below  = {
+					limit = {
+						is_subject_type = subject_type_bem_colony
+						has_state_in_state_region = STATE_ERITREA
+					}
+					save_scope_as = bem_colony_scope
+				}
+				every_scope_state = {
+					limit = {
+						state_region = s:STATE_ERITREA
+					}
+					set_state_owner = scope:bem_colony_scope
+				}
+			}
+		}
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+bem_create_colonial_somaliland = {
+	is_shown = {
+		has_game_rule = bem_colonial_nations_release
+		OR = { is_country_type = recognized is_country_type = colonial }
+		country_is_in_africa = no
+		is_ai = yes
+		any_scope_state = {
+			state_region = s:STATE_SOMALILAND
+		}
+		s:STATE_SOMALILAND = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+	}
+
+	possible = {
+		always = yes
+	}
+
+	when_taken = {
+		hidden_effect = {
+			if = {
+				limit = { #Fires if there is no subject yet
+					OR = {
+						NOT = { exists = c:C1S_AI}
+						AND = {
+							exists = c:C1S_AI
+							NOT = { c:C1S_AI = { is_direct_subject_of = root } }
+						}
+					}
+				}
+
+				#Sets the Releasing Country as a global variable to be accessible in the on_created
+				set_global_variable = {
+					name = bem_colonizer_global_var
+					value = root
+				}
+
+				#This is needed to set a state for country creation
+				random_scope_state = {
+					limit = {
+						state_region = s:STATE_SOMALILAND
+					}
+					save_scope_as = bem_primary_state
+				}
+
+				#Creates a new subject if there is none yet
+				create_country = {
+					tag = C1S_AI
+					origin = this
+					state = scope:bem_primary_state
+
+					on_created = {
+						#Used to be able to get exactly this version of the tag
+						set_global_variable = {
+							name = bem_colony_global_var
+							value = prev
+						}
+
+						bem_colony_set_up_effect = yes
+					}
+				}
+
+				create_diplomatic_pact = {
+					country = global_var:bem_colony_global_var
+					type = bem_colony
+				}
+
+				every_scope_state = {
+					limit = {
+						state_region = s:STATE_SOMALILAND
+					}
+					set_state_owner = global_var:bem_colony_global_var
+				}
+	
+				remove_global_variable = bem_colony_global_var
+				remove_global_variable = bem_colonizer_global_var
+			}
+			else = {
+				random_subject_or_below  = {
+					limit = {
+						is_subject_type = subject_type_bem_colony
+						has_state_in_state_region = STATE_SOMALILAND
+					}
+					save_scope_as = bem_colony_scope
+				}
+				every_scope_state = {
+					limit = {
+						state_region = s:STATE_SOMALILAND
+					}
+					set_state_owner = scope:bem_colony_scope
+				}
+			}
+		}
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+bem_create_colonial_uganda = {
+	is_shown = {
+		has_game_rule = bem_colonial_nations_release
+		OR = { is_country_type = recognized is_country_type = colonial }
+		country_is_in_africa = no
+		is_ai = yes
+		any_scope_state = {
+			state_region = s:STATE_UGANDA
+		}
+		s:STATE_UGANDA = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+	}
+
+	possible = {
+		always = yes
+	}
+
+	when_taken = {
+		hidden_effect = {
+			if = {
+				limit = { #Fires if there is no subject yet
+					OR = {
+						NOT = { exists = c:C1U_AI }
+						AND = {
+							exists = c:C1U_AI
+							NOT = { c:C1U_AI = { is_direct_subject_of = root } }
+						}
+					}
+				}
+
+				#Sets the Releasing Country as a global variable to be accessible in the on_created
+				set_global_variable = {
+					name = bem_colonizer_global_var
+					value = root
+				}
+
+				#This is needed to set a state for country creation
+				random_scope_state = {
+					limit = {
+						state_region = s:STATE_UGANDA
+					}
+					save_scope_as = bem_primary_state
+				}
+
+				#Creates a new subject if there is none yet
+				create_country = {
+					tag = C1U_AI
+					origin = this
+					state = scope:bem_primary_state
+
+					on_created = {
+						#Used to be able to get exactly this version of the tag
+						set_global_variable = {
+							name = bem_colony_global_var
+							value = prev
+						}
+
+						bem_colony_set_up_effect = yes
+					}
+				}
+
+				create_diplomatic_pact = {
+					country = global_var:bem_colony_global_var
+					type = bem_colony
+				}
+
+				every_scope_state = {
+					limit = {
+						state_region = s:STATE_UGANDA
+					}
+					set_state_owner = global_var:bem_colony_global_var
+				}
+	
+				remove_global_variable = bem_colony_global_var
+				remove_global_variable = bem_colonizer_global_var
+			}
+			else = {
+				random_subject_or_below  = {
+					limit = {
+						is_subject_type = subject_type_bem_colony
+						has_state_in_state_region = STATE_UGANDA
+					}
+					save_scope_as = bem_colony_scope
+				}
+				every_scope_state = {
+					limit = {
+						state_region = s:STATE_UGANDA
+					}
+					set_state_owner = scope:bem_colony_scope
+				}
+			}
+		}
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+
+bem_create_colonial_kenya = {
+	is_shown = {
+		has_game_rule = bem_colonial_nations_release
+		OR = { is_country_type = recognized is_country_type = colonial }
+		country_is_in_africa = no
+		is_ai = yes
+		any_scope_state = {
+			OR = {
+				state_region = s:STATE_KENYA
+				state_region = s:STATE_RIFT_VALLEY
+			}
+		}
+		s:STATE_KENYA = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_RIFT_VALLEY = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+	}
+
+	possible = {
+		always = yes
+	}
+
+	when_taken = {
+		hidden_effect = {
+			if = {
+				limit = { #Fires if there is no subject yet
+					OR = {
+						NOT = { exists = c:C1K_AI}
+						AND = {
+							exists = c:C1K_AI
+							NOT = { c:C1K_AI = { is_direct_subject_of = root } }
+						}
+					}
+				}
+
+				#Sets the Releasing Country as a global variable to be accessible in the on_created
+				set_global_variable = {
+					name = bem_colonizer_global_var
+					value = root
+				}
+
+				#This is needed to set a state for country creation
+				random_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_KENYA
+							state_region = s:STATE_RIFT_VALLEY
+						}
+					}
+					save_scope_as = bem_primary_state
+				}
+
+				#Creates a new subject if there is none yet
+				create_country = {
+					tag = C1K_AI
+					origin = this
+					state = scope:bem_primary_state
+
+					on_created = {
+						#Used to be able to get exactly this version of the tag
+						set_global_variable = {
+							name = bem_colony_global_var
+							value = prev
+						}
+
+						bem_colony_set_up_effect = yes
+					}
+				}
+
+				create_diplomatic_pact = {
+					country = global_var:bem_colony_global_var
+					type = bem_colony
+				}
+
+				every_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_KENYA
+							state_region = s:STATE_RIFT_VALLEY
+						}
+					}
+					set_state_owner = global_var:bem_colony_global_var
+				}
+	
+				remove_global_variable = bem_colony_global_var
+				remove_global_variable = bem_colonizer_global_var
+			}
+			else = {
+				random_subject_or_below  = {
+					limit = {
+						is_subject_type = subject_type_bem_colony
+						OR = {
+							has_state_in_state_region = STATE_KENYA
+							has_state_in_state_region = STATE_RIFT_VALLEY
+						}
+					}
+					save_scope_as = bem_colony_scope
+				}
+				every_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_KENYA
+							state_region = s:STATE_RIFT_VALLEY
+						}
+					}
+					set_state_owner = scope:bem_colony_scope
+				}
+			}
+		}
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+bem_create_colonial_tanganyika = {
+	is_shown = {
+		has_game_rule = bem_colonial_nations_release
+		OR = { is_country_type = recognized is_country_type = colonial }
+		country_is_in_africa = no
+		is_ai = yes
+		NOT = {
+			AND = {
+				exists = c:OMA
+				this = c:OMA
+			}
+		}
+		any_scope_state = {
+			OR = {
+				state_region = s:STATE_ZANZIBAR
+				state_region = s:STATE_LINDI
+				state_region = s:STATE_TANGANYIKA
+			}
+		}
+		s:STATE_ZANZIBAR = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_LINDI = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_TANGANYIKA = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+	}
+
+	possible = {
+		always = yes
+	}
+
+	when_taken = {
+		hidden_effect = {
+			if = {
+				limit = { #Fires if there is no subject yet
+					OR = {
+						NOT = { exists = c:C1T_AI}
+						AND = {
+							exists = c:C1T_AI
+							NOT = { c:C1T_AI = { is_direct_subject_of = root } }
+						}
+					}
+				}
+
+				#Sets the Releasing Country as a global variable to be accessible in the on_created
+				set_global_variable = {
+					name = bem_colonizer_global_var
+					value = root
+				}
+
+				#This is needed to set a state for country creation
+				random_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_ZANZIBAR
+							state_region = s:STATE_LINDI
+							state_region = s:STATE_TANGANYIKA
+						}
+					}
+					save_scope_as = bem_primary_state
+				}
+
+				#Creates a new subject if there is none yet
+				create_country = {
+					tag = C1T_AI
+					origin = this
+					state = scope:bem_primary_state
+
+					on_created = {
+						#Used to be able to get exactly this version of the tag
+						set_global_variable = {
+							name = bem_colony_global_var
+							value = prev
+						}
+
+						bem_colony_set_up_effect = yes
+					}
+				}
+
+				create_diplomatic_pact = {
+					country = global_var:bem_colony_global_var
+					type = bem_colony
+				}
+
+				every_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_ZANZIBAR
+							state_region = s:STATE_LINDI
+							state_region = s:STATE_TANGANYIKA
+						}
+					}
+					set_state_owner = global_var:bem_colony_global_var
+				}
+	
+				remove_global_variable = bem_colony_global_var
+				remove_global_variable = bem_colonizer_global_var
+			}
+			else = {
+				random_subject_or_below  = {
+					limit = {
+						is_subject_type = subject_type_bem_colony
+						OR = {
+							has_state_in_state_region = STATE_ZANZIBAR
+							has_state_in_state_region = STATE_LINDI
+							has_state_in_state_region = STATE_TANGANYIKA
+						}
+					}
+					save_scope_as = bem_colony_scope
+				}
+				every_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_ZANZIBAR
+							state_region = s:STATE_LINDI
+							state_region = s:STATE_TANGANYIKA
+						}
+					}
+					set_state_owner = scope:bem_colony_scope
+				}
+			}
+		}
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+bem_create_colonial_mocambique = {
+	is_shown = {
+		has_game_rule = bem_colonial_nations_release
+		OR = { is_country_type = recognized is_country_type = colonial }
+		country_is_in_africa = no
+		is_ai = yes
+		any_scope_state = {
+			OR = {
+				state_region = s:STATE_MOCAMBIQUE
+				state_region = s:STATE_ZAMBEZIA
+				state_region = s:STATE_LOURENCO_MARQUES
+			}
+		}
+		s:STATE_MOCAMBIQUE = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_ZAMBEZIA = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_LOURENCO_MARQUES = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+	}
+
+	possible = {
+		always = yes
+	}
+
+	when_taken = {
+		hidden_effect = {
+			if = {
+				limit = { #Fires if there is no subject yet
+					OR = {
+						NOT = { exists = c:C1M_AI}
+						AND = {
+							exists = c:C1M_AI
+							NOT = { c:C1M_AI = { is_direct_subject_of = root } }
+						}
+					}
+				}
+
+				#Sets the Releasing Country as a global variable to be accessible in the on_created
+				set_global_variable = {
+					name = bem_colonizer_global_var
+					value = root
+				}
+
+				#This is needed to set a state for country creation
+				random_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_MOCAMBIQUE
+							state_region = s:STATE_ZAMBEZIA
+							state_region = s:STATE_LOURENCO_MARQUES
+						}
+					}
+					save_scope_as = bem_primary_state
+				}
+
+				#Creates a new subject if there is none yet
+				create_country = {
+					tag = C1M_AI
+					origin = this
+					state = scope:bem_primary_state
+
+					on_created = {
+						#Used to be able to get exactly this version of the tag
+						set_global_variable = {
+							name = bem_colony_global_var
+							value = prev
+						}
+
+						bem_colony_set_up_effect = yes
+					}
+				}
+
+				create_diplomatic_pact = {
+					country = global_var:bem_colony_global_var
+					type = bem_colony
+				}
+
+				every_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_MOCAMBIQUE
+							state_region = s:STATE_ZAMBEZIA
+							state_region = s:STATE_LOURENCO_MARQUES
+						}
+					}
+					set_state_owner = global_var:bem_colony_global_var
+				}
+	
+				remove_global_variable = bem_colony_global_var
+				remove_global_variable = bem_colonizer_global_var
+			}
+			else = {
+				random_subject_or_below  = {
+					limit = {
+						is_subject_type = subject_type_bem_colony
+						OR = {
+							has_state_in_state_region = STATE_MOCAMBIQUE
+							has_state_in_state_region = STATE_ZAMBEZIA
+							has_state_in_state_region = STATE_LOURENCO_MARQUES
+						}
+					}
+					save_scope_as = bem_colony_scope
+				}
+				every_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_MOCAMBIQUE
+							state_region = s:STATE_ZAMBEZIA
+							state_region = s:STATE_LOURENCO_MARQUES
+						}
+					}
+					set_state_owner = scope:bem_colony_scope
+				}
+			}
+		}
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+bem_create_colonial_madagascar = {
+	is_shown = {
+		has_game_rule = bem_colonial_nations_release
+		OR = { is_country_type = recognized is_country_type = colonial }
+		country_is_in_africa = no
+		is_ai = yes
+		any_scope_state = {
+			OR = {
+				state_region = s:STATE_NORTH_MADAGASCAR
+				state_region = s:STATE_SOUTH_MADAGASCAR
+			}
+		}
+		s:STATE_NORTH_MADAGASCAR = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_SOUTH_MADAGASCAR = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+	}
+
+	possible = {
+		always = yes
+	}
+
+	when_taken = {
+		hidden_effect = {
+			if = {
+				limit = { #Fires if there is no subject yet
+					OR = {
+						NOT = { exists = c:C2M_AI}
+						AND = {
+							exists = c:C2M_AI
+							NOT = { c:C2M_AI = { is_direct_subject_of = root } }
+						}
+					}
+				}
+
+				#Sets the Releasing Country as a global variable to be accessible in the on_created
+				set_global_variable = {
+					name = bem_colonizer_global_var
+					value = root
+				}
+
+				#This is needed to set a state for country creation
+				random_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_NORTH_MADAGASCAR
+							state_region = s:STATE_SOUTH_MADAGASCAR
+						}
+					}
+					save_scope_as = bem_primary_state
+				}
+
+				#Creates a new subject if there is none yet
+				create_country = {
+					tag = C2M_AI
+					origin = this
+					state = scope:bem_primary_state
+
+					on_created = {
+						#Used to be able to get exactly this version of the tag
+						set_global_variable = {
+							name = bem_colony_global_var
+							value = prev
+						}
+
+						bem_colony_set_up_effect = yes
+					}
+				}
+
+				create_diplomatic_pact = {
+					country = global_var:bem_colony_global_var
+					type = bem_colony
+				}
+
+				every_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_NORTH_MADAGASCAR
+							state_region = s:STATE_SOUTH_MADAGASCAR
+						}
+					}
+					set_state_owner = global_var:bem_colony_global_var
+				}
+	
+				remove_global_variable = bem_colony_global_var
+				remove_global_variable = bem_colonizer_global_var
+			}
+			else = {
+				random_subject_or_below  = {
+					limit = {
+						is_subject_type = subject_type_bem_colony
+						OR = {
+							has_state_in_state_region = STATE_NORTH_MADAGASCAR
+							has_state_in_state_region = STATE_SOUTH_MADAGASCAR
+						}
+					}
+					save_scope_as = bem_colony_scope
+				}
+				every_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_NORTH_MADAGASCAR
+							state_region = s:STATE_SOUTH_MADAGASCAR
+						}
+					}
+					set_state_owner = scope:bem_colony_scope
+				}
+			}
+		}
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+bem_create_colonial_gabon = {
+	is_shown = {
+		has_game_rule = bem_colonial_nations_release
+		OR = { is_country_type = recognized is_country_type = colonial }
+		country_is_in_africa = no
+		is_ai = yes
+		any_scope_state = {
+			state_region = s:STATE_GABON
+		}
+		s:STATE_GABON = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+	}
+
+	possible = {
+		always = yes
+	}
+
+	when_taken = {
+		hidden_effect = {
+			if = {
+				limit = { #Fires if there is no subject yet
+					OR = {
+						NOT = { exists = c:C1G_AI}
+						AND = {
+							exists = c:C1G_AI
+							NOT = { c:C1G_AI = { is_direct_subject_of = root } }
+						}
+					}
+				}
+
+				#Sets the Releasing Country as a global variable to be accessible in the on_created
+				set_global_variable = {
+					name = bem_colonizer_global_var
+					value = root
+				}
+
+				#This is needed to set a state for country creation
+				random_scope_state = {
+					limit = {
+						state_region = s:STATE_GABON
+					}
+					save_scope_as = bem_primary_state
+				}
+
+				#Creates a new subject if there is none yet
+				create_country = {
+					tag = C1G_AI
+					origin = this
+					state = scope:bem_primary_state
+
+					on_created = {
+						#Used to be able to get exactly this version of the tag
+						set_global_variable = {
+							name = bem_colony_global_var
+							value = prev
+						}
+
+						bem_colony_set_up_effect = yes
+					}
+				}
+
+				create_diplomatic_pact = {
+					country = global_var:bem_colony_global_var
+					type = bem_colony
+				}
+
+				every_scope_state = {
+					limit = {
+						state_region = s:STATE_GABON
+					}
+					set_state_owner = global_var:bem_colony_global_var
+				}
+	
+				remove_global_variable = bem_colony_global_var
+				remove_global_variable = bem_colonizer_global_var
+			}
+			else = {
+				random_subject_or_below  = {
+					limit = {
+						is_subject_type = subject_type_bem_colony
+						has_state_in_state_region = STATE_GABON
+					}
+					save_scope_as = bem_colony_scope
+				}
+				every_scope_state = {
+					limit = {
+						state_region = s:STATE_GABON
+					}
+					set_state_owner = scope:bem_colony_scope
+				}
+			}
+		}
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+bem_create_colonial_middle_congo = {
+	is_shown = {
+		has_game_rule = bem_colonial_nations_release
+		OR = { is_country_type = recognized is_country_type = colonial }
+		country_is_in_africa = no
+		is_ai = yes
+		any_scope_state = {
+			state_region = s:STATE_CONGO
+		}
+		s:STATE_CONGO = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+	}
+
+	possible = {
+		always = yes
+	}
+
+	when_taken = {
+		hidden_effect = {
+			if = {
+				limit = { #Fires if there is no subject yet
+					OR = {
+						NOT = { exists = c:C3M_AI}
+						AND = {
+							exists = c:C3M_AI
+							NOT = { c:C3M_AI = { is_direct_subject_of = root } }
+						}
+					}
+				}
+
+				#Sets the Releasing Country as a global variable to be accessible in the on_created
+				set_global_variable = {
+					name = bem_colonizer_global_var
+					value = root
+				}
+
+				#This is needed to set a state for country creation
+				random_scope_state = {
+					limit = {
+						state_region = s:STATE_CONGO
+					}
+					save_scope_as = bem_primary_state
+				}
+
+				#Creates a new subject if there is none yet
+				create_country = {
+					tag = C3M_AI
+					origin = this
+					state = scope:bem_primary_state
+
+					on_created = {
+						#Used to be able to get exactly this version of the tag
+						set_global_variable = {
+							name = bem_colony_global_var
+							value = prev
+						}
+
+						bem_colony_set_up_effect = yes
+					}
+				}
+
+				create_diplomatic_pact = {
+					country = global_var:bem_colony_global_var
+					type = bem_colony
+				}
+
+				every_scope_state = {
+					limit = {
+						state_region = s:STATE_CONGO
+					}
+					set_state_owner = global_var:bem_colony_global_var
+				}
+	
+				remove_global_variable = bem_colony_global_var
+				remove_global_variable = bem_colonizer_global_var
+			}
+			else = {
+				random_subject_or_below  = {
+					limit = {
+						is_subject_type = subject_type_bem_colony
+						has_state_in_state_region = STATE_CONGO
+					}
+					save_scope_as = bem_colony_scope
+				}
+				every_scope_state = {
+					limit = {
+						state_region = s:STATE_CONGO
+					}
+					set_state_owner = scope:bem_colony_scope
+				}
+			}
+		}
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+bem_create_colonial_central_africa = {
+	is_shown = {
+		has_game_rule = bem_colonial_nations_release
+		OR = { is_country_type = recognized is_country_type = colonial }
+		country_is_in_africa = no
+		is_ai = yes
+		any_scope_state = {
+			state_region = s:STATE_UBANGI_SHARI
+		}
+		s:STATE_UBANGI_SHARI = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+	}
+
+	possible = {
+		always = yes
+	}
+
+	when_taken = {
+		hidden_effect = {
+			if = {
+				limit = { #Fires if there is no subject yet
+					OR = {
+						NOT = { exists = c:C4C_AI}
+						AND = {
+							exists = c:C4C_AI
+							NOT = { c:C4C_AI = { is_direct_subject_of = root } }
+						}
+					}
+				}
+
+				#Sets the Releasing Country as a global variable to be accessible in the on_created
+				set_global_variable = {
+					name = bem_colonizer_global_var
+					value = root
+				}
+
+				#This is needed to set a state for country creation
+				random_scope_state = {
+					limit = {
+						state_region = s:STATE_UBANGI_SHARI
+					}
+					save_scope_as = bem_primary_state
+				}
+
+				#Creates a new subject if there is none yet
+				create_country = {
+					tag = C4C_AI
+					origin = this
+					state = scope:bem_primary_state
+
+					on_created = {
+						#Used to be able to get exactly this version of the tag
+						set_global_variable = {
+							name = bem_colony_global_var
+							value = prev
+						}
+
+						bem_colony_set_up_effect = yes
+					}
+				}
+
+				create_diplomatic_pact = {
+					country = global_var:bem_colony_global_var
+					type = bem_colony
+				}
+
+				every_scope_state = {
+					limit = {
+						state_region = s:STATE_UBANGI_SHARI
+					}
+					set_state_owner = global_var:bem_colony_global_var
+				}
+	
+				remove_global_variable = bem_colony_global_var
+				remove_global_variable = bem_colonizer_global_var
+			}
+			else = {
+				random_subject_or_below  = {
+					limit = {
+						is_subject_type = subject_type_bem_colony
+						has_state_in_state_region = STATE_UBANGI_SHARI
+					}
+					save_scope_as = bem_colony_scope
+				}
+				every_scope_state = {
+					limit = {
+						state_region = s:STATE_UBANGI_SHARI
+					}
+					set_state_owner = scope:bem_colony_scope
+				}
+			}
+		}
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+bem_create_colonial_congo = {
+	is_shown = {
+		has_game_rule = bem_colonial_nations_release
+		OR = { is_country_type = recognized is_country_type = colonial }
+		country_is_in_africa = no
+		is_ai = yes
+		any_scope_state = {
+			OR = {
+				state_region = s:STATE_BAS_CONGO
+				state_region = s:STATE_KASAI
+				state_region = s:STATE_KATANGA
+				state_region = s:STATE_EQUATEUR
+				state_region = s:STATE_CONGO_ORIENTALE
+			}
+		}
+		s:STATE_BAS_CONGO = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_KASAI = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_KATANGA = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_EQUATEUR = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_CONGO_ORIENTALE = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+	}
+
+	possible = {
+		always = yes
+	}
+
+	when_taken = {
+		hidden_effect = {
+			if = {
+				limit = { #Fires if there is no subject yet
+					OR = {
+						NOT = { exists = c:C3C_AI}
+						AND = {
+							exists = c:C3C_AI
+							NOT = { c:C3C_AI = { is_direct_subject_of = root } }
+						}
+					}
+				}
+
+				#Sets the Releasing Country as a global variable to be accessible in the on_created
+				set_global_variable = {
+					name = bem_colonizer_global_var
+					value = root
+				}
+
+				#This is needed to set a state for country creation
+				random_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_BAS_CONGO
+							state_region = s:STATE_KASAI
+							state_region = s:STATE_KATANGA
+							state_region = s:STATE_EQUATEUR
+							state_region = s:STATE_CONGO_ORIENTALE
+						}
+					}
+					save_scope_as = bem_primary_state
+				}
+
+				#Creates a new subject if there is none yet
+				create_country = {
+					tag = C3C_AI
+					origin = this
+					state = scope:bem_primary_state
+
+					on_created = {
+						#Used to be able to get exactly this version of the tag
+						set_global_variable = {
+							name = bem_colony_global_var
+							value = prev
+						}
+
+						bem_colony_set_up_effect = yes
+					}
+				}
+
+				create_diplomatic_pact = {
+					country = global_var:bem_colony_global_var
+					type = bem_colony
+				}
+
+				every_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_BAS_CONGO
+							state_region = s:STATE_KASAI
+							state_region = s:STATE_KATANGA
+							state_region = s:STATE_EQUATEUR
+							state_region = s:STATE_CONGO_ORIENTALE
+						}
+					}
+					set_state_owner = global_var:bem_colony_global_var
+				}
+	
+				remove_global_variable = bem_colony_global_var
+				remove_global_variable = bem_colonizer_global_var
+			}
+			else = {
+				random_subject_or_below  = {
+					limit = {
+						is_subject_type = subject_type_bem_colony
+						OR = {
+							has_state_in_state_region = STATE_BAS_CONGO
+							has_state_in_state_region = STATE_KASAI
+							has_state_in_state_region = STATE_KATANGA
+							has_state_in_state_region = STATE_EQUATEUR
+							has_state_in_state_region = STATE_CONGO_ORIENTALE
+						}
+					}
+					save_scope_as = bem_colony_scope
+				}
+				every_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_BAS_CONGO
+							state_region = s:STATE_KASAI
+							state_region = s:STATE_KATANGA
+							state_region = s:STATE_EQUATEUR
+							state_region = s:STATE_CONGO_ORIENTALE
+						}
+					}
+					set_state_owner = scope:bem_colony_scope
+				}
+			}
+		}
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+bem_create_colonial_angola = {
+	is_shown = {
+		has_game_rule = bem_colonial_nations_release
+		OR = { is_country_type = recognized is_country_type = colonial }
+		country_is_in_africa = no
+		is_ai = yes
+		any_scope_state = {
+			OR = {
+				state_region = s:STATE_NORTH_ANGOLA
+				state_region = s:STATE_SOUTH_ANGOLA
+				state_region = s:STATE_EAST_ANGOLA
+			}
+		}
+		s:STATE_NORTH_ANGOLA = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_SOUTH_ANGOLA = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_EAST_ANGOLA = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+	}
+
+	possible = {
+		always = yes
+	}
+
+	when_taken = {
+		hidden_effect = {
+			if = {
+				limit = { #Fires if there is no subject yet
+					OR = {
+						NOT = { exists = c:C2A_AI}
+						AND = {
+							exists = c:C2A_AI
+							NOT = { c:C2A_AI = { is_direct_subject_of = root } }
+						}
+					}
+				}
+
+				#Sets the Releasing Country as a global variable to be accessible in the on_created
+				set_global_variable = {
+					name = bem_colonizer_global_var
+					value = root
+				}
+
+				#This is needed to set a state for country creation
+				random_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_NORTH_ANGOLA
+							state_region = s:STATE_SOUTH_ANGOLA
+							state_region = s:STATE_EAST_ANGOLA
+						}
+					}
+					save_scope_as = bem_primary_state
+				}
+
+				#Creates a new subject if there is none yet
+				create_country = {
+					tag = C2A_AI
+					origin = this
+					state = scope:bem_primary_state
+
+					on_created = {
+						#Used to be able to get exactly this version of the tag
+						set_global_variable = {
+							name = bem_colony_global_var
+							value = prev
+						}
+
+						bem_colony_set_up_effect = yes
+					}
+				}
+
+				create_diplomatic_pact = {
+					country = global_var:bem_colony_global_var
+					type = bem_colony
+				}
+
+				every_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_NORTH_ANGOLA
+							state_region = s:STATE_SOUTH_ANGOLA
+							state_region = s:STATE_EAST_ANGOLA
+						}
+					}
+					set_state_owner = global_var:bem_colony_global_var
+				}
+	
+				remove_global_variable = bem_colony_global_var
+				remove_global_variable = bem_colonizer_global_var
+			}
+			else = {
+				random_subject_or_below  = {
+					limit = {
+						is_subject_type = subject_type_bem_colony
+						OR = {
+							has_state_in_state_region = STATE_NORTH_ANGOLA
+							has_state_in_state_region = STATE_SOUTH_ANGOLA
+							has_state_in_state_region = STATE_EAST_ANGOLA
+						}
+					}
+					save_scope_as = bem_colony_scope
+				}
+				every_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_NORTH_ANGOLA
+							state_region = s:STATE_SOUTH_ANGOLA
+							state_region = s:STATE_EAST_ANGOLA
+						}
+					}
+					set_state_owner = scope:bem_colony_scope
+				}
+			}
+		}
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+bem_create_colonial_northern_rhodesia = {
+	is_shown = {
+		has_game_rule = bem_colonial_nations_release
+		OR = { is_country_type = recognized is_country_type = colonial }
+		country_is_in_africa = no
+		is_ai = yes
+		any_scope_state = {
+			OR = {
+				state_region = s:STATE_ZAMBIA
+				state_region = s:STATE_KAZEMBE
+			}
+		}
+		s:STATE_ZAMBIA = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+		s:STATE_KAZEMBE = {
+			any_scope_state = {
+				count = all
+				NOR = {
+					owner = { is_country_type = decentralized }
+					any_neighbouring_state = { owner = { is_country_type = decentralized } }
+				}
+			}
+		}
+	}
+
+	possible = {
+		always = yes
+	}
+
+	when_taken = {
+		hidden_effect = {
+			if = {
+				limit = { #Fires if there is no subject yet
+					OR = {
+						NOT = { exists = c:C2R_AI}
+						AND = {
+							exists = c:C2R_AI
+							NOT = { c:C2R_AI = { is_direct_subject_of = root } }
+						}
+					}
+				}
+
+				#Sets the Releasing Country as a global variable to be accessible in the on_created
+				set_global_variable = {
+					name = bem_colonizer_global_var
+					value = root
+				}
+
+				#This is needed to set a state for country creation
+				random_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_ZAMBIA
+							state_region = s:STATE_KAZEMBE
+						}
+					}
+					save_scope_as = bem_primary_state
+				}
+
+				#Creates a new subject if there is none yet
+				create_country = {
+					tag = C2R_AI
+					origin = this
+					state = scope:bem_primary_state
+
+					on_created = {
+						#Used to be able to get exactly this version of the tag
+						set_global_variable = {
+							name = bem_colony_global_var
+							value = prev
+						}
+
+						bem_colony_set_up_effect = yes
+					}
+				}
+
+				create_diplomatic_pact = {
+					country = global_var:bem_colony_global_var
+					type = bem_colony
+				}
+
+				every_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_ZAMBIA
+							state_region = s:STATE_KAZEMBE
+						}
+					}
+					set_state_owner = global_var:bem_colony_global_var
+				}
+	
+				remove_global_variable = bem_colony_global_var
+				remove_global_variable = bem_colonizer_global_var
+			}
+			else = {
+				random_subject_or_below  = {
+					limit = {
+						is_subject_type = subject_type_bem_colony
+						OR = {
+							has_state_in_state_region = STATE_ZAMBIA
+							has_state_in_state_region = STATE_KAZEMBE
+						}
+					}
+					save_scope_as = bem_colony_scope
+				}
+				every_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_ZAMBIA
+							state_region = s:STATE_KAZEMBE
+						}
 					}
 					set_state_owner = scope:bem_colony_scope
 				}

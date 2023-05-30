@@ -1,4 +1,34 @@
-﻿C2A = { # Colony of Angola
+﻿# Colony of Angola
+C2A = {
+	dynamic_country_name = {
+		name = dyn_c_default_angola
+		adjective = dyn_c_default_angola_adj
+
+		is_main_tag_only = no
+		priority = 1
+		
+		trigger = {
+			always = yes
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_colony_of_angola
+		adjective = dyn_c_colony_of_angola_adj
+
+		is_main_tag_only = no
+		priority = 10
+		
+		trigger = {
+			scope:actor = {
+				is_subject = yes
+			}
+		}
+	}
+}
+
+# Colony of Angola
+C2A_AI = {
 	dynamic_country_name = {
 		name = dyn_c_default_angola
 		adjective = dyn_c_default_angola_adj

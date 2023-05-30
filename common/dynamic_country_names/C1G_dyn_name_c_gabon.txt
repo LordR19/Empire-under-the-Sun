@@ -1,4 +1,34 @@
-﻿C1G = { # Protectorate of Gabon
+﻿# Colonial Gabon
+C1G = {
+	dynamic_country_name = {
+		name = dyn_c_default_gabon
+		adjective = dyn_c_default_gabon_adj
+
+		is_main_tag_only = no
+		priority = 1
+		
+		trigger = {
+			always = yes
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_colony_of_gabon
+		adjective = dyn_c_colony_of_gabon_adj
+
+		is_main_tag_only = no
+		priority = 10
+		
+		trigger = {
+			scope:actor = {
+				is_subject = yes
+			}
+		}
+	}
+}
+
+# Colonial Gabon AI
+C1G_AI = {
 	dynamic_country_name = {
 		name = dyn_c_default_gabon
 		adjective = dyn_c_default_gabon_adj

@@ -247,10 +247,7 @@ C4T = {
 	}
 
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_TOGO
+		always = no
 	}
 }
 
@@ -265,10 +262,7 @@ C1D = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_DAHOMEY
+		always = no
 	}
 }
 
@@ -289,16 +283,7 @@ C1N = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_YORUBA_STATES
-		owns_entire_state_region = STATE_NIGER_DELTA
-		owns_entire_state_region = STATE_BENIN
-		owns_entire_state_region = STATE_NIGERIA
-		owns_entire_state_region = STATE_BORNU
-		owns_entire_state_region = STATE_HAUSALAND
-		owns_entire_state_region = STATE_EAST_HAUSALAND
+		always = no
 	}
 }
 
@@ -314,11 +299,7 @@ C2N = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_OUTER_HAUSALAND
-		owns_entire_state_region = STATE_NIGER
+		always = no
 	}
 }
 
@@ -334,11 +315,7 @@ C5C = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_WADDAI
-		owns_entire_state_region = STATE_CHAD
+		always = no
 	}
 }
 
@@ -354,11 +331,7 @@ C2C = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_NORTH_CAMEROON
-		owns_entire_state_region = STATE_SOUTH_CAMEROON
+		always = no
 	}
 }
 
@@ -382,25 +355,7 @@ C1E = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_LOWER_EGYPT
-		owns_entire_state_region = STATE_MIDDLE_EGYPT
-		owns_entire_state_region = STATE_UPPER_EGYPT
-		owns_entire_state_region = STATE_SINAI
-		owns_entire_state_region = STATE_EGYPTIAN_DESERT
-		owns_entire_state_region = STATE_MATRUH
-		NOR = {
-			AND = {
-				exists = c:ARA
-				this = c:ARA
-			}
-			AND = {
-				exists = c:TUR
-				this = c:TUR
-			}
-		}
+		always = no
 	}
 }
 
@@ -419,23 +374,7 @@ C2S = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_BLUE_NILE
-		owns_entire_state_region = STATE_DONGOLA
-		owns_entire_state_region = STATE_DARFUR
-		owns_entire_state_region = STATE_KORDOFAN
-		NOR = {
-			AND = {
-				exists = c:ARA
-				this = c:ARA
-			}
-			AND = {
-				exists = c:TUR
-				this = c:TUR
-			}
-		}
+		always = no
 	}
 }
 
@@ -450,10 +389,7 @@ C5S = {
 	}
 
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_EQUATORIA
+		always = no
 	}
 }
 
@@ -474,12 +410,7 @@ C2E = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_GONDER
-		owns_entire_state_region = STATE_AMHARA
-		owns_entire_state_region = STATE_OROMIA
+		always = no
 	}
 }
 
@@ -494,10 +425,7 @@ C3E = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_ERITREA
+		always = no
 	}
 }
 
@@ -512,10 +440,7 @@ C1S = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_SOMALILAND
+		always = no
 	}
 }
 
@@ -534,10 +459,7 @@ C1U = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_UGANDA
+		always = no
 	}
 }
 
@@ -553,11 +475,7 @@ C1K = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_KENYA
-		owns_entire_state_region = STATE_RIFT_VALLEY
+		always = no
 	}
 }
 
@@ -574,12 +492,7 @@ C1T = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_ZANZIBAR
-		owns_entire_state_region = STATE_LINDI
-		owns_entire_state_region = STATE_TANGANYIKA
+		always = no
 	}
 }
 
@@ -596,12 +509,7 @@ C1M = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_MOCAMBIQUE
-		owns_entire_state_region = STATE_ZAMBEZIA
-		owns_entire_state_region = STATE_LOURENCO_MARQUES
+		always = no
 	}
 }
 
@@ -617,11 +525,7 @@ C2M = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_NORTH_MADAGASCAR
-		owns_entire_state_region = STATE_SOUTH_MADAGASCAR
+		always = no
 	}
 }
 
@@ -640,10 +544,7 @@ C1G = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_GABON
+		always = no
 	}
 }
 
@@ -658,10 +559,7 @@ C3M = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_CONGO
+		always = no
 	}
 }
 
@@ -676,10 +574,7 @@ C4C = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_UBANGI_SHARI
+		always = no
 	}
 }
 
@@ -698,14 +593,7 @@ C3C = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_BAS_CONGO
-		owns_entire_state_region = STATE_KASAI
-		owns_entire_state_region = STATE_KATANGA
-		owns_entire_state_region = STATE_EQUATEUR
-		owns_entire_state_region = STATE_CONGO_ORIENTALE
+		always = no
 	}
 }
 
@@ -722,12 +610,7 @@ C2A = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_NORTH_ANGOLA
-		owns_entire_state_region = STATE_SOUTH_ANGOLA
-		owns_entire_state_region = STATE_EAST_ANGOLA
+		always = no
 	}
 }
 
@@ -743,11 +626,7 @@ C2R = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_ZAMBIA
-		owns_entire_state_region = STATE_KAZEMBE
+		always = no
 	}
 }
 

@@ -1,4 +1,33 @@
-﻿C1E = { # Protectorate of Egypt
+﻿# Colonial Egypt
+C1E = {
+	dynamic_country_name = {
+		name = dyn_c_default_egypt
+		adjective = dyn_c_default_egypt_adj
+
+		is_main_tag_only = no
+		priority = 1
+		
+		trigger = {
+			always = yes
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_colonial_egypt
+
+		is_main_tag_only = no
+		priority = 10
+		
+		trigger = {
+			scope:actor = {
+				is_subject = yes
+			}
+		}
+	}
+}
+
+# Colonial Egypt AI
+C1E_AI = {
 	dynamic_country_name = {
 		name = dyn_c_default_egypt
 		adjective = dyn_c_default_egypt_adj

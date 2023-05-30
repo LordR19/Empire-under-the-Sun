@@ -39,6 +39,8 @@
 
  C1E: "Kolonial Ägypten"
  C1E_ADJ: "Ägyptisch"
+ C1E_AI: "Kolonial Ägypten"
+ C1E_AI_ADJ: "Ägyptisch"
  dyn_c_default_egypt: "Ägypten"
  dyn_c_default_egypt_adj: "Ägyptisch"
  dyn_c_protectorate_of_egypt: "Protektorat Ägypten"
@@ -92,6 +94,8 @@
 
  C1S: "Kolonial Somaliland"
  C1S_ADJ: "Somalisch"
+ C1S_AI: "Kolonial Somaliland"
+ C1S_AI_ADJ: "Somalisch"
  dyn_c_default_somaliland: "Somaliland"
  dyn_c_default_somaliland_adj: "Somalisch"
  dyn_c_protectorate_of_somaliland: "Protektorat Somaliland"
@@ -100,6 +104,8 @@
 
  C1N: "Kolonial Nigeria"
  C1N_ADJ: "Nigerianisch"
+ C1N_AI: "Kolonial Nigeria"
+ C1N_AI_ADJ: "Nigerianisch"
  dyn_c_default_nigeria: "Nigeria"
  dyn_c_default_nigeria_adj: "Nigerianisch"
  dyn_c_protectorate_of_nigeria: "Kolonie und Protektorat Nigeria"
@@ -114,6 +120,8 @@
 
  C1K: "Kolonial Kenya"
  C1K_ADJ: "Kenyanisch"
+ C1K_AI: "Kolonial Kenya"
+ C1K_AI_ADJ: "Kenyanisch"
  dyn_c_default_kenya: "Kenya"
  dyn_c_default_kenya_adj: "Kenyanisch"
  dyn_c_protectorate_of_kenya: "Kolonie und Protektorat Kenya"
@@ -122,6 +130,8 @@
 
  C1T: "Kolonial Tanganyika"
  C1T_ADJ: "Tanganyikanisch"
+ C1T_AI: "Kolonial Tanganyika"
+ C1T_AI_ADJ: "Tanganyikanisch"
  dyn_c_default_tanganyika: "Tanganyika"
  dyn_c_default_tanganyika_adj: "Tanganyikanisch"
  dyn_c_tanganyika_territory: "Tanganyika Territorium"
@@ -146,6 +156,8 @@
 
  C2S: "Kolonial Sudan"
  C2S_ADJ: "Sudanesisch"
+ C2S_AI: "Kolonial Sudan"
+ C2S_AI_ADJ: "Sudanesisch"
  dyn_c_default_sudan: "Sudan"
  dyn_c_default_sudan_adj: "Sudanesisch"
  dyn_c_protectorate_of_sudan: "Protektorat Sudan"
@@ -154,6 +166,8 @@
 
  C2C: "Kolonial Kamerun"
  C2C_ADJ: "Kamerunisch"
+ C2C_AI: "Kolonial Kamerun"
+ C2C_AI_ADJ: "Kamerunisch"
  dyn_c_default_cameroon: "Kamerun"
  dyn_c_default_cameroon_adj: "Kamerunisch"
  dyn_c_protectorate_of_cameroon: "[Country.GetOverlord.GetAdjectiveNoFormatting] Kamerun"
@@ -185,6 +199,8 @@
 
  C2R: "Kolonial Sambia"
  C2R_ADJ: "Sambesisch"
+ C2R_AI: "Kolonial Sambia"
+ C2R_AI_ADJ: "Sambesisch"
  dyn_c_default_zambia: "Sambia"
  dyn_c_default_zambia_adj: "Sambesisch"
  dyn_c_colonial_zambia: "[Country.GetOverlord.GetAdjectiveNoFormatting] Sambia"
@@ -194,6 +210,8 @@
 
  C1M: "Kolonial Mocambique"
  C1M_ADJ: "Mozambiquanisch"
+ C1M_AI: "Kolonial Mocambique"
+ C1M_AI_ADJ: "Mozambiquanisch"
  dyn_c_default_mocambique: "Mocambique"
  dyn_c_default_mocambique_adj: "Mozambiquanisch"
  dyn_c_south_east_africa: "[Country.GetOverlord.GetAdjectiveNoFormatting] Südostafrika"
@@ -201,6 +219,8 @@
 
  C2M: "Kolonial Madagaskar"
  C2M_ADJ: "Madegassisch"
+ C2M_AI: "Kolonial Madagaskar"
+ C2M_AI_ADJ: "Madegassisch"
  dyn_c_default_madagascar: "Madagascar"
  dyn_c_default_madagascar_adj: "Madegassisch"
  dyn_c_colony_of_madagascar: "[Country.GetOverlord.GetAdjectiveNoFormatting] Madagascar"
@@ -208,6 +228,8 @@
 
  C2A: "Kolonial Angola"
  C2A_ADJ: "Angolisch"
+ C2A_AI: "Kolonial Angola"
+ C2A_AI_ADJ: "Angolisch"
  dyn_c_default_angola: "Angola"
  dyn_c_default_angola_adj: "Angolisch"
  dyn_c_colony_of_angola: "[Country.GetOverlord.GetAdjectiveNoFormatting] Angola"
@@ -215,6 +237,8 @@
 
  C3C: "Kolonial Kongo"
  C3C_ADJ: "Kongolesisch"
+ C3C_AI: "Kolonial Kongo"
+ C3C_AI_ADJ: "Kongolesisch"
  dyn_c_default_congo: "Kongo"
  dyn_c_default_congo_adj: "Kongolesisch"
  dyn_c_colony_of_congo: "[Country.GetOverlord.GetAdjectiveNoFormatting] Kongo"
@@ -222,6 +246,8 @@
 
  C3M: "Kolonial Mittel-Kongo"
  C3M_ADJ: "Mittel-Kongolesisch"
+ C3M_AI: "Kolonial Mittel-Kongo"
+ C3M_AI_ADJ: "Mittel-Kongolesisch"
  dyn_c_default_middle_congo: "Mittel-Kongo"
  dyn_c_default_middle_congo_adj: "Mittel-Kongolesisch"
  dyn_c_colony_of_middle_congo: "[Country.GetOverlord.GetAdjectiveNoFormatting] Mittel-Kongo"
@@ -229,6 +255,8 @@
 
  C1G: "Kolonial Gabun"
  C1G_ADJ: "Gabunisch"
+ C1G_AI: "Kolonial Gabun"
+ C1G_AI_ADJ: "Gabunisch"
  dyn_c_default_gabon: "Gabun"
  dyn_c_default_gabon_adj: "Gabunisch"
  dyn_c_colony_of_gabon: "[Country.GetOverlord.GetAdjectiveNoFormatting] Gabun"
@@ -241,6 +269,8 @@
 
  C4C: "Kolonial Zentralafrika"
  C4C_ADJ: "Zentralafrika"
+ C4C_AI: "Kolonial Zentralafrika"
+ C4C_AI_ADJ: "Zentralafrika"
  dyn_c_default_ubangi_shari: "Ubangi-Shari"
  dyn_c_default_ubangi_shari_adj: "Ubangi-Shari"
  dyn_c_colony_of_central_africa: "[Country.GetOverlord.GetAdjectiveNoFormatting] Zentralafrika"
@@ -260,6 +290,8 @@
 
  C2E: "Kolonial Äthiopien"
  C2E_ADJ: "Äthiopisch"
+ C2E_AI: "Kolonial Äthiopien"
+ C2E_AI_ADJ: "Äthiopisch"
  dyn_c_default_ethiopia: "Äthiopien"
  dyn_c_default_ethiopia_adj: "Äthiopisch"
  dyn_c_colony_of_ethiopia: "[Country.GetOverlord.GetAdjectiveNoFormatting] Äthiopien"
@@ -267,6 +299,8 @@
 
  C3E: "Kolonial Eritrea"
  C3E_ADJ: "Eritreisch"
+ C3E_AI: "Kolonial Eritrea"
+ C3E_AI_ADJ: "Eritreisch"
  dyn_c_default_eritrea: "Eritrea"
  dyn_c_default_eritrea_adj: "Eritreisch"
  dyn_c_colony_of_eritrea: "[Country.GetOverlord.GetAdjectiveNoFormatting] Eritrea"
@@ -279,6 +313,8 @@
 
  C5C: "Kolonial Tschad"
  C5C_ADJ: "Tschadisch"
+ C5C_AI: "Kolonial Tschad"
+ C5C_AI_ADJ: "Tschadisch"
  dyn_c_default_chad: "Tschad"
  dyn_c_default_chad_adj: "Tschadisch"
  dyn_c_colony_of_chad: "[Country.GetOverlord.GetAdjectiveNoFormatting] Tschad"
@@ -286,6 +322,8 @@
 
  C2N: "Kolonial Niger"
  C2N_ADJ: "Nigerisch"
+ C2N_AI: "Kolonial Niger"
+ C2N_AI_ADJ: "Nigerisch"
  dyn_c_default_niger: "Niger"
  dyn_c_default_niger_adj: "Nigerisch"
  dyn_c_colony_of_niger: "[Country.GetOverlord.GetAdjectiveNoFormatting] Niger"
@@ -427,6 +465,8 @@
 
  C1D: "Kolonial Dahomey"
  C1D_ADJ: "Dahomisch"
+ C1D_AI: "Kolonial Dahomey"
+ C1D_AI_ADJ: "Dahomisch"
  dyn_c_default_dahomey: "Dahomey"
  dyn_c_default_dahomey_adj: "Dahomisch"
  dyn_c_colony_of_dahomey: "[Country.GetOverlord.GetAdjectiveNoFormatting] Dahomey"
@@ -448,6 +488,8 @@
 
  C4T: "Kolonial Togo"
  C4T_ADJ: "Togisch"
+ C4T_AI: "Kolonial Togo"
+ C4T_AI_ADJ: "Togisch"
  dyn_c_default_togo: "Togo"
  dyn_c_default_togo_adj: "Togisch"
  dyn_c_colony_of_togo: "[Country.GetOverlord.GetAdjectiveNoFormatting] Togo"
@@ -503,6 +545,8 @@
 
  C5S: "Kolonial Südsudan"
  C5S_ADJ: "Südsudanesisch"
+ C5S_AI: "Kolonial Südsudan"
+ C5S_AI_ADJ: "Südsudanesisch"
  dyn_c_default_south_sudan: "Südsudan"
  dyn_c_colonial_south_sudan: "[Country.GetOverlord.GetAdjectiveNoFormatting] Südsudan"
 
@@ -841,3 +885,57 @@
 
  bem_create_colonial_gold_coast: "AI decision Gold Coast"
  bem_create_colonial_gold_coast_desc: "AI decision to create a colony in Gold Coast. #n Should not be visible!#!"
+
+ bem_create_colonial_togo: "AI decision Togo"
+ bem_create_colonial_togo_desc: "AI decision to create a colony in Togo. #n Should not be visible!#!"
+
+ bem_create_colonial_dahomey: "AI decision Dahomey"
+ bem_create_colonial_dahomey_desc: "AI decision to create a colony in Dahomey. #n Should not be visible!#!"
+
+ bem_create_colonial_nigeria: "AI decision Nigeria"
+ bem_create_colonial_nigeria_desc: "AI decision to create a colony in Nigeria. #n Should not be visible!#!"
+
+ bem_create_colonial_niger: "AI decision Niger"
+ bem_create_colonial_niger_desc: "AI decision to create a colony in Niger. #n Should not be visible!#!"
+
+ bem_create_colonial_chad: "AI decision Chad"
+ bem_create_colonial_chad_desc: "AI decision to create a colony in Chad. #n Should not be visible!#!"
+
+ bem_create_colonial_cameroon: "AI decision Cameroon"
+ bem_create_colonial_cameroon_desc: "AI decision to create a colony in Cameroon. #n Should not be visible!#!"
+
+ bem_create_colonial_egypt: "AI decision Egypt"
+ bem_create_colonial_egypt_desc: "AI decision to create a colony in Egypt. #n Should not be visible!#!"
+
+ bem_create_colonial_sudan: "AI decision Sudan"
+ bem_create_colonial_sudan_desc: "AI decision to create a colony in Sudan. #n Should not be visible!#!"
+
+ bem_create_colonial_south_sudan: "AI decision South Sudan"
+ bem_create_colonial_south_sudan_desc: "AI decision to create a colony in South Sudan. #n Should not be visible!#!"
+
+ bem_create_colonial_ethiopia: "AI decision Ethiopia"
+ bem_create_colonial_ethiopia_desc: "AI decision to create a colony in Ethiopia. #n Should not be visible!#!"
+
+ bem_create_colonial_eritrea: "AI decision Eritrea"
+ bem_create_colonial_eritrea_desc: "AI decision to create a colony in Eritrea. #n Should not be visible!#!"
+
+ bem_create_colonial_somaliland: "AI decision Somaliland"
+ bem_create_colonial_somaliland_desc: "AI decision to create a colony in Somaliland. #n Should not be visible!#!"
+
+ bem_create_colonial_gabon: "AI decision Gabon"
+ bem_create_colonial_gabon_desc: "AI decision to create a colony in Gabon. #n Should not be visible!#!"
+
+ bem_create_colonial_middle_congo: "AI decision Middle Congo"
+ bem_create_colonial_middle_congo_desc: "AI decision to create a colony in Middle Congo. #n Should not be visible!#!"
+
+ bem_create_colonial_central_africa: "AI decision Central Africa"
+ bem_create_colonial_central_africa_desc: "AI decision to create a colony in Central Africa. #n Should not be visible!#!"
+
+ bem_create_colonial_congo: "AI decision Congo"
+ bem_create_colonial_congo_desc: "AI decision to create a colony in Congo. #n Should not be visible!#!"
+
+ bem_create_colonial_angola: "AI decision Angola"
+ bem_create_colonial_angola_desc: "AI decision to create a colony in Angola. #n Should not be visible!#!"
+
+ bem_create_colonial_northern_rhodesia: "AI decision Northern Rhodesia"
+ bem_create_colonial_northern_rhodesia_desc: "AI decision to create a colony in Northern Rhodesia. #n Should not be visible!#!"

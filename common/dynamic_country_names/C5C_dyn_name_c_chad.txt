@@ -1,4 +1,34 @@
-﻿C5C = { # Colony of Chad
+﻿# Colony of Chad
+C5C = {
+	dynamic_country_name = {
+		name = dyn_c_default_chad
+		adjective = dyn_c_default_chad_adj
+
+		is_main_tag_only = no
+		priority = 1
+		
+		trigger = {
+			always = yes
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_colony_of_chad
+		adjective = dyn_c_colony_of_chad_adj
+
+		is_main_tag_only = no
+		priority = 10
+		
+		trigger = {
+			scope:actor = {
+				is_subject = yes
+			}
+		}
+	}
+}
+
+# Colony of Chad AI
+C5C_AI = {
 	dynamic_country_name = {
 		name = dyn_c_default_chad
 		adjective = dyn_c_default_chad_adj

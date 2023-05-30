@@ -1,4 +1,34 @@
-﻿C2M = { # Colony of Madagascar
+﻿# Colonial Madagascar
+C2M = {
+	dynamic_country_name = {
+		name = dyn_c_default_madagascar
+		adjective = dyn_c_default_madagascar_adj
+
+		is_main_tag_only = no
+		priority = 1
+		
+		trigger = {
+			always = yes
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_colony_of_madagascar
+		adjective = dyn_c_colony_of_madagascar_adj
+
+		is_main_tag_only = no
+		priority = 10
+		
+		trigger = {
+			scope:actor = {
+				is_subject = yes
+			}
+		}
+	}
+}
+
+# Colonial Madagascar AI
+C2M_AI = {
 	dynamic_country_name = {
 		name = dyn_c_default_madagascar
 		adjective = dyn_c_default_madagascar_adj
