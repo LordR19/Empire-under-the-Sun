@@ -1,4 +1,34 @@
-﻿C5T = { # Colonial Transvaal
+﻿# Colonial Transvaal
+C5T = {
+	dynamic_country_name = {
+		name = dyn_c_default_transvaal
+		adjective = dyn_c_default_transvaal_adj
+
+		is_main_tag_only = no
+		priority = 1
+		
+		trigger = {
+			always = yes
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_colony_of_transvaal
+		adjective = dyn_c_colony_of_transvaal_adj
+
+		is_main_tag_only = no
+		priority = 10
+		
+		trigger = {
+			scope:actor = {
+				is_subject = yes
+			}
+		}
+	}
+}
+
+# Colonial Transvaal AI
+C5T_AI = {
 	dynamic_country_name = {
 		name = dyn_c_default_transvaal
 		adjective = dyn_c_default_transvaal_adj

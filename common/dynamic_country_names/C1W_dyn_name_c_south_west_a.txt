@@ -1,15 +1,45 @@
-﻿C1W = { # Territory of South West Africa
-dynamic_country_name = {
-	name = dyn_c_default_south_west
-	adjective = dyn_c_default_south_west_adj
+﻿# Colonial South West Africa
+C1W = {
+	dynamic_country_name = {
+		name = dyn_c_default_south_west
+		adjective = dyn_c_default_south_west_adj
 
-	is_main_tag_only = no
-	priority = 1
-	
-	trigger = {
-		always = yes
+		is_main_tag_only = no
+		priority = 1
+		
+		trigger = {
+			always = yes
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_territory_of_swa
+		adjective = dyn_c_territory_of_swa_adj
+
+		is_main_tag_only = no
+		priority = 10
+		
+		trigger = {
+			scope:actor = {
+				is_subject = yes
+			}
+		}
 	}
 }
+
+# Colonial South West Africa AI
+C1W_AI = {
+	dynamic_country_name = {
+		name = dyn_c_default_south_west
+		adjective = dyn_c_default_south_west_adj
+
+		is_main_tag_only = no
+		priority = 1
+		
+		trigger = {
+			always = yes
+		}
+	}
 
 	dynamic_country_name = {
 		name = dyn_c_territory_of_swa

@@ -58,6 +58,8 @@
 
  C1B: "Colonial Bechuanaland"
  C1B_ADJ: "Bechuana"
+ C1B_AI: "Colonial Bechuanaland"
+ C1B_AI_ADJ: "Bechuana"
  dyn_c_default_botswana: "Botswana"
  dyn_c_default_botswana_adj: "Botswana"
  dyn_c_bechunaland_protectorate: "Bechuanaland Protectorate"
@@ -174,6 +176,8 @@
 
  C1R: "Colonial Zambezi"
  C1R_ADJ: "Zambezi"
+ C1R_AI: "Colonial Zambezi"
+ C1R_AI_ADJ: "Zambezi"
  dyn_c_default_zimbabwe: "Zimbabwe"
  dyn_c_default_zimbabwe_adj: "Zimbabwe"
  dyn_c_colonial_zimbabwe: "[Country.GetOverlord.GetAdjectiveNoFormatting] Zimbabwe"
@@ -222,6 +226,8 @@
 
  C1W: "Colonial South West Africa"
  C1W_ADJ: "South West African"
+ C1W_AI: "Colonial South West Africa"
+ C1W_AI_ADJ: "South West African"
  dyn_c_default_south_west: "Namibia"
  dyn_c_default_south_west_adj: "Namibian"
  dyn_c_territory_of_swa: "[Country.GetOverlord.GetAdjectiveNoFormatting] South West Africa"
@@ -514,6 +520,8 @@
 
  C5T: "Colonial Transvaal"
  C5T_ADJ: "Transvaalian"
+ C5T_AI: "Colonial Transvaal"
+ C5T_AI_ADJ: "Transvaalian"
  dyn_c_default_transvaal: "Transvaal"
  dyn_c_default_transvaal_adj: "Transvaalian"
  dyn_c_colony_of_transvaal: "[Country.GetOverlord.GetAdjectiveNoFormatting] Transvaal"
@@ -521,6 +529,8 @@
 
  C6C: "Colonial Cape"
  C6C_ADJ: "South African"
+ C6C_AI: "Colonial Cape"
+ C6C_AI_ADJ: "South African"
  dyn_c_default_cape: "Cape"
  dyn_c_colonial_cape: "[Country.GetOverlord.GetAdjectiveNoFormatting] Cape Colony"
 
@@ -979,3 +989,18 @@
 
  bem_create_colonial_northern_rhodesia: "AI decision Northern Rhodesia"
  bem_create_colonial_northern_rhodesia_desc: "AI decision to create a colony in Northern Rhodesia. #n Should not be visible!#!"
+
+ bem_create_colonial_swa: "AI decision South West Africa"
+ bem_create_colonial_swa_desc: "AI decision to create a colony in South West Africa. #n Should not be visible!#!"
+
+ bem_create_colonial_bechuanaland: "AI decision Bechuanaland"
+ bem_create_colonial_bechuanaland_desc: "AI decision to create a colony in South West AfricaBechuanaland. #n Should not be visible!#!"
+
+ bem_create_colonial_southern_rhodesia: "AI decision Southern Rhodesia"
+ bem_create_colonial_southern_rhodesia_desc: "AI decision to create a colony in Southern Rhodesia. #n Should not be visible!#!"
+
+ bem_create_colonial_transvaal: "AI decision Transvaal"
+ bem_create_colonial_transvaal_desc: "AI decision to create a colony in Transvaal. #n Should not be visible!#!"
+
+ bem_create_colonial_cape: "AI decision Cape"
+ bem_create_colonial_cape_desc: "AI decision to create a colony in Cape. #n Should not be visible!#!"

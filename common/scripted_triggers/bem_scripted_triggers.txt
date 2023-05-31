@@ -341,21 +341,41 @@ bem_colonial_nation_trigger = {
 			exists = c:C1W
 			this = c:C1W
 		}
+		AND = { #Colonial South West Africa / Namibia AI
+			exists = c:C1W_AI
+			this = c:C1W_AI
+		}
 		AND = { #Colonial Bechuanaland
 			exists = c:C1B
 			this = c:C1B
+		}
+		AND = { #Colonial Bechuanaland AI
+			exists = c:C1B_AI
+			this = c:C1B_AI
 		}
 		AND = { #Colonial Zambezia / Southern Rhodesia
 			exists = c:C1R
 			this = c:C1R
 		}
+		AND = { #Colonial Zambezia / Southern Rhodesia AI
+			exists = c:C1R_AI
+			this = c:C1R_AI
+		}
 		AND = { #Colonial Transvaal
 			exists = c:C5T
 			this = c:C5T
 		}
+		AND = { #Colonial Transvaal AI
+			exists = c:C5T_AI
+			this = c:C5T_AI
+		}
 		AND = { #Colonial Cape
 			exists = c:C6C
 			this = c:C6C
+		}
+		AND = { #Colonial Cape AI
+			exists = c:C6C_AI
+			this = c:C6C_AI
 		}
 		###  ###
 		AND = {
@@ -882,21 +902,41 @@ bem_colonial_nation_south_africa_trigger = {
 			exists = c:C1W
 			this = c:C1W
 		}
+		AND = { #Colonial South West Africa / Namibia AI
+			exists = c:C1W_AI
+			this = c:C1W_AI
+		}
 		AND = { #Colonial Bechuanaland
 			exists = c:C1B
 			this = c:C1B
+		}
+		AND = { #Colonial Bechuanaland AI
+			exists = c:C1B_AI
+			this = c:C1B_AI
 		}
 		AND = { #Colonial Zambezia / Southern Rhodesia
 			exists = c:C1R
 			this = c:C1R
 		}
+		AND = { #Colonial Zambezia / Southern Rhodesia AI
+			exists = c:C1R_AI
+			this = c:C1R_AI
+		}
 		AND = { #Colonial Transvaal
 			exists = c:C5T
 			this = c:C5T
 		}
+		AND = { #Colonial Transvaal AI
+			exists = c:C5T_AI
+			this = c:C5T_AI
+		}
 		AND = { #Colonial Cape
 			exists = c:C6C
 			this = c:C6C
+		}
+		AND = { #Colonial Cape AI
+			exists = c:C6C_AI
+			this = c:C6C_AI
 		}
 	}
 }

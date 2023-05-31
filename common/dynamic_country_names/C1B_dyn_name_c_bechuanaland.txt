@@ -1,4 +1,33 @@
-﻿C1B = { # Bechuanaland Protectorate
+﻿# Colonial Bechuanaland
+C1B = {
+	dynamic_country_name = {
+		name = dyn_c_default_botswana
+		adjective = dyn_c_default_botswana_adj
+
+		is_main_tag_only = no
+		priority = 1
+		
+		trigger = {
+			always = yes
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_colonial_bechuanaland
+
+		is_main_tag_only = no
+		priority = 10
+		
+		trigger = {
+			scope:actor = {
+				is_subject = yes
+			}
+		}
+	}
+}
+
+# Colonial Bechuanaland AI
+C1B_AI = {
 	dynamic_country_name = {
 		name = dyn_c_default_botswana
 		adjective = dyn_c_default_botswana_adj

@@ -646,11 +646,7 @@ C1W = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_NAMAQUALAND
-		owns_entire_state_region = STATE_HEREROLAND
+		always = no
 	}
 }
 
@@ -665,10 +661,7 @@ C1B = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_BOTSWANA
+		always = no
 	}
 }
 
@@ -683,10 +676,7 @@ C1R = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_ZAMBEZI
+		always = no
 	}
 }
 
@@ -703,12 +693,7 @@ C5T = {
 	}
 
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_TRANSVAAL
-		owns_entire_state_region = STATE_VRYSTAAT
-		owns_entire_state_region = STATE_ZULULAND
+		always = no
 	}
 }
 
@@ -725,12 +710,7 @@ C6C = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_CAPE_COLONY
-		owns_entire_state_region = STATE_EASTERN_CAPE
-		owns_entire_state_region = STATE_NORTHERN_CAPE
+		always = no
 	}
 }
 

@@ -1243,8 +1243,38 @@ C1W = {
 	
 }
 
+#Territory of South West Africa AI
+C1W_AI = {
+
+	color = { 0 20 100}
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_HEREROLAND
+	
+}
+
 #Bechuanaland Protectorate
 C1B = {
+
+	color = { 0 150 250 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_BOTSWANA
+	
+}
+
+#Bechuanaland Protectorate AI
+C1B_AI = {
 
 	color = { 0 150 250 }
 	
@@ -1273,6 +1303,21 @@ C1R = {
 	
 }
 
+#Southern Rhodesia AI
+C1R_AI = {
+
+	color = { 30 50 50 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_ZAMBEZI
+	
+}
+
 #Colonial Transvaal
 C5T = {
 
@@ -1288,8 +1333,38 @@ C5T = {
 
 }
 
+#Colonial Transvaal AI
+C5T_AI = {
+
+	color = { 171 200 255 }
+
+	country_type = colonial
+
+	tier = kingdom
+
+	cultures = { british }
+
+	capital = STATE_TRANSVAAL
+
+}
+
 #Colonial Cape
 C6C = {
+
+	color = { 84 120 255  }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_CAPE_COLONY
+	
+}
+
+#Colonial Cape AI
+C6C_AI = {
 
 	color = { 84 120 255  }
 	
