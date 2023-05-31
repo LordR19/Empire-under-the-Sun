@@ -147,19 +147,26 @@ unite_colonies_maghreb_decision = {
 		base = 100
 		modifier = {
 			trigger = {
-				OR = {
-					NOT = { has_technology_researched = civilizing_mission }
-					NOT = {
-						sr:region_north_africa = {
-							any_scope_state = {
-								count = all
-								owner = { NOT = { is_country_type = decentralized } }
+				NOT = { has_technology_researched = civilizing_mission }
+			}
+			add = -200
+		}
+		modifier = {
+			trigger = {
+				sr:region_north_africa = {
+					any_scope_state = {
+						OR = {
+							owner = {
+								is_country_type = decentralized
+							}
+							any_neighbouring_state = {
+								owner = {
+									is_country_type = decentralized
+								}
 							}
 						}
 					}
-					has_variable = north_africa_cooldown_var
 				}
-				
 			}
 			add = -200
 		}
@@ -273,19 +280,26 @@ unite_colonies_west_africa_decision = {
 		base = 100
 		modifier = {
 			trigger = {
-				OR = {
-					NOT = { has_technology_researched = civilizing_mission }
-					NOT = {
-						sr:region_senegal = {
-							any_scope_state = {
-								count = all
-								owner = { NOT = { is_country_type = decentralized } }
+				NOT = { has_technology_researched = civilizing_mission }
+			}
+			add = -200
+		}
+		modifier = {
+			trigger = {
+				sr:region_senegal = {
+					any_scope_state = {
+						OR = {
+							owner = {
+								is_country_type = decentralized
+							}
+							any_neighbouring_state = {
+								owner = {
+									is_country_type = decentralized
+								}
 							}
 						}
 					}
-					has_variable = west_africa_cooldown_var
 				}
-				
 			}
 			add = -200
 		}
@@ -399,19 +413,26 @@ unite_colonies_greater_nigeria_decision = {
 		base = 100
 		modifier = {
 			trigger = {
-				OR = {
-					NOT = { has_technology_researched = civilizing_mission }
-					NOT = {
-						sr:region_niger = {
-							any_scope_state = {
-								count = all
-								owner = { NOT = { is_country_type = decentralized } }
+				NOT = { has_technology_researched = civilizing_mission }
+			}
+			add = -200
+		}
+		modifier = {
+			trigger = {
+				sr:region_niger = {
+					any_scope_state = {
+						OR = {
+							owner = {
+								is_country_type = decentralized
+							}
+							any_neighbouring_state = {
+								owner = {
+									is_country_type = decentralized
+								}
 							}
 						}
 					}
-					has_variable = greater_nigeria_cooldown_var
 				}
-				
 			}
 			add = -200
 		}
@@ -525,19 +546,26 @@ unite_colonies_greater_egypt_decision = {
 		base = 100
 		modifier = {
 			trigger = {
-				OR = {
-					NOT = { has_technology_researched = civilizing_mission }
-					NOT = {
-						sr:region_nile_basin = {
-							any_scope_state = {
-								count = all
-								owner = { NOT = { is_country_type = decentralized } }
+				NOT = { has_technology_researched = civilizing_mission }
+			}
+			add = -200
+		}
+		modifier = {
+			trigger = {
+				sr:region_nile_basin = {
+					any_scope_state = {
+						OR = {
+							owner = {
+								is_country_type = decentralized
+							}
+							any_neighbouring_state = {
+								owner = {
+									is_country_type = decentralized
+								}
 							}
 						}
 					}
-					has_variable = greater_egypt_cooldown_var
 				}
-				
 			}
 			add = -200
 		}
@@ -651,19 +679,26 @@ unite_colonies_greater_ethiopia_decision = {
 		base = 100
 		modifier = {
 			trigger = {
-				OR = {
-					NOT = { has_technology_researched = civilizing_mission }
-					NOT = {
-						sr:region_ethiopia = {
-							any_scope_state = {
-								count = all
-								owner = { NOT = { is_country_type = decentralized } }
+				NOT = { has_technology_researched = civilizing_mission }
+			}
+			add = -200
+		}
+		modifier = {
+			trigger = {
+				sr:region_ethiopia = {
+					any_scope_state = {
+						OR = {
+							owner = {
+								is_country_type = decentralized
+							}
+							any_neighbouring_state = {
+								owner = {
+									is_country_type = decentralized
+								}
 							}
 						}
 					}
-					has_variable = greater_ethiopia_cooldown_var
 				}
-				
 			}
 			add = -200
 		}
@@ -777,19 +812,26 @@ unite_colonies_zanj_decision = {
 		base = 100
 		modifier = {
 			trigger = {
-				OR = {
-					NOT = { has_technology_researched = civilizing_mission }
-					NOT = {
-						sr:region_zanj = {
-							any_scope_state = {
-								count = all
-								owner = { NOT = { is_country_type = decentralized } }
+				NOT = { has_technology_researched = civilizing_mission }
+			}
+			add = -200
+		}
+		modifier = {
+			trigger = {
+				sr:region_zanj = {
+					any_scope_state = {
+						OR = {
+							owner = {
+								is_country_type = decentralized
+							}
+							any_neighbouring_state = {
+								owner = {
+									is_country_type = decentralized
+								}
 							}
 						}
 					}
-					has_variable = greater_zanj_cooldown_var
 				}
-				
 			}
 			add = -200
 		}
@@ -903,19 +945,26 @@ unite_colonies_congo_decision = {
 		base = 100
 		modifier = {
 			trigger = {
-				OR = {
-					NOT = { has_technology_researched = civilizing_mission }
-					NOT = {
-						sr:region_congo = {
-							any_scope_state = {
-								count = all
-								owner = { NOT = { is_country_type = decentralized } }
+				NOT = { has_technology_researched = civilizing_mission }
+			}
+			add = -200
+		}
+		modifier = {
+			trigger = {
+				sr:region_congo = {
+					any_scope_state = {
+						OR = {
+							owner = {
+								is_country_type = decentralized
+							}
+							any_neighbouring_state = {
+								owner = {
+									is_country_type = decentralized
+								}
 							}
 						}
 					}
-					has_variable = greater_congo_cooldown_var
 				}
-				
 			}
 			add = -200
 		}
@@ -1029,19 +1078,26 @@ unite_colonies_south_africa_decision = {
 		base = 100
 		modifier = {
 			trigger = {
-				OR = {
-					NOT = { has_technology_researched = civilizing_mission }
-					NOT = {
-						sr:region_southern_africa = {
-							any_scope_state = {
-								count = all
-								owner = { NOT = { is_country_type = decentralized } }
+				NOT = { has_technology_researched = civilizing_mission }
+			}
+			add = -200
+		}
+		modifier = {
+			trigger = {
+				sr:region_southern_africa = {
+					any_scope_state = {
+						OR = {
+							owner = {
+								is_country_type = decentralized
+							}
+							any_neighbouring_state = {
+								owner = {
+									is_country_type = decentralized
+								}
 							}
 						}
 					}
-					has_variable = south_africa_cooldown_var
 				}
-				
 			}
 			add = -200
 		}
