@@ -1233,12 +1233,7 @@ CNA_colonial_newfoundland = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_north_america = no
-		country_is_in_central_america = no
-		country_is_in_south_america = no
-		owns_entire_state_region = STATE_NEWFOUNDLAND
+		always = no
 	}
 }
 

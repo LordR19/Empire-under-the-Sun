@@ -28,7 +28,7 @@ C6M = {
 }
 
 # Colonial Mauritania AI
-C6M = {
+C6M_AI = {
 	dynamic_country_name = {
 		name = dyn_c_default_mauritania
 		adjective = dyn_c_default_mauritania_adj

@@ -24,8 +24,8 @@
 	}
 	
 	building_group_weights = {
-		bg_manufacturing = 0.01
-		bg_arts = 0.001
+		bg_manufacturing = 0
+		bg_arts = 0
 		bg_infrastructure = 1.5
 		bg_construction = 5.0
 		bg_rubber = 5.0

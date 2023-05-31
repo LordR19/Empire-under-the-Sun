@@ -965,21 +965,18 @@ bem_is_able_to_further_colonize = {
 	}
 }
 
-backup = {
-	any_scope_state = {
-		count = all
-		NOT = {
+bem_any_neighbouring_state_decentralized = {
+	state_region = {
+		any_scope_state = {
+			count = 0
 			owner = { is_country_type = decentralized }
 		}
-		any_neighbouring_state = {
-			OR = {
-				owner = {
-					NOT = {
-						is_country_type = decentralized
-					}
-				}
-				owner = root
-			}
+	}
+	any_neighbouring_state = {
+		count = all
+		OR = {
+			NOT = { owner = { is_country_type = decentralized } }
+			is_coastal = yes
 		}
 	}
 }

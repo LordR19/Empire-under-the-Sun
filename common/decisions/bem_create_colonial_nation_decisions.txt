@@ -20,17 +20,9 @@
 				state_region = s:STATE_LIBYA
 				state_region = s:STATE_LIBYAN_DESERT
 			}
-		}
-		#checks if there are any decentralized countries in Libya or in a neighbouring state
-		#This is needed as you can't colonize provinces that are only accessible through your subjects
-		s:STATE_TRIPOLI = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_LIBYA = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_LIBYAN_DESERT = {
-			bem_is_able_to_further_colonize = yes
+			#Checks if any of the States has no decentralized neighbours
+			#This allows you to colonize the neighbouring states before limiting access (You can't colonize inside the territory of a subject nation).
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -67,6 +59,9 @@
 							state_region = s:STATE_LIBYA
 							state_region = s:STATE_LIBYAN_DESERT
 						}
+						#Limits the states to states without a neighbouring uncivilized nation,
+						#This allows you to colonize the neighbouring states before limiting access (You can't colonize inside the territory of a subject nation).
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					save_scope_as = bem_primary_state
 				}
@@ -104,6 +99,9 @@
 							state_region = s:STATE_LIBYA
 							state_region = s:STATE_LIBYAN_DESERT
 						}
+						#Limits the states to states without a neighbouring uncivilized nation,
+						#This allows you to colonize the neighbouring states before limiting access (You can't colonize inside the territory of a subject nation).
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = global_var:bem_colony_global_var
 				}
@@ -132,6 +130,9 @@
 							state_region = s:STATE_LIBYA
 							state_region = s:STATE_LIBYAN_DESERT
 						}
+						#Limits the states to states without a neighbouring uncivilized nation,
+						#This allows you to colonize the neighbouring states before limiting access (You can't colonize inside the territory of a subject nation).
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = scope:bem_colony_scope
 				}
@@ -162,9 +163,7 @@ bem_create_colonial_tunisia = {
 		is_ai = yes
 		any_scope_state = {
 			state_region = s:STATE_TUNISIA
-		}
-		s:STATE_TUNISIA = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -278,21 +277,7 @@ bem_create_colonial_algeria = {
 				state_region = s:STATE_SAHARA
 				state_region = s:STATE_ORAN
 			}
-		}
-		s:STATE_ALGIERS = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_CONSTANTINE = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_EAST_SAHARA = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_SAHARA = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_ORAN = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -329,6 +314,7 @@ bem_create_colonial_algeria = {
 							state_region = s:STATE_SAHARA
 							state_region = s:STATE_ORAN
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					save_scope_as = bem_primary_state
 				}
@@ -364,6 +350,7 @@ bem_create_colonial_algeria = {
 							state_region = s:STATE_SAHARA
 							state_region = s:STATE_ORAN
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = global_var:bem_colony_global_var
 				}
@@ -394,6 +381,7 @@ bem_create_colonial_algeria = {
 							state_region = s:STATE_SAHARA
 							state_region = s:STATE_ORAN
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = scope:bem_colony_scope
 				}
@@ -429,18 +417,7 @@ bem_create_colonial_morocco = {
 				state_region = s:STATE_INNER_MOROCCO
 				state_region = s:STATE_AL_RIF
 			}
-		}
-		s:STATE_MARRAKECH = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_FEZ = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_INNER_MOROCCO = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_AL_RIF = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -476,6 +453,7 @@ bem_create_colonial_morocco = {
 							state_region = s:STATE_INNER_MOROCCO
 							state_region = s:STATE_AL_RIF
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					save_scope_as = bem_primary_state
 				}
@@ -510,6 +488,7 @@ bem_create_colonial_morocco = {
 							state_region = s:STATE_INNER_MOROCCO
 							state_region = s:STATE_AL_RIF
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = global_var:bem_colony_global_var
 				}
@@ -538,6 +517,7 @@ bem_create_colonial_morocco = {
 							state_region = s:STATE_INNER_MOROCCO
 							state_region = s:STATE_AL_RIF
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = scope:bem_colony_scope
 				}
@@ -568,9 +548,7 @@ bem_create_colonial_west_sahara = {
 		is_ai = yes
 		any_scope_state = {
 			state_region = s:STATE_WEST_SAHARA
-		}
-		s:STATE_WEST_SAHARA = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -671,12 +649,7 @@ bem_create_colonial_mauritania = {
 				state_region = s:STATE_MAURITANIA
 				state_region = s:STATE_INNER_MAURITANIA
 			}
-		}
-		s:STATE_MAURITANIA = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_INNER_MAURITANIA = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -710,6 +683,7 @@ bem_create_colonial_mauritania = {
 							state_region = s:STATE_MAURITANIA
 							state_region = s:STATE_INNER_MAURITANIA
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					save_scope_as = bem_primary_state
 				}
@@ -742,6 +716,7 @@ bem_create_colonial_mauritania = {
 							state_region = s:STATE_MAURITANIA
 							state_region = s:STATE_INNER_MAURITANIA
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = global_var:bem_colony_global_var
 				}
@@ -766,6 +741,7 @@ bem_create_colonial_mauritania = {
 							state_region = s:STATE_MAURITANIA
 							state_region = s:STATE_INNER_MAURITANIA
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = scope:bem_colony_scope
 				}
@@ -789,12 +765,7 @@ bem_create_colonial_senegal = {
 				state_region = s:STATE_SENEGAL
 				state_region = s:STATE_GAMBIA
 			}
-		}
-		s:STATE_SENEGAL = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_GAMBIA = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -828,6 +799,7 @@ bem_create_colonial_senegal = {
 							state_region = s:STATE_SENEGAL
 							state_region = s:STATE_GAMBIA
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					save_scope_as = bem_primary_state
 				}
@@ -860,6 +832,7 @@ bem_create_colonial_senegal = {
 							state_region = s:STATE_SENEGAL
 							state_region = s:STATE_GAMBIA
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = global_var:bem_colony_global_var
 				}
@@ -884,6 +857,7 @@ bem_create_colonial_senegal = {
 							state_region = s:STATE_SENEGAL
 							state_region = s:STATE_GAMBIA
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = scope:bem_colony_scope
 				}
@@ -907,12 +881,7 @@ bem_create_colonial_guinea = {
 				state_region = s:STATE_GUINEA
 				state_region = s:STATE_SIERRA_LEONE
 			}
-		}
-		s:STATE_GUINEA = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_SIERRA_LEONE = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -946,6 +915,7 @@ bem_create_colonial_guinea = {
 							state_region = s:STATE_GUINEA
 							state_region = s:STATE_SIERRA_LEONE
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					save_scope_as = bem_primary_state
 				}
@@ -978,6 +948,7 @@ bem_create_colonial_guinea = {
 							state_region = s:STATE_GUINEA
 							state_region = s:STATE_SIERRA_LEONE
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = global_var:bem_colony_global_var
 				}
@@ -1002,6 +973,7 @@ bem_create_colonial_guinea = {
 							state_region = s:STATE_GUINEA
 							state_region = s:STATE_SIERRA_LEONE
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = scope:bem_colony_scope
 				}
@@ -1026,15 +998,7 @@ bem_create_colonial_mali = {
 				state_region = s:STATE_EASTERN_MALI
 				state_region = s:STATE_TIMBUKTU
 			}
-		}
-		s:STATE_WESTERN_MALI = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_EASTERN_MALI = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_TIMBUKTU = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -1069,6 +1033,7 @@ bem_create_colonial_mali = {
 							state_region = s:STATE_EASTERN_MALI
 							state_region = s:STATE_TIMBUKTU
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					save_scope_as = bem_primary_state
 				}
@@ -1102,6 +1067,7 @@ bem_create_colonial_mali = {
 							state_region = s:STATE_EASTERN_MALI
 							state_region = s:STATE_TIMBUKTU
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = global_var:bem_colony_global_var
 				}
@@ -1128,6 +1094,7 @@ bem_create_colonial_mali = {
 							state_region = s:STATE_EASTERN_MALI
 							state_region = s:STATE_TIMBUKTU
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = scope:bem_colony_scope
 				}
@@ -1148,9 +1115,7 @@ bem_create_colonial_pepper_coast = {
 		is_ai = yes
 		any_scope_state = {
 			state_region = s:STATE_LIBERIA
-		}
-		s:STATE_LIBERIA = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -1251,12 +1216,7 @@ bem_create_colonial_ivory_coast = {
 				state_region = s:STATE_IVORY_COAST
 				state_region = s:STATE_WINDWARD_COAST
 			}
-		}
-		s:STATE_IVORY_COAST = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_WINDWARD_COAST = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -1290,6 +1250,7 @@ bem_create_colonial_ivory_coast = {
 							state_region = s:STATE_IVORY_COAST
 							state_region = s:STATE_WINDWARD_COAST
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					save_scope_as = bem_primary_state
 				}
@@ -1322,6 +1283,7 @@ bem_create_colonial_ivory_coast = {
 							state_region = s:STATE_IVORY_COAST
 							state_region = s:STATE_WINDWARD_COAST
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = global_var:bem_colony_global_var
 				}
@@ -1346,6 +1308,7 @@ bem_create_colonial_ivory_coast = {
 							state_region = s:STATE_IVORY_COAST
 							state_region = s:STATE_WINDWARD_COAST
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = scope:bem_colony_scope
 				}
@@ -1366,9 +1329,7 @@ bem_create_colonial_volta = {
 		is_ai = yes
 		any_scope_state = {
 			state_region = s:STATE_VOLTA
-		}
-		s:STATE_VOLTA = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -1466,9 +1427,7 @@ bem_create_colonial_gold_coast = {
 		is_ai = yes
 		any_scope_state = {
 			state_region = s:STATE_GHANA
-		}
-		s:STATE_GHANA = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -1566,9 +1525,7 @@ bem_create_colonial_togo = {
 		is_ai = yes
 		any_scope_state = {
 			state_region = s:STATE_TOGO
-		}
-		s:STATE_TOGO = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -1666,9 +1623,7 @@ bem_create_colonial_dahomey = {
 		is_ai = yes
 		any_scope_state = {
 			state_region = s:STATE_DAHOMEY
-		}
-		s:STATE_DAHOMEY = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -1774,27 +1729,7 @@ bem_create_colonial_nigeria = {
 				state_region = s:STATE_HAUSALAND
 				state_region = s:STATE_EAST_HAUSALAND
 			}
-		}
-		s:STATE_YORUBA_STATES = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_NIGER_DELTA = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_BENIN = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_NIGERIA = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_BORNU = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_HAUSALAND = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_EAST_HAUSALAND = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -1833,6 +1768,7 @@ bem_create_colonial_nigeria = {
 							state_region = s:STATE_HAUSALAND
 							state_region = s:STATE_EAST_HAUSALAND
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					save_scope_as = bem_primary_state
 				}
@@ -1870,6 +1806,7 @@ bem_create_colonial_nigeria = {
 							state_region = s:STATE_HAUSALAND
 							state_region = s:STATE_EAST_HAUSALAND
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = global_var:bem_colony_global_var
 				}
@@ -1904,6 +1841,7 @@ bem_create_colonial_nigeria = {
 							state_region = s:STATE_HAUSALAND
 							state_region = s:STATE_EAST_HAUSALAND
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = scope:bem_colony_scope
 				}
@@ -1927,12 +1865,7 @@ bem_create_colonial_niger = {
 				state_region = s:STATE_OUTER_HAUSALAND
 				state_region = s:STATE_NIGER
 			}
-		}
-		s:STATE_OUTER_HAUSALAND = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_NIGER = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -1966,6 +1899,7 @@ bem_create_colonial_niger = {
 							state_region = s:STATE_OUTER_HAUSALAND
 							state_region = s:STATE_NIGER
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					save_scope_as = bem_primary_state
 				}
@@ -1998,6 +1932,7 @@ bem_create_colonial_niger = {
 							state_region = s:STATE_OUTER_HAUSALAND
 							state_region = s:STATE_NIGER
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = global_var:bem_colony_global_var
 				}
@@ -2022,6 +1957,7 @@ bem_create_colonial_niger = {
 							state_region = s:STATE_OUTER_HAUSALAND
 							state_region = s:STATE_NIGER
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = scope:bem_colony_scope
 				}
@@ -2045,12 +1981,7 @@ bem_create_colonial_chad = {
 				state_region = s:STATE_WADDAI
 				state_region = s:STATE_CHAD
 			}
-		}
-		s:STATE_WADDAI = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_CHAD = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -2084,6 +2015,7 @@ bem_create_colonial_chad = {
 							state_region = s:STATE_WADDAI
 							state_region = s:STATE_CHAD
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					save_scope_as = bem_primary_state
 				}
@@ -2116,6 +2048,7 @@ bem_create_colonial_chad = {
 							state_region = s:STATE_WADDAI
 							state_region = s:STATE_CHAD
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = global_var:bem_colony_global_var
 				}
@@ -2140,6 +2073,7 @@ bem_create_colonial_chad = {
 							state_region = s:STATE_WADDAI
 							state_region = s:STATE_CHAD
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = scope:bem_colony_scope
 				}
@@ -2163,12 +2097,7 @@ bem_create_colonial_cameroon = {
 				state_region = s:STATE_NORTH_CAMEROON
 				state_region = s:STATE_SOUTH_CAMEROON
 			}
-		}
-		s:STATE_NORTH_CAMEROON = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_SOUTH_CAMEROON = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -2202,6 +2131,7 @@ bem_create_colonial_cameroon = {
 							state_region = s:STATE_NORTH_CAMEROON
 							state_region = s:STATE_SOUTH_CAMEROON
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					save_scope_as = bem_primary_state
 				}
@@ -2234,6 +2164,7 @@ bem_create_colonial_cameroon = {
 							state_region = s:STATE_NORTH_CAMEROON
 							state_region = s:STATE_SOUTH_CAMEROON
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = global_var:bem_colony_global_var
 				}
@@ -2258,6 +2189,7 @@ bem_create_colonial_cameroon = {
 							state_region = s:STATE_NORTH_CAMEROON
 							state_region = s:STATE_SOUTH_CAMEROON
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = scope:bem_colony_scope
 				}
@@ -2295,24 +2227,7 @@ bem_create_colonial_egypt = {
 				state_region = s:STATE_EGYPTIAN_DESERT
 				state_region = s:STATE_MATRUH
 			}
-		}
-		s:STATE_LOWER_EGYPT = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_MIDDLE_EGYPT = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_UPPER_EGYPT = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_SINAI = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_EGYPTIAN_DESERT = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_MATRUH = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -2350,6 +2265,7 @@ bem_create_colonial_egypt = {
 							state_region = s:STATE_EGYPTIAN_DESERT
 							state_region = s:STATE_MATRUH
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					save_scope_as = bem_primary_state
 				}
@@ -2386,6 +2302,7 @@ bem_create_colonial_egypt = {
 							state_region = s:STATE_EGYPTIAN_DESERT
 							state_region = s:STATE_MATRUH
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = global_var:bem_colony_global_var
 				}
@@ -2418,6 +2335,7 @@ bem_create_colonial_egypt = {
 							state_region = s:STATE_EGYPTIAN_DESERT
 							state_region = s:STATE_MATRUH
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = scope:bem_colony_scope
 				}
@@ -2453,18 +2371,7 @@ bem_create_colonial_sudan = {
 				state_region = s:STATE_DARFUR
 				state_region = s:STATE_KORDOFAN
 			}
-		}
-		s:STATE_BLUE_NILE = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_DONGOLA = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_DARFUR = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_KORDOFAN = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -2500,6 +2407,7 @@ bem_create_colonial_sudan = {
 							state_region = s:STATE_DARFUR
 							state_region = s:STATE_KORDOFAN
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					save_scope_as = bem_primary_state
 				}
@@ -2534,6 +2442,7 @@ bem_create_colonial_sudan = {
 							state_region = s:STATE_DARFUR
 							state_region = s:STATE_KORDOFAN
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = global_var:bem_colony_global_var
 				}
@@ -2562,6 +2471,7 @@ bem_create_colonial_sudan = {
 							state_region = s:STATE_DARFUR
 							state_region = s:STATE_KORDOFAN
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = scope:bem_colony_scope
 				}
@@ -2592,9 +2502,7 @@ bem_create_colonial_south_sudan = {
 		is_ai = yes
 		any_scope_state = {
 			state_region = s:STATE_EQUATORIA
-		}
-		s:STATE_EQUATORIA = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -2696,15 +2604,7 @@ bem_create_colonial_ethiopia = {
 				state_region = s:STATE_AMHARA
 				state_region = s:STATE_OROMIA
 			}
-		}
-		s:STATE_GONDER = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_AMHARA = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_OROMIA = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -2739,6 +2639,7 @@ bem_create_colonial_ethiopia = {
 							state_region = s:STATE_AMHARA
 							state_region = s:STATE_OROMIA
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					save_scope_as = bem_primary_state
 				}
@@ -2772,6 +2673,7 @@ bem_create_colonial_ethiopia = {
 							state_region = s:STATE_AMHARA
 							state_region = s:STATE_OROMIA
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = global_var:bem_colony_global_var
 				}
@@ -2798,6 +2700,7 @@ bem_create_colonial_ethiopia = {
 							state_region = s:STATE_AMHARA
 							state_region = s:STATE_OROMIA
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = scope:bem_colony_scope
 				}
@@ -2818,9 +2721,7 @@ bem_create_colonial_eritrea = {
 		is_ai = yes
 		any_scope_state = {
 			state_region = s:STATE_ERITREA
-		}
-		s:STATE_ERITREA = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -2918,9 +2819,7 @@ bem_create_colonial_somaliland = {
 		is_ai = yes
 		any_scope_state = {
 			state_region = s:STATE_SOMALILAND
-		}
-		s:STATE_SOMALILAND = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -3018,9 +2917,7 @@ bem_create_colonial_uganda = {
 		is_ai = yes
 		any_scope_state = {
 			state_region = s:STATE_UGANDA
-		}
-		s:STATE_UGANDA = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -3122,12 +3019,7 @@ bem_create_colonial_kenya = {
 				state_region = s:STATE_KENYA
 				state_region = s:STATE_RIFT_VALLEY
 			}
-		}
-		s:STATE_KENYA = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_RIFT_VALLEY = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -3161,6 +3053,7 @@ bem_create_colonial_kenya = {
 							state_region = s:STATE_KENYA
 							state_region = s:STATE_RIFT_VALLEY
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					save_scope_as = bem_primary_state
 				}
@@ -3193,6 +3086,7 @@ bem_create_colonial_kenya = {
 							state_region = s:STATE_KENYA
 							state_region = s:STATE_RIFT_VALLEY
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = global_var:bem_colony_global_var
 				}
@@ -3217,6 +3111,7 @@ bem_create_colonial_kenya = {
 							state_region = s:STATE_KENYA
 							state_region = s:STATE_RIFT_VALLEY
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = scope:bem_colony_scope
 				}
@@ -3247,15 +3142,7 @@ bem_create_colonial_tanganyika = {
 				state_region = s:STATE_LINDI
 				state_region = s:STATE_TANGANYIKA
 			}
-		}
-		s:STATE_ZANZIBAR = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_LINDI = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_TANGANYIKA = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -3290,6 +3177,7 @@ bem_create_colonial_tanganyika = {
 							state_region = s:STATE_LINDI
 							state_region = s:STATE_TANGANYIKA
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					save_scope_as = bem_primary_state
 				}
@@ -3323,6 +3211,7 @@ bem_create_colonial_tanganyika = {
 							state_region = s:STATE_LINDI
 							state_region = s:STATE_TANGANYIKA
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = global_var:bem_colony_global_var
 				}
@@ -3349,6 +3238,7 @@ bem_create_colonial_tanganyika = {
 							state_region = s:STATE_LINDI
 							state_region = s:STATE_TANGANYIKA
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = scope:bem_colony_scope
 				}
@@ -3373,15 +3263,7 @@ bem_create_colonial_mocambique = {
 				state_region = s:STATE_ZAMBEZIA
 				state_region = s:STATE_LOURENCO_MARQUES
 			}
-		}
-		s:STATE_MOCAMBIQUE = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_ZAMBEZIA = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_LOURENCO_MARQUES = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -3416,6 +3298,7 @@ bem_create_colonial_mocambique = {
 							state_region = s:STATE_ZAMBEZIA
 							state_region = s:STATE_LOURENCO_MARQUES
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					save_scope_as = bem_primary_state
 				}
@@ -3449,6 +3332,7 @@ bem_create_colonial_mocambique = {
 							state_region = s:STATE_ZAMBEZIA
 							state_region = s:STATE_LOURENCO_MARQUES
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = global_var:bem_colony_global_var
 				}
@@ -3475,6 +3359,7 @@ bem_create_colonial_mocambique = {
 							state_region = s:STATE_ZAMBEZIA
 							state_region = s:STATE_LOURENCO_MARQUES
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = scope:bem_colony_scope
 				}
@@ -3498,12 +3383,7 @@ bem_create_colonial_madagascar = {
 				state_region = s:STATE_NORTH_MADAGASCAR
 				state_region = s:STATE_SOUTH_MADAGASCAR
 			}
-		}
-		s:STATE_NORTH_MADAGASCAR = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_SOUTH_MADAGASCAR = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -3537,6 +3417,7 @@ bem_create_colonial_madagascar = {
 							state_region = s:STATE_NORTH_MADAGASCAR
 							state_region = s:STATE_SOUTH_MADAGASCAR
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					save_scope_as = bem_primary_state
 				}
@@ -3569,6 +3450,7 @@ bem_create_colonial_madagascar = {
 							state_region = s:STATE_NORTH_MADAGASCAR
 							state_region = s:STATE_SOUTH_MADAGASCAR
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = global_var:bem_colony_global_var
 				}
@@ -3593,6 +3475,7 @@ bem_create_colonial_madagascar = {
 							state_region = s:STATE_NORTH_MADAGASCAR
 							state_region = s:STATE_SOUTH_MADAGASCAR
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = scope:bem_colony_scope
 				}
@@ -3613,9 +3496,7 @@ bem_create_colonial_gabon = {
 		is_ai = yes
 		any_scope_state = {
 			state_region = s:STATE_GABON
-		}
-		s:STATE_GABON = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -3713,9 +3594,7 @@ bem_create_colonial_middle_congo = {
 		is_ai = yes
 		any_scope_state = {
 			state_region = s:STATE_CONGO
-		}
-		s:STATE_CONGO = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -3813,9 +3692,7 @@ bem_create_colonial_central_africa = {
 		is_ai = yes
 		any_scope_state = {
 			state_region = s:STATE_UBANGI_SHARI
-		}
-		s:STATE_UBANGI_SHARI = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -3919,21 +3796,7 @@ bem_create_colonial_congo = {
 				state_region = s:STATE_EQUATEUR
 				state_region = s:STATE_CONGO_ORIENTALE
 			}
-		}
-		s:STATE_BAS_CONGO = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_KASAI = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_KATANGA = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_EQUATEUR = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_CONGO_ORIENTALE = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -3970,6 +3833,7 @@ bem_create_colonial_congo = {
 							state_region = s:STATE_EQUATEUR
 							state_region = s:STATE_CONGO_ORIENTALE
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					save_scope_as = bem_primary_state
 				}
@@ -4005,6 +3869,7 @@ bem_create_colonial_congo = {
 							state_region = s:STATE_EQUATEUR
 							state_region = s:STATE_CONGO_ORIENTALE
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = global_var:bem_colony_global_var
 				}
@@ -4035,6 +3900,7 @@ bem_create_colonial_congo = {
 							state_region = s:STATE_EQUATEUR
 							state_region = s:STATE_CONGO_ORIENTALE
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = scope:bem_colony_scope
 				}
@@ -4059,15 +3925,7 @@ bem_create_colonial_angola = {
 				state_region = s:STATE_SOUTH_ANGOLA
 				state_region = s:STATE_EAST_ANGOLA
 			}
-		}
-		s:STATE_NORTH_ANGOLA = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_SOUTH_ANGOLA = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_EAST_ANGOLA = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -4102,6 +3960,7 @@ bem_create_colonial_angola = {
 							state_region = s:STATE_SOUTH_ANGOLA
 							state_region = s:STATE_EAST_ANGOLA
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					save_scope_as = bem_primary_state
 				}
@@ -4135,6 +3994,7 @@ bem_create_colonial_angola = {
 							state_region = s:STATE_SOUTH_ANGOLA
 							state_region = s:STATE_EAST_ANGOLA
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = global_var:bem_colony_global_var
 				}
@@ -4161,6 +4021,7 @@ bem_create_colonial_angola = {
 							state_region = s:STATE_SOUTH_ANGOLA
 							state_region = s:STATE_EAST_ANGOLA
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = scope:bem_colony_scope
 				}
@@ -4184,12 +4045,7 @@ bem_create_colonial_northern_rhodesia = {
 				state_region = s:STATE_ZAMBIA
 				state_region = s:STATE_KAZEMBE
 			}
-		}
-		s:STATE_ZAMBIA = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_KAZEMBE = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -4223,6 +4079,7 @@ bem_create_colonial_northern_rhodesia = {
 							state_region = s:STATE_ZAMBIA
 							state_region = s:STATE_KAZEMBE
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					save_scope_as = bem_primary_state
 				}
@@ -4255,6 +4112,7 @@ bem_create_colonial_northern_rhodesia = {
 							state_region = s:STATE_ZAMBIA
 							state_region = s:STATE_KAZEMBE
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = global_var:bem_colony_global_var
 				}
@@ -4279,6 +4137,7 @@ bem_create_colonial_northern_rhodesia = {
 							state_region = s:STATE_ZAMBIA
 							state_region = s:STATE_KAZEMBE
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = scope:bem_colony_scope
 				}
@@ -4302,12 +4161,7 @@ bem_create_colonial_swa = {
 				state_region = s:STATE_NAMAQUALAND
 				state_region = s:STATE_HEREROLAND
 			}
-		}
-		s:STATE_NAMAQUALAND = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_HEREROLAND = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -4341,6 +4195,7 @@ bem_create_colonial_swa = {
 							state_region = s:STATE_NAMAQUALAND
 							state_region = s:STATE_HEREROLAND
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					save_scope_as = bem_primary_state
 				}
@@ -4373,6 +4228,7 @@ bem_create_colonial_swa = {
 							state_region = s:STATE_NAMAQUALAND
 							state_region = s:STATE_HEREROLAND
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = global_var:bem_colony_global_var
 				}
@@ -4397,6 +4253,7 @@ bem_create_colonial_swa = {
 							state_region = s:STATE_NAMAQUALAND
 							state_region = s:STATE_HEREROLAND
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = scope:bem_colony_scope
 				}
@@ -4417,9 +4274,7 @@ bem_create_colonial_bechuanaland = {
 		is_ai = yes
 		any_scope_state = {
 			state_region = s:STATE_BOTSWANA
-		}
-		s:STATE_BOTSWANA = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -4517,9 +4372,7 @@ bem_create_colonial_southern_rhodesia = {
 		is_ai = yes
 		any_scope_state = {
 			state_region = s:STATE_ZAMBEZI
-		}
-		s:STATE_ZAMBEZI = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -4621,15 +4474,7 @@ bem_create_colonial_transvaal = {
 				state_region = s:STATE_VRYSTAAT
 				state_region = s:STATE_ZULULAND
 			}
-		}
-		s:STATE_TRANSVAAL = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_VRYSTAAT = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_ZULULAND = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -4664,6 +4509,7 @@ bem_create_colonial_transvaal = {
 							state_region = s:STATE_VRYSTAAT
 							state_region = s:STATE_ZULULAND
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					save_scope_as = bem_primary_state
 				}
@@ -4697,6 +4543,7 @@ bem_create_colonial_transvaal = {
 							state_region = s:STATE_VRYSTAAT
 							state_region = s:STATE_ZULULAND
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = global_var:bem_colony_global_var
 				}
@@ -4723,6 +4570,7 @@ bem_create_colonial_transvaal = {
 							state_region = s:STATE_VRYSTAAT
 							state_region = s:STATE_ZULULAND
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = scope:bem_colony_scope
 				}
@@ -4747,15 +4595,7 @@ bem_create_colonial_cape = {
 				state_region = s:STATE_EASTERN_CAPE
 				state_region = s:STATE_NORTHERN_CAPE
 			}
-		}
-		s:STATE_CAPE_COLONY = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_EASTERN_CAPE = {
-			bem_is_able_to_further_colonize = yes
-		}
-		s:STATE_NORTHERN_CAPE = {
-			bem_is_able_to_further_colonize = yes
+			bem_any_neighbouring_state_decentralized = yes
 		}
 	}
 
@@ -4790,6 +4630,7 @@ bem_create_colonial_cape = {
 							state_region = s:STATE_EASTERN_CAPE
 							state_region = s:STATE_NORTHERN_CAPE
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					save_scope_as = bem_primary_state
 				}
@@ -4823,6 +4664,7 @@ bem_create_colonial_cape = {
 							state_region = s:STATE_EASTERN_CAPE
 							state_region = s:STATE_NORTHERN_CAPE
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = global_var:bem_colony_global_var
 				}
@@ -4849,6 +4691,7 @@ bem_create_colonial_cape = {
 							state_region = s:STATE_EASTERN_CAPE
 							state_region = s:STATE_NORTHERN_CAPE
 						}
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = scope:bem_colony_scope
 				}
