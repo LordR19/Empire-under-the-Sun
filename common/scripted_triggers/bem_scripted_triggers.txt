@@ -953,3 +953,33 @@ bem_country_is_in_oceania = {
 		bem_state_is_in_oceania = yes
 	}
 }
+
+#This trigger is use to determine if the owner can still colonize after releasing the colony.
+bem_is_able_to_further_colonize = {
+	any_scope_state = {
+		count = all
+		NOR = {
+			owner = { is_country_type = decentralized }
+			any_neighbouring_state = { owner = { is_country_type = decentralized } }
+		}
+	}
+}
+
+backup = {
+	any_scope_state = {
+		count = all
+		NOT = {
+			owner = { is_country_type = decentralized }
+		}
+		any_neighbouring_state = {
+			OR = {
+				owner = {
+					NOT = {
+						is_country_type = decentralized
+					}
+				}
+				owner = root
+			}
+		}
+	}
+}

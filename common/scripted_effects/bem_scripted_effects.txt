@@ -47,14 +47,23 @@ bem_colony_set_up_effect = {
 		limit = {
 			NOT = { has_law = law_type:law_presidential_republic }
 		}
+		activate_law = law_type:law_presidential_republic
 	}
-	activate_law = law_type:law_presidential_republic
+	
 
 	#Disallows Colonization by subject
 	if = {
 		limit = {
 			NOT = { has_law = law_type:law_no_colonial_affairs }
 		}
+		activate_law = law_type:law_no_colonial_affairs
 	}
-	activate_law = law_type:law_no_colonial_affairs
+	
+	#This is needed to prevent the investment pool from building factories in the colonies
+	if = {
+		limit = {
+			NOT = { has_law = law_type:law_agrarianism }
+		}
+		activate_law = law_type:law_agrarianism
+	}
 }

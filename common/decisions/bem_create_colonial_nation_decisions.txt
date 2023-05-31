@@ -24,29 +24,13 @@
 		#checks if there are any decentralized countries in Libya or in a neighbouring state
 		#This is needed as you can't colonize provinces that are only accessible through your subjects
 		s:STATE_TRIPOLI = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_LIBYA = {
-			any_scope_state = {
-				NOT = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_LIBYAN_DESERT = {
-			any_scope_state = {
-				NOT = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -180,13 +164,7 @@ bem_create_colonial_tunisia = {
 			state_region = s:STATE_TUNISIA
 		}
 		s:STATE_TUNISIA = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -302,49 +280,19 @@ bem_create_colonial_algeria = {
 			}
 		}
 		s:STATE_ALGIERS = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_CONSTANTINE = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_EAST_SAHARA = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_SAHARA = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_ORAN = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -483,40 +431,16 @@ bem_create_colonial_morocco = {
 			}
 		}
 		s:STATE_MARRAKECH = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_FEZ = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_INNER_MOROCCO = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_AL_RIF = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -646,13 +570,7 @@ bem_create_colonial_west_sahara = {
 			state_region = s:STATE_WEST_SAHARA
 		}
 		s:STATE_WEST_SAHARA = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -755,22 +673,10 @@ bem_create_colonial_mauritania = {
 			}
 		}
 		s:STATE_MAURITANIA = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_INNER_MAURITANIA = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -885,22 +791,10 @@ bem_create_colonial_senegal = {
 			}
 		}
 		s:STATE_SENEGAL = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_GAMBIA = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -1015,22 +909,10 @@ bem_create_colonial_guinea = {
 			}
 		}
 		s:STATE_GUINEA = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_SIERRA_LEONE = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -1146,31 +1028,13 @@ bem_create_colonial_mali = {
 			}
 		}
 		s:STATE_WESTERN_MALI = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_EASTERN_MALI = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_TIMBUKTU = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -1286,13 +1150,7 @@ bem_create_colonial_pepper_coast = {
 			state_region = s:STATE_LIBERIA
 		}
 		s:STATE_LIBERIA = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -1395,22 +1253,10 @@ bem_create_colonial_ivory_coast = {
 			}
 		}
 		s:STATE_IVORY_COAST = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_WINDWARD_COAST = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -1522,13 +1368,7 @@ bem_create_colonial_volta = {
 			state_region = s:STATE_VOLTA
 		}
 		s:STATE_VOLTA = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -1628,13 +1468,7 @@ bem_create_colonial_gold_coast = {
 			state_region = s:STATE_GHANA
 		}
 		s:STATE_GHANA = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -1734,13 +1568,7 @@ bem_create_colonial_togo = {
 			state_region = s:STATE_TOGO
 		}
 		s:STATE_TOGO = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -1840,13 +1668,7 @@ bem_create_colonial_dahomey = {
 			state_region = s:STATE_DAHOMEY
 		}
 		s:STATE_DAHOMEY = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -1954,67 +1776,25 @@ bem_create_colonial_nigeria = {
 			}
 		}
 		s:STATE_YORUBA_STATES = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_NIGER_DELTA = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_BENIN = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_NIGERIA = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_BORNU = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_HAUSALAND = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_EAST_HAUSALAND = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -2149,22 +1929,10 @@ bem_create_colonial_niger = {
 			}
 		}
 		s:STATE_OUTER_HAUSALAND = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_NIGER = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -2279,22 +2047,10 @@ bem_create_colonial_chad = {
 			}
 		}
 		s:STATE_WADDAI = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_CHAD = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -2409,22 +2165,10 @@ bem_create_colonial_cameroon = {
 			}
 		}
 		s:STATE_NORTH_CAMEROON = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_SOUTH_CAMEROON = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -2553,58 +2297,22 @@ bem_create_colonial_egypt = {
 			}
 		}
 		s:STATE_LOWER_EGYPT = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_MIDDLE_EGYPT = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_UPPER_EGYPT = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_SINAI = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_EGYPTIAN_DESERT = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_MATRUH = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -2747,40 +2455,16 @@ bem_create_colonial_sudan = {
 			}
 		}
 		s:STATE_BLUE_NILE = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_DONGOLA = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_DARFUR = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_KORDOFAN = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -2910,13 +2594,7 @@ bem_create_colonial_south_sudan = {
 			state_region = s:STATE_EQUATORIA
 		}
 		s:STATE_EQUATORIA = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -3020,31 +2698,13 @@ bem_create_colonial_ethiopia = {
 			}
 		}
 		s:STATE_GONDER = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_AMHARA = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_OROMIA = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -3160,13 +2820,7 @@ bem_create_colonial_eritrea = {
 			state_region = s:STATE_ERITREA
 		}
 		s:STATE_ERITREA = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -3266,13 +2920,7 @@ bem_create_colonial_somaliland = {
 			state_region = s:STATE_SOMALILAND
 		}
 		s:STATE_SOMALILAND = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -3372,13 +3020,7 @@ bem_create_colonial_uganda = {
 			state_region = s:STATE_UGANDA
 		}
 		s:STATE_UGANDA = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -3482,22 +3124,10 @@ bem_create_colonial_kenya = {
 			}
 		}
 		s:STATE_KENYA = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_RIFT_VALLEY = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -3619,31 +3249,13 @@ bem_create_colonial_tanganyika = {
 			}
 		}
 		s:STATE_ZANZIBAR = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_LINDI = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_TANGANYIKA = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -3763,31 +3375,13 @@ bem_create_colonial_mocambique = {
 			}
 		}
 		s:STATE_MOCAMBIQUE = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_ZAMBEZIA = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_LOURENCO_MARQUES = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -3906,22 +3500,10 @@ bem_create_colonial_madagascar = {
 			}
 		}
 		s:STATE_NORTH_MADAGASCAR = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_SOUTH_MADAGASCAR = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -4033,13 +3615,7 @@ bem_create_colonial_gabon = {
 			state_region = s:STATE_GABON
 		}
 		s:STATE_GABON = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -4139,13 +3715,7 @@ bem_create_colonial_middle_congo = {
 			state_region = s:STATE_CONGO
 		}
 		s:STATE_CONGO = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -4245,13 +3815,7 @@ bem_create_colonial_central_africa = {
 			state_region = s:STATE_UBANGI_SHARI
 		}
 		s:STATE_UBANGI_SHARI = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -4357,49 +3921,19 @@ bem_create_colonial_congo = {
 			}
 		}
 		s:STATE_BAS_CONGO = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_KASAI = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_KATANGA = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_EQUATEUR = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_CONGO_ORIENTALE = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -4527,31 +4061,13 @@ bem_create_colonial_angola = {
 			}
 		}
 		s:STATE_NORTH_ANGOLA = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_SOUTH_ANGOLA = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_EAST_ANGOLA = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -4670,22 +4186,10 @@ bem_create_colonial_northern_rhodesia = {
 			}
 		}
 		s:STATE_ZAMBIA = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_KAZEMBE = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -4800,22 +4304,10 @@ bem_create_colonial_swa = {
 			}
 		}
 		s:STATE_NAMAQUALAND = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_HEREROLAND = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -4927,13 +4419,7 @@ bem_create_colonial_bechuanaland = {
 			state_region = s:STATE_BOTSWANA
 		}
 		s:STATE_BOTSWANA = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -5033,13 +4519,7 @@ bem_create_colonial_southern_rhodesia = {
 			state_region = s:STATE_ZAMBEZI
 		}
 		s:STATE_ZAMBEZI = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -5143,31 +4623,13 @@ bem_create_colonial_transvaal = {
 			}
 		}
 		s:STATE_TRANSVAAL = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_VRYSTAAT = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_ZULULAND = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
@@ -5287,31 +4749,13 @@ bem_create_colonial_cape = {
 			}
 		}
 		s:STATE_CAPE_COLONY = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_EASTERN_CAPE = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 		s:STATE_NORTHERN_CAPE = {
-			any_scope_state = {
-				count = all
-				NOR = {
-					owner = { is_country_type = decentralized }
-					any_neighbouring_state = { owner = { is_country_type = decentralized } }
-				}
-			}
+			bem_is_able_to_further_colonize = yes
 		}
 	}
 
