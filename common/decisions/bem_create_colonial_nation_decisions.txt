@@ -662,7 +662,7 @@ bem_create_colonial_mauritania = {
 			if = {
 				limit = { #Fires if there is no subject yet
 					OR = {
-						NOT = { exists = c:C6M_AI}
+						NOT = { exists = c:C6M_AI }
 						AND = {
 							exists = c:C6M_AI
 							NOT = { c:C6M_AI = { is_direct_subject_of = root } }

@@ -52,7 +52,7 @@ unite_colonies_maghreb_decision = {
 		has_variable = show_bem_colonial_decisions_var
 		any_subject_or_below = {
 			capital = { region = sr:region_north_africa }
-			bem_colonial_nation_north_africa_trigger = yes
+			is_subject_type = subject_type_bem_colony
 		}
 	}
 
@@ -61,7 +61,7 @@ unite_colonies_maghreb_decision = {
 			custom_tooltip = {
 				any_subject_or_below = {
 					capital = { region = sr:region_north_africa }
-					bem_colonial_nation_north_africa_trigger = yes
+					is_subject_type = subject_type_bem_colony
 					is_ai = yes
 					count >= 2
 				}
@@ -71,9 +71,9 @@ unite_colonies_maghreb_decision = {
 				custom_tooltip = {
 					any_subject_or_below = {
 						capital = { region = sr:region_north_africa }
-						bem_colonial_nation_north_africa_trigger = yes
+						is_subject_type = subject_type_bem_colony
 						is_ai = yes
-						relations:root >= relations_threshold:cordial
+						relations:root >= relations_threshold:neutral
 					}
 					text = colonial_nations_north_africa_tt
 				}
@@ -90,9 +90,8 @@ unite_colonies_maghreb_decision = {
 				ordered_subject_or_below  = {
 					limit = {
 						capital = { region = sr:region_north_africa }
-						bem_colonial_nation_north_africa_trigger = yes
-						is_ai = yes
-						relations:root >= relations_threshold:cordial
+						is_subject_type = subject_type_bem_colony
+						relations:root >= relations_threshold:neutral
 					}
 					order_by = gdp
 		
@@ -117,9 +116,9 @@ unite_colonies_maghreb_decision = {
 					limit = {
 						NOT = { this = scope:unifier_tag }
 						capital = { region = sr:region_north_africa }
-						bem_colonial_nation_north_africa_trigger = yes
+						is_subject_type = subject_type_bem_colony
 						is_ai = yes
-						relations:root >= relations_threshold:cordial
+						relations:root >= relations_threshold:neutral
 					}
 					scope:unifier_tag = {
 						annex = prev
@@ -137,8 +136,8 @@ unite_colonies_maghreb_decision = {
 			}
 
 			text = unite_maghreb_tt
-			custom_tooltip = warning_colony_unification_tt
 		}
+		custom_tooltip = warning_colony_unification_tt
 	}
 
 	ai_chance = {
@@ -146,6 +145,17 @@ unite_colonies_maghreb_decision = {
 		modifier = {
 			trigger = {
 				NOT = { has_technology_researched = civilizing_mission }
+			}
+			add = -200
+		}
+		modifier = {
+			trigger = {
+				any_subject_or_below = {
+					capital = { region = sr:region_senegal }
+					is_subject_type = subject_type_bem_colony
+					is_ai = yes
+					count < 2
+				}
 			}
 			add = -200
 		}
@@ -164,7 +174,7 @@ unite_colonies_west_africa_decision = {
 		has_variable = show_bem_colonial_decisions_var
 		any_subject_or_below = {
 			capital = { region = sr:region_senegal }
-			bem_colonial_nation_west_africa_trigger = yes
+			is_subject_type = subject_type_bem_colony
 		}
 	}
 
@@ -173,7 +183,7 @@ unite_colonies_west_africa_decision = {
 			custom_tooltip = {
 				any_subject_or_below = {
 					capital = { region = sr:region_senegal }
-					bem_colonial_nation_west_africa_trigger = yes
+					is_subject_type = subject_type_bem_colony
 					is_ai = yes
 					count >= 2
 				}
@@ -183,9 +193,9 @@ unite_colonies_west_africa_decision = {
 				custom_tooltip = {
 					any_subject_or_below = {
 						capital = { region = sr:region_senegal }
-						bem_colonial_nation_west_africa_trigger = yes
+						is_subject_type = subject_type_bem_colony
 						is_ai = yes
-						relations:root >= relations_threshold:cordial
+						relations:root >= relations_threshold:neutral
 					}
 					text = colonial_nations_west_africa_tt
 				}
@@ -202,9 +212,8 @@ unite_colonies_west_africa_decision = {
 				ordered_subject_or_below  = {
 					limit = {
 						capital = { region = sr:region_senegal }
-						bem_colonial_nation_west_africa_trigger = yes
-						is_ai = yes
-						relations:root >= relations_threshold:cordial
+						is_subject_type = subject_type_bem_colony
+						relations:root >= relations_threshold:neutral
 					}
 					order_by = gdp
 		
@@ -229,9 +238,9 @@ unite_colonies_west_africa_decision = {
 					limit = {
 						NOT = { this = scope:unifier_tag }
 						capital = { region = sr:region_senegal }
-						bem_colonial_nation_west_africa_trigger = yes
+						is_subject_type = subject_type_bem_colony
 						is_ai = yes
-						relations:root >= relations_threshold:cordial
+						relations:root >= relations_threshold:neutral
 					}
 					scope:unifier_tag = {
 						annex = prev
@@ -249,8 +258,8 @@ unite_colonies_west_africa_decision = {
 			}
 
 			text = unite_west_africa_tt
-			custom_tooltip = warning_colony_unification_tt
 		}
+		custom_tooltip = warning_colony_unification_tt
 	}
 
 	ai_chance = {
@@ -258,6 +267,17 @@ unite_colonies_west_africa_decision = {
 		modifier = {
 			trigger = {
 				NOT = { has_technology_researched = civilizing_mission }
+			}
+			add = -200
+		}
+		modifier = {
+			trigger = {
+				any_subject_or_below = {
+					capital = { region = sr:region_senegal }
+					is_subject_type = subject_type_bem_colony
+					is_ai = yes
+					count < 2
+				}
 			}
 			add = -200
 		}
@@ -276,7 +296,7 @@ unite_colonies_greater_nigeria_decision = {
 		has_variable = show_bem_colonial_decisions_var
 		any_subject_or_below = {
 			capital = { region = sr:region_niger }
-			bem_colonial_nation_greater_nigeria_trigger = yes
+			is_subject_type = subject_type_bem_colony
 		}
 	}
 
@@ -285,7 +305,7 @@ unite_colonies_greater_nigeria_decision = {
 			custom_tooltip = {
 				any_subject_or_below = {
 					capital = { region = sr:region_niger }
-					bem_colonial_nation_greater_nigeria_trigger = yes
+					is_subject_type = subject_type_bem_colony
 					is_ai = yes
 					count >= 2
 				}
@@ -295,9 +315,9 @@ unite_colonies_greater_nigeria_decision = {
 				custom_tooltip = {
 					any_subject_or_below = {
 						capital = { region = sr:region_niger }
-						bem_colonial_nation_greater_nigeria_trigger = yes
+						is_subject_type = subject_type_bem_colony
 						is_ai = yes
-						relations:root >= relations_threshold:cordial
+						relations:root >= relations_threshold:neutral
 					}
 					text = colonial_nations_niger_tt
 				}
@@ -314,9 +334,8 @@ unite_colonies_greater_nigeria_decision = {
 				ordered_subject_or_below = {
 					limit = {
 						capital = { region = sr:region_niger }
-						bem_colonial_nation_greater_nigeria_trigger = yes
-						is_ai = yes
-						relations:root >= relations_threshold:cordial
+						is_subject_type = subject_type_bem_colony
+						relations:root >= relations_threshold:neutral
 					}
 					order_by = gdp
 		
@@ -341,9 +360,9 @@ unite_colonies_greater_nigeria_decision = {
 					limit = {
 						NOT = { this = scope:unifier_tag }
 						capital = { region = sr:region_niger }
-						bem_colonial_nation_greater_nigeria_trigger = yes
+						is_subject_type = subject_type_bem_colony
 						is_ai = yes
-						relations:root >= relations_threshold:cordial
+						relations:root >= relations_threshold:neutral
 					}
 					scope:unifier_tag = {
 						annex = prev
@@ -361,8 +380,8 @@ unite_colonies_greater_nigeria_decision = {
 			}
 
 			text = unite_greater_nigeria_tt
-			custom_tooltip = warning_colony_unification_tt
 		}
+		custom_tooltip = warning_colony_unification_tt
 	}
 
 	ai_chance = {
@@ -370,6 +389,17 @@ unite_colonies_greater_nigeria_decision = {
 		modifier = {
 			trigger = {
 				NOT = { has_technology_researched = civilizing_mission }
+			}
+			add = -200
+		}
+		modifier = {
+			trigger = {
+				any_subject_or_below = {
+					capital = { region = sr:region_senegal }
+					is_subject_type = subject_type_bem_colony
+					is_ai = yes
+					count < 2
+				}
 			}
 			add = -200
 		}
@@ -388,7 +418,7 @@ unite_colonies_greater_egypt_decision = {
 		has_variable = show_bem_colonial_decisions_var
 		any_subject_or_below = {
 			capital = { region = sr:region_nile_basin }
-			bem_colonial_nation_nile_basin_trigger = yes
+			is_subject_type = subject_type_bem_colony
 		}
 	}
 
@@ -397,7 +427,7 @@ unite_colonies_greater_egypt_decision = {
 			custom_tooltip = {
 				any_subject_or_below = {
 					capital = { region = sr:region_nile_basin }
-					bem_colonial_nation_nile_basin_trigger = yes
+					is_subject_type = subject_type_bem_colony
 					is_ai = yes
 					count >= 2
 				}
@@ -407,9 +437,9 @@ unite_colonies_greater_egypt_decision = {
 				custom_tooltip = {
 					any_subject_or_below = {
 						capital = { region = sr:region_nile_basin }
-						bem_colonial_nation_nile_basin_trigger = yes
+						is_subject_type = subject_type_bem_colony
 						is_ai = yes
-						relations:root >= relations_threshold:cordial
+						relations:root >= relations_threshold:neutral
 					}
 					text = colonial_nations_nile_tt
 				}
@@ -426,9 +456,8 @@ unite_colonies_greater_egypt_decision = {
 				ordered_subject_or_below = {
 					limit = {
 						capital = { region = sr:region_nile_basin }
-						bem_colonial_nation_nile_basin_trigger = yes
-						is_ai = yes
-						relations:root >= relations_threshold:cordial
+						is_subject_type = subject_type_bem_colony
+						relations:root >= relations_threshold:neutral
 					}
 					order_by = gdp
 		
@@ -453,9 +482,9 @@ unite_colonies_greater_egypt_decision = {
 					limit = {
 						NOT = { this = scope:unifier_tag }
 						capital = { region = sr:region_nile_basin }
-						bem_colonial_nation_nile_basin_trigger = yes
+						is_subject_type = subject_type_bem_colony
 						is_ai = yes
-						relations:root >= relations_threshold:cordial
+						relations:root >= relations_threshold:neutral
 					}
 					scope:unifier_tag = {
 						annex = prev
@@ -473,8 +502,8 @@ unite_colonies_greater_egypt_decision = {
 			}
 
 			text = unite_greater_egypt_tt
-			custom_tooltip = warning_colony_unification_tt
 		}
+		custom_tooltip = warning_colony_unification_tt
 	}
 
 	ai_chance = {
@@ -482,6 +511,17 @@ unite_colonies_greater_egypt_decision = {
 		modifier = {
 			trigger = {
 				NOT = { has_technology_researched = civilizing_mission }
+			}
+			add = -200
+		}
+		modifier = {
+			trigger = {
+				any_subject_or_below = {
+					capital = { region = sr:region_senegal }
+					is_subject_type = subject_type_bem_colony
+					is_ai = yes
+					count < 2
+				}
 			}
 			add = -200
 		}
@@ -500,7 +540,7 @@ unite_colonies_greater_ethiopia_decision = {
 		has_variable = show_bem_colonial_decisions_var
 		any_subject_or_below = {
 			capital = { region = sr:region_ethiopia }
-			bem_colonial_nation_ethiopia_trigger = yes
+			is_subject_type = subject_type_bem_colony
 		}
 	}
 
@@ -509,7 +549,7 @@ unite_colonies_greater_ethiopia_decision = {
 			custom_tooltip = {
 				any_subject_or_below = {
 					capital = { region = sr:region_ethiopia }
-					bem_colonial_nation_ethiopia_trigger = yes
+					is_subject_type = subject_type_bem_colony
 					is_ai = yes
 					count >= 2
 				}
@@ -519,9 +559,9 @@ unite_colonies_greater_ethiopia_decision = {
 				custom_tooltip = {
 					any_subject_or_below = {
 						capital = { region = sr:region_ethiopia }
-						bem_colonial_nation_ethiopia_trigger = yes
+						is_subject_type = subject_type_bem_colony
 						is_ai = yes
-						relations:root >= relations_threshold:cordial
+						relations:root >= relations_threshold:neutral
 					}
 					text = colonial_nations_ethiopia_tt
 				}
@@ -538,9 +578,8 @@ unite_colonies_greater_ethiopia_decision = {
 				ordered_subject_or_below = {
 					limit = {
 						capital = { region = sr:region_ethiopia }
-						bem_colonial_nation_ethiopia_trigger = yes
-						is_ai = yes
-						relations:root >= relations_threshold:cordial
+						is_subject_type = subject_type_bem_colony
+						relations:root >= relations_threshold:neutral
 					}
 					order_by = gdp
 		
@@ -565,9 +604,9 @@ unite_colonies_greater_ethiopia_decision = {
 					limit = {
 						NOT = { this = scope:unifier_tag }
 						capital = { region = sr:region_ethiopia }
-						bem_colonial_nation_ethiopia_trigger = yes
+						is_subject_type = subject_type_bem_colony
 						is_ai = yes
-						relations:root >= relations_threshold:cordial
+						relations:root >= relations_threshold:neutral
 					}
 					scope:unifier_tag = {
 						annex = prev
@@ -585,8 +624,8 @@ unite_colonies_greater_ethiopia_decision = {
 			}
 
 			text = unite_greater_ethiopia_tt
-			custom_tooltip = warning_colony_unification_tt
 		}
+		custom_tooltip = warning_colony_unification_tt
 	}
 
 	ai_chance = {
@@ -594,6 +633,17 @@ unite_colonies_greater_ethiopia_decision = {
 		modifier = {
 			trigger = {
 				NOT = { has_technology_researched = civilizing_mission }
+			}
+			add = -200
+		}
+		modifier = {
+			trigger = {
+				any_subject_or_below = {
+					capital = { region = sr:region_senegal }
+					is_subject_type = subject_type_bem_colony
+					is_ai = yes
+					count < 2
+				}
 			}
 			add = -200
 		}
@@ -612,7 +662,7 @@ unite_colonies_zanj_decision = {
 		has_variable = show_bem_colonial_decisions_var
 		any_subject_or_below = {
 			capital = { region = sr:region_zanj }
-			bem_colonial_nation_zanj_trigger = yes
+			is_subject_type = subject_type_bem_colony
 		}
 	}
 
@@ -621,7 +671,7 @@ unite_colonies_zanj_decision = {
 			custom_tooltip = {
 				any_subject_or_below = {
 					capital = { region = sr:region_zanj }
-					bem_colonial_nation_zanj_trigger = yes
+					is_subject_type = subject_type_bem_colony
 					is_ai = yes
 					count >= 2
 				}
@@ -631,9 +681,9 @@ unite_colonies_zanj_decision = {
 				custom_tooltip = {
 					any_subject_or_below = {
 						capital = { region = sr:region_zanj }
-						bem_colonial_nation_zanj_trigger = yes
+						is_subject_type = subject_type_bem_colony
 						is_ai = yes
-						relations:root >= relations_threshold:cordial
+						relations:root >= relations_threshold:neutral
 					}
 					text = colonial_nations_zanj_tt
 				}
@@ -650,9 +700,8 @@ unite_colonies_zanj_decision = {
 				ordered_subject_or_below = {
 					limit = {
 						capital = { region = sr:region_zanj }
-						bem_colonial_nation_zanj_trigger = yes
-						is_ai = yes
-						relations:root >= relations_threshold:cordial
+						is_subject_type = subject_type_bem_colony
+						relations:root >= relations_threshold:neutral
 					}
 					order_by = gdp
 		
@@ -677,9 +726,9 @@ unite_colonies_zanj_decision = {
 					limit = {
 						NOT = { this = scope:unifier_tag }
 						capital = { region = sr:region_zanj }
-						bem_colonial_nation_zanj_trigger = yes
+						is_subject_type = subject_type_bem_colony
 						is_ai = yes
-						relations:root >= relations_threshold:cordial
+						relations:root >= relations_threshold:neutral
 					}
 					scope:unifier_tag = {
 						annex = prev
@@ -697,8 +746,8 @@ unite_colonies_zanj_decision = {
 			}
 
 			text = unite_zanj_tt
-			custom_tooltip = warning_colony_unification_tt
 		}
+		custom_tooltip = warning_colony_unification_tt
 	}
 
 	ai_chance = {
@@ -706,6 +755,17 @@ unite_colonies_zanj_decision = {
 		modifier = {
 			trigger = {
 				NOT = { has_technology_researched = civilizing_mission }
+			}
+			add = -200
+		}
+		modifier = {
+			trigger = {
+				any_subject_or_below = {
+					capital = { region = sr:region_senegal }
+					is_subject_type = subject_type_bem_colony
+					is_ai = yes
+					count < 2
+				}
 			}
 			add = -200
 		}
@@ -724,7 +784,7 @@ unite_colonies_congo_decision = {
 		has_variable = show_bem_colonial_decisions_var
 		any_subject_or_below = {
 			capital = { region = sr:region_congo }
-			bem_colonial_nation_congo_trigger = yes
+			is_subject_type = subject_type_bem_colony
 		}
 	}
 
@@ -733,7 +793,7 @@ unite_colonies_congo_decision = {
 			custom_tooltip = {
 				any_subject_or_below = {
 					capital = { region = sr:region_congo }
-					bem_colonial_nation_congo_trigger = yes
+					is_subject_type = subject_type_bem_colony
 					is_ai = yes
 					count >= 2
 				}
@@ -743,9 +803,9 @@ unite_colonies_congo_decision = {
 				custom_tooltip = {
 					any_subject_or_below = {
 						capital = { region = sr:region_congo }
-						bem_colonial_nation_congo_trigger = yes
+						is_subject_type = subject_type_bem_colony
 						is_ai = yes
-						relations:root >= relations_threshold:cordial
+						relations:root >= relations_threshold:neutral
 					}
 					text = colonial_nations_congo_tt
 				}
@@ -762,9 +822,8 @@ unite_colonies_congo_decision = {
 				ordered_subject_or_below = {
 					limit = {
 						capital = { region = sr:region_congo }
-						bem_colonial_nation_congo_trigger = yes
-						is_ai = yes
-						relations:root >= relations_threshold:cordial
+						is_subject_type = subject_type_bem_colony
+						relations:root >= relations_threshold:neutral
 					}
 					order_by = gdp
 		
@@ -789,9 +848,9 @@ unite_colonies_congo_decision = {
 					limit = {
 						NOT = { this = scope:unifier_tag }
 						capital = { region = sr:region_congo }
-						bem_colonial_nation_congo_trigger = yes
+						is_subject_type = subject_type_bem_colony
 						is_ai = yes
-						relations:root >= relations_threshold:cordial
+						relations:root >= relations_threshold:neutral
 					}
 					scope:unifier_tag = {
 						annex = prev
@@ -809,8 +868,8 @@ unite_colonies_congo_decision = {
 			}
 
 			text = unite_congo_tt
-			custom_tooltip = warning_colony_unification_tt
 		}
+		custom_tooltip = warning_colony_unification_tt
 	}
 
 	ai_chance = {
@@ -818,6 +877,17 @@ unite_colonies_congo_decision = {
 		modifier = {
 			trigger = {
 				NOT = { has_technology_researched = civilizing_mission }
+			}
+			add = -200
+		}
+		modifier = {
+			trigger = {
+				any_subject_or_below = {
+					capital = { region = sr:region_senegal }
+					is_subject_type = subject_type_bem_colony
+					is_ai = yes
+					count < 2
+				}
 			}
 			add = -200
 		}
@@ -836,7 +906,7 @@ unite_colonies_south_africa_decision = {
 		has_variable = show_bem_colonial_decisions_var
 		any_subject_or_below = {
 			capital = { region = sr:region_southern_africa }
-			bem_colonial_nation_south_africa_trigger = yes
+			is_subject_type = subject_type_bem_colony
 		}
 	}
 
@@ -845,7 +915,7 @@ unite_colonies_south_africa_decision = {
 			custom_tooltip = {
 				any_subject_or_below = {
 					capital = { region = sr:region_southern_africa }
-					bem_colonial_nation_south_africa_trigger = yes
+					is_subject_type = subject_type_bem_colony
 					is_ai = yes
 					count >= 2
 				}
@@ -855,9 +925,9 @@ unite_colonies_south_africa_decision = {
 				custom_tooltip = {
 					any_subject_or_below = {
 						capital = { region = sr:region_southern_africa }
-						bem_colonial_nation_south_africa_trigger = yes
+						is_subject_type = subject_type_bem_colony
 						is_ai = yes
-						relations:root >= relations_threshold:cordial
+						relations:root >= relations_threshold:neutral
 					}
 					text = colonial_nations_south_africa_tt
 				}
@@ -874,9 +944,8 @@ unite_colonies_south_africa_decision = {
 				ordered_subject_or_below = {
 					limit = {
 						capital = { region = sr:region_southern_africa }
-						bem_colonial_nation_south_africa_trigger = yes
-						is_ai = yes
-						relations:root >= relations_threshold:cordial
+						is_subject_type = subject_type_bem_colony
+						relations:root >= relations_threshold:neutral
 					}
 					order_by = gdp
 		
@@ -901,9 +970,9 @@ unite_colonies_south_africa_decision = {
 					limit = {
 						NOT = { this = scope:unifier_tag }
 						capital = { region = sr:region_southern_africa }
-						bem_colonial_nation_south_africa_trigger = yes
+						is_subject_type = subject_type_bem_colony
 						is_ai = yes
-						relations:root >= relations_threshold:cordial
+						relations:root >= relations_threshold:neutral
 					}
 					scope:unifier_tag = {
 						annex = prev
@@ -921,8 +990,8 @@ unite_colonies_south_africa_decision = {
 			}
 
 			text = unite_south_africa_tt
-			custom_tooltip = warning_colony_unification_tt
 		}
+		custom_tooltip = warning_colony_unification_tt
 	}
 
 	ai_chance = {
@@ -930,6 +999,17 @@ unite_colonies_south_africa_decision = {
 		modifier = {
 			trigger = {
 				NOT = { has_technology_researched = civilizing_mission }
+			}
+			add = -200
+		}
+		modifier = {
+			trigger = {
+				any_subject_or_below = {
+					capital = { region = sr:region_senegal }
+					is_subject_type = subject_type_bem_colony
+					is_ai = yes
+					count < 2
+				}
 			}
 			add = -200
 		}
