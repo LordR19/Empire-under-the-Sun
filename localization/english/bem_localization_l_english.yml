@@ -837,7 +837,8 @@
  unite_colonies_maghreb_decision_desc: "This Decision allows you to #yellow unite all your Colonial Subjects and states in North Africa#! into one big Colonial Nation."
  colonial_nations_north_africa_more_2_tt: "You have two or more #yellow Colonial Nations#! in the North Africa Region"
  colonial_nations_north_africa_tt: "You have one or more #yellow Colonial Nations#! in the North Africa Region"
- unite_maghreb_tt: "Every #yellow Colonial Nation#! and #yellow every State you own#! in North Africa will be #yellow merged#! into one Colonial Nation. The Colonial Nation with the highest [concept_gdp] will take the lead of the united Colony"
+ unite_maghreb_tt: "Every #yellow Colonial Nation#! and #yellow every State you own#! in North Africa will be #yellow merged#! into one Colonial Nation. The Colonial Nation with the highest [concept_gdp] will take the lead of the united Colony."
+ warning_colony_unification_tt: "#n Be careful with this option. If some states in the region are not colonized yet, it will prevent you from colonizing further.#!"
 
  unite_colonies_west_africa_decision: "Unite Colonies in Senegal"
  unite_colonies_west_africa_decision_desc: "This Decision allows you to #yellow unite all your Colonial Subjects and states in Senegal Region#! into one big Colonial Nation."

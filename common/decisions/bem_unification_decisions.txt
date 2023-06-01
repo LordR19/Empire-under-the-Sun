@@ -100,6 +100,7 @@ unite_colonies_maghreb_decision = {
 				}
 				if = {
 					limit = {
+						is_player = yes
 						any_scope_state = {
 							region = sr:region_north_africa
 						}
@@ -136,6 +137,7 @@ unite_colonies_maghreb_decision = {
 			}
 
 			text = unite_maghreb_tt
+			custom_tooltip = warning_colony_unification_tt
 		}
 	}
 
@@ -144,25 +146,6 @@ unite_colonies_maghreb_decision = {
 		modifier = {
 			trigger = {
 				NOT = { has_technology_researched = civilizing_mission }
-			}
-			add = -200
-		}
-		modifier = {
-			trigger = {
-				sr:region_north_africa = {
-					any_scope_state = {
-						OR = {
-							owner = {
-								is_country_type = decentralized
-							}
-							any_neighbouring_state = {
-								owner = {
-									is_country_type = decentralized
-								}
-							}
-						}
-					}
-				}
 			}
 			add = -200
 		}
@@ -229,6 +212,7 @@ unite_colonies_west_africa_decision = {
 				}
 				if = {
 					limit = {
+						is_player = yes
 						any_scope_state = {
 							region = sr:region_senegal
 						}
@@ -265,6 +249,7 @@ unite_colonies_west_africa_decision = {
 			}
 
 			text = unite_west_africa_tt
+			custom_tooltip = warning_colony_unification_tt
 		}
 	}
 
@@ -273,25 +258,6 @@ unite_colonies_west_africa_decision = {
 		modifier = {
 			trigger = {
 				NOT = { has_technology_researched = civilizing_mission }
-			}
-			add = -200
-		}
-		modifier = {
-			trigger = {
-				sr:region_senegal = {
-					any_scope_state = {
-						OR = {
-							owner = {
-								is_country_type = decentralized
-							}
-							any_neighbouring_state = {
-								owner = {
-									is_country_type = decentralized
-								}
-							}
-						}
-					}
-				}
 			}
 			add = -200
 		}
@@ -357,6 +323,7 @@ unite_colonies_greater_nigeria_decision = {
 					save_scope_as = unifier_tag
 				}
 				if = {
+					is_player = yes
 					limit = {
 						any_scope_state = {
 							region = sr:region_niger
@@ -394,6 +361,7 @@ unite_colonies_greater_nigeria_decision = {
 			}
 
 			text = unite_greater_nigeria_tt
+			custom_tooltip = warning_colony_unification_tt
 		}
 	}
 
@@ -402,25 +370,6 @@ unite_colonies_greater_nigeria_decision = {
 		modifier = {
 			trigger = {
 				NOT = { has_technology_researched = civilizing_mission }
-			}
-			add = -200
-		}
-		modifier = {
-			trigger = {
-				sr:region_niger = {
-					any_scope_state = {
-						OR = {
-							owner = {
-								is_country_type = decentralized
-							}
-							any_neighbouring_state = {
-								owner = {
-									is_country_type = decentralized
-								}
-							}
-						}
-					}
-				}
 			}
 			add = -200
 		}
@@ -487,6 +436,7 @@ unite_colonies_greater_egypt_decision = {
 				}
 				if = {
 					limit = {
+						is_player = yes
 						any_scope_state = {
 							region = sr:region_nile_basin
 						}
@@ -523,6 +473,7 @@ unite_colonies_greater_egypt_decision = {
 			}
 
 			text = unite_greater_egypt_tt
+			custom_tooltip = warning_colony_unification_tt
 		}
 	}
 
@@ -531,25 +482,6 @@ unite_colonies_greater_egypt_decision = {
 		modifier = {
 			trigger = {
 				NOT = { has_technology_researched = civilizing_mission }
-			}
-			add = -200
-		}
-		modifier = {
-			trigger = {
-				sr:region_nile_basin = {
-					any_scope_state = {
-						OR = {
-							owner = {
-								is_country_type = decentralized
-							}
-							any_neighbouring_state = {
-								owner = {
-									is_country_type = decentralized
-								}
-							}
-						}
-					}
-				}
 			}
 			add = -200
 		}
@@ -616,6 +548,7 @@ unite_colonies_greater_ethiopia_decision = {
 				}
 				if = {
 					limit = {
+						is_player = yes
 						any_scope_state = {
 							region = sr:region_ethiopia
 						}
@@ -652,6 +585,7 @@ unite_colonies_greater_ethiopia_decision = {
 			}
 
 			text = unite_greater_ethiopia_tt
+			custom_tooltip = warning_colony_unification_tt
 		}
 	}
 
@@ -660,25 +594,6 @@ unite_colonies_greater_ethiopia_decision = {
 		modifier = {
 			trigger = {
 				NOT = { has_technology_researched = civilizing_mission }
-			}
-			add = -200
-		}
-		modifier = {
-			trigger = {
-				sr:region_ethiopia = {
-					any_scope_state = {
-						OR = {
-							owner = {
-								is_country_type = decentralized
-							}
-							any_neighbouring_state = {
-								owner = {
-									is_country_type = decentralized
-								}
-							}
-						}
-					}
-				}
 			}
 			add = -200
 		}
@@ -745,6 +660,7 @@ unite_colonies_zanj_decision = {
 				}
 				if = {
 					limit = {
+						is_player = yes
 						any_scope_state = {
 							region = sr:region_zanj
 						}
@@ -755,7 +671,7 @@ unite_colonies_zanj_decision = {
 							root = owner
 						}
 						set_state_owner = scope:unifier_tag
-					} 
+					}
 				}
 				every_subject_or_below = {
 					limit = {
@@ -781,6 +697,7 @@ unite_colonies_zanj_decision = {
 			}
 
 			text = unite_zanj_tt
+			custom_tooltip = warning_colony_unification_tt
 		}
 	}
 
@@ -789,25 +706,6 @@ unite_colonies_zanj_decision = {
 		modifier = {
 			trigger = {
 				NOT = { has_technology_researched = civilizing_mission }
-			}
-			add = -200
-		}
-		modifier = {
-			trigger = {
-				sr:region_zanj = {
-					any_scope_state = {
-						OR = {
-							owner = {
-								is_country_type = decentralized
-							}
-							any_neighbouring_state = {
-								owner = {
-									is_country_type = decentralized
-								}
-							}
-						}
-					}
-				}
 			}
 			add = -200
 		}
@@ -874,6 +772,7 @@ unite_colonies_congo_decision = {
 				}
 				if = {
 					limit = {
+						is_player = yes
 						any_scope_state = {
 							region = sr:region_congo
 						}
@@ -910,6 +809,7 @@ unite_colonies_congo_decision = {
 			}
 
 			text = unite_congo_tt
+			custom_tooltip = warning_colony_unification_tt
 		}
 	}
 
@@ -918,25 +818,6 @@ unite_colonies_congo_decision = {
 		modifier = {
 			trigger = {
 				NOT = { has_technology_researched = civilizing_mission }
-			}
-			add = -200
-		}
-		modifier = {
-			trigger = {
-				sr:region_congo = {
-					any_scope_state = {
-						OR = {
-							owner = {
-								is_country_type = decentralized
-							}
-							any_neighbouring_state = {
-								owner = {
-									is_country_type = decentralized
-								}
-							}
-						}
-					}
-				}
 			}
 			add = -200
 		}
@@ -1003,6 +884,7 @@ unite_colonies_south_africa_decision = {
 				}
 				if = {
 					limit = {
+						is_player = yes
 						any_scope_state = {
 							region = sr:region_southern_africa
 						}
@@ -1039,6 +921,7 @@ unite_colonies_south_africa_decision = {
 			}
 
 			text = unite_south_africa_tt
+			custom_tooltip = warning_colony_unification_tt
 		}
 	}
 
@@ -1047,25 +930,6 @@ unite_colonies_south_africa_decision = {
 		modifier = {
 			trigger = {
 				NOT = { has_technology_researched = civilizing_mission }
-			}
-			add = -200
-		}
-		modifier = {
-			trigger = {
-				sr:region_southern_africa = {
-					any_scope_state = {
-						OR = {
-							owner = {
-								is_country_type = decentralized
-							}
-							any_neighbouring_state = {
-								owner = {
-									is_country_type = decentralized
-								}
-							}
-						}
-					}
-				}
 			}
 			add = -200
 		}
