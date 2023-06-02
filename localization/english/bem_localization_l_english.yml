@@ -627,6 +627,11 @@
  dyn_c_default_burma: "Burma"
  dyn_c_colonial_burma: "[Country.GetOverlord.GetAdjectiveNoFormatting] Burma"
 
+ COC_colonial_solomon_islands: "Colonial Solomon Islands"
+ COC_colonial_solomon_islands_ADJ: "Soloman Islander"
+ dyn_c_default_solomon_islands: "Solomon Islands"
+ dyn_c_colonial_solomon_islands: "[Country.GetOverlord.GetAdjectiveNoFormatting] Solomon Islands"
+
  COC_colonial_fiji: "Colonial Fiji"
  COC_colonial_fiji_ADJ: "Fijian"
  dyn_c_default_fiji: "Fiji"
@@ -832,6 +837,9 @@
  bem_hide_colonial_decisions_toggle: "Hide Colonial Decisions"
  bem_hide_colonial_decisions_toggle_desc: "Hides all the Colonial Decisions"
  hide_colonial_decisions_tt: "Hides all the Colonial Decisions"
+
+ bem_transfer_colonial_lands_puppet_decision: "Transfer #yellow African#! Colonial Lands of Puppets"
+ bem_transfer_colonial_lands_puppet_decision_desc: "Take control of all the #yellow African#! colonial lands of your puppets."
 
  unite_colonies_maghreb_decision: "Unite Colonies in North Africa"
  unite_colonies_maghreb_decision_desc: "This Decision allows you to #yellow unite all your Colonial Subjects and states in North Africa#! into one big Colonial Nation."

@@ -633,6 +633,11 @@
  dyn_c_default_bougainville: "Bougainville"
  dyn_c_colonial_bougainville: "[Country.GetOverlord.GetAdjectiveNoFormatting] Bougainville"
 
+ COC_colonial_solomon_islands: "Koloniale Salomonen"
+ COC_colonial_solomon_islands_ADJ: "Salomonisch"
+ dyn_c_default_solomon_islands: "Salomonen"
+ dyn_c_colonial_solomon_islands: "[Country.GetOverlord.GetAdjectiveNoFormatting] Salomonen"
+
  COC_colonial_fiji: "Colonial Fidschi"
  COC_colonial_fiji_ADJ: "Fidschianisch"
  dyn_c_default_fiji: "Fidschi"
@@ -807,6 +812,9 @@
  bem_hide_colonial_decisions_toggle: "Verstecke Koloniale Entscheidungen"
  bem_hide_colonial_decisions_toggle_desc: "Versteckt alle Kolonialen Entscheidungen."
  hide_colonial_decisions_tt: "Versteckt alle Kolonialen Entscheidungen."
+
+ bem_transfer_colonial_lands_puppet_decision: "Transferiert #yellow Afrikanische#! Kolonialgebiete von Marionetten"
+ bem_transfer_colonial_lands_puppet_decision_desc: "Übernehme doe Kontrolle über alle #yellow Afrikanischen#! Kolonialgebiete von Marionetten."
 
  unite_colonies_maghreb_decision: "Vereine Kolonien in Nordafrika"
  unite_colonies_maghreb_decision_desc: "Diese Entscheidung erlaubt dir, #yellow alle Kolonialen Untertanen und eigenen Staaten in Nordafrika#! in eine grosse Kolonialnation zu vereinen."
