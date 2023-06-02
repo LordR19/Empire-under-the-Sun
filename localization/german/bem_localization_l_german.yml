@@ -653,6 +653,11 @@
  dyn_c_default_fiji: "Fidschi"
  dyn_c_colonial_fiji: "[Country.GetOverlord.GetAdjectiveNoFormatting] Fidschi"
 
+ COC_colonial_tonga: "Kolonial Tonga"
+ COC_colonial_tonga_ADJ: "Tonganisch"
+ dyn_c_default_tonga: "Tonga"
+ dyn_c_colonial_tonga: "[Country.GetOverlord.GetAdjectiveNoFormatting] Tonga"
+
  dyn_c_south_africa_union: "Südafrikanische Union"
  dyn_c_south_africa_union_adj: "Südafrikanisch"
  dyn_c_dominion_south_africa: "Dominion von Südafrika"

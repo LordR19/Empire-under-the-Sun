@@ -647,6 +647,11 @@
  dyn_c_default_fiji: "Fiji"
  dyn_c_colonial_fiji: "[Country.GetOverlord.GetAdjectiveNoFormatting] Fiji"
 
+ COC_colonial_tonga: "Colonial Tonga"
+ COC_colonial_tonga_ADJ: "Tongan"
+ dyn_c_default_tonga: "Tonga"
+ dyn_c_colonial_tonga: "[Country.GetOverlord.GetAdjectiveNoFormatting] Tonga"
+
  COC_colonial_west_micronesia: "Colonial West Micronesia"
  COC_colonial_west_micronesia_ADJ: "Micronesian"
  dyn_c_default_west_micronesia: "West Micronesia"
