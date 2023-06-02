@@ -1,4 +1,4 @@
-﻿#Colonial New Caledonia
+﻿#Colonial Tonga
 COC_colonial_tonga = {
 	flag_definition = {
 		coa = COC_colonial_tonga
