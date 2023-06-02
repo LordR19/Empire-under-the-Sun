@@ -39,6 +39,50 @@ bem_hide_colonial_decisions_toggle = {
 	}
 }
 
+########################################################
+
+bem_transfer_colonial_lands_puppet_decision = {
+	is_shown = {
+		any_subject_or_below = {
+			is_ai = yes
+			country_is_in_africa = no
+			can_have_subjects = no
+			any_scope_state = {
+				state_is_in_africa = yes
+			}
+		}
+	}
+
+	possible = {
+		always = yes
+	}
+
+	when_taken = {
+#		change_infamy = 5
+		every_subject_or_below = {
+			limit = {
+				is_ai = yes
+				country_is_in_africa = no
+				can_have_subjects = no
+				any_scope_state = {
+					state_is_in_africa = yes
+				}
+			}
+			every_scope_state = {
+				limit = {
+					state_is_in_africa = yes
+				}
+				set_state_owner = root
+			}
+		}
+	}
+
+	ai_chance = {
+		base = 100
+	}
+}
+
+########################################################
 
 unite_colonies_maghreb_decision = {
 	is_shown = {
