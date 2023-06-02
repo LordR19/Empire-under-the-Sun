@@ -1,6 +1,7 @@
 ﻿bem_create_colonial_libya = { #This code creates a colonial nation for the AI
 	is_shown = { #I tried to order the triggers logically to reduce the calculations
 		has_game_rule = bem_colonial_nations_release #Only used when the game rule is activated
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial } #Unrecognized countries tend to lose the subjects on creation
 		country_is_in_africa = no #African Countries shouldn't release colonies in Africa
 		NOR = {
@@ -114,6 +115,7 @@
 			else = {
 				random_subject_or_below  = {
 					limit = {
+						is_direct_subject_of = root
 						is_subject_type = subject_type_bem_colony
 						OR = {
 							has_state_in_state_region = STATE_TRIPOLI
@@ -148,6 +150,7 @@
 bem_create_colonial_tunisia = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
 		NOR = {
@@ -256,6 +259,7 @@ bem_create_colonial_tunisia = {
 bem_create_colonial_algeria = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
 		NOR = {
@@ -397,6 +401,7 @@ bem_create_colonial_algeria = {
 bem_create_colonial_morocco = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
 		NOR = {
@@ -533,6 +538,7 @@ bem_create_colonial_morocco = {
 bem_create_colonial_west_sahara = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
 		NOR = {
@@ -641,9 +647,10 @@ bem_create_colonial_west_sahara = {
 bem_create_colonial_mauritania = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
-	#	is_ai = yes
+		is_ai = yes
 		any_scope_state = {
 			OR = {
 				state_region = s:STATE_MAURITANIA
@@ -662,7 +669,7 @@ bem_create_colonial_mauritania = {
 			if = {
 				limit = { #Fires if there is no subject yet
 					OR = {
-						NOT = { exists = c:C6M_AI }
+						NOT = { exists = c:C6M_AI}
 						AND = {
 							exists = c:C6M_AI
 							NOT = { c:C6M_AI = { is_direct_subject_of = root } }
@@ -757,6 +764,7 @@ bem_create_colonial_mauritania = {
 bem_create_colonial_senegal = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
 		is_ai = yes
@@ -873,6 +881,7 @@ bem_create_colonial_senegal = {
 bem_create_colonial_guinea = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
 		is_ai = yes
@@ -989,6 +998,7 @@ bem_create_colonial_guinea = {
 bem_create_colonial_mali = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
 		is_ai = yes
@@ -1110,6 +1120,7 @@ bem_create_colonial_mali = {
 bem_create_colonial_pepper_coast = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
 		is_ai = yes
@@ -1208,6 +1219,7 @@ bem_create_colonial_pepper_coast = {
 bem_create_colonial_ivory_coast = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
 		is_ai = yes
@@ -1324,6 +1336,7 @@ bem_create_colonial_ivory_coast = {
 bem_create_colonial_volta = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
 		is_ai = yes
@@ -1422,6 +1435,7 @@ bem_create_colonial_volta = {
 bem_create_colonial_gold_coast = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
 		is_ai = yes
@@ -1520,6 +1534,7 @@ bem_create_colonial_gold_coast = {
 bem_create_colonial_togo = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
 		is_ai = yes
@@ -1618,6 +1633,7 @@ bem_create_colonial_togo = {
 bem_create_colonial_dahomey = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
 		is_ai = yes
@@ -1716,6 +1732,7 @@ bem_create_colonial_dahomey = {
 bem_create_colonial_nigeria = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
 		is_ai = yes
@@ -1857,6 +1874,7 @@ bem_create_colonial_nigeria = {
 bem_create_colonial_niger = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
 		is_ai = yes
@@ -1973,6 +1991,7 @@ bem_create_colonial_niger = {
 bem_create_colonial_chad = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
 		is_ai = yes
@@ -2089,6 +2108,7 @@ bem_create_colonial_chad = {
 bem_create_colonial_cameroon = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
 		is_ai = yes
@@ -2205,6 +2225,7 @@ bem_create_colonial_cameroon = {
 bem_create_colonial_egypt = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
 		NOR = {
@@ -2351,6 +2372,7 @@ bem_create_colonial_egypt = {
 bem_create_colonial_sudan = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
 		NOR = {
@@ -2487,6 +2509,7 @@ bem_create_colonial_sudan = {
 bem_create_colonial_south_sudan = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
 		NOR = {
@@ -2595,6 +2618,7 @@ bem_create_colonial_south_sudan = {
 bem_create_colonial_ethiopia = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
 		is_ai = yes
@@ -2716,6 +2740,7 @@ bem_create_colonial_ethiopia = {
 bem_create_colonial_eritrea = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
 		is_ai = yes
@@ -2814,6 +2839,7 @@ bem_create_colonial_eritrea = {
 bem_create_colonial_somaliland = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
 		is_ai = yes
@@ -2912,6 +2938,7 @@ bem_create_colonial_somaliland = {
 bem_create_colonial_uganda = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
 		is_ai = yes
@@ -3011,6 +3038,7 @@ bem_create_colonial_uganda = {
 bem_create_colonial_kenya = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
 		is_ai = yes
@@ -3127,6 +3155,7 @@ bem_create_colonial_kenya = {
 bem_create_colonial_tanganyika = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
 		is_ai = yes
@@ -3254,6 +3283,7 @@ bem_create_colonial_tanganyika = {
 bem_create_colonial_mocambique = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
 		is_ai = yes
@@ -3375,6 +3405,7 @@ bem_create_colonial_mocambique = {
 bem_create_colonial_madagascar = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
 		is_ai = yes
@@ -3491,6 +3522,7 @@ bem_create_colonial_madagascar = {
 bem_create_colonial_gabon = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
 		is_ai = yes
@@ -3589,6 +3621,7 @@ bem_create_colonial_gabon = {
 bem_create_colonial_middle_congo = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
 		is_ai = yes
@@ -3687,6 +3720,7 @@ bem_create_colonial_middle_congo = {
 bem_create_colonial_central_africa = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
 		is_ai = yes
@@ -3785,6 +3819,7 @@ bem_create_colonial_central_africa = {
 bem_create_colonial_congo = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
 		is_ai = yes
@@ -3916,6 +3951,7 @@ bem_create_colonial_congo = {
 bem_create_colonial_angola = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
 		is_ai = yes
@@ -4037,6 +4073,7 @@ bem_create_colonial_angola = {
 bem_create_colonial_northern_rhodesia = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
 		is_ai = yes
@@ -4153,6 +4190,7 @@ bem_create_colonial_northern_rhodesia = {
 bem_create_colonial_swa = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
 		is_ai = yes
@@ -4269,6 +4307,7 @@ bem_create_colonial_swa = {
 bem_create_colonial_bechuanaland = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
 		is_ai = yes
@@ -4367,6 +4406,7 @@ bem_create_colonial_bechuanaland = {
 bem_create_colonial_southern_rhodesia = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
 		is_ai = yes
@@ -4465,6 +4505,7 @@ bem_create_colonial_southern_rhodesia = {
 bem_create_colonial_transvaal = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
 		is_ai = yes
@@ -4586,6 +4627,7 @@ bem_create_colonial_transvaal = {
 bem_create_colonial_cape = {
 	is_shown = {
 		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
 		OR = { is_country_type = recognized is_country_type = colonial }
 		country_is_in_africa = no
 		is_ai = yes
