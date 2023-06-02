@@ -638,6 +638,11 @@
  dyn_c_default_solomon_islands: "Salomonen"
  dyn_c_colonial_solomon_islands: "[Country.GetOverlord.GetAdjectiveNoFormatting] Salomonen"
 
+ COC_colonial_vanuatu: "Kolonial Vanuatu"
+ COC_colonial_vanuatu_ADJ: "Neu Hebridisch"
+ dyn_c_default_new_hebrides: "Neue Hebriden"
+ dyn_c_colonial_new_hebrides: "[Country.GetOverlord.GetAdjectiveNoFormatting] Neue Hebriden"
+
  COC_colonial_fiji: "Colonial Fidschi"
  COC_colonial_fiji_ADJ: "Fidschianisch"
  dyn_c_default_fiji: "Fidschi"
