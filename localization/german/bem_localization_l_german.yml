@@ -618,11 +618,15 @@
 
  COC_colonial_west_micronesia: "Kolonial Westmikronesien"
  COC_colonial_west_micronesia_ADJ: "Westmikronesisch"
+ COC_colonial_west_micronesia_AI: "Kolonial Westmikronesien"
+ COC_colonial_west_micronesia_AI_ADJ: "Westmikronesisch"
  dyn_c_default_west_micronesia: "Westmikronesien"
  dyn_c_colonial_west_micronesia: "[Country.GetOverlord.GetAdjectiveNoFormatting] Westmikronesien"
 
  COC_colonial_east_micronesia: "Kolonial Ostmikronesien"
  COC_colonial_east_micronesia_ADJ: "Ostmikronesisch"
+ COC_colonial_east_micronesia_AI: "Kolonial Ostmikronesien"
+ COC_colonial_east_micronesia_AI_ADJ: "Ostmikronesisch"
  dyn_c_default_east_micronesia: "Ostmikronesien"
  dyn_c_colonial_east_micronesia: "[Country.GetOverlord.GetAdjectiveNoFormatting] Ostmikronesien"
  dyn_c_british_gilbert_islands: "[Country.GetOverlord.GetAdjectiveNoFormatting] Gilbert Inseln"
@@ -630,46 +634,64 @@
 
  COC_colonial_nauru: "Kolonial Nauru"
  COC_colonial_nauru_ADJ: "Nauruisch"
+ COC_colonial_nauru_AI: "Kolonial Nauru"
+ COC_colonial_nauru_AI_ADJ: "Nauruisch"
  dyn_c_default_nauru: "Nauru"
  dyn_c_colonial_nauru: "[Country.GetOverlord.GetAdjectiveNoFormatting] Nauru"
 
  COC_colonial_bougainville: "Kolonial Bougainville"
  COC_colonial_bougainville_ADJ: "Bougainville"
+ COC_colonial_bougainville_AI: "Kolonial Bougainville"
+ COC_colonial_bougainville_AI_ADJ: "Bougainville"
  dyn_c_default_bougainville: "Bougainville"
  dyn_c_colonial_bougainville: "[Country.GetOverlord.GetAdjectiveNoFormatting] Bougainville"
 
  COC_colonial_solomon_islands: "Koloniale Salomonen"
  COC_colonial_solomon_islands_ADJ: "Salomonisch"
+ COC_colonial_solomon_islands_AI: "Koloniale Salomonen"
+ COC_colonial_solomon_islands_AI_ADJ: "Salomonisch"
  dyn_c_default_solomon_islands: "Salomonen"
  dyn_c_colonial_solomon_islands: "[Country.GetOverlord.GetAdjectiveNoFormatting] Salomonen"
 
  COC_colonial_vanuatu: "Kolonial Vanuatu"
  COC_colonial_vanuatu_ADJ: "Neu Hebridisch"
+ COC_colonial_vanuatu_AI: "Kolonial Vanuatu"
+ COC_colonial_vanuatu_AI_ADJ: "Neu Hebridisch"
  dyn_c_default_new_hebrides: "Neue Hebriden"
  dyn_c_colonial_new_hebrides: "[Country.GetOverlord.GetAdjectiveNoFormatting] Neue Hebriden"
 
  COC_colonial_new_caledonia: "Kolonial Neukaledonien"
  COC_colonial_new_caledonia_ADJ: "Neukaledonisch"
+ COC_colonial_new_caledonia_AI: "Kolonial Neukaledonien"
+ COC_colonial_new_caledonia_AI_ADJ: "Neukaledonisch"
  dyn_c_default_new_caledonia: "Neukaledonien"
  dyn_c_colonial_new_caledonia: "[Country.GetOverlord.GetAdjectiveNoFormatting] Neukaledonien"
 
  COC_colonial_fiji: "Colonial Fidschi"
  COC_colonial_fiji_ADJ: "Fidschianisch"
+ COC_colonial_fiji_AI: "Colonial Fidschi"
+ COC_colonial_fiji_AI_ADJ: "Fidschianisch"
  dyn_c_default_fiji: "Fidschi"
  dyn_c_colonial_fiji: "[Country.GetOverlord.GetAdjectiveNoFormatting] Fidschi"
 
  COC_colonial_tonga: "Kolonial Tonga"
  COC_colonial_tonga_ADJ: "Tonganisch"
+ COC_colonial_tonga_AI: "Kolonial Tonga"
+ COC_colonial_tonga_AI_ADJ: "Tonganisch"
  dyn_c_default_tonga: "Tonga"
  dyn_c_colonial_tonga: "[Country.GetOverlord.GetAdjectiveNoFormatting] Tonga"
 
  COC_colonial_tahiti: "Kolonial Tahiti"
  COC_colonial_tahiti_ADJ: "Tahitianisch"
+ COC_colonial_tahiti_AI: "Kolonial Tahiti"
+ COC_colonial_tahiti_AI_ADJ: "Tahitianisch"
  dyn_c_default_tahiti: "Tahiti"
  dyn_c_colonial_tahiti: "[Country.GetOverlord.GetAdjectiveNoFormatting] Tahiti"
 
  COC_colonial_hawaii: "Kolonial Hawaii"
  COC_colonial_hawaii_ADJ: "Hawaiianisch"
+ COC_colonial_hawaii_AI: "Kolonial Hawaii"
+ COC_colonial_hawaii_AI_ADJ: "Hawaiianisch"
  dyn_c_default_hawaii: "Hawaii"
  dyn_c_colonial_hawaii: "[Country.GetOverlord.GetAdjectiveNoFormatting] Hawaii"
 
@@ -1008,3 +1030,46 @@
 
  bem_create_colonial_cape: "AI decision Cape"
  bem_create_colonial_cape_desc: "AI decision to create a colony in Cape. #n Should not be visible!#!"
+
+################################################
+
+### Oceania Region Countries ###
+
+ bem_create_colonial_australia: "AI decision Australia"
+ bem_create_colonial_australia_desc: "AI decision to create a colony in Australia. #n Should not be visible!#!"
+
+ bem_create_colonial_new_zealand: "AI decision New Zealand"
+ bem_create_colonial_new_zealand_desc: "AI decision to create a colony in New Zealand. #n Should not be visible!#!"
+
+ bem_create_colonial_west_micronesia: "AI decision West Micronesia"
+ bem_create_colonial_west_micronesia_desc: "AI decision to create a colony in West Micronesia. #n Should not be visible!#!"
+
+ bem_create_colonial_east_micronesia: "AI decision East Micronesia"
+ bem_create_colonial_east_micronesia_desc: "AI decision to create a colony in East Micronesia. #n Should not be visible!#!"
+
+ bem_create_colonial_nauru: "AI decision Nauru"
+ bem_create_colonial_nauru_desc: "AI decision to create a colony in Nauru. #n Should not be visible!#!"
+
+ bem_create_colonial_bougainville: "AI decision Bougainville"
+ bem_create_colonial_bougainville_desc: "AI decision to create a colony in Bougainville. #n Should not be visible!#!"
+
+ bem_create_colonial_solomon_islands: "AI decision Solomon Islands"
+ bem_create_colonial_solomon_islands_desc: "AI decision to create a colony in Solomon Islands. #n Should not be visible!#!"
+
+ bem_create_colonial_vanuatu: "AI decision Vanuatu"
+ bem_create_colonial_vanuatu_desc: "AI decision to create a colony in Vanuatu. #n Should not be visible!#!"
+
+ bem_create_colonial_new_caledonia: "AI decision New Caledonia"
+ bem_create_colonial_new_caledonia_desc: "AI decision to create a colony in New Caledonia. #n Should not be visible!#!"
+
+ bem_create_colonial_fiji: "AI decision Fiji"
+ bem_create_colonial_fiji_desc: "AI decision to create a colony in Fiji. #n Should not be visible!#!"
+
+ bem_create_colonial_tonga: "AI decision Tonga"
+ bem_create_colonial_tonga_desc: "AI decision to create a colony in Tonga. #n Should not be visible!#!"
+
+ bem_create_colonial_tahiti: "AI decision Tahiti"
+ bem_create_colonial_tahiti_desc: "AI decision to create a colony in Tahiti. #n Should not be visible!#!"
+
+ bem_create_colonial_hawaii: "AI decision Hawaii"
+ bem_create_colonial_hawaii_desc: "AI decision to create a colony in Hawaii. #n Should not be visible!#!"

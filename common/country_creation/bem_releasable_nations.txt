@@ -1305,16 +1305,7 @@ C5A = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		bem_country_is_in_oceania = no
-		owns_entire_state_region = STATE_NEW_SOUTH_WALES
-		owns_entire_state_region = STATE_NORTHERN_TERRITORY
-		owns_entire_state_region = STATE_QUEENSLAND
-		owns_entire_state_region = STATE_SOUTH_AUSTRALIA
-		owns_entire_state_region = STATE_TASMANIA
-		owns_entire_state_region = STATE_VICTORIA
-		owns_entire_state_region = STATE_WESTERN_AUSTRALIA
+		always = no
 	}
 }
 
@@ -1330,11 +1321,7 @@ C1Z = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		bem_country_is_in_oceania = no
-		owns_entire_state_region = STATE_NORTH_ISLAND
-		owns_entire_state_region = STATE_SOUTH_ISLAND
+		always = no
 	}
 }
 
@@ -1349,10 +1336,7 @@ COC_colonial_west_micronesia = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		bem_country_is_in_oceania = no
-		owns_entire_state_region = STATE_WEST_MICRONESIA
+		always = no
 	}
 }
 
@@ -1367,10 +1351,7 @@ COC_colonial_east_micronesia = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		bem_country_is_in_oceania = no
-		owns_entire_state_region = STATE_EAST_MICRONESIA
+		always = no
 	}
 }
 
@@ -1385,10 +1366,7 @@ COC_colonial_nauru = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		bem_country_is_in_oceania = no
-		owns_entire_state_region = STATE_NAURU
+		always = no
 	}
 }
 
@@ -1403,10 +1381,7 @@ COC_colonial_bougainville = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		bem_country_is_in_oceania = no
-		owns_entire_state_region = STATE_BOUGAINVILLE
+		always = no
 	}
 }
 
@@ -1421,10 +1396,7 @@ COC_colonial_solomon_islands = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		bem_country_is_in_oceania = no
-		owns_entire_state_region = STATE_SOLOMON_ISLANDS
+		always = no
 	}
 }
 
@@ -1439,10 +1411,7 @@ COC_colonial_vanuatu = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		bem_country_is_in_oceania = no
-		owns_entire_state_region = STATE_VANUATU
+		always = no
 	}
 }
 
@@ -1457,10 +1426,7 @@ COC_colonial_new_caledonia = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		bem_country_is_in_oceania = no
-		owns_entire_state_region = STATE_KANAK
+		always = no
 	}
 }
 
@@ -1475,10 +1441,7 @@ COC_colonial_fiji = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		bem_country_is_in_oceania = no
-		owns_entire_state_region = STATE_FIJI
+		always = no
 	}
 }
 
@@ -1493,10 +1456,7 @@ COC_colonial_tonga = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		bem_country_is_in_oceania = no
-		owns_entire_state_region = STATE_TONGA
+		always = no
 	}
 }
 
@@ -1511,10 +1471,7 @@ COC_colonial_tahiti = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		bem_country_is_in_oceania = no
-		owns_entire_state_region = STATE_TAHITI
+		always = no
 	}
 }
 
@@ -1529,9 +1486,6 @@ COC_colonial_hawaii = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		bem_country_is_in_oceania = no
-		owns_entire_state_region = STATE_HAWAIIAN_ISLANDS
+		always = no
 	}
 }
