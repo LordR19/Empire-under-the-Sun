@@ -627,6 +627,11 @@
  dyn_c_default_burma: "Burma"
  dyn_c_colonial_burma: "[Country.GetOverlord.GetAdjectiveNoFormatting] Burma"
 
+ COC_colonial_oceania: "Colonial Oceania"
+ COC_colonial_oceania_ADJ: "Oceanian"
+ dyn_c_default_oceania: "Oceania"
+ dyn_c_colonial_oceania: "[Country.GetOverlord.GetAdjectiveNoFormatting] Oceania"
+
  COC_colonial_west_micronesia: "Colonial West Micronesia"
  COC_colonial_west_micronesia_ADJ: "Micronesian"
  dyn_c_default_west_micronesia: "West Micronesia"
@@ -914,6 +919,12 @@
  colonial_nations_south_africa_more_2_tt: "You have two or more #yellow Colonial Nations#! in the South Africa Region"
  colonial_nations_south_africa_tt: "You have one or more #yellow Colonial Nations#! in the South Africa Region"
  unite_south_africa_tt: "Every #yellow Colonial Nation#! and #yellow every State you own#! in South Africa will be #yellow merged#! into one Colonial Nation. The Colonial Nation with the highest [concept_gdp] will take the lead of the united Colony"
+
+ unite_colonies_oceania_decision: "Unite Colonies in Oceania"
+ unite_colonies_oceania_decision_desc: "This Decision allows you to #yellow unite all your Colonial Subjects and states in Oceania#! into one big Colonial Nation."
+ colonial_nations_oceania_more_2_tt: "You have two or more #yellow Colonial Nations#! in the Oceania Region"
+ colonial_nations_oceania_tt: "You have one or more #yellow Colonial Nations#! in the Oceania Region"
+ unite_oceania_tt: "Every #yellow Colonial Nation#! and #yellow every State you own#! in OCeania will be #yellow merged#! into one Colonial Nation. The Colonial Nation with the highest [concept_gdp] will take the lead of the united Colony"
 
 #AI decisions
  bem_create_colonial_libya: "AI decision Libya"

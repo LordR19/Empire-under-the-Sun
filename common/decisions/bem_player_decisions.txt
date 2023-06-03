@@ -195,7 +195,7 @@ unite_colonies_maghreb_decision = {
 		modifier = {
 			trigger = {
 				any_subject_or_below = {
-					capital = { region = sr:region_senegal }
+					capital = { region = sr:region_north_africa }
 					is_subject_type = subject_type_bem_colony
 					is_ai = yes
 					count < 2
@@ -439,7 +439,7 @@ unite_colonies_greater_nigeria_decision = {
 		modifier = {
 			trigger = {
 				any_subject_or_below = {
-					capital = { region = sr:region_senegal }
+					capital = { region = sr:region_niger }
 					is_subject_type = subject_type_bem_colony
 					is_ai = yes
 					count < 2
@@ -561,7 +561,7 @@ unite_colonies_greater_egypt_decision = {
 		modifier = {
 			trigger = {
 				any_subject_or_below = {
-					capital = { region = sr:region_senegal }
+					capital = { region = sr:region_nile_basin }
 					is_subject_type = subject_type_bem_colony
 					is_ai = yes
 					count < 2
@@ -683,7 +683,7 @@ unite_colonies_greater_ethiopia_decision = {
 		modifier = {
 			trigger = {
 				any_subject_or_below = {
-					capital = { region = sr:region_senegal }
+					capital = { region = sr:region_ethiopia }
 					is_subject_type = subject_type_bem_colony
 					is_ai = yes
 					count < 2
@@ -805,7 +805,7 @@ unite_colonies_zanj_decision = {
 		modifier = {
 			trigger = {
 				any_subject_or_below = {
-					capital = { region = sr:region_senegal }
+					capital = { region = sr:region_zanj }
 					is_subject_type = subject_type_bem_colony
 					is_ai = yes
 					count < 2
@@ -927,7 +927,7 @@ unite_colonies_congo_decision = {
 		modifier = {
 			trigger = {
 				any_subject_or_below = {
-					capital = { region = sr:region_senegal }
+					capital = { region = sr:region_congo }
 					is_subject_type = subject_type_bem_colony
 					is_ai = yes
 					count < 2
@@ -1049,7 +1049,129 @@ unite_colonies_south_africa_decision = {
 		modifier = {
 			trigger = {
 				any_subject_or_below = {
-					capital = { region = sr:region_senegal }
+					capital = { region = sr:region_southern_africa }
+					is_subject_type = subject_type_bem_colony
+					is_ai = yes
+					count < 2
+				}
+			}
+			add = -200
+		}
+	}
+}
+
+unite_colonies_oceania_decision = {
+	is_shown = {
+		OR = {
+			is_player = yes
+			AND = {
+				is_player = no
+				has_game_rule = bem_colonial_nations_release
+			}
+		}
+		has_variable = show_bem_colonial_decisions_var
+		any_subject_or_below = {
+			capital = { region = sr:region_oceania }
+			is_subject_type = subject_type_bem_colony
+		}
+	}
+
+	possible = {
+		OR = {
+			custom_tooltip = {
+				any_subject_or_below = {
+					capital = { region = sr:region_oceania }
+					is_subject_type = subject_type_bem_colony
+					is_ai = yes
+					count >= 2
+				}
+				text = colonial_nations_oceania_more_2_tt
+			}
+			AND = {
+				custom_tooltip = {
+					any_subject_or_below = {
+						capital = { region = sr:region_oceania }
+						is_subject_type = subject_type_bem_colony
+						is_ai = yes
+						relations:root >= relations_threshold:neutral
+					}
+					text = colonial_nations_oceania_tt
+				}
+				any_scope_state = {
+					region = sr:region_oceania
+				}
+			}
+		}
+	}
+	
+	when_taken = {
+		custom_tooltip = {
+			hidden_effect = {
+				ordered_subject_or_below = {
+					limit = {
+						capital = { region = sr:region_oceania }
+						is_subject_type = subject_type_bem_colony
+						relations:root >= relations_threshold:neutral
+					}
+					order_by = gdp
+		
+					save_scope_as = unifier_tag
+				}
+				if = {
+					limit = {
+						is_player = yes
+						any_scope_state = {
+							region = sr:region_oceania
+						}
+					}
+					every_scope_state = {
+						limit = {
+							region = sr:region_oceania
+							root = owner
+						}
+						set_state_owner = scope:unifier_tag
+					} 
+				}
+				every_subject_or_below = {
+					limit = {
+						NOT = { this = scope:unifier_tag }
+						capital = { region = sr:region_oceania }
+						is_subject_type = subject_type_bem_colony
+						is_ai = yes
+						relations:root >= relations_threshold:neutral
+					}
+					scope:unifier_tag = {
+						annex = prev
+					}
+				}
+				if = {
+					limit =  {
+						is_player = yes
+						NOT = { exists = c:COC_colonial_oceania }
+					}
+					scope:unifier_tag = {
+						change_tag = COC_colonial_oceania
+					}
+				}
+			}
+
+			text = unite_oceania_tt
+		}
+		custom_tooltip = warning_colony_unification_tt
+	}
+
+	ai_chance = {
+		base = 100
+		modifier = {
+			trigger = {
+				NOT = { has_technology_researched = civilizing_mission }
+			}
+			add = -200
+		}
+		modifier = {
+			trigger = {
+				any_subject_or_below = {
+					capital = { region = sr:region_oceania }
 					is_subject_type = subject_type_bem_colony
 					is_ai = yes
 					count < 2

@@ -71,6 +71,20 @@ C3P = {
 	}
 
 	flag_definition = {
+		coa = C3P_sub_dutch
+		allow_overlord_canton = no
+		subject_canton = C3P_sub_dutch
+		coa_with_overlord_canton = C3P_sub_dutch		
+		priority = 100
+		trigger = { 
+			exists = c:NET
+			scope:actor = {
+				is_direct_subject_of  = c:NET
+			}
+		}
+	}
+
+	flag_definition = {
 		coa = C3P_monarchy
 		subject_canton = C3P_monarchy
 		allow_overlord_canton = yes	

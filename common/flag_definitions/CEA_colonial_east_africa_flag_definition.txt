@@ -71,6 +71,20 @@ CEA_colonial_east_africa = {
 	}
 
 	flag_definition = {
+		coa = CEA_colonial_east_africa_sub_dutch
+		allow_overlord_canton = no
+		subject_canton = CEA_colonial_east_africa_sub_dutch
+		coa_with_overlord_canton = CEA_colonial_east_africa_sub_dutch		
+		priority = 100
+		trigger = { 
+			exists = c:NET
+			scope:actor = {
+				is_direct_subject_of  = c:NET
+			}
+		}
+	}
+
+	flag_definition = {
 		coa = CEA_colonial_east_africa_monarchy
 		subject_canton = CEA_colonial_east_africa_monarchy
 		allow_overlord_canton = yes	
