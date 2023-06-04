@@ -716,45 +716,119 @@ C6C = {
 
 ################################################
 
-#Hong Kong
-HGK = {
-	provinces = {
-		xB03161
-	}
+### Arabia Region Countries ###
 
-	possible = {
-		exists = c:GBR
-		this = c:GBR
-	}
-	
-	ai_will_do = { always = no }
-}
 
-#Strait Settlements
-SST = {
-	provinces = {
-		xC00130 x8080B0 x08673B
+#Protectorate of Palestine
+C1P = {
+	states = {
+		STATE_PALESTINE
 	}
 
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_middle_east = no
+		owns_entire_state_region = STATE_PALESTINE
+		NOR = {
+			AND = {
+				exists = c:EGY
+				this = c:EGY
+			}
+			AND = {
+				exists = c:ARA
+				this = c:ARA
+			}
+		}
+	}
 }
 
-#Colonial British Guayana
-CBG = {
-	provinces = {
-		xA22A4C xBB88B5 x218011 x1F5190 x6B802F xA52CE3 xE600F3 xA00111 x734F81 x8E31E8 x7B4B5E x63ABD4 x3A069F x24A66B x719492 x41552E x4AE8F7 x9A88B5 xB21306 xB1960A x805A8C x518580 xC0C0D0 xADE6C2 xE85635 x9FEDF7 xAA1153 x6816FF x350473 xFAE8C5 xB3512B xD0678B xD0BA2B xE7864B xA350D5 x6C6251
+#Protectorate of Transjordan
+C2T = {
+	states = {
+		STATE_TRANSJORDAN
 	}
 
 	possible = {
-		exists = c:GBR
-		this = c:GBR
+		OR = { is_country_type = recognized is_country_type = colonial }
 	}
 	
-	ai_will_do = { always = no }
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_middle_east = no
+		owns_entire_state_region = STATE_TRANSJORDAN
+		NOR = {
+			AND = {
+				exists = c:EGY
+				this = c:EGY
+			}
+			AND = {
+				exists = c:ARA
+				this = c:ARA
+			}
+		}
+	}
+}
+
+#Colonial Hejaz
+C1H = {
+	states = {
+		STATE_HEDJAZ
+	}
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_middle_east = no
+		owns_entire_state_region = STATE_HEDJAZ
+		NOR = {
+			AND = {
+				exists = c:EGY
+				this = c:EGY
+			}
+			AND = {
+				exists = c:ARA
+				this = c:ARA
+			}
+		}
+	}
+}
+
+#Protectorate of Yemen
+C1Y = {
+	provinces = {
+		x567A83 xE5892F x02F9FF x7EC879 x625380 x9D8A78 xEF2E43 xBB387A xCF6C49 x7C3EA9 xFE5027 x68B524 xE5DF3B x1A7BB0 x2576C1 xCF401E x49FCAB x6290E6 xF86F58 x84FA60 x8B1488 x075453 x00E3EF xB79DED x9E941B x034B03 x8436FE xB08F60 x314190 x2197EF x9EDF3C xDD033C
+	}
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_middle_east = no
+		owns_entire_state_region = STATE_YEMEN
+		NOR = {
+			AND = {
+				exists = c:EGY
+				this = c:EGY
+			}
+			AND = {
+				exists = c:ARA
+				this = c:ARA
+			}
+		}
+	}
 }
 
 #Protectorate of Aden
@@ -786,36 +860,10 @@ C1A = {
 	}
 }
 
-#Protectorate of Cyprus
-C1C = {
+#Colonial Oman
+C1O = {
 	states = {
-		STATE_CYPRUS
-	}
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-	
-	ai_will_do = { always = no }
-}
-
-#Falkland Islands
-C1F = {
-	states = {
-		STATE_SOUTH_ATLANTIC_ISLANDS
-	}
-	
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-	
-	ai_will_do = { always = no }
-}
-
-#Colonial Hejaz
-C1H = {
-	states = {
-		STATE_HEDJAZ
+		STATE_OMAN
 	}
 
 	possible = {
@@ -826,7 +874,35 @@ C1H = {
 		has_game_rule = bem_colonial_nations_release
 		can_have_subjects = yes
 		country_is_in_middle_east = no
-		owns_entire_state_region = STATE_HEDJAZ
+		owns_entire_state_region = STATE_OMAN
+		NOR = {
+			AND = {
+				exists = c:EGY
+				this = c:EGY
+			}
+			AND = {
+				exists = c:ARA
+				this = c:ARA
+			}
+		}
+	}
+}
+
+#Colonial Trucial Coast
+CAR_colonial_trucial_coast = {
+	states = {
+		STATE_ABU_DHABI
+	}
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_middle_east = no
+		owns_entire_state_region = STATE_ABU_DHABI
 		NOR = {
 			AND = {
 				exists = c:EGY
@@ -872,10 +948,11 @@ C1I = {
 	}
 }
 
-#Colonial Oman
-C1O = {
+#Colonial Arabia
+C4A = {
 	states = {
-		STATE_OMAN
+		STATE_HAIL
+		STATE_NEJD
 	}
 
 	possible = {
@@ -886,7 +963,8 @@ C1O = {
 		has_game_rule = bem_colonial_nations_release
 		can_have_subjects = yes
 		country_is_in_middle_east = no
-		owns_entire_state_region = STATE_OMAN
+		owns_entire_state_region = STATE_HAIL
+		owns_entire_state_region = STATE_NEJD
 		NOR = {
 			AND = {
 				exists = c:EGY
@@ -900,10 +978,13 @@ C1O = {
 	}
 }
 
-#Protectorate of Palestine
-C1P = {
+#Colonial Syria
+CAR_colonial_syria = {
 	states = {
-		STATE_PALESTINE
+		STATE_SYRIA
+		STATE_ALEPPO
+		STATE_DEIR_EZ_ZOR
+		STATE_LEBANON
 	}
 
 	possible = {
@@ -914,7 +995,9 @@ C1P = {
 		has_game_rule = bem_colonial_nations_release
 		can_have_subjects = yes
 		country_is_in_middle_east = no
-		owns_entire_state_region = STATE_PALESTINE
+		owns_entire_state_region = STATE_ABU_DHABI
+		owns_entire_state_region = STATE_SYRIA
+		owns_entire_state_region = STATE_DEIR_EZ_ZOR
 		NOR = {
 			AND = {
 				exists = c:EGY
@@ -928,32 +1011,101 @@ C1P = {
 	}
 }
 
-#Protectorate of Yemen
-C1Y = {
+#Colonial Lebanon
+CAR_colonial_lebanon = {
+	states = {
+		STATE_LEBANON
+	}
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_middle_east = no
+		owns_entire_state_region = STATE_LEBANON
+		NOR = {
+			AND = {
+				exists = c:EGY
+				this = c:EGY
+			}
+			AND = {
+				exists = c:ARA
+				this = c:ARA
+			}
+		}
+	}
+}
+
+################################################
+
+#Hong Kong
+HGK = {
 	provinces = {
-		x567A83 xE5892F x02F9FF x7EC879 x625380 x9D8A78 xEF2E43 xBB387A xCF6C49 x7C3EA9 xFE5027 x68B524 xE5DF3B x1A7BB0 x2576C1 xCF401E x49FCAB x6290E6 xF86F58 x84FA60 x8B1488 x075453 x00E3EF xB79DED x9E941B x034B03 x8436FE xB08F60 x314190 x2197EF x9EDF3C xDD033C
+		xB03161
+	}
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+	
+	ai_will_do = { always = no }
+}
+
+#Strait Settlements
+SST = {
+	provinces = {
+		xC00130 x8080B0 x08673B
 	}
 
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
 	}
 	
-	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_middle_east = no
-		owns_entire_state_region = STATE_YEMEN
-		NOR = {
-			AND = {
-				exists = c:EGY
-				this = c:EGY
-			}
-			AND = {
-				exists = c:ARA
-				this = c:ARA
-			}
-		}
+	ai_will_do = { always = no }
+}
+
+#Colonial British Guayana
+CBG = {
+	provinces = {
+		xA22A4C xBB88B5 x218011 x1F5190 x6B802F xA52CE3 xE600F3 xA00111 x734F81 x8E31E8 x7B4B5E x63ABD4 x3A069F x24A66B x719492 x41552E x4AE8F7 x9A88B5 xB21306 xB1960A x805A8C x518580 xC0C0D0 xADE6C2 xE85635 x9FEDF7 xAA1153 x6816FF x350473 xFAE8C5 xB3512B xD0678B xD0BA2B xE7864B xA350D5 x6C6251
 	}
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+	
+	ai_will_do = { always = no }
+}
+
+#Protectorate of Cyprus
+C1C = {
+	states = {
+		STATE_CYPRUS
+	}
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = { always = no }
+}
+
+#Falkland Islands
+C1F = {
+	states = {
+		STATE_SOUTH_ATLANTIC_ISLANDS
+	}
+	
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = { always = no }
 }
 
 #Colony of Bermuda
@@ -984,34 +1136,6 @@ C2P = {
 		can_have_subjects = yes
 		country_is_in_africa = no
 		owns_entire_state_region = STATE_EASTERN_NEW_GUINEA
-	}
-}
-
-#Protectorate of Transjordan
-C2T = {
-	states = {
-		STATE_TRANSJORDAN
-	}
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-	
-	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_middle_east = no
-		owns_entire_state_region = STATE_TRANSJORDAN
-		NOR = {
-			AND = {
-				exists = c:EGY
-				this = c:EGY
-			}
-			AND = {
-				exists = c:ARA
-				this = c:ARA
-			}
-		}
 	}
 }
 
@@ -1064,36 +1188,6 @@ C3I = {
 		owns_entire_state_region = STATE_NORTH_SUMATRA
 		owns_entire_state_region = STATE_SOUTH_SUMATRA
 		owns_entire_state_region = STATE_SUNDA_ISLANDS
-	}
-}
-
-#Colonial Arabia
-C4A = {
-	states = {
-		STATE_HAIL
-		STATE_NEJD
-	}
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-	
-	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_middle_east = no
-		owns_entire_state_region = STATE_HAIL
-		owns_entire_state_region = STATE_NEJD
-		NOR = {
-			AND = {
-				exists = c:EGY
-				this = c:EGY
-			}
-			AND = {
-				exists = c:ARA
-				this = c:ARA
-			}
-		}
 	}
 }
 

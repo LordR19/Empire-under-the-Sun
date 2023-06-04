@@ -1,8 +1,8 @@
 ########################################
 
-Cabinet of Wonder was created by Lord R
+Empire under the Sun
 
-This Mod tries to add flavor to different regions in the world of Victoria 3. Right now it focuses on Switzerland.
+EutS is a Mod focused on expanding Colonialism by adding new Colonial Countries that will be released dynamically.
 
 ########################################
 

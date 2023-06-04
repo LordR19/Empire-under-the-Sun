@@ -377,6 +377,51 @@ bem_colonial_nation_trigger = {
 			exists = c:C6C_AI
 			this = c:C6C_AI
 		}
+		### Arabia Region Countries ###
+		AND = { #Colonial Palestine
+			exists = c:C1P
+			this = c:C1P
+		}
+		AND = { #Colonial Transjordan
+			exists = c:C2T
+			this = c:C2T
+		}
+		AND = { #Colonial Hejaz
+			exists = c:C1H
+			this = c:C1H
+		}
+		AND = { #Colonial Yemen
+			exists = c:C1Y
+			this = c:C1Y
+		}
+		AND = { #Colonial Aden
+			exists = c:C1A
+			this = c:C1A
+		}
+		AND = { #Colonial Oman
+			exists = c:C1O
+			this = c:C1O
+		}
+		AND = {
+			exists = c:CAR_colonial_trucial_coast
+			this = c:CAR_colonial_trucial_coast
+		}
+		AND = { #Colonial Arabia
+			exists = c:C4A
+			this = c:C4A
+		}
+		AND = { #Colonial Iraq
+			exists = c:C1I
+			this = c:C1I
+		}
+		AND = {
+			exists = c:CAR_colonial_syria
+			this = c:CAR_colonial_syria
+		}
+		AND = {
+			exists = c:CAR_colonial_lebanon
+			this = c:CAR_colonial_lebanon
+		}
 		###  ###
 		AND = {
 			exists = c:HGK
@@ -391,10 +436,6 @@ bem_colonial_nation_trigger = {
 			this = c:SST
 		}
 		AND = {
-			exists = c:C1A
-			this = c:C1A
-		}
-		AND = {
 			exists = c:C1C
 			this = c:C1C
 		}
@@ -405,26 +446,6 @@ bem_colonial_nation_trigger = {
 		AND = {
 			exists = c:C1F
 			this = c:C1F
-		}
-		AND = {
-			exists = c:C1H
-			this = c:C1H
-		}
-		AND = {
-			exists = c:C1I
-			this = c:C1I
-		}
-		AND = {
-			exists = c:C1O
-			this = c:C1O
-		}
-		AND = {
-			exists = c:C1P
-			this = c:C1P
-		}
-		AND = {
-			exists = c:C1Y
-			this = c:C1Y
 		}
 		AND = {
 			exists = c:C2B
@@ -439,20 +460,12 @@ bem_colonial_nation_trigger = {
 			this = c:C2S
 		}
 		AND = {
-			exists = c:C2T
-			this = c:C2T
-		}
-		AND = {
 			exists = c:C3B
 			this = c:C3B
 		}
 		AND = {
 			exists = c:C3I
 			this = c:C3I
-		}
-		AND = {
-			exists = c:C4A
-			this = c:C4A
 		}
 		AND = {
 			exists = c:C4G
@@ -969,6 +982,57 @@ bem_colonial_nation_south_africa_trigger = {
 		}
 	}
 }
+
+#Trigger for all the Colonial Nations in the Arabia Region
+bem_colonial_nation_arabia_trigger = {
+	OR = {
+		AND = { #Colonial Palestine
+			exists = c:C1P
+			this = c:C1P
+		}
+		AND = { #Colonial Transjordan
+			exists = c:C2T
+			this = c:C2T
+		}
+		AND = { #Colonial Hejaz
+			exists = c:C1H
+			this = c:C1H
+		}
+		AND = { #Colonial Yemen
+			exists = c:C1Y
+			this = c:C1Y
+		}
+		AND = { #Colonial Aden
+			exists = c:C1A
+			this = c:C1A
+		}
+		AND = { #Colonial Oman
+			exists = c:C1O
+			this = c:C1O
+		}
+		AND = {
+			exists = c:CAR_colonial_trucial_coast
+			this = c:CAR_colonial_trucial_coast
+		}
+		AND = { #Colonial Arabia
+			exists = c:C4A
+			this = c:C4A
+		}
+		AND = { #Colonial Iraq
+			exists = c:C1I
+			this = c:C1I
+		}
+		AND = {
+			exists = c:CAR_colonial_syria
+			this = c:CAR_colonial_syria
+		}
+		AND = {
+			exists = c:CAR_colonial_lebanon
+			this = c:CAR_colonial_lebanon
+		}
+	}
+}
+
 
 #Trigger for all the Colonial Nations in the Oceania Region
 bem_colonial_nation_oceania_trigger = {

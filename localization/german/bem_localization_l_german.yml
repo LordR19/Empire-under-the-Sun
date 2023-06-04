@@ -383,6 +383,16 @@
  dyn_c_default_arabia: "Inneres Arabien"
  dyn_c_colonial_arabia: "[Country.GetOverlord.GetAdjectiveNoFormatting] Arabien"
 
+ CAR_colonial_trucial_coast: "Kolonial Vertragsoman"
+ CAR_colonial_trucial_coast_ADJ: "Vertragsomanisch"
+ dyn_c_default_trucial_coast: "Vertragsoman"
+ dyn_c_colonial_trucial_coast: "[Country.GetOverlord.GetAdjectiveNoFormatting] Vertragsoman"
+
+ CAR_colonial_syria: "Kolonial Syrien"
+ CAR_colonial_syria_ADJ: "Syrisch"
+ dyn_c_default_syria: "Syrien"
+ dyn_c_colonial_syria: "[Country.GetOverlord.GetAdjectiveNoFormatting] Syrien"
+
  C3A: "Kolonial Algerien"
  C3A_ADJ: "Algerisch"
  C3A_AI: "Kolonial Algerien"
@@ -865,8 +875,11 @@
  bem_hide_colonial_decisions_toggle_desc: "Versteckt alle Kolonialen Entscheidungen."
  hide_colonial_decisions_tt: "Versteckt alle Kolonialen Entscheidungen."
 
- bem_transfer_colonial_lands_puppet_decision: "Transferiert #yellow Afrikanische#! Kolonialgebiete von Marionetten"
- bem_transfer_colonial_lands_puppet_decision_desc: "Übernehme doe Kontrolle über alle #yellow Afrikanischen#! Kolonialgebiete von Marionetten."
+ bem_transfer_colonial_lands_africa_puppet_decision: "Transferiert #yellow Afrikanische#! Kolonialgebiete von Marionetten"
+ bem_transfer_colonial_lands_africa_puppet_decision_desc: "Übernehme doe Kontrolle über alle #yellow Afrikanischen#! Kolonialgebiete von Marionetten."
+
+ bem_transfer_colonial_lands_oceania_puppet_decision: "Transferiert #yellow Ozeanischen#! Kolonialgebiete von Marionetten"
+ bem_transfer_colonial_lands_oceania_puppet_decision_desc: "Übernehme doe Kontrolle über alle #yellow Ozeanischen#! Kolonialgebiete von Marionetten."
 
  unite_colonies_maghreb_decision: "Vereine Kolonien in Nordafrika"
  unite_colonies_maghreb_decision_desc: "Diese Entscheidung erlaubt dir, #yellow alle Kolonialen Untertanen und eigenen Staaten in Nordafrika#! in eine grosse Kolonialnation zu vereinen."

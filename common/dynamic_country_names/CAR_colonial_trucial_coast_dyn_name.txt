@@ -1,0 +1,26 @@
+﻿# Colonial Trucial Coast
+CAR_colonial_trucial_coast = {
+	dynamic_country_name = {
+		name = dyn_c_default_trucial_coast
+
+		is_main_tag_only = no
+		priority = 1
+		
+		trigger = {
+			always = yes
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_colonial_trucial_coast
+
+		is_main_tag_only = no
+		priority = 10
+		
+		trigger = {
+			scope:actor = {
+				is_subject = yes
+			}
+		}
+	}
+}

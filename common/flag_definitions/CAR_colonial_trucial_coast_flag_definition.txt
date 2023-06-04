@@ -1,0 +1,111 @@
+﻿#Colonial Trucial Coast
+CAR_colonial_trucial_coast = {
+	flag_definition = {
+		coa = CAR_colonial_trucial_coast
+		subject_canton = CAR_colonial_trucial_coast
+		allow_overlord_canton = yes	
+		coa_with_overlord_canton = CAR_colonial_trucial_coast_sub		
+		priority = 1
+	}
+
+	flag_definition = {
+		coa = CAR_colonial_trucial_coast
+		subject_canton = CAR_colonial_trucial_coast
+		coa_with_overlord_canton = CAR_colonial_trucial_coast_sub	
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+		
+	flag_definition = {
+		coa = CAR_colonial_trucial_coast_sub
+		allow_overlord_canton = yes
+		subject_canton = CAR_colonial_trucial_coast
+		coa_with_overlord_canton = CAR_colonial_trucial_coast_sub		
+		priority = 50
+		trigger = {
+			scope:actor = {
+				is_subject = yes
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = CAR_colonial_trucial_coast_sub_british
+		allow_overlord_canton = yes
+		subject_canton = CAR_colonial_trucial_coast
+		coa_with_overlord_canton = CAR_colonial_trucial_coast_sub_british		
+		priority = 100
+		trigger = { 
+			exists = c:GBR
+			scope:actor = {
+				is_direct_subject_of  = c:GBR
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = CAR_colonial_trucial_coast_sub_italian
+		allow_overlord_canton = no
+		subject_canton = CAR_colonial_trucial_coast_sub_italian
+		coa_with_overlord_canton = CAR_colonial_trucial_coast_sub_italian		
+		priority = 100
+		trigger = { 
+			exists = c:ITA
+			scope:actor = {
+				is_direct_subject_of  = c:ITA
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = CAR_colonial_trucial_coast_sub_french
+		allow_overlord_canton = no
+		subject_canton = CAR_colonial_trucial_coast_sub_french
+		coa_with_overlord_canton = CAR_colonial_trucial_coast_sub_french		
+		priority = 100
+		trigger = { 
+			exists = c:FRA
+			scope:actor = {
+				is_direct_subject_of  = c:FRA
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = CAR_colonial_trucial_coast_sub_dutch
+		allow_overlord_canton = no
+		subject_canton = CAR_colonial_trucial_coast_sub_dutch
+		coa_with_overlord_canton = CAR_colonial_trucial_coast_sub_dutch
+		priority = 100
+		trigger = { 
+			exists = c:NET
+			scope:actor = {
+				is_direct_subject_of  = c:NET
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = CAR_colonial_trucial_coast_monarchy
+		subject_canton = CAR_colonial_trucial_coast_monarchy
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = CAR_colonial_trucial_coast_sub			
+		priority = 20
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = CAR_colonial_trucial_coast_dictatorship
+		subject_canton = CAR_colonial_trucial_coast_dictatorship
+		allow_overlord_canton = yes	
+		coa_with_overlord_canton = CAR_colonial_trucial_coast_sub
+		priority = 20
+		trigger = {
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}	
+}

@@ -446,6 +446,21 @@
  dyn_c_default_arabia: "Inner Arabia"
  dyn_c_colonial_arabia: "[Country.GetOverlord.GetAdjectiveNoFormatting] Arabia"
 
+ CAR_colonial_trucial_coast: "Colonial Trucial Coast"
+ CAR_colonial_trucial_coast_ADJ: "Trucial"
+ dyn_c_default_trucial_coast: "Trucial Coast"
+ dyn_c_colonial_trucial_coast: "[Country.GetOverlord.GetAdjectiveNoFormatting] Trucial Coast"
+
+ CAR_colonial_syria: "Colonial Syria"
+ CAR_colonial_syria_ADJ: "Syrian"
+ dyn_c_default_syria: "Syria"
+ dyn_c_colonial_syria: "[Country.GetOverlord.GetAdjectiveNoFormatting] Syria"
+
+ CAR_colonial_lebanon: "Colonial Lebanon"
+ CAR_colonial_lebanon_ADJ: "Lebanese"
+ dyn_c_default_lebanon: "Lebanon"
+ dyn_c_colonial_lebanon: "[Country.GetOverlord.GetAdjectiveNoFormatting] Lebanon"
+
  C4C: "Colonial Central Africa"
  C4C_ADJ: "Central African"
  C4C_AI: "Colonial Central Africa"
@@ -894,8 +909,11 @@
  bem_hide_colonial_decisions_toggle_desc: "Hides all the Colonial Decisions"
  hide_colonial_decisions_tt: "Hides all the Colonial Decisions"
 
- bem_transfer_colonial_lands_puppet_decision: "Transfer #yellow African#! Colonial Lands of Puppets"
- bem_transfer_colonial_lands_puppet_decision_desc: "Take control of all the #yellow African#! colonial lands of your puppets."
+ bem_transfer_colonial_lands_africa_puppet_decision: "Transfer #yellow African#! Colonial Lands of Puppets"
+ bem_transfer_colonial_lands_africa_puppet_decision_desc: "Take control of all the #yellow African#! colonial lands of your puppets."
+
+ bem_transfer_colonial_lands_oceania_puppet_decision: "Transfer #yellow Oceanian#! Colonial Lands of Puppets"
+ bem_transfer_colonial_lands_oceania_puppet_decision_desc: "Take control of all the #yellow Oceanian#! colonial lands of your puppets."
 
  unite_colonies_maghreb_decision: "Unite Colonies in North Africa"
  unite_colonies_maghreb_decision_desc: "This Decision allows you to #yellow unite all your Colonial Subjects and states in North Africa#! into one big Colonial Nation."

@@ -1380,6 +1380,177 @@ C6C_AI = {
 
 ################################################
 
+### Arabia Region Countries ###
+
+#Colonial Palestine
+C1P = {
+
+	color = { 30  50  120 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_PALESTINE
+	
+}
+
+#Protectorate of Transjordan
+C2T = {
+
+	color = { 0 100 170 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_TRANSJORDAN
+	
+}
+
+#Colonial Hejaz
+C1H = {
+
+	color = { 42 42 42 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital =  	STATE_HEDJAZ
+	
+}
+
+#Protectorate of Yemen
+C1Y = {
+
+	color = { 255 60 0 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_YEMEN
+	
+}
+
+#Protectorate of Aden
+C1A = {
+
+	color = { 33 130 220 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_YEMEN
+	
+}
+
+#Colonial Oman
+C1O = {
+
+	color = { 255 112 112 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_OMAN
+	
+}
+
+#Colonial Trucial Coast
+CAR_colonial_trucial_coast = {
+
+	color = { 0 0 255 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_ABU_DHABI
+	
+}
+
+#Colonial Arabia
+C4A = {
+
+	color = { 0 142 0 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_HAIL
+	
+}
+
+#Colonial Iraq
+C1I = {
+
+	color = { 122 122 122 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_BAGHDAD
+	
+}
+
+#Colonial Syria
+CAR_colonial_syria = {
+
+	color = { 164 164 255 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_SYRIA
+	
+}
+
+#Colonial Lebanon
+CAR_colonial_lebanon = {
+
+	color = { 42 255 42 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_LEBANON
+	
+}
+
+################################################
+
+###  ###
+
 #Hong Kong
 HGK = {
 
@@ -1425,21 +1596,6 @@ CBG = {
 	
 }
 
-#Protectorate of Aden
-C1A = {
-
-	color = { 33 130 220 }
-	
-	country_type = colonial
-	
-	tier = principality
-
-	cultures = { british }
-	
-	capital = STATE_YEMEN
-	
-}
-
 #Colonial Cyprus
 C1C = {
 
@@ -1467,81 +1623,6 @@ C1F = {
 	cultures = { british }
 	
 	capital = STATE_SOUTH_ATLANTIC_ISLANDS
-	
-}
-
-#Colonial Hejaz
-C1H = {
-
-	color = { 42 42 42 }
-	
-	country_type = colonial
-	
-	tier = principality
-
-	cultures = { british }
-	
-	capital =  	STATE_HEDJAZ
-	
-}
-
-#Colonial Iraq
-C1I = {
-
-	color = { 122 122 122 }
-	
-	country_type = colonial
-	
-	tier = kingdom
-
-	cultures = { british }
-	
-	capital = STATE_BAGHDAD
-	
-}
-
-#Colonial Oman
-C1O = {
-
-	color = { 255 112 112 }
-	
-	country_type = colonial
-	
-	tier = principality
-
-	cultures = { british }
-	
-	capital = STATE_OMAN
-	
-}
-
-#Colonial Palestine
-C1P = {
-
-	color = { 30  50  120 }
-	
-	country_type = colonial
-	
-	tier = principality
-
-	cultures = { british }
-	
-	capital = STATE_PALESTINE
-	
-}
-
-#Protectorate of Yemen
-C1Y = {
-
-	color = { 255 60 0 }
-	
-	country_type = colonial
-	
-	tier = principality
-
-	cultures = { british }
-	
-	capital = STATE_YEMEN
 	
 }
 
@@ -1575,21 +1656,6 @@ C2P = {
 	
 }
 
-#Protectorate of Transjordan
-C2T = {
-
-	color = { 0 100 170 }
-	
-	country_type = colonial
-	
-	tier = principality
-
-	cultures = { british }
-	
-	capital = STATE_TRANSJORDAN
-	
-}
-
 #Colonial Borneo
 C3B = {
 
@@ -1618,21 +1684,6 @@ C3I = {
 
 	capital = STATE_WEST_JAVA
 
-}
-
-#Colonial Arabia
-C4A = {
-
-	color = { 0 142 0 }
-	
-	country_type = colonial
-	
-	tier = kingdom
-
-	cultures = { british }
-	
-	capital = STATE_HAIL
-	
 }
 
 #Colonial Gibraltar
