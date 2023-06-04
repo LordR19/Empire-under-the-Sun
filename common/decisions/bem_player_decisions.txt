@@ -246,7 +246,7 @@ bem_transfer_pacific_islands_from_subject_decision = {
 	}
 
 	ai_chance = {
-		base = 100
+		base = 0
 	}
 }
 
