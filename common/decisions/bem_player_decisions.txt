@@ -127,29 +127,31 @@ bem_transfer_pacific_islands_from_subject_decision = {
 	is_shown = {
 		any_subject_or_below = {
 			is_ai = yes
-			AND = {
-				exists = NZL
-				this = NZL
-			}
-			AND = {
-				exists = AST
-				this = AST
-			}
-			AND = {
-				exists = NSW
-				this = NSW
-			}
-			AND = {
-				exists = SAS
-				this = SAS
-			}
-			AND = {
-				exists = TAS
-				this = TAS
-			}
-			AND = {
-				exists = WAS
-				this = WAS
+			OR = {
+				AND = {
+					exists = c:NZL
+					this = c:NZL
+				}
+				AND = {
+					exists = c:AST
+					this = c:AST
+				}
+				AND = {
+					exists = c:NSW
+					this = c:NSW
+				}
+				AND = {
+					exists = c:SAS
+					this = c:SAS
+				}
+				AND = {
+					exists = c:TAS
+					this = c:TAS
+				}
+				AND = {
+					exists = c:WAS
+					this = c:WAS
+				}
 			}
 			is_direct_subject_of = root
 			any_scope_state = {
@@ -179,29 +181,31 @@ bem_transfer_pacific_islands_from_subject_decision = {
 		every_subject_or_below = {
 			limit = {
 				is_ai = yes
-				AND = {
-					exists = NZL
-					this = NZL
-				}
-				AND = {
-					exists = AST
-					this = AST
-				}
-				AND = {
-					exists = NSW
-					this = NSW
-				}
-				AND = {
-					exists = SAS
-					this = SAS
-				}
-				AND = {
-					exists = TAS
-					this = TAS
-				}
-				AND = {
-					exists = WAS
-					this = WAS
+				OR = {
+					AND = {
+						exists = c:NZL
+						this = c:NZL
+					}
+					AND = {
+						exists = c:AST
+						this = c:AST
+					}
+					AND = {
+						exists = c:NSW
+						this = c:NSW
+					}
+					AND = {
+						exists = c:SAS
+						this = c:SAS
+					}
+					AND = {
+						exists = c:TAS
+						this = c:TAS
+					}
+					AND = {
+						exists = c:WAS
+						this = c:WAS
+					}
 				}
 				is_direct_subject_of = root
 				any_scope_state = {
