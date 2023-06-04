@@ -881,6 +881,9 @@
  bem_transfer_colonial_lands_oceania_puppet_decision: "Transferiert #yellow Ozeanischen#! Kolonialgebiete von Marionetten"
  bem_transfer_colonial_lands_oceania_puppet_decision_desc: "Übernehme doe Kontrolle über alle #yellow Ozeanischen#! Kolonialgebiete von Marionetten."
 
+ bem_transfer_pacific_islands_from_subject_decision: "Übertrage #yellow pazifische Inseln#! von australischem Untertan"
+ bem_transfer_pacific_islands_from_subject_decision_desc: "Übernimm die Kontrolle über alle #yellow Pazifikinseln#!, die derzeit von einem Untertanenstaat wie Australien oder Neuseeland kontrolliert werden."
+
  unite_colonies_maghreb_decision: "Vereine Kolonien in Nordafrika"
  unite_colonies_maghreb_decision_desc: "Diese Entscheidung erlaubt dir, #yellow alle Kolonialen Untertanen und eigenen Staaten in Nordafrika#! in eine grosse Kolonialnation zu vereinen."
  colonial_nations_north_africa_more_2_tt: "Du hast zwei oder mehr #yellow Kolonialnationen#! in der Nordafrika Region"
