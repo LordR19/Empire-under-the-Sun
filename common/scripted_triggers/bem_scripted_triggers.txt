@@ -528,53 +528,105 @@ bem_colonial_nation_trigger = {
 			exists = c:C5A
 			this = c:C5A
 		}
+		AND = { #Colonial Australia AI
+			exists = c:C5A_AI
+			this = c:C5A_AI
+		}
 		AND = { #Colonial New Zealand
 			exists = c:C1Z
 			this = c:C1Z
 		}
-		AND = {
+		AND = { #Colonial New Zealand AI
+			exists = c:C1Z_AI
+			this = c:C1Z_AI
+		}
+		AND = { #Colonial West Micronesia
 			exists = c:COC_colonial_west_micronesia
 			this = c:COC_colonial_west_micronesia
 		}
-		AND = {
+		AND = { #Colonial West Micronesia AI
+			exists = c:COC_colonial_west_micronesia_AI
+			this = c:COC_colonial_west_micronesia_AI
+		}
+		AND = { #Colonial East Micronesia
 			exists = c:COC_colonial_east_micronesia
 			this = c:COC_colonial_east_micronesia
 		}
-		AND = {
+		AND = { #Colonial East Micronesia AI
+			exists = c:COC_colonial_east_micronesia_AI
+			this = c:COC_colonial_east_micronesia_AI
+		}
+		AND = { #Colonial Nauru
 			exists = c:COC_colonial_nauru
 			this = c:COC_colonial_nauru
 		}
-		AND = {
+		AND = { #Colonial Nauru AI
+			exists = c:COC_colonial_nauru_AI
+			this = c:COC_colonial_nauru_AI
+		}
+		AND = { #Colonial Bougainville
 			exists = c:COC_colonial_bougainville
 			this = c:COC_colonial_bougainville
 		}
-		AND = {
+		AND = { #Colonial Bougainville AI
+			exists = c:COC_colonial_bougainville_AI
+			this = c:COC_colonial_bougainville_AI
+		}
+		AND = { #Colonial Solomon Islands
 			exists = c:COC_colonial_solomon_islands
 			this = c:COC_colonial_solomon_islands
 		}
-		AND = {
+		AND = { #Colonial Solomon Islands AI
+			exists = c:COC_colonial_solomon_islands_AI
+			this = c:COC_colonial_solomon_islands_AI
+		}
+		AND = { #Colonial Vanuatu
 			exists = c:COC_colonial_vanuatu
 			this = c:COC_colonial_vanuatu
 		}
-		AND = {
+		AND = { #Colonial Vanuatu AI
+			exists = c:COC_colonial_vanuatu_AI
+			this = c:COC_colonial_vanuatu_AI
+		}
+		AND = { #Colonial New Caledonia
 			exists = c:COC_colonial_new_caledonia
 			this = c:COC_colonial_new_caledonia
 		}
-		AND = {
+		AND = { #Colonial New Caledonia AI
+			exists = c:COC_colonial_new_caledonia_AI
+			this = c:COC_colonial_new_caledonia_AI
+		}
+		AND = { #Colonial Fiji
 			exists = c:COC_colonial_fiji
 			this = c:COC_colonial_fiji
 		}
-		AND = {
+		AND = { #Colonial Fiji AI
+			exists = c:COC_colonial_fiji_AI
+			this = c:COC_colonial_fiji_AI
+		}
+		AND = { #Colonial Tonga
 			exists = c:COC_colonial_tonga
 			this = c:COC_colonial_tonga
 		}
-		AND = {
+		AND = { #Colonial Tonga AI
+			exists = c:COC_colonial_tonga_AI
+			this = c:COC_colonial_tonga_AI
+		}
+		AND = { #Colonial Tahiti
 			exists = c:COC_colonial_tahiti
 			this = c:COC_colonial_tahiti
 		}
-		AND = {
+		AND = { #Colonial Tahiti AI
+			exists = c:COC_colonial_tahiti_AI
+			this = c:COC_colonial_tahiti_AI
+		}
+		AND = { #Colonial Hawaii
 			exists = c:COC_colonial_hawaii
 			this = c:COC_colonial_hawaii
+		}
+		AND = { #Colonial Hawaii AI
+			exists = c:COC_colonial_hawaii_AI
+			this = c:COC_colonial_hawaii_AI
 		}
 	}
 }
@@ -1053,53 +1105,105 @@ bem_colonial_nation_oceania_trigger = {
 			exists = c:C5A
 			this = c:C5A
 		}
+		AND = { #Colonial Australia AI
+			exists = c:C5A_AI
+			this = c:C5A_AI
+		}
 		AND = { #Colonial New Zealand
 			exists = c:C1Z
 			this = c:C1Z
 		}
-		AND = {
+		AND = { #Colonial New Zealand AI
+			exists = c:C1Z_AI
+			this = c:C1Z_AI
+		}
+		AND = { #Colonial West Micronesia
 			exists = c:COC_colonial_west_micronesia
 			this = c:COC_colonial_west_micronesia
 		}
-		AND = {
+		AND = { #Colonial West Micronesia AI
+			exists = c:COC_colonial_west_micronesia_AI
+			this = c:COC_colonial_west_micronesia_AI
+		}
+		AND = { #Colonial East Micronesia
 			exists = c:COC_colonial_east_micronesia
 			this = c:COC_colonial_east_micronesia
 		}
-		AND = {
+		AND = { #Colonial East Micronesia AI
+			exists = c:COC_colonial_east_micronesia_AI
+			this = c:COC_colonial_east_micronesia_AI
+		}
+		AND = { #Colonial Nauru
 			exists = c:COC_colonial_nauru
 			this = c:COC_colonial_nauru
 		}
-		AND = {
+		AND = { #Colonial Nauru AI
+			exists = c:COC_colonial_nauru_AI
+			this = c:COC_colonial_nauru_AI
+		}
+		AND = { #Colonial Bougainville
 			exists = c:COC_colonial_bougainville
 			this = c:COC_colonial_bougainville
 		}
-		AND = {
+		AND = { #Colonial Bougainville AI
+			exists = c:COC_colonial_bougainville_AI
+			this = c:COC_colonial_bougainville_AI
+		}
+		AND = { #Colonial Solomon Islands
 			exists = c:COC_colonial_solomon_islands
 			this = c:COC_colonial_solomon_islands
 		}
-		AND = {
+		AND = { #Colonial Solomon Islands AI
+			exists = c:COC_colonial_solomon_islands_AI
+			this = c:COC_colonial_solomon_islands_AI
+		}
+		AND = { #Colonial Vanuatu
 			exists = c:COC_colonial_vanuatu
 			this = c:COC_colonial_vanuatu
 		}
-		AND = {
+		AND = { #Colonial Vanuatu AI
+			exists = c:COC_colonial_vanuatu_AI
+			this = c:COC_colonial_vanuatu_AI
+		}
+		AND = { #Colonial New Caledonia
 			exists = c:COC_colonial_new_caledonia
 			this = c:COC_colonial_new_caledonia
 		}
-		AND = {
+		AND = { #Colonial New Caledonia AI
+			exists = c:COC_colonial_new_caledonia_AI
+			this = c:COC_colonial_new_caledonia_AI
+		}
+		AND = { #Colonial Fiji
 			exists = c:COC_colonial_fiji
 			this = c:COC_colonial_fiji
 		}
-		AND = {
+		AND = { #Colonial Fiji AI
+			exists = c:COC_colonial_fiji_AI
+			this = c:COC_colonial_fiji_AI
+		}
+		AND = { #Colonial Tonga
 			exists = c:COC_colonial_tonga
 			this = c:COC_colonial_tonga
 		}
-		AND = {
+		AND = { #Colonial Tonga AI
+			exists = c:COC_colonial_tonga_AI
+			this = c:COC_colonial_tonga_AI
+		}
+		AND = { #Colonial Tahiti
 			exists = c:COC_colonial_tahiti
 			this = c:COC_colonial_tahiti
 		}
-		AND = {
+		AND = { #Colonial Tahiti AI
+			exists = c:COC_colonial_tahiti_AI
+			this = c:COC_colonial_tahiti_AI
+		}
+		AND = { #Colonial Hawaii
 			exists = c:COC_colonial_hawaii
 			this = c:COC_colonial_hawaii
+		}
+		AND = { #Colonial Hawaii AI
+			exists = c:COC_colonial_hawaii_AI
+			this = c:COC_colonial_hawaii_AI
 		}
 	}
 }
