@@ -378,6 +378,10 @@ bem_colonial_nation_trigger = {
 			this = c:C6C_AI
 		}
 		### Arabia Region Countries ###
+		AND = { #Colonial Arabia Region
+			exists = c:CAR_colonial_arabia_region
+			this = c:CAR_colonial_arabia_region
+		}
 		AND = { #Colonial Palestine
 			exists = c:C1P
 			this = c:C1P
@@ -402,7 +406,7 @@ bem_colonial_nation_trigger = {
 			exists = c:C1O
 			this = c:C1O
 		}
-		AND = {
+		AND = { #Colonial Trucial Coast
 			exists = c:CAR_colonial_trucial_coast
 			this = c:CAR_colonial_trucial_coast
 		}
@@ -414,11 +418,11 @@ bem_colonial_nation_trigger = {
 			exists = c:C1I
 			this = c:C1I
 		}
-		AND = {
+		AND = { #Colonial Syria
 			exists = c:CAR_colonial_syria
 			this = c:CAR_colonial_syria
 		}
-		AND = {
+		AND = { #Colonial Lebanon
 			exists = c:CAR_colonial_lebanon
 			this = c:CAR_colonial_lebanon
 		}
@@ -986,6 +990,10 @@ bem_colonial_nation_south_africa_trigger = {
 #Trigger for all the Colonial Nations in the Arabia Region
 bem_colonial_nation_arabia_trigger = {
 	OR = {
+		AND = { #Colonial Arabia Region
+			exists = c:CAR_colonial_arabia_region
+			this = c:CAR_colonial_arabia_region
+		}
 		AND = { #Colonial Palestine
 			exists = c:C1P
 			this = c:C1P
@@ -1010,7 +1018,7 @@ bem_colonial_nation_arabia_trigger = {
 			exists = c:C1O
 			this = c:C1O
 		}
-		AND = {
+		AND = { #Colonial Trucial Coast
 			exists = c:CAR_colonial_trucial_coast
 			this = c:CAR_colonial_trucial_coast
 		}
@@ -1022,11 +1030,11 @@ bem_colonial_nation_arabia_trigger = {
 			exists = c:C1I
 			this = c:C1I
 		}
-		AND = {
+		AND = { #Colonial Syria
 			exists = c:CAR_colonial_syria
 			this = c:CAR_colonial_syria
 		}
-		AND = {
+		AND = { #Colonial Lebanon
 			exists = c:CAR_colonial_lebanon
 			this = c:CAR_colonial_lebanon
 		}

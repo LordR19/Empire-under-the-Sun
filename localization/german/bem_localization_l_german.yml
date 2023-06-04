@@ -378,6 +378,14 @@
  dyn_c_colony_of_tunisia: "[Country.GetOverlord.GetAdjectiveNoFormatting] Tunesien"
  dyn_c_colony_of_tunisia_adj: "Tunesisch"
 
+ CAR_colonial_arabia_region: "Kolonial Arabien"
+ CAR_colonial_arabia_region_ADJ: "Arabisch"
+ dyn_c_default_arabia_region: "Arabien"
+ dyn_c_colonial_arabia_region: "[Country.GetOverlord.GetAdjectiveNoFormatting] Arabien"
+ dyn_c_default_near_east: "Naher Osten"
+ dyn_c_default_near_east_ADJ: "Nahöstlich"
+ dyn_c_colonial_near_east: "[Country.GetOverlord.GetAdjectiveNoFormatting] Naher Osten"
+
  C4A: "Kolonial Arabien"
  C4A_ADJ: "Arabian"
  dyn_c_default_arabia: "Inneres Arabien"

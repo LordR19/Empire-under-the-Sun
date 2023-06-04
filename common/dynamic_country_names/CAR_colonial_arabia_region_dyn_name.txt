@@ -1,0 +1,91 @@
+﻿# Colonial Arabia Region
+CAR_colonial_arabia_region = {
+	dynamic_country_name = {
+		name = dyn_c_default_arabia_region
+
+		is_main_tag_only = no
+		priority = 1
+		
+		trigger = {
+			always = yes
+		}
+	}
+
+	#Non Arab Name
+	dynamic_country_name = {
+		name = dyn_c_default_near_east
+		adjective = dyn_c_default_near_east_ADJ
+
+		is_main_tag_only = no
+		priority = 4
+		
+		trigger = {
+			scope:actor = {
+				NOR = {
+					country_has_primary_culture  = cu:maghrebi
+					country_has_primary_culture  = cu:misri
+					country_has_primary_culture  = cu:mashriqi
+					country_has_primary_culture  = cu:bedouin
+					country_has_primary_culture  = cu:berber
+					country_has_primary_culture  = cu:yemenite
+				}
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_colonial_near_east
+		adjective = dyn_c_default_near_east_ADJ
+
+		is_main_tag_only = no
+		priority = 10
+		
+		trigger = {
+			scope:actor = {
+				is_subject = yes
+			}
+		}
+	}
+
+	#Name for Arab country / Arab overlord
+	dynamic_country_name = {
+		name = dyn_c_default_arabia_region
+
+		is_main_tag_only = no
+		priority = 5
+		
+		trigger = {
+			scope:actor = {
+				OR = {
+					country_has_primary_culture  = cu:maghrebi
+					country_has_primary_culture  = cu:misri
+					country_has_primary_culture  = cu:mashriqi
+					country_has_primary_culture  = cu:bedouin
+					country_has_primary_culture  = cu:berber
+					country_has_primary_culture  = cu:yemenite
+				}
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_colonial_arabia_region
+
+		is_main_tag_only = no
+		priority = 20
+		
+		trigger = {
+			scope:actor = {
+				is_subject = yes
+				overlord = {
+					OR = {
+						country_has_primary_culture  = cu:maghrebi
+						country_has_primary_culture  = cu:misri
+						country_has_primary_culture  = cu:mashriqi
+						country_has_primary_culture  = cu:bedouin
+						country_has_primary_culture  = cu:berber
+						country_has_primary_culture  = cu:yemenite
+					}
+				}
+			}
+		}
+	}
+}

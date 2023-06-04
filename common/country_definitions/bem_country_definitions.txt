@@ -1382,6 +1382,21 @@ C6C_AI = {
 
 ### Arabia Region Countries ###
 
+#Colonial Arabia Region
+CAR_colonial_arabia_region = {
+
+	color = { 0 64 0 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_SYRIA
+	
+}
+
 #Colonial Palestine
 C1P = {
 
@@ -1487,7 +1502,7 @@ CAR_colonial_trucial_coast = {
 	
 }
 
-#Colonial Arabia
+#Colonial Inner Arabia
 C4A = {
 
 	color = { 0 142 0 }

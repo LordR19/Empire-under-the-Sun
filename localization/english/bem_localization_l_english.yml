@@ -441,6 +441,14 @@
  dyn_c_colony_of_tunisia: "[Country.GetOverlord.GetAdjectiveNoFormatting] Tunisia"
  dyn_c_colony_of_tunisia_adj: "Tunisian"
 
+ CAR_colonial_arabia_region: "Colonial Arabia"
+ CAR_colonial_arabia_region_ADJ: "Arabian"
+ dyn_c_default_arabia_region: "Arabia"
+ dyn_c_colonial_arabia_region: "[Country.GetOverlord.GetAdjectiveNoFormatting] Arabia"
+ dyn_c_default_near_east: "Near East"
+ dyn_c_default_near_east_ADJ: "Near Eastern"
+ dyn_c_colonial_near_east: "[Country.GetOverlord.GetAdjectiveNoFormatting] Near East"
+
  C4A: "Colonial Arabia"
  C4A_ADJ: "Arabian"
  dyn_c_default_arabia: "Inner Arabia"
@@ -966,6 +974,12 @@
  colonial_nations_south_africa_more_2_tt: "You have two or more #yellow Colonial Nations#! in the South Africa Region"
  colonial_nations_south_africa_tt: "You have one or more #yellow Colonial Nations#! in the South Africa Region"
  unite_south_africa_tt: "Every #yellow Colonial Nation#! and #yellow every State you own#! in South Africa will be #yellow merged#! into one Colonial Nation. The Colonial Nation with the highest [concept_gdp] will take the lead of the united Colony"
+
+ unite_colonies_arabia_decision: "Unite Colonies in Arabia"
+ unite_colonies_arabia_decision_desc: "This Decision allows you to #yellow unite all your Colonial Subjects and states in the Arabia Region#! into one big Colonial Nation."
+ colonial_nations_arabia_more_2_tt: "You have two or more #yellow Colonial Nations#! in the Arabia Region"
+ colonial_nations_arabia_tt: "You have one or more #yellow Colonial Nations#! in the Arabia Region"
+ unite_arabia_tt: "Every #yellow Colonial Nation#! and #yellow every State you own#! in Arabia will be #yellow merged#! into one Colonial Nation. The Colonial Nation with the highest [concept_gdp] will take the lead of the united Colony"
 
  unite_colonies_oceania_decision: "Unite Colonies in Oceania"
  unite_colonies_oceania_decision_desc: "This Decision allows you to #yellow unite all your Colonial Subjects and states in Oceania#! into one big Colonial Nation."
