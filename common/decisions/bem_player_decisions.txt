@@ -129,6 +129,7 @@ bem_transfer_pacific_islands_from_subject_decision = {
 			is_ai = yes
 			is_direct_subject_of = root
 			bem_country_is_in_oceania = yes
+			bem_colonial_nation_oceania_trigger = no
 			any_state = {
 				is_capital = yes
 				OR = {
