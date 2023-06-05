@@ -6,6 +6,16 @@
 
 ##########################
 
+#Trigger to check if the country is a subject but not a customs union / needed to prevent wrong cantons
+bem_is_subject_not_customs_union_flag = {
+	scope:actor = {
+		is_subject = yes
+		NOT = {
+			is_subject_type = subject_type_customs_union
+		}
+	}
+}
+
 #Trigger to figure out if this is one of the added colonial nations
 bem_colonial_nation_trigger = {
 	OR = {

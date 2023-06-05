@@ -24,9 +24,7 @@ C3S = {
 		coa_with_overlord_canton = C3S_sub		
 		priority = 50
 		trigger = {
-			scope:actor = {
-				is_subject = yes
-			}
+			bem_is_subject_not_customs_union_flag = yes
 		}
 	}
 

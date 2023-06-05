@@ -26,9 +26,7 @@ CNA_colonial_newfoundland = {
 		overlord_canton_scale = { 0.4 0.42 }
 		priority = 50
 		trigger = {
-			scope:actor = {
-				is_subject = yes
-			}
+			bem_is_subject_not_customs_union_flag = yes
 		}
 	}
 

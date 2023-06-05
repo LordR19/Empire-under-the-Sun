@@ -337,3 +337,76 @@ bem_on_country_released_as_independent = {
 		}
 	}
 }
+
+# Root = Country
+# scope:target = Uprising country
+on_revolution_start = {
+	on_actions = {
+		bem_on_revolution_start
+	}
+}
+
+# Revolutionary Tags of the Colonial Nations should have the same religion and culture as the Colonial Nations.
+# This on_action replaces the religion and culture of the Revolutionary Tag.
+bem_on_revolution_start = {
+	trigger = {
+		scope:target = {
+			bem_colonial_nation_trigger = yes
+		}
+	}
+	effect = {
+		# Switches the Religion to the Religion of the Releasing Country
+		if = {
+			limit = {
+				ROOT = {
+					NOT = {
+						country_has_state_religion = rel:protestant
+					}
+				}
+			}
+			if = {
+				limit = {
+					root = {
+						has_law = law_type:law_state_atheism
+					}
+				}
+				scope:target = {
+					set_state_religion = rel:atheist
+				}
+			}
+			else = {
+				scope:target = {
+					set_state_religion = root.religion
+				}
+			}
+		}
+
+		#Switches the primary Culture to the primary Culture of the Releasing Country
+		if = {
+			limit = {
+				ROOT = {
+					any_primary_culture = {
+						NOT = {
+							this = cu:british
+						}
+					}
+				}
+			}
+			scope:target = {
+				remove_primary_culture = cu:british
+			}
+			ROOT = {
+				every_primary_culture = {
+					scope:target = {
+						add_primary_culture = prev
+					}
+				}
+			}
+			scope:target = {
+				every_scope_character = {
+					kill_character = yes
+				}
+			}
+		}
+	}
+}

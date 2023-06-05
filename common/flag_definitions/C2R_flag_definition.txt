@@ -24,9 +24,7 @@ C2R = {
 		coa_with_overlord_canton = C2R_sub		
 		priority = 50
 		trigger = {
-			scope:actor = {
-				is_subject = yes
-			}
+			bem_is_subject_not_customs_union_flag = yes
 		}
 	}
 

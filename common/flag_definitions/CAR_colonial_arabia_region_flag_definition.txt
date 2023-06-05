@@ -25,9 +25,7 @@ CAR_colonial_arabia_region = {
 		coa_with_overlord_canton = CAR_colonial_arabia_region_sub		
 		priority = 50
 		trigger = {
-			scope:actor = {
-				is_subject = yes
-			}
+			bem_is_subject_not_customs_union_flag = yes
 		}
 	}
 

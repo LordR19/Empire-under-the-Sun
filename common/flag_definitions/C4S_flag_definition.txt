@@ -25,9 +25,7 @@ C4S = {
 		overlord_canton_scale = { 0.44 0.44 }	
 		priority = 50
 		trigger = {
-			scope:actor = {
-				is_subject = yes
-			}
+			bem_is_subject_not_customs_union_flag = yes
 		}
 	}
 
