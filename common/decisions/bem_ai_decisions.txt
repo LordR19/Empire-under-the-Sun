@@ -381,6 +381,7 @@ bem_create_colonial_tunisia = {
 				every_scope_state = {
 					limit = {
 						state_region = s:STATE_TUNISIA
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = global_var:bem_colony_global_var
 				}
@@ -399,6 +400,7 @@ bem_create_colonial_tunisia = {
 				every_scope_state = {
 					limit = {
 						state_region = s:STATE_TUNISIA
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = scope:bem_colony_scope
 				}
@@ -769,6 +771,7 @@ bem_create_colonial_west_sahara = {
 				every_scope_state = {
 					limit = {
 						state_region = s:STATE_WEST_SAHARA
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = global_var:bem_colony_global_var
 				}
@@ -787,6 +790,7 @@ bem_create_colonial_west_sahara = {
 				every_scope_state = {
 					limit = {
 						state_region = s:STATE_WEST_SAHARA
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = scope:bem_colony_scope
 				}
@@ -1575,6 +1579,7 @@ bem_create_colonial_volta = {
 				every_scope_state = {
 					limit = {
 						state_region = s:STATE_VOLTA
+						bem_any_neighbouring_state_decentralized = yes
 					}
 					set_state_owner = scope:bem_colony_scope
 				}
