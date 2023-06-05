@@ -39,7 +39,7 @@
 	possible = {
 		is_country_type = colonial
 		is_subject = yes
-		bem_colonial_nation_trigger = yes
+		is_subject_type = subject_type_bem_colony
 	}
 
 	weight = {
