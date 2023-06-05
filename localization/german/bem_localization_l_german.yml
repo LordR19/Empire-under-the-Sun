@@ -947,6 +947,9 @@
  unite_oceania_tt: "Jede #yellow Kolonialnation#! und #yellow jeder deiner Staaten#! in der Region Ozeanien wird in eine Kolonialnation #yellow vereint#!. Die Kolonialnation mit dem höchsten [concept_gdp] Wird die Führung übernehmen und die Regierung der neuen Kolonie stellen."
 
 #AI decisions
+ bem_transfer_pacific_islands_from_subject_ai_decision: "AI decision to take Islands from Australia"
+ bem_transfer_pacific_islands_from_subject_ai_decision_desc: "Let's the AI take fully colonised states in the pacific ocean from the original Australian Colonial Nations. Should be relevant mostly for Great Britain. #n Should not be visible!#!"
+
  bem_create_colonial_libya: "AI decision Libya"
  bem_create_colonial_libya_desc: "AI decision to create a colony in Libya. #n Should not be visible!#!"
 

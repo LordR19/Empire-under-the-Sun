@@ -125,6 +125,7 @@ bem_transfer_colonial_lands_oceania_puppet_decision = {
 
 bem_transfer_pacific_islands_from_subject_decision = {
 	is_shown = {
+		is_player = yes
 		any_subject_or_below = {
 			is_ai = yes
 			OR = {
