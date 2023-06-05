@@ -149,12 +149,7 @@ C4M = {
 	}
 	
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_WESTERN_MALI
-		owns_entire_state_region = STATE_EASTERN_MALI
-		owns_entire_state_region = STATE_TIMBUKTU
+		always = no
 	}
 }
 
@@ -169,10 +164,7 @@ C3P = {
 	}
 
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_LIBERIA
+		always = no
 	}
 }
 
@@ -188,11 +180,7 @@ C2I = {
 	}
 
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_IVORY_COAST
-		owns_entire_state_region = STATE_WINDWARD_COAST
+		always = no
 	}
 }
 
@@ -207,10 +195,7 @@ C1V = {
 	}
 
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_VOLTA
+		always = no
 	}
 }
 
@@ -225,10 +210,7 @@ C3G = {
 	}
 
 	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_GHANA
+		always = no
 	}
 }
 

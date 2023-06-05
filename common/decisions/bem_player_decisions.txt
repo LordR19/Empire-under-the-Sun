@@ -264,6 +264,7 @@ unite_colonies_maghreb_decision = {
 		}
 		has_variable = show_bem_colonial_decisions_var
 		any_subject_or_below = {
+			is_direct_subject_of = root
 			capital = { region = sr:region_north_africa }
 			is_subject_type = subject_type_bem_colony
 		}
@@ -273,6 +274,7 @@ unite_colonies_maghreb_decision = {
 		OR = {
 			custom_tooltip = {
 				any_subject_or_below = {
+					is_direct_subject_of = root
 					capital = { region = sr:region_north_africa }
 					is_subject_type = subject_type_bem_colony
 					is_ai = yes
@@ -283,6 +285,7 @@ unite_colonies_maghreb_decision = {
 			AND = {
 				custom_tooltip = {
 					any_subject_or_below = {
+						is_direct_subject_of = root
 						capital = { region = sr:region_north_africa }
 						is_subject_type = subject_type_bem_colony
 						is_ai = yes
@@ -302,6 +305,7 @@ unite_colonies_maghreb_decision = {
 			hidden_effect = {
 				ordered_subject_or_below  = {
 					limit = {
+						is_direct_subject_of = root
 						capital = { region = sr:region_north_africa }
 						is_subject_type = subject_type_bem_colony
 						relations:root >= relations_threshold:neutral
@@ -327,6 +331,7 @@ unite_colonies_maghreb_decision = {
 				}
 				every_subject_or_below = {
 					limit = {
+						is_direct_subject_of = root
 						NOT = { this = scope:unifier_tag }
 						capital = { region = sr:region_north_africa }
 						is_subject_type = subject_type_bem_colony
@@ -364,6 +369,7 @@ unite_colonies_maghreb_decision = {
 		modifier = {
 			trigger = {
 				any_subject_or_below = {
+					is_direct_subject_of = root
 					capital = { region = sr:region_north_africa }
 					is_subject_type = subject_type_bem_colony
 					is_ai = yes
@@ -386,6 +392,7 @@ unite_colonies_west_africa_decision = {
 		}
 		has_variable = show_bem_colonial_decisions_var
 		any_subject_or_below = {
+			is_direct_subject_of = root
 			capital = { region = sr:region_senegal }
 			is_subject_type = subject_type_bem_colony
 		}
@@ -395,6 +402,7 @@ unite_colonies_west_africa_decision = {
 		OR = {
 			custom_tooltip = {
 				any_subject_or_below = {
+					is_direct_subject_of = root
 					capital = { region = sr:region_senegal }
 					is_subject_type = subject_type_bem_colony
 					is_ai = yes
@@ -405,6 +413,7 @@ unite_colonies_west_africa_decision = {
 			AND = {
 				custom_tooltip = {
 					any_subject_or_below = {
+						is_direct_subject_of = root
 						capital = { region = sr:region_senegal }
 						is_subject_type = subject_type_bem_colony
 						is_ai = yes
@@ -424,6 +433,7 @@ unite_colonies_west_africa_decision = {
 			hidden_effect = {
 				ordered_subject_or_below  = {
 					limit = {
+						is_direct_subject_of = root
 						capital = { region = sr:region_senegal }
 						is_subject_type = subject_type_bem_colony
 						relations:root >= relations_threshold:neutral
@@ -449,6 +459,7 @@ unite_colonies_west_africa_decision = {
 				}
 				every_subject_or_below = {
 					limit = {
+						is_direct_subject_of = root
 						NOT = { this = scope:unifier_tag }
 						capital = { region = sr:region_senegal }
 						is_subject_type = subject_type_bem_colony
@@ -486,6 +497,7 @@ unite_colonies_west_africa_decision = {
 		modifier = {
 			trigger = {
 				any_subject_or_below = {
+					is_direct_subject_of = root
 					capital = { region = sr:region_senegal }
 					is_subject_type = subject_type_bem_colony
 					is_ai = yes
@@ -508,6 +520,7 @@ unite_colonies_greater_nigeria_decision = {
 		}
 		has_variable = show_bem_colonial_decisions_var
 		any_subject_or_below = {
+			is_direct_subject_of = root
 			capital = { region = sr:region_niger }
 			is_subject_type = subject_type_bem_colony
 		}
@@ -517,6 +530,7 @@ unite_colonies_greater_nigeria_decision = {
 		OR = {
 			custom_tooltip = {
 				any_subject_or_below = {
+					is_direct_subject_of = root
 					capital = { region = sr:region_niger }
 					is_subject_type = subject_type_bem_colony
 					is_ai = yes
@@ -527,6 +541,7 @@ unite_colonies_greater_nigeria_decision = {
 			AND = {
 				custom_tooltip = {
 					any_subject_or_below = {
+						is_direct_subject_of = root
 						capital = { region = sr:region_niger }
 						is_subject_type = subject_type_bem_colony
 						is_ai = yes
@@ -546,6 +561,7 @@ unite_colonies_greater_nigeria_decision = {
 			hidden_effect = {
 				ordered_subject_or_below = {
 					limit = {
+						is_direct_subject_of = root
 						capital = { region = sr:region_niger }
 						is_subject_type = subject_type_bem_colony
 						relations:root >= relations_threshold:neutral
@@ -571,6 +587,7 @@ unite_colonies_greater_nigeria_decision = {
 				}
 				every_subject_or_below = {
 					limit = {
+						is_direct_subject_of = root
 						NOT = { this = scope:unifier_tag }
 						capital = { region = sr:region_niger }
 						is_subject_type = subject_type_bem_colony
@@ -608,6 +625,7 @@ unite_colonies_greater_nigeria_decision = {
 		modifier = {
 			trigger = {
 				any_subject_or_below = {
+					is_direct_subject_of = root
 					capital = { region = sr:region_niger }
 					is_subject_type = subject_type_bem_colony
 					is_ai = yes
@@ -630,6 +648,7 @@ unite_colonies_greater_egypt_decision = {
 		}
 		has_variable = show_bem_colonial_decisions_var
 		any_subject_or_below = {
+			is_direct_subject_of = root
 			capital = { region = sr:region_nile_basin }
 			is_subject_type = subject_type_bem_colony
 		}
@@ -639,6 +658,7 @@ unite_colonies_greater_egypt_decision = {
 		OR = {
 			custom_tooltip = {
 				any_subject_or_below = {
+					is_direct_subject_of = root
 					capital = { region = sr:region_nile_basin }
 					is_subject_type = subject_type_bem_colony
 					is_ai = yes
@@ -649,6 +669,7 @@ unite_colonies_greater_egypt_decision = {
 			AND = {
 				custom_tooltip = {
 					any_subject_or_below = {
+						is_direct_subject_of = root
 						capital = { region = sr:region_nile_basin }
 						is_subject_type = subject_type_bem_colony
 						is_ai = yes
@@ -668,6 +689,7 @@ unite_colonies_greater_egypt_decision = {
 			hidden_effect = {
 				ordered_subject_or_below = {
 					limit = {
+						is_direct_subject_of = root
 						capital = { region = sr:region_nile_basin }
 						is_subject_type = subject_type_bem_colony
 						relations:root >= relations_threshold:neutral
@@ -693,6 +715,7 @@ unite_colonies_greater_egypt_decision = {
 				}
 				every_subject_or_below = {
 					limit = {
+						is_direct_subject_of = root
 						NOT = { this = scope:unifier_tag }
 						capital = { region = sr:region_nile_basin }
 						is_subject_type = subject_type_bem_colony
@@ -730,6 +753,7 @@ unite_colonies_greater_egypt_decision = {
 		modifier = {
 			trigger = {
 				any_subject_or_below = {
+					is_direct_subject_of = root
 					capital = { region = sr:region_nile_basin }
 					is_subject_type = subject_type_bem_colony
 					is_ai = yes
@@ -752,6 +776,7 @@ unite_colonies_greater_ethiopia_decision = {
 		}
 		has_variable = show_bem_colonial_decisions_var
 		any_subject_or_below = {
+			is_direct_subject_of = root
 			capital = { region = sr:region_ethiopia }
 			is_subject_type = subject_type_bem_colony
 		}
@@ -761,6 +786,7 @@ unite_colonies_greater_ethiopia_decision = {
 		OR = {
 			custom_tooltip = {
 				any_subject_or_below = {
+					is_direct_subject_of = root
 					capital = { region = sr:region_ethiopia }
 					is_subject_type = subject_type_bem_colony
 					is_ai = yes
@@ -771,6 +797,7 @@ unite_colonies_greater_ethiopia_decision = {
 			AND = {
 				custom_tooltip = {
 					any_subject_or_below = {
+						is_direct_subject_of = root
 						capital = { region = sr:region_ethiopia }
 						is_subject_type = subject_type_bem_colony
 						is_ai = yes
@@ -790,6 +817,7 @@ unite_colonies_greater_ethiopia_decision = {
 			hidden_effect = {
 				ordered_subject_or_below = {
 					limit = {
+						is_direct_subject_of = root
 						capital = { region = sr:region_ethiopia }
 						is_subject_type = subject_type_bem_colony
 						relations:root >= relations_threshold:neutral
@@ -815,6 +843,7 @@ unite_colonies_greater_ethiopia_decision = {
 				}
 				every_subject_or_below = {
 					limit = {
+						is_direct_subject_of = root
 						NOT = { this = scope:unifier_tag }
 						capital = { region = sr:region_ethiopia }
 						is_subject_type = subject_type_bem_colony
@@ -852,6 +881,7 @@ unite_colonies_greater_ethiopia_decision = {
 		modifier = {
 			trigger = {
 				any_subject_or_below = {
+					is_direct_subject_of = root
 					capital = { region = sr:region_ethiopia }
 					is_subject_type = subject_type_bem_colony
 					is_ai = yes
@@ -874,6 +904,7 @@ unite_colonies_zanj_decision = {
 		}
 		has_variable = show_bem_colonial_decisions_var
 		any_subject_or_below = {
+			is_direct_subject_of = root
 			capital = { region = sr:region_zanj }
 			is_subject_type = subject_type_bem_colony
 		}
@@ -883,6 +914,7 @@ unite_colonies_zanj_decision = {
 		OR = {
 			custom_tooltip = {
 				any_subject_or_below = {
+					is_direct_subject_of = root
 					capital = { region = sr:region_zanj }
 					is_subject_type = subject_type_bem_colony
 					is_ai = yes
@@ -893,6 +925,7 @@ unite_colonies_zanj_decision = {
 			AND = {
 				custom_tooltip = {
 					any_subject_or_below = {
+						is_direct_subject_of = root
 						capital = { region = sr:region_zanj }
 						is_subject_type = subject_type_bem_colony
 						is_ai = yes
@@ -912,6 +945,7 @@ unite_colonies_zanj_decision = {
 			hidden_effect = {
 				ordered_subject_or_below = {
 					limit = {
+						is_direct_subject_of = root
 						capital = { region = sr:region_zanj }
 						is_subject_type = subject_type_bem_colony
 						relations:root >= relations_threshold:neutral
@@ -937,6 +971,7 @@ unite_colonies_zanj_decision = {
 				}
 				every_subject_or_below = {
 					limit = {
+						is_direct_subject_of = root
 						NOT = { this = scope:unifier_tag }
 						capital = { region = sr:region_zanj }
 						is_subject_type = subject_type_bem_colony
@@ -974,6 +1009,7 @@ unite_colonies_zanj_decision = {
 		modifier = {
 			trigger = {
 				any_subject_or_below = {
+					is_direct_subject_of = root
 					capital = { region = sr:region_zanj }
 					is_subject_type = subject_type_bem_colony
 					is_ai = yes
@@ -996,6 +1032,7 @@ unite_colonies_congo_decision = {
 		}
 		has_variable = show_bem_colonial_decisions_var
 		any_subject_or_below = {
+			is_direct_subject_of = root
 			capital = { region = sr:region_congo }
 			is_subject_type = subject_type_bem_colony
 		}
@@ -1005,6 +1042,7 @@ unite_colonies_congo_decision = {
 		OR = {
 			custom_tooltip = {
 				any_subject_or_below = {
+					is_direct_subject_of = root
 					capital = { region = sr:region_congo }
 					is_subject_type = subject_type_bem_colony
 					is_ai = yes
@@ -1015,6 +1053,7 @@ unite_colonies_congo_decision = {
 			AND = {
 				custom_tooltip = {
 					any_subject_or_below = {
+						is_direct_subject_of = root
 						capital = { region = sr:region_congo }
 						is_subject_type = subject_type_bem_colony
 						is_ai = yes
@@ -1034,6 +1073,7 @@ unite_colonies_congo_decision = {
 			hidden_effect = {
 				ordered_subject_or_below = {
 					limit = {
+						is_direct_subject_of = root
 						capital = { region = sr:region_congo }
 						is_subject_type = subject_type_bem_colony
 						relations:root >= relations_threshold:neutral
@@ -1059,6 +1099,7 @@ unite_colonies_congo_decision = {
 				}
 				every_subject_or_below = {
 					limit = {
+						is_direct_subject_of = root
 						NOT = { this = scope:unifier_tag }
 						capital = { region = sr:region_congo }
 						is_subject_type = subject_type_bem_colony
@@ -1096,6 +1137,7 @@ unite_colonies_congo_decision = {
 		modifier = {
 			trigger = {
 				any_subject_or_below = {
+					is_direct_subject_of = root
 					capital = { region = sr:region_congo }
 					is_subject_type = subject_type_bem_colony
 					is_ai = yes
@@ -1118,6 +1160,7 @@ unite_colonies_south_africa_decision = {
 		}
 		has_variable = show_bem_colonial_decisions_var
 		any_subject_or_below = {
+			is_direct_subject_of = root
 			capital = { region = sr:region_southern_africa }
 			is_subject_type = subject_type_bem_colony
 		}
@@ -1127,6 +1170,7 @@ unite_colonies_south_africa_decision = {
 		OR = {
 			custom_tooltip = {
 				any_subject_or_below = {
+					is_direct_subject_of = root
 					capital = { region = sr:region_southern_africa }
 					is_subject_type = subject_type_bem_colony
 					is_ai = yes
@@ -1137,6 +1181,7 @@ unite_colonies_south_africa_decision = {
 			AND = {
 				custom_tooltip = {
 					any_subject_or_below = {
+						is_direct_subject_of = root
 						capital = { region = sr:region_southern_africa }
 						is_subject_type = subject_type_bem_colony
 						is_ai = yes
@@ -1156,6 +1201,7 @@ unite_colonies_south_africa_decision = {
 			hidden_effect = {
 				ordered_subject_or_below = {
 					limit = {
+						is_direct_subject_of = root
 						capital = { region = sr:region_southern_africa }
 						is_subject_type = subject_type_bem_colony
 						relations:root >= relations_threshold:neutral
@@ -1181,6 +1227,7 @@ unite_colonies_south_africa_decision = {
 				}
 				every_subject_or_below = {
 					limit = {
+						is_direct_subject_of = root
 						NOT = { this = scope:unifier_tag }
 						capital = { region = sr:region_southern_africa }
 						is_subject_type = subject_type_bem_colony
@@ -1218,6 +1265,7 @@ unite_colonies_south_africa_decision = {
 		modifier = {
 			trigger = {
 				any_subject_or_below = {
+					is_direct_subject_of = root
 					capital = { region = sr:region_southern_africa }
 					is_subject_type = subject_type_bem_colony
 					is_ai = yes
@@ -1240,6 +1288,7 @@ unite_colonies_arabia_decision = {
 		}
 		has_variable = show_bem_colonial_decisions_var
 		any_subject_or_below = {
+			is_direct_subject_of = root
 			capital = { region = sr:region_arabic }
 			is_subject_type = subject_type_bem_colony
 		}
@@ -1249,6 +1298,7 @@ unite_colonies_arabia_decision = {
 		OR = {
 			custom_tooltip = {
 				any_subject_or_below = {
+					is_direct_subject_of = root
 					capital = { region = sr:region_arabic }
 					is_subject_type = subject_type_bem_colony
 					is_ai = yes
@@ -1259,6 +1309,7 @@ unite_colonies_arabia_decision = {
 			AND = {
 				custom_tooltip = {
 					any_subject_or_below = {
+						is_direct_subject_of = root
 						capital = { region = sr:region_arabic }
 						is_subject_type = subject_type_bem_colony
 						is_ai = yes
@@ -1278,6 +1329,7 @@ unite_colonies_arabia_decision = {
 			hidden_effect = {
 				ordered_subject_or_below = {
 					limit = {
+						is_direct_subject_of = root
 						capital = { region = sr:region_arabic }
 						is_subject_type = subject_type_bem_colony
 						relations:root >= relations_threshold:neutral
@@ -1303,6 +1355,7 @@ unite_colonies_arabia_decision = {
 				}
 				every_subject_or_below = {
 					limit = {
+						is_direct_subject_of = root
 						NOT = { this = scope:unifier_tag }
 						capital = { region = sr:region_arabic }
 						is_subject_type = subject_type_bem_colony
@@ -1340,6 +1393,7 @@ unite_colonies_arabia_decision = {
 		modifier = {
 			trigger = {
 				any_subject_or_below = {
+					is_direct_subject_of = root
 					capital = { region = sr:region_arabic }
 					is_subject_type = subject_type_bem_colony
 					is_ai = yes
@@ -1362,6 +1416,7 @@ unite_colonies_oceania_decision = {
 		}
 		has_variable = show_bem_colonial_decisions_var
 		any_subject_or_below = {
+			is_direct_subject_of = root
 			capital = { region = sr:region_oceania }
 			is_subject_type = subject_type_bem_colony
 		}
@@ -1371,6 +1426,7 @@ unite_colonies_oceania_decision = {
 		OR = {
 			custom_tooltip = {
 				any_subject_or_below = {
+					is_direct_subject_of = root
 					capital = { region = sr:region_oceania }
 					is_subject_type = subject_type_bem_colony
 					is_ai = yes
@@ -1381,6 +1437,7 @@ unite_colonies_oceania_decision = {
 			AND = {
 				custom_tooltip = {
 					any_subject_or_below = {
+						is_direct_subject_of = root
 						capital = { region = sr:region_oceania }
 						is_subject_type = subject_type_bem_colony
 						is_ai = yes
@@ -1400,6 +1457,7 @@ unite_colonies_oceania_decision = {
 			hidden_effect = {
 				ordered_subject_or_below = {
 					limit = {
+						is_direct_subject_of = root
 						capital = { region = sr:region_oceania }
 						is_subject_type = subject_type_bem_colony
 						relations:root >= relations_threshold:neutral
@@ -1425,6 +1483,7 @@ unite_colonies_oceania_decision = {
 				}
 				every_subject_or_below = {
 					limit = {
+						is_direct_subject_of = root
 						NOT = { this = scope:unifier_tag }
 						capital = { region = sr:region_oceania }
 						is_subject_type = subject_type_bem_colony
@@ -1462,6 +1521,7 @@ unite_colonies_oceania_decision = {
 		modifier = {
 			trigger = {
 				any_subject_or_below = {
+					is_direct_subject_of = root
 					capital = { region = sr:region_oceania }
 					is_subject_type = subject_type_bem_colony
 					is_ai = yes
