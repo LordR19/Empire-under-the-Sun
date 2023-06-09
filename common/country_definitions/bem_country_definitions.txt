@@ -1866,6 +1866,21 @@ CIC_colonial_burma = {
 	
 }
 
+#Colonial Siam
+CIC_colonial_siam = {
+
+	color = { 142 0 0 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_BANGKOK
+	
+}
+
 ################################################
 
 ### Oceania Region Countries ###

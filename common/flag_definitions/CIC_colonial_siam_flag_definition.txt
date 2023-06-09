@@ -1,0 +1,170 @@
+﻿#Colonial Siam
+CIC_colonial_siam = {
+	flag_definition = {
+		coa = CIC_colonial_siam
+		subject_canton = CIC_colonial_siam
+		allow_overlord_canton = yes	
+		coa_with_overlord_canton = CIC_colonial_siam_sub		
+		priority = 1
+	}
+
+	flag_definition = {
+		coa = CIC_colonial_siam
+		subject_canton = CIC_colonial_siam
+		coa_with_overlord_canton = CIC_colonial_siam_sub	
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = CIC_colonial_siam_sub
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = CIC_colonial_siam_sub		
+		priority = 50
+		trigger = {
+			bem_is_subject_not_customs_union_flag = yes
+		}
+	}
+
+	flag_definition = {
+		coa = CIC_colonial_siam_sub_british
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = CIC_colonial_siam_sub_british		
+		priority = 100
+		trigger = { 
+			exists = c:GBR
+			scope:actor = {
+				is_direct_subject_of  = c:GBR
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = CIC_colonial_siam_sub_italian
+		allow_overlord_canton = no
+		coa_with_overlord_canton = CIC_colonial_siam_sub_italian		
+		priority = 100
+		trigger = { 
+			exists = c:ITA
+			scope:actor = {
+				is_direct_subject_of  = c:ITA
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = CIC_colonial_siam_sub_french
+		allow_overlord_canton = no
+		coa_with_overlord_canton = CIC_colonial_siam_sub_french		
+		priority = 100
+		trigger = { 
+			exists = c:FRA
+			scope:actor = {
+				is_direct_subject_of  = c:FRA
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = CIC_colonial_siam_sub_dutch
+		allow_overlord_canton = no
+		subject_canton = CIC_colonial_siam_sub_dutch
+		coa_with_overlord_canton = CIC_colonial_siam_sub_dutch		
+		priority = 100
+		trigger = { 
+			exists = c:NET
+			scope:actor = {
+				is_direct_subject_of  = c:NET
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = CIC_colonial_siam_sub_german_default
+		allow_overlord_canton = no
+		subject_canton = CIC_colonial_siam_sub_german_default
+		coa_with_overlord_canton = CIC_colonial_siam_sub_german_default		
+		priority = 99
+		trigger = { 
+			exists = c:GER
+			scope:actor = {
+				is_direct_subject_of  = c:GER
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = CIC_colonial_siam_sub_german_prussian
+		allow_overlord_canton = no
+		subject_canton = CIC_colonial_siam_sub_german_prussian
+		coa_with_overlord_canton = CIC_colonial_siam_sub_german_prussian		
+		priority = 100
+		trigger = { 
+			exists = c:GER
+			c:GER = {
+				was_formed_from = PRU
+			}
+			scope:actor = {
+				is_direct_subject_of  = c:GER
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = CIC_colonial_siam_sub_german_saxon
+		allow_overlord_canton = no
+		subject_canton = CIC_colonial_siam_sub_german_saxon
+		coa_with_overlord_canton = CIC_colonial_siam_sub_german_saxon		
+		priority = 100
+		trigger = { 
+			exists = c:GER
+			c:GER = {
+				was_formed_from = SAX
+			}
+			scope:actor = {
+				is_direct_subject_of  = c:GER
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = CIC_colonial_siam_sub_german_bavarian
+		allow_overlord_canton = no
+		subject_canton = CIC_colonial_siam_sub_german_bavarian
+		coa_with_overlord_canton = CIC_colonial_siam_sub_german_bavarian		
+		priority = 100
+		trigger = { 
+			exists = c:GER
+			c:GER = {
+				was_formed_from = BAV
+			}
+			scope:actor = {
+				is_direct_subject_of  = c:GER
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = CIC_colonial_siam_monarchy
+		subject_canton = CIC_colonial_siam_monarchy
+		allow_overlord_canton = yes	
+		coa_with_overlord_canton = CIC_colonial_siam_sub			
+		priority = 20
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = CIC_colonial_siam_dictatorship
+		subject_canton = CIC_colonial_siam_dictatorship
+		allow_overlord_canton = yes	
+		coa_with_overlord_canton = CIC_colonial_siam_sub
+		priority = 20
+		trigger = {
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}	
+}

@@ -86,6 +86,37 @@ CAR_colonial_arabia_region = {
 	}
 
 	flag_definition = {
+		coa = CAR_colonial_arabia_region_sub_german_default
+		allow_overlord_canton = no
+		subject_canton = CAR_colonial_arabia_region_sub_german_default
+		coa_with_overlord_canton = CAR_colonial_arabia_region_sub_german_default		
+		priority = 99
+		trigger = { 
+			exists = c:GER
+			scope:actor = {
+				is_direct_subject_of  = c:GER
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = CAR_colonial_arabia_region_sub_german_prussian
+		allow_overlord_canton = no
+		subject_canton = CAR_colonial_arabia_region_sub_german_prussian
+		coa_with_overlord_canton = CAR_colonial_arabia_region_sub_german_prussian		
+		priority = 100
+		trigger = { 
+			exists = c:GER
+			c:GER = {
+				was_formed_from = PRU
+			}
+			scope:actor = {
+				is_direct_subject_of  = c:GER
+			}
+		}
+	}
+
+	flag_definition = {
 		coa = CAR_colonial_arabia_region_monarchy
 		subject_canton = CAR_colonial_arabia_region_monarchy
 		allow_overlord_canton = yes

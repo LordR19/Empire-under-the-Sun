@@ -82,6 +82,37 @@ C1U = {
 	}
 
 	flag_definition = {
+		coa = C1U_sub_german_default
+		allow_overlord_canton = no
+		subject_canton = C1U_sub_german_default
+		coa_with_overlord_canton = C1U_sub_german_default		
+		priority = 99
+		trigger = { 
+			exists = c:GER
+			scope:actor = {
+				is_direct_subject_of  = c:GER
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = C1U_sub_german_prussian
+		allow_overlord_canton = no
+		subject_canton = C1U_sub_german_prussian
+		coa_with_overlord_canton = C1U_sub_german_prussian		
+		priority = 100
+		trigger = { 
+			exists = c:GER
+			c:GER = {
+				was_formed_from = PRU
+			}
+			scope:actor = {
+				is_direct_subject_of  = c:GER
+			}
+		}
+	}
+
+	flag_definition = {
 		coa = C1U_monarchy
 		subject_canton = C1U_monarchy
 		allow_overlord_canton = yes	
@@ -185,6 +216,37 @@ C1U_AI = {
 			exists = c:NET
 			scope:actor = {
 				is_direct_subject_of  = c:NET
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = C1U_sub_german_default
+		allow_overlord_canton = no
+		subject_canton = C1U_sub_german_default
+		coa_with_overlord_canton = C1U_sub_german_default		
+		priority = 99
+		trigger = { 
+			exists = c:GER
+			scope:actor = {
+				is_direct_subject_of  = c:GER
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = C1U_sub_german_prussian
+		allow_overlord_canton = no
+		subject_canton = C1U_sub_german_prussian
+		coa_with_overlord_canton = C1U_sub_german_prussian		
+		priority = 100
+		trigger = { 
+			exists = c:GER
+			c:GER = {
+				was_formed_from = PRU
+			}
+			scope:actor = {
+				is_direct_subject_of  = c:GER
 			}
 		}
 	}

@@ -529,6 +529,11 @@ bem_colonial_nation_trigger = {
 			exists = c:CIC_colonial_burma
 			this = c:CIC_colonial_burma
 		}
+		AND = {
+			exists = c:CIC_colonial_siam
+			this = c:CIC_colonial_siam
+		}
+		
 		### Oceania Region Countries ###
 		AND = { #Colonial Oceania
 			exists = c:COC_colonial_oceania

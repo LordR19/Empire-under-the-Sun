@@ -68,6 +68,19 @@ C2B = {
 	}
 
 	flag_definition = {
+		coa = C2B_sub_french
+		allow_overlord_canton = no
+		coa_with_overlord_canton = C2B_sub_french		
+		priority = 100
+		trigger = { 
+			exists = c:FRA
+			scope:actor = {
+				is_direct_subject_of  = c:FRA
+			}
+		}
+	}
+
+	flag_definition = {
 		coa = C2B_sub_dutch
 		allow_overlord_canton = no
 		subject_canton = C2B_sub_dutch
@@ -82,14 +95,32 @@ C2B = {
 	}
 
 	flag_definition = {
-		coa = C2B_sub_french
+		coa = C2B_sub_german_default
 		allow_overlord_canton = no
-		coa_with_overlord_canton = C2B_sub_french		
+		subject_canton = C2B_sub_german_default
+		coa_with_overlord_canton = C2B_sub_german_default		
+		priority = 99
+		trigger = { 
+			exists = c:GER
+			scope:actor = {
+				is_direct_subject_of  = c:GER
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = C2B_sub_german_prussian
+		allow_overlord_canton = no
+		subject_canton = C2B_sub_german_prussian
+		coa_with_overlord_canton = C2B_sub_german_prussian		
 		priority = 100
 		trigger = { 
-			exists = c:FRA
+			exists = c:GER
+			c:GER = {
+				was_formed_from = PRU
+			}
 			scope:actor = {
-				is_direct_subject_of  = c:FRA
+				is_direct_subject_of  = c:GER
 			}
 		}
 	}

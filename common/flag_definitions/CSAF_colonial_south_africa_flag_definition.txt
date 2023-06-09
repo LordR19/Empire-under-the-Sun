@@ -83,6 +83,37 @@ CSAF_colonial_south_africa = {
 	}
 
 	flag_definition = {
+		coa = CSAF_colonial_south_africa_sub_german_default
+		allow_overlord_canton = no
+		subject_canton = CSAF_colonial_south_africa_sub_german_default
+		coa_with_overlord_canton = CSAF_colonial_south_africa_sub_german_default		
+		priority = 99
+		trigger = { 
+			exists = c:GER
+			scope:actor = {
+				is_direct_subject_of  = c:GER
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = CSAF_colonial_south_africa_sub_german_prussian
+		allow_overlord_canton = no
+		subject_canton = CSAF_colonial_south_africa_sub_german_prussian
+		coa_with_overlord_canton = CSAF_colonial_south_africa_sub_german_prussian		
+		priority = 100
+		trigger = { 
+			exists = c:GER
+			c:GER = {
+				was_formed_from = PRU
+			}
+			scope:actor = {
+				is_direct_subject_of  = c:GER
+			}
+		}
+	}
+
+	flag_definition = {
 		coa = CSAF_colonial_south_africa_monarchy
 		subject_canton = CSAF_colonial_south_africa_monarchy
 		allow_overlord_canton = yes	

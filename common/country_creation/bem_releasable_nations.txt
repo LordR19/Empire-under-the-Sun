@@ -1341,7 +1341,6 @@ CIC_colonial_burma = {
 		STATE_KACHIN
 		STATE_PEGU
 		STATE_SHAN_STATES
-		STATE_TENASSERIM
 	}
 
 	possible = {
@@ -1356,7 +1355,30 @@ CIC_colonial_burma = {
 		owns_entire_state_region = STATE_KACHIN
 		owns_entire_state_region = STATE_PEGU
 		owns_entire_state_region = STATE_SHAN_STATES
+	}
+}
+
+#Colonial Siam
+CIC_colonial_siam = {
+	states = {
+		STATE_BANGKOK
+		STATE_TENASSERIM
+		STATE_NAKHON_RATCHASIMA
+		STATE_CHIANG_MAI
+	}
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		state_is_in_southeast_asia = no
+		owns_entire_state_region = STATE_BANGKOK
 		owns_entire_state_region = STATE_TENASSERIM
+		owns_entire_state_region = STATE_NAKHON_RATCHASIMA
+		owns_entire_state_region = STATE_CHIANG_MAI
 	}
 }
 

@@ -1,4 +1,4 @@
-﻿#Colonial Malacca
+﻿#Colonial Siam
 CIC_colonial_burma = {
 	flag_definition = {
 		coa = CIC_colonial_burma
@@ -77,6 +77,37 @@ CIC_colonial_burma = {
 			exists = c:NET
 			scope:actor = {
 				is_direct_subject_of  = c:NET
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = CIC_colonial_burma_sub_german_default
+		allow_overlord_canton = no
+		subject_canton = CIC_colonial_burma_sub_german_default
+		coa_with_overlord_canton = CIC_colonial_burma_sub_german_default		
+		priority = 99
+		trigger = { 
+			exists = c:GER
+			scope:actor = {
+				is_direct_subject_of  = c:GER
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = CIC_colonial_burma_sub_german_prussian
+		allow_overlord_canton = no
+		subject_canton = CIC_colonial_burma_sub_german_prussian
+		coa_with_overlord_canton = CIC_colonial_burma_sub_german_prussian		
+		priority = 100
+		trigger = { 
+			exists = c:GER
+			c:GER = {
+				was_formed_from = PRU
+			}
+			scope:actor = {
+				is_direct_subject_of  = c:GER
 			}
 		}
 	}

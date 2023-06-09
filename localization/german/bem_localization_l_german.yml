@@ -629,6 +629,11 @@
  dyn_c_default_burma: "Burma"
  dyn_c_colonial_burma: "[Country.GetOverlord.GetAdjectiveNoFormatting] Burma"
 
+ CIC_colonial_siam: "Kolonial Siam"
+ CIC_colonial_siam_ADJ: "Siameseisch"
+ dyn_c_default_siam: "Siam"
+ dyn_c_colonial_siam: "[Country.GetOverlord.GetAdjectiveNoFormatting] Siam"
+
  COC_colonial_oceania: "Kolonial Ozeanien"
  COC_colonial_oceania_adj: "Ozeanisch"
  dyn_c_default_oceania: "Ozeanien"
