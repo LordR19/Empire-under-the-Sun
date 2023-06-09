@@ -1,51 +1,59 @@
-#Colonial Burma
-CIC_colonial_burma = {
+#Colonial Laos
+CIC_colonial_laos = {
 	pattern = "pattern_solid.tga"
-	color1 = "yellow"
+	color1 = "red"
 
 	colored_emblem = {
-		texture = "ce_stripe_bottom_raised.dds"
-		color1 = "green_light"
-		instance = { scale = { 1 0.4 } position = { 0.5 0.73 } }
+		texture = "ce_flag_border_rectangle.dds"
+		color1 = "white"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
 	}
-	textured_emblem = {
-		texture = "te_peacock.dds"
-		instance = { scale = { 1.0 1.0 } position = { 0.5 0.51 } }
+	colored_emblem = {
+		texture = "ce_elephant_erawan.dds"
+		color1 = "white"
+		color2 = "yellow"
+		color3 = "orange"
+		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 } }
 	}
 }
 
-CIC_colonial_burma_sub = {
+CIC_colonial_laos_sub = {
 	pattern = "pattern_solid.tga"
-	color1 = "yellow"
+	color1 = "red"
 
 	colored_emblem = {
-		texture = "ce_stripe_bottom_raised.dds"
-		color1 = "green_light"
-		instance = { scale = { 1 0.4 } position = { 0.5 0.65 } }
+		texture = "ce_flag_border_rectangle.dds"
+		color1 = "white"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
 	}
-	textured_emblem = {
-		texture = "te_peacock.dds"
-		instance = { scale = { 0.75 0.75 } position = { 0.75 0.51 } }
+	colored_emblem = {
+		texture = "ce_elephant_erawan.dds"
+		color1 = "white"
+		color2 = "yellow"
+		color3 = "orange"
+		instance = { scale = { 0.8 0.8 } position = { 0.75 0.5 } }
 	}
 }
 
-CIC_colonial_burma_sub_british = {
+CIC_colonial_laos_sub_british = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
 
 	colored_emblem = {
-		texture = "ce_emblem_circle_stripe_bottom.dds"
-		color1 = "yellow"
-		color2 = "green_light"
+		texture = "ce_frame_circle.dds"
+		color1 = "red"
 		instance = { scale = { 0.5 0.5 } position = { 0.75 0.5 } }
 	}
-	textured_emblem = {
-		texture = "te_peacock.dds"
-		instance = { scale = { 0.53 0.53 } position = { 0.75 0.52 } }
+	colored_emblem = {
+		texture = "ce_elephant_erawan.dds"
+		color1 = "white"
+		color2 = "yellow"
+		color3 = "orange"
+		instance = { scale = { 0.5 0.5 } position = { 0.74 0.5 } }
 	}
 }
 
-CIC_colonial_burma_sub_italian = {
+CIC_colonial_laos_sub_italian = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
 	
@@ -67,14 +75,15 @@ CIC_colonial_burma_sub_italian = {
 		instance = { scale = { 0.25 0.25 } position = { 0.3 0.25 } rotation = 180 }
 	}
 	colored_emblem = {
-		texture = "ce_emblem_peacock_simplified.dds"
+		texture = "ce_elephant_erawan.dds"
 		color1 = "green"
-		color2 = "white"
-		instance = { scale = { 0.6 0.6 } position = { 0.63 0.52 } }
+		color2 = "green_light"
+		color3 = "green"
+		instance = { scale = { 0.75 0.75 } position = { 0.63 0.52 } }
 	}
 }
 
-CIC_colonial_burma_sub_french = {
+CIC_colonial_laos_sub_french = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
 	
@@ -85,14 +94,15 @@ CIC_colonial_burma_sub_french = {
 		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
 	}
 	colored_emblem = {
-		texture = "ce_emblem_peacock_simplified.dds"
+		texture = "ce_elephant_erawan.dds"
 		color1 = "blue"
-		color2 = "white"
-		instance = { scale = { 0.45 0.45 } position = { 0.5 0.52 } }
+		color2 = "blue_light"
+		color3 = "azure"
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 } }
 	}
 }
 
-CIC_colonial_burma_sub_dutch = {
+CIC_colonial_laos_sub_dutch = {
 	pattern = "pattern_solid.tga"
 	color1 = "white"
 	
@@ -107,14 +117,15 @@ CIC_colonial_burma_sub_dutch = {
 		instance = { scale = { 1 1.7 } position = { 0.5 0.67 } }
 	}
 	colored_emblem = {
-		texture = "ce_emblem_peacock_simplified.dds"
-		color1 = "orange"
+		texture = "ce_elephant_erawan.dds"
+		color1 = "white"
 		color2 = "white"
-		instance = { scale = { 0.55 0.55 } position = { 0.3 0.35 } }
+		color3 = "white"
+		instance = { scale = { 0.6 0.6 } position = { 0.3 0.35 } }
 	}
 }
 
-CIC_colonial_burma_sub_german_default = {
+CIC_colonial_laos_sub_german_default = {
 	pattern = "pattern_solid.tga"
 	color1 = "black"
 
@@ -135,14 +146,15 @@ CIC_colonial_burma_sub_german_default = {
 		instance = { scale = { 0.78 0.78 } position = { 0.5 0.5 } }
 	}
 	colored_emblem = {
-		texture = "ce_emblem_peacock_simplified.dds"
+		texture = "ce_elephant_erawan.dds"
 		color1 = "black"
-		color2 = "yellow"
-		instance = { scale = { 0.4 0.4 } position = { 0.5 0.51 } }
+		color2 = "black"
+		color3 = "black"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.51 } }
 	}
 }
 
-CIC_colonial_burma_sub_german_prussian = {
+CIC_colonial_laos_sub_german_prussian = {
 	pattern = "pattern_solid.tga"
 	color1 = "black"
 
@@ -163,14 +175,15 @@ CIC_colonial_burma_sub_german_prussian = {
 		instance = { scale = { 0.78 0.78 } position = { 0.5 0.5 } }
 	}
 	colored_emblem = {
-		texture = "ce_emblem_peacock_simplified.dds"
+		texture = "ce_elephant_erawan.dds"
 		color1 = "black"
-		color2 = "white"
-		instance = { scale = { 0.4 0.4 } position = { 0.5 0.51 } }
+		color2 = "black"
+		color3 = "black"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.51 } }
 	}
 }
 
-CIC_colonial_burma_sub_german_saxon = {
+CIC_colonial_laos_sub_german_saxon = {
 	pattern = "pattern_solid.tga"
 	color1 = "black"
 
@@ -191,14 +204,15 @@ CIC_colonial_burma_sub_german_saxon = {
 		instance = { scale = { 0.78 0.78 } position = { 0.5 0.5 } }
 	}
 	colored_emblem = {
-		texture = "ce_emblem_peacock_simplified.dds"
+		texture = "ce_elephant_erawan.dds"
 		color1 = "black"
-		color2 = "white"
-		instance = { scale = { 0.4 0.4 } position = { 0.5 0.51 } }
+		color2 = "black"
+		color3 = "black"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.51 } }
 	}
 }
 
-CIC_colonial_burma_sub_german_bavarian = {
+CIC_colonial_laos_sub_german_bavarian = {
 	pattern = "pattern_solid.tga"
 	color1 = "black"
 
@@ -219,46 +233,53 @@ CIC_colonial_burma_sub_german_bavarian = {
 		instance = { scale = { 0.78 0.78 } position = { 0.5 0.5 } }
 	}
 	colored_emblem = {
-		texture = "ce_emblem_peacock_simplified.dds"
+		texture = "ce_elephant_erawan.dds"
 		color1 = "black"
-		color2 = "white"
-		instance = { scale = { 0.4 0.4 } position = { 0.5 0.51 } }
+		color2 = "black"
+		color3 = "black"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.51 } }
 	}
 }
 
-CIC_colonial_burma_monarchy = {
+CIC_colonial_laos_monarchy = {
 	pattern = "pattern_solid.tga"
-	color1 = "yellow"
+	color1 = "red"
 
 	colored_emblem = {
-		texture = "ce_stripe_bottom_raised.dds"
-		color1 = "green_light"
-		instance = { scale = { 1 0.4 } position = { 0.5 0.73 } }
+		texture = "ce_flag_border_rectangle.dds"
+		color1 = "white"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
 	}
-	textured_emblem = {
-		texture = "te_peacock.dds"
-		instance = { scale = { 1.0 1.0 } position = { 0.5 0.51 } }
+	colored_emblem = {
+		texture = "ce_elephant_erawan.dds"
+		color1 = "white"
+		color2 = "yellow"
+		color3 = "orange"
+		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 } }
 	}
 	colored_emblem = {
 		texture = "ce_crown_ducal.dds"
-		color1 = "pearl"
-		color2 = "green"
-		color3 = "green"
+		color1 = "white"
+		color2 = "yellow"
+		color3 = "azure"
 		instance = { scale = { 0.4 0.4 } position = { 0.18 0.2 } }
 	}
 }
 
-CIC_colonial_burma_dictatorship = {
+CIC_colonial_laos_dictatorship = {
 	pattern = "pattern_solid.tga"
-	color1 = "black"
+	color1 = "red"
 
 	colored_emblem = {
-		texture = "ce_stripe_bottom_raised.dds"
-		color1 = "yellow"
-		instance = { scale = { 1 0.4 } position = { 0.5 0.73 } }
+		texture = "ce_flag_border_rectangle.dds"
+		color1 = "black"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
 	}
-	textured_emblem = {
-		texture = "te_peacock.dds"
-		instance = { scale = { 1.0 1.0 } position = { 0.5 0.51 } }
+	colored_emblem = {
+		texture = "ce_elephant_erawan.dds"
+		color1 = "black"
+		color2 = "yellow"
+		color3 = "orange"
+		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 } }
 	}
 }

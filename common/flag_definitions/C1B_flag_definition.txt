@@ -102,12 +102,39 @@ C1B = {
 		coa_with_overlord_canton = C1B_sub_german_prussian		
 		priority = 100
 		trigger = { 
-			exists = c:GER
-			c:GER = {
-				was_formed_from = PRU
-			}
-			scope:actor = {
-				is_direct_subject_of  = c:GER
+			OR = {
+				AND = {
+					exists = c:GER
+					c:GER = {
+						was_formed_from = PRU
+						OR = {
+							coa_def_autocracy_flag_trigger = yes
+							has_law = law_type:law_monarchy
+						}
+					}
+					scope:actor = {
+						is_direct_subject_of  = c:GER
+					}
+				}
+				AND = {
+					exists = c:NGF
+					c:NGF = {
+						was_formed_from = PRU
+						OR = {
+							coa_def_autocracy_flag_trigger = yes
+							has_law = law_type:law_monarchy
+						}
+					}
+					scope:actor = {
+						is_direct_subject_of  = c:NGF
+					}
+				}
+				AND = {
+					exists = c:PRU
+					scope:actor = {
+						is_direct_subject_of  = c:PRU
+					}
+				}
 			}
 		}
 	}
@@ -221,23 +248,6 @@ C1B_AI = {
 	}
 
 	flag_definition = {
-		coa = C1B_sub_german_prussian
-		allow_overlord_canton = no
-		subject_canton = C1B_sub_german_prussian
-		coa_with_overlord_canton = C1B_sub_german_prussian		
-		priority = 100
-		trigger = { 
-			exists = c:GER
-			c:GER = {
-				was_formed_from = PRU
-			}
-			scope:actor = {
-				is_direct_subject_of  = c:GER
-			}
-		}
-	}
-
-	flag_definition = {
 		coa = C1B_sub_german_default
 		allow_overlord_canton = no
 		subject_canton = C1B_sub_german_default
@@ -258,12 +268,39 @@ C1B_AI = {
 		coa_with_overlord_canton = C1B_sub_german_prussian		
 		priority = 100
 		trigger = { 
-			exists = c:GER
-			c:GER = {
-				was_formed_from = PRU
-			}
-			scope:actor = {
-				is_direct_subject_of  = c:GER
+			OR = {
+				AND = {
+					exists = c:GER
+					c:GER = {
+						was_formed_from = PRU
+						OR = {
+							coa_def_autocracy_flag_trigger = yes
+							has_law = law_type:law_monarchy
+						}
+					}
+					scope:actor = {
+						is_direct_subject_of  = c:GER
+					}
+				}
+				AND = {
+					exists = c:NGF
+					c:NGF = {
+						was_formed_from = PRU
+						OR = {
+							coa_def_autocracy_flag_trigger = yes
+							has_law = law_type:law_monarchy
+						}
+					}
+					scope:actor = {
+						is_direct_subject_of  = c:NGF
+					}
+				}
+				AND = {
+					exists = c:PRU
+					scope:actor = {
+						is_direct_subject_of  = c:PRU
+					}
+				}
 			}
 		}
 	}

@@ -634,6 +634,11 @@
  dyn_c_default_siam: "Siam"
  dyn_c_colonial_siam: "[Country.GetOverlord.GetAdjectiveNoFormatting] Siam"
 
+ CIC_colonial_laos: "Kolonial Laos"
+ CIC_colonial_laos_ADJ: "Laotisch"
+ dyn_c_default_laos: "Laos"
+ dyn_c_colonial_laos: "[Country.GetOverlord.GetAdjectiveNoFormatting] Laos"
+
  COC_colonial_oceania: "Kolonial Ozeanien"
  COC_colonial_oceania_adj: "Ozeanisch"
  dyn_c_default_oceania: "Ozeanien"

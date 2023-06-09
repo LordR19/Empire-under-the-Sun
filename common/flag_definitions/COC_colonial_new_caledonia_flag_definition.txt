@@ -106,12 +106,39 @@ COC_colonial_new_caledonia = {
 		coa_with_overlord_canton = COC_colonial_new_caledonia_sub_german_prussian		
 		priority = 100
 		trigger = { 
-			exists = c:GER
-			c:GER = {
-				was_formed_from = PRU
-			}
-			scope:actor = {
-				is_direct_subject_of  = c:GER
+			OR = {
+				AND = {
+					exists = c:GER
+					c:GER = {
+						was_formed_from = PRU
+						OR = {
+							coa_def_autocracy_flag_trigger = yes
+							has_law = law_type:law_monarchy
+						}
+					}
+					scope:actor = {
+						is_direct_subject_of  = c:GER
+					}
+				}
+				AND = {
+					exists = c:NGF
+					c:NGF = {
+						was_formed_from = PRU
+						OR = {
+							coa_def_autocracy_flag_trigger = yes
+							has_law = law_type:law_monarchy
+						}
+					}
+					scope:actor = {
+						is_direct_subject_of  = c:NGF
+					}
+				}
+				AND = {
+					exists = c:PRU
+					scope:actor = {
+						is_direct_subject_of  = c:PRU
+					}
+				}
 			}
 		}
 	}
@@ -249,12 +276,39 @@ COC_colonial_new_caledonia_AI = {
 		coa_with_overlord_canton = COC_colonial_new_caledonia_sub_german_prussian		
 		priority = 100
 		trigger = { 
-			exists = c:GER
-			c:GER = {
-				was_formed_from = PRU
-			}
-			scope:actor = {
-				is_direct_subject_of  = c:GER
+			OR = {
+				AND = {
+					exists = c:GER
+					c:GER = {
+						was_formed_from = PRU
+						OR = {
+							coa_def_autocracy_flag_trigger = yes
+							has_law = law_type:law_monarchy
+						}
+					}
+					scope:actor = {
+						is_direct_subject_of  = c:GER
+					}
+				}
+				AND = {
+					exists = c:NGF
+					c:NGF = {
+						was_formed_from = PRU
+						OR = {
+							coa_def_autocracy_flag_trigger = yes
+							has_law = law_type:law_monarchy
+						}
+					}
+					scope:actor = {
+						is_direct_subject_of  = c:NGF
+					}
+				}
+				AND = {
+					exists = c:PRU
+					scope:actor = {
+						is_direct_subject_of  = c:PRU
+					}
+				}
 			}
 		}
 	}

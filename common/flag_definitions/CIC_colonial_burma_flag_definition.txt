@@ -102,12 +102,115 @@ CIC_colonial_burma = {
 		coa_with_overlord_canton = CIC_colonial_burma_sub_german_prussian		
 		priority = 100
 		trigger = { 
-			exists = c:GER
-			c:GER = {
-				was_formed_from = PRU
+			OR = {
+				AND = {
+					exists = c:GER
+					c:GER = {
+						was_formed_from = PRU
+						OR = {
+							coa_def_autocracy_flag_trigger = yes
+							has_law = law_type:law_monarchy
+						}
+					}
+					scope:actor = {
+						is_direct_subject_of  = c:GER
+					}
+				}
+				AND = {
+					exists = c:NGF
+					c:NGF = {
+						was_formed_from = PRU
+						OR = {
+							coa_def_autocracy_flag_trigger = yes
+							has_law = law_type:law_monarchy
+						}
+					}
+					scope:actor = {
+						is_direct_subject_of  = c:NGF
+					}
+				}
+				AND = {
+					exists = c:PRU
+					scope:actor = {
+						is_direct_subject_of  = c:PRU
+					}
+				}
 			}
-			scope:actor = {
-				is_direct_subject_of  = c:GER
+		}
+	}
+
+	flag_definition = {
+		coa = CIC_colonial_burma_sub_german_saxon
+		allow_overlord_canton = no
+		subject_canton = CIC_colonial_burma_sub_german_saxon
+		coa_with_overlord_canton = CIC_colonial_burma_sub_german_saxon		
+		priority = 100
+		trigger = { 
+			OR = {
+				AND = {
+					exists = c:GER
+					c:GER = {
+						was_formed_from = SAX
+						OR = {
+							coa_def_autocracy_flag_trigger = yes
+							has_law = law_type:law_monarchy
+						}
+					}
+					scope:actor = {
+						is_direct_subject_of  = c:GER
+					}
+				}
+				AND = {
+					exists = c:NGF
+					c:NGF = {
+						was_formed_from = SAX
+						OR = {
+							coa_def_autocracy_flag_trigger = yes
+							has_law = law_type:law_monarchy
+						}
+					}
+					scope:actor = {
+						is_direct_subject_of  = c:NGF
+					}
+				}
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = CIC_colonial_burma_sub_german_bavarian
+		allow_overlord_canton = no
+		subject_canton = CIC_colonial_burma_sub_german_bavarian
+		coa_with_overlord_canton = CIC_colonial_burma_sub_german_bavarian		
+		priority = 100
+		trigger = { 
+			OR = {
+				AND = {
+					exists = c:GER
+					c:GER = {
+						was_formed_from = BAV
+						OR = {
+							coa_def_autocracy_flag_trigger = yes
+							has_law = law_type:law_monarchy
+						}
+					}
+					scope:actor = {
+						is_direct_subject_of  = c:GER
+					}
+				}
+				AND = {
+					exists = c:NGF
+					c:NGF = {
+						was_formed_from = BAV
+						OR = {
+							coa_def_autocracy_flag_trigger = yes
+							has_law = law_type:law_monarchy
+						}
+					}
+					scope:actor = {
+						is_direct_subject_of  = c:NGF
+					}
+				}
 			}
 		}
 	}

@@ -1881,6 +1881,21 @@ CIC_colonial_siam = {
 	
 }
 
+#Colonial Laos
+CIC_colonial_laos = {
+
+	color = { 255 200 200 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_LAOS
+	
+}
+
 ################################################
 
 ### Oceania Region Countries ###

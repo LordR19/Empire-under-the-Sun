@@ -1382,6 +1382,24 @@ CIC_colonial_siam = {
 	}
 }
 
+#Colonial Laos
+CIC_colonial_laos = {
+	states = {
+		STATE_LAOS
+	}
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		state_is_in_southeast_asia = no
+		owns_entire_state_region = STATE_LAOS
+	}
+}
+
 ################################################
 
 ### Oceania Region Countries ###
