@@ -1896,6 +1896,21 @@ CIC_colonial_laos = {
 	
 }
 
+#Colonial Cambodia
+CIC_colonial_cambodia = {
+
+	color = { 255 200 200 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_CAMBODIA
+	
+}
+
 ################################################
 
 ### Oceania Region Countries ###

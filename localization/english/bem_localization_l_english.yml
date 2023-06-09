@@ -650,6 +650,11 @@
  dyn_c_default_laos: "Laos"
  dyn_c_colonial_laos: "[Country.GetOverlord.GetAdjectiveNoFormatting] Laos"
 
+ CIC_colonial_cambodia: "Colonial Cambodia"
+ CIC_colonial_cambodia_ADJ: "Cambodian"
+ dyn_c_default_cambodia: "Cambodia"
+ dyn_c_colonial_cambodia: "[Country.GetOverlord.GetAdjectiveNoFormatting] Cambodia"
+
  COC_colonial_oceania: "Colonial Oceania"
  COC_colonial_oceania_ADJ: "Oceanian"
  dyn_c_default_oceania: "Oceania"
