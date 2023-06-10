@@ -1564,12 +1564,117 @@ CAR_colonial_lebanon = {
 
 ################################################
 
-###  ###
+### Indochina Region Countries ###
 
-#Hong Kong
-HGK = {
+#Colonial Indochina Region
+CIC_colonial_indochina_region = {
 
-	color = "red"
+	color = { 120 0 0 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_SYRIA
+	
+}
+
+#Colonial Burma
+CIC_colonial_burma = {
+
+	color = { 0 255 215 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_BURMA
+	
+}
+
+#Colonial Siam
+CIC_colonial_siam = {
+
+	color = { 142 0 0 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_BANGKOK
+	
+}
+
+#Colonial Laos
+CIC_colonial_laos = {
+
+	color = { 255 200 200 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_LAOS
+	
+}
+
+#Colonial Cambodia
+CIC_colonial_cambodia = {
+
+	color = { 0 100 0 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_CAMBODIA
+	
+}
+
+#Colonial Vietnam
+CIC_colonial_vietnam = {
+
+	color = { 255 142 0 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_TONKIN
+	
+}
+
+#Colonial Malaysia
+C7M = {
+
+	color = { 255 54 0 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital =  	STATE_MALAYA
+	
+}
+
+#Colonial Singapore
+C4S = {
+
+	color = { 255 170 170 }
 	
 	country_type = colonial
 	
@@ -1577,7 +1682,22 @@ HGK = {
 
 	cultures = { british }
 	
-	capital = STATE_SHAOZHOU
+	capital = STATE_MALAYA
+	
+}
+
+#Colonial Malacca
+C8M = {
+
+	color = { 255 112 42 }
+	
+	country_type = colonial
+	
+	tier = city_state
+
+	cultures = { british }
+	
+	capital =  	STATE_MALAYA
 	
 }
 
@@ -1593,6 +1713,23 @@ SST = {
 	cultures = { british }
 	
 	capital = STATE_MALAYA
+	
+}
+
+################################################
+
+#Hong Kong
+HGK = {
+
+	color = "red"
+	
+	country_type = colonial
+	
+	tier = city_state
+
+	cultures = { british }
+	
+	capital = STATE_SHAOZHOU
 	
 }
 
@@ -1716,21 +1853,6 @@ C4G = {
 	
 }
 
-#Colonial Singapore
-C4S = {
-
-	color = { 255 170 170 }
-	
-	country_type = colonial
-	
-	tier = city_state
-
-	cultures = { british }
-	
-	capital = STATE_MALAYA
-	
-}
-
 #Colonial Ceylon
 C7C = {
 
@@ -1743,36 +1865,6 @@ C7C = {
 	cultures = { british }
 	
 	capital =  	STATE_CEYLON
-	
-}
-
-#Colonial Malaysia
-C7M = {
-
-	color = { 255 54 0 }
-	
-	country_type = colonial
-	
-	tier = principality
-
-	cultures = { british }
-	
-	capital =  	STATE_MALAYA
-	
-}
-
-#Colonial Malacca
-C8M = {
-
-	color = { 255 112 42 }
-	
-	country_type = colonial
-	
-	tier = city_state
-
-	cultures = { british }
-	
-	capital =  	STATE_MALAYA
 	
 }
 
@@ -1848,66 +1940,6 @@ CCI_colonial_west_indies = {
 	cultures = { british }
 	
 	capital = STATE_WEST_INDIES
-	
-}
-
-#Colonial Burma
-CIC_colonial_burma = {
-
-	color = { 0 255 215 }
-	
-	country_type = colonial
-	
-	tier = kingdom
-
-	cultures = { british }
-	
-	capital = STATE_BURMA
-	
-}
-
-#Colonial Siam
-CIC_colonial_siam = {
-
-	color = { 142 0 0 }
-	
-	country_type = colonial
-	
-	tier = kingdom
-
-	cultures = { british }
-	
-	capital = STATE_BANGKOK
-	
-}
-
-#Colonial Laos
-CIC_colonial_laos = {
-
-	color = { 255 200 200 }
-	
-	country_type = colonial
-	
-	tier = principality
-
-	cultures = { british }
-	
-	capital = STATE_LAOS
-	
-}
-
-#Colonial Cambodia
-CIC_colonial_cambodia = {
-
-	color = { 255 200 200 }
-	
-	country_type = colonial
-	
-	tier = principality
-
-	cultures = { british }
-	
-	capital = STATE_CAMBODIA
 	
 }
 

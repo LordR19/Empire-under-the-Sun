@@ -1,0 +1,40 @@
+﻿# Colonial Indochina
+CIC_colonial_indochina_region = {
+	dynamic_country_name = {
+		name = dyn_c_default_indochina
+
+		is_main_tag_only = no
+		priority = 1
+		
+		trigger = {
+			always = yes
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_colonial_indochina
+
+		is_main_tag_only = no
+		priority = 10
+		
+		trigger = {
+			scope:actor = {
+				is_subject = yes
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_union_indochinoise
+
+		is_main_tag_only = no
+		priority = 15
+		
+		trigger = {
+			exists = c:FRA
+			scope:actor = {
+				is_direct_subject_of = c:FRA
+			}
+		}
+	}
+}

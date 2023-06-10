@@ -1,63 +1,64 @@
-#Colonial Malaysia
-C7M = {
+#Colonial Vietnam
+CIC_colonial_vietnam = {
 	pattern = "pattern_solid.tga"
-	color1 = "white"
-	
+	color1 = "yellow"
+
 	colored_emblem = {
-		texture = "ce_stripes_13.dds"
+		texture = "ce_solid.dds" # Regular Border
 		color1 = "red"
+		instance = { scale = { 1.0 0.1 } position = { 0.5 0.05 } }	
+		instance = { scale = { 1.0 0.1 } position = { 0.5 0.95 } }		
+		instance = { scale = { 0.066 1.0 } position = { 0.033 0.5 } }	
+		instance = { scale = { 0.066 1.0 } position = { 0.967 0.5 } }			
 	}
 	colored_emblem = {
-		texture = "ce_stripe_center.dds"
-		color1 = "blue"
-		instance = { scale = { 1 2.2 } position = { 0.5 0.5 } }
-	}
-	textured_emblem = {
-		texture = "te_emblem_tiger.dds"
-		instance = { scale = { 0.55 0.55 } position = { 0.55 0.5 } }
+		texture = "ce_emblem_dragon_1c.dds"
+		color1 = "red"
+		instance = { scale = { 0.7 0.7 } position = { 0.5 0.5 } }
 	}
 }
 
-C7M_sub = {
+CIC_colonial_vietnam_sub = {
 	pattern = "pattern_solid.tga"
-	color1 = "white"
-	
+	color1 = "yellow"
+
 	colored_emblem = {
-		texture = "ce_stripes_13.dds"
+		texture = "ce_solid.dds" # Regular Border
 		color1 = "red"
+		instance = { scale = { 1.0 0.1 } position = { 0.5 0.05 } }	
+		instance = { scale = { 1.0 0.1 } position = { 0.5 0.95 } }		
+		instance = { scale = { 0.066 1.0 } position = { 0.033 0.5 } }	
+		instance = { scale = { 0.066 1.0 } position = { 0.967 0.5 } }			
 	}
 	colored_emblem = {
-		texture = "ce_stripe_center.dds"
-		color1 = "blue"
-		instance = { scale = { 1 2.2 } position = { 0.5 0.5 } }
-	}
-	textured_emblem = {
-		texture = "te_emblem_tiger.dds"
-		instance = { scale = { 0.35 0.35 } position = { 0.75 0.5 } }
+		texture = "ce_emblem_dragon_1c.dds"
+		color1 = "red"
+		instance = { scale = { 0.55 0.55 } position = { 0.715 0.5 } }
 	}
 }
 
-C7M_sub_british = {
+CIC_colonial_vietnam_sub_british = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
 
 	colored_emblem = {
 		texture = "ce_frame_circle.dds"
-		color1 = "black"
-		instance = { scale = { 0.51 0.51 } position = { 0.75 0.5 } }
+		color1 = "red"
+		instance = { scale = { 0.5 0.5 } position = { 0.75 0.5 } }
 	}
 	colored_emblem = {
 		texture = "ce_frame_circle.dds"
-		color1 = "white"
-		instance = { scale = { 0.49 0.49 } position = { 0.75 0.5 } }
+		color1 = "yellow"
+		instance = { scale = { 0.47 0.47 } position = { 0.75 0.5 } }
 	}
-	textured_emblem = {
-		texture = "te_emblem_tiger.dds"
-		instance = { scale = { 0.3 0.3 } position = { 0.75 0.53 } }
+	colored_emblem = {
+		texture = "ce_emblem_dragon_1c.dds"
+		color1 = "red"
+		instance = { scale = { 0.35 0.35 } position = { 0.76 0.5 } }
 	}
 }
 
-C7M_sub_italian = {
+CIC_colonial_vietnam_sub_italian = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
 	
@@ -79,13 +80,13 @@ C7M_sub_italian = {
 		instance = { scale = { 0.25 0.25 } position = { 0.3 0.25 } rotation = 180 }
 	}
 	colored_emblem = {
-		texture = "ce_star_14.dds"
+		texture = "ce_emblem_dragon_1c.dds"
 		color1 = "green"
-		instance = { scale = { 0.65 0.65 } position = { 0.63 0.5 } }
+		instance = { scale = { 0.6 0.6 } position = { 0.63 0.52 } }
 	}
 }
 
-C7M_sub_french = {
+CIC_colonial_vietnam_sub_french = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
 	
@@ -96,13 +97,13 @@ C7M_sub_french = {
 		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
 	}
 	colored_emblem = {
-		texture = "ce_star_14.dds"
+		texture = "ce_emblem_dragon_1c.dds"
 		color1 = "blue"
-		instance = { scale = { 0.53 0.53 } position = { 0.5 0.5 } }
+		instance = { scale = { 0.45 0.45 } position = { 0.5 0.52 } }
 	}
 }
 
-C7M_sub_dutch = {
+CIC_colonial_vietnam_sub_dutch = {
 	pattern = "pattern_solid.tga"
 	color1 = "white"
 	
@@ -117,13 +118,13 @@ C7M_sub_dutch = {
 		instance = { scale = { 1 1.7 } position = { 0.5 0.67 } }
 	}
 	colored_emblem = {
-		texture = "ce_star_14.dds"
+		texture = "ce_emblem_dragon_1c.dds"
 		color1 = "white"
-		instance = { scale = { 0.63 0.63 } position = { 0.3 0.35 } }
+		instance = { scale = { 0.58 0.58 } position = { 0.3 0.35 } }
 	}
 }
 
-C7M_sub_german_default = {
+CIC_colonial_vietnam_sub_german_default = {
 	pattern = "pattern_solid.tga"
 	color1 = "black"
 
@@ -144,13 +145,13 @@ C7M_sub_german_default = {
 		instance = { scale = { 0.78 0.78 } position = { 0.5 0.5 } }
 	}
 	colored_emblem = {
-		texture = "ce_star_14.dds"
+		texture = "ce_emblem_dragon_1c.dds"
 		color1 = "black"
-		instance = { scale = { 0.5 0.5 } position = { 0.5 0.5 } }
+		instance = { scale = { 0.42 0.42 } position = { 0.51 0.5 } }
 	}
 }
 
-C7M_sub_german_prussian = {
+CIC_colonial_vietnam_sub_german_prussian = {
 	pattern = "pattern_solid.tga"
 	color1 = "black"
 
@@ -171,13 +172,13 @@ C7M_sub_german_prussian = {
 		instance = { scale = { 0.78 0.78 } position = { 0.5 0.5 } }
 	}
 	colored_emblem = {
-		texture = "ce_star_14.dds"
+		texture = "ce_emblem_dragon_1c.dds"
 		color1 = "black"
-		instance = { scale = { 0.5 0.5 } position = { 0.5 0.5 } }
+		instance = { scale = { 0.42 0.42 } position = { 0.51 0.5 } }
 	}
 }
 
-C7M_sub_german_saxon = {
+CIC_colonial_vietnam_sub_german_saxon = {
 	pattern = "pattern_solid.tga"
 	color1 = "black"
 
@@ -198,13 +199,13 @@ C7M_sub_german_saxon = {
 		instance = { scale = { 0.78 0.78 } position = { 0.5 0.5 } }
 	}
 	colored_emblem = {
-		texture = "ce_star_14.dds"
+		texture = "ce_emblem_dragon_1c.dds"
 		color1 = "black"
-		instance = { scale = { 0.5 0.5 } position = { 0.5 0.5 } }
+		instance = { scale = { 0.42 0.42 } position = { 0.51 0.5 } }
 	}
 }
 
-C7M_sub_german_bavarian = {
+CIC_colonial_vietnam_sub_german_bavarian = {
 	pattern = "pattern_solid.tga"
 	color1 = "black"
 
@@ -225,54 +226,53 @@ C7M_sub_german_bavarian = {
 		instance = { scale = { 0.78 0.78 } position = { 0.5 0.5 } }
 	}
 	colored_emblem = {
-		texture = "ce_star_14.dds"
+		texture = "ce_emblem_dragon_1c.dds"
 		color1 = "black"
-		instance = { scale = { 0.5 0.5 } position = { 0.5 0.5 } }
+		instance = { scale = { 0.42 0.42 } position = { 0.51 0.5 } }
 	}
 }
 
-C7M_monarchy = {
+CIC_colonial_vietnam_monarchy = {
 	pattern = "pattern_solid.tga"
-	color1 = "white"
-	
+	color1 = "yellow"
+
 	colored_emblem = {
-		texture = "ce_stripes_13.dds"
+		texture = "ce_solid.dds" # Regular Border
 		color1 = "red"
+		instance = { scale = { 1.0 0.1 } position = { 0.5 0.05 } }	
+		instance = { scale = { 1.0 0.1 } position = { 0.5 0.95 } }		
+		instance = { scale = { 0.066 1.0 } position = { 0.033 0.5 } }	
+		instance = { scale = { 0.066 1.0 } position = { 0.967 0.5 } }			
 	}
 	colored_emblem = {
-		texture = "ce_stripe_center.dds"
-		color1 = "blue"
-		instance = { scale = { 1 2.2 } position = { 0.5 0.5 } }
-	}
-	textured_emblem = {
-		texture = "te_emblem_tiger.dds"
-		instance = { scale = { 0.45 0.45 } position = { 0.52 0.5 } }
+		texture = "ce_emblem_dragon_1c.dds"
+		color1 = "red"
+		instance = { scale = { 0.7 0.7 } position = { 0.5 0.5 } }
 	}
 	colored_emblem = {
 		texture = "ce_crown_ducal.dds"
-		color1 = "yellow"
+		color1 = "red"
 		color2 = "red"
-		color3 = "blue"
-		instance = { scale = { 0.4 0.4 } position = { 0.15 0.5 } }
-		instance = { scale = { 0.4 0.4 } position = { 0.85 0.5 } }
+		color3 = "red"
+		instance = { scale = { 0.4 0.4 } position = { 0.23 0.25 } }
 	}
 }
 
-C7M_dictatorship = {
+CIC_colonial_vietnam_dictatorship = {
 	pattern = "pattern_solid.tga"
-	color1 = "black"
-	
+	color1 = "yellow"
+
 	colored_emblem = {
-		texture = "ce_stripes_13.dds"
-		color1 = "red"
-	}
-	colored_emblem = {
-		texture = "ce_stripe_center.dds"
+		texture = "ce_solid.dds" # Regular Border
 		color1 = "black"
-		instance = { scale = { 1 2.2 } position = { 0.5 0.5 } }
+		instance = { scale = { 1.0 0.1 } position = { 0.5 0.05 } }	
+		instance = { scale = { 1.0 0.1 } position = { 0.5 0.95 } }		
+		instance = { scale = { 0.066 1.0 } position = { 0.033 0.5 } }	
+		instance = { scale = { 0.066 1.0 } position = { 0.967 0.5 } }			
 	}
-	textured_emblem = {
-		texture = "te_emblem_tiger.dds"
-		instance = { scale = { 0.55 0.55 } position = { 0.55 0.5 } }
+	colored_emblem = {
+		texture = "ce_emblem_dragon_1c.dds"
+		color1 = "black"
+		instance = { scale = { 0.7 0.7 } position = { 0.5 0.5 } }
 	}
 }

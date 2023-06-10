@@ -624,6 +624,12 @@
  dyn_c_british_leeward_islands: "[Country.GetOverlord.GetAdjectiveNoFormatting] Inseln über dem Winde"
  dyn_c_british_leeward_islands_adj: "[Country.GetOverlord.GetAdjectiveNoFormatting] über dem Winde"
 
+ CIC_colonial_indochina_region: "Kolonial Indochina"
+ CIC_colonial_indochina_region_ADJ: "Indochinesisch"
+ dyn_c_default_indochina: "Indochina"
+ dyn_c_colonial_indochina: "[Country.GetOverlord.GetAdjectiveNoFormatting] Indochina"
+ dyn_c_union_indochinoise: "Union Indochinoise"
+
  CIC_colonial_burma: "Kolonial Burma"
  CIC_colonial_burma_ADJ: "Burmesisch"
  dyn_c_default_burma: "Burma"
@@ -643,6 +649,11 @@
  CIC_colonial_cambodia_ADJ: "Kambodschanisch"
  dyn_c_default_cambodia: "Kambodscha"
  dyn_c_colonial_cambodia: "[Country.GetOverlord.GetAdjectiveNoFormatting] Kambodscha"
+
+ CIC_colonial_vietnam: "Kolonial Vietnam"
+ CIC_colonial_vietnam_ADJ: "Vietnamesisch"
+ dyn_c_default_vietnam: "Vietnam"
+ dyn_c_colonial_vietnam: "[Country.GetOverlord.GetAdjectiveNoFormatting] Vietnam"
 
  COC_colonial_oceania: "Kolonial Ozeanien"
  COC_colonial_oceania_adj: "Ozeanisch"
@@ -954,6 +965,12 @@
  colonial_nations_south_africa_more_2_tt: "Du hast zwei oder mehr #yellow Kolonialnationen#! in der Region Südafrika"
  colonial_nations_south_africa_tt: "Du hast eine oder mehr #yellow Kolonialnationen#! in der Region Südafrika"
  unite_south_africa_tt: "Jede #yellow Kolonialnation#! und #yellow jeder deiner Staaten#! in der Region Südafrika wird in eine Kolonialnation #yellow vereint#!. Die Kolonialnation mit dem höchsten [concept_gdp] Wird die Führung übernehmen und die Regierung der neuen Kolonie stellen."
+
+ unite_colonies_indochina_decision: "Vereine Kolonien in der Region Indochina"
+ unite_colonies_indochina_decision_desc: "Diese Entscheidung erlaubt dir, #yellow alle Kolonialen Untertanen und eigenen Staaten in der Region Indochina#! in eine grosse Kolonialnation zu vereinen."
+ colonial_nations_indochina_more_2_tt: "Du hast zwei oder mehr #yellow Kolonialnationen#! in der Region Indochina"
+ colonial_nations_indochina_tt: "Du hast eine oder mehr #yellow Kolonialnationen#! in der Region Indochina"
+ unite_indochina_tt: "Jede #yellow Kolonialnation#! und #yellow jeder deiner Staaten#! in der Region Indochina wird in eine Kolonialnation #yellow vereint#!. Die Kolonialnation mit dem höchsten [concept_gdp] Wird die Führung übernehmen und die Regierung der neuen Kolonie stellen."
 
  unite_colonies_oceania_decision: "Vereine Kolonien in der Region Ozeanien"
  unite_colonies_oceania_decision_desc: "Diese Entscheidung erlaubt dir, #yellow alle Kolonialen Untertanen und eigenen Staaten in der Region Ozeanien#! in eine grosse Kolonialnation zu vereinen."

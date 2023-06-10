@@ -700,7 +700,6 @@ C6C = {
 
 ### Arabia Region Countries ###
 
-
 #Protectorate of Palestine
 C1P = {
 	states = {
@@ -1023,15 +1022,153 @@ CAR_colonial_lebanon = {
 
 ################################################
 
-#Hong Kong
-HGK = {
-	provinces = {
-		xB03161
+### Indochina Region Countries ###
+
+#Colonial Burma
+CIC_colonial_burma = {
+	states = {
+		STATE_BURMA
+		STATE_KACHIN
+		STATE_PEGU
+		STATE_SHAN_STATES
 	}
 
 	possible = {
-		exists = c:GBR
-		this = c:GBR
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_southeast_asia = no
+		owns_entire_state_region = STATE_BURMA
+		owns_entire_state_region = STATE_KACHIN
+		owns_entire_state_region = STATE_PEGU
+		owns_entire_state_region = STATE_SHAN_STATES
+	}
+}
+
+#Colonial Siam
+CIC_colonial_siam = {
+	states = {
+		STATE_BANGKOK
+		STATE_TENASSERIM
+		STATE_NAKHON_RATCHASIMA
+		STATE_CHIANG_MAI
+	}
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_southeast_asia = no
+		owns_entire_state_region = STATE_BANGKOK
+		owns_entire_state_region = STATE_TENASSERIM
+		owns_entire_state_region = STATE_NAKHON_RATCHASIMA
+		owns_entire_state_region = STATE_CHIANG_MAI
+	}
+}
+
+#Colonial Laos
+CIC_colonial_laos = {
+	states = {
+		STATE_LAOS
+	}
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_southeast_asia = no
+		owns_entire_state_region = STATE_LAOS
+	}
+}
+
+#Colonial Cambodia
+CIC_colonial_cambodia = {
+	states = {
+		STATE_CAMBODIA
+	}
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_southeast_asia = no
+		owns_entire_state_region = STATE_CAMBODIA
+	}
+}
+
+#Colonial Vietnam
+CIC_colonial_vietnam = {
+	states = {
+		STATE_TONKIN
+		STATE_ANNAM
+		STATE_MEKONG
+	}
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_southeast_asia = no
+		owns_entire_state_region = STATE_CAMBODIA
+		owns_entire_state_region = STATE_ANNAM
+		owns_entire_state_region = STATE_MEKONG
+	}
+}
+
+#Colonial Malaysia
+C7M = {
+	states = {
+		STATE_MALAYA
+	}
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_southeast_asia = no
+		owns_entire_state_region = STATE_MALAYA
+	}
+}
+
+#Colonial Singapore
+C4S = {
+	provinces = {
+		xC00130
+	}
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = { always = no }
+}
+
+#Colonial Malacca
+C8M = {
+	provinces = {
+		x8080B0
+	}
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
 	}
 	
 	ai_will_do = { always = no }
@@ -1045,6 +1182,22 @@ SST = {
 
 	possible = {
 		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = { always = no }
+}
+
+################################################
+
+#Hong Kong
+HGK = {
+	provinces = {
+		xB03161
+	}
+
+	possible = {
+		exists = c:GBR
+		this = c:GBR
 	}
 	
 	ai_will_do = { always = no }
@@ -1186,19 +1339,6 @@ C4G = {
 	ai_will_do = { always = no }
 }
 
-#Colonial Singapore
-C4S = {
-	provinces = {
-		xC00130
-	}
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-	
-	ai_will_do = { always = no }
-}
-
 #Colonial Ceylon
 C7C = {
 	states = {
@@ -1215,37 +1355,6 @@ C7C = {
 		country_is_in_india = no
 		owns_entire_state_region = STATE_CEYLON
 	}
-}
-
-#Colonial Malaysia
-C7M = {
-	states = {
-		STATE_MALAYA
-	}
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-	
-	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_southeast_asia = no
-		owns_entire_state_region = STATE_MALAYA
-	}
-}
-
-#Colonial Malacca
-C8M = {
-	provinces = {
-		x8080B0
-	}
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-	
-	ai_will_do = { always = no }
 }
 
 #Colonial Newfoundland
@@ -1331,90 +1440,6 @@ CCI_colonial_west_indies = {
 		country_is_in_central_america = no
 		country_is_in_south_america = no
 		owns_entire_state_region = STATE_WEST_INDIES
-	}
-}
-
-#Colonial Burma
-CIC_colonial_burma = {
-	states = {
-		STATE_BURMA
-		STATE_KACHIN
-		STATE_PEGU
-		STATE_SHAN_STATES
-	}
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-	
-	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		state_is_in_southeast_asia = no
-		owns_entire_state_region = STATE_BURMA
-		owns_entire_state_region = STATE_KACHIN
-		owns_entire_state_region = STATE_PEGU
-		owns_entire_state_region = STATE_SHAN_STATES
-	}
-}
-
-#Colonial Siam
-CIC_colonial_siam = {
-	states = {
-		STATE_BANGKOK
-		STATE_TENASSERIM
-		STATE_NAKHON_RATCHASIMA
-		STATE_CHIANG_MAI
-	}
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-	
-	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		state_is_in_southeast_asia = no
-		owns_entire_state_region = STATE_BANGKOK
-		owns_entire_state_region = STATE_TENASSERIM
-		owns_entire_state_region = STATE_NAKHON_RATCHASIMA
-		owns_entire_state_region = STATE_CHIANG_MAI
-	}
-}
-
-#Colonial Laos
-CIC_colonial_laos = {
-	states = {
-		STATE_LAOS
-	}
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-	
-	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		state_is_in_southeast_asia = no
-		owns_entire_state_region = STATE_LAOS
-	}
-}
-
-#Colonial Cambodia
-CIC_colonial_cambodia = {
-	states = {
-		STATE_CAMBODIA
-	}
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-	
-	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		state_is_in_southeast_asia = no
-		owns_entire_state_region = STATE_CAMBODIA
 	}
 }
 

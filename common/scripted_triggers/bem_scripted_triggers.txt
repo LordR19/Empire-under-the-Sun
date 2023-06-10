@@ -436,7 +436,44 @@ bem_colonial_nation_trigger = {
 			exists = c:CAR_colonial_lebanon
 			this = c:CAR_colonial_lebanon
 		}
-		###  ###
+		### Colonial Indochina Countries ###
+		AND = { #Colonial Burma
+			exists = c:CIC_colonial_burma
+			this = c:CIC_colonial_burma
+		}
+		AND = { #Colonial Siam
+			exists = c:CIC_colonial_siam
+			this = c:CIC_colonial_siam
+		}
+		AND = { #Colonial Laos
+			exists = c:CIC_colonial_laos
+			this = c:CIC_colonial_laos
+		}
+		AND = { #Colonial Cambodia
+			exists = c:CIC_colonial_cambodia
+			this = c:CIC_colonial_cambodia
+		}
+		AND = { #Colonial Vietnam
+			exists = c:CIC_colonial_vietnam
+			this = c:CIC_colonial_vietnam
+		}
+		AND = { #Colonial Malaysia
+			exists = c:C7M
+			this = c:C7M
+		}
+		AND = { #Colonial Singapore
+			exists = c:C4S
+			this = c:C4S
+		}
+		AND = { #Colonial Malacca
+			exists = c:C8M
+			this = c:C8M
+		}
+		AND = { #Colonial Strait Settlements
+			exists = c:SST
+			this = c:SST
+		}
+		### Colonial  Countries ###
 		AND = {
 			exists = c:HGK
 			this = c:HGK
@@ -444,10 +481,6 @@ bem_colonial_nation_trigger = {
 		AND = {
 			exists = c:CBG
 			this = c:CBG
-		}
-		AND = {
-			exists = c:SST
-			this = c:SST
 		}
 		AND = {
 			exists = c:C1C
@@ -486,24 +519,12 @@ bem_colonial_nation_trigger = {
 			this = c:C4G
 		}
 		AND = {
-			exists = c:C4S
-			this = c:C4S
-		}
-		AND = {
 			exists = c:C5S
 			this = c:C5S
 		}
 		AND = {
 			exists = c:C7C
 			this = c:C7C
-		}
-		AND = {
-			exists = c:C7M
-			this = c:C7M
-		}
-		AND = {
-			exists = c:C8M
-			this = c:C8M
 		}
 		AND = {
 			exists = c:CNA_colonial_newfoundland
@@ -524,22 +545,6 @@ bem_colonial_nation_trigger = {
 		AND = {
 			exists = c:CCI_colonial_west_indies
 			this = c:CCI_colonial_west_indies
-		}
-		AND = {
-			exists = c:CIC_colonial_burma
-			this = c:CIC_colonial_burma
-		}
-		AND = {
-			exists = c:CIC_colonial_siam
-			this = c:CIC_colonial_siam
-		}
-		AND = {
-			exists = c:CIC_colonial_laos
-			this = c:CIC_colonial_laos
-		}
-		AND = {
-			exists = c:CIC_colonial_cambodia
-			this = c:CIC_colonial_cambodia
 		}
 		### Oceania Region Countries ###
 		AND = { #Colonial Oceania
@@ -1115,6 +1120,47 @@ bem_colonial_nation_arabia_trigger = {
 	}
 }
 
+#Trigger for all the Colonial Nations in the Indochina Region
+bem_colonial_nation_indochina_trigger = {
+	OR = {
+		AND = { #Colonial Burma
+			exists = c:CIC_colonial_burma
+			this = c:CIC_colonial_burma
+		}
+		AND = { #Colonial Siam
+			exists = c:CIC_colonial_siam
+			this = c:CIC_colonial_siam
+		}
+		AND = { #Colonial Laos
+			exists = c:CIC_colonial_laos
+			this = c:CIC_colonial_laos
+		}
+		AND = { #Colonial Cambodia
+			exists = c:CIC_colonial_cambodia
+			this = c:CIC_colonial_cambodia
+		}
+		AND = { #Colonial Vietnam
+			exists = c:CIC_colonial_vietnam
+			this = c:CIC_colonial_vietnam
+		}
+		AND = { #Colonial Malaysia
+			exists = c:C7M
+			this = c:C7M
+		}
+		AND = { #Colonial Singapore
+			exists = c:C4S
+			this = c:C4S
+		}
+		AND = { #Colonial Malacca
+			exists = c:C8M
+			this = c:C8M
+		}
+		AND = { #Colonial Strait Settlements
+			exists = c:SST
+			this = c:SST
+		}
+	}
+}
 
 #Trigger for all the Colonial Nations in the Oceania Region
 bem_colonial_nation_oceania_trigger = {

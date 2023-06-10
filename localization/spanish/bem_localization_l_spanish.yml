@@ -591,6 +591,37 @@
  dyn_c_default_south_africa: "South Africa"
  dyn_c_colonial_south_africa: "[Country.GetOverlord.GetAdjectiveNoFormatting] South Africa"
 
+ CIC_colonial_indochina_region: "Colonial Indochina"
+ CIC_colonial_indochina_region_ADJ: "Indochinese"
+ dyn_c_default_indochina: "Indochina"
+ dyn_c_colonial_indochina: "[Country.GetOverlord.GetAdjectiveNoFormatting] Indochina"
+ dyn_c_union_indochinoise: "Union Indochinoise"
+
+ CIC_colonial_burma: "Colonial Burma"
+ CIC_colonial_burma_ADJ: "Burmese"
+ dyn_c_default_burma: "Burma"
+ dyn_c_colonial_burma: "[Country.GetOverlord.GetAdjectiveNoFormatting] Burma"
+
+ CIC_colonial_siam: "Colonial Siam"
+ CIC_colonial_siam_ADJ: "Siamese"
+ dyn_c_default_siam: "Siam"
+ dyn_c_colonial_siam: "[Country.GetOverlord.GetAdjectiveNoFormatting] Siam"
+
+ CIC_colonial_laos: "Colonial Laos"
+ CIC_colonial_laos_ADJ: "Laotian"
+ dyn_c_default_laos: "Laos"
+ dyn_c_colonial_laos: "[Country.GetOverlord.GetAdjectiveNoFormatting] Laos"
+
+ CIC_colonial_cambodia: "Colonial Cambodia"
+ CIC_colonial_cambodia_ADJ: "Cambodian"
+ dyn_c_default_cambodia: "Cambodia"
+ dyn_c_colonial_cambodia: "[Country.GetOverlord.GetAdjectiveNoFormatting] Cambodia"
+
+ CIC_colonial_vietnam: "Colonial Vietnam"
+ CIC_colonial_vietnam_ADJ: "Vietnamese"
+ dyn_c_default_vietnam: "Vietnam"
+ dyn_c_colonial_vietnam: "[Country.GetOverlord.GetAdjectiveNoFormatting] Vietnam"
+
  C7C: "Colonial Ceylon"
  C7C_ADJ: "Ceylonese"
  dyn_c_default_ceylon: "Ceylon"
@@ -634,11 +665,6 @@
  dyn_c_colonial_west_indies: "[Country.GetOverlord.GetAdjectiveNoFormatting] West Indies"
  dyn_c_british_leeward_islands: "[Country.GetOverlord.GetAdjectiveNoFormatting] Leeward Islands"
  dyn_c_british_leeward_islands_adj: "[Country.GetOverlord.GetAdjectiveNoFormatting] Leeward"
-
- CIC_colonial_burma: "Colonial Burma"
- CIC_colonial_burma_ADJ: "Burmese"
- dyn_c_default_burma: "Burma"
- dyn_c_colonial_burma: "[Country.GetOverlord.GetAdjectiveNoFormatting] Burma"
 
  COC_colonial_oceania: "Colonial Oceania"
  COC_colonial_oceania_ADJ: "Oceanian"
@@ -980,6 +1006,12 @@
  colonial_nations_arabia_more_2_tt: "You have two or more #yellow Colonial Nations#! in the Arabia Region"
  colonial_nations_arabia_tt: "You have one or more #yellow Colonial Nations#! in the Arabia Region"
  unite_arabia_tt: "Every #yellow Colonial Nation#! and #yellow every State you own#! in Arabia will be #yellow merged#! into one Colonial Nation. The Colonial Nation with the highest [concept_gdp] will take the lead of the united Colony"
+
+ unite_colonies_indochina_decision: "Unite Colonies in Indochina"
+ unite_colonies_indochina_decision_desc: "This Decision allows you to #yellow unite all your Colonial Subjects and states in Indochina#! into one big Colonial Nation."
+ colonial_nations_indochina_more_2_tt: "You have two or more #yellow Colonial Nations#! in the Indochina Region"
+ colonial_nations_indochina_tt: "You have one or more #yellow Colonial Nations#! in the Indochinaa Region"
+ unite_indochina_tt: "Every #yellow Colonial Nation#! and #yellow every State you own#! in Indochina will be #yellow merged#! into one Colonial Nation. The Colonial Nation with the highest [concept_gdp] will take the lead of the united Colony"
 
  unite_colonies_oceania_decision: "Unite Colonies in Oceania"
  unite_colonies_oceania_decision_desc: "This Decision allows you to #yellow unite all your Colonial Subjects and states in Oceania#! into one big Colonial Nation."

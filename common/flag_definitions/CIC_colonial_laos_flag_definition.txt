@@ -173,6 +173,15 @@ CIC_colonial_laos = {
 						is_direct_subject_of  = c:NGF
 					}
 				}
+				AND = {
+					exists = c:SAX
+					c:SAX = {
+						coa_def_autocracy_flag_trigger = yes
+					}
+					scope:actor = {
+						is_direct_subject_of  = c:SAX
+					}
+				}
 			}
 		}
 	}
@@ -209,6 +218,12 @@ CIC_colonial_laos = {
 					}
 					scope:actor = {
 						is_direct_subject_of  = c:NGF
+					}
+				}
+				AND = {
+					exists = c:BAV
+					scope:actor = {
+						is_direct_subject_of  = c:BAV
 					}
 				}
 			}
