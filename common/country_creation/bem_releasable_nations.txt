@@ -1189,6 +1189,140 @@ SST = {
 
 ################################################
 
+### Indonesia Region Countries ###
+
+#Colonial Indonesia
+C3I = {
+	states = {
+		STATE_WEST_JAVA
+		STATE_CENTRAL_JAVA
+		STATE_EAST_JAVA
+		STATE_ACEH
+		STATE_NORTH_SUMATRA
+		STATE_SOUTH_SUMATRA
+		STATE_SUNDA_ISLANDS
+	}
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_southeast_asia = no
+		owns_entire_state_region = STATE_WEST_JAVA
+		owns_entire_state_region = STATE_CENTRAL_JAVA
+		owns_entire_state_region = STATE_EAST_JAVA
+		owns_entire_state_region = STATE_ACEH
+		owns_entire_state_region = STATE_NORTH_SUMATRA
+		owns_entire_state_region = STATE_SOUTH_SUMATRA
+		owns_entire_state_region = STATE_SUNDA_ISLANDS
+	}
+}
+
+#Colonial Borneo
+C3B = {
+	states = {
+		STATE_WEST_BORNEO
+		STATE_EAST_BORNEO
+		STATE_NORTH_BORNEO
+	}
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_southeast_asia = no
+		owns_entire_state_region = STATE_WEST_BORNEO
+		owns_entire_state_region = STATE_EAST_BORNEO
+		owns_entire_state_region = STATE_NORTH_BORNEO
+	}
+}
+
+#Colonial Celebes
+CID_colonial_celebes = {
+	states = {
+		STATE_CELEBES
+	}
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_southeast_asia = no
+		owns_entire_state_region = STATE_CELEBES
+	}
+}
+
+#Colonial Moluccas
+CID_colonial_moluccas = {
+	states = {
+		STATE_MOLUCCAS
+	}
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_southeast_asia = no
+		owns_entire_state_region = STATE_MOLUCCAS
+	}
+}
+
+#Colonial Philippine Islands
+CID_colonial_philippine_islands = {
+	states = {
+		STATE_LUZON
+		STATE_MINDANAO
+		STATE_VISAYAS
+	}
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_southeast_asia = no
+		owns_entire_state_region = STATE_LUZON
+		owns_entire_state_region = STATE_MINDANAO
+		owns_entire_state_region = STATE_VISAYAS
+	}
+}
+
+#Territory of Papua
+C2P = {
+	states = {
+		STATE_EASTERN_NEW_GUINEA
+		STATE_WESTERN_NEW_GUINEA
+	}
+
+	possible = {
+		OR = { is_country_type = recognized is_country_type = colonial }
+	}
+	
+	ai_will_do = {
+		has_game_rule = bem_colonial_nations_release
+		can_have_subjects = yes
+		country_is_in_africa = no
+		owns_entire_state_region = STATE_EASTERN_NEW_GUINEA
+		owns_entire_state_region = STATE_WESTERN_NEW_GUINEA
+	}
+}
+
+################################################
+
 #Hong Kong
 HGK = {
 	provinces = {
@@ -1254,76 +1388,6 @@ C2B = {
 	}
 	
 	ai_will_do = { always = no }
-}
-
-#Territory of Papua
-C2P = {
-	states = {
-		STATE_EASTERN_NEW_GUINEA
-	}
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-	
-	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_africa = no
-		owns_entire_state_region = STATE_EASTERN_NEW_GUINEA
-	}
-}
-
-#Colonial Borneo
-C3B = {
-	states = {
-		STATE_WEST_BORNEO
-		STATE_EAST_BORNEO
-		STATE_NORTH_BORNEO
-	}
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-	
-	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_southeast_asia = no
-		owns_entire_state_region = STATE_WEST_BORNEO
-		owns_entire_state_region = STATE_EAST_BORNEO
-		owns_entire_state_region = STATE_NORTH_BORNEO
-	}
-}
-
-#Colonial Indonesia
-C3I = {
-	states = {
-		STATE_WEST_JAVA
-		STATE_CENTRAL_JAVA
-		STATE_EAST_JAVA
-		STATE_ACEH
-		STATE_NORTH_SUMATRA
-		STATE_SOUTH_SUMATRA
-		STATE_SUNDA_ISLANDS
-	}
-
-	possible = {
-		OR = { is_country_type = recognized is_country_type = colonial }
-	}
-
-	ai_will_do = {
-		has_game_rule = bem_colonial_nations_release
-		can_have_subjects = yes
-		country_is_in_southeast_asia = no
-		owns_entire_state_region = STATE_WEST_JAVA
-		owns_entire_state_region = STATE_CENTRAL_JAVA
-		owns_entire_state_region = STATE_EAST_JAVA
-		owns_entire_state_region = STATE_ACEH
-		owns_entire_state_region = STATE_NORTH_SUMATRA
-		owns_entire_state_region = STATE_SOUTH_SUMATRA
-		owns_entire_state_region = STATE_SUNDA_ISLANDS
-	}
 }
 
 #Colonial Gibraltar

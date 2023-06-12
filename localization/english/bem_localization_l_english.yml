@@ -312,12 +312,12 @@
  dyn_c_colony_of_niger: "[Country.GetOverlord.GetAdjectiveNoFormatting] Niger"
  dyn_c_colony_of_niger_adj: "Nigerien"
 
- C2P: "Colonial Eastern Papua"
+ C2P: "Colonial Papua"
  C2P_ADJ: "Papuan"
  dyn_c_default_papua: "Papua New Guinea"
  dyn_c_default_papua_adj: "Papuan"
- dyn_c_colony_of_papua: "[Country.GetOverlord.GetAdjectiveNoFormatting] East Papua"
- dyn_c_colony_of_papua_adj: "East Papuan"
+ dyn_c_colony_of_papua: "[Country.GetOverlord.GetAdjectiveNoFormatting] Papua"
+ dyn_c_colony_of_papua_adj: "Papuan"
  dyn_c_colony_of_papua_british: "Territory of Papua"
  dyn_c_colony_of_papua_british_adj: "Papuan"
 
@@ -636,6 +636,22 @@
  C8M_ADJ: "Malaccan"
  dyn_c_default_malacca: "Malacca"
  dyn_c_colonial_malacca: "[Country.GetOverlord.GetAdjectiveNoFormatting] Malacca"
+
+ CID_colonial_celebes: "Colonial Celebes"
+ CID_colonial_celebes_ADJ: "Celebian"
+ dyn_c_default_celebes: "Celebes"
+ dyn_c_colonial_celebes: "[Country.GetOverlord.GetAdjectiveNoFormatting] Celebes"
+
+ CID_colonial_moluccas: "Colonial Moluccas"
+ CID_colonial_moluccas_ADJ: "Moluccan"
+ dyn_c_default_spice_islands: "Spice Islands"
+ dyn_c_default_spice_islands_ADJ: "Spice Islander"
+ dyn_c_colonial_spice_islands: "[Country.GetOverlord.GetAdjectiveNoFormatting] Spice Islands"
+
+ CID_colonial_philippine_islands: "Colonial Philippine Islands"
+ CID_colonial_philippine_islands_ADJ: "Moluccan"
+ dyn_c_default_philippine_islands: "Philippine Islands"
+ dyn_c_colonial_philippine_islands: "[Country.GetOverlord.GetAdjectiveNoFormatting] Philippine Islands"
 
  CNA_colonial_newfoundland: "Colonial Newfoundland"
  CNA_colonial_newfoundland_ADJ: "Newfoundland"

@@ -1,0 +1,28 @@
+﻿# Colonial Moluccas
+CID_colonial_moluccas = {
+	dynamic_country_name = {
+		name = dyn_c_default_spice_islands
+		adjective = dyn_c_default_spice_islands_ADJ
+
+		is_main_tag_only = no
+		priority = 1
+		
+		trigger = {
+			always = yes
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_colonial_spice_islands
+		adjective = dyn_c_default_spice_islands_ADJ
+
+		is_main_tag_only = no
+		priority = 10
+		
+		trigger = {
+			scope:actor = {
+				is_subject = yes
+			}
+		}
+	}
+}

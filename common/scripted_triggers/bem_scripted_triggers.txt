@@ -473,6 +473,31 @@ bem_colonial_nation_trigger = {
 			exists = c:SST
 			this = c:SST
 		}
+		### Colonial Indonesia Countries ###
+		AND = { #Colonial Indonesia
+			exists = c:C3I
+			this = c:C3I
+		}
+		AND = { #Colonial Borneo
+			exists = c:C3B
+			this = c:C3B
+		}
+		AND = { #Colonial Celebes
+			exists = c:CID_colonial_celebes
+			this = c:CID_colonial_celebes
+		}
+		AND = { #Colonial Celebes
+			exists = c:CID_colonial_moluccas
+			this = c:CID_colonial_moluccas
+		}
+		AND = { #Colonial Philippine Islands
+			exists = c:CID_colonial_philippine_islands
+			this = c:CID_colonial_philippine_islands
+		}
+		AND = { #Colonial Papua
+			exists = c:C2P
+			this = c:C2P
+		}
 		### Colonial  Countries ###
 		AND = {
 			exists = c:HGK
@@ -499,20 +524,8 @@ bem_colonial_nation_trigger = {
 			this = c:C2B
 		}
 		AND = {
-			exists = c:C2P
-			this = c:C2P
-		}
-		AND = {
 			exists = c:C2S
 			this = c:C2S
-		}
-		AND = {
-			exists = c:C3B
-			this = c:C3B
-		}
-		AND = {
-			exists = c:C3I
-			this = c:C3I
 		}
 		AND = {
 			exists = c:C4G

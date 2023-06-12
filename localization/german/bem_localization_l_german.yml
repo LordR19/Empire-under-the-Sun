@@ -344,12 +344,12 @@
  dyn_c_colony_of_mali: "[Country.GetOverlord.GetAdjectiveNoFormatting] Mali"
  dyn_c_colony_of_mali_adj: "Malisch"
 
- C2P: "Kolonial Ostpapua"
+ C2P: "Kolonial Papua"
  C2P_ADJ: "Papuanisch"
  dyn_c_default_papua: "Papua Neu-Guinea"
  dyn_c_default_papua_adj: "Papuanisch"
- dyn_c_colony_of_papua: "[Country.GetOverlord.GetAdjectiveNoFormatting] Ostpapua"
- dyn_c_colony_of_papua_adj: "Ostpapuanisch"
+ dyn_c_colony_of_papua: "[Country.GetOverlord.GetAdjectiveNoFormatting] Papua"
+ dyn_c_colony_of_papua_adj: "Papuanisch"
  dyn_c_colony_of_papua_british: "Territorium von Papua"
  dyn_c_colony_of_papua_british_adj: "Papuanisch"
 
@@ -654,6 +654,17 @@
  CIC_colonial_vietnam_ADJ: "Vietnamesisch"
  dyn_c_default_vietnam: "Vietnam"
  dyn_c_colonial_vietnam: "[Country.GetOverlord.GetAdjectiveNoFormatting] Vietnam"
+
+ CID_colonial_celebes: "Kolonial Celebes"
+ CID_colonial_celebes_ADJ: "Celebisch"
+ dyn_c_default_celebes: "Celebes"
+ dyn_c_colonial_celebes: "[Country.GetOverlord.GetAdjectiveNoFormatting] Celebes"
+
+ CID_colonial_moluccas: "Kolonial Molukken"
+ CID_colonial_moluccas_ADJ: "Molukkisch"
+ dyn_c_default_spice_islands: "Gewürzinseln"
+ dyn_c_default_spice_islands_ADJ: "Gewürzinsulanisch"
+ dyn_c_colonial_spice_islands: "[Country.GetOverlord.GetAdjectiveNoFormatting] Gewürzinseln"
 
  COC_colonial_oceania: "Kolonial Ozeanien"
  COC_colonial_oceania_adj: "Ozeanisch"

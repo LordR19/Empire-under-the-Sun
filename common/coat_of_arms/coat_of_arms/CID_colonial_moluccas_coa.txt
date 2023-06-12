@@ -1,0 +1,283 @@
+#Colonial Moluccas
+CID_colonial_moluccas = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_solid.dds" # Regular Border
+		color1 = "yellow"
+		instance = { scale = { 1.0 0.1 } position = { 0.5 0.05 } }	
+		instance = { scale = { 1.0 0.1 } position = { 0.5 0.95 } }		
+		instance = { scale = { 0.066 1.0 } position = { 0.033 0.5 } }	
+		instance = { scale = { 0.066 1.0 } position = { 0.967 0.5 } }			
+	}
+	colored_emblem = {
+		texture = "ce_emblem_nutmeg_moluccas.dds"
+		color1 = { 215 159 108 }
+		color2 = "brown"
+		color3 = { 149 74 57 }
+		instance = { scale = { 0.6 0.6 } position = { 0.55 0.5 } }
+	}
+}
+
+CID_colonial_moluccas_sub = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_solid.dds" # Regular Border
+		color1 = "yellow"
+		instance = { scale = { 1.0 0.1 } position = { 0.5 0.05 } }	
+		instance = { scale = { 1.0 0.1 } position = { 0.5 0.95 } }		
+		instance = { scale = { 0.066 1.0 } position = { 0.033 0.5 } }	
+		instance = { scale = { 0.066 1.0 } position = { 0.967 0.5 } }			
+	}
+	colored_emblem = {
+		texture = "ce_emblem_nutmeg_moluccas.dds"
+		color1 = { 215 159 108 }
+		color2 = "brown"
+		color3 = { 149 74 57 }
+		instance = { scale = { 0.45 0.45 } position = { 0.715 0.5 } }
+	}
+}
+
+CID_colonial_moluccas_sub_british = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = "white"
+		instance = { scale = { 0.5 0.5 } position = { 0.75 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_emblem_nutmeg_moluccas.dds"
+		color1 = { 215 159 108 }
+		color2 = "brown"
+		color3 = { 149 74 57 }
+		instance = { scale = { 0.3 0.3 } position = { 0.75 0.5 } }
+	}
+}
+
+CID_colonial_moluccas_sub_italian = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "white"
+		instance = { scale = { 0.8 0.75 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_tricolor_vertical.dds"
+		color1 = "orange"
+		color2 = "green"
+		instance = { scale = { 0.25 0.25 } position = { 0.224 0.25 } rotation = 180 }
+	}
+	colored_emblem = {
+		texture = "ce_tricolor_vertical.dds"
+		color1 = "red"
+		color2 = "white"
+		instance = { scale = { 0.25 0.25 } position = { 0.3 0.25 } rotation = 180 }
+	}
+	colored_emblem = {
+		texture = "ce_emblem_nutmeg_moluccas_silhouette.dds"
+		color1 = "green"
+		instance = { scale = { 0.55 0.55 } position = { 0.63 0.52 } }
+	}
+}
+
+CID_colonial_moluccas_sub_french = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	
+	colored_emblem = {
+		texture = "ce_tricolor_vertical.dds"
+		color1 = "white"
+		color2 = "red"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_emblem_nutmeg_moluccas_silhouette.dds"
+		color1 = "blue"
+		instance = { scale = { 0.35 0.35 } position = { 0.5 0.5 } }
+	}
+}
+
+CID_colonial_moluccas_sub_dutch = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	colored_emblem = {
+		texture = "ce_stripe_bottom.dds"
+		color1 = "blue"
+		instance = { scale = { 1 0.85 } position = { 0.5 0.6 } }
+	}
+	colored_emblem = {
+		texture = "ce_bicolor_top.dds"
+		color1 = "orange"
+		instance = { scale = { 1 1.7 } position = { 0.5 0.67 } }
+	}
+	colored_emblem = {
+		texture = "ce_emblem_nutmeg_moluccas_silhouette.dds"
+		color1 = "white"
+		instance = { scale = { 0.5 0.5 } position = { 0.3 0.35 } }
+	}
+}
+
+CID_colonial_moluccas_sub_german_default = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "red"
+		color2 = "yellow"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_shield_iberian.dds"
+		color1 = "black"
+		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_shield_iberian.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.78 0.78 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_emblem_nutmeg_moluccas_silhouette.dds"
+		color1 = "black"
+		instance = { scale = { 0.35 0.35 } position = { 0.5 0.5 } }
+	}
+}
+
+CID_colonial_moluccas_sub_german_prussian = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "white"
+		color2 = "red"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_shield_iberian.dds"
+		color1 = "black"
+		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_shield_iberian.dds"
+		color1 = "white"
+		instance = { scale = { 0.78 0.78 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_emblem_nutmeg_moluccas_silhouette.dds"
+		color1 = "black"
+		instance = { scale = { 0.35 0.35 } position = { 0.5 0.5 } }
+	}
+}
+
+CID_colonial_moluccas_sub_german_saxon = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "white"
+		color2 = "green"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_shield_iberian.dds"
+		color1 = "black"
+		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_shield_iberian.dds"
+		color1 = "white"
+		instance = { scale = { 0.78 0.78 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_emblem_nutmeg_moluccas_silhouette.dds"
+		color1 = "black"
+		instance = { scale = { 0.35 0.35 } position = { 0.5 0.5 } }
+	}
+}
+
+CID_colonial_moluccas_sub_german_bavarian = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "white"
+		color2 = "blue_light"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_shield_iberian.dds"
+		color1 = "black"
+		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_shield_iberian.dds"
+		color1 = "white"
+		instance = { scale = { 0.78 0.78 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_emblem_nutmeg_moluccas_silhouette.dds"
+		color1 = "black"
+		instance = { scale = { 0.35 0.35 } position = { 0.5 0.5 } }
+	}
+}
+
+CID_colonial_moluccas_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_solid.dds" # Regular Border
+		color1 = "yellow"
+		instance = { scale = { 1.0 0.1 } position = { 0.5 0.05 } }	
+		instance = { scale = { 1.0 0.1 } position = { 0.5 0.95 } }		
+		instance = { scale = { 0.066 1.0 } position = { 0.033 0.5 } }	
+		instance = { scale = { 0.066 1.0 } position = { 0.967 0.5 } }			
+	}
+	colored_emblem = {
+		texture = "ce_emblem_nutmeg_moluccas.dds"
+		color1 = { 215 159 108 }
+		color2 = "brown"
+		color3 = { 149 74 57 }
+		instance = { scale = { 0.6 0.6 } position = { 0.55 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_crown_ducal.dds"
+		color1 = "yellow"
+		color2 = "red"
+		color3 = "red"
+		instance = { scale = { 0.4 0.4 } position = { 0.21 0.24 } }
+	}
+}
+
+CID_colonial_moluccas_dictatorship = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_solid.dds" # Regular Border
+		color1 = "black"
+		instance = { scale = { 1.0 0.1 } position = { 0.5 0.05 } }	
+		instance = { scale = { 1.0 0.1 } position = { 0.5 0.95 } }		
+		instance = { scale = { 0.066 1.0 } position = { 0.033 0.5 } }	
+		instance = { scale = { 0.066 1.0 } position = { 0.967 0.5 } }			
+	}
+	colored_emblem = {
+		texture = "ce_emblem_nutmeg_moluccas.dds"
+		color1 = { 215 159 108 }
+		color2 = "brown"
+		color3 = { 149 74 57 }
+		instance = { scale = { 0.6 0.6 } position = { 0.55 0.5 } }
+	}
+}

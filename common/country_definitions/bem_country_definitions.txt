@@ -1718,6 +1718,100 @@ SST = {
 
 ################################################
 
+### Indonesia Region Countries ###
+
+#Colonial Indonesia
+C3I = {
+
+	color = { 0 0 64 }
+
+	country_type = colonial
+
+	tier = principality
+
+	cultures = { british }
+
+	capital = STATE_WEST_JAVA
+
+}
+
+#Colonial Borneo
+C3B = {
+
+	color = { 200 200 0 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+
+	cultures = { british }
+	
+	capital = STATE_WEST_BORNEO
+	
+}
+
+#Colonial Celebes
+CID_colonial_celebes = {
+
+	color = { 255 120 0 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_CELEBES
+	
+}
+
+#Colonial Moluccas
+CID_colonial_moluccas = {
+
+	color = { 164 0 0 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_MOLUCCAS
+	
+}
+
+#Colonial Philippine Islands
+CID_colonial_philippine_islands = {
+
+	color = { 233 255 255 }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_LUZON
+	
+}
+
+#Territory of Papua
+C2P = {
+
+	color = { 45 45 45  }
+	
+	country_type = colonial
+	
+	tier = principality
+
+	cultures = { british }
+	
+	capital = STATE_EASTERN_NEW_GUINEA
+	
+}
+
+################################################
+
 #Hong Kong
 HGK = {
 
@@ -1791,51 +1885,6 @@ C2B = {
 	
 	capital = STATE_BERMUDA
 	
-}
-
-#Territory of Papua
-C2P = {
-
-	color = { 45 45 45  }
-	
-	country_type = colonial
-	
-	tier = principality
-
-	cultures = { british }
-	
-	capital = STATE_EASTERN_NEW_GUINEA
-	
-}
-
-#Colonial Borneo
-C3B = {
-
-	color = { 200 200 0 }
-	
-	country_type = colonial
-	
-	tier = kingdom
-
-	cultures = { british }
-	
-	capital = STATE_WEST_BORNEO
-	
-}
-
-#Colonial Indonesia
-C3I = {
-
-	color = { 0 0 64 }
-
-	country_type = colonial
-
-	tier = principality
-
-	cultures = { british }
-
-	capital = STATE_WEST_JAVA
-
 }
 
 #Colonial Gibraltar
