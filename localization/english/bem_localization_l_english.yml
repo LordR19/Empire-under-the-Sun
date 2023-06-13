@@ -649,7 +649,7 @@
  dyn_c_colonial_spice_islands: "[Country.GetOverlord.GetAdjectiveNoFormatting] Spice Islands"
 
  CID_colonial_philippine_islands: "Colonial Philippine Islands"
- CID_colonial_philippine_islands_ADJ: "Moluccan"
+ CID_colonial_philippine_islands_ADJ: "Philippino"
  dyn_c_default_philippine_islands: "Philippine Islands"
  dyn_c_colonial_philippine_islands: "[Country.GetOverlord.GetAdjectiveNoFormatting] Philippine Islands"
 

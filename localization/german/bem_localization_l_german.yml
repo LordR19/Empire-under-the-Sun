@@ -666,6 +666,11 @@
  dyn_c_default_spice_islands_ADJ: "Gewürzinsulanisch"
  dyn_c_colonial_spice_islands: "[Country.GetOverlord.GetAdjectiveNoFormatting] Gewürzinseln"
 
+ CID_colonial_philippine_islands: "Koloniale Philippinen"
+ CID_colonial_philippine_islands_ADJ: "Philippio"
+ dyn_c_default_philippine_islands: "Philippinen"
+ dyn_c_colonial_philippine_islands: "[Country.GetOverlord.GetAdjectiveNoFormatting]e Philippinen"
+
  COC_colonial_oceania: "Kolonial Ozeanien"
  COC_colonial_oceania_adj: "Ozeanisch"
  dyn_c_default_oceania: "Ozeanien"

@@ -1783,7 +1783,7 @@ CID_colonial_moluccas = {
 #Colonial Philippine Islands
 CID_colonial_philippine_islands = {
 
-	color = { 233 255 255 }
+	color = { 254 255 254 }
 	
 	country_type = colonial
 	
