@@ -233,6 +233,33 @@ CID_colonial_moluccas_sub_german_bavarian = {
 	}
 }
 
+CID_colonial_moluccas_sub_german_austrian = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "white"
+		color2 = "yellow"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_shield_iberian.dds"
+		color1 = "black"
+		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_shield_iberian.dds"
+		color1 = "white"
+		instance = { scale = { 0.78 0.78 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_emblem_nutmeg_moluccas_silhouette.dds"
+		color1 = "black"
+		instance = { scale = { 0.35 0.35 } position = { 0.5 0.5 } }
+	}
+}
+
 CID_colonial_moluccas_monarchy = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
