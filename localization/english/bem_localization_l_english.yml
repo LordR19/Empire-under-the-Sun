@@ -1035,6 +1035,12 @@
  colonial_nations_oceania_tt: "You have one or more #yellow Colonial Nations#! in the Oceania Region"
  unite_oceania_tt: "Every #yellow Colonial Nation#! and #yellow every State you own#! in OCeania will be #yellow merged#! into one Colonial Nation. The Colonial Nation with the highest [concept_gdp] will take the lead of the united Colony"
 
+ unite_colonies_indonesia_decision: "Unite Colonies in Indonesia"
+ unite_colonies_indonesia_decision_desc: "This Decision allows you to #yellow unite all your Colonial Subjects and states in Indonesia#! into one big Colonial Nation."
+ colonial_nations_indonesia_more_2_tt: "You have two or more #yellow Colonial Nations#! in the Indonesia Region"
+ colonial_nations_indonesia_tt: "You have one or more #yellow Colonial Nations#! in the Indonesia Region"
+ unite_indonesia_tt: "Every #yellow Colonial Nation#! and #yellow every State you own#! in Indonesia will be #yellow merged#! into one Colonial Nation. The Colonial Nation with the highest [concept_gdp] will take the lead of the united Colony"
+
 #AI decisions
  bem_transfer_pacific_islands_from_subject_ai_decision: "AI decision to take Islands from Australia"
  bem_transfer_pacific_islands_from_subject_ai_decision_desc: "Let's the AI take fully colonised states in the pacific ocean from the original Australian Colonial Nations. Should be relevant mostly for Great Britain. #n Should not be visible!#!"
