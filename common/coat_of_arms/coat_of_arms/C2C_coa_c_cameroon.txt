@@ -182,7 +182,7 @@ C2C_sub_german_prussian = {
 	}
 }
 
-C2_sub_german_saxon = {
+C2C_sub_german_saxon = {
 	pattern = "pattern_solid.tga"
 	color1 = "black"
 
