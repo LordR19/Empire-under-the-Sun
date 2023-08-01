@@ -140,6 +140,154 @@ C2G = {
 	}
 
 	flag_definition = {
+		coa = C2G_sub_german_saxon
+		allow_overlord_canton = no
+		subject_canton = C2G_sub_german_saxon
+		coa_with_overlord_canton = C2G_sub_german_saxon		
+		priority = 100
+		trigger = { 
+			OR = {
+				AND = {
+					exists = c:GER
+					c:GER = {
+						was_formed_from = SAX
+						OR = {
+							coa_def_autocracy_flag_trigger = yes
+							has_law = law_type:law_monarchy
+						}
+					}
+					scope:actor = {
+						is_direct_subject_of  = c:GER
+					}
+				}
+				AND = {
+					exists = c:NGF
+					c:NGF = {
+						was_formed_from = SAX
+						OR = {
+							coa_def_autocracy_flag_trigger = yes
+							has_law = law_type:law_monarchy
+						}
+					}
+					scope:actor = {
+						is_direct_subject_of  = c:NGF
+					}
+				}
+				AND = {
+					exists = c:SAX
+					c:SAX = {
+						coa_def_autocracy_flag_trigger = yes
+					}
+					scope:actor = {
+						is_direct_subject_of  = c:SAX
+					}
+				}
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = C2G_sub_german_bavarian
+		allow_overlord_canton = no
+		subject_canton = C2G_sub_german_bavarian
+		coa_with_overlord_canton = C2G_sub_german_bavarian		
+		priority = 100
+		trigger = { 
+			OR = {
+				AND = {
+					exists = c:GER
+					c:GER = {
+						was_formed_from = BAV
+						OR = {
+							coa_def_autocracy_flag_trigger = yes
+							has_law = law_type:law_monarchy
+						}
+					}
+					scope:actor = {
+						is_direct_subject_of  = c:GER
+					}
+				}
+				AND = {
+					exists = c:NGF
+					c:NGF = {
+						was_formed_from = BAV
+						OR = {
+							coa_def_autocracy_flag_trigger = yes
+							has_law = law_type:law_monarchy
+						}
+					}
+					scope:actor = {
+						is_direct_subject_of  = c:NGF
+					}
+				}
+				AND = {
+					exists = c:BAV
+					scope:actor = {
+						is_direct_subject_of  = c:BAV
+					}
+				}
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = C2G_sub_german_austrian
+		allow_overlord_canton = no
+		subject_canton = C2G_sub_german_austrian
+		coa_with_overlord_canton = C2G_sub_german_austrian		
+		priority = 100
+		trigger = { 
+			OR = {
+				AND = {
+					exists = c:GER
+					c:GER = {
+						was_formed_from = AUS
+						OR = {
+							coa_def_autocracy_flag_trigger = yes
+							has_law = law_type:law_monarchy
+						}
+					}
+					scope:actor = {
+						is_direct_subject_of  = c:GER
+					}
+				}
+				AND = {
+					exists = c:NGF
+					c:NGF = {
+						was_formed_from = AUS
+						OR = {
+							coa_def_autocracy_flag_trigger = yes
+							has_law = law_type:law_monarchy
+						}
+					}
+					scope:actor = {
+						is_direct_subject_of  = c:NGF
+					}
+				}
+				AND = {
+					exists = c:SGF
+					c:SGF = {
+						was_formed_from = AUS
+						OR = {
+							coa_def_autocracy_flag_trigger = yes
+							has_law = law_type:law_monarchy
+						}
+					}
+					scope:actor = {
+						is_direct_subject_of  = c:SGF
+					}
+				}
+				AND = {
+					exists = c:AUS
+					scope:actor = {
+						is_direct_subject_of  = c:AUS
+					}
+				}
+			}
+		}
+	}
+
+	flag_definition = {
 		coa = C2G_monarchy
 		subject_canton = C2G_monarchy
 		allow_overlord_canton = yes	
@@ -299,6 +447,154 @@ C2G_AI = {
 					exists = c:PRU
 					scope:actor = {
 						is_direct_subject_of  = c:PRU
+					}
+				}
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = C2G_sub_german_saxon
+		allow_overlord_canton = no
+		subject_canton = C2G_sub_german_saxon
+		coa_with_overlord_canton = C2G_sub_german_saxon		
+		priority = 100
+		trigger = { 
+			OR = {
+				AND = {
+					exists = c:GER
+					c:GER = {
+						was_formed_from = SAX
+						OR = {
+							coa_def_autocracy_flag_trigger = yes
+							has_law = law_type:law_monarchy
+						}
+					}
+					scope:actor = {
+						is_direct_subject_of  = c:GER
+					}
+				}
+				AND = {
+					exists = c:NGF
+					c:NGF = {
+						was_formed_from = SAX
+						OR = {
+							coa_def_autocracy_flag_trigger = yes
+							has_law = law_type:law_monarchy
+						}
+					}
+					scope:actor = {
+						is_direct_subject_of  = c:NGF
+					}
+				}
+				AND = {
+					exists = c:SAX
+					c:SAX = {
+						coa_def_autocracy_flag_trigger = yes
+					}
+					scope:actor = {
+						is_direct_subject_of  = c:SAX
+					}
+				}
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = C2G_sub_german_bavarian
+		allow_overlord_canton = no
+		subject_canton = C2G_sub_german_bavarian
+		coa_with_overlord_canton = C2G_sub_german_bavarian		
+		priority = 100
+		trigger = { 
+			OR = {
+				AND = {
+					exists = c:GER
+					c:GER = {
+						was_formed_from = BAV
+						OR = {
+							coa_def_autocracy_flag_trigger = yes
+							has_law = law_type:law_monarchy
+						}
+					}
+					scope:actor = {
+						is_direct_subject_of  = c:GER
+					}
+				}
+				AND = {
+					exists = c:NGF
+					c:NGF = {
+						was_formed_from = BAV
+						OR = {
+							coa_def_autocracy_flag_trigger = yes
+							has_law = law_type:law_monarchy
+						}
+					}
+					scope:actor = {
+						is_direct_subject_of  = c:NGF
+					}
+				}
+				AND = {
+					exists = c:BAV
+					scope:actor = {
+						is_direct_subject_of  = c:BAV
+					}
+				}
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = C2G_sub_german_austrian
+		allow_overlord_canton = no
+		subject_canton = C2G_sub_german_austrian
+		coa_with_overlord_canton = C2G_sub_german_austrian		
+		priority = 100
+		trigger = { 
+			OR = {
+				AND = {
+					exists = c:GER
+					c:GER = {
+						was_formed_from = AUS
+						OR = {
+							coa_def_autocracy_flag_trigger = yes
+							has_law = law_type:law_monarchy
+						}
+					}
+					scope:actor = {
+						is_direct_subject_of  = c:GER
+					}
+				}
+				AND = {
+					exists = c:NGF
+					c:NGF = {
+						was_formed_from = AUS
+						OR = {
+							coa_def_autocracy_flag_trigger = yes
+							has_law = law_type:law_monarchy
+						}
+					}
+					scope:actor = {
+						is_direct_subject_of  = c:NGF
+					}
+				}
+				AND = {
+					exists = c:SGF
+					c:SGF = {
+						was_formed_from = AUS
+						OR = {
+							coa_def_autocracy_flag_trigger = yes
+							has_law = law_type:law_monarchy
+						}
+					}
+					scope:actor = {
+						is_direct_subject_of  = c:SGF
+					}
+				}
+				AND = {
+					exists = c:AUS
+					scope:actor = {
+						is_direct_subject_of  = c:AUS
 					}
 				}
 			}
