@@ -928,6 +928,12 @@
  setting_bem_colonial_nations_release: "#n Experimental!#! #p Release#! of #bold Colonial Nations#!"
  setting_bem_colonial_nations_release_desc: "#bold AI Nations#! #p will#! release #bold Colonial Nations#!, if they control all the states of the colonial nation. #n Warning!#! This feature might cause weird situations!"
 
+ rule_bem_ai_colonial_nations_unification: "#yellow EutS:#! Should #bold AI#! nations unite their #bold Colonial Nations#!?"
+ setting_bem_no_ai_colonial_nations_unification: "#n No#! AI unification of #bold Colonial Nations#!"
+ setting_bem_no_ai_colonial_nations_unification_desc: "#bold AI Nations#! will #n not#! unite #bold Colonial Nations#!. Only the #bold Player#! can unite #bold Colonial Nations#!."
+ setting_bem_ai_colonial_nations_unification: "#p AI Unification#! of #bold Colonial Nations#!"
+ setting_bem_ai_colonial_nations_unification_desc: "#bold AI Nations#! #p will#! unite #bold Colonial Nations#! in the same region, if it is possible for them."
+
 #Subject Types and Diplomatic Actions
  bem_colony: "Colony"
  bem_colony_pact_desc: "[SCOPE.GetRootScope.GetDiplomaticPact.GetSecondCountry.GetName] is a [concept_bem_colony] of [SCOPE.GetRootScope.GetDiplomaticPact.GetFirstCountry.GetName]."

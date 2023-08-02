@@ -259,7 +259,7 @@ unite_colonies_maghreb_decision = {
 			is_player = yes
 			AND = {
 				is_player = no
-				has_game_rule = bem_colonial_nations_release
+				has_game_rule = bem_ai_colonial_nations_unification
 			}
 		}
 		has_variable = show_bem_colonial_decisions_var
@@ -387,7 +387,7 @@ unite_colonies_west_africa_decision = {
 			is_player = yes
 			AND = {
 				is_player = no
-				has_game_rule = bem_colonial_nations_release
+				has_game_rule = bem_ai_colonial_nations_unification
 			}
 		}
 		has_variable = show_bem_colonial_decisions_var
@@ -515,7 +515,7 @@ unite_colonies_greater_nigeria_decision = {
 			is_player = yes
 			AND = {
 				is_player = no
-				has_game_rule = bem_colonial_nations_release
+				has_game_rule = bem_ai_colonial_nations_unification
 			}
 		}
 		has_variable = show_bem_colonial_decisions_var
@@ -643,7 +643,7 @@ unite_colonies_greater_egypt_decision = {
 			is_player = yes
 			AND = {
 				is_player = no
-				has_game_rule = bem_colonial_nations_release
+				has_game_rule = bem_ai_colonial_nations_unification
 			}
 		}
 		has_variable = show_bem_colonial_decisions_var
@@ -771,7 +771,7 @@ unite_colonies_greater_ethiopia_decision = {
 			is_player = yes
 			AND = {
 				is_player = no
-				has_game_rule = bem_colonial_nations_release
+				has_game_rule = bem_ai_colonial_nations_unification
 			}
 		}
 		has_variable = show_bem_colonial_decisions_var
@@ -899,7 +899,7 @@ unite_colonies_zanj_decision = {
 			is_player = yes
 			AND = {
 				is_player = no
-				has_game_rule = bem_colonial_nations_release
+				has_game_rule = bem_ai_colonial_nations_unification
 			}
 		}
 		has_variable = show_bem_colonial_decisions_var
@@ -1027,7 +1027,7 @@ unite_colonies_congo_decision = {
 			is_player = yes
 			AND = {
 				is_player = no
-				has_game_rule = bem_colonial_nations_release
+				has_game_rule = bem_ai_colonial_nations_unification
 			}
 		}
 		has_variable = show_bem_colonial_decisions_var
@@ -1155,7 +1155,7 @@ unite_colonies_south_africa_decision = {
 			is_player = yes
 			AND = {
 				is_player = no
-				has_game_rule = bem_colonial_nations_release
+				has_game_rule = bem_ai_colonial_nations_unification
 			}
 		}
 		has_variable = show_bem_colonial_decisions_var
@@ -1283,7 +1283,7 @@ unite_colonies_arabia_decision = {
 			is_player = yes
 			AND = {
 				is_player = no
-				has_game_rule = bem_colonial_nations_release
+				has_game_rule = bem_ai_colonial_nations_unification
 			}
 		}
 		has_variable = show_bem_colonial_decisions_var
@@ -1409,10 +1409,10 @@ unite_colonies_indochina_decision = {
 	is_shown = {
 		OR = {
 			is_player = yes
-		#	AND = {
-		#		is_player = no
-		#		has_game_rule = bem_colonial_nations_release
-		#	}
+			AND = {
+				is_player = no
+				has_game_rule = bem_ai_colonial_nations_unification
+			}
 		}
 		has_variable = show_bem_colonial_decisions_var
 		any_subject_or_below = {
@@ -1539,7 +1539,7 @@ unite_colonies_oceania_decision = {
 			is_player = yes
 			AND = {
 				is_player = no
-				has_game_rule = bem_colonial_nations_release
+				has_game_rule = bem_ai_colonial_nations_unification
 			}
 		}
 		has_variable = show_bem_colonial_decisions_var
@@ -1667,7 +1667,7 @@ unite_colonies_indonesia_decision = {
 			is_player = yes
 			AND = {
 				is_player = no
-				has_game_rule = bem_colonial_nations_release
+				has_game_rule = bem_ai_colonial_nations_unification
 			}
 		}
 		has_variable = show_bem_colonial_decisions_var
@@ -1721,17 +1721,19 @@ unite_colonies_indonesia_decision = {
 					order_by = gdp
 		
 					save_scope_as = unifier_tag
+
+					add_treasury = 100
 				}
 				if = {
 					limit = {
 						is_player = yes
 						any_scope_state = {
-							region = sr:region_oceania
+							region = sr:region_indonesia
 						}
 					}
 					every_scope_state = {
 						limit = {
-							region = sr:region_oceania
+							region = sr:region_indonesia
 							root = owner
 						}
 						set_state_owner = scope:unifier_tag
@@ -1741,7 +1743,7 @@ unite_colonies_indonesia_decision = {
 					limit = {
 						is_direct_subject_of = root
 						NOT = { this = scope:unifier_tag }
-						capital = { region = sr:region_oceania }
+						capital = { region = sr:region_indonesia }
 						is_subject_type = subject_type_bem_colony
 						is_ai = yes
 						relations:root >= relations_threshold:neutral

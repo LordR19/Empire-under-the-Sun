@@ -7,3 +7,13 @@
 	bem_colonial_nations_release = {
 	}
 }
+
+bem_ai_colonial_nations_unification = {
+	default = bem_ai_colonial_nations_unification
+
+	bem_no_ai_colonial_nations_unification = {
+	}
+
+	bem_ai_colonial_nations_unification = {
+	}
+}

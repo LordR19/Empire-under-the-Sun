@@ -894,6 +894,12 @@
  setting_bem_colonial_nations_release: "#n Experimentel!#! #p Entlassen#! von #bold Kolonialnationen#!"
  setting_bem_colonial_nations_release_desc: "#bold KI Nationen#! #p werden#! #bold Kolonialnationen#! entlassen, wenn sie alle Staaten komplett kontrollieren. #n Achtung!#! Dieses Feature könnte zu seltsamen Situationen führen!"
 
+ rule_bem_ai_colonial_nations_unification: "#yellow EutS:#! Sollen #bold KI#! Nationen #bold Kolonialnationen#! vereinen?"
+ setting_bem_no_ai_colonial_nations_unification: "#n Keine#! Vereinigung von #bold Kolonialnationen#! durch KI"
+ setting_bem_no_ai_colonial_nations_unification_desc: "#bold KI Nationen#! werden #bold Kolonialnationen#! #n nicht#! vereinen. Nur #bold Spieler#! können #bold Kolonialnationen#! vereinen."
+ setting_bem_ai_colonial_nations_unification: "#p Vereinigung#! von #bold Kolonialnationen#! durch KI"
+ setting_bem_ai_colonial_nations_unification_desc: "#bold KI Nationen#! #p werden#! #bold Kolonialnationen#! in der selben Region vereinen, wenn das möglich ist."
+
 #Subject Types and Diplomatic Actions
  bem_colony: "Kolonie"
  bem_colony_pact_desc: "[SCOPE.GetRootScope.GetDiplomaticPact.GetSecondCountry.GetName] ist eine [concept_bem_colony] von [SCOPE.GetRootScope.GetDiplomaticPact.GetFirstCountry.GetName]."
