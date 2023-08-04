@@ -312,12 +312,12 @@
  dyn_c_colony_of_niger: "[Country.GetOverlord.GetAdjectiveNoFormatting] Niger"
  dyn_c_colony_of_niger_adj: "Nigerien"
 
- C2P: "Colonial Eastern Papua"
+ C2P: "Colonial Papua"
  C2P_ADJ: "Papuan"
  dyn_c_default_papua: "Papua New Guinea"
  dyn_c_default_papua_adj: "Papuan"
- dyn_c_colony_of_papua: "[Country.GetOverlord.GetAdjectiveNoFormatting] East Papua"
- dyn_c_colony_of_papua_adj: "East Papuan"
+ dyn_c_colony_of_papua: "[Country.GetOverlord.GetAdjectiveNoFormatting] Papua"
+ dyn_c_colony_of_papua_adj: "Papuan"
  dyn_c_colony_of_papua_british: "Territory of Papua"
  dyn_c_colony_of_papua_british_adj: "Papuan"
 
@@ -637,6 +637,22 @@
  dyn_c_default_malacca: "Malacca"
  dyn_c_colonial_malacca: "[Country.GetOverlord.GetAdjectiveNoFormatting] Malacca"
 
+ CID_colonial_celebes: "Colonial Celebes"
+ CID_colonial_celebes_ADJ: "Celebian"
+ dyn_c_default_celebes: "Celebes"
+ dyn_c_colonial_celebes: "[Country.GetOverlord.GetAdjectiveNoFormatting] Celebes"
+
+ CID_colonial_moluccas: "Colonial Moluccas"
+ CID_colonial_moluccas_ADJ: "Moluccan"
+ dyn_c_default_spice_islands: "Spice Islands"
+ dyn_c_default_spice_islands_ADJ: "Spice Islander"
+ dyn_c_colonial_spice_islands: "[Country.GetOverlord.GetAdjectiveNoFormatting] Spice Islands"
+
+ CID_colonial_philippine_islands: "Colonial Philippine Islands"
+ CID_colonial_philippine_islands_ADJ: "Philippino"
+ dyn_c_default_philippine_islands: "Philippine Islands"
+ dyn_c_colonial_philippine_islands: "[Country.GetOverlord.GetAdjectiveNoFormatting] Philippine Islands"
+
  CNA_colonial_newfoundland: "Colonial Newfoundland"
  CNA_colonial_newfoundland_ADJ: "Newfoundland"
  dyn_c_default_newfoundland: "Newfoundland"
@@ -910,7 +926,13 @@
  setting_bem_no_colonial_nations_release: "#n No#! releases of #bold Colonial Nations#!"
  setting_bem_no_colonial_nations_release_desc: "#bold AI Nations#! will #n not#! release #bold Colonial Nations#!. Only the #bold Player#! can release #bold Colonial Nations#!."
  setting_bem_colonial_nations_release: "#n Experimental!#! #p Release#! of #bold Colonial Nations#!"
- setting_bem_colonial_nations_release_desc: "#bold AI Nations#! #p will#! release #bold Colonial Nations#!, if they control all the states of the colonial nation. #n Warning!#! This feature might cause weird situations!"
+ setting_bem_colonial_nations_release_desc: "#bold AI Nations#! #p will#! release #bold Colonial Nations#!, under certain conditions. These conditions differ from region to region. #n Warning!#! This feature might cause weird situations!"
+
+ rule_bem_ai_colonial_nations_unification: "#yellow EutS:#! Should #bold AI#! nations unite their #bold Colonial Nations#!?"
+ setting_bem_no_ai_colonial_nations_unification: "#n No#! AI unification of #bold Colonial Nations#!"
+ setting_bem_no_ai_colonial_nations_unification_desc: "#bold AI Nations#! will #n not#! unite #bold Colonial Nations#!. Only the #bold Player#! can unite #bold Colonial Nations#!."
+ setting_bem_ai_colonial_nations_unification: "#p AI Unification#! of #bold Colonial Nations#!"
+ setting_bem_ai_colonial_nations_unification_desc: "#bold AI Nations#! #p will#! unite #bold Colonial Nations#! in the same region, if it is possible for them."
 
 #Subject Types and Diplomatic Actions
  bem_colony: "Colony"
@@ -1018,6 +1040,12 @@
  colonial_nations_oceania_more_2_tt: "You have two or more #yellow Colonial Nations#! in the Oceania Region"
  colonial_nations_oceania_tt: "You have one or more #yellow Colonial Nations#! in the Oceania Region"
  unite_oceania_tt: "Every #yellow Colonial Nation#! and #yellow every State you own#! in OCeania will be #yellow merged#! into one Colonial Nation. The Colonial Nation with the highest [concept_gdp] will take the lead of the united Colony"
+
+ unite_colonies_indonesia_decision: "Unite Colonies in Indonesia"
+ unite_colonies_indonesia_decision_desc: "This Decision allows you to #yellow unite all your Colonial Subjects and states in Indonesia#! into one big Colonial Nation."
+ colonial_nations_indonesia_more_2_tt: "You have two or more #yellow Colonial Nations#! in the Indonesia Region"
+ colonial_nations_indonesia_tt: "You have one or more #yellow Colonial Nations#! in the Indonesia Region"
+ unite_indonesia_tt: "Every #yellow Colonial Nation#! and #yellow every State you own#! in Indonesia will be #yellow merged#! into one Colonial Nation. The Colonial Nation with the highest [concept_gdp] will take the lead of the united Colony"
 
 #AI decisions
  bem_transfer_pacific_islands_from_subject_ai_decision: "AI decision to take Islands from Australia"
